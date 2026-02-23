@@ -1,4 +1,5 @@
 import { useGame } from '@/context/GameContext';
+import { getCityById, getCityAccentCSS } from '@/data/cities';
 import { ChevronLeft } from 'lucide-react';
 import PlayerTab from './PlayerTab';
 import CourseTab from './CourseTab';
@@ -7,8 +8,11 @@ import ScorecardTab from './ScorecardTab';
 import BottomNav from './BottomNav';
 
 export default function GameLayout() {
-  const { activeTab, clearMode, mode, isGreenMode } = useGame();
-  const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
+  const { activeTab, clearMode, mode, isGreenMode, city } = useGame();
+  const cityConfig = city ? getCityById(city) : null;
+  const accentCSS = cityConfig ? getCityAccentCSS(cityConfig) : '46 65% 52%';
+  const accentStyle = isGreenMode ? {} : { color: `hsl(${accentCSS})` };
+  const accentClass = isGreenMode ? 'text-secondary' : '';
 
   const tabContent: Record<string, React.ReactNode> = {
     spieler: <PlayerTab />,
@@ -23,13 +27,13 @@ export default function GameLayout() {
       <header className="bg-card border-b border-border px-4 py-3 flex items-center gap-3">
         <button
           onClick={clearMode}
-          className="text-sand hover:text-foreground transition-colors flex items-center gap-1 text-xs tap-target"
+          className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 text-xs tap-target"
         >
           <ChevronLeft className="w-4 h-4" />
           <span className="hidden sm:inline">Kurs wechseln</span>
         </button>
-        <h1 className={`font-display font-bold flex-1 text-center ${accentClass}`}>
-          {isGreenMode ? '☀️ Biergärten' : '🍺 Biergolf'}
+        <h1 className={`font-display font-bold flex-1 text-center ${accentClass}`} style={accentStyle}>
+          {cityConfig?.emoji} {isGreenMode ? 'Biergärten' : 'Biergolf'}
         </h1>
         <div className="w-16" />
       </header>

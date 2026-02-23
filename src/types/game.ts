@@ -1,7 +1,18 @@
+export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin';
 export type GameMode = 'biergolf' | 'biergarten';
 export type TabType = 'spieler' | 'kurs' | 'spiel' | 'karte';
 export type HoleFlag = 'signature' | 'turn' | 'finale';
 export type RuleType = 'handicap' | 'bonus' | 'fun' | 'special';
+
+export interface CityConfig {
+  id: CityId;
+  name: string;
+  emoji: string;
+  tagline: string;
+  accentHue: number;
+  accentSaturation: number;
+  accentLightness: number;
+}
 
 export interface Hole {
   name: string;
@@ -21,7 +32,22 @@ export interface Rule {
   description: string;
 }
 
+export interface PubLocation {
+  id: string;
+  city: string;
+  name: string;
+  address: string;
+  lat: number;
+  lng: number;
+  type: 'bar' | 'brauhaus' | 'biergarten' | 'irish' | 'craft';
+  drink: string;
+  suggestedPar: number;
+  tags: string[];
+  notes?: string;
+}
+
 export interface GameState {
+  city: CityId | null;
   mode: GameMode | null;
   players: string[];
   holes: Hole[];
