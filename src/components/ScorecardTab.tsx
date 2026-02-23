@@ -4,7 +4,7 @@ import { getRuleById } from '@/data/rules';
 
 export default function ScorecardTab() {
   const { players, holes, scores, penalties, getPlayerTotal, getPlayerHolesPlayed,
-    setActiveTab, clearMode, resetGame, isGreenMode } = useGame();
+    setActiveTab, clearMode, clearCity, resetGame, isGreenMode } = useGame();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const accentBg = isGreenMode ? 'gradient-green' : 'gradient-gold';
 

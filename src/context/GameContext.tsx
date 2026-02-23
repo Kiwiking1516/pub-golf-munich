@@ -1,13 +1,8 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { GameMode, TabType, Hole, GameState } from '@/types/game';
-import { biergolfHoles, biergartenHoles } from '@/data/courses';
+import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
+import { getDefaultHoles } from '@/data/courses';
 
-const STORAGE_KEY = 'pub-golf-munich';
-
-function getDefaultHoles(mode: GameMode): Hole[] {
-  const src = mode === 'biergolf' ? biergolfHoles : biergartenHoles;
-  return src.map(h => ({ ...h, flags: [...h.flags], activeRules: [...h.activeRules] }));
-}
+const STORAGE_KEY = 'pubgolf-state';
 
 function loadState(): GameState {
   try {
@@ -15,6 +10,7 @@ function loadState(): GameState {
     if (raw) return JSON.parse(raw);
   } catch {}
   return {
+    city: null,
     mode: null,
     players: [],
     holes: [],
@@ -27,8 +23,11 @@ function loadState(): GameState {
 }
 
 interface GameContextType extends GameState {
+  setCity: (city: CityId) => void;
+  clearCity: () => void;
   setMode: (mode: GameMode) => void;
   clearMode: () => void;
+  setCustomHoles: (holes: Hole[]) => void;
   addPlayer: (name: string) => boolean;
   removePlayer: (name: string) => void;
   updateHole: (index: number, hole: Hole) => void;
@@ -58,25 +57,42 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, ...partial }));
   }, []);
 
+  const setCity = useCallback((city: CityId) => {
+    update({ city, mode: null, holes: [], scores: {}, penalties: {}, currentHole: 0, activeTab: 'spieler', gameStarted: false, players: [] });
+  }, [update]);
+
+  const clearCity = useCallback(() => {
+    setState({
+      city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
+      currentHole: 0, activeTab: 'spieler', gameStarted: false,
+    });
+  }, []);
+
   const setMode = useCallback((mode: GameMode) => {
+    if (!state.city) return;
     setState(prev => ({
       ...prev,
       mode,
-      holes: getDefaultHoles(mode),
+      holes: getDefaultHoles(prev.city!, mode),
       scores: {},
       penalties: {},
       currentHole: 0,
       activeTab: 'spieler',
       gameStarted: false,
     }));
-  }, []);
+  }, [state.city]);
 
   const clearMode = useCallback(() => {
-    setState({
+    setState(prev => ({
+      ...prev,
       mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false,
-    });
+    }));
   }, []);
+
+  const setCustomHoles = useCallback((holes: Hole[]) => {
+    update({ holes, scores: {}, penalties: {}, currentHole: 0, gameStarted: false, activeTab: 'spieler' });
+  }, [update]);
 
   const addPlayer = useCallback((name: string): boolean => {
     const trimmed = name.trim().substring(0, 20);
@@ -102,8 +118,8 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, [state.holes, update]);
 
   const resetCourse = useCallback(() => {
-    if (state.mode) update({ holes: getDefaultHoles(state.mode) });
-  }, [state.mode, update]);
+    if (state.city && state.mode) update({ holes: getDefaultHoles(state.city, state.mode) });
+  }, [state.city, state.mode, update]);
 
   const setScore = useCallback((player: string, holeIndex: number, score: number) => {
     const newScores = { ...state.scores };
@@ -124,14 +140,14 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const startGame = useCallback(() => update({ gameStarted: true, activeTab: 'spiel', currentHole: 0 }), [update]);
 
   const resetGame = useCallback(() => {
-    if (state.mode) {
+    if (state.city && state.mode) {
       update({
         scores: {}, penalties: {}, currentHole: 0,
         gameStarted: false, activeTab: 'spieler',
-        holes: getDefaultHoles(state.mode),
+        holes: getDefaultHoles(state.city, state.mode),
       });
     }
-  }, [state.mode, update]);
+  }, [state.city, state.mode, update]);
 
   const getPlayerTotal = useCallback((player: string): number => {
     const ps = state.scores[player] || {};
@@ -164,10 +180,10 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <GameContext.Provider value={{
-      ...state, setMode, clearMode, addPlayer, removePlayer, updateHole,
-      resetCourse, setScore, setPenalty, setCurrentHole, setActiveTab,
-      startGame, resetGame, getPlayerTotal, getPlayerTotalPar,
-      getPlayerHolesPlayed, isGreenMode,
+      ...state, setCity, clearCity, setMode, clearMode, setCustomHoles,
+      addPlayer, removePlayer, updateHole, resetCourse, setScore, setPenalty,
+      setCurrentHole, setActiveTab, startGame, resetGame, getPlayerTotal,
+      getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
     }}>
       {children}
     </GameContext.Provider>
