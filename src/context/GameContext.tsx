@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
 import { getDefaultHoles } from '@/data/courses';
+import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 
 const STORAGE_KEY = 'pubgolf-state';
 
@@ -28,6 +29,7 @@ interface GameContextType extends GameState {
   setMode: (mode: GameMode) => void;
   clearMode: () => void;
   setCustomHoles: (holes: Hole[]) => void;
+  shuffleCourse: () => void;
   addPlayer: (name: string) => boolean;
   removePlayer: (name: string) => void;
   updateHole: (index: number, hole: Hole) => void;
@@ -93,6 +95,21 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const setCustomHoles = useCallback((holes: Hole[]) => {
     update({ holes, scores: {}, penalties: {}, currentHole: 0, gameStarted: false, activeTab: 'spieler' });
   }, [update]);
+
+  const shuffleCourse = useCallback(() => {
+    if (!state.city || !state.mode) return;
+    const holeCount = state.mode === 'biergolf' ? 18 : 9;
+    const randomPubs = generateRandomCourse(state.city, holeCount);
+    const newHoles: Hole[] = randomPubs.map((pub, i) => ({
+      name: pub.name,
+      drink: pub.drink,
+      par: pub.suggestedPar,
+      time: `${11 + Math.floor(i * 0.75)}:${(i % 2 === 0) ? '00' : '30'}`,
+      flags: i === 0 ? ['signature' as const] : i === randomPubs.length - 1 ? ['finale' as const] : [],
+      activeRules: [],
+    }));
+    update({ holes: newHoles, scores: {}, penalties: {}, currentHole: 0, gameStarted: false });
+  }, [state.city, state.mode, update]);
 
   const addPlayer = useCallback((name: string): boolean => {
     const trimmed = name.trim().substring(0, 20);
@@ -180,7 +197,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <GameContext.Provider value={{
-      ...state, setCity, clearCity, setMode, clearMode, setCustomHoles,
+      ...state, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
       addPlayer, removePlayer, updateHole, resetCourse, setScore, setPenalty,
       setCurrentHole, setActiveTab, startGame, resetGame, getPlayerTotal,
       getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,

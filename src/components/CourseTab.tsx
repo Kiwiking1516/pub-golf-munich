@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
 import { allRules, getRuleTypeColor, getRuleTypeLabel } from '@/data/rules';
-import { ChevronDown, ChevronUp, RotateCcw } from 'lucide-react';
+import { ChevronDown, ChevronUp, RotateCcw, Shuffle } from 'lucide-react';
 import { Hole } from '@/types/game';
 
 function HoleFlagBadge({ flag }: { flag: string }) {
@@ -158,7 +158,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, isGreenMode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, isGreenMode } = useGame();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
   const totalRules = holes.reduce((s, h) => s + h.activeRules.length, 0);
@@ -168,12 +168,20 @@ export default function CourseTab() {
       {/* Header */}
       <div className="flex items-center justify-between p-4 pb-2">
         <h2 className={`font-display font-bold text-lg ${accentClass}`}>Kurs-Editor</h2>
-        <button
-          onClick={() => { if (window.confirm('Kurs auf Standardwerte zurücksetzen?')) resetCourse(); }}
-          className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
-        >
-          <RotateCcw className="w-3.5 h-3.5" /> Reset
-        </button>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => { if (window.confirm('Kurs zufällig neu mischen? Scores werden zurückgesetzt.')) shuffleCourse(); }}
+            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
+          >
+            <Shuffle className="w-3.5 h-3.5" /> Mischen
+          </button>
+          <button
+            onClick={() => { if (window.confirm('Kurs auf Standardwerte zurücksetzen?')) resetCourse(); }}
+            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
+          >
+            <RotateCcw className="w-3.5 h-3.5" /> Reset
+          </button>
+        </div>
       </div>
 
       {/* Holes list */}
