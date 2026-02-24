@@ -1,12 +1,13 @@
 import { useGame } from '@/context/GameContext';
 import { TabType } from '@/types/game';
-import { Users, Map, Crosshair, Trophy } from 'lucide-react';
+import { Users, Map, Crosshair, MapPin, Trophy } from 'lucide-react';
 
 const tabs: { id: TabType; label: string; icon: typeof Users }[] = [
   { id: 'spieler', label: 'Spieler', icon: Users },
   { id: 'kurs', label: 'Kurs', icon: Map },
   { id: 'spiel', label: 'Spiel', icon: Crosshair },
-  { id: 'karte', label: 'Karte', icon: Trophy },
+  { id: 'map', label: 'Map', icon: MapPin },
+  { id: 'karte', label: 'Score', icon: Trophy },
 ];
 
 export default function BottomNav() {
