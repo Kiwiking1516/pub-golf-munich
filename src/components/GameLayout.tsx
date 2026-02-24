@@ -4,7 +4,6 @@ import { ChevronLeft } from 'lucide-react';
 import PlayerTab from './PlayerTab';
 import CourseTab from './CourseTab';
 import GameTab from './GameTab';
-import MapTab from './MapTab';
 import ScorecardTab from './ScorecardTab';
 import BottomNav from './BottomNav';
 
@@ -24,7 +23,6 @@ export default function GameLayout() {
     spieler: <PlayerTab />,
     kurs: <CourseTab />,
     spiel: <GameTab />,
-    map: <MapTab />,
     karte: <ScorecardTab />,
   };
 
