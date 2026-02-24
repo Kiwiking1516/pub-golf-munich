@@ -2,6 +2,8 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
 import { getDefaultHoles } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
+import { allRules } from '@/data/rules';
+import { HoleFlag } from '@/types/game';
 
 const STORAGE_KEY = 'pubgolf-state';
 
@@ -100,14 +102,51 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     if (!state.city || !state.mode) return;
     const holeCount = state.mode === 'biergolf' ? 18 : 9;
     const randomPubs = generateRandomCourse(state.city, holeCount);
-    const newHoles: Hole[] = randomPubs.map((pub, i) => ({
-      name: pub.name,
-      drink: pub.drink,
-      par: pub.suggestedPar,
-      time: `${11 + Math.floor(i * 0.75)}:${(i % 2 === 0) ? '00' : '30'}`,
-      flags: i === 0 ? ['signature' as const] : i === randomPubs.length - 1 ? ['finale' as const] : [],
-      activeRules: [],
-    }));
+
+    // Pick random rules: ~40% of holes get 1 rule
+    const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch');
+    const shuffledRules = [...eligibleRules].sort(() => Math.random() - 0.5);
+    let ruleIdx = 0;
+
+    const newHoles: Hole[] = randomPubs.map((pub, i) => {
+      // Assign flags: first = signature, last = finale, one random middle = turn
+      let flags: HoleFlag[] = [];
+      if (i === 0) flags = ['signature'];
+      else if (i === randomPubs.length - 1) flags = ['finale'];
+
+      // ~40% chance for a rule on non-first/last holes
+      const activeRules: string[] = [];
+      if (i > 0 && i < randomPubs.length - 1 && Math.random() < 0.4 && ruleIdx < shuffledRules.length) {
+        activeRules.push(shuffledRules[ruleIdx].id);
+        ruleIdx++;
+      }
+
+      return {
+        name: pub.name,
+        drink: pub.drink,
+        par: pub.suggestedPar,
+        time: `${11 + Math.floor(i * 0.75)}:${(i % 2 === 0) ? '00' : '30'}`,
+        flags,
+        activeRules,
+      };
+    });
+
+    // Add 'turn' flag to a random middle hole
+    const middleIndices = newHoles
+      .map((_, i) => i)
+      .filter(i => i > 0 && i < newHoles.length - 1 && newHoles[i].flags.length === 0);
+    if (middleIndices.length > 0) {
+      const turnIdx = middleIndices[Math.floor(Math.random() * middleIndices.length)];
+      newHoles[turnIdx].flags = ['turn'];
+    }
+
+    // Randomly make one hole 'doppeltes-loch' (special double-score)
+    const doubleCandidate = middleIndices.filter(i => newHoles[i].activeRules.length === 0);
+    if (doubleCandidate.length > 0 && Math.random() < 0.5) {
+      const dIdx = doubleCandidate[Math.floor(Math.random() * doubleCandidate.length)];
+      newHoles[dIdx].activeRules.push('doppeltes-loch');
+    }
+
     update({ holes: newHoles, scores: {}, penalties: {}, currentHole: 0, gameStarted: false });
   }, [state.city, state.mode, update]);
 
