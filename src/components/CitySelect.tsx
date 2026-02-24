@@ -23,7 +23,7 @@ export default function CitySelect({ onPremiumClick, onGPSClick }: Props) {
       </div>
 
       <div className="w-full max-w-sm space-y-3 animate-fade-in">
-        {CITIES.map(city => {
+        {CITIES.map((city) => {
           const bgInfo = getCourseInfo(city.id, 'biergolf');
           const gartenInfo = getCourseInfo(city.id, 'biergarten');
           const accentStyle = { color: `hsl(${city.accentHue} ${city.accentSaturation}% ${city.accentLightness}%)` };
@@ -34,10 +34,10 @@ export default function CitySelect({ onPremiumClick, onGPSClick }: Props) {
               key={city.id}
               onClick={() => setCity(city.id)}
               className="w-full text-left p-4 rounded-xl border-2 bg-card hover:border-opacity-100 transition-all duration-300 tap-target group"
-              style={borderStyle}
-            >
+              style={borderStyle}>
+
               <div className="flex items-center gap-3">
-                <span className="text-2xl">{city.emoji}</span>
+                
                 <div className="flex-1 min-w-0">
                   <h2 className="font-display text-lg font-bold" style={accentStyle}>{city.name}</h2>
                   <p className="text-muted-foreground text-xs truncate">{city.tagline}</p>
@@ -46,15 +46,15 @@ export default function CitySelect({ onPremiumClick, onGPSClick }: Props) {
                   {2} Kurse
                 </span>
               </div>
-            </button>
-          );
+            </button>);
+
         })}
 
         {/* GPS Course */}
         <button
           onClick={() => premium ? onGPSClick() : onPremiumClick()}
-          className="w-full text-left p-4 rounded-xl border-2 border-border bg-card hover:border-foreground/20 transition-all duration-300 tap-target group"
-        >
+          className="w-full text-left p-4 rounded-xl border-2 border-border bg-card hover:border-foreground/20 transition-all duration-300 tap-target group">
+
           <div className="flex items-center gap-3">
             <span className="text-2xl">📍</span>
             <div className="flex-1 min-w-0">
@@ -64,28 +64,28 @@ export default function CitySelect({ onPremiumClick, onGPSClick }: Props) {
               </h2>
               <p className="text-muted-foreground text-xs">Kurs aus deiner Umgebung</p>
             </div>
-            {!premium && (
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-primary/20 text-primary">
+            {!premium &&
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-primary/20 text-primary">
                 PREMIUM
               </span>
-            )}
-            {premium && (
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-success/20 text-success">
+            }
+            {premium &&
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-success/20 text-success">
                 ✓ AKTIV
               </span>
-            )}
+            }
           </div>
         </button>
       </div>
 
       <button
         onClick={onPremiumClick}
-        className="mt-6 text-muted-foreground text-xs hover:text-foreground transition-colors tap-target"
-      >
+        className="mt-6 text-muted-foreground text-xs hover:text-foreground transition-colors tap-target">
+
         🔓 Premium freischalten
       </button>
 
       <p className="text-muted-foreground/40 text-xs mt-4 text-center">Prost! 🍻</p>
-    </div>
-  );
+    </div>);
+
 }
