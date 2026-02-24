@@ -1,4 +1,5 @@
 import { useGame } from '@/context/GameContext';
+import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer } from 'lucide-react';
@@ -37,12 +38,14 @@ function ProgressBar() {
 }
 
 function HoleInfoCard() {
-  const { holes, currentHole, isGreenMode, mode } = useGame();
+  const { holes, currentHole, isGreenMode, city } = useGame();
   const hole = holes[currentHole];
   const isSignature = hole.flags.includes('signature');
   const isTurn = hole.flags.includes('turn');
   const isFinale = hole.flags.includes('finale');
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
+
+  const secondCourse = city ? getSecondCourseInfo(city) : null;
 
   let borderClass = 'border-border';
   if (isSignature) borderClass = 'border-gold';
@@ -61,9 +64,9 @@ function HoleInfoCard() {
           </div>
           <h3 className="font-display text-lg font-bold text-foreground mb-0.5">{hole.name}</h3>
           <p className="text-sand text-sm">{hole.drink}</p>
-          {isGreenMode && (
+          {isGreenMode && secondCourse && (
             <span className="inline-block mt-1 text-[10px] bg-green-accent/20 text-green-accent px-2 py-0.5 rounded-full font-bold">
-              ☀️ BIERGARTEN {currentHole + 1}/9
+              {secondCourse.emoji} {secondCourse.name.toUpperCase()} {currentHole + 1}/{holes.length}
             </span>
           )}
         </div>
@@ -115,7 +118,7 @@ function RulesPanel() {
 }
 
 function PlayerScoreInput({ player }: { player: string }) {
-  const { holes, currentHole, scores, penalties, setScore, setPenalty, isGreenMode } = useGame();
+  const { holes, currentHole, scores, penalties, setScore, setPenalty } = useGame();
   const hole = holes[currentHole];
   const score = scores[player]?.[currentHole] ?? hole.par;
   const penaltyCount = penalties[player]?.[currentHole] ?? 0;
@@ -168,7 +171,6 @@ function PlayerScoreInput({ player }: { player: string }) {
 
 function Leaderboard() {
   const { players, getPlayerTotal, getPlayerHolesPlayed, isGreenMode } = useGame();
-  const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];

@@ -1,5 +1,5 @@
 import { useGame } from '@/context/GameContext';
-import { getCityById, getCityAccentCSS } from '@/data/cities';
+import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/cities';
 import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 
@@ -11,6 +11,7 @@ export default function ModeSelect() {
 
   const bgInfo = getCourseInfo(city, 'biergolf');
   const gartenInfo = getCourseInfo(city, 'biergarten');
+  const secondCourse = getSecondCourseInfo(city);
   const accentCSS = getCityAccentCSS(cityConfig);
   const accentStyle = { color: `hsl(${accentCSS})` };
   const borderGoldStyle = { borderColor: `hsl(${accentCSS} / 0.3)` };
@@ -51,26 +52,38 @@ export default function ModeSelect() {
           </div>
         </button>
 
-        {/* Biergärten */}
+        {/* City-specific second course */}
         <button
           onClick={() => setMode('biergarten')}
           className="w-full text-left p-5 rounded-xl border-2 border-secondary/30 bg-card hover:border-secondary hover:glow-green transition-all duration-300 tap-target group"
         >
           <div className="flex items-start justify-between mb-3">
-            <span className="text-3xl">☀️</span>
+            <span className="text-3xl">{secondCourse.emoji}</span>
             <span className="gradient-green text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">{gartenInfo.holes} LÖCHER</span>
           </div>
-          <h2 className="font-display text-xl font-bold text-secondary mb-1">Biergärten</h2>
-          <p className="text-foreground text-sm mb-3">{gartenInfo.holes} echte Biergärten – jedes Loch eine volle Maß</p>
+          <h2 className="font-display text-xl font-bold text-secondary mb-1">{secondCourse.name}</h2>
+          <p className="text-foreground text-sm mb-3">{secondCourse.tagline}</p>
           <div className="flex items-center gap-4 text-muted-foreground text-xs">
             <span>Par {gartenInfo.par}</span>
             <span>•</span>
-            <span>Nur Maß (1,0l)</span>
+            <span>{secondCourse.drink}</span>
           </div>
+          {secondCourse.warning && (
+            <p className="text-penalty text-[11px] mt-2 font-medium">{secondCourse.warning}</p>
+          )}
+          {secondCourse.tip && (
+            <p className="text-score-birdie text-[11px] mt-2">{secondCourse.tip}</p>
+          )}
         </button>
       </div>
 
-      <p className="text-muted-foreground/40 text-xs mt-8 text-center">Prost! 🍻</p>
+      {secondCourse.lore && (
+        <p className="text-muted-foreground/60 text-xs mt-6 text-center max-w-sm italic leading-relaxed">
+          {secondCourse.lore}
+        </p>
+      )}
+
+      <p className="text-muted-foreground/40 text-xs mt-4 text-center">Prost! 🍻</p>
     </div>
   );
 }

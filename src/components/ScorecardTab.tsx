@@ -1,12 +1,139 @@
+import { useState, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
+import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 
+const KOLSCH_RANKING_KEY = 'pubgolf-koelsch-ranking';
+
+function KolschRanking() {
+  const { players, holes, scores, city, mode } = useGame();
+  const [votes, setVotes] = useState<Record<string, string>>({});
+  const [submitted, setSubmitted] = useState(false);
+
+  // Load existing rankings
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(KOLSCH_RANKING_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.votes) setVotes(parsed.votes);
+        if (parsed.submitted) setSubmitted(parsed.submitted);
+      }
+    } catch {}
+  }, []);
+
+  if (city !== 'köln' || mode !== 'biergarten') return null;
+
+  // Check if all holes played
+  const allPlayed = players.length > 0 && players.every(p =>
+    holes.every((_, i) => scores[p]?.[i] !== undefined)
+  );
+  if (!allPlayed) return null;
+
+  const kölschSorten = holes.map(h => {
+    // Extract Kölsch variety from drink name
+    const match = h.drink.match(/^(.+?)\s+0,2l/);
+    return match ? match[1] : h.name;
+  });
+
+  const handleVote = (player: string, sorte: string) => {
+    const newVotes = { ...votes, [player]: sorte };
+    setVotes(newVotes);
+  };
+
+  const handleSubmit = () => {
+    setSubmitted(true);
+    localStorage.setItem(KOLSCH_RANKING_KEY, JSON.stringify({ votes, submitted: true }));
+  };
+
+  const handleReset = () => {
+    setVotes({});
+    setSubmitted(false);
+    localStorage.removeItem(KOLSCH_RANKING_KEY);
+  };
+
+  // Tally votes
+  const tally: Record<string, number> = {};
+  Object.values(votes).forEach(v => { tally[v] = (tally[v] || 0) + 1; });
+  const sortedSorten = Object.entries(tally).sort((a, b) => b[1] - a[1]);
+  const rankMedals = ['🥇', '🥈', '🥉'];
+
+  return (
+    <div className="mx-4 mt-4 rounded-xl border-2 border-rule-special/30 bg-rule-special/5 overflow-hidden">
+      <div className="bg-rule-special/20 px-4 py-3">
+        <h3 className="font-display font-bold text-foreground text-sm">🏆 Kölsch-Ranking</h3>
+        <p className="text-sand text-[11px]">Welche Sorte war die beste?</p>
+      </div>
+
+      {!submitted ? (
+        <div className="p-4 space-y-3">
+          {players.map(player => (
+            <div key={player}>
+              <p className="text-foreground text-xs font-medium mb-1">{player}:</p>
+              <div className="flex flex-wrap gap-1">
+                {kölschSorten.map((sorte, i) => (
+                  <button
+                    key={i}
+                    onClick={() => handleVote(player, sorte)}
+                    className={`text-[10px] px-2 py-1 rounded-full border transition-colors tap-target ${
+                      votes[player] === sorte
+                        ? 'border-rule-special bg-rule-special/20 text-rule-special font-bold'
+                        : 'border-border text-sand'
+                    }`}
+                  >
+                    {sorte}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+          <button
+            onClick={handleSubmit}
+            disabled={Object.keys(votes).length < players.length}
+            className={`w-full py-2.5 rounded-lg font-bold text-sm transition-all tap-target ${
+              Object.keys(votes).length >= players.length
+                ? 'bg-rule-special text-background'
+                : 'bg-muted text-muted-foreground cursor-not-allowed'
+            }`}
+          >
+            Abstimmen
+          </button>
+        </div>
+      ) : (
+        <div className="p-4 space-y-2">
+          {sortedSorten.map(([sorte, count], i) => {
+            const maxCount = sortedSorten[0]?.[1] || 1;
+            const width = Math.round((count / maxCount) * 100);
+            return (
+              <div key={sorte} className="flex items-center gap-2">
+                <span className="w-5 text-center text-xs">{rankMedals[i] || `${i + 1}.`}</span>
+                <div className="flex-1">
+                  <div className="flex items-center justify-between mb-0.5">
+                    <span className="text-foreground text-xs font-medium">{sorte}</span>
+                    <span className="text-sand text-[10px]">{count} Stimme{count > 1 ? 'n' : ''}</span>
+                  </div>
+                  <div className="h-2 bg-muted rounded-full overflow-hidden">
+                    <div className="h-full bg-rule-special rounded-full transition-all" style={{ width: `${width}%` }} />
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+          <button onClick={handleReset} className="text-sand text-[10px] underline mt-2">Neu abstimmen</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function ScorecardTab() {
   const { players, holes, scores, penalties, getPlayerTotal, getPlayerHolesPlayed,
-    setActiveTab, clearMode, clearCity, resetGame, isGreenMode } = useGame();
+    setActiveTab, clearMode, resetGame, isGreenMode, city, mode } = useGame();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
-  const accentBg = isGreenMode ? 'gradient-green' : 'gradient-gold';
+
+  const secondCourse = city ? getSecondCourseInfo(city) : null;
+  const courseName = isGreenMode && secondCourse ? secondCourse.name : 'Scorecard';
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];
@@ -14,7 +141,7 @@ export default function ScorecardTab() {
 
   return (
     <div className="flex flex-col h-full overflow-y-auto">
-      <h2 className={`font-display font-bold text-lg ${accentClass} px-4 pt-4 pb-2`}>Scorecard</h2>
+      <h2 className={`font-display font-bold text-lg ${accentClass} px-4 pt-4 pb-2`}>{courseName} – Scorecard</h2>
 
       {/* Player summary cards */}
       <div className="flex gap-3 overflow-x-auto px-4 pb-3 scrollbar-hide">
@@ -42,8 +169,11 @@ export default function ScorecardTab() {
         })}
       </div>
 
+      {/* Kölsch Ranking for Köln */}
+      <KolschRanking />
+
       {/* Score table */}
-      <div className="flex-1 overflow-x-auto px-4">
+      <div className="flex-1 overflow-x-auto px-4 mt-2">
         <table className="w-full text-xs border-collapse min-w-[320px]">
           <thead>
             <tr className="border-b border-border">

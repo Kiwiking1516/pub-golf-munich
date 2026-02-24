@@ -25,6 +25,9 @@ export const allRules: Rule[] = [
   { id: 'blind-tasting', emoji: '🙈', name: 'Blind Tasting', type: 'fun', shortEffect: '+1 bei falscher Antwort', description: 'Augen schließen beim ersten Schluck. Danach muss jeder die Biersorte benennen. Falsches Raten: +1 auf den Score.' },
   // Sonder
   { id: 'doppeltes-loch', emoji: '✖️', name: 'Doppeltes Loch', type: 'special', shortEffect: 'Score × 2 in Wertung', description: 'Dieses Loch zählt doppelt in der Gesamtwertung. Eagle = -4, Bogey = +2. Score × 2 eintragen.' },
+  // Stadt-spezifisch
+  { id: 'deckel-regel', emoji: '🍺', name: 'Deckel-Regel', type: 'handicap', shortEffect: '+1 Strafstange bei Vergessen', description: 'Bierdeckel auf die leere Stange legen – sonst bringt der Köbes automatisch die nächste. Wer das vergisst und eine ungewollte Nachbestellung bekommt, muss diese als Strafschlucke trinken.' },
+  { id: 'frachter-bonus', emoji: '🚢', name: 'Frachter-Bonus', type: 'bonus', shortEffect: '-1 bei Frachter-Sichtung', description: 'Wer beim Trinken einen vorbeifahrenden Containerfrachter sieht, bekommt -1 Bonuspunkt auf diesen Loch-Score.' },
 ];
 
 export function getRuleById(id: string): Rule | undefined {

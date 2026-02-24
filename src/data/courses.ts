@@ -35,7 +35,7 @@ const münchenBiergarten: Hole[] = [
   { name: 'Waldwirtschaft Großhesselohe', drink: 'Maß zum Finale 1,0l', par: 5, time: '21:00', flags: ['finale'], activeRules: [] },
 ];
 
-// ──── FRANKFURT ──────────────────────────────────────────
+// ──── FRANKFURT – Ebbelwoi-Runde ─────────────────────────
 
 const frankfurtBiergolf: Hole[] = [
   { name: 'Zum Gemalten Haus', drink: 'Apfelwein 0,3l', par: 2, time: '11:00', flags: ['signature'], activeRules: [] },
@@ -59,18 +59,18 @@ const frankfurtBiergolf: Hole[] = [
 ];
 
 const frankfurtBiergarten: Hole[] = [
-  { name: 'Bethmannpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '11:00', flags: ['signature'], activeRules: [] },
-  { name: 'Goetheturm Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '12:15', flags: [], activeRules: [] },
-  { name: 'Nizza-Garten (Mainufer)', drink: 'Maß nach Wahl 1,0l', par: 5, time: '13:30', flags: [], activeRules: [] },
-  { name: 'Honsell-Insel Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '14:45', flags: [], activeRules: [] },
-  { name: 'Biergarten Sachsenhausen', drink: 'Maß nach Wahl 1,0l', par: 5, time: '16:00', flags: ['turn'], activeRules: [] },
-  { name: 'Bornheimer Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '17:15', flags: [], activeRules: [] },
-  { name: 'Ostpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '18:30', flags: [], activeRules: [] },
-  { name: 'Grüneburgpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '19:45', flags: [], activeRules: [] },
-  { name: 'Mainufer Biergarten Finale', drink: 'Maß nach Wahl 1,0l', par: 5, time: '21:00', flags: ['finale'], activeRules: [] },
+  { name: 'Atschel', drink: 'Hausgemachter Äppler 0,3l', par: 3, time: '11:00', flags: ['signature'], activeRules: [] },
+  { name: 'Dauth-Schneider', drink: 'Kelterei O\'Sullivan 0,3l', par: 3, time: '11:45', flags: [], activeRules: [] },
+  { name: 'Wagner', drink: 'Eigene Kelterei 0,3l', par: 3, time: '12:30', flags: [], activeRules: [] },
+  { name: 'Zum Gemalten Haus', drink: 'Hauseigener Äppler 0,3l', par: 3, time: '13:15', flags: [], activeRules: [] },
+  { name: 'Frau Rauscher', drink: 'Fassapfelwein 0,3l', par: 3, time: '14:00', flags: ['turn'], activeRules: [] },
+  { name: 'Ebbelwoi Unser', drink: 'Brückenviertel Äppler 0,3l', par: 3, time: '14:45', flags: [], activeRules: [] },
+  { name: 'Kanonesteppel', drink: 'Sachsenhäuser Äppler 0,3l', par: 3, time: '15:30', flags: [], activeRules: [] },
+  { name: 'Klaane Sachsehäuser', drink: 'Lokale Kelterei 0,3l', par: 3, time: '16:15', flags: [], activeRules: [] },
+  { name: 'Lorsbacher Thal', drink: 'Großer Bembel zum Finale 0,3l', par: 3, time: '17:00', flags: ['finale'], activeRules: [] },
 ];
 
-// ──── HAMBURG ────────────────────────────────────────────
+// ──── HAMBURG – Elbtour ─────────────────────────────────
 
 const hamburgBiergolf: Hole[] = [
   { name: 'Beatles-Platz Bar', drink: 'Astra 0,5l', par: 3, time: '11:00', flags: ['signature'], activeRules: [] },
@@ -94,18 +94,18 @@ const hamburgBiergolf: Hole[] = [
 ];
 
 const hamburgBiergarten: Hole[] = [
-  { name: 'Strandperle Övelgönne', drink: 'Maß nach Wahl 1,0l', par: 5, time: '11:00', flags: ['signature'], activeRules: [] },
-  { name: 'Alsterpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '12:15', flags: [], activeRules: [] },
-  { name: 'Stadtpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '13:30', flags: [], activeRules: [] },
-  { name: 'Biergarten Elbhang', drink: 'Maß nach Wahl 1,0l', par: 5, time: '14:45', flags: [], activeRules: [] },
-  { name: 'Planten un Blomen Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '16:00', flags: ['turn'], activeRules: [] },
-  { name: 'Sternschanzenpark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '17:15', flags: [], activeRules: [] },
-  { name: 'Volkspark Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '18:30', flags: [], activeRules: [] },
-  { name: 'Wilhelmsburger Inselpark', drink: 'Maß nach Wahl 1,0l', par: 5, time: '19:45', flags: [], activeRules: [] },
-  { name: 'Fischmarkt-Biergarten Finale', drink: 'Maß nach Wahl 1,0l', par: 5, time: '21:00', flags: ['finale'], activeRules: [] },
+  { name: 'Strandperle (Övelgönne)', drink: 'Astra 0,5l', par: 5, time: '11:00', flags: ['signature'], activeRules: ['frachter-bonus'] },
+  { name: 'Ahoi Strandkiosk (Övelgönne)', drink: 'Astra 0,5l', par: 5, time: '12:00', flags: [], activeRules: [] },
+  { name: 'Museumshafen Kiosk (Övelgönne)', drink: 'Astra 0,5l', par: 5, time: '13:00', flags: [], activeRules: [] },
+  { name: 'Altes Lotsenhaus (Neumühlen)', drink: 'Astra 0,5l', par: 5, time: '14:00', flags: [], activeRules: [] },
+  { name: 'StrandPauli (Hafenstraße)', drink: 'Astra 0,5l', par: 5, time: '15:00', flags: ['turn'], activeRules: [] },
+  { name: 'Brücke 10 (Landungsbrücken)', drink: 'Astra 0,5l', par: 5, time: '16:00', flags: [], activeRules: [] },
+  { name: 'Dock 13 (Großmarkt)', drink: 'Astra 0,5l', par: 5, time: '17:00', flags: [], activeRules: [] },
+  { name: 'Alsterperle (Außenalster)', drink: 'Alsterwasser 0,5l', par: 5, time: '18:00', flags: [], activeRules: [] },
+  { name: 'Elbphilharmonie Plaza Bar', drink: 'Astra Finale 0,5l', par: 5, time: '19:00', flags: ['finale'], activeRules: [] },
 ];
 
-// ──── KÖLN ───────────────────────────────────────────────
+// ──── KÖLN – Köbesrunde ──────────────────────────────────
 
 const kölnBiergolf: Hole[] = [
   { name: 'Brauhaus Sion', drink: 'Sion Kölsch 0,2l', par: 2, time: '11:00', flags: ['signature'], activeRules: [] },
@@ -129,18 +129,18 @@ const kölnBiergolf: Hole[] = [
 ];
 
 const kölnBiergarten: Hole[] = [
-  { name: 'Biergarten Rheinpark', drink: '2× Kölsch 0,2l', par: 5, time: '11:00', flags: ['signature'], activeRules: [] },
-  { name: 'Stadtgarten Biergarten', drink: '2× Kölsch 0,2l', par: 5, time: '12:15', flags: [], activeRules: [] },
-  { name: 'Biergarten Flora Köln', drink: '2× Kölsch 0,2l', par: 5, time: '13:30', flags: [], activeRules: [] },
-  { name: 'Brauhaus Päffgen Innenhof', drink: '2× Kölsch 0,2l', par: 5, time: '14:45', flags: [], activeRules: [] },
-  { name: 'Aachener Weiher Biergarten', drink: '2× Kölsch 0,2l', par: 5, time: '16:00', flags: ['turn'], activeRules: [] },
-  { name: 'Volksgarten Biergarten', drink: '2× Kölsch 0,2l', par: 5, time: '17:15', flags: [], activeRules: [] },
-  { name: 'Biergarten Deutzer Freiheit', drink: '2× Kölsch 0,2l', par: 5, time: '18:30', flags: [], activeRules: [] },
-  { name: 'Biergarten Rodenkirchen', drink: '2× Kölsch 0,2l', par: 5, time: '19:45', flags: [], activeRules: [] },
-  { name: 'Rheinauhafen Biergarten', drink: '2× Kölsch 0,2l', par: 5, time: '21:00', flags: ['finale'], activeRules: [] },
+  { name: 'Brauhaus Sion', drink: 'Sion Kölsch 0,2l', par: 3, time: '11:00', flags: ['signature'], activeRules: ['deckel-regel'] },
+  { name: 'Früh am Dom', drink: 'Früh Kölsch 0,2l', par: 3, time: '11:45', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Gaffel am Dom', drink: 'Gaffel Kölsch 0,2l', par: 3, time: '12:30', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Peters Brauhaus', drink: 'Peters Kölsch 0,2l', par: 3, time: '13:15', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Brauerei zur Malzmühle', drink: 'Mühlen Kölsch 0,2l', par: 3, time: '14:00', flags: ['turn'], activeRules: ['deckel-regel'] },
+  { name: 'Bierhaus en d\'r Salzgass', drink: 'Päffgen Kölsch 0,2l', par: 3, time: '14:45', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Reissdorf Brauhaus', drink: 'Reissdorf Kölsch 0,2l', par: 3, time: '15:30', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Gilden im Zims', drink: 'Gilden Kölsch 0,2l', par: 3, time: '16:15', flags: [], activeRules: ['deckel-regel'] },
+  { name: 'Päffgen Friesenstraße', drink: 'Päffgen vom Fass 0,2l', par: 3, time: '17:00', flags: ['finale'], activeRules: ['deckel-regel'] },
 ];
 
-// ──── BERLIN ─────────────────────────────────────────────
+// ──── BERLIN – Spreebar-Tour ─────────────────────────────
 
 const berlinBiergolf: Hole[] = [
   { name: 'Brothers Cocktail Bar', drink: 'Craft Bier 0,5l', par: 3, time: '11:00', flags: ['signature'], activeRules: [] },
@@ -164,15 +164,15 @@ const berlinBiergolf: Hole[] = [
 ];
 
 const berlinBiergarten: Hole[] = [
-  { name: 'Prater Garten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '11:00', flags: ['signature'], activeRules: [] },
-  { name: 'Schleusenkrug (Tiergarten)', drink: 'Maß nach Wahl 1,0l', par: 5, time: '12:15', flags: [], activeRules: [] },
-  { name: 'Golgatha (Viktoriapark)', drink: 'Maß nach Wahl 1,0l', par: 5, time: '13:30', flags: [], activeRules: [] },
-  { name: 'Zenner (Treptower Park)', drink: 'Maß nach Wahl 1,0l', par: 5, time: '14:45', flags: [], activeRules: [] },
-  { name: 'Biergarten am Tempelhofer Feld', drink: 'Maß nach Wahl 1,0l', par: 5, time: '16:00', flags: ['turn'], activeRules: [] },
-  { name: 'Urban Spree Biergarten', drink: 'Craft Maß 1,0l', par: 5, time: '17:15', flags: [], activeRules: [] },
-  { name: 'Jungfernheide Biergarten', drink: 'Maß nach Wahl 1,0l', par: 5, time: '18:30', flags: [], activeRules: [] },
-  { name: 'Biergarten Müggelsee', drink: 'Maß nach Wahl 1,0l', par: 5, time: '19:45', flags: [], activeRules: [] },
-  { name: 'Strandbar Mitte Finale', drink: 'Maß zum Finale 1,0l', par: 5, time: '21:00', flags: ['finale'], activeRules: [] },
+  { name: 'Strandbar Mitte (Monbijoupark)', drink: 'Berliner Pilsner 0,5l', par: 5, time: '12:00', flags: ['signature'], activeRules: [] },
+  { name: 'Yaam Beach (Ostbahnhof)', drink: 'Bier nach Wahl 0,5l', par: 5, time: '13:00', flags: [], activeRules: [] },
+  { name: 'RAW-Gelände Bar (Revaler Str.)', drink: 'Craft Bier 0,5l', par: 5, time: '14:00', flags: [], activeRules: ['windmill'] },
+  { name: 'Holzmarkt 25 (Spreeufer)', drink: 'Hausbrauerei 0,5l', par: 5, time: '15:00', flags: [], activeRules: [] },
+  { name: 'Ankerklause (Kottbusser Brücke)', drink: 'Bier vom Fass 0,5l', par: 5, time: '16:00', flags: ['turn'], activeRules: [] },
+  { name: 'Freischwimmer (Flutgraben)', drink: 'Bier nach Wahl 0,5l', par: 5, time: '17:00', flags: [], activeRules: [] },
+  { name: 'Golgatha (Viktoriapark)', drink: 'Bier nach Wahl 0,5l', par: 5, time: '18:00', flags: [], activeRules: [] },
+  { name: 'Urban Spree (Revaler Str.)', drink: 'Craft Bier 0,5l', par: 5, time: '19:00', flags: [], activeRules: [] },
+  { name: 'Watergate Terrasse (Spreeufer)', drink: 'Berliner Weiße 0,5l', par: 5, time: '20:00', flags: ['finale'], activeRules: [] },
 ];
 
 // ──── LOOKUP ─────────────────────────────────────────────
