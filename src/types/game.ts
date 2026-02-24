@@ -21,6 +21,9 @@ export interface Hole {
   time: string;
   flags: HoleFlag[];
   activeRules: string[];
+  lat?: number;
+  lng?: number;
+  barId?: string;
 }
 
 export interface Rule {

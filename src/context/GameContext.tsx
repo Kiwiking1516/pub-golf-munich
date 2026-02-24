@@ -128,6 +128,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         time: `${11 + Math.floor(i * 0.75)}:${(i % 2 === 0) ? '00' : '30'}`,
         flags,
         activeRules,
+        lat: pub.lat,
+        lng: pub.lng,
+        barId: pub.id,
       };
     });
 

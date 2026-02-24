@@ -58,16 +58,48 @@ export default function MapTab() {
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
-  // Try to find coordinates for holes by matching names against the bar database
+  // Use coordinates stored on hole first, then try fuzzy matching against bar database
   const holeCoords = holes.map(hole => {
+    // Direct coordinates on the hole (from shuffled courses)
+    if (hole.lat != null && hole.lng != null) {
+      // Try to find bar info for popup details
+      const bars = city ? getBarsForCity(city) : [];
+      const bar = hole.barId
+        ? bars.find(b => b.id === hole.barId)
+        : bars.find(b => b.name.toLowerCase() === hole.name.toLowerCase());
+      return { lat: hole.lat, lng: hole.lng, bar: bar || null };
+    }
+
+    // Fallback: fuzzy match against bar database
     if (!city) return null;
     const bars = getBarsForCity(city);
-    const match = bars.find(b =>
-      b.name.toLowerCase() === hole.name.toLowerCase() ||
+
+    // Exact match
+    let match = bars.find(b => b.name.toLowerCase() === hole.name.toLowerCase());
+    if (match) return { lat: match.lat, lng: match.lng, bar: match };
+
+    // Substring match
+    match = bars.find(b =>
       hole.name.toLowerCase().includes(b.name.toLowerCase()) ||
       b.name.toLowerCase().includes(hole.name.toLowerCase())
     );
-    return match ? { lat: match.lat, lng: match.lng, bar: match } : null;
+    if (match) return { lat: match.lat, lng: match.lng, bar: match };
+
+    // Word overlap match: find bar with most matching significant words
+    const holeWords = hole.name.toLowerCase().replace(/[^a-zäöüß\s]/g, '').split(/\s+/).filter(w => w.length > 2);
+    let bestMatch: typeof bars[0] | null = null;
+    let bestScore = 0;
+    for (const b of bars) {
+      const barWords = b.name.toLowerCase().replace(/[^a-zäöüß\s]/g, '').split(/\s+/).filter(w => w.length > 2);
+      const overlap = holeWords.filter(w => barWords.some(bw => bw.includes(w) || w.includes(bw))).length;
+      if (overlap > bestScore && overlap >= 1) {
+        bestScore = overlap;
+        bestMatch = b;
+      }
+    }
+    if (bestMatch && bestScore >= 1) return { lat: bestMatch.lat, lng: bestMatch.lng, bar: bestMatch };
+
+    return null;
   });
 
   const hasCoords = holeCoords.some(c => c !== null);
