@@ -19,7 +19,7 @@ const secondCourseMap: Record<CityId, SecondCourseInfo> = {
   },
   frankfurt: {
     emoji: '🍏',
-    name: 'Ebbelwoi-Runde',
+    name: 'Äbbelwoi-Runde',
     tagline: '9 Sachsenhäuser Wirtschaften, ein Geripptes pro Stop',
     drink: 'Geripptes 0,3l',
     warning: '⚠️ Kein Bier! Nur Apfelwein aus dem Gerippten zählt.',
