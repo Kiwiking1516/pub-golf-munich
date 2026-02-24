@@ -42,9 +42,9 @@ export default function CitySelect({ onPremiumClick, onGPSClick }: Props) {
                   <h2 className="font-display text-lg font-bold" style={accentStyle}>{city.name}</h2>
                   <p className="text-muted-foreground text-xs truncate">{city.tagline}</p>
                 </div>
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-muted text-foreground">
-                  {2} Kurse
-                </span>
+                
+
+
               </div>
             </button>);
 
