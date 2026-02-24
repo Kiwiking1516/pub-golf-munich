@@ -1,6 +1,6 @@
 export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin';
 export type GameMode = 'biergolf' | 'biergarten';
-export type TabType = 'spieler' | 'kurs' | 'spiel' | 'map' | 'karte';
+export type TabType = 'spieler' | 'kurs' | 'spiel' | 'karte';
 export type HoleFlag = 'signature' | 'turn' | 'finale';
 export type RuleType = 'handicap' | 'bonus' | 'fun' | 'special';
 
