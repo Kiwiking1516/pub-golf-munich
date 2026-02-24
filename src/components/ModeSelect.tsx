@@ -1,10 +1,10 @@
 import { useGame } from '@/context/GameContext';
 import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/cities';
 import { getCourseInfo } from '@/data/courses';
-import { ChevronLeft } from 'lucide-react';
+import { ChevronLeft, Shuffle } from 'lucide-react';
 
 export default function ModeSelect() {
-  const { city, setMode, clearCity } = useGame();
+  const { city, setMode, clearCity, shuffleCourse } = useGame();
   if (!city) return null;
   const cityConfig = getCityById(city);
   if (!cityConfig) return null;
@@ -74,6 +74,28 @@ export default function ModeSelect() {
           {secondCourse.tip && (
             <p className="text-score-birdie text-[11px] mt-2">{secondCourse.tip}</p>
           )}
+        </button>
+
+        {/* Random course */}
+        <button
+          onClick={() => {
+            setMode('biergolf');
+            setTimeout(() => shuffleCourse(), 50);
+          }}
+          className="w-full text-left p-5 rounded-xl border-2 border-dashed border-muted-foreground/30 bg-card/50 hover:border-muted-foreground/60 transition-all duration-300 tap-target group"
+        >
+          <div className="flex items-start justify-between mb-3">
+            <span className="text-3xl">🔀</span>
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-muted text-foreground">
+              ZUFÄLLIG
+            </span>
+          </div>
+          <h2 className="font-display text-xl font-bold text-foreground mb-1">Kurs mischen</h2>
+          <p className="text-muted-foreground text-sm mb-3">Zufällige Route aus 50 Bars in {cityConfig.name}</p>
+          <div className="flex items-center gap-2 text-muted-foreground text-xs">
+            <Shuffle className="w-3 h-3" />
+            <span>18 Löcher · Jedes Mal anders</span>
+          </div>
         </button>
       </div>
 
