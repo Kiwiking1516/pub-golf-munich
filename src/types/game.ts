@@ -37,9 +37,10 @@ export interface PubLocation {
   city: string;
   name: string;
   address: string;
+  district?: string;
   lat: number;
   lng: number;
-  type: 'bar' | 'brauhaus' | 'biergarten' | 'irish' | 'craft';
+  type: 'bar' | 'brauhaus' | 'biergarten' | 'irish' | 'craft' | 'kneipe' | 'cocktailbar' | 'sportbar' | 'szene';
   drink: string;
   suggestedPar: number;
   tags: string[];
