@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
+import { getSecondCourseInfo } from '@/data/cities';
 import { Plus, X } from 'lucide-react';
 
 export default function PlayerTab() {
-  const { players, addPlayer, removePlayer, holes, mode, startGame, gameStarted, isGreenMode } = useGame();
+  const { players, addPlayer, removePlayer, holes, mode, city, startGame, gameStarted, isGreenMode } = useGame();
   const [input, setInput] = useState('');
   const [error, setError] = useState('');
 
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const borderAccent = isGreenMode ? 'border-green-accent' : 'border-gold';
   const bgAccent = isGreenMode ? 'gradient-green' : 'gradient-gold';
+
+  const secondCourse = city ? getSecondCourseInfo(city) : null;
 
   const handleAdd = () => {
     setError('');
@@ -23,19 +26,28 @@ export default function PlayerTab() {
 
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
 
+  const modeName = isGreenMode && secondCourse
+    ? `${secondCourse.emoji} ${secondCourse.name}`
+    : '🍺 Biergolf';
+  const modeDesc = isGreenMode && secondCourse
+    ? secondCourse.drink
+    : 'Mix aus Bieren & Drinks';
+
   return (
     <div className="flex flex-col h-full p-4">
       {/* Mode info */}
       <div className="bg-card rounded-lg p-3 mb-4 border border-border">
         <div className="flex items-center gap-2 mb-1">
-          <span>{isGreenMode ? '☀️' : '🍺'}</span>
           <span className={`font-display font-bold ${accentClass}`}>
-            {isGreenMode ? 'Biergärten' : 'Biergolf'}
+            {modeName}
           </span>
         </div>
         <p className="text-sand text-xs">
-          {holes.length} Löcher · Par {totalPar} · {isGreenMode ? 'Nur Maß (1,0l)' : 'Mix aus Bieren & Drinks'}
+          {holes.length} Löcher · Par {totalPar} · {modeDesc}
         </p>
+        {isGreenMode && secondCourse?.warning && (
+          <p className="text-penalty text-[10px] mt-1">{secondCourse.warning}</p>
+        )}
       </div>
 
       {/* Input */}
