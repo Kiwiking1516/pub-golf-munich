@@ -1,4 +1,5 @@
 import { useGame } from '@/context/GameContext';
+import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
@@ -7,6 +8,7 @@ import { useState } from 'react';
 
 function ProgressBar() {
   const { holes, currentHole, setCurrentHole, scores, players, isGreenMode } = useGame();
+  const { t } = useLanguage();
   const accentBg = isGreenMode ? 'bg-green-accent' : 'bg-gold';
 
   return (
@@ -31,7 +33,7 @@ function ProgressBar() {
         })}
       </div>
       <p className={`text-xs text-center ${isGreenMode ? 'text-green-accent' : 'text-gold'}`}>
-        Loch {currentHole + 1} / {holes.length}
+        {t('game.hole')} {currentHole + 1} / {holes.length}
       </p>
     </div>
   );
@@ -39,6 +41,7 @@ function ProgressBar() {
 
 function HoleInfoCard() {
   const { holes, currentHole, isGreenMode, city } = useGame();
+  const { t } = useLanguage();
   const hole = holes[currentHole];
   const isSignature = hole.flags.includes('signature');
   const isTurn = hole.flags.includes('turn');
@@ -54,8 +57,8 @@ function HoleInfoCard() {
 
   return (
     <div className={`mx-4 rounded-xl border-2 ${borderClass} ${isSignature ? 'bg-gold/5' : 'bg-card'} p-4 relative`}>
-      {isTurn && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-green-accent text-background text-[10px] font-bold px-3 py-0.5 rounded-full">🔄 TURN – HALBZEIT</div>}
-      {isFinale && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-score-albatross text-background text-[10px] font-bold px-3 py-0.5 rounded-full">🏆 FINALE</div>}
+      {isTurn && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-green-accent text-background text-[10px] font-bold px-3 py-0.5 rounded-full">{t('game.turn')}</div>}
+      {isFinale && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-score-albatross text-background text-[10px] font-bold px-3 py-0.5 rounded-full">{t('game.finale')}</div>}
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-2 mb-1">
@@ -77,7 +80,7 @@ function HoleInfoCard() {
       </div>
       {hole.flags.includes('signature') && (
         <div className="mt-2 flex items-center gap-1">
-          <span className="text-gold text-xs">⭐ Signature-Loch</span>
+          <span className="text-gold text-xs">{t('game.signatureHole')}</span>
         </div>
       )}
     </div>
@@ -86,15 +89,20 @@ function HoleInfoCard() {
 
 function RulesPanel() {
   const { holes, currentHole } = useGame();
+  const { t } = useLanguage();
   const hole = holes[currentHole];
   const [expanded, setExpanded] = useState<string | null>(null);
 
   if (hole.activeRules.length === 0) return null;
 
+  const count = hole.activeRules.length;
+
   return (
     <div className="mx-4 mt-3 rounded-lg border border-rule-fun/30 bg-rule-fun/5 overflow-hidden">
       <div className="bg-rule-fun/20 px-3 py-2 flex items-center gap-2">
-        <span className="text-rule-fun text-xs font-bold">🎲 {hole.activeRules.length} Sonderregel{hole.activeRules.length > 1 ? 'n' : ''}</span>
+        <span className="text-rule-fun text-xs font-bold">
+          🎲 {count} {count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}
+        </span>
       </div>
       <div className="p-2 space-y-1">
         {hole.activeRules.map(rId => {
@@ -119,6 +127,7 @@ function RulesPanel() {
 
 function PlayerScoreInput({ player }: { player: string }) {
   const { holes, currentHole, scores, penalties, setScore, setPenalty } = useGame();
+  const { t } = useLanguage();
   const hole = holes[currentHole];
   const score = scores[player]?.[currentHole] ?? hole.par;
   const penaltyCount = penalties[player]?.[currentHole] ?? 0;
@@ -161,8 +170,10 @@ function PlayerScoreInput({ player }: { player: string }) {
       </div>
       {penaltyCount > 0 && (
         <div className="mt-1 flex items-center justify-between">
-          <p className="text-penalty text-[10px]">{penaltyCount} Strafschluck{penaltyCount > 1 ? 'e' : ''}</p>
-          <button onClick={() => setPenalty(player, currentHole, penaltyCount - 1)} className="text-sand text-[10px] underline">Entfernen</button>
+          <p className="text-penalty text-[10px]">
+            {penaltyCount} {penaltyCount > 1 ? t('game.penaltySips') : t('game.penaltySip')}
+          </p>
+          <button onClick={() => setPenalty(player, currentHole, penaltyCount - 1)} className="text-sand text-[10px] underline">{t('game.remove')}</button>
         </div>
       )}
     </div>
@@ -171,13 +182,14 @@ function PlayerScoreInput({ player }: { player: string }) {
 
 function Leaderboard() {
   const { players, getPlayerTotal, getPlayerHolesPlayed, isGreenMode } = useGame();
+  const { t } = useLanguage();
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];
 
   return (
     <div className="mx-4 mt-4 mb-2">
-      <h4 className="text-sand text-xs font-bold mb-2 uppercase">Zwischenstand</h4>
+      <h4 className="text-sand text-xs font-bold mb-2 uppercase">{t('game.standing')}</h4>
       <div className="space-y-1">
         {sorted.map((p, i) => {
           const total = getPlayerTotal(p);
@@ -201,6 +213,7 @@ function Leaderboard() {
 
 export default function GameTab() {
   const { holes, currentHole, setCurrentHole, players, scores, setActiveTab, isGreenMode } = useGame();
+  const { t } = useLanguage();
   const allScored = players.every(p => scores[p]?.[currentHole] !== undefined);
   const isLast = currentHole === holes.length - 1;
   const isFirst = currentHole === 0;
@@ -209,9 +222,9 @@ export default function GameTab() {
   if (players.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-full p-6 text-center">
-        <p className="text-sand text-lg mb-4">Keine Spieler vorhanden</p>
+        <p className="text-sand text-lg mb-4">{t('game.noPlayers')}</p>
         <button onClick={() => setActiveTab('spieler')} className={`${accentBg} text-primary-foreground font-bold px-6 py-3 rounded-xl tap-target`}>
-          Spieler hinzufügen
+          {t('game.addPlayers')}
         </button>
       </div>
     );
@@ -223,33 +236,31 @@ export default function GameTab() {
       <HoleInfoCard />
       <RulesPanel />
 
-      {/* Score inputs */}
       <div className="px-4 mt-4 space-y-2">
         {players.map(p => <PlayerScoreInput key={p} player={p} />)}
       </div>
 
-      {/* Navigation */}
       <div className="px-4 mt-4 flex gap-3">
         <button
           onClick={() => setCurrentHole(currentHole - 1)}
           disabled={isFirst}
           className={`flex-1 py-3 rounded-xl border border-border text-foreground font-bold tap-target transition-all flex items-center justify-center gap-1 ${isFirst ? 'opacity-30 cursor-not-allowed' : 'active:scale-[0.98]'}`}
         >
-          <ChevronLeft className="w-4 h-4" /> Zurück
+          <ChevronLeft className="w-4 h-4" /> {t('game.back')}
         </button>
         {isLast ? (
           <button
             onClick={() => setActiveTab('karte')}
             className={`flex-[2] py-3 rounded-xl ${accentBg} text-primary-foreground font-bold tap-target transition-transform active:scale-[0.98] flex items-center justify-center gap-1`}
           >
-            <Trophy className="w-4 h-4" /> Ergebnisse ansehen
+            <Trophy className="w-4 h-4" /> {t('game.results')}
           </button>
         ) : (
           <button
             onClick={() => setCurrentHole(currentHole + 1)}
             className={`flex-[2] py-3 rounded-xl ${accentBg} text-primary-foreground font-bold tap-target transition-transform active:scale-[0.98] flex items-center justify-center gap-1`}
           >
-            {allScored ? '✓ ' : ''}Weiter <ChevronRight className="w-4 h-4" />
+            {allScored ? '✓ ' : ''}{t('game.next')} <ChevronRight className="w-4 h-4" />
           </button>
         )}
       </div>

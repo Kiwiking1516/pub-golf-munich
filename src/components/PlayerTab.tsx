@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
+import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { Plus, X } from 'lucide-react';
 
 export default function PlayerTab() {
   const { players, addPlayer, removePlayer, holes, mode, city, startGame, gameStarted, isGreenMode } = useGame();
+  const { t } = useLanguage();
   const [input, setInput] = useState('');
   const [error, setError] = useState('');
 
@@ -18,7 +20,7 @@ export default function PlayerTab() {
     setError('');
     if (!input.trim()) return;
     if (!addPlayer(input)) {
-      setError('Name existiert bereits oder ist ungültig');
+      setError(t('player.exists'));
       return;
     }
     setInput('');
@@ -28,36 +30,32 @@ export default function PlayerTab() {
 
   const modeName = isGreenMode && secondCourse
     ? `${secondCourse.emoji} ${secondCourse.name}`
-    : '🍺 Biergolf';
+    : '🍺 Pub Golf';
   const modeDesc = isGreenMode && secondCourse
     ? secondCourse.drink
-    : 'Mix aus Bieren & Drinks';
+    : t('mode.mix');
 
   return (
     <div className="flex flex-col h-full p-4">
-      {/* Mode info */}
       <div className="bg-card rounded-lg p-3 mb-4 border border-border">
         <div className="flex items-center gap-2 mb-1">
-          <span className={`font-display font-bold ${accentClass}`}>
-            {modeName}
-          </span>
+          <span className={`font-display font-bold ${accentClass}`}>{modeName}</span>
         </div>
         <p className="text-sand text-xs">
-          {holes.length} Löcher · Par {totalPar} · {modeDesc}
+          {holes.length} {t('player.holes')} · Par {totalPar} · {modeDesc}
         </p>
         {isGreenMode && secondCourse?.warning && (
           <p className="text-penalty text-[10px] mt-1">{secondCourse.warning}</p>
         )}
       </div>
 
-      {/* Input */}
       <div className="flex gap-2 mb-2">
         <input
           type="text"
           value={input}
           onChange={e => { setInput(e.target.value); setError(''); }}
           onKeyDown={e => e.key === 'Enter' && handleAdd()}
-          placeholder="Spielername..."
+          placeholder={t('player.placeholder')}
           maxLength={20}
           className="flex-1 bg-input border border-border rounded-lg px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring text-base tap-target"
         />
@@ -70,10 +68,9 @@ export default function PlayerTab() {
       </div>
       {error && <p className="text-penalty text-xs mb-2">{error}</p>}
 
-      {/* Player list */}
       <div className="flex-1 overflow-y-auto space-y-2 mt-2">
         {players.length === 0 && (
-          <p className="text-sand text-sm text-center mt-8">Füge Spieler hinzu um loszulegen</p>
+          <p className="text-sand text-sm text-center mt-8">{t('player.empty')}</p>
         )}
         {players.map((p, i) => (
           <div key={p} className="flex items-center gap-3 bg-card rounded-lg px-4 py-3 border border-border animate-fade-in">
@@ -89,17 +86,16 @@ export default function PlayerTab() {
         ))}
       </div>
 
-      {/* Start button */}
       {players.length >= 1 && !gameStarted && (
         <button
           onClick={startGame}
           className={`mt-4 w-full ${bgAccent} text-primary-foreground font-display font-bold text-lg py-4 rounded-xl tap-target transition-transform active:scale-[0.98] animate-fade-in`}
         >
-          ⛳ Spiel starten
+          {t('player.start')}
         </button>
       )}
       {gameStarted && players.length >= 1 && (
-        <p className="mt-4 text-center text-sand text-sm">Spiel läuft – wechsle zum Tab „Spiel"</p>
+        <p className="mt-4 text-center text-sand text-sm">{t('player.running')}</p>
       )}
     </div>
   );
