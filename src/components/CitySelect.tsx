@@ -1,15 +1,17 @@
 import { useGame } from '@/context/GameContext';
+import { useLanguage } from '@/context/LanguageContext';
 import { CITIES } from '@/data/cities';
-import { getCourseInfo } from '@/data/courses';
+import LanguageToggle from './LanguageToggle';
 
 export default function CitySelect() {
   const { setCity } = useGame();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-deep-green">
       <div className="animate-fade-in text-center mb-8">
-        <h1 className="font-display text-4xl font-bold text-foreground mb-2">🗺️ Wähle deine Stadt</h1>
-        <p className="text-muted-foreground text-sm">Pub Golf in ganz Deutschland</p>
+        <h1 className="font-display text-4xl font-bold text-foreground mb-2">{t('city.title')}</h1>
+        <p className="text-muted-foreground text-sm">{t('city.subtitle')}</p>
       </div>
 
       <div className="w-full max-w-sm space-y-3 animate-fade-in">
@@ -34,7 +36,11 @@ export default function CitySelect() {
         })}
       </div>
 
-      <p className="text-muted-foreground/40 text-xs mt-6 text-center">Prost! 🍻</p>
+      <div className="mt-6 flex items-center gap-4">
+        <LanguageToggle />
+      </div>
+
+      <p className="text-muted-foreground/40 text-xs mt-4 text-center">{t('city.footer')}</p>
     </div>
   );
 }

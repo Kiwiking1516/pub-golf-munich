@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
+import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
@@ -8,10 +9,10 @@ const KOLSCH_RANKING_KEY = 'pubgolf-koelsch-ranking';
 
 function KolschRanking() {
   const { players, holes, scores, city, mode } = useGame();
+  const { t } = useLanguage();
   const [votes, setVotes] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
 
-  // Load existing rankings
   useEffect(() => {
     try {
       const saved = localStorage.getItem(KOLSCH_RANKING_KEY);
@@ -25,14 +26,12 @@ function KolschRanking() {
 
   if (city !== 'köln' || mode !== 'biergarten') return null;
 
-  // Check if all holes played
   const allPlayed = players.length > 0 && players.every(p =>
     holes.every((_, i) => scores[p]?.[i] !== undefined)
   );
   if (!allPlayed) return null;
 
   const kölschSorten = holes.map(h => {
-    // Extract Kölsch variety from drink name
     const match = h.drink.match(/^(.+?)\s+0,2l/);
     return match ? match[1] : h.name;
   });
@@ -53,7 +52,6 @@ function KolschRanking() {
     localStorage.removeItem(KOLSCH_RANKING_KEY);
   };
 
-  // Tally votes
   const tally: Record<string, number> = {};
   Object.values(votes).forEach(v => { tally[v] = (tally[v] || 0) + 1; });
   const sortedSorten = Object.entries(tally).sort((a, b) => b[1] - a[1]);
@@ -62,8 +60,8 @@ function KolschRanking() {
   return (
     <div className="mx-4 mt-4 rounded-xl border-2 border-rule-special/30 bg-rule-special/5 overflow-hidden">
       <div className="bg-rule-special/20 px-4 py-3">
-        <h3 className="font-display font-bold text-foreground text-sm">🏆 Kölsch-Ranking</h3>
-        <p className="text-sand text-[11px]">Welche Sorte war die beste?</p>
+        <h3 className="font-display font-bold text-foreground text-sm">{t('kolsch.title')}</h3>
+        <p className="text-sand text-[11px]">{t('kolsch.subtitle')}</p>
       </div>
 
       {!submitted ? (
@@ -97,7 +95,7 @@ function KolschRanking() {
                 : 'bg-muted text-muted-foreground cursor-not-allowed'
             }`}
           >
-            Abstimmen
+            {t('kolsch.vote')}
           </button>
         </div>
       ) : (
@@ -111,7 +109,7 @@ function KolschRanking() {
                 <div className="flex-1">
                   <div className="flex items-center justify-between mb-0.5">
                     <span className="text-foreground text-xs font-medium">{sorte}</span>
-                    <span className="text-sand text-[10px]">{count} Stimme{count > 1 ? 'n' : ''}</span>
+                    <span className="text-sand text-[10px]">{count} {count > 1 ? t('kolsch.votes') : t('kolsch.vote1')}</span>
                   </div>
                   <div className="h-2 bg-muted rounded-full overflow-hidden">
                     <div className="h-full bg-rule-special rounded-full transition-all" style={{ width: `${width}%` }} />
@@ -120,7 +118,7 @@ function KolschRanking() {
               </div>
             );
           })}
-          <button onClick={handleReset} className="text-sand text-[10px] underline mt-2">Neu abstimmen</button>
+          <button onClick={handleReset} className="text-sand text-[10px] underline mt-2">{t('kolsch.revote')}</button>
         </div>
       )}
     </div>
@@ -130,10 +128,11 @@ function KolschRanking() {
 export default function ScorecardTab() {
   const { players, holes, scores, penalties, getPlayerTotal, getPlayerHolesPlayed,
     setActiveTab, clearMode, resetGame, isGreenMode, city, mode } = useGame();
+  const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const secondCourse = city ? getSecondCourseInfo(city) : null;
-  const courseName = isGreenMode && secondCourse ? secondCourse.name : 'Scorecard';
+  const courseName = isGreenMode && secondCourse ? secondCourse.name : t('score.scorecard');
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];
@@ -141,9 +140,8 @@ export default function ScorecardTab() {
 
   return (
     <div className="flex flex-col h-full overflow-y-auto">
-      <h2 className={`font-display font-bold text-lg ${accentClass} px-4 pt-4 pb-2`}>{courseName} – Scorecard</h2>
+      <h2 className={`font-display font-bold text-lg ${accentClass} px-4 pt-4 pb-2`}>{courseName} – {t('score.scorecard')}</h2>
 
-      {/* Player summary cards */}
       <div className="flex gap-3 overflow-x-auto px-4 pb-3 scrollbar-hide">
         {sorted.map((p, i) => {
           const total = getPlayerTotal(p);
@@ -162,23 +160,21 @@ export default function ScorecardTab() {
               <div className="flex items-center gap-2 text-sand text-[10px]">
                 <span>🍺 {totalPen}</span>
                 <span>·</span>
-                <span>{played}/{holes.length} Löcher</span>
+                <span>{played}/{holes.length} {t('score.holes')}</span>
               </div>
             </div>
           );
         })}
       </div>
 
-      {/* Kölsch Ranking for Köln */}
       <KolschRanking />
 
-      {/* Score table */}
       <div className="flex-1 overflow-x-auto px-4 mt-2">
         <table className="w-full text-xs border-collapse min-w-[320px]">
           <thead>
             <tr className="border-b border-border">
               <th className="text-left text-sand py-2 px-1 w-6">#</th>
-              <th className="text-left text-sand py-2 px-1">Lokal</th>
+              <th className="text-left text-sand py-2 px-1">{t('score.venue')}</th>
               <th className="text-center text-sand py-2 px-1 w-10">Par</th>
               {players.map(p => (
                 <th key={p} className="text-center text-foreground py-2 px-1 font-bold truncate max-w-[60px]">{p}</th>
@@ -219,10 +215,9 @@ export default function ScorecardTab() {
                 </tr>
               );
             })}
-            {/* Total row */}
             <tr className="border-t-2 border-border">
               <td className="py-2 px-1"></td>
-              <td className="py-2 px-1 text-foreground font-bold">Gesamt</td>
+              <td className="py-2 px-1 text-foreground font-bold">{t('score.total')}</td>
               <td className="py-2 px-1 text-center font-bold text-sand">{totalPar}</td>
               {players.map(p => {
                 const total = getPlayerTotal(p);
@@ -241,26 +236,25 @@ export default function ScorecardTab() {
         </table>
       </div>
 
-      {/* Buttons */}
       <div className="p-4 space-y-2 border-t border-border mt-2">
         <button
           onClick={() => setActiveTab('spiel')}
           className="w-full py-3 rounded-xl border border-border text-foreground font-bold tap-target transition-all active:scale-[0.98]"
         >
-          ← Zurück zum Spiel
+          {t('score.backToGame')}
         </button>
         <div className="flex gap-2">
           <button
             onClick={clearMode}
             className="flex-1 py-3 rounded-xl border border-border text-sand font-bold tap-target text-sm"
           >
-            ⛳ Modus wechseln
+            {t('score.changeMode')}
           </button>
           <button
-            onClick={() => { if (window.confirm('Spiel wirklich zurücksetzen? Alle Scores gehen verloren!')) resetGame(); }}
+            onClick={() => { if (window.confirm(t('score.resetConfirm'))) resetGame(); }}
             className="flex-1 py-3 rounded-xl border border-penalty/30 text-penalty font-bold tap-target text-sm"
           >
-            🗑 Reset
+            {t('score.resetGame')}
           </button>
         </div>
       </div>

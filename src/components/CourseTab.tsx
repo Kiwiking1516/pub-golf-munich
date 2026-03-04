@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
-import { allRules, getRuleTypeColor, getRuleTypeLabel } from '@/data/rules';
+import { useLanguage } from '@/context/LanguageContext';
+import { allRules, getRuleTypeColor } from '@/data/rules';
 import { ChevronDown, ChevronUp, RotateCcw, Shuffle } from 'lucide-react';
 import { Hole } from '@/types/game';
 
 function HoleFlagBadge({ flag }: { flag: string }) {
+  const { t } = useLanguage();
   const map: Record<string, string> = {
-    signature: '⭐ Signature',
-    turn: '🔄 Turn',
-    finale: '🏆 Finale',
+    signature: t('flag.signature'),
+    turn: t('flag.turn'),
+    finale: t('flag.finale'),
   };
   return (
     <span className="text-[10px] bg-gold/20 text-gold px-2 py-0.5 rounded-full font-bold">
@@ -21,13 +23,13 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
   const [open, setOpen] = useState(false);
   const [subTab, setSubTab] = useState<'info' | 'rules'>('info');
   const { isGreenMode } = useGame();
+  const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const ruleCount = hole.activeRules.length;
 
   return (
     <div className="bg-card rounded-lg border border-border overflow-hidden animate-fade-in">
-      {/* Collapsed header */}
       <button onClick={() => setOpen(!open)} className="w-full text-left p-3 flex items-center gap-3 tap-target">
         <span className={`font-display font-bold text-lg ${accentClass} w-7 text-center`}>{index + 1}</span>
         <div className="flex-1 min-w-0">
@@ -48,26 +50,24 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
         {open ? <ChevronUp className="w-4 h-4 text-sand" /> : <ChevronDown className="w-4 h-4 text-sand" />}
       </button>
 
-      {/* Expanded content */}
       {open && (
         <div className="border-t border-border">
-          {/* Sub tabs */}
           <div className="flex border-b border-border">
             <button
               onClick={() => setSubTab('info')}
               className={`flex-1 py-2 text-xs font-bold transition-colors ${subTab === 'info' ? accentClass + ' border-b-2 border-current' : 'text-sand'}`}
-            >📝 Info</button>
+            >{t('course.info')}</button>
             <button
               onClick={() => setSubTab('rules')}
               className={`flex-1 py-2 text-xs font-bold transition-colors ${subTab === 'rules' ? accentClass + ' border-b-2 border-current' : 'text-sand'}`}
-            >🎲 Regeln {ruleCount > 0 && `(${ruleCount})`}</button>
+            >{t('course.rulesTab')} {ruleCount > 0 && `(${ruleCount})`}</button>
           </div>
 
           {subTab === 'info' ? (
             <div className="p-3 space-y-3">
-              <Field label="Lokal" value={hole.name} onChange={v => onUpdate({ ...hole, name: v.substring(0, 40) })} />
-              <Field label="Getränk" value={hole.drink} onChange={v => onUpdate({ ...hole, drink: v.substring(0, 40) })} />
-              <Field label="Uhrzeit" value={hole.time} onChange={v => onUpdate({ ...hole, time: v })} />
+              <Field label={t('course.venue')} value={hole.name} onChange={v => onUpdate({ ...hole, name: v.substring(0, 40) })} />
+              <Field label={t('course.drink')} value={hole.drink} onChange={v => onUpdate({ ...hole, drink: v.substring(0, 40) })} />
+              <Field label={t('course.time')} value={hole.time} onChange={v => onUpdate({ ...hole, time: v })} />
               <div className="flex items-center gap-3">
                 <span className="text-sand text-xs w-16">Par</span>
                 <button onClick={() => onUpdate({ ...hole, par: Math.max(1, hole.par - 1) })} className="bg-muted text-foreground w-9 h-9 rounded-lg font-bold tap-target">−</button>
@@ -77,7 +77,6 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
               <div className="flex gap-2 flex-wrap">
                 {(['signature', 'turn', 'finale'] as const).map(flag => {
                   const active = hole.flags.includes(flag);
-                  const labels: Record<string, string> = { signature: '⭐ Signature', turn: '🔄 Turn', finale: '🏆 Finale' };
                   return (
                     <button
                       key={flag}
@@ -87,7 +86,7 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
                       }}
                       className={`text-xs px-3 py-1.5 rounded-full border transition-colors tap-target ${active ? 'bg-gold/20 border-gold text-gold' : 'border-border text-sand'}`}
                     >
-                      {labels[flag]}
+                      {t(`flag.${flag}`)}
                     </button>
                   );
                 })}
@@ -104,7 +103,7 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
               })}
               {ruleCount > 0 && (
                 <div className="mt-3 pt-3 border-t border-border">
-                  <p className="text-sand text-xs">Aktive Regeln: {ruleCount}</p>
+                  <p className="text-sand text-xs">{t('course.activeRules')}: {ruleCount}</p>
                 </div>
               )}
             </div>
@@ -130,7 +129,9 @@ function Field({ label, value, onChange }: { label: string; value: string; onCha
 
 function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active: boolean; onToggle: () => void }) {
   const [expanded, setExpanded] = useState(false);
+  const { t } = useLanguage();
   const colorClass = `text-${getRuleTypeColor(rule.type)}`;
+  const typeLabel = t(`rules.${rule.type}`);
 
   return (
     <div className={`rounded-lg border transition-colors ${active ? 'border-rule-fun/50 bg-rule-fun/5' : 'border-border'}`}>
@@ -143,7 +144,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
           <div className="flex items-center gap-1.5">
             <span className="text-foreground text-sm font-medium truncate">{rule.name}</span>
             <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-${getRuleTypeColor(rule.type)}/20 ${colorClass}`}>
-              {getRuleTypeLabel(rule.type)}
+              {typeLabel}
             </span>
           </div>
           <p className="text-sand text-[11px] truncate">{rule.shortEffect}</p>
@@ -159,42 +160,40 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 
 export default function CourseTab() {
   const { holes, updateHole, resetCourse, shuffleCourse, isGreenMode } = useGame();
+  const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
   const totalRules = holes.reduce((s, h) => s + h.activeRules.length, 0);
 
   return (
     <div className="flex flex-col h-full">
-      {/* Header */}
       <div className="flex items-center justify-between p-4 pb-2">
-        <h2 className={`font-display font-bold text-lg ${accentClass}`}>Kurs-Editor</h2>
+        <h2 className={`font-display font-bold text-lg ${accentClass}`}>{t('course.editor')}</h2>
         <div className="flex items-center gap-3">
           <button
-            onClick={() => { if (window.confirm('Kurs zufällig neu mischen? Scores werden zurückgesetzt.')) shuffleCourse(); }}
+            onClick={() => { if (window.confirm(t('course.shuffle_confirm'))) shuffleCourse(); }}
             className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
           >
-            <Shuffle className="w-3.5 h-3.5" /> Mischen
+            <Shuffle className="w-3.5 h-3.5" /> {t('course.shuffle')}
           </button>
           <button
-            onClick={() => { if (window.confirm('Kurs auf Standardwerte zurücksetzen?')) resetCourse(); }}
+            onClick={() => { if (window.confirm(t('course.reset_confirm'))) resetCourse(); }}
             className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
           >
-            <RotateCcw className="w-3.5 h-3.5" /> Reset
+            <RotateCcw className="w-3.5 h-3.5" /> {t('course.reset')}
           </button>
         </div>
       </div>
 
-      {/* Holes list */}
       <div className="flex-1 overflow-y-auto px-4 space-y-2 pb-4">
         {holes.map((hole, i) => (
           <HoleCard key={i} hole={hole} index={i} onUpdate={h => updateHole(i, h)} />
         ))}
       </div>
 
-      {/* Footer */}
       <div className="px-4 py-3 border-t border-border bg-card flex items-center justify-between text-xs">
-        <span className="text-sand">Gesamt-Par: <span className={`font-bold ${accentClass}`}>{totalPar}</span></span>
-        <span className="text-sand">Sonderregeln: <span className="font-bold text-rule-fun">{totalRules}</span></span>
+        <span className="text-sand">{t('course.totalPar')}: <span className={`font-bold ${accentClass}`}>{totalPar}</span></span>
+        <span className="text-sand">{t('course.rules')}: <span className="font-bold text-rule-fun">{totalRules}</span></span>
       </div>
     </div>
   );
