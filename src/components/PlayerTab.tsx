@@ -14,7 +14,7 @@ export default function PlayerTab() {
   const borderAccent = isGreenMode ? 'border-green-accent' : 'border-gold';
   const bgAccent = isGreenMode ? 'gradient-green' : 'gradient-gold';
 
-  const secondCourse = city ? getSecondCourseInfo(city) : null;
+  const secondCourseRaw = city ? getSecondCourseInfo(city) : null;
 
   const handleAdd = () => {
     setError('');
@@ -28,11 +28,11 @@ export default function PlayerTab() {
 
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
 
-  const modeName = isGreenMode && secondCourse
-    ? `${secondCourse.emoji} ${secondCourse.name}`
+  const modeName = isGreenMode && city
+    ? `${secondCourseRaw?.emoji || ''} ${t(`course2.${city}.name`)}`
     : '🍺 Pub Golf';
-  const modeDesc = isGreenMode && secondCourse
-    ? secondCourse.drink
+  const modeDesc = isGreenMode && city
+    ? t(`course2.${city}.drink`)
     : t('mode.mix');
 
   return (
@@ -44,8 +44,8 @@ export default function PlayerTab() {
         <p className="text-sand text-xs">
           {holes.length} {t('player.holes')} · Par {totalPar} · {modeDesc}
         </p>
-        {isGreenMode && secondCourse?.warning && (
-          <p className="text-penalty text-[10px] mt-1">{secondCourse.warning}</p>
+        {isGreenMode && city && t(`course2.${city}.warning`) !== `course2.${city}.warning` && (
+          <p className="text-penalty text-[10px] mt-1">{t(`course2.${city}.warning`)}</p>
         )}
       </div>
 

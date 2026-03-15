@@ -49,7 +49,7 @@ function HoleInfoCard() {
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const secondCourse = city ? getSecondCourseInfo(city) : null;
-
+  const scName = city ? t(`course2.${city}.name`) : '';
   let borderClass = 'border-border';
   if (isSignature) borderClass = 'border-gold';
   else if (isFinale) borderClass = 'border-score-albatross';
@@ -69,7 +69,7 @@ function HoleInfoCard() {
           <p className="text-sand text-sm">{hole.drink}</p>
           {isGreenMode && secondCourse && (
             <span className="inline-block mt-1 text-[10px] bg-green-accent/20 text-green-accent px-2 py-0.5 rounded-full font-bold">
-              {secondCourse.emoji} {secondCourse.name.toUpperCase()} {currentHole + 1}/{holes.length}
+              {secondCourse.emoji} {scName.toUpperCase()} {currentHole + 1}/{holes.length}
             </span>
           )}
         </div>
@@ -109,14 +109,17 @@ function RulesPanel() {
           const rule = getRuleById(rId);
           if (!rule) return null;
           const isExp = expanded === rId;
+          const ruleName = t(`rule.${rId}.name`);
+          const ruleShort = t(`rule.${rId}.short`);
+          const ruleDesc = t(`rule.${rId}.desc`);
           return (
             <button key={rId} onClick={() => setExpanded(isExp ? null : rId)} className="w-full text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
               <div className="flex items-center gap-2">
                 <span>{rule.emoji}</span>
-                <span className="text-foreground text-sm font-medium flex-1">{rule.name}</span>
-                <span className="text-sand text-[10px]">{rule.shortEffect}</span>
+                <span className="text-foreground text-sm font-medium flex-1">{ruleName}</span>
+                <span className="text-sand text-[10px]">{ruleShort}</span>
               </div>
-              {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{rule.description}</p>}
+              {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{ruleDesc}</p>}
             </button>
           );
         })}
@@ -199,7 +202,7 @@ function Leaderboard() {
             <div key={p} className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm ${i === 0 && played > 0 ? 'bg-gold/10 border border-gold/20' : 'bg-card'}`}>
               <span className="w-6 text-center">{medals[i] || `${i + 1}.`}</span>
               <span className="flex-1 text-foreground font-medium">{p}</span>
-              <span className="text-sand text-xs">{played}L</span>
+              <span className="text-sand text-xs">{played}{t('game.holes_short')}</span>
               <span className={`font-display font-bold ${played > 0 ? colorClass : 'text-muted-foreground'}`}>
                 {played > 0 ? formatScoreVsPar(total) : '–'}
               </span>

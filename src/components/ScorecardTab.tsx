@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 
@@ -131,8 +130,7 @@ export default function ScorecardTab() {
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
-  const secondCourse = city ? getSecondCourseInfo(city) : null;
-  const courseName = isGreenMode && secondCourse ? secondCourse.name : t('score.scorecard');
+  const courseName = isGreenMode && city ? t(`course2.${city}.name`) : t('score.scorecard');
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];

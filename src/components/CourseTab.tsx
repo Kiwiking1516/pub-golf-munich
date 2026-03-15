@@ -135,25 +135,25 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 
   return (
     <div className={`rounded-lg border transition-colors ${active ? 'border-rule-fun/50 bg-rule-fun/5' : 'border-border'}`}>
-      <div className="flex items-center gap-2 p-2 tap-target">
-        <button onClick={onToggle} className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${active ? 'border-rule-fun bg-rule-fun text-background' : 'border-sand'}`}>
-          {active && <span className="text-xs">✓</span>}
-        </button>
-        <span className="text-base">{rule.emoji}</span>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-1.5">
-            <span className="text-foreground text-sm font-medium truncate">{rule.name}</span>
-            <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-${getRuleTypeColor(rule.type)}/20 ${colorClass}`}>
-              {typeLabel}
-            </span>
-          </div>
-          <p className="text-sand text-[11px] truncate">{rule.shortEffect}</p>
+        <div className="flex items-center gap-2 p-2 tap-target">
+          <button onClick={onToggle} className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${active ? 'border-rule-fun bg-rule-fun text-background' : 'border-sand'}`}>
+            {active && <span className="text-xs">✓</span>}
+          </button>
+          <span className="text-base">{rule.emoji}</span>
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-1.5">
+              <span className="text-foreground text-sm font-medium truncate">{t(`rule.${rule.id}.name`)}</span>
+              <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-${getRuleTypeColor(rule.type)}/20 ${colorClass}`}>
+                {typeLabel}
+              </span>
+            </div>
+            <p className="text-sand text-[11px] truncate">{t(`rule.${rule.id}.short`)}</p>
         </div>
         <button onClick={() => setExpanded(!expanded)} className="text-sand tap-target p-1">
           {expanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
         </button>
       </div>
-      {expanded && <p className="px-3 pb-2 text-sand text-xs leading-relaxed">{rule.description}</p>}
+      {expanded && <p className="px-3 pb-2 text-sand text-xs leading-relaxed">{t(`rule.${rule.id}.desc`)}</p>}
     </div>
   );
 }

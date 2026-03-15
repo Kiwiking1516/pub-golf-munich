@@ -17,9 +17,9 @@ export default function GameLayout() {
   const accentStyle = isGreenMode ? {} : { color: `hsl(${accentCSS})` };
   const accentClass = isGreenMode ? 'text-secondary' : '';
 
-  const secondCourse = city ? getSecondCourseInfo(city) : null;
-  const courseName = isGreenMode && secondCourse
-    ? `${secondCourse.emoji} ${secondCourse.name}`
+  const secondCourseRaw = city ? getSecondCourseInfo(city) : null;
+  const courseName = isGreenMode && city
+    ? `${secondCourseRaw?.emoji || ''} ${t(`course2.${city}.name`)}`
     : '🍺 Pub Golf';
 
   const tabContent: Record<string, React.ReactNode> = {
