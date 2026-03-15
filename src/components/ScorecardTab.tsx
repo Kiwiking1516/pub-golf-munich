@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getSecondCourseInfo } from '@/data/cities';
+import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 
