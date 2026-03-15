@@ -153,7 +153,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
           {expanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
         </button>
       </div>
-      {expanded && <p className="px-3 pb-2 text-sand text-xs leading-relaxed">{rule.description}</p>}
+      {expanded && <p className="px-3 pb-2 text-sand text-xs leading-relaxed">{t(`rule.${rule.id}.desc`)}</p>}
     </div>
   );
 }

@@ -44,8 +44,8 @@ export default function PlayerTab() {
         <p className="text-sand text-xs">
           {holes.length} {t('player.holes')} · Par {totalPar} · {modeDesc}
         </p>
-        {isGreenMode && secondCourse?.warning && (
-          <p className="text-penalty text-[10px] mt-1">{secondCourse.warning}</p>
+        {isGreenMode && city && t(`course2.${city}.warning`) !== `course2.${city}.warning` && (
+          <p className="text-penalty text-[10px] mt-1">{t(`course2.${city}.warning`)}</p>
         )}
       </div>
 

@@ -69,7 +69,7 @@ function HoleInfoCard() {
           <p className="text-sand text-sm">{hole.drink}</p>
           {isGreenMode && secondCourse && (
             <span className="inline-block mt-1 text-[10px] bg-green-accent/20 text-green-accent px-2 py-0.5 rounded-full font-bold">
-              {secondCourse.emoji} {secondCourse.name.toUpperCase()} {currentHole + 1}/{holes.length}
+              {secondCourse.emoji} {scName.toUpperCase()} {currentHole + 1}/{holes.length}
             </span>
           )}
         </div>
