@@ -14,7 +14,7 @@ export default function PlayerTab() {
   const borderAccent = isGreenMode ? 'border-green-accent' : 'border-gold';
   const bgAccent = isGreenMode ? 'gradient-green' : 'gradient-gold';
 
-  const secondCourse = city ? getSecondCourseInfo(city) : null;
+  const secondCourseRaw = city ? getSecondCourseInfo(city) : null;
 
   const handleAdd = () => {
     setError('');
