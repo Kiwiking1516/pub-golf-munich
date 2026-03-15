@@ -49,7 +49,7 @@ function HoleInfoCard() {
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const secondCourse = city ? getSecondCourseInfo(city) : null;
-
+  const scName = city ? t(`course2.${city}.name`) : '';
   let borderClass = 'border-border';
   if (isSignature) borderClass = 'border-gold';
   else if (isFinale) borderClass = 'border-score-albatross';
