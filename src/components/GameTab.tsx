@@ -202,7 +202,7 @@ function Leaderboard() {
             <div key={p} className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm ${i === 0 && played > 0 ? 'bg-gold/10 border border-gold/20' : 'bg-card'}`}>
               <span className="w-6 text-center">{medals[i] || `${i + 1}.`}</span>
               <span className="flex-1 text-foreground font-medium">{p}</span>
-              <span className="text-sand text-xs">{played}L</span>
+              <span className="text-sand text-xs">{played}{t('game.holes_short')}</span>
               <span className={`font-display font-bold ${played > 0 ? colorClass : 'text-muted-foreground'}`}>
                 {played > 0 ? formatScoreVsPar(total) : '–'}
               </span>
