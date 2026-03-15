@@ -28,11 +28,11 @@ export default function PlayerTab() {
 
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
 
-  const modeName = isGreenMode && secondCourse
-    ? `${secondCourse.emoji} ${secondCourse.name}`
+  const modeName = isGreenMode && city
+    ? `${secondCourseRaw?.emoji || ''} ${t(`course2.${city}.name`)}`
     : '🍺 Pub Golf';
-  const modeDesc = isGreenMode && secondCourse
-    ? secondCourse.drink
+  const modeDesc = isGreenMode && city
+    ? t(`course2.${city}.drink`)
     : t('mode.mix');
 
   return (
