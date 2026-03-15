@@ -1,6 +1,6 @@
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getCityById, getCityAccentCSS } from '@/data/cities';
+import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/cities';
 import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
@@ -14,23 +14,21 @@ export default function ModeSelect() {
 
   const bgInfo = getCourseInfo(city, 'biergolf');
   const gartenInfo = getCourseInfo(city, 'biergarten');
+  const rawCourse = getSecondCourseInfo(city);
   const accentCSS = getCityAccentCSS(cityConfig);
   const accentStyle = { color: `hsl(${accentCSS})` };
   const borderGoldStyle = { borderColor: `hsl(${accentCSS} / 0.3)` };
 
-  const sc = {
-    emoji: t(`course2.${city}.name`) !== `course2.${city}.name` ? undefined : undefined,
-    name: t(`course2.${city}.name`),
-    tagline: t(`course2.${city}.tagline`),
-    drink: t(`course2.${city}.drink`),
-    warning: t(`course2.${city}.warning`) !== `course2.${city}.warning` ? t(`course2.${city}.warning`) : undefined,
-    tip: t(`course2.${city}.tip`) !== `course2.${city}.tip` ? t(`course2.${city}.tip`) : undefined,
-    lore: t(`course2.${city}.lore`) !== `course2.${city}.lore` ? t(`course2.${city}.lore`) : undefined,
-  };
-  // Get emoji from the raw data
-  const { getSecondCourseInfo } = require('@/data/cities');
-  const rawCourse = getSecondCourseInfo(city);
-  const scEmoji = rawCourse.emoji;
+  // Translated second course fields
+  const scName = t(`course2.${city}.name`);
+  const scTagline = t(`course2.${city}.tagline`);
+  const scDrink = t(`course2.${city}.drink`);
+  const scWarningKey = `course2.${city}.warning`;
+  const scWarning = t(scWarningKey) !== scWarningKey ? t(scWarningKey) : undefined;
+  const scTipKey = `course2.${city}.tip`;
+  const scTip = t(scTipKey) !== scTipKey ? t(scTipKey) : undefined;
+  const scLoreKey = `course2.${city}.lore`;
+  const scLore = t(scLoreKey) !== scLoreKey ? t(scLoreKey) : undefined;
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-deep-green">
@@ -75,24 +73,24 @@ export default function ModeSelect() {
           onClick={() => setMode('biergarten')}
           className="w-full text-left p-5 rounded-xl border-2 border-secondary/30 bg-card hover:border-secondary hover:glow-green transition-all duration-300 tap-target group">
           <div className="flex items-start justify-between mb-3">
-            <span className="text-3xl">{secondCourse.emoji}</span>
+            <span className="text-3xl">{rawCourse.emoji}</span>
             <span className="gradient-green text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">{gartenInfo.holes} {t('mode.holes')}</span>
           </div>
-          <h2 className="font-display text-xl font-bold text-secondary mb-1">{secondCourse.name}</h2>
-          <p className="text-foreground text-sm mb-3">{secondCourse.tagline}</p>
+          <h2 className="font-display text-xl font-bold text-secondary mb-1">{scName}</h2>
+          <p className="text-foreground text-sm mb-3">{scTagline}</p>
           <div className="flex items-center gap-4 text-muted-foreground text-xs">
             <span>Par {gartenInfo.par}</span>
             <span>•</span>
-            <span>{secondCourse.drink}</span>
+            <span>{scDrink}</span>
           </div>
-          {secondCourse.warning && <p className="text-penalty text-[11px] mt-2 font-medium">{secondCourse.warning}</p>}
-          {secondCourse.tip && <p className="text-score-birdie text-[11px] mt-2">{secondCourse.tip}</p>}
+          {scWarning && <p className="text-penalty text-[11px] mt-2 font-medium">{scWarning}</p>}
+          {scTip && <p className="text-score-birdie text-[11px] mt-2">{scTip}</p>}
         </button>
       </div>
 
-      {secondCourse.lore && (
+      {scLore && (
         <p className="text-muted-foreground/60 text-xs mt-6 text-center max-w-sm italic leading-relaxed">
-          {secondCourse.lore}
+          {scLore}
         </p>
       )}
 
