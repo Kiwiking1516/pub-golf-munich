@@ -1,6 +1,6 @@
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/cities';
+import { getCityById, getCityAccentCSS } from '@/data/cities';
 import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
@@ -14,10 +14,23 @@ export default function ModeSelect() {
 
   const bgInfo = getCourseInfo(city, 'biergolf');
   const gartenInfo = getCourseInfo(city, 'biergarten');
-  const secondCourse = getSecondCourseInfo(city);
   const accentCSS = getCityAccentCSS(cityConfig);
   const accentStyle = { color: `hsl(${accentCSS})` };
   const borderGoldStyle = { borderColor: `hsl(${accentCSS} / 0.3)` };
+
+  const sc = {
+    emoji: t(`course2.${city}.name`) !== `course2.${city}.name` ? undefined : undefined,
+    name: t(`course2.${city}.name`),
+    tagline: t(`course2.${city}.tagline`),
+    drink: t(`course2.${city}.drink`),
+    warning: t(`course2.${city}.warning`) !== `course2.${city}.warning` ? t(`course2.${city}.warning`) : undefined,
+    tip: t(`course2.${city}.tip`) !== `course2.${city}.tip` ? t(`course2.${city}.tip`) : undefined,
+    lore: t(`course2.${city}.lore`) !== `course2.${city}.lore` ? t(`course2.${city}.lore`) : undefined,
+  };
+  // Get emoji from the raw data
+  const { getSecondCourseInfo } = require('@/data/cities');
+  const rawCourse = getSecondCourseInfo(city);
+  const scEmoji = rawCourse.emoji;
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-deep-green">

@@ -28,7 +28,7 @@ export default function CitySelect() {
               <div className="flex items-center gap-3">
                 <div className="flex-1 min-w-0">
                   <h2 className="font-display text-lg font-bold" style={accentStyle}>{city.name}</h2>
-                  <p className="text-muted-foreground text-xs truncate">{city.tagline}</p>
+                  <p className="text-muted-foreground text-xs truncate">{t(`city.${city.id}.tagline`)}</p>
                 </div>
               </div>
             </button>
