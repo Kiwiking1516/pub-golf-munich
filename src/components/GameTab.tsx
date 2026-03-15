@@ -109,14 +109,17 @@ function RulesPanel() {
           const rule = getRuleById(rId);
           if (!rule) return null;
           const isExp = expanded === rId;
+          const ruleName = t(`rule.${rId}.name`);
+          const ruleShort = t(`rule.${rId}.short`);
+          const ruleDesc = t(`rule.${rId}.desc`);
           return (
             <button key={rId} onClick={() => setExpanded(isExp ? null : rId)} className="w-full text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
               <div className="flex items-center gap-2">
                 <span>{rule.emoji}</span>
-                <span className="text-foreground text-sm font-medium flex-1">{rule.name}</span>
-                <span className="text-sand text-[10px]">{rule.shortEffect}</span>
+                <span className="text-foreground text-sm font-medium flex-1">{ruleName}</span>
+                <span className="text-sand text-[10px]">{ruleShort}</span>
               </div>
-              {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{rule.description}</p>}
+              {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{ruleDesc}</p>}
             </button>
           );
         })}
