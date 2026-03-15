@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
-import { getScoreInfo, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 
 const KOLSCH_RANKING_KEY = 'pubgolf-koelsch-ranking';
