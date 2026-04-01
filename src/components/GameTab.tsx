@@ -4,7 +4,7 @@ import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
 import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function ProgressBar() {
   const { holes, currentHole, setCurrentHole, scores, players, isGreenMode } = useGame();
@@ -87,15 +87,24 @@ function HoleInfoCard() {
   );
 }
 
-function RulesPanel() {
-  const { holes, currentHole, rollRuleForHole, removeRuleFromHole } = useGame();
+function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
+  const { holes, currentHole, rollRuleForHole, removeRuleFromHole, surpriseMode } = useGame();
   const { t } = useLanguage();
   const hole = holes[currentHole];
-  const [expanded, setExpanded] = useState<string | null>(null);
   const [rolling, setRolling] = useState(false);
   const [rollResult, setRollResult] = useState<'none' | 'rule' | null>(null);
+  const [pulseButton, setPulseButton] = useState(false);
 
   const count = hole.activeRules.length;
+
+  // Pulse dice button on first visit to a hole with no rules
+  useEffect(() => {
+    if (isFirstVisit && count === 0) {
+      setPulseButton(true);
+      const timer = setTimeout(() => setPulseButton(false), 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [isFirstVisit, currentHole, count]);
 
   const handleRoll = () => {
     setRolling(true);
@@ -108,15 +117,28 @@ function RulesPanel() {
     }, 600);
   };
 
+  const showArrivalPrompt = isFirstVisit && count === 0 && !rollResult;
+  const isSurpriseArrival = surpriseMode && showArrivalPrompt;
+
   return (
-    <div className="mx-4 mt-3 rounded-lg border border-rule-fun/60 bg-rule-fun/10 overflow-hidden">
+    <div className={`mx-4 mt-3 rounded-lg border overflow-hidden ${isSurpriseArrival ? 'border-rule-fun bg-rule-fun/15' : 'border-rule-fun/60 bg-rule-fun/10'}`}>
       <div className="bg-rule-fun/20 px-3 py-2">
         <span className="text-rule-fun text-xs font-bold">
           🎲 {count > 0 ? `${count} ${count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}` : t('game.noRules')}
         </span>
       </div>
 
-      {count === 0 && !rollResult && (
+      {/* Arrival prompt — shown on first visit when no rules */}
+      {showArrivalPrompt && (
+        <div className={`px-3 pt-3 text-center animate-fade-in ${isSurpriseArrival ? 'pb-1' : ''}`}>
+          <span className={`text-rule-fun ${isSurpriseArrival ? 'text-base font-bold' : 'text-sm'}`}>
+            {t('game.arrivalRollPrompt')}
+          </span>
+        </div>
+      )}
+
+      {/* No-rule prompt for non-first-visit */}
+      {!showArrivalPrompt && count === 0 && !rollResult && (
         <div className="px-3 pt-2 text-center animate-fade-in">
           <span className="text-sand text-sm">{t('game.rollPrompt')}</span>
         </div>
@@ -132,31 +154,31 @@ function RulesPanel() {
         <button
           onClick={handleRoll}
           disabled={rolling}
-          className={`w-full py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling ? 'animate-pulse' : ''}`}
+          className={`w-full py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling ? 'animate-pulse' : ''} ${pulseButton ? 'animate-pulse ring-2 ring-rule-fun/50' : ''}`}
         >
           <Dices className={`w-4 h-4 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
         </button>
       </div>
 
+      {/* Active rules — auto-expanded with full descriptions */}
       {count > 0 && (
         <div className="p-2 space-y-1">
           {hole.activeRules.map(rId => {
             const rule = getRuleById(rId);
             if (!rule) return null;
-            const isExp = expanded === rId;
             const ruleName = t(`rule.${rId}.name`);
             const ruleShort = t(`rule.${rId}.short`);
             const ruleDesc = t(`rule.${rId}.desc`);
             return (
               <div key={rId} className="flex items-start gap-1 animate-fade-in">
-                <button onClick={() => setExpanded(isExp ? null : rId)} className="flex-1 text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
+                <div className="flex-1 p-2 rounded-md">
                   <div className="flex items-center gap-2">
                     <span>{rule.emoji}</span>
                     <span className="text-foreground text-sm font-medium flex-1">{ruleName}</span>
                     <span className="text-sand text-[10px]">{ruleShort}</span>
                   </div>
-                  {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{ruleDesc}</p>}
-                </button>
+                  <p className="mt-1 text-foreground/80 text-sm leading-relaxed">{ruleDesc}</p>
+                </div>
                 <button
                   onClick={() => removeRuleFromHole(currentHole, rId)}
                   className="p-2 text-sand hover:text-penalty transition-colors tap-target"
@@ -266,6 +288,36 @@ export default function GameTab() {
   const isFirst = currentHole === 0;
   const accentBg = isGreenMode ? 'gradient-green' : 'gradient-gold';
 
+  // Track visited holes for first-arrival prompt
+  const [visitedHoles, setVisitedHoles] = useState<Set<number>>(() => new Set([0]));
+  const prevHoleRef = useRef(currentHole);
+
+  useEffect(() => {
+    if (currentHole !== prevHoleRef.current) {
+      prevHoleRef.current = currentHole;
+      if (!visitedHoles.has(currentHole)) {
+        setVisitedHoles(prev => new Set(prev).add(currentHole));
+      }
+    }
+  }, [currentHole]);
+
+  // A hole is "first visit" if it was just added to visited set this render cycle
+  // We track it differently: a hole is first visit if it wasn't in the set BEFORE the effect ran
+  const [firstVisitHole, setFirstVisitHole] = useState<number | null>(0);
+
+  useEffect(() => {
+    // When currentHole changes, check if it was previously visited
+    const wasVisited = visitedHoles.has(currentHole) && currentHole === prevHoleRef.current;
+    // On first mount, hole 0 is first visit
+    if (!wasVisited || currentHole === 0) {
+      setFirstVisitHole(currentHole);
+    } else {
+      setFirstVisitHole(null);
+    }
+  }, [currentHole]);
+
+  const isFirstVisit = firstVisitHole === currentHole;
+
   if (players.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-full p-6 text-center">
@@ -281,7 +333,7 @@ export default function GameTab() {
     <div className="flex flex-col h-full overflow-y-auto pb-4">
       <ProgressBar />
       <HoleInfoCard />
-      <RulesPanel />
+      <RulesPanel isFirstVisit={isFirstVisit} />
 
       <div className="px-4 mt-4 space-y-2">
         {players.map(p => <PlayerScoreInput key={p} player={p} />)}
