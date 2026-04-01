@@ -92,10 +92,23 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
   const { t } = useLanguage();
   const hole = holes[currentHole];
   const [rolling, setRolling] = useState(false);
+  const [rollingType, setRollingType] = useState<'main' | 'reroll' | 'add' | null>(null);
   const [rollResult, setRollResult] = useState<'none' | 'rule' | null>(null);
   const [pulseButton, setPulseButton] = useState(false);
+  const [hasRolled, setHasRolled] = useState(false);
+  const [lastRolledRuleId, setLastRolledRuleId] = useState<string | null>(null);
+  const [flashRuleId, setFlashRuleId] = useState<string | null>(null);
 
   const count = hole.activeRules.length;
+
+  // Reset roll state when hole changes
+  useEffect(() => {
+    setHasRolled(false);
+    setLastRolledRuleId(null);
+    setRollResult(null);
+    setRollingType(null);
+    setFlashRuleId(null);
+  }, [currentHole]);
 
   // Pulse dice button on first visit to a hole with no rules
   useEffect(() => {
@@ -106,18 +119,35 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
     }
   }, [isFirstVisit, currentHole, count]);
 
-  const handleRoll = () => {
+  const doRoll = (type: 'main' | 'reroll' | 'add') => {
     setRolling(true);
+    setRollingType(type);
     setRollResult(null);
+
+    // If re-rolling, remove the last rolled rule first
+    if (type === 'reroll' && lastRolledRuleId) {
+      removeRuleFromHole(currentHole, lastRolledRuleId);
+    }
+
     setTimeout(() => {
       const result = rollRuleForHole(currentHole);
       setRollResult(result ? 'rule' : 'none');
+      setHasRolled(true);
+      setLastRolledRuleId(result || null);
       setRolling(false);
+      setRollingType(null);
+
+      // Flash the new rule briefly
+      if (result && (type === 'reroll' || type === 'add')) {
+        setFlashRuleId(result);
+        setTimeout(() => setFlashRuleId(null), 1000);
+      }
+
       setTimeout(() => setRollResult(null), 2000);
     }, 600);
   };
 
-  const showArrivalPrompt = isFirstVisit && count === 0 && !rollResult;
+  const showArrivalPrompt = isFirstVisit && count === 0 && !rollResult && !hasRolled;
   const isSurpriseArrival = surpriseMode && showArrivalPrompt;
 
   return (
@@ -138,7 +168,7 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
       )}
 
       {/* No-rule prompt for non-first-visit */}
-      {!showArrivalPrompt && count === 0 && !rollResult && (
+      {!showArrivalPrompt && count === 0 && !rollResult && !hasRolled && (
         <div className="px-3 pt-2 text-center animate-fade-in">
           <span className="text-sand text-sm">{t('game.rollPrompt')}</span>
         </div>
@@ -151,13 +181,32 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
       )}
 
       <div className="p-2">
-        <button
-          onClick={handleRoll}
-          disabled={rolling}
-          className={`w-full py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling ? 'animate-pulse' : ''} ${pulseButton ? 'animate-pulse ring-2 ring-rule-fun/50' : ''}`}
-        >
-          <Dices className={`w-4 h-4 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
-        </button>
+        {!hasRolled ? (
+          <button
+            onClick={() => doRoll('main')}
+            disabled={rolling}
+            className={`w-full py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling ? 'animate-pulse' : ''} ${pulseButton ? 'animate-pulse ring-2 ring-rule-fun/50' : ''}`}
+          >
+            <Dices className={`w-4 h-4 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
+          </button>
+        ) : (
+          <div className="flex gap-2">
+            <button
+              onClick={() => doRoll('reroll')}
+              disabled={rolling}
+              className={`flex-1 py-2.5 rounded-lg text-sm font-bold bg-score-bogey/20 hover:bg-score-bogey/30 text-score-bogey flex items-center justify-center gap-2 tap-target transition-all ${rolling && rollingType === 'reroll' ? 'animate-pulse' : ''}`}
+            >
+              <RefreshCw className={`w-4 h-4 ${rolling && rollingType === 'reroll' ? 'animate-spin' : ''}`} /> {rolling && rollingType === 'reroll' ? '...' : t('game.reRoll')}
+            </button>
+            <button
+              onClick={() => doRoll('add')}
+              disabled={rolling}
+              className={`flex-1 py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling && rollingType === 'add' ? 'animate-pulse' : ''}`}
+            >
+              <Plus className={`w-4 h-4 ${rolling && rollingType === 'add' ? 'animate-spin' : ''}`} /> {rolling && rollingType === 'add' ? '...' : t('game.addRule')}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Active rules — auto-expanded with full descriptions */}
@@ -169,8 +218,9 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
             const ruleName = t(`rule.${rId}.name`);
             const ruleShort = t(`rule.${rId}.short`);
             const ruleDesc = t(`rule.${rId}.desc`);
+            const isFlashing = flashRuleId === rId;
             return (
-              <div key={rId} className="flex items-start gap-1 animate-fade-in">
+              <div key={rId} className={`flex items-start gap-1 animate-fade-in ${isFlashing ? 'animate-pulse' : ''}`}>
                 <div className="flex-1 p-2 rounded-md">
                   <div className="flex items-center gap-2">
                     <span>{rule.emoji}</span>
