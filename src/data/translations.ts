@@ -7,7 +7,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'city.subtitle': 'Pub Golf in ganz Deutschland',
     'city.footer': 'Prost! 🍻',
     // City taglines
-    'city.münchen.tagline': 'Bierhallen, Biergärten, Hofbräuhaus',
+    'city.münchen.tagline': 'Wirtshäuser und Biergärten',
     'city.frankfurt.tagline': 'Äbbelwoi-Kneipen & Sachsenhausen',
     'city.hamburg.tagline': 'Reeperbahn, St. Pauli & Kiez',
     'city.köln.tagline': '18 Löcher Kölsch durch die Altstadt',
