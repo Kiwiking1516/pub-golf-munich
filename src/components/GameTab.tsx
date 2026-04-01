@@ -3,7 +3,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
-import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X } from 'lucide-react';
+import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X, RefreshCw, Plus } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 
 function ProgressBar() {
