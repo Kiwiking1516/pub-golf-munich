@@ -1,9 +1,10 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
+import MapAreaSelect from './MapAreaSelect';
 
 const TYPE_ICONS: Record<string, string> = {
   brauhaus: '🏠',
@@ -54,6 +55,7 @@ function makeIcon(color: string, size: number = 13, label?: string) {
 export default function MapTab() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
+  const [mapReady, setMapReady] = useState<L.Map | null>(null);
   const gpsWatchRef = useRef<number | null>(null);
   const gpsMarkerRef = useRef<L.Marker | null>(null);
   const { holes, city, currentHole } = useGame();
@@ -179,6 +181,7 @@ export default function MapTab() {
     }
 
     mapInstanceRef.current = map;
+    setMapReady(map);
 
     // GPS live location
     if ('geolocation' in navigator) {
@@ -237,6 +240,7 @@ export default function MapTab() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
+      <MapAreaSelect map={mapReady} city={city} />
     </div>
   );
 }
