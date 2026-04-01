@@ -159,10 +159,15 @@ export default function MapTab() {
 
     if (routePoints.length > 1) {
       L.polyline(routePoints, {
+        color: '#000000',
+        weight: 8,
+        opacity: 0.4,
+      }).addTo(map);
+      L.polyline(routePoints, {
         color: cityColor,
-        weight: 3,
-        opacity: 0.6,
-        dashArray: '8, 8',
+        weight: 5,
+        opacity: 0.9,
+        dashArray: '12, 6',
       }).addTo(map);
     }
 
