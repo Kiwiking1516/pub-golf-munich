@@ -130,7 +130,7 @@ export default function ScorecardTab() {
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
-  const courseName = isGreenMode && city ? t(`course2.${city}.name`) : t('score.scorecard');
+  const courseName = isGreenMode && city ? t(`course2.${city}.name`) : '🍺 Pub Golf';
 
   const sorted = [...players].sort((a, b) => getPlayerTotal(a) - getPlayerTotal(b));
   const medals = ['🥇', '🥈', '🥉'];
