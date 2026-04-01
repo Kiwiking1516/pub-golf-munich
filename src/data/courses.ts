@@ -185,9 +185,26 @@ const courseMap: Record<CityId, Record<GameMode, Hole[]>> = {
   berlin: { biergolf: berlinBiergolf, biergarten: berlinBiergarten },
 };
 
+import { allRules } from '@/data/rules';
+
+export function assignDefaultRules(holes: Hole[]): Hole[] {
+  const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch' && r.id !== 'deckel-regel' && r.id !== 'frachter-bonus');
+  const shuffled = [...eligibleRules].sort(() => Math.random() - 0.5);
+  let ruleIdx = 0;
+  return holes.map((h, i) => {
+    if (h.activeRules.length > 0) return h;
+    if (i === 0 || i === holes.length - 1) return h;
+    if (Math.random() < 0.4 && ruleIdx < shuffled.length) {
+      return { ...h, activeRules: [shuffled[ruleIdx++].id] };
+    }
+    return h;
+  });
+}
+
 export function getDefaultHoles(city: CityId, mode: GameMode): Hole[] {
   const src = courseMap[city]?.[mode] || [];
-  return src.map(h => ({ ...h, flags: [...h.flags], activeRules: [...h.activeRules] }));
+  const holes = src.map(h => ({ ...h, flags: [...h.flags], activeRules: [...h.activeRules] }));
+  return assignDefaultRules(holes);
 }
 
 export function getTotalPar(holes: Hole[]): number {

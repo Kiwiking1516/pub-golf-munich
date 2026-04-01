@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { allRules, getRuleTypeColor } from '@/data/rules';
-import { ChevronDown, ChevronUp, RotateCcw, Shuffle } from 'lucide-react';
+import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2 } from 'lucide-react';
 import { Hole } from '@/types/game';
 
 function HoleFlagBadge({ flag }: { flag: string }) {
@@ -159,7 +159,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, shuffleCourse, isGreenMode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
@@ -183,6 +183,21 @@ export default function CourseTab() {
             <RotateCcw className="w-3.5 h-3.5" /> {t('course.reset')}
           </button>
         </div>
+      </div>
+
+      <div className="flex items-center gap-2 px-4 pb-2">
+        <button
+          onClick={() => randomizeRules()}
+          className="text-rule-fun text-xs flex items-center gap-1 tap-target hover:opacity-80 transition-opacity bg-rule-fun/10 px-2.5 py-1.5 rounded-lg"
+        >
+          <Dices className="w-3.5 h-3.5" /> {t('course.randomizeRules')}
+        </button>
+        <button
+          onClick={() => { if (window.confirm(t('course.clearRules_confirm'))) clearAllRules(); }}
+          className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors bg-muted px-2.5 py-1.5 rounded-lg"
+        >
+          <Trash2 className="w-3.5 h-3.5" /> {t('course.clearRules')}
+        </button>
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 space-y-2 pb-4">

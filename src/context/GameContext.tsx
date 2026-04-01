@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
-import { getDefaultHoles } from '@/data/courses';
+import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { HoleFlag } from '@/types/game';
@@ -36,6 +36,8 @@ interface GameContextType extends GameState {
   removePlayer: (name: string) => void;
   updateHole: (index: number, hole: Hole) => void;
   resetCourse: () => void;
+  randomizeRules: () => void;
+  clearAllRules: () => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
   setCurrentHole: (h: number) => void;
@@ -198,6 +200,14 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const setActiveTab = useCallback((tab: TabType) => update({ activeTab: tab }), [update]);
   const startGame = useCallback(() => update({ gameStarted: true, activeTab: 'spiel', currentHole: 0 }), [update]);
 
+  const randomizeRules = useCallback(() => {
+    setState(prev => ({ ...prev, holes: assignDefaultRules(prev.holes.map(h => ({ ...h, activeRules: [] }))) }));
+  }, []);
+
+  const clearAllRules = useCallback(() => {
+    setState(prev => ({ ...prev, holes: prev.holes.map(h => ({ ...h, activeRules: [] })) }));
+  }, []);
+
   const resetGame = useCallback(() => {
     if (state.city && state.mode) {
       update({
@@ -240,9 +250,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   return (
     <GameContext.Provider value={{
       ...state, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
-      addPlayer, removePlayer, updateHole, resetCourse, setScore, setPenalty,
-      setCurrentHole, setActiveTab, startGame, resetGame, getPlayerTotal,
-      getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
+      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules,
+      setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
+      getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
     }}>
       {children}
     </GameContext.Provider>
