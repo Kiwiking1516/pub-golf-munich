@@ -30,6 +30,7 @@ export default function GameLayout() {
     spieler: <PlayerTab />,
     kurs: <CourseTab />,
     spiel: <GameTab />,
+    map: <MapTab />,
     karte: <ScorecardTab />,
   };
 

@@ -1,7 +1,7 @@
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { TabType } from '@/types/game';
-import { Users, Map, Crosshair, Trophy } from 'lucide-react';
+import { Users, Map, Crosshair, MapPin, Trophy } from 'lucide-react';
 
 export default function BottomNav() {
   const { activeTab, setActiveTab, isGreenMode } = useGame();
@@ -11,6 +11,7 @@ export default function BottomNav() {
     { id: 'spieler', labelKey: 'nav.players', icon: Users },
     { id: 'kurs', labelKey: 'nav.course', icon: Map },
     { id: 'spiel', labelKey: 'nav.game', icon: Crosshair },
+    { id: 'map', labelKey: 'nav.map', icon: MapPin },
     { id: 'karte', labelKey: 'nav.score', icon: Trophy },
   ];
 
@@ -27,7 +28,7 @@ export default function BottomNav() {
               onClick={() => setActiveTab(tab.id)}
               className={`flex-1 flex flex-col items-center gap-0.5 py-2.5 tap-target transition-colors ${active ? activeColor : 'text-sand'}`}
             >
-              <Icon className="w-5 h-5" />
+              <Icon className="w-4 h-4" />
               <span className="text-[10px] font-bold">{t(tab.labelKey)}</span>
             </button>
           );
