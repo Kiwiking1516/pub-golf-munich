@@ -41,6 +41,7 @@ interface GameContextType extends GameState {
   clearAllRules: () => void;
   rollRuleForHole: (holeIndex: number) => string | null;
   removeRuleFromHole: (holeIndex: number, ruleId: string) => void;
+  setSurpriseMode: (on: boolean) => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
   setCurrentHole: (h: number) => void;
