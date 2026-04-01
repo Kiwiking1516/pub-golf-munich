@@ -48,7 +48,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.players': 'Spieler',
     'nav.course': 'Kurs',
     'nav.game': 'Spiel',
+    'nav.map': 'Karte',
     'nav.score': 'Score',
+    'map.noData': 'Keine Kartendaten',
+    'map.noDataDesc': 'Für diesen Kurs sind keine Koordinaten verfügbar. Verwende einen Kurs aus der Datenbank oder mische einen neuen.',
     // PlayerTab
     'player.placeholder': 'Spielername...',
     'player.exists': 'Name existiert bereits oder ist ungültig',
