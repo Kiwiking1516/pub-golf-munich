@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { allRules, getRuleTypeColor } from '@/data/rules';
-import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2 } from 'lucide-react';
+import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles } from 'lucide-react';
+import { Switch } from '@/components/ui/switch';
 import { Hole } from '@/types/game';
 
 function HoleFlagBadge({ flag }: { flag: string }) {
@@ -22,7 +23,7 @@ function HoleFlagBadge({ flag }: { flag: string }) {
 function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpdate: (h: Hole) => void }) {
   const [open, setOpen] = useState(false);
   const [subTab, setSubTab] = useState<'info' | 'rules'>('info');
-  const { isGreenMode } = useGame();
+  const { isGreenMode, surpriseMode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
@@ -94,17 +95,26 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
             </div>
           ) : (
             <div className="p-3 space-y-2 max-h-80 overflow-y-auto">
-              {allRules.map(rule => {
-                const active = hole.activeRules.includes(rule.id);
-                return <RuleRow key={rule.id} rule={rule} active={active} onToggle={() => {
-                  const ar = active ? hole.activeRules.filter(r => r !== rule.id) : [...hole.activeRules, rule.id];
-                  onUpdate({ ...hole, activeRules: ar });
-                }} />;
-              })}
-              {ruleCount > 0 && (
-                <div className="mt-3 pt-3 border-t border-border">
-                  <p className="text-sand text-xs">{t('course.activeRules')}: {ruleCount}</p>
+              {surpriseMode ? (
+                <div className="text-center py-4">
+                  <Sparkles className="w-5 h-5 text-rule-fun mx-auto mb-2" />
+                  <p className="text-sand text-xs">{t('course.surpriseModeDesc')}</p>
                 </div>
+              ) : (
+                <>
+                  {allRules.map(rule => {
+                    const active = hole.activeRules.includes(rule.id);
+                    return <RuleRow key={rule.id} rule={rule} active={active} onToggle={() => {
+                      const ar = active ? hole.activeRules.filter(r => r !== rule.id) : [...hole.activeRules, rule.id];
+                      onUpdate({ ...hole, activeRules: ar });
+                    }} />;
+                  })}
+                  {ruleCount > 0 && (
+                    <div className="mt-3 pt-3 border-t border-border">
+                      <p className="text-sand text-xs">{t('course.activeRules')}: {ruleCount}</p>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           )}
@@ -159,7 +169,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
@@ -185,20 +195,34 @@ export default function CourseTab() {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 px-4 pb-2">
-        <button
-          onClick={() => randomizeRules()}
-          className="text-rule-fun text-xs flex items-center gap-1 tap-target hover:opacity-80 transition-opacity bg-rule-fun/10 px-2.5 py-1.5 rounded-lg"
-        >
-          <Dices className="w-3.5 h-3.5" /> {t('course.randomizeRules')}
-        </button>
-        <button
-          onClick={() => { if (window.confirm(t('course.clearRules_confirm'))) clearAllRules(); }}
-          className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors bg-muted px-2.5 py-1.5 rounded-lg"
-        >
-          <Trash2 className="w-3.5 h-3.5" /> {t('course.clearRules')}
-        </button>
+      {/* Surprise Mode toggle */}
+      <div className="flex items-center justify-between px-4 pb-2">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-rule-fun" />
+          <div>
+            <span className="text-foreground text-xs font-bold">{t('course.surpriseMode')}</span>
+            {surpriseMode && <p className="text-sand text-[10px]">{t('course.surpriseModeDesc')}</p>}
+          </div>
+        </div>
+        <Switch checked={surpriseMode} onCheckedChange={setSurpriseMode} />
       </div>
+
+      {!surpriseMode && (
+        <div className="flex items-center gap-2 px-4 pb-2">
+          <button
+            onClick={() => randomizeRules()}
+            className="text-rule-fun text-xs flex items-center gap-1 tap-target hover:opacity-80 transition-opacity bg-rule-fun/10 px-2.5 py-1.5 rounded-lg"
+          >
+            <Dices className="w-3.5 h-3.5" /> {t('course.randomizeRules')}
+          </button>
+          <button
+            onClick={() => { if (window.confirm(t('course.clearRules_confirm'))) clearAllRules(); }}
+            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors bg-muted px-2.5 py-1.5 rounded-lg"
+          >
+            <Trash2 className="w-3.5 h-3.5" /> {t('course.clearRules')}
+          </button>
+        </div>
+      )}
 
       <div className="flex-1 overflow-y-auto px-4 space-y-2 pb-4">
         {holes.map((hole, i) => (

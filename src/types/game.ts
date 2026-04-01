@@ -60,4 +60,5 @@ export interface GameState {
   currentHole: number;
   activeTab: TabType;
   gameStarted: boolean;
+  surpriseMode: boolean;
 }

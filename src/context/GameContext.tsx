@@ -22,6 +22,7 @@ function loadState(): GameState {
     currentHole: 0,
     activeTab: 'spieler',
     gameStarted: false,
+    surpriseMode: false,
   };
 }
 
@@ -40,6 +41,7 @@ interface GameContextType extends GameState {
   clearAllRules: () => void;
   rollRuleForHole: (holeIndex: number) => string | null;
   removeRuleFromHole: (holeIndex: number, ruleId: string) => void;
+  setSurpriseMode: (on: boolean) => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
   setCurrentHole: (h: number) => void;
@@ -72,7 +74,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const clearCity = useCallback(() => {
     setState({
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
-      currentHole: 0, activeTab: 'spieler', gameStarted: false,
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
     });
   }, []);
 
@@ -239,6 +241,13 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
+  const setSurpriseMode = useCallback((on: boolean) => {
+    setState(prev => {
+      const holes = on ? prev.holes.map(h => ({ ...h, activeRules: [] as string[] })) : prev.holes;
+      return { ...prev, surpriseMode: on, holes };
+    });
+  }, []);
+
   const resetGame = useCallback(() => {
     if (state.city && state.mode) {
       update({
@@ -281,7 +290,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   return (
     <GameContext.Provider value={{
       ...state, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
-      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole,
+      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
     }}>
