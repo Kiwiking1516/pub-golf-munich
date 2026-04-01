@@ -198,6 +198,15 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const setActiveTab = useCallback((tab: TabType) => update({ activeTab: tab }), [update]);
   const startGame = useCallback(() => update({ gameStarted: true, activeTab: 'spiel', currentHole: 0 }), [update]);
 
+  const randomizeRules = useCallback(() => {
+    const { assignDefaultRules } = require('@/data/courses');
+    setState(prev => ({ ...prev, holes: assignDefaultRules(prev.holes.map(h => ({ ...h, activeRules: [] }))) }));
+  }, []);
+
+  const clearAllRules = useCallback(() => {
+    setState(prev => ({ ...prev, holes: prev.holes.map(h => ({ ...h, activeRules: [] })) }));
+  }, []);
+
   const resetGame = useCallback(() => {
     if (state.city && state.mode) {
       update({
