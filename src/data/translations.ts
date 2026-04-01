@@ -273,6 +273,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'game.penaltySip': 'Penalty sip',
     'game.penaltySips': 'Penalty sips',
     'game.remove': 'Remove',
+    'game.rollRule': 'Roll rule',
+    'game.noRules': 'No rules',
     'game.signatureHole': '⭐ Signature hole',
     'game.turn': '🔄 TURN – HALFWAY',
     'game.finale': '🏆 FINALE',
