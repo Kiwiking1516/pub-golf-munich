@@ -277,6 +277,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'game.remove': 'Remove',
     'game.rollRule': 'Roll rule',
     'game.noRules': 'No rules',
+    'game.rollPrompt': 'No rules yet — roll the dice! 🎲',
     'game.noRuleRolled': 'No rule – lucky you! 🍀',
     'game.signatureHole': '⭐ Signature hole',
     'game.turn': '🔄 TURN – HALFWAY',
