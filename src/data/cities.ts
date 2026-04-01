@@ -69,7 +69,7 @@ export const CITIES: CityConfig[] = [
     id: 'frankfurt',
     name: 'Frankfurt',
     emoji: '🍏',
-    tagline: 'Apfelwein-Kneipen & Sachsenhausen',
+    tagline: 'Äbbelwoi-Kneipen & Sachsenhausen',
     accentHue: 88,
     accentSaturation: 55,
     accentLightness: 53,
