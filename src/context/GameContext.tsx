@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
-import { getDefaultHoles } from '@/data/courses';
+import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { HoleFlag } from '@/types/game';
