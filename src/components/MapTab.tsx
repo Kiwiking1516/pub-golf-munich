@@ -181,6 +181,7 @@ export default function MapTab() {
     }
 
     mapInstanceRef.current = map;
+    setMapReady(map);
 
     // GPS live location
     if ('geolocation' in navigator) {
