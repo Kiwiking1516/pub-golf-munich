@@ -109,25 +109,34 @@ function RulesPanel() {
   };
 
   return (
-    <div className="mx-4 mt-3 rounded-lg border border-rule-fun/30 bg-rule-fun/5 overflow-hidden">
-      <div className="bg-rule-fun/20 px-3 py-2 flex items-center justify-between">
+    <div className="mx-4 mt-3 rounded-lg border border-rule-fun/60 bg-rule-fun/10 overflow-hidden">
+      <div className="bg-rule-fun/20 px-3 py-2">
         <span className="text-rule-fun text-xs font-bold">
           🎲 {count > 0 ? `${count} ${count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}` : t('game.noRules')}
         </span>
-        <button
-          onClick={handleRoll}
-          disabled={rolling}
-          className={`flex items-center gap-1 text-xs font-bold text-rule-fun bg-rule-fun/20 hover:bg-rule-fun/30 px-2 py-1 rounded-md transition-all tap-target ${rolling ? 'animate-pulse' : ''}`}
-        >
-          <Dices className={`w-3.5 h-3.5 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
-        </button>
       </div>
 
+      {count === 0 && !rollResult && (
+        <div className="px-3 pt-2 text-center animate-fade-in">
+          <span className="text-sand text-sm">{t('game.rollPrompt')}</span>
+        </div>
+      )}
+
       {rollResult === 'none' && (
-        <div className="px-3 py-2 text-center animate-fade-in">
+        <div className="px-3 pt-2 text-center animate-fade-in">
           <span className="text-sand text-sm">✨ {t('game.noRuleRolled')}</span>
         </div>
       )}
+
+      <div className="p-2">
+        <button
+          onClick={handleRoll}
+          disabled={rolling}
+          className={`w-full py-2.5 rounded-lg text-sm font-bold bg-rule-fun/25 hover:bg-rule-fun/35 text-rule-fun flex items-center justify-center gap-2 tap-target transition-all ${rolling ? 'animate-pulse' : ''}`}
+        >
+          <Dices className={`w-4 h-4 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
+        </button>
+      </div>
 
       {count > 0 && (
         <div className="p-2 space-y-1">
