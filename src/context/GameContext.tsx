@@ -36,6 +36,8 @@ interface GameContextType extends GameState {
   removePlayer: (name: string) => void;
   updateHole: (index: number, hole: Hole) => void;
   resetCourse: () => void;
+  randomizeRules: () => void;
+  clearAllRules: () => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
   setCurrentHole: (h: number) => void;
