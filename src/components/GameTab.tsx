@@ -3,7 +3,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } from '@/utils/scoring';
 import { getRuleById } from '@/data/rules';
-import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer } from 'lucide-react';
+import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X } from 'lucide-react';
 import { useState } from 'react';
 
 function ProgressBar() {
@@ -88,42 +88,56 @@ function HoleInfoCard() {
 }
 
 function RulesPanel() {
-  const { holes, currentHole } = useGame();
+  const { holes, currentHole, rollRuleForHole, removeRuleFromHole } = useGame();
   const { t } = useLanguage();
   const hole = holes[currentHole];
   const [expanded, setExpanded] = useState<string | null>(null);
-
-  if (hole.activeRules.length === 0) return null;
 
   const count = hole.activeRules.length;
 
   return (
     <div className="mx-4 mt-3 rounded-lg border border-rule-fun/30 bg-rule-fun/5 overflow-hidden">
-      <div className="bg-rule-fun/20 px-3 py-2 flex items-center gap-2">
+      <div className="bg-rule-fun/20 px-3 py-2 flex items-center justify-between">
         <span className="text-rule-fun text-xs font-bold">
-          🎲 {count} {count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}
+          🎲 {count > 0 ? `${count} ${count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}` : t('game.noRules')}
         </span>
+        <button
+          onClick={() => rollRuleForHole(currentHole)}
+          className="flex items-center gap-1 text-xs font-bold text-rule-fun bg-rule-fun/20 hover:bg-rule-fun/30 px-2 py-1 rounded-md transition-colors tap-target"
+        >
+          <Dices className="w-3.5 h-3.5" /> {t('game.rollRule')}
+        </button>
       </div>
-      <div className="p-2 space-y-1">
-        {hole.activeRules.map(rId => {
-          const rule = getRuleById(rId);
-          if (!rule) return null;
-          const isExp = expanded === rId;
-          const ruleName = t(`rule.${rId}.name`);
-          const ruleShort = t(`rule.${rId}.short`);
-          const ruleDesc = t(`rule.${rId}.desc`);
-          return (
-            <button key={rId} onClick={() => setExpanded(isExp ? null : rId)} className="w-full text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
-              <div className="flex items-center gap-2">
-                <span>{rule.emoji}</span>
-                <span className="text-foreground text-sm font-medium flex-1">{ruleName}</span>
-                <span className="text-sand text-[10px]">{ruleShort}</span>
+      {count > 0 && (
+        <div className="p-2 space-y-1">
+          {hole.activeRules.map(rId => {
+            const rule = getRuleById(rId);
+            if (!rule) return null;
+            const isExp = expanded === rId;
+            const ruleName = t(`rule.${rId}.name`);
+            const ruleShort = t(`rule.${rId}.short`);
+            const ruleDesc = t(`rule.${rId}.desc`);
+            return (
+              <div key={rId} className="flex items-start gap-1">
+                <button onClick={() => setExpanded(isExp ? null : rId)} className="flex-1 text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
+                  <div className="flex items-center gap-2">
+                    <span>{rule.emoji}</span>
+                    <span className="text-foreground text-sm font-medium flex-1">{ruleName}</span>
+                    <span className="text-sand text-[10px]">{ruleShort}</span>
+                  </div>
+                  {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{ruleDesc}</p>}
+                </button>
+                <button
+                  onClick={() => removeRuleFromHole(currentHole, rId)}
+                  className="p-2 text-sand hover:text-penalty transition-colors tap-target"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
               </div>
-              {isExp && <p className="mt-1 text-sand text-xs leading-relaxed">{ruleDesc}</p>}
-            </button>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
