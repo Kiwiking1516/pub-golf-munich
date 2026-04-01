@@ -240,7 +240,7 @@ export default function MapTab() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
-      <MapAreaSelect map={mapInstanceRef.current} city={city} />
+      <MapAreaSelect map={mapReady} city={city} />
     </div>
   );
 }
