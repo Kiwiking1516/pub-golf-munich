@@ -74,7 +74,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const clearCity = useCallback(() => {
     setState({
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
-      currentHole: 0, activeTab: 'spieler', gameStarted: false,
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
     });
   }, []);
 
