@@ -70,6 +70,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'course.randomizeRules': 'Regeln mischen',
     'course.clearRules': 'Regeln entfernen',
     'course.clearRules_confirm': 'Alle Regeln vom Kurs entfernen?',
+    'course.surpriseMode': 'Überraschungsmodus',
+    'course.surpriseModeDesc': 'Regeln werden beim Spielen gewürfelt',
     'course.venue': 'Lokal',
     'course.drink': 'Getränk',
     'course.time': 'Uhrzeit',
