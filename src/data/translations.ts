@@ -89,6 +89,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'game.remove': 'Entfernen',
     'game.rollRule': 'Regel würfeln',
     'game.noRules': 'Keine Regeln',
+    'game.noRuleRolled': 'Keine Regel – Glück gehabt! 🍀',
     'game.signatureHole': '⭐ Signature-Loch',
     'game.turn': '🔄 TURN – HALBZEIT',
     'game.finale': '🏆 FINALE',
