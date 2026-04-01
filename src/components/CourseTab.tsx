@@ -95,17 +95,26 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
             </div>
           ) : (
             <div className="p-3 space-y-2 max-h-80 overflow-y-auto">
-              {allRules.map(rule => {
-                const active = hole.activeRules.includes(rule.id);
-                return <RuleRow key={rule.id} rule={rule} active={active} onToggle={() => {
-                  const ar = active ? hole.activeRules.filter(r => r !== rule.id) : [...hole.activeRules, rule.id];
-                  onUpdate({ ...hole, activeRules: ar });
-                }} />;
-              })}
-              {ruleCount > 0 && (
-                <div className="mt-3 pt-3 border-t border-border">
-                  <p className="text-sand text-xs">{t('course.activeRules')}: {ruleCount}</p>
+              {surpriseMode ? (
+                <div className="text-center py-4">
+                  <Sparkles className="w-5 h-5 text-rule-fun mx-auto mb-2" />
+                  <p className="text-sand text-xs">{t('course.surpriseModeDesc')}</p>
                 </div>
+              ) : (
+                <>
+                  {allRules.map(rule => {
+                    const active = hole.activeRules.includes(rule.id);
+                    return <RuleRow key={rule.id} rule={rule} active={active} onToggle={() => {
+                      const ar = active ? hole.activeRules.filter(r => r !== rule.id) : [...hole.activeRules, rule.id];
+                      onUpdate({ ...hole, activeRules: ar });
+                    }} />;
+                  })}
+                  {ruleCount > 0 && (
+                    <div className="mt-3 pt-3 border-t border-border">
+                      <p className="text-sand text-xs">{t('course.activeRules')}: {ruleCount}</p>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           )}
