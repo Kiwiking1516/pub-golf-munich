@@ -23,7 +23,7 @@ function HoleFlagBadge({ flag }: { flag: string }) {
 function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpdate: (h: Hole) => void }) {
   const [open, setOpen] = useState(false);
   const [subTab, setSubTab] = useState<'info' | 'rules'>('info');
-  const { isGreenMode } = useGame();
+  const { isGreenMode, surpriseMode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
