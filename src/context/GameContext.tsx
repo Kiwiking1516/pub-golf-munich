@@ -241,6 +241,13 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
+  const setSurpriseMode = useCallback((on: boolean) => {
+    setState(prev => {
+      const holes = on ? prev.holes.map(h => ({ ...h, activeRules: [] as string[] })) : prev.holes;
+      return { ...prev, surpriseMode: on, holes };
+    });
+  }, []);
+
   const resetGame = useCallback(() => {
     if (state.city && state.mode) {
       update({
