@@ -33,7 +33,7 @@ export default function GameLayout() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-background">
+    <div className="flex flex-col bg-background" style={{ height: 'var(--app-height)' }}>
       <header className="bg-card border-b border-border px-4 py-3 flex items-center gap-3">
         <button
           onClick={clearMode}

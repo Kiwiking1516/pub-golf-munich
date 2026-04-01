@@ -8,7 +8,7 @@ export default function CitySelect() {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-deep-green">
+    <div className="flex flex-col items-center justify-center p-6 bg-deep-green" style={{ minHeight: 'var(--app-height)' }}>
       <div className="animate-fade-in text-center mb-8">
         <h1 className="font-display text-4xl font-bold text-foreground mb-2">{t('city.title')}</h1>
         <p className="text-muted-foreground text-sm">{t('city.subtitle')}</p>
