@@ -55,6 +55,7 @@ function makeIcon(color: string, size: number = 13, label?: string) {
 export default function MapTab() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
+  const [mapReady, setMapReady] = useState<L.Map | null>(null);
   const gpsWatchRef = useRef<number | null>(null);
   const gpsMarkerRef = useRef<L.Marker | null>(null);
   const { holes, city, currentHole } = useGame();
