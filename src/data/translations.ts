@@ -261,6 +261,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'course.randomizeRules': 'Randomize rules',
     'course.clearRules': 'Clear rules',
     'course.clearRules_confirm': 'Remove all rules from the course?',
+    'course.surpriseMode': 'Surprise Mode',
+    'course.surpriseModeDesc': 'Rules will be rolled during gameplay',
     'course.venue': 'Venue',
     'course.drink': 'Drink',
     'course.time': 'Time',
