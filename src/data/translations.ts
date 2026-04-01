@@ -48,7 +48,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.players': 'Spieler',
     'nav.course': 'Kurs',
     'nav.game': 'Spiel',
+    'nav.map': 'Karte',
     'nav.score': 'Score',
+    'map.noData': 'Keine Kartendaten',
+    'map.noDataDesc': 'Für diesen Kurs sind keine Koordinaten verfügbar. Verwende einen Kurs aus der Datenbank oder mische einen neuen.',
     // PlayerTab
     'player.placeholder': 'Spielername...',
     'player.exists': 'Name existiert bereits oder ist ungültig',
@@ -266,7 +269,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.players': 'Players',
     'nav.course': 'Course',
     'nav.game': 'Game',
+    'nav.map': 'Map',
     'nav.score': 'Score',
+    'map.noData': 'No map data',
+    'map.noDataDesc': 'No coordinates available for this course. Use a course from the database or shuffle a new one.',
     // PlayerTab
     'player.placeholder': 'Player name...',
     'player.exists': 'Name already exists or is invalid',

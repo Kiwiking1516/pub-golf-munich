@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
-import { getCityById, getCityAccentCSS } from '@/data/cities';
 import { getBarsForCity } from '@/data/pubs';
+import { useLanguage } from '@/context/LanguageContext';
 
 const TYPE_ICONS: Record<string, string> = {
   brauhaus: '🏠',
@@ -55,14 +55,12 @@ export default function MapTab() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
   const { holes, city, currentHole } = useGame();
+  const { t } = useLanguage();
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
-  // Use coordinates stored on hole first, then try fuzzy matching against bar database
   const holeCoords = holes.map(hole => {
-    // Direct coordinates on the hole (from shuffled courses)
     if (hole.lat != null && hole.lng != null) {
-      // Try to find bar info for popup details
       const bars = city ? getBarsForCity(city) : [];
       const bar = hole.barId
         ? bars.find(b => b.id === hole.barId)
@@ -70,34 +68,30 @@ export default function MapTab() {
       return { lat: hole.lat, lng: hole.lng, bar: bar || null };
     }
 
-    // Fallback: fuzzy match against bar database
     if (!city) return null;
     const bars = getBarsForCity(city);
 
-    // Exact match
     let match = bars.find(b => b.name.toLowerCase() === hole.name.toLowerCase());
     if (match) return { lat: match.lat, lng: match.lng, bar: match };
 
-    // Substring match
     match = bars.find(b =>
       hole.name.toLowerCase().includes(b.name.toLowerCase()) ||
       b.name.toLowerCase().includes(hole.name.toLowerCase())
     );
     if (match) return { lat: match.lat, lng: match.lng, bar: match };
 
-    // Word overlap match: find bar with most matching significant words
     const holeWords = hole.name.toLowerCase().replace(/[^a-zäöüß\s]/g, '').split(/\s+/).filter(w => w.length > 2);
     let bestMatch: typeof bars[0] | null = null;
     let bestScore = 0;
     for (const b of bars) {
       const barWords = b.name.toLowerCase().replace(/[^a-zäöüß\s]/g, '').split(/\s+/).filter(w => w.length > 2);
       const overlap = holeWords.filter(w => barWords.some(bw => bw.includes(w) || w.includes(bw))).length;
-      if (overlap > bestScore && overlap >= 1) {
+      if (overlap > bestScore && overlap >= 2) {
         bestScore = overlap;
         bestMatch = b;
       }
     }
-    if (bestMatch && bestScore >= 1) return { lat: bestMatch.lat, lng: bestMatch.lng, bar: bestMatch };
+    if (bestMatch) return { lat: bestMatch.lat, lng: bestMatch.lng, bar: bestMatch };
 
     return null;
   });
@@ -107,7 +101,6 @@ export default function MapTab() {
   useEffect(() => {
     if (!mapRef.current || !hasCoords) return;
 
-    // Clean up previous map
     if (mapInstanceRef.current) {
       mapInstanceRef.current.remove();
       mapInstanceRef.current = null;
@@ -124,12 +117,11 @@ export default function MapTab() {
       attributionControl: true,
     }).setView([centerLat, centerLng], 13);
 
-    L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-      attribution: '&copy; Google Maps',
-      maxZoom: 20,
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19,
     }).addTo(map);
 
-    // Route line
     const routePoints: L.LatLngExpression[] = [];
 
     holeCoords.forEach((coord, i) => {
@@ -165,7 +157,6 @@ export default function MapTab() {
         .bindPopup(popup, { maxWidth: 280 });
     });
 
-    // Draw route line
     if (routePoints.length > 1) {
       L.polyline(routePoints, {
         color: cityColor,
@@ -175,7 +166,6 @@ export default function MapTab() {
       }).addTo(map);
     }
 
-    // Fit bounds
     if (validCoords.length > 1) {
       const bounds = L.latLngBounds(validCoords.map(c => [c.lat, c.lng] as L.LatLngExpression));
       map.fitBounds(bounds, { padding: [40, 40] });
@@ -195,9 +185,9 @@ export default function MapTab() {
     return (
       <div className="flex flex-col items-center justify-center h-full p-6 text-center">
         <span className="text-4xl mb-4">🗺️</span>
-        <p className="text-foreground font-display text-lg mb-2">Keine Kartendaten</p>
+        <p className="text-foreground font-display text-lg mb-2">{t('map.noData')}</p>
         <p className="text-muted-foreground text-sm">
-          Für diesen Kurs sind keine Koordinaten verfügbar. Verwende einen Kurs aus der Datenbank oder mische einen neuen.
+          {t('map.noDataDesc')}
         </p>
       </div>
     );
@@ -205,7 +195,7 @@ export default function MapTab() {
 
   return (
     <div className="relative h-full w-full">
-      <div ref={mapRef} className="h-full w-full" />
+      <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
     </div>
   );
 }
