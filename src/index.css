@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --app-height: 100dvh;
+}
+
+@supports not (height: 100dvh) {
+  :root {
+    --app-height: 100vh;
+  }
+}
+
+html, body, #root {
+  height: var(--app-height);
+  overflow: hidden;
+}
+
 @layer base {
   :root {
     --background: 120 55% 11%;
@@ -169,5 +184,5 @@
 
 /* Safe area for mobile */
 .safe-bottom {
-  padding-bottom: max(env(safe-area-inset-bottom), 0.5rem);
+  padding-bottom: env(safe-area-inset-bottom, 0.5rem);
 }
