@@ -201,7 +201,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const startGame = useCallback(() => update({ gameStarted: true, activeTab: 'spiel', currentHole: 0 }), [update]);
 
   const randomizeRules = useCallback(() => {
-    const { assignDefaultRules } = require('@/data/courses');
     setState(prev => ({ ...prev, holes: assignDefaultRules(prev.holes.map(h => ({ ...h, activeRules: [] }))) }));
   }, []);
 
