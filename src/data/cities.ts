@@ -60,7 +60,7 @@ export const CITIES: CityConfig[] = [
     id: 'münchen',
     name: 'München',
     emoji: '🍺',
-    tagline: 'Bierhallen, Biergärten, Hofbräuhaus',
+    tagline: 'Wirtshäuser und Biergärten',
     accentHue: 46,
     accentSaturation: 65,
     accentLightness: 52,
