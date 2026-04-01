@@ -8,7 +8,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'city.footer': 'Prost! 🍻',
     // City taglines
     'city.münchen.tagline': 'Bierhallen, Biergärten, Hofbräuhaus',
-    'city.frankfurt.tagline': 'Apfelwein-Kneipen & Sachsenhausen',
+    'city.frankfurt.tagline': 'Äbbelwoi-Kneipen & Sachsenhausen',
     'city.hamburg.tagline': 'Reeperbahn, St. Pauli & Kiez',
     'city.köln.tagline': '18 Löcher Kölsch durch die Altstadt',
     'city.berlin.tagline': 'Friedrichshain, Kreuzberg & Prenzlauer Berg',
