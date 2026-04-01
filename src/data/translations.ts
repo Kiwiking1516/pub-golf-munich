@@ -311,6 +311,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'game.noRules': 'No rules',
     'game.rollPrompt': 'No rules yet — roll the dice! 🎲',
     'game.arrivalRollPrompt': 'New bar, new rule? 🎲',
+    'game.reRoll': 'Re-roll',
+    'game.addRule': 'Add rule',
     'game.noRuleRolled': 'No rule – lucky you! 🍀',
     'game.signatureHole': '⭐ Signature hole',
     'game.turn': '🔄 TURN – HALFWAY',
