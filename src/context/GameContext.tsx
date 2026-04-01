@@ -22,6 +22,7 @@ function loadState(): GameState {
     currentHole: 0,
     activeTab: 'spieler',
     gameStarted: false,
+    surpriseMode: false,
   };
 }
 
