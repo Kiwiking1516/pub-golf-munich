@@ -121,7 +121,7 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
   const isSurpriseArrival = surpriseMode && showArrivalPrompt;
 
   return (
-    <div className={`mx-4 mt-3 rounded-lg border overflow-hidden ${isSurpriseArrival ? 'border-rule-fun bg-rule-fun/15' : 'border-rule-fun/60 bg-rule-fun/10'}`}>
+    <div className={`mx-4 mt-3 rounded-lg border ${isSurpriseArrival ? 'border-rule-fun bg-rule-fun/15' : 'border-rule-fun/60 bg-rule-fun/10'}`}>
       <div className="bg-rule-fun/20 px-3 py-2">
         <span className="text-rule-fun text-xs font-bold">
           🎲 {count > 0 ? `${count} ${count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}` : t('game.noRules')}
