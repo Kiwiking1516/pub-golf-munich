@@ -168,6 +168,12 @@ html, body, #root {
   }
 }
 
+/* GPS pulse animation */
+@keyframes gpsPulse {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 4px;

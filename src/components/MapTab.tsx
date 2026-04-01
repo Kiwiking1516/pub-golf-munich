@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
@@ -54,6 +54,8 @@ function makeIcon(color: string, size: number = 13, label?: string) {
 export default function MapTab() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
+  const gpsWatchRef = useRef<number | null>(null);
+  const gpsMarkerRef = useRef<L.Marker | null>(null);
   const { holes, city, currentHole } = useGame();
   const { t } = useLanguage();
 
@@ -178,7 +180,41 @@ export default function MapTab() {
 
     mapInstanceRef.current = map;
 
+    // GPS live location
+    if ('geolocation' in navigator) {
+      const gpsIcon = L.divIcon({
+        className: '',
+        html: `<div style="position:relative;width:20px;height:20px;">
+          <div style="position:absolute;inset:0;background:rgba(66,133,244,0.2);border-radius:50%;animation:gpsPulse 2s ease-out infinite;"></div>
+          <div style="position:absolute;top:5px;left:5px;width:10px;height:10px;background:#4285F4;border:2.5px solid white;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.4);"></div>
+        </div>`,
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+      });
+
+      gpsWatchRef.current = navigator.geolocation.watchPosition(
+        (pos) => {
+          const latlng: L.LatLngExpression = [pos.coords.latitude, pos.coords.longitude];
+          if (gpsMarkerRef.current) {
+            gpsMarkerRef.current.setLatLng(latlng);
+          } else {
+            gpsMarkerRef.current = L.marker(latlng, { icon: gpsIcon, zIndexOffset: 1000 }).addTo(map);
+          }
+        },
+        () => {},
+        { enableHighAccuracy: true, maximumAge: 5000 }
+      );
+    }
+
     return () => {
+      if (gpsWatchRef.current != null) {
+        navigator.geolocation.clearWatch(gpsWatchRef.current);
+        gpsWatchRef.current = null;
+      }
+      if (gpsMarkerRef.current) {
+        gpsMarkerRef.current.remove();
+        gpsMarkerRef.current = null;
+      }
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
