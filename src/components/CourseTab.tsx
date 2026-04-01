@@ -169,7 +169,7 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
@@ -195,20 +195,34 @@ export default function CourseTab() {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 px-4 pb-2">
-        <button
-          onClick={() => randomizeRules()}
-          className="text-rule-fun text-xs flex items-center gap-1 tap-target hover:opacity-80 transition-opacity bg-rule-fun/10 px-2.5 py-1.5 rounded-lg"
-        >
-          <Dices className="w-3.5 h-3.5" /> {t('course.randomizeRules')}
-        </button>
-        <button
-          onClick={() => { if (window.confirm(t('course.clearRules_confirm'))) clearAllRules(); }}
-          className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors bg-muted px-2.5 py-1.5 rounded-lg"
-        >
-          <Trash2 className="w-3.5 h-3.5" /> {t('course.clearRules')}
-        </button>
+      {/* Surprise Mode toggle */}
+      <div className="flex items-center justify-between px-4 pb-2">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-rule-fun" />
+          <div>
+            <span className="text-foreground text-xs font-bold">{t('course.surpriseMode')}</span>
+            {surpriseMode && <p className="text-sand text-[10px]">{t('course.surpriseModeDesc')}</p>}
+          </div>
+        </div>
+        <Switch checked={surpriseMode} onCheckedChange={setSurpriseMode} />
       </div>
+
+      {!surpriseMode && (
+        <div className="flex items-center gap-2 px-4 pb-2">
+          <button
+            onClick={() => randomizeRules()}
+            className="text-rule-fun text-xs flex items-center gap-1 tap-target hover:opacity-80 transition-opacity bg-rule-fun/10 px-2.5 py-1.5 rounded-lg"
+          >
+            <Dices className="w-3.5 h-3.5" /> {t('course.randomizeRules')}
+          </button>
+          <button
+            onClick={() => { if (window.confirm(t('course.clearRules_confirm'))) clearAllRules(); }}
+            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors bg-muted px-2.5 py-1.5 rounded-lg"
+          >
+            <Trash2 className="w-3.5 h-3.5" /> {t('course.clearRules')}
+          </button>
+        </div>
+      )}
 
       <div className="flex-1 overflow-y-auto px-4 space-y-2 pb-4">
         {holes.map((hole, i) => (
