@@ -276,7 +276,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   return (
     <GameContext.Provider value={{
       ...state, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
-      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules,
+      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
     }}>
