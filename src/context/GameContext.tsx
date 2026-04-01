@@ -38,7 +38,7 @@ interface GameContextType extends GameState {
   resetCourse: () => void;
   randomizeRules: () => void;
   clearAllRules: () => void;
-  rollRuleForHole: (holeIndex: number) => void;
+  rollRuleForHole: (holeIndex: number) => string | null;
   removeRuleFromHole: (holeIndex: number, ruleId: string) => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
@@ -210,7 +210,10 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, holes: prev.holes.map(h => ({ ...h, activeRules: [] })) }));
   }, []);
 
-  const rollRuleForHole = useCallback((holeIndex: number) => {
+  const rollRuleForHole = useCallback((holeIndex: number): string | null => {
+    // ~30% chance no rule applies
+    if (Math.random() < 0.3) return null;
+    let pickedId: string | null = null;
     setState(prev => {
       const hole = prev.holes[holeIndex];
       if (!hole) return prev;
@@ -218,10 +221,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const available = allRules.filter(r => r.id !== 'doppeltes-loch' && !usedRules.has(r.id));
       if (available.length === 0) return prev;
       const picked = available[Math.floor(Math.random() * available.length)];
+      pickedId = picked.id;
       const newHoles = [...prev.holes];
       newHoles[holeIndex] = { ...hole, activeRules: [...hole.activeRules, picked.id] };
       return { ...prev, holes: newHoles };
     });
+    return pickedId;
   }, []);
 
   const removeRuleFromHole = useCallback((holeIndex: number, ruleId: string) => {

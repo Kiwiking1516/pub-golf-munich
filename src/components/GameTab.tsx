@@ -92,8 +92,21 @@ function RulesPanel() {
   const { t } = useLanguage();
   const hole = holes[currentHole];
   const [expanded, setExpanded] = useState<string | null>(null);
+  const [rolling, setRolling] = useState(false);
+  const [rollResult, setRollResult] = useState<'none' | 'rule' | null>(null);
 
   const count = hole.activeRules.length;
+
+  const handleRoll = () => {
+    setRolling(true);
+    setRollResult(null);
+    setTimeout(() => {
+      const result = rollRuleForHole(currentHole);
+      setRollResult(result ? 'rule' : 'none');
+      setRolling(false);
+      setTimeout(() => setRollResult(null), 2000);
+    }, 600);
+  };
 
   return (
     <div className="mx-4 mt-3 rounded-lg border border-rule-fun/30 bg-rule-fun/5 overflow-hidden">
@@ -102,12 +115,20 @@ function RulesPanel() {
           🎲 {count > 0 ? `${count} ${count > 1 ? t('game.specialRulesPlural') : t('game.specialRules')}` : t('game.noRules')}
         </span>
         <button
-          onClick={() => rollRuleForHole(currentHole)}
-          className="flex items-center gap-1 text-xs font-bold text-rule-fun bg-rule-fun/20 hover:bg-rule-fun/30 px-2 py-1 rounded-md transition-colors tap-target"
+          onClick={handleRoll}
+          disabled={rolling}
+          className={`flex items-center gap-1 text-xs font-bold text-rule-fun bg-rule-fun/20 hover:bg-rule-fun/30 px-2 py-1 rounded-md transition-all tap-target ${rolling ? 'animate-pulse' : ''}`}
         >
-          <Dices className="w-3.5 h-3.5" /> {t('game.rollRule')}
+          <Dices className={`w-3.5 h-3.5 ${rolling ? 'animate-spin' : ''}`} /> {rolling ? '...' : t('game.rollRule')}
         </button>
       </div>
+
+      {rollResult === 'none' && (
+        <div className="px-3 py-2 text-center animate-fade-in">
+          <span className="text-sand text-sm">✨ {t('game.noRuleRolled')}</span>
+        </div>
+      )}
+
       {count > 0 && (
         <div className="p-2 space-y-1">
           {hole.activeRules.map(rId => {
@@ -118,7 +139,7 @@ function RulesPanel() {
             const ruleShort = t(`rule.${rId}.short`);
             const ruleDesc = t(`rule.${rId}.desc`);
             return (
-              <div key={rId} className="flex items-start gap-1">
+              <div key={rId} className="flex items-start gap-1 animate-fade-in">
                 <button onClick={() => setExpanded(isExp ? null : rId)} className="flex-1 text-left p-2 rounded-md hover:bg-muted/30 transition-colors">
                   <div className="flex items-center gap-2">
                     <span>{rule.emoji}</span>
