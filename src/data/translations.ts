@@ -67,6 +67,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.createCourse': 'Kurs erstellen',
     'map.maxReached': 'Maximum 18 Bars erreicht',
     'map.minRequired': 'Mindestens 2 Bars auswählen',
+    'map.searchBar': 'Bar suchen…',
+    'map.noBarsFound': 'Keine Bars gefunden',
+    'map.barsSelected': 'Bars ausgewählt',
     // PlayerTab
     'player.placeholder': 'Spielername...',
     'player.exists': 'Name existiert bereits oder ist ungültig',
