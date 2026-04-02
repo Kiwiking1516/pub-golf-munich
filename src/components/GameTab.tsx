@@ -71,13 +71,12 @@ function HoleInfoCard() {
             {hole.lat && hole.lng && (
               <button
                 onClick={() => {
-                  const destination = `${hole.lat},${hole.lng}`;
-                  const label = encodeURIComponent(hole.name);
-                  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-                  const url = isIOS
-                    ? `maps://maps.apple.com/?daddr=${destination}&dirflg=w&q=${label}`
-                    : `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
-                  window.location.href = url;
+                  const pref = getMapPref();
+                  if (pref) {
+                    navigateTo(pref, hole.lat!, hole.lng!, hole.name);
+                  } else {
+                    setNavTarget({ lat: hole.lat!, lng: hole.lng!, label: hole.name });
+                  }
                 }}
                 className="text-sand hover:text-foreground transition-colors tap-target mb-0.5"
                 title={t('game.navigate')}
