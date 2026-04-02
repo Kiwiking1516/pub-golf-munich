@@ -239,7 +239,7 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
               </span>
             </div>
             <button
-              onClick={() => { setActive(false); setShowInstruction(false); }}
+              onClick={() => { onToggle(); setShowInstruction(false); }}
               className="w-8 h-8 rounded-full flex items-center justify-center bg-muted text-muted-foreground"
             >
               <X className="w-4 h-4" />
