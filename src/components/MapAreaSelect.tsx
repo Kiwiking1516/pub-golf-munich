@@ -122,12 +122,12 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
 
   const toggleActive = () => {
     if (!active) {
-      setActive(true);
+      onToggle();
       setShowInstruction(true);
       if (instructionTimerRef.current) clearTimeout(instructionTimerRef.current);
       instructionTimerRef.current = setTimeout(() => setShowInstruction(false), 3000);
     } else {
-      setActive(false);
+      onToggle();
       setShowInstruction(false);
     }
   };
