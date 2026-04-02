@@ -73,11 +73,10 @@ function HoleInfoCard() {
                   const destination = `${hole.lat},${hole.lng}`;
                   const label = encodeURIComponent(hole.name);
                   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-                  if (isIOS) {
-                    window.open(`https://maps.apple.com/?daddr=${destination}&dirflg=w&q=${label}`, '_blank');
-                  } else {
-                    window.open(`https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`, '_blank');
-                  }
+                  const url = isIOS
+                    ? `maps://maps.apple.com/?daddr=${destination}&dirflg=w&q=${label}`
+                    : `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
+                  window.location.href = url;
                 }}
                 className="text-sand hover:text-foreground transition-colors tap-target mb-0.5"
                 title={t('game.navigate')}
