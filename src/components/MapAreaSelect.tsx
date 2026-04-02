@@ -192,7 +192,7 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
     }
 
     setCustomHoles(holes);
-    setActive(false);
+    onToggle();
     clearMapElements();
     setActiveTab('spiel');
   };
