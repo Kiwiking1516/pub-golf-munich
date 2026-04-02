@@ -59,6 +59,10 @@ export default function HowToSheet({ open, onClose }: { open: boolean; onClose: 
             <BodyText text={t('help.courseBody')} />
           </Section>
 
+          <Section title={t('help.mapTitle')}>
+            <BodyText text={t('help.mapBody')} />
+          </Section>
+
           <Section title={t('help.scoringTitle')}>
             <BodyText text={t('help.scoringBody')} />
             <div className="mt-2 space-y-1">
@@ -78,6 +82,9 @@ export default function HowToSheet({ open, onClose }: { open: boolean; onClose: 
                   {t(rt.key)}
                 </div>
               ))}
+            </div>
+            <div className="mt-3">
+              <BodyText text={t('help.rulesGameplay')} />
             </div>
           </Section>
 
