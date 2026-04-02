@@ -59,6 +59,7 @@ export default function MapTab() {
   const [mapReady, setMapReady] = useState<L.Map | null>(null);
   const gpsWatchRef = useRef<number | null>(null);
   const gpsMarkerRef = useRef<L.Marker | null>(null);
+  const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const { holes, city, currentHole } = useGame();
   const { t } = useLanguage();
 
