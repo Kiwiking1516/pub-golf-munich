@@ -1,0 +1,13 @@
+PUB GOLF OSM SCRAPE STATS — 2026-04-02T10:51:56.763Z
+Total: 1804 bars
+
+münchen: 357 bars (249 with address, 5 with district)
+  Types: bar:272, cocktailbar:8, brauhaus:17, sportbar:5, szene:50, craft:2, biergarten:3
+berlin: 974 bars (671 with address, 405 with district)
+  Types: bar:861, craft:5, brauhaus:1, cocktailbar:60, szene:17, sportbar:27, biergarten:3
+frankfurt: 0 bars (0 with address, 0 with district)
+  Types: 
+hamburg: 425 bars (214 with address, 6 with district)
+  Types: kneipe:391, irish:12, sportbar:9, szene:5, cocktailbar:4, craft:3, brauhaus:1
+köln: 48 bars (33 with address, 1 with district)
+  Types: szene:47, cocktailbar:1
