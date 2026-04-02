@@ -70,6 +70,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.searchBar': 'Bar suchen…',
     'map.noBarsFound': 'Keine Bars gefunden',
     'map.barsSelected': 'Bars ausgewählt',
+    'map.showMap': 'Karte',
+    'map.showList': 'Liste',
     // PlayerTab
     'player.placeholder': 'Spielername...',
     'player.exists': 'Name existiert bereits oder ist ungültig',
@@ -316,6 +318,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.searchBar': 'Search bar…',
     'map.noBarsFound': 'No bars found',
     'map.barsSelected': 'bars selected',
+    'map.showMap': 'Map',
+    'map.showList': 'List',
     // PlayerTab
     'player.placeholder': 'Player name...',
     'player.exists': 'Name already exists or is invalid',
