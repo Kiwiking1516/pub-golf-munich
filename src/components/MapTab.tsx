@@ -260,8 +260,18 @@ export default function MapTab() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
-      <MapAreaSelect map={mapReady} city={city} />
-      {navTarget && (
+      <MapAreaSelect
+        map={mapReady}
+        city={city}
+        active={activeMode === 'area'}
+        onToggle={() => setActiveMode(prev => prev === 'area' ? 'none' : 'area')}
+      />
+      <MapCourseBuilder
+        map={mapReady}
+        city={city}
+        active={activeMode === 'builder'}
+        onToggle={() => setActiveMode(prev => prev === 'builder' ? 'none' : 'builder')}
+      />
         <MapChoiceDialog
           lat={navTarget.lat}
           lng={navTarget.lng}
