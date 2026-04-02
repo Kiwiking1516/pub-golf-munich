@@ -272,6 +272,7 @@ export default function MapTab() {
         active={activeMode === 'builder'}
         onToggle={() => setActiveMode(prev => prev === 'builder' ? 'none' : 'builder')}
       />
+      {navTarget && (
         <MapChoiceDialog
           lat={navTarget.lat}
           lng={navTarget.lng}
