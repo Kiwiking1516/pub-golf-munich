@@ -20,13 +20,13 @@ const CITY_COLORS: Record<string, string> = {
 interface Props {
   map: L.Map | null;
   city: string | null;
+  active: boolean;
+  onToggle: () => void;
 }
 
-export default function MapAreaSelect({ map, city }: Props) {
+export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
   const { setCustomHoles, setActiveTab } = useGame();
   const { t } = useLanguage();
-
-  const [active, setActive] = useState(false);
   const [center, setCenter] = useState<{ lat: number; lng: number } | null>(null);
   const [radius, setRadius] = useState(1500);
   const [showInstruction, setShowInstruction] = useState(false);
