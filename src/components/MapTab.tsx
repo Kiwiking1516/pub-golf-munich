@@ -5,6 +5,7 @@ import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
 import MapAreaSelect from './MapAreaSelect';
+import MapCourseBuilder from './MapCourseBuilder';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
 
 const TYPE_ICONS: Record<string, string> = {
