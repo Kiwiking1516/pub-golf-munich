@@ -1,13 +1,18 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { Route, X, Shuffle } from 'lucide-react';
+import { Route, X, Shuffle, Plus, Search, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getBarsForCity, optimizeRoute, shuffle } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
+import {
+  Drawer,
+  DrawerContent,
+} from '@/components/ui/drawer';
 
 const CITY_COLORS: Record<string, string> = {
   münchen: '#d4af37',
@@ -15,6 +20,18 @@ const CITY_COLORS: Record<string, string> = {
   frankfurt: '#88cc44',
   hamburg: '#1a7aaa',
   köln: '#cc2200',
+};
+
+const TYPE_ICONS: Record<string, string> = {
+  brauhaus: '🏠',
+  kneipe: '🍺',
+  bar: '🍹',
+  biergarten: '🌳',
+  cocktailbar: '🍸',
+  irish: '☘️',
+  sportbar: '⚽',
+  szene: '✨',
+  craft: '🍺',
 };
 
 function makeNumberedIcon(color: string, label: string) {
@@ -48,55 +65,94 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const { t } = useLanguage();
 
   const [selectedBars, setSelectedBars] = useState<PubLocation[]>([]);
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const barDotsRef = useRef<L.Marker[]>([]);
   const selectedMarkersRef = useRef<L.Marker[]>([]);
+  const barDotsRef = useRef<L.Marker[]>([]);
   const routeLineRef = useRef<L.Polyline | null>(null);
   const routeShadowRef = useRef<L.Polyline | null>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
-  const allBars = city ? getBarsForCity(city) : [];
+  const allBars = useMemo(() => (city ? getBarsForCity(city) : []), [city]);
+
+  const selectedIds = useMemo(() => new Set(selectedBars.map(b => b.id)), [selectedBars]);
+
+  // Group and filter bars
+  const filteredBars = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+    if (!query) return allBars;
+    return allBars.filter(b =>
+      b.name.toLowerCase().includes(query) ||
+      (b.district?.toLowerCase().includes(query)) ||
+      b.address.toLowerCase().includes(query)
+    );
+  }, [allBars, searchQuery]);
+
+  // Sort by relevance when searching, otherwise group by district
+  const sortedBars = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+    if (query) {
+      return [...filteredBars].sort((a, b) => {
+        const aName = a.name.toLowerCase().indexOf(query) >= 0 ? 0 : 1;
+        const bName = b.name.toLowerCase().indexOf(query) >= 0 ? 0 : 1;
+        if (aName !== bName) return aName - bName;
+        return a.name.localeCompare(b.name);
+      });
+    }
+    return [...filteredBars].sort((a, b) => {
+      const distA = a.district || 'zzz';
+      const distB = b.district || 'zzz';
+      if (distA !== distB) return distA.localeCompare(distB);
+      return a.name.localeCompare(b.name);
+    });
+  }, [filteredBars, searchQuery]);
+
+  // District groups (only when not searching)
+  const districtGroups = useMemo(() => {
+    if (searchQuery.trim()) return null;
+    const groups: { district: string; bars: PubLocation[] }[] = [];
+    let currentDistrict = '';
+    for (const bar of sortedBars) {
+      const d = bar.district || 'Sonstige';
+      if (d !== currentDistrict) {
+        currentDistrict = d;
+        groups.push({ district: d, bars: [] });
+      }
+      groups[groups.length - 1].bars.push(bar);
+    }
+    return groups;
+  }, [sortedBars, searchQuery]);
 
   const clearMapElements = useCallback(() => {
-    barDotsRef.current.forEach(m => m.remove());
-    barDotsRef.current = [];
     selectedMarkersRef.current.forEach(m => m.remove());
     selectedMarkersRef.current = [];
+    barDotsRef.current.forEach(m => m.remove());
+    barDotsRef.current = [];
     routeLineRef.current?.remove();
     routeLineRef.current = null;
     routeShadowRef.current?.remove();
     routeShadowRef.current = null;
   }, []);
 
-  // Draw all bar dots when active
+  // Draw unselected bar dots on map
   useEffect(() => {
     if (!map || !active) return;
 
     barDotsRef.current.forEach(m => m.remove());
     barDotsRef.current = [];
 
-    const selectedIds = new Set(selectedBars.map(b => b.id));
-
     allBars.forEach(bar => {
-      if (selectedIds.has(bar.id)) return; // skip selected bars, they have numbered markers
+      if (selectedIds.has(bar.id)) return;
 
       const icon = L.divIcon({
         className: '',
-        html: `<div style="width:8px;height:8px;background:${cityColor};border-radius:50%;opacity:0.5;border:1px solid rgba(255,255,255,0.6);cursor:pointer;"></div>`,
+        html: `<div style="width:8px;height:8px;background:${cityColor};border-radius:50%;opacity:0.5;border:1px solid rgba(255,255,255,0.6);"></div>`,
         iconSize: [8, 8],
         iconAnchor: [4, 4],
       });
 
-      const m = L.marker([bar.lat, bar.lng], { icon }).addTo(map);
-      m.on('click', () => {
-        setSelectedBars(prev => {
-          if (prev.length >= 18) {
-            toast(t('map.maxReached'));
-            return prev;
-          }
-          return [...prev, bar];
-        });
-      });
+      const m = L.marker([bar.lat, bar.lng], { icon, interactive: false }).addTo(map);
       barDotsRef.current.push(m);
     });
 
@@ -104,7 +160,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       barDotsRef.current.forEach(m => m.remove());
       barDotsRef.current = [];
     };
-  }, [map, active, allBars, cityColor, selectedBars, t]);
+  }, [map, active, allBars, cityColor, selectedIds]);
 
   // Draw selected markers + route line
   useEffect(() => {
@@ -120,9 +176,6 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     selectedBars.forEach((bar, i) => {
       const icon = makeNumberedIcon(cityColor, String(i + 1));
       const m = L.marker([bar.lat, bar.lng], { icon }).addTo(map);
-      m.on('click', () => {
-        setSelectedBars(prev => prev.filter(b => b.id !== bar.id));
-      });
       selectedMarkersRef.current.push(m);
     });
 
@@ -142,16 +195,40 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     if (!active) {
       clearMapElements();
       setSelectedBars([]);
+      setSearchQuery('');
     }
   }, [active, clearMapElements]);
+
+  const addBar = useCallback((bar: PubLocation) => {
+    setSelectedBars(prev => {
+      if (prev.length >= 18) {
+        toast(t('map.maxReached'));
+        return prev;
+      }
+      if (prev.some(b => b.id === bar.id)) return prev;
+      return [...prev, bar];
+    });
+    // Pan map to show the bar
+    if (map) {
+      map.panTo([bar.lat, bar.lng], { animate: true, duration: 0.3 });
+    }
+  }, [map, t]);
+
+  const removeBar = useCallback((id: string) => {
+    setSelectedBars(prev => prev.filter(b => b.id !== id));
+  }, []);
+
+  const toggleBar = useCallback((bar: PubLocation) => {
+    if (selectedIds.has(bar.id)) {
+      removeBar(bar.id);
+    } else {
+      addBar(bar);
+    }
+  }, [selectedIds, addBar, removeBar]);
 
   const handleOptimize = () => {
     const optimized = optimizeRoute(selectedBars);
     setSelectedBars(optimized);
-  };
-
-  const removeBar = (id: string) => {
-    setSelectedBars(prev => prev.filter(b => b.id !== id));
   };
 
   const generateCourse = () => {
@@ -192,7 +269,6 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       };
     });
 
-    // Add turn flag
     const middleIndices = holes
       .map((_, i) => i)
       .filter(i => i > 0 && i < holes.length - 1 && holes[i].flags.length === 0);
@@ -203,9 +279,14 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
 
     if (!mode) setMode('biergolf' as any);
     setCustomHoles(holes);
-    onToggle(); // exit builder
+    onToggle();
     clearMapElements();
     setActiveTab('spiel');
+  };
+
+  const getSelectionIndex = (id: string) => {
+    const idx = selectedBars.findIndex(b => b.id === id);
+    return idx >= 0 ? idx + 1 : null;
   };
 
   return (
@@ -223,70 +304,178 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
         <Route className="w-5 h-5" />
       </button>
 
-      {/* Instruction */}
-      {active && selectedBars.length === 0 && (
-        <div className="absolute top-2 left-2 right-14 z-[1000] bg-card/95 backdrop-blur-sm rounded-lg p-3 animate-fade-in">
-          <p className="text-foreground text-xs">{t('map.tapBarsInstruction')}</p>
-        </div>
-      )}
+      {/* Bottom sheet drawer */}
+      <Drawer
+        open={active}
+        onOpenChange={(open) => { if (!open) onToggle(); }}
+        snapPoints={[0.45, 0.75, 1]}
+        activeSnapPoint={0.45}
+        modal={false}
+      >
+        <DrawerContent className="z-[1000] max-h-[85vh]">
+          <div className="flex flex-col h-full max-h-[calc(85vh-2rem)]">
+            {/* Search input - sticky */}
+            <div className="px-4 pt-2 pb-2 flex-shrink-0">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                <Input
+                  ref={searchInputRef}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder={t('map.searchBar')}
+                  className="pl-9 pr-9 h-10 text-sm"
+                />
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+            </div>
 
-      {/* Bottom panel */}
-      {active && selectedBars.length > 0 && (
-        <div className="absolute bottom-0 left-0 right-0 z-[1000] bg-card/95 backdrop-blur-sm border-t border-border p-4 pb-6 animate-fade-in safe-bottom">
-          <div className="flex items-center justify-between mb-3">
-            <span className="text-foreground text-sm font-semibold">
-              {t('map.yourCourse')}: {selectedBars.length} Bars
-            </span>
-            <button
-              onClick={onToggle}
-              className="w-8 h-8 rounded-full flex items-center justify-center bg-muted text-muted-foreground"
-            >
-              <X className="w-4 h-4" />
-            </button>
+            {/* Selected bars strip - sticky */}
+            {selectedBars.length > 0 && (
+              <div className="px-4 pb-2 flex-shrink-0">
+                <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
+                  {selectedBars.map((bar, i) => (
+                    <button
+                      key={bar.id}
+                      onClick={() => removeBar(bar.id)}
+                      className="flex-shrink-0 flex items-center gap-1 px-2 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium"
+                    >
+                      <span className="font-bold" style={{ color: cityColor }}>{i + 1}</span>
+                      <span className="truncate max-w-[80px]">{bar.name}</span>
+                      <X className="w-3 h-3 text-muted-foreground" />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Bar list - scrollable */}
+            <div className="flex-1 overflow-y-auto px-4 pb-2 min-h-0">
+              {sortedBars.length === 0 ? (
+                <div className="flex items-center justify-center py-8 text-muted-foreground text-sm">
+                  {t('map.noBarsFound')}
+                </div>
+              ) : districtGroups ? (
+                districtGroups.map(group => (
+                  <div key={group.district}>
+                    <div className="sticky top-0 bg-background/95 backdrop-blur-sm py-1.5 z-10">
+                      <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                        {group.district}
+                      </span>
+                    </div>
+                    {group.bars.map(bar => (
+                      <BarRow
+                        key={bar.id}
+                        bar={bar}
+                        selected={selectedIds.has(bar.id)}
+                        selectionIndex={getSelectionIndex(bar.id)}
+                        cityColor={cityColor}
+                        onToggle={() => toggleBar(bar)}
+                      />
+                    ))}
+                  </div>
+                ))
+              ) : (
+                sortedBars.map(bar => (
+                  <BarRow
+                    key={bar.id}
+                    bar={bar}
+                    selected={selectedIds.has(bar.id)}
+                    selectionIndex={getSelectionIndex(bar.id)}
+                    cityColor={cityColor}
+                    onToggle={() => toggleBar(bar)}
+                  />
+                ))
+              )}
+            </div>
+
+            {/* Footer - sticky */}
+            <div className="flex-shrink-0 px-4 py-3 border-t border-border bg-card/95 backdrop-blur-sm safe-bottom">
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-muted-foreground font-medium whitespace-nowrap">
+                  {selectedBars.length} / 18
+                </span>
+                <Button
+                  onClick={handleOptimize}
+                  variant="outline"
+                  size="sm"
+                  className="gap-1"
+                  disabled={selectedBars.length < 2}
+                >
+                  <Shuffle className="w-3.5 h-3.5" />
+                  {t('map.optimizeRoute')}
+                </Button>
+                <Button
+                  onClick={generateCourse}
+                  disabled={selectedBars.length < 2}
+                  size="sm"
+                  className="flex-1"
+                  variant="default"
+                >
+                  {t('map.createCourse')}
+                </Button>
+              </div>
+              {selectedBars.length > 0 && selectedBars.length < 2 && (
+                <p className="text-destructive text-xs text-center mt-1.5">{t('map.minRequired')}</p>
+              )}
+            </div>
           </div>
-
-          {/* Horizontal chip list */}
-          <div className="flex gap-1.5 overflow-x-auto pb-2 mb-3 scrollbar-hide">
-            {selectedBars.map((bar, i) => (
-              <button
-                key={bar.id}
-                onClick={() => removeBar(bar.id)}
-                className="flex-shrink-0 flex items-center gap-1 px-2 py-1 rounded-full bg-muted text-foreground text-xs font-medium"
-              >
-                <span className="font-bold" style={{ color: cityColor }}>{i + 1}</span>
-                <span className="truncate max-w-[100px]">{bar.name}</span>
-                <X className="w-3 h-3 text-muted-foreground" />
-              </button>
-            ))}
-          </div>
-
-          {/* Actions */}
-          <div className="flex gap-2 mb-2">
-            <Button
-              onClick={handleOptimize}
-              variant="outline"
-              className="flex-1 gap-1"
-              disabled={selectedBars.length < 2}
-            >
-              <Shuffle className="w-4 h-4" />
-              {t('map.optimizeRoute')}
-            </Button>
-          </div>
-
-          <Button
-            onClick={generateCourse}
-            disabled={selectedBars.length < 2}
-            className="w-full"
-            variant="default"
-          >
-            {t('map.createCourse')}
-          </Button>
-
-          {selectedBars.length < 2 && (
-            <p className="text-destructive text-xs text-center mt-2">{t('map.minRequired')}</p>
-          )}
-        </div>
-      )}
+        </DrawerContent>
+      </Drawer>
     </>
+  );
+}
+
+// Bar row component
+function BarRow({
+  bar,
+  selected,
+  selectionIndex,
+  cityColor,
+  onToggle,
+}: {
+  bar: PubLocation;
+  selected: boolean;
+  selectionIndex: number | null;
+  cityColor: string;
+  onToggle: () => void;
+}) {
+  const typeIcon = TYPE_ICONS[bar.type] || '🍺';
+
+  return (
+    <button
+      onClick={onToggle}
+      className={`w-full flex items-center gap-3 py-2.5 px-2 rounded-lg mb-0.5 text-left transition-colors tap-target ${
+        selected
+          ? 'bg-accent/50 border border-accent'
+          : 'hover:bg-muted/50'
+      }`}
+    >
+      <span className="text-lg flex-shrink-0 w-7 text-center">{typeIcon}</span>
+      <div className="flex-1 min-w-0">
+        <div className="text-sm font-semibold text-foreground truncate">{bar.name}</div>
+        <div className="text-xs text-muted-foreground truncate">{bar.address}</div>
+      </div>
+      <div className="flex-shrink-0">
+        {selected && selectionIndex != null ? (
+          <div
+            className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-white"
+            style={{ background: cityColor }}
+          >
+            {selectionIndex}
+          </div>
+        ) : (
+          <div className="w-7 h-7 rounded-full flex items-center justify-center border border-border text-muted-foreground">
+            <Plus className="w-3.5 h-3.5" />
+          </div>
+        )}
+      </div>
+    </button>
   );
 }
