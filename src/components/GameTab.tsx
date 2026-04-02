@@ -65,7 +65,27 @@ function HoleInfoCard() {
             <span className={`font-display text-2xl font-bold ${accentClass}`}>#{currentHole + 1}</span>
             <span className="text-sand text-xs">{hole.time}</span>
           </div>
-          <h3 className="font-display text-lg font-bold text-foreground mb-0.5">{hole.name}</h3>
+          <div className="flex items-center gap-1.5">
+            <h3 className="font-display text-lg font-bold text-foreground mb-0.5">{hole.name}</h3>
+            {hole.lat && hole.lng && (
+              <button
+                onClick={() => {
+                  const destination = `${hole.lat},${hole.lng}`;
+                  const label = encodeURIComponent(hole.name);
+                  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+                  if (isIOS) {
+                    window.open(`https://maps.apple.com/?daddr=${destination}&dirflg=w&q=${label}`, '_blank');
+                  } else {
+                    window.open(`https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`, '_blank');
+                  }
+                }}
+                className="text-sand hover:text-foreground transition-colors tap-target mb-0.5"
+                title={t('game.navigate')}
+              >
+                <Navigation size={16} />
+              </button>
+            )}
+          </div>
           <p className="text-sand text-sm">{hole.drink}</p>
           {isGreenMode && secondCourse && (
             <span className="inline-block mt-1 text-[10px] bg-green-accent/20 text-green-accent px-2 py-0.5 rounded-full font-bold">
