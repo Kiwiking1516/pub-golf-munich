@@ -82,7 +82,7 @@ function HoleInfoCard() {
                 className="text-sand hover:text-foreground transition-colors tap-target mb-0.5"
                 title={t('game.navigate')}
               >
-                <Navigation size={16} />
+                <NavigationIcon size={16} />
               </button>
             )}
           </div>
