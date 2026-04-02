@@ -105,6 +105,18 @@ export default function MapTab() {
   const hasCoords = holeCoords.some(c => c !== null);
 
   useEffect(() => {
+    (window as any).__pubgolfNav = (lat: number, lng: number, label: string) => {
+      const pref = getMapPref();
+      if (pref) {
+        navigateTo(pref, lat, lng, label);
+      } else {
+        setNavTarget({ lat, lng, label });
+      }
+    };
+    return () => { delete (window as any).__pubgolfNav; };
+  }, []);
+
+  useEffect(() => {
     if (!mapRef.current || !hasCoords) return;
 
     if (mapInstanceRef.current) {
