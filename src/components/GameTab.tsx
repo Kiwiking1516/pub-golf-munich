@@ -103,6 +103,14 @@ function HoleInfoCard() {
           <span className="text-gold text-xs">{t('game.signatureHole')}</span>
         </div>
       )}
+      {navTarget && (
+        <MapChoiceDialog
+          lat={navTarget.lat}
+          lng={navTarget.lng}
+          label={navTarget.label}
+          onClose={() => setNavTarget(null)}
+        />
+      )}
     </div>
   );
 }
