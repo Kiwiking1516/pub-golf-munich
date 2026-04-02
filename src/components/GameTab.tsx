@@ -42,6 +42,7 @@ function ProgressBar() {
 
 function HoleInfoCard() {
   const { holes, currentHole, isGreenMode, city } = useGame();
+  const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const { t } = useLanguage();
   const hole = holes[currentHole];
   const isSignature = hole.flags.includes('signature');
