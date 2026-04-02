@@ -5,6 +5,7 @@ import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
 import MapAreaSelect from './MapAreaSelect';
+import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
 
 const TYPE_ICONS: Record<string, string> = {
   brauhaus: '🏠',
@@ -58,6 +59,7 @@ export default function MapTab() {
   const [mapReady, setMapReady] = useState<L.Map | null>(null);
   const gpsWatchRef = useRef<number | null>(null);
   const gpsMarkerRef = useRef<L.Marker | null>(null);
+  const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const { holes, city, currentHole } = useGame();
   const { t } = useLanguage();
 
@@ -101,6 +103,18 @@ export default function MapTab() {
   });
 
   const hasCoords = holeCoords.some(c => c !== null);
+
+  useEffect(() => {
+    (window as any).__pubgolfNav = (lat: number, lng: number, label: string) => {
+      const pref = getMapPref();
+      if (pref) {
+        navigateTo(pref, lat, lng, label);
+      } else {
+        setNavTarget({ lat, lng, label });
+      }
+    };
+    return () => { delete (window as any).__pubgolfNav; };
+  }, []);
 
   useEffect(() => {
     if (!mapRef.current || !hasCoords) return;
@@ -153,11 +167,10 @@ export default function MapTab() {
           </div>
           <div style="font-size:12px;color:#444;">🍺 ${hole.drink}</div>
           <div style="font-size:11px;color:#888;margin-top:4px;">🕐 ${hole.time}</div>
-          <a href="https://www.google.com/maps/dir/?api=1&destination=${coord.lat},${coord.lng}&travelmode=walking" 
-             target="_blank" 
-             style="display:inline-block;margin-top:8px;padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;background:${cityColor};color:white;text-decoration:none;">
-             🚶 Route
-          </a>
+          <button onclick="window.__pubgolfNav(${coord.lat},${coord.lng},'${hole.name.replace(/'/g, "\\'")}')" 
+             style="display:inline-block;margin-top:8px;padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;background:${cityColor};color:white;text-decoration:none;border:none;cursor:pointer;">
+             Route
+          </button>
         </div>
       `;
 
@@ -246,6 +259,14 @@ export default function MapTab() {
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
       <MapAreaSelect map={mapReady} city={city} />
+      {navTarget && (
+        <MapChoiceDialog
+          lat={navTarget.lat}
+          lng={navTarget.lng}
+          label={navTarget.label}
+          onClose={() => setNavTarget(null)}
+        />
+      )}
     </div>
   );
 }
