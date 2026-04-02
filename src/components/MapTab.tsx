@@ -5,6 +5,7 @@ import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
 import MapAreaSelect from './MapAreaSelect';
+import MapCourseBuilder from './MapCourseBuilder';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
 
 const TYPE_ICONS: Record<string, string> = {
@@ -60,6 +61,7 @@ export default function MapTab() {
   const gpsWatchRef = useRef<number | null>(null);
   const gpsMarkerRef = useRef<L.Marker | null>(null);
   const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
+  const [activeMode, setActiveMode] = useState<'none' | 'area' | 'builder'>('none');
   const { holes, city, currentHole } = useGame();
   const { t } = useLanguage();
 
@@ -258,7 +260,18 @@ export default function MapTab() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
-      <MapAreaSelect map={mapReady} city={city} />
+      <MapAreaSelect
+        map={mapReady}
+        city={city}
+        active={activeMode === 'area'}
+        onToggle={() => setActiveMode(prev => prev === 'area' ? 'none' : 'area')}
+      />
+      <MapCourseBuilder
+        map={mapReady}
+        city={city}
+        active={activeMode === 'builder'}
+        onToggle={() => setActiveMode(prev => prev === 'builder' ? 'none' : 'builder')}
+      />
       {navTarget && (
         <MapChoiceDialog
           lat={navTarget.lat}

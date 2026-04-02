@@ -20,13 +20,13 @@ const CITY_COLORS: Record<string, string> = {
 interface Props {
   map: L.Map | null;
   city: string | null;
+  active: boolean;
+  onToggle: () => void;
 }
 
-export default function MapAreaSelect({ map, city }: Props) {
+export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
   const { setCustomHoles, setActiveTab } = useGame();
   const { t } = useLanguage();
-
-  const [active, setActive] = useState(false);
   const [center, setCenter] = useState<{ lat: number; lng: number } | null>(null);
   const [radius, setRadius] = useState(1500);
   const [showInstruction, setShowInstruction] = useState(false);
@@ -122,12 +122,12 @@ export default function MapAreaSelect({ map, city }: Props) {
 
   const toggleActive = () => {
     if (!active) {
-      setActive(true);
+      onToggle();
       setShowInstruction(true);
       if (instructionTimerRef.current) clearTimeout(instructionTimerRef.current);
       instructionTimerRef.current = setTimeout(() => setShowInstruction(false), 3000);
     } else {
-      setActive(false);
+      onToggle();
       setShowInstruction(false);
     }
   };
@@ -192,7 +192,7 @@ export default function MapAreaSelect({ map, city }: Props) {
     }
 
     setCustomHoles(holes);
-    setActive(false);
+    onToggle();
     clearMapElements();
     setActiveTab('spiel');
   };
@@ -239,7 +239,7 @@ export default function MapAreaSelect({ map, city }: Props) {
               </span>
             </div>
             <button
-              onClick={() => { setActive(false); setShowInstruction(false); }}
+              onClick={() => { onToggle(); setShowInstruction(false); }}
               className="w-8 h-8 rounded-full flex items-center justify-center bg-muted text-muted-foreground"
             >
               <X className="w-4 h-4" />
