@@ -104,6 +104,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'game.noRules': 'Keine Regeln',
     'game.rollPrompt': 'Noch keine Regeln — würfle! 🎲',
     'game.arrivalRollPrompt': 'Neue Bar, neue Regel? 🎲',
+    'game.navigate': 'Zur Bar navigieren',
     'game.reRoll': 'Neu würfeln',
     'game.addRule': 'Zusatzregel',
     'game.noRuleRolled': 'Keine Regel – Glück gehabt! 🍀',
