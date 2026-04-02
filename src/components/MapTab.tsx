@@ -259,6 +259,14 @@ export default function MapTab() {
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
       <MapAreaSelect map={mapReady} city={city} />
+      {navTarget && (
+        <MapChoiceDialog
+          lat={navTarget.lat}
+          lng={navTarget.lng}
+          label={navTarget.label}
+          onClose={() => setNavTarget(null)}
+        />
+      )}
     </div>
   );
 }
