@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { Route, X, Shuffle, Plus, Search, Check } from 'lucide-react';
+import { Route, X, Shuffle, Plus, Search, Map, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
@@ -9,10 +9,6 @@ import { getBarsForCity, optimizeRoute, shuffle } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
-import {
-  Drawer,
-  DrawerContent,
-} from '@/components/ui/drawer';
 
 const CITY_COLORS: Record<string, string> = {
   münchen: '#d4af37',
@@ -66,19 +62,18 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
 
   const [selectedBars, setSelectedBars] = useState<PubLocation[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [showMap, setShowMap] = useState(false);
 
   const selectedMarkersRef = useRef<L.Marker[]>([]);
   const barDotsRef = useRef<L.Marker[]>([]);
   const routeLineRef = useRef<L.Polyline | null>(null);
   const routeShadowRef = useRef<L.Polyline | null>(null);
-  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
   const allBars = useMemo(() => (city ? getBarsForCity(city) : []), [city]);
 
   const selectedIds = useMemo(() => new Set(selectedBars.map(b => b.id)), [selectedBars]);
 
-  // Group and filter bars
   const filteredBars = useMemo(() => {
     const query = searchQuery.toLowerCase().trim();
     if (!query) return allBars;
@@ -89,7 +84,6 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     );
   }, [allBars, searchQuery]);
 
-  // Sort by relevance when searching, otherwise group by district
   const sortedBars = useMemo(() => {
     const query = searchQuery.toLowerCase().trim();
     if (query) {
@@ -108,7 +102,6 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     });
   }, [filteredBars, searchQuery]);
 
-  // District groups (only when not searching)
   const districtGroups = useMemo(() => {
     if (searchQuery.trim()) return null;
     const groups: { district: string; bars: PubLocation[] }[] = [];
@@ -196,6 +189,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       clearMapElements();
       setSelectedBars([]);
       setSearchQuery('');
+      setShowMap(false);
     }
   }, [active, clearMapElements]);
 
@@ -208,7 +202,6 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       if (prev.some(b => b.id === bar.id)) return prev;
       return [...prev, bar];
     });
-    // Pan map to show the bar
     if (map) {
       map.panTo([bar.lat, bar.lng], { animate: true, duration: 0.3 });
     }
@@ -289,6 +282,10 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     return idx >= 0 ? idx + 1 : null;
   };
 
+  // Calculate header height: search (~56px) + chips strip (~40px if visible)
+  const headerHeight = selectedBars.length > 0 ? 'calc(56px + 44px)' : '56px';
+  const footerHeight = '64px';
+
   return (
     <>
       {/* Toggle button */}
@@ -304,22 +301,15 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
         <Route className="w-5 h-5" />
       </button>
 
-      {/* Bottom sheet drawer */}
-      <Drawer
-        open={active}
-        onOpenChange={(open) => { if (!open) onToggle(); }}
-        snapPoints={[0.45, 0.75, 1]}
-        activeSnapPoint={0.45}
-        modal={false}
-      >
-        <DrawerContent className="z-[1000] max-h-[85vh]">
-          <div className="flex flex-col h-full max-h-[calc(85vh-2rem)]">
-            {/* Search input - sticky */}
-            <div className="px-4 pt-2 pb-2 flex-shrink-0">
-              <div className="relative">
+      {/* Full-screen overlay when active and showing list */}
+      {active && !showMap && (
+        <div className="fixed inset-0 z-[1001] flex flex-col bg-background" style={{ height: 'var(--app-height, 100dvh)' }}>
+          {/* Header: search + map toggle */}
+          <div className="flex-shrink-0 bg-background border-b border-border px-4 py-3">
+            <div className="flex items-center gap-2">
+              <div className="relative flex-1">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
                 <Input
-                  ref={searchInputRef}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder={t('map.searchBar')}
@@ -334,100 +324,124 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
                   </button>
                 )}
               </div>
-            </div>
-
-            {/* Selected bars strip - sticky */}
-            {selectedBars.length > 0 && (
-              <div className="px-4 pb-2 flex-shrink-0">
-                <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
-                  {selectedBars.map((bar, i) => (
-                    <button
-                      key={bar.id}
-                      onClick={() => removeBar(bar.id)}
-                      className="flex-shrink-0 flex items-center gap-1 px-2 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium"
-                    >
-                      <span className="font-bold" style={{ color: cityColor }}>{i + 1}</span>
-                      <span className="truncate max-w-[80px]">{bar.name}</span>
-                      <X className="w-3 h-3 text-muted-foreground" />
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Bar list - scrollable */}
-            <div className="flex-1 overflow-y-auto px-4 pb-2 min-h-0">
-              {sortedBars.length === 0 ? (
-                <div className="flex items-center justify-center py-8 text-muted-foreground text-sm">
-                  {t('map.noBarsFound')}
-                </div>
-              ) : districtGroups ? (
-                districtGroups.map(group => (
-                  <div key={group.district}>
-                    <div className="sticky top-0 bg-background/95 backdrop-blur-sm py-1.5 z-10">
-                      <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                        {group.district}
-                      </span>
-                    </div>
-                    {group.bars.map(bar => (
-                      <BarRow
-                        key={bar.id}
-                        bar={bar}
-                        selected={selectedIds.has(bar.id)}
-                        selectionIndex={getSelectionIndex(bar.id)}
-                        cityColor={cityColor}
-                        onToggle={() => toggleBar(bar)}
-                      />
-                    ))}
-                  </div>
-                ))
-              ) : (
-                sortedBars.map(bar => (
-                  <BarRow
-                    key={bar.id}
-                    bar={bar}
-                    selected={selectedIds.has(bar.id)}
-                    selectionIndex={getSelectionIndex(bar.id)}
-                    cityColor={cityColor}
-                    onToggle={() => toggleBar(bar)}
-                  />
-                ))
-              )}
-            </div>
-
-            {/* Footer - sticky */}
-            <div className="flex-shrink-0 px-4 py-3 border-t border-border bg-card/95 backdrop-blur-sm safe-bottom">
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-muted-foreground font-medium whitespace-nowrap">
-                  {selectedBars.length} / 18
-                </span>
-                <Button
-                  onClick={handleOptimize}
-                  variant="outline"
-                  size="sm"
-                  className="gap-1"
-                  disabled={selectedBars.length < 2}
-                >
-                  <Shuffle className="w-3.5 h-3.5" />
-                  {t('map.optimizeRoute')}
-                </Button>
-                <Button
-                  onClick={generateCourse}
-                  disabled={selectedBars.length < 2}
-                  size="sm"
-                  className="flex-1"
-                  variant="default"
-                >
-                  {t('map.createCourse')}
-                </Button>
-              </div>
-              {selectedBars.length > 0 && selectedBars.length < 2 && (
-                <p className="text-destructive text-xs text-center mt-1.5">{t('map.minRequired')}</p>
-              )}
+              <button
+                onClick={() => setShowMap(true)}
+                className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center bg-muted text-foreground"
+                title={t('map.showMap')}
+              >
+                <Map className="w-5 h-5" />
+              </button>
+              <button
+                onClick={onToggle}
+                className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center bg-muted text-foreground"
+              >
+                <X className="w-5 h-5" />
+              </button>
             </div>
           </div>
-        </DrawerContent>
-      </Drawer>
+
+          {/* Selected bars chip strip */}
+          {selectedBars.length > 0 && (
+            <div className="flex-shrink-0 px-4 py-2 bg-background border-b border-border">
+              <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
+                {selectedBars.map((bar, i) => (
+                  <button
+                    key={bar.id}
+                    onClick={() => removeBar(bar.id)}
+                    className="flex-shrink-0 flex items-center gap-1 px-2 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium"
+                  >
+                    <span className="font-bold" style={{ color: cityColor }}>{i + 1}</span>
+                    <span className="truncate max-w-[80px]">{bar.name}</span>
+                    <X className="w-3 h-3 text-muted-foreground" />
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Bar list - scrollable middle */}
+          <div className="flex-1 overflow-y-auto px-4 py-2 min-h-0">
+            {sortedBars.length === 0 ? (
+              <div className="flex items-center justify-center py-8 text-muted-foreground text-sm">
+                {t('map.noBarsFound')}
+              </div>
+            ) : districtGroups ? (
+              districtGroups.map(group => (
+                <div key={group.district}>
+                  <div className="sticky top-0 bg-background/95 backdrop-blur-sm py-1.5 z-10">
+                    <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                      {group.district}
+                    </span>
+                  </div>
+                  {group.bars.map(bar => (
+                    <BarRow
+                      key={bar.id}
+                      bar={bar}
+                      selected={selectedIds.has(bar.id)}
+                      selectionIndex={getSelectionIndex(bar.id)}
+                      cityColor={cityColor}
+                      onToggle={() => toggleBar(bar)}
+                    />
+                  ))}
+                </div>
+              ))
+            ) : (
+              sortedBars.map(bar => (
+                <BarRow
+                  key={bar.id}
+                  bar={bar}
+                  selected={selectedIds.has(bar.id)}
+                  selectionIndex={getSelectionIndex(bar.id)}
+                  cityColor={cityColor}
+                  onToggle={() => toggleBar(bar)}
+                />
+              ))
+            )}
+          </div>
+
+          {/* Footer buttons */}
+          <div className="flex-shrink-0 px-4 py-3 border-t border-border bg-card/95 backdrop-blur-sm safe-bottom">
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-muted-foreground font-medium whitespace-nowrap">
+                {selectedBars.length} / 18
+              </span>
+              <Button
+                onClick={handleOptimize}
+                variant="outline"
+                size="sm"
+                className="gap-1"
+                disabled={selectedBars.length < 2}
+              >
+                <Shuffle className="w-3.5 h-3.5" />
+                {t('map.optimizeRoute')}
+              </Button>
+              <Button
+                onClick={generateCourse}
+                disabled={selectedBars.length < 2}
+                size="sm"
+                className="flex-1"
+                variant="default"
+              >
+                {t('map.createCourse')}
+              </Button>
+            </div>
+            {selectedBars.length > 0 && selectedBars.length < 2 && (
+              <p className="text-destructive text-xs text-center mt-1.5">{t('map.minRequired')}</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* "Back to list" button when showing map */}
+      {active && showMap && (
+        <button
+          onClick={() => setShowMap(false)}
+          className="fixed top-3 left-3 z-[1001] flex items-center gap-1.5 px-3 py-2 rounded-lg bg-card/95 backdrop-blur-sm shadow-lg border border-border text-sm font-medium text-foreground"
+        >
+          <List className="w-4 h-4" />
+          {t('map.showList')}
+        </button>
+      )}
     </>
   );
 }
