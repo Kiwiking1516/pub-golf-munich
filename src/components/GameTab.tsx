@@ -5,6 +5,7 @@ import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } fro
 import { getRuleById } from '@/data/rules';
 import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X, RefreshCw, Plus, Navigation as NavigationIcon } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
+import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
 
 function ProgressBar() {
   const { holes, currentHole, setCurrentHole, scores, players, isGreenMode } = useGame();
