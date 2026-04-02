@@ -153,6 +153,11 @@ export default function MapTab() {
           </div>
           <div style="font-size:12px;color:#444;">🍺 ${hole.drink}</div>
           <div style="font-size:11px;color:#888;margin-top:4px;">🕐 ${hole.time}</div>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=${coord.lat},${coord.lng}&travelmode=walking" 
+             target="_blank" 
+             style="display:inline-block;margin-top:8px;padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;background:${cityColor};color:white;text-decoration:none;">
+             🚶 Route
+          </a>
         </div>
       `;
 
