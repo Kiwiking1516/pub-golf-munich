@@ -303,6 +303,13 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.generate9': '9-Hole Course',
     'map.generate18': '18-Hole Course',
     'map.notEnoughBars': 'Not enough bars in area',
+    'map.buildCourse': 'Build custom course',
+    'map.tapBarsInstruction': 'Tap bars to build your course',
+    'map.yourCourse': 'Your course',
+    'map.optimizeRoute': 'Optimize route',
+    'map.createCourse': 'Create course',
+    'map.maxReached': 'Maximum 18 bars reached',
+    'map.minRequired': 'Select at least 2 bars',
     // PlayerTab
     'player.placeholder': 'Player name...',
     'player.exists': 'Name already exists or is invalid',
