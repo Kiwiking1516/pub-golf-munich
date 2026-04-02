@@ -318,6 +318,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.searchBar': 'Search bar…',
     'map.noBarsFound': 'No bars found',
     'map.barsSelected': 'bars selected',
+    'map.showMap': 'Map',
+    'map.showList': 'List',
     // PlayerTab
     'player.placeholder': 'Player name...',
     'player.exists': 'Name already exists or is invalid',
