@@ -60,6 +60,13 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.generate9': '9-Loch Kurs',
     'map.generate18': '18-Loch Kurs',
     'map.notEnoughBars': 'Nicht genug Bars im Bereich',
+    'map.buildCourse': 'Eigenen Kurs bauen',
+    'map.tapBarsInstruction': 'Tippe Bars an um deinen Kurs zu erstellen',
+    'map.yourCourse': 'Dein Kurs',
+    'map.optimizeRoute': 'Route optimieren',
+    'map.createCourse': 'Kurs erstellen',
+    'map.maxReached': 'Maximum 18 Bars erreicht',
+    'map.minRequired': 'Mindestens 2 Bars auswählen',
     // PlayerTab
     'player.placeholder': 'Spielername...',
     'player.exists': 'Name existiert bereits oder ist ungültig',
