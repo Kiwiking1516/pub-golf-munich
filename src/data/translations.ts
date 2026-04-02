@@ -313,6 +313,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.createCourse': 'Create course',
     'map.maxReached': 'Maximum 18 bars reached',
     'map.minRequired': 'Select at least 2 bars',
+    'map.searchBar': 'Search bar…',
+    'map.noBarsFound': 'No bars found',
+    'map.barsSelected': 'bars selected',
     // PlayerTab
     'player.placeholder': 'Player name...',
     'player.exists': 'Name already exists or is invalid',
