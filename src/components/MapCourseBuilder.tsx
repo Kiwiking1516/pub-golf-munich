@@ -1,11 +1,11 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { Route, X, Shuffle, Plus, Search, Map, List } from 'lucide-react';
+import { Route, X, Shuffle, Plus, Search, Map, List, LocateFixed } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getBarsForCity, optimizeRoute, shuffle } from '@/data/pubs';
+import { getBarsForCity, optimizeRoute, shuffle, distanceKm } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
