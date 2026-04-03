@@ -13,6 +13,7 @@ function loadState(): GameState {
     if (raw) return JSON.parse(raw);
   } catch {}
   return {
+    region: null,
     city: null,
     mode: null,
     players: [],
