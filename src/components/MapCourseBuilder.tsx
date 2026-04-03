@@ -406,6 +406,19 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
 
           {/* Bar list - scrollable middle */}
           <div className="flex-1 overflow-y-auto px-4 py-2 min-h-0">
+            {/* Start from location button - only when no bars selected */}
+            {selectedBars.length === 0 && (
+              <button
+                onClick={handleStartFromLocation}
+                disabled={locating}
+                className="w-full flex items-center gap-3 py-3 px-3 rounded-xl mb-3 border-2 border-primary/30 bg-primary/5 hover:bg-primary/10 transition-colors tap-target text-left"
+              >
+                <LocateFixed className="w-5 h-5 text-primary flex-shrink-0" />
+                <span className="text-sm font-semibold text-foreground">
+                  {locating ? t('map.findingLocation') : t('map.startFromLocation')}
+                </span>
+              </button>
+            )}
             {sortedBars.length === 0 ? (
               <div className="flex items-center justify-center py-8 text-muted-foreground text-sm">
                 {t('map.noBarsFound')}
