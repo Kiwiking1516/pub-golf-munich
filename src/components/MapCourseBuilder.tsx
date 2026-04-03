@@ -463,6 +463,18 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
               <span className="text-sm text-muted-foreground font-medium whitespace-nowrap">
                 {selectedBars.length} / 18
               </span>
+              {selectedBars.length >= 2 && (
+                <Button
+                  onClick={handleSortFromHere}
+                  variant="outline"
+                  size="sm"
+                  className="gap-1"
+                  disabled={locating}
+                >
+                  <LocateFixed className="w-3.5 h-3.5" />
+                  {t('map.sortFromHere')}
+                </Button>
+              )}
               <Button
                 onClick={handleOptimize}
                 variant="outline"
