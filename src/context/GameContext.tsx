@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
+import { GameMode, TabType, Hole, GameState, CityId, RegionId } from '@/types/game';
 import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 import { allRules } from '@/data/rules';
