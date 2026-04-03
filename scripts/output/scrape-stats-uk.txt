@@ -1,0 +1,19 @@
+PUB GOLF UK SCRAPE — 2026-04-03T07:01:19.597Z
+Total: 4992 bars
+
+london: 3755 bars
+  Types: kneipe:3326, craft:155, irish:40, sportbar:16, cocktailbar:20, brauhaus:37, szene:158, biergarten:3
+edinburgh: 0 bars
+  Types: 
+manchester: 271 bars
+  Types: kneipe:237, craft:14, irish:4, brauhaus:4, szene:9, cocktailbar:2, sportbar:1
+liverpool: 194 bars
+  Types: bar:138, sportbar:3, szene:36, cocktailbar:4, craft:7, brauhaus:2, irish:4
+brighton: 86 bars
+  Types: bar:64, cocktailbar:1, szene:18, craft:1, biergarten:1, irish:1
+newcastle: 196 bars
+  Types: kneipe:170, brauhaus:4, szene:15, sportbar:2, craft:3, irish:1, biergarten:1
+bristol: 0 bars
+  Types: 
+dublin: 490 bars
+  Types: kneipe:438, szene:3, irish:32, brauhaus:3, cocktailbar:6, craft:8
