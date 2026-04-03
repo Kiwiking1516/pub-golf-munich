@@ -63,6 +63,53 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const [selectedBars, setSelectedBars] = useState<PubLocation[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [showMap, setShowMap] = useState(false);
+  const [locating, setLocating] = useState(false);
+
+  const getGpsPosition = useCallback((): Promise<GeolocationPosition> => {
+    return new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject, { enableHighAccuracy: true, timeout: 10000 });
+    });
+  }, []);
+
+  const findNearestBar = useCallback((lat: number, lng: number, bars: PubLocation[]) => {
+    let nearest: PubLocation | null = null;
+    let nearestDist = Infinity;
+    for (const bar of bars) {
+      const d = distanceKm(lat, lng, bar.lat, bar.lng);
+      if (d < nearestDist) { nearestDist = d; nearest = bar; }
+    }
+    return { bar: nearest, distKm: nearestDist };
+  }, []);
+
+  const handleStartFromLocation = useCallback(async () => {
+    if (!('geolocation' in navigator)) { toast(t('map.locationDenied')); return; }
+    setLocating(true);
+    try {
+      const pos = await getGpsPosition();
+      const { bar, distKm } = findNearestBar(pos.coords.latitude, pos.coords.longitude, allBars);
+      if (!bar || distKm > 5) { toast(t('map.noNearbyBars')); setLocating(false); return; }
+      setSelectedBars([bar]);
+      const meters = Math.round(distKm * 1000);
+      toast(`${t('map.nearestBarFound')}: ${bar.name} (${meters}m)`);
+      if (map) map.panTo([bar.lat, bar.lng], { animate: true, duration: 0.3 });
+    } catch { toast(t('map.locationDenied')); }
+    setLocating(false);
+  }, [allBars, map, t, getGpsPosition, findNearestBar]);
+
+  const handleSortFromHere = useCallback(async () => {
+    if (!('geolocation' in navigator) || selectedBars.length < 2) return;
+    setLocating(true);
+    try {
+      const pos = await getGpsPosition();
+      const { bar: closest } = findNearestBar(pos.coords.latitude, pos.coords.longitude, selectedBars);
+      if (!closest) { setLocating(false); return; }
+      const rest = selectedBars.filter(b => b.id !== closest.id);
+      const optimized = optimizeRoute([closest, ...rest]);
+      // Keep closest as first, optimize the rest
+      setSelectedBars([closest, ...optimizeRoute(rest.length > 0 ? rest : [])]);
+    } catch { toast(t('map.locationDenied')); }
+    setLocating(false);
+  }, [selectedBars, t, getGpsPosition, findNearestBar]);
 
   const selectedMarkersRef = useRef<L.Marker[]>([]);
   const barDotsRef = useRef<L.Marker[]>([]);
