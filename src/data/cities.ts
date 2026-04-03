@@ -49,6 +49,42 @@ const secondCourseMap: Record<CityId, SecondCourseInfo> = {
     warning: '⚠️ Nur bei gutem Wetter spielbar',
     lore: 'Berlin trinkt nicht in Gaststuben – Berlin trinkt draußen. Die Spreebar-Tour ist eine Ode an die Outdoor-Trinkkultur der Hauptstadt: Kies unter den Schuhen, Wasser im Blick, Bier in der Hand.',
   },
+  london: {
+    emoji: '🍺',
+    name: 'Craft Crawl',
+    tagline: '9 craft beer spots across East London',
+    drink: 'Craft Pint',
+  },
+  manchester: {
+    emoji: '🐝',
+    name: 'NQ Crawl',
+    tagline: '9 stops through the Northern Quarter',
+    drink: 'Pint of Lager',
+  },
+  liverpool: {
+    emoji: '🎵',
+    name: 'Beatles Trail',
+    tagline: '9 pubs the Fab Four would approve',
+    drink: 'Pint of Lager',
+  },
+  brighton: {
+    emoji: '🌊',
+    name: 'Seaside Sesh',
+    tagline: '9 bars from the Lanes to the pier',
+    drink: 'Pint of Lager',
+  },
+  newcastle: {
+    emoji: '🌉',
+    name: 'Toon Tour',
+    tagline: '9 stops from Bigg Market to Quayside',
+    drink: 'Pint of Newcastle Brown',
+  },
+  dublin: {
+    emoji: '☘️',
+    name: 'Temple Bar Trail',
+    tagline: '9 traditional Dublin pubs',
+    drink: 'Pint of Guinness',
+  },
 };
 
 export function getSecondCourseInfo(city: CityId): SecondCourseInfo {
@@ -56,6 +92,7 @@ export function getSecondCourseInfo(city: CityId): SecondCourseInfo {
 }
 
 export const CITIES: CityConfig[] = [
+  // Germany
   {
     id: 'münchen',
     name: 'München',
@@ -64,6 +101,7 @@ export const CITIES: CityConfig[] = [
     accentHue: 46,
     accentSaturation: 65,
     accentLightness: 52,
+    region: 'de',
   },
   {
     id: 'frankfurt',
@@ -73,6 +111,7 @@ export const CITIES: CityConfig[] = [
     accentHue: 88,
     accentSaturation: 55,
     accentLightness: 53,
+    region: 'de',
   },
   {
     id: 'hamburg',
@@ -82,6 +121,7 @@ export const CITIES: CityConfig[] = [
     accentHue: 216,
     accentSaturation: 100,
     accentLightness: 64,
+    region: 'de',
   },
   {
     id: 'köln',
@@ -91,6 +131,7 @@ export const CITIES: CityConfig[] = [
     accentHue: 0,
     accentSaturation: 100,
     accentLightness: 64,
+    region: 'de',
   },
   {
     id: 'berlin',
@@ -100,6 +141,68 @@ export const CITIES: CityConfig[] = [
     accentHue: 300,
     accentSaturation: 55,
     accentLightness: 53,
+    region: 'de',
+  },
+  // UK & Ireland
+  {
+    id: 'london',
+    name: 'London',
+    emoji: '🇬🇧',
+    tagline: 'Pubs, craft bars & rooftops',
+    accentHue: 0,
+    accentSaturation: 70,
+    accentLightness: 50,
+    region: 'uk',
+  },
+  {
+    id: 'manchester',
+    name: 'Manchester',
+    emoji: '⚽',
+    tagline: 'Northern Quarter & Deansgate',
+    accentHue: 30,
+    accentSaturation: 80,
+    accentLightness: 50,
+    region: 'uk',
+  },
+  {
+    id: 'liverpool',
+    name: 'Liverpool',
+    emoji: '🎸',
+    tagline: 'Mathew Street & the waterfront',
+    accentHue: 0,
+    accentSaturation: 80,
+    accentLightness: 45,
+    region: 'uk',
+  },
+  {
+    id: 'brighton',
+    name: 'Brighton',
+    emoji: '🏖️',
+    tagline: 'The Lanes & seaside bars',
+    accentHue: 180,
+    accentSaturation: 60,
+    accentLightness: 50,
+    region: 'uk',
+  },
+  {
+    id: 'newcastle',
+    name: 'Newcastle',
+    emoji: '🍺',
+    tagline: 'Bigg Market & the Quayside',
+    accentHue: 45,
+    accentSaturation: 70,
+    accentLightness: 50,
+    region: 'uk',
+  },
+  {
+    id: 'dublin',
+    name: 'Dublin',
+    emoji: '☘️',
+    tagline: 'Temple Bar & traditional pubs',
+    accentHue: 145,
+    accentSaturation: 65,
+    accentLightness: 45,
+    region: 'uk',
   },
 ];
 
