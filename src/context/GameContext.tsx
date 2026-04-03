@@ -70,15 +70,33 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, ...partial }));
   }, []);
 
+  const setRegion = useCallback((region: RegionId) => {
+    setState(prev => ({
+      ...prev,
+      region,
+      city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+    }));
+  }, []);
+
+  const clearRegion = useCallback(() => {
+    setState(prev => ({
+      ...prev,
+      region: null, city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+    }));
+  }, []);
+
   const setCity = useCallback((city: CityId) => {
     update({ city, mode: null, holes: [], scores: {}, penalties: {}, currentHole: 0, activeTab: 'spieler', gameStarted: false, players: [] });
   }, [update]);
 
   const clearCity = useCallback(() => {
-    setState({
+    setState(prev => ({
+      ...prev,
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
-    });
+    }));
   }, []);
 
   const setMode = useCallback((mode: GameMode) => {
