@@ -1,11 +1,11 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import L from 'leaflet';
-import { Route, X, Shuffle, Plus, Search, Map, List } from 'lucide-react';
+import { Route, X, Shuffle, Plus, Search, Map, List, LocateFixed } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { getBarsForCity, optimizeRoute, shuffle } from '@/data/pubs';
+import { getBarsForCity, optimizeRoute, shuffle, distanceKm } from '@/data/pubs';
 import { allRules } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
@@ -63,6 +63,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const [selectedBars, setSelectedBars] = useState<PubLocation[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [showMap, setShowMap] = useState(false);
+  const [locating, setLocating] = useState(false);
 
   const selectedMarkersRef = useRef<L.Marker[]>([]);
   const barDotsRef = useRef<L.Marker[]>([]);
@@ -71,6 +72,50 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
   const allBars = useMemo(() => (city ? getBarsForCity(city) : []), [city]);
+
+  const getGpsPosition = useCallback((): Promise<GeolocationPosition> => {
+    return new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject, { enableHighAccuracy: true, timeout: 10000 });
+    });
+  }, []);
+
+  const findNearestBar = useCallback((lat: number, lng: number, bars: PubLocation[]) => {
+    let nearest: PubLocation | null = null;
+    let nearestDist = Infinity;
+    for (const bar of bars) {
+      const d = distanceKm(lat, lng, bar.lat, bar.lng);
+      if (d < nearestDist) { nearestDist = d; nearest = bar; }
+    }
+    return { bar: nearest, distKm: nearestDist };
+  }, []);
+
+  const handleStartFromLocation = useCallback(async () => {
+    if (!('geolocation' in navigator)) { toast(t('map.locationDenied')); return; }
+    setLocating(true);
+    try {
+      const pos = await getGpsPosition();
+      const { bar, distKm: dist } = findNearestBar(pos.coords.latitude, pos.coords.longitude, allBars);
+      if (!bar || dist > 5) { toast(t('map.noNearbyBars')); setLocating(false); return; }
+      setSelectedBars([bar]);
+      const meters = Math.round(dist * 1000);
+      toast(`${t('map.nearestBarFound')}: ${bar.name} (${meters}m)`);
+      if (map) map.panTo([bar.lat, bar.lng], { animate: true, duration: 0.3 });
+    } catch { toast(t('map.locationDenied')); }
+    setLocating(false);
+  }, [allBars, map, t, getGpsPosition, findNearestBar]);
+
+  const handleSortFromHere = useCallback(async () => {
+    if (!('geolocation' in navigator) || selectedBars.length < 2) return;
+    setLocating(true);
+    try {
+      const pos = await getGpsPosition();
+      const { bar: closest } = findNearestBar(pos.coords.latitude, pos.coords.longitude, selectedBars);
+      if (!closest) { setLocating(false); return; }
+      const rest = selectedBars.filter(b => b.id !== closest.id);
+      setSelectedBars([closest, ...optimizeRoute(rest)]);
+    } catch { toast(t('map.locationDenied')); }
+    setLocating(false);
+  }, [selectedBars, t, getGpsPosition, findNearestBar]);
 
   const selectedIds = useMemo(() => new Set(selectedBars.map(b => b.id)), [selectedBars]);
 
@@ -361,6 +406,19 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
 
           {/* Bar list - scrollable middle */}
           <div className="flex-1 overflow-y-auto px-4 py-2 min-h-0">
+            {/* Start from location button - only when no bars selected */}
+            {selectedBars.length === 0 && (
+              <button
+                onClick={handleStartFromLocation}
+                disabled={locating}
+                className="w-full flex items-center gap-3 py-3 px-3 rounded-xl mb-3 border-2 border-primary/30 bg-primary/5 hover:bg-primary/10 transition-colors tap-target text-left"
+              >
+                <LocateFixed className="w-5 h-5 text-primary flex-shrink-0" />
+                <span className="text-sm font-semibold text-foreground">
+                  {locating ? t('map.findingLocation') : t('map.startFromLocation')}
+                </span>
+              </button>
+            )}
             {sortedBars.length === 0 ? (
               <div className="flex items-center justify-center py-8 text-muted-foreground text-sm">
                 {t('map.noBarsFound')}
@@ -405,6 +463,18 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
               <span className="text-sm text-muted-foreground font-medium whitespace-nowrap">
                 {selectedBars.length} / 18
               </span>
+              {selectedBars.length >= 2 && (
+                <Button
+                  onClick={handleSortFromHere}
+                  variant="outline"
+                  size="sm"
+                  className="gap-1"
+                  disabled={locating}
+                >
+                  <LocateFixed className="w-3.5 h-3.5" />
+                  {t('map.sortFromHere')}
+                </Button>
+              )}
               <Button
                 onClick={handleOptimize}
                 variant="outline"
