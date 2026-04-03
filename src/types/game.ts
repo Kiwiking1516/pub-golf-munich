@@ -13,6 +13,7 @@ export interface CityConfig {
   accentHue: number;
   accentSaturation: number;
   accentLightness: number;
+  region: RegionId;
 }
 
 export interface Hole {
