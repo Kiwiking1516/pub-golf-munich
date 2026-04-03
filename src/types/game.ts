@@ -1,4 +1,5 @@
-export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin';
+export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin' | 'london' | 'manchester' | 'liverpool' | 'brighton' | 'newcastle' | 'dublin';
+export type RegionId = 'de' | 'uk';
 export type GameMode = 'biergolf' | 'biergarten';
 export type TabType = 'spieler' | 'kurs' | 'spiel' | 'map' | 'karte';
 export type HoleFlag = 'signature' | 'turn' | 'finale';
