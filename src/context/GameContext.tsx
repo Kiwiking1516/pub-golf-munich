@@ -28,6 +28,8 @@ function loadState(): GameState {
 }
 
 interface GameContextType extends GameState {
+  setRegion: (region: RegionId) => void;
+  clearRegion: () => void;
   setCity: (city: CityId) => void;
   clearCity: () => void;
   setMode: (mode: GameMode) => void;
