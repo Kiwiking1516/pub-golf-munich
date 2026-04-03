@@ -396,7 +396,12 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.searchBar': 'Search bar…',
     'map.noBarsFound': 'No bars found',
     'map.barsSelected': 'bars selected',
-    'map.showMap': 'Map',
+    'map.startFromLocation': 'Start from my location',
+    'map.nearestBarFound': 'Nearest bar',
+    'map.sortFromHere': 'Sort from here',
+    'map.locationDenied': 'Location access denied',
+    'map.noNearbyBars': 'No bars found nearby',
+    'map.findingLocation': 'Finding location…',
     'map.showList': 'List',
     // PlayerTab
     'player.placeholder': 'Player name...',
