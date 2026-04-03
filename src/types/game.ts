@@ -52,6 +52,7 @@ export interface PubLocation {
 }
 
 export interface GameState {
+  region: RegionId | null;
   city: CityId | null;
   mode: GameMode | null;
   players: string[];
