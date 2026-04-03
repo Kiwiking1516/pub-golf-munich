@@ -100,7 +100,12 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.searchBar': 'Bar suchen…',
     'map.noBarsFound': 'Keine Bars gefunden',
     'map.barsSelected': 'Bars ausgewählt',
-    'map.showMap': 'Karte',
+    'map.startFromLocation': 'Von meinem Standort starten',
+    'map.nearestBarFound': 'Nächste Bar',
+    'map.sortFromHere': 'Ab hier sortieren',
+    'map.locationDenied': 'Standortzugriff verweigert',
+    'map.noNearbyBars': 'Keine Bars in der Nähe gefunden',
+    'map.findingLocation': 'Standort wird gesucht…',
     'map.showList': 'Liste',
     // PlayerTab
     'player.placeholder': 'Spielername...',
