@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { GameMode, TabType, Hole, GameState, CityId } from '@/types/game';
+import { GameMode, TabType, Hole, GameState, CityId, RegionId } from '@/types/game';
 import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 import { allRules } from '@/data/rules';
@@ -13,6 +13,7 @@ function loadState(): GameState {
     if (raw) return JSON.parse(raw);
   } catch {}
   return {
+    region: null,
     city: null,
     mode: null,
     players: [],
@@ -27,6 +28,8 @@ function loadState(): GameState {
 }
 
 interface GameContextType extends GameState {
+  setRegion: (region: RegionId) => void;
+  clearRegion: () => void;
   setCity: (city: CityId) => void;
   clearCity: () => void;
   setMode: (mode: GameMode) => void;
@@ -67,15 +70,33 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, ...partial }));
   }, []);
 
+  const setRegion = useCallback((region: RegionId) => {
+    setState(prev => ({
+      ...prev,
+      region,
+      city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+    }));
+  }, []);
+
+  const clearRegion = useCallback(() => {
+    setState(prev => ({
+      ...prev,
+      region: null, city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
+      currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+    }));
+  }, []);
+
   const setCity = useCallback((city: CityId) => {
     update({ city, mode: null, holes: [], scores: {}, penalties: {}, currentHole: 0, activeTab: 'spieler', gameStarted: false, players: [] });
   }, [update]);
 
   const clearCity = useCallback(() => {
-    setState({
+    setState(prev => ({
+      ...prev,
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
-    });
+    }));
   }, []);
 
   const setMode = useCallback((mode: GameMode) => {
@@ -289,7 +310,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <GameContext.Provider value={{
-      ...state, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
+      ...state, setRegion, clearRegion, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
       addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,

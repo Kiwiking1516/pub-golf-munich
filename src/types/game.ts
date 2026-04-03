@@ -1,4 +1,5 @@
-export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin';
+export type CityId = 'münchen' | 'frankfurt' | 'hamburg' | 'köln' | 'berlin' | 'london' | 'manchester' | 'liverpool' | 'brighton' | 'newcastle' | 'dublin';
+export type RegionId = 'de' | 'uk';
 export type GameMode = 'biergolf' | 'biergarten';
 export type TabType = 'spieler' | 'kurs' | 'spiel' | 'map' | 'karte';
 export type HoleFlag = 'signature' | 'turn' | 'finale';
@@ -12,6 +13,7 @@ export interface CityConfig {
   accentHue: number;
   accentSaturation: number;
   accentLightness: number;
+  region: RegionId;
 }
 
 export interface Hole {
@@ -51,6 +53,7 @@ export interface PubLocation {
 }
 
 export interface GameState {
+  region: RegionId | null;
   city: CityId | null;
   mode: GameMode | null;
   players: string[];

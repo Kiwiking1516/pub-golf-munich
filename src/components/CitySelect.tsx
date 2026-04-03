@@ -1,21 +1,31 @@
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { CITIES } from '@/data/cities';
+import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
 
 export default function CitySelect() {
-  const { setCity } = useGame();
+  const { setCity, region, clearRegion } = useGame();
   const { t } = useLanguage();
+
+  const filteredCities = CITIES.filter(c => c.region === region);
 
   return (
     <div className="flex flex-col items-center justify-center p-6 bg-deep-green" style={{ minHeight: 'var(--app-height)' }}>
+      <div className="self-start flex items-center justify-between w-full mb-4">
+        <button onClick={clearRegion} className="text-muted-foreground flex items-center gap-1 text-sm tap-target">
+          <ChevronLeft className="w-4 h-4" /> {t('region.back')}
+        </button>
+        <LanguageToggle />
+      </div>
+
       <div className="animate-fade-in text-center mb-8">
         <h1 className="font-display text-4xl font-bold text-foreground mb-2">{t('city.title')}</h1>
         <p className="text-muted-foreground text-sm">{t('city.subtitle')}</p>
       </div>
 
       <div className="w-full max-w-sm space-y-3 animate-fade-in">
-        {CITIES.map((city) => {
+        {filteredCities.map((city) => {
           const accentStyle = { color: `hsl(${city.accentHue} ${city.accentSaturation}% ${city.accentLightness}%)` };
           const borderStyle = { borderColor: `hsl(${city.accentHue} ${city.accentSaturation}% ${city.accentLightness}% / 0.3)` };
 
@@ -34,10 +44,6 @@ export default function CitySelect() {
             </button>
           );
         })}
-      </div>
-
-      <div className="mt-6 flex items-center gap-4">
-        <LanguageToggle />
       </div>
 
       <p className="text-muted-foreground/40 text-xs mt-4 text-center">{t('city.footer')}</p>

@@ -28,6 +28,11 @@ export const allRules: Rule[] = [
   // Stadt-spezifisch
   { id: 'deckel-regel', emoji: '🍺', name: 'Deckel-Regel', type: 'handicap', shortEffect: '+1 Strafstange bei Vergessen', description: 'Bierdeckel auf die leere Stange legen – sonst bringt der Köbes automatisch die nächste. Wer das vergisst und eine ungewollte Nachbestellung bekommt, muss diese als Strafschlucke trinken.' },
   { id: 'frachter-bonus', emoji: '🚢', name: 'Frachter-Bonus', type: 'bonus', shortEffect: '-1 bei Frachter-Sichtung', description: 'Wer beim Trinken einen vorbeifahrenden Containerfrachter sieht, bekommt -1 Bonuspunkt auf diesen Loch-Score.' },
+  // UK-specific rules
+  { id: 'yard-of-ale', emoji: '🍺', name: 'Yard of Ale', type: 'bonus', shortEffect: '-3 bonus if completed', description: 'If any pub offers a Yard of Ale and a player finishes it, they get -3 bonus on this hole.' },
+  { id: 'pub-quiz', emoji: '🧠', name: 'Pub Quiz', type: 'fun', shortEffect: '+1 per wrong answer', description: 'Each player must answer a trivia question about the city. Wrong answer = +1 penalty sip.' },
+  { id: 'accent-round', emoji: '🎭', name: 'Accent Round', type: 'fun', shortEffect: '+1 if you break character', description: 'Everyone must speak in a local accent for the entire hole. Breaking character = +1 penalty.' },
+  { id: 'round-shout', emoji: '📣', name: 'Round Shout', type: 'handicap', shortEffect: 'Last place buys the round', description: 'The player currently in last place must buy this round for everyone. Their penalty: +2 on score.' },
 ];
 
 export function getRuleById(id: string): Rule | undefined {
