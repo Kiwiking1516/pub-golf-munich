@@ -65,6 +65,14 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const [showMap, setShowMap] = useState(false);
   const [locating, setLocating] = useState(false);
 
+  const selectedMarkersRef = useRef<L.Marker[]>([]);
+  const barDotsRef = useRef<L.Marker[]>([]);
+  const routeLineRef = useRef<L.Polyline | null>(null);
+  const routeShadowRef = useRef<L.Polyline | null>(null);
+
+  const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
+  const allBars = useMemo(() => (city ? getBarsForCity(city) : []), [city]);
+
   const getGpsPosition = useCallback((): Promise<GeolocationPosition> => {
     return new Promise((resolve, reject) => {
       navigator.geolocation.getCurrentPosition(resolve, reject, { enableHighAccuracy: true, timeout: 10000 });
@@ -86,10 +94,10 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     setLocating(true);
     try {
       const pos = await getGpsPosition();
-      const { bar, distKm } = findNearestBar(pos.coords.latitude, pos.coords.longitude, allBars);
-      if (!bar || distKm > 5) { toast(t('map.noNearbyBars')); setLocating(false); return; }
+      const { bar, distKm: dist } = findNearestBar(pos.coords.latitude, pos.coords.longitude, allBars);
+      if (!bar || dist > 5) { toast(t('map.noNearbyBars')); setLocating(false); return; }
       setSelectedBars([bar]);
-      const meters = Math.round(distKm * 1000);
+      const meters = Math.round(dist * 1000);
       toast(`${t('map.nearestBarFound')}: ${bar.name} (${meters}m)`);
       if (map) map.panTo([bar.lat, bar.lng], { animate: true, duration: 0.3 });
     } catch { toast(t('map.locationDenied')); }
@@ -104,20 +112,10 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       const { bar: closest } = findNearestBar(pos.coords.latitude, pos.coords.longitude, selectedBars);
       if (!closest) { setLocating(false); return; }
       const rest = selectedBars.filter(b => b.id !== closest.id);
-      const optimized = optimizeRoute([closest, ...rest]);
-      // Keep closest as first, optimize the rest
-      setSelectedBars([closest, ...optimizeRoute(rest.length > 0 ? rest : [])]);
+      setSelectedBars([closest, ...optimizeRoute(rest)]);
     } catch { toast(t('map.locationDenied')); }
     setLocating(false);
   }, [selectedBars, t, getGpsPosition, findNearestBar]);
-
-  const selectedMarkersRef = useRef<L.Marker[]>([]);
-  const barDotsRef = useRef<L.Marker[]>([]);
-  const routeLineRef = useRef<L.Polyline | null>(null);
-  const routeShadowRef = useRef<L.Polyline | null>(null);
-
-  const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
-  const allBars = useMemo(() => (city ? getBarsForCity(city) : []), [city]);
 
   const selectedIds = useMemo(() => new Set(selectedBars.map(b => b.id)), [selectedBars]);
 
