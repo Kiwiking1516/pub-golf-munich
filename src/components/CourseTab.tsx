@@ -7,7 +7,7 @@ import { Switch } from '@/components/ui/switch';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Hole } from '@/types/game';
 import { encodeCourse } from '@/utils/courseShare';
-import qrcode from 'qrcode-generator';
+
 
 function HoleFlagBadge({ flag }: { flag: string }) {
   const { t } = useLanguage();
@@ -182,16 +182,6 @@ export default function CourseTab() {
 
   const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
 
-  const qrDataUrl = showShare && shareUrl ? (() => {
-    try {
-      const qr = qrcode(0, 'L');
-      qr.addData(shareUrl);
-      qr.make();
-      return qr.createDataURL(6, 4);
-    } catch {
-      return '';
-    }
-  })() : '';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(shareUrl).then(() => {
@@ -247,11 +237,11 @@ export default function CourseTab() {
                 {copied ? t('course.copied') : t('course.copy')}
               </button>
             </div>
-            {qrDataUrl ? (
-              <img src={qrDataUrl} alt="QR Code" className="w-48 h-48 mx-auto rounded-lg" />
-            ) : (
-              <div className="mx-auto w-48 h-48 bg-white rounded-lg flex items-center justify-center text-muted-foreground text-xs">QR</div>
-            )}
+            <img
+              src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(shareUrl)}`}
+              alt="QR Code"
+              className="w-48 h-48 mx-auto rounded-lg bg-white p-2"
+            />
             <p className="text-sand text-xs text-center">{t('course.shareNote')}</p>
           </div>
         </DialogContent>
