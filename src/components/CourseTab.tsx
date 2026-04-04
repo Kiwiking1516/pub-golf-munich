@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { allRules, getRuleTypeColor } from '@/data/rules';
