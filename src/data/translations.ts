@@ -410,6 +410,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.locationDenied': 'Location access denied',
     'map.noNearbyBars': 'No bars found nearby',
     'map.findingLocation': 'Finding location…',
+    'map.courseCreatedShare': 'Course created! Share it in the Course tab.',
     'map.showList': 'List',
     // PlayerTab
     'player.placeholder': 'Player name...',
