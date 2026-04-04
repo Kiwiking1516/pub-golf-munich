@@ -28,6 +28,12 @@ function loadState(): GameState {
   };
 }
 
+interface PendingImport {
+  city: CityId;
+  mode: GameMode;
+  holes: Hole[];
+}
+
 interface GameContextType extends GameState {
   setRegion: (region: RegionId) => void;
   clearRegion: () => void;
@@ -56,6 +62,8 @@ interface GameContextType extends GameState {
   getPlayerTotalPar: (player: string) => number;
   getPlayerHolesPlayed: (player: string) => number;
   isGreenMode: boolean;
+  pendingImport: PendingImport | null;
+  clearPendingImport: () => void;
 }
 
 const GameContext = createContext<GameContextType | null>(null);
