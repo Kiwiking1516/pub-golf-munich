@@ -127,6 +127,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'course.copy': 'Kopieren',
     'course.copied': 'Kopiert!',
     'course.shareNote': 'Jeder mit diesem Link kann deinen Kurs importieren',
+    'course.qrTooLong': 'Link zu lang für QR-Code — nutze den Kopieren-Button',
     'course.sharedCourse': 'Geteilter Kurs',
     'course.loadCourse': 'Kurs laden',
     'course.cancelImport': 'Abbrechen',
