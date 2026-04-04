@@ -180,7 +180,7 @@ export default function CourseTab() {
   const [showShare, setShowShare] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const shareUrl = city && mode ? `${window.location.origin}/#/shared/${encodeCourse(holes, city, mode)}` : '';
+  const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
 
   const qrSvg = showShare && shareUrl ? (() => {
     const qr = qrcode(0, 'M');

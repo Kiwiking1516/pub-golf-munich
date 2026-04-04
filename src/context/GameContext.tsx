@@ -341,6 +341,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
+      pendingImport, clearPendingImport,
     }}>
       {children}
     </GameContext.Provider>
