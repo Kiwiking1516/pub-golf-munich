@@ -7,7 +7,7 @@ import { Switch } from '@/components/ui/switch';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Hole } from '@/types/game';
 import { encodeCourse } from '@/utils/courseShare';
-import qrcode from 'qrcode-generator';
+
 
 function HoleFlagBadge({ flag }: { flag: string }) {
   const { t } = useLanguage();
