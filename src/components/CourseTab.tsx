@@ -237,11 +237,7 @@ export default function CourseTab() {
                 {copied ? t('course.copied') : t('course.copy')}
               </button>
             </div>
-            <img
-              src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(shareUrl)}`}
-              alt="QR Code"
-              className="w-48 h-48 mx-auto rounded-lg bg-white p-2"
-            />
+            <QRCanvas url={shareUrl} />
             <p className="text-sand text-xs text-center">{t('course.shareNote')}</p>
           </div>
         </DialogContent>
