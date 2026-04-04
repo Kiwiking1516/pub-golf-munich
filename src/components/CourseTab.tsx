@@ -172,17 +172,41 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode, city, mode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
   const totalRules = holes.reduce((s, h) => s + h.activeRules.length, 0);
+  const [showShare, setShowShare] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const shareUrl = city && mode ? `${window.location.origin}/#/shared/${encodeCourse(holes, city, mode)}` : '';
+
+  const qrSvg = showShare && shareUrl ? (() => {
+    const qr = qrcode(0, 'M');
+    qr.addData(shareUrl);
+    qr.make();
+    return qr.createSvgTag({ scalable: true });
+  })() : '';
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
 
   return (
     <div className="flex flex-col h-full">
       <div className="flex items-center justify-between p-4 pb-2">
         <h2 className={`font-display font-bold text-lg ${accentClass}`}>{t('course.editor')}</h2>
         <div className="flex items-center gap-3">
+          <button
+            onClick={() => setShowShare(true)}
+            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
+          >
+            <Share2 className="w-3.5 h-3.5" /> {t('course.share')}
+          </button>
           <button
             onClick={() => { if (window.confirm(t('course.shuffle_confirm'))) shuffleCourse(); }}
             className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
@@ -197,6 +221,36 @@ export default function CourseTab() {
           </button>
         </div>
       </div>
+
+      {/* Share Dialog */}
+      <Dialog open={showShare} onOpenChange={setShowShare}>
+        <DialogContent className="max-w-sm mx-auto bg-card border-border">
+          <DialogHeader>
+            <DialogTitle className={accentClass}>{t('course.share')}</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4">
+            <div className="flex gap-2">
+              <input
+                readOnly
+                value={shareUrl}
+                className="flex-1 bg-input border border-border rounded-md px-3 py-2 text-foreground text-xs focus:outline-none truncate"
+              />
+              <button
+                onClick={handleCopy}
+                className="bg-muted text-foreground px-3 py-2 rounded-md text-xs font-medium flex items-center gap-1 hover:bg-accent transition-colors"
+              >
+                {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                {copied ? t('course.copied') : t('course.copy')}
+              </button>
+            </div>
+            <div
+              className="mx-auto w-[200px] h-[200px] bg-white rounded-lg p-2 flex items-center justify-center"
+              dangerouslySetInnerHTML={{ __html: qrSvg }}
+            />
+            <p className="text-sand text-xs text-center">{t('course.shareNote')}</p>
+          </div>
+        </DialogContent>
+      </Dialog>
 
       {/* Surprise Mode toggle */}
       <div className="flex items-center justify-between px-4 pb-2">
