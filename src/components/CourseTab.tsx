@@ -182,16 +182,6 @@ export default function CourseTab() {
 
   const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
 
-  const qrDataUrl = showShare && shareUrl ? (() => {
-    try {
-      const qr = qrcode(0, 'L');
-      qr.addData(shareUrl);
-      qr.make();
-      return qr.createDataURL(6, 4);
-    } catch {
-      return '';
-    }
-  })() : '';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(shareUrl).then(() => {
