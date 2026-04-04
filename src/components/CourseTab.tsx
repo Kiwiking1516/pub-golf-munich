@@ -237,11 +237,11 @@ export default function CourseTab() {
                 {copied ? t('course.copied') : t('course.copy')}
               </button>
             </div>
-            {qrDataUrl ? (
-              <img src={qrDataUrl} alt="QR Code" className="w-48 h-48 mx-auto rounded-lg" />
-            ) : (
-              <div className="mx-auto w-48 h-48 bg-white rounded-lg flex items-center justify-center text-muted-foreground text-xs">QR</div>
-            )}
+            <img
+              src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(shareUrl)}`}
+              alt="QR Code"
+              className="w-48 h-48 mx-auto rounded-lg bg-white p-2"
+            />
             <p className="text-sand text-xs text-center">{t('course.shareNote')}</p>
           </div>
         </DialogContent>
