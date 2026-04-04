@@ -5,39 +5,37 @@ export function encodeCourse(holes: Hole[], city: CityId, mode: GameMode): strin
     v: 1,
     c: city,
     m: mode,
-    h: holes.map(h => ({
-      n: h.name,
-      d: h.drink,
-      p: h.par,
-      t: h.time,
-      f: h.flags,
-      la: h.lat,
-      ln: h.lng,
-      b: h.barId,
-    })),
+    h: holes.map(h => [
+      h.name,
+      h.drink,
+      h.par,
+      h.lat || 0,
+      h.lng || 0,
+      h.barId || ''
+    ]),
   };
-  const json = JSON.stringify(payload);
-  const compressed = btoa(encodeURIComponent(json));
-  return compressed;
+  return btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
 }
 
 export function decodeCourse(encoded: string): { city: CityId; mode: GameMode; holes: Hole[] } | null {
   try {
-    const json = decodeURIComponent(atob(encoded));
-    const payload = JSON.parse(json);
-    if (payload.v !== 1) return null;
-    const holes: Hole[] = payload.h.map((h: any) => ({
-      name: h.n,
-      drink: h.d,
-      par: h.p,
-      time: h.t,
-      flags: h.f || [],
+    const json = decodeURIComponent(escape(atob(encoded)));
+    const p = JSON.parse(json);
+    if (p.v !== 1) return null;
+    const holes: Hole[] = p.h.map((h: any, i: number) => ({
+      name: Array.isArray(h) ? h[0] : h.n,
+      drink: Array.isArray(h) ? h[1] : h.d,
+      par: Array.isArray(h) ? h[2] : h.p,
+      time: Array.isArray(h) ? `${10 + Math.floor(i * 0.75)}:${i % 2 === 0 ? '00' : '30'}` : (h.t || '10:00'),
+      flags: Array.isArray(h)
+        ? (i === 0 ? ['signature'] : i === p.h.length - 1 ? ['finale'] : [])
+        : (h.f || []),
       activeRules: [],
-      lat: h.la,
-      lng: h.ln,
-      barId: h.b,
+      lat: (Array.isArray(h) ? h[3] : h.la) || undefined,
+      lng: (Array.isArray(h) ? h[4] : h.ln) || undefined,
+      barId: (Array.isArray(h) ? h[5] : h.b) || undefined,
     }));
-    return { city: payload.c, mode: payload.m, holes };
+    return { city: p.c, mode: p.m, holes };
   } catch {
     return null;
   }
