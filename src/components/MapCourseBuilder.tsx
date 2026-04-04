@@ -320,6 +320,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     onToggle();
     clearMapElements();
     setActiveTab('spiel');
+    toast(t('map.courseCreatedShare'));
   };
 
   const getSelectionIndex = (id: string) => {
