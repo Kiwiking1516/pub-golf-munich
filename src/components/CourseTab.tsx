@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { allRules, getRuleTypeColor } from '@/data/rules';
-import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles } from 'lucide-react';
+import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles, Share2, Copy, Check } from 'lucide-react';
 import { Switch } from '@/components/ui/switch';
 import { Hole } from '@/types/game';
 
