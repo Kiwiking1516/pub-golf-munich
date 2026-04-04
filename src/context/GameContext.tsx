@@ -70,6 +70,24 @@ const GameContext = createContext<GameContextType | null>(null);
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<GameState>(loadState);
+  const [pendingImport, setPendingImport] = useState<PendingImport | null>(null);
+  const importChecked = useRef(false);
+
+  useEffect(() => {
+    if (importChecked.current) return;
+    importChecked.current = true;
+    const params = new URLSearchParams(window.location.search);
+    const courseParam = params.get('course');
+    if (courseParam) {
+      const decoded = decodeCourse(courseParam);
+      if (decoded) {
+        setPendingImport(decoded);
+      }
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  }, []);
+
+  const clearPendingImport = useCallback(() => setPendingImport(null), []);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
