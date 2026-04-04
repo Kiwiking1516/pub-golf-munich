@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { GameMode, TabType, Hole, GameState, CityId, RegionId } from '@/types/game';
+import { decodeCourse } from '@/utils/courseShare';
 import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
 import { allRules } from '@/data/rules';
@@ -25,6 +26,12 @@ function loadState(): GameState {
     gameStarted: false,
     surpriseMode: false,
   };
+}
+
+interface PendingImport {
+  city: CityId;
+  mode: GameMode;
+  holes: Hole[];
 }
 
 interface GameContextType extends GameState {
@@ -55,12 +62,32 @@ interface GameContextType extends GameState {
   getPlayerTotalPar: (player: string) => number;
   getPlayerHolesPlayed: (player: string) => number;
   isGreenMode: boolean;
+  pendingImport: PendingImport | null;
+  clearPendingImport: () => void;
 }
 
 const GameContext = createContext<GameContextType | null>(null);
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<GameState>(loadState);
+  const [pendingImport, setPendingImport] = useState<PendingImport | null>(null);
+  const importChecked = useRef(false);
+
+  useEffect(() => {
+    if (importChecked.current) return;
+    importChecked.current = true;
+    const params = new URLSearchParams(window.location.search);
+    const courseParam = params.get('course');
+    if (courseParam) {
+      const decoded = decodeCourse(courseParam);
+      if (decoded) {
+        setPendingImport(decoded);
+      }
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  }, []);
+
+  const clearPendingImport = useCallback(() => setPendingImport(null), []);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -314,6 +341,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
+      pendingImport, clearPendingImport,
     }}>
       {children}
     </GameContext.Provider>
