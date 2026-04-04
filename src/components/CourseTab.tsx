@@ -182,12 +182,12 @@ export default function CourseTab() {
 
   const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
 
-  const qrSvg = showShare && shareUrl ? (() => {
+  const qrDataUrl = showShare && shareUrl ? (() => {
     try {
       const qr = qrcode(0, 'L');
       qr.addData(shareUrl);
       qr.make();
-      return qr.createSvgTag({ scalable: true });
+      return qr.createDataURL(6, 4);
     } catch {
       return '';
     }
