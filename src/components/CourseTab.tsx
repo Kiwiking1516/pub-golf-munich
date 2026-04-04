@@ -211,7 +211,7 @@ function QRCanvas({ url }: { url: string }) {
   return <canvas ref={canvasRef} className="mx-auto rounded-lg bg-white p-2" style={{ width: 200, height: 200 }} />;
 }
 
-
+export default function CourseTab() {
   const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode, city, mode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
