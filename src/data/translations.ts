@@ -106,6 +106,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'map.locationDenied': 'Standortzugriff verweigert',
     'map.noNearbyBars': 'Keine Bars in der Nähe gefunden',
     'map.findingLocation': 'Standort wird gesucht…',
+    'map.courseCreatedShare': 'Kurs erstellt! Teile ihn im Kurs-Tab.',
     'map.showList': 'Liste',
     // PlayerTab
     'player.placeholder': 'Spielername...',
