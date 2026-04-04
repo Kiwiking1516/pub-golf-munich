@@ -170,8 +170,48 @@ function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active:
     </div>
   );
 }
+function QRCanvas({ url }: { url: string }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const { t } = useLanguage();
+  const [qrError, setQrError] = useState(false);
 
-export default function CourseTab() {
+  useEffect(() => {
+    if (!canvasRef.current || !url) return;
+    try {
+      const qr = (window as any).qrcode(0, 'M');
+      qr.addData(url);
+      qr.make();
+      const canvas = canvasRef.current;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+      const moduleCount = qr.getModuleCount();
+      const cellSize = Math.floor(200 / moduleCount);
+      const size = cellSize * moduleCount;
+      canvas.width = size;
+      canvas.height = size;
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, size, size);
+      ctx.fillStyle = '#000000';
+      for (let row = 0; row < moduleCount; row++) {
+        for (let col = 0; col < moduleCount; col++) {
+          if (qr.isDark(row, col)) {
+            ctx.fillRect(col * cellSize, row * cellSize, cellSize, cellSize);
+          }
+        }
+      }
+      setQrError(false);
+    } catch {
+      setQrError(true);
+    }
+  }, [url]);
+
+  if (qrError) {
+    return <p className="text-sand text-xs text-center">{t('course.qrTooLong')}</p>;
+  }
+  return <canvas ref={canvasRef} className="mx-auto rounded-lg bg-white p-2" style={{ width: 200, height: 200 }} />;
+}
+
+
   const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode, city, mode } = useGame();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
