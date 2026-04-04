@@ -182,12 +182,12 @@ export default function CourseTab() {
 
   const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
 
-  const qrSvg = showShare && shareUrl ? (() => {
+  const qrDataUrl = showShare && shareUrl ? (() => {
     try {
       const qr = qrcode(0, 'L');
       qr.addData(shareUrl);
       qr.make();
-      return qr.createSvgTag({ scalable: true });
+      return qr.createDataURL(6, 4);
     } catch {
       return '';
     }
@@ -247,10 +247,11 @@ export default function CourseTab() {
                 {copied ? t('course.copied') : t('course.copy')}
               </button>
             </div>
-            <div
-              className="mx-auto w-[200px] h-[200px] bg-white rounded-lg p-2 flex items-center justify-center"
-              dangerouslySetInnerHTML={{ __html: qrSvg }}
-            />
+            {qrDataUrl ? (
+              <img src={qrDataUrl} alt="QR Code" className="w-48 h-48 mx-auto rounded-lg" />
+            ) : (
+              <div className="mx-auto w-48 h-48 bg-white rounded-lg flex items-center justify-center text-muted-foreground text-xs">QR</div>
+            )}
             <p className="text-sand text-xs text-center">{t('course.shareNote')}</p>
           </div>
         </DialogContent>
