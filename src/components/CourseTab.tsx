@@ -4,7 +4,10 @@ import { useLanguage } from '@/context/LanguageContext';
 import { allRules, getRuleTypeColor } from '@/data/rules';
 import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles, Share2, Copy, Check } from 'lucide-react';
 import { Switch } from '@/components/ui/switch';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Hole } from '@/types/game';
+import { encodeCourse } from '@/utils/courseShare';
+import qrcode from 'qrcode-generator';
 
 function HoleFlagBadge({ flag }: { flag: string }) {
   const { t } = useLanguage();
