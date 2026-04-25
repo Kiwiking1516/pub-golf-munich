@@ -11,7 +11,7 @@ export default function CitySelect() {
   const filteredCities = CITIES.filter(c => c.region === region);
 
   return (
-    <div className="flex flex-col items-center p-6 bg-deep-green overflow-y-auto" style={{ minHeight: 'var(--app-height)', maxHeight: 'var(--app-height)' }}>
+    <div className="flex flex-col items-center p-6 bg-deep-green overflow-y-auto overscroll-contain" style={{ height: 'var(--app-height)', WebkitOverflowScrolling: 'touch' }}>
       <div className="self-start flex items-center justify-between w-full mb-4">
         <button onClick={clearRegion} className="text-muted-foreground flex items-center gap-1 text-sm tap-target">
           <ChevronLeft className="w-4 h-4" /> {t('region.back')}
