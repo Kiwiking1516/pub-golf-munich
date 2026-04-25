@@ -46,7 +46,7 @@ export default function CitySelect() {
         })}
       </div>
 
-      <p className="text-muted-foreground/40 text-xs mt-4 text-center">{t('city.footer')}</p>
+      <p className="text-muted-foreground/40 text-xs mt-4 mb-8 text-center">{t('city.footer')}</p>
     </div>
   );
 }
