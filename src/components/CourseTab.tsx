@@ -143,7 +143,7 @@ function Field({ label, value, onChange }: { label: string; value: string; onCha
   );
 }
 
-function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active: boolean; onToggle: () => void }) {
+function RuleRow({ rule, active, onToggle }: { rule: import('@/types/game').Rule; active: boolean; onToggle: () => void }) {
   const [expanded, setExpanded] = useState(false);
   const { t } = useLanguage();
   const colorClass = `text-${getRuleTypeColor(rule.type)}`;

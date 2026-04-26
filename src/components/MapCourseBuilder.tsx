@@ -272,7 +272,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const generateCourse = () => {
     if (selectedBars.length < 2) return;
 
-    const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch');
+    const eligibleRules = getRulesForCity(city as import('@/types/game').CityId | null).filter(r => r.id !== 'doppeltes-loch');
     const shuffledRules = shuffle(eligibleRules);
     let ruleIdx = 0;
 
