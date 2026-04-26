@@ -4,9 +4,10 @@ import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/citie
 import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
+import { Switch } from '@/components/ui/switch';
 
 export default function ModeSelect() {
-  const { city, setMode, clearCity } = useGame();
+  const { city, setMode, clearCity, alcoholFreeMode, setAlcoholFreeMode } = useGame();
   const { t } = useLanguage();
   if (!city) return null;
   const cityConfig = getCityById(city);
