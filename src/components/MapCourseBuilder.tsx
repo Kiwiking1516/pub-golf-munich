@@ -316,7 +316,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
     }
 
     if (!mode) setMode('biergolf' as any);
-    setCustomHoles(holes);
+    setCustomHoles(holes, 'builder');
     onToggle();
     clearMapElements();
     setActiveTab('spiel');

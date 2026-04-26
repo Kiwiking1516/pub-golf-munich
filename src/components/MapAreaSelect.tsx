@@ -191,7 +191,7 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
       holes[turnIdx].flags = ['turn'];
     }
 
-    setCustomHoles(holes);
+    setCustomHoles(holes, 'builder');
     onToggle();
     clearMapElements();
     setActiveTab('spiel');
