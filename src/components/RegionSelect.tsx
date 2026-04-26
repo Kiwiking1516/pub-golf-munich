@@ -41,6 +41,7 @@ export default function RegionSelect() {
       </div>
 
       <p className="text-muted-foreground/40 text-xs mt-4 text-center">🍻 Pub Golf</p>
+      <p className="text-muted-foreground/60 text-[10px] mt-2 text-center max-w-xs px-4">{t('region.ageFooter')}</p>
     </div>
   );
 }
