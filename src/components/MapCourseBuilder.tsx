@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getBarsForCity, optimizeRoute, shuffle, distanceKm } from '@/data/pubs';
-import { allRules } from '@/data/rules';
+import { getRulesForCity } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
 
@@ -272,7 +272,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
   const generateCourse = () => {
     if (selectedBars.length < 2) return;
 
-    const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch');
+    const eligibleRules = getRulesForCity(city as import('@/types/game').CityId | null).filter(r => r.id !== 'doppeltes-loch');
     const shuffledRules = shuffle(eligibleRules);
     let ruleIdx = 0;
 

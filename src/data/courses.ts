@@ -477,6 +477,7 @@ const courseMap: Record<CityId, Record<GameMode, Hole[]>> = {
 import { allRules } from '@/data/rules';
 
 export function assignDefaultRules(holes: Hole[]): Hole[] {
+  // Note: city-scoping handled at runtime via getRulesForCity in shuffleCourse and rollRuleForHole.
   const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch' && r.id !== 'deckel-regel' && r.id !== 'frachter-bonus');
   const shuffled = [...eligibleRules].sort(() => Math.random() - 0.5);
   let ruleIdx = 0;

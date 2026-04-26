@@ -3,7 +3,7 @@ import { GameMode, TabType, Hole, GameState, CityId, RegionId } from '@/types/ga
 import { decodeCourse } from '@/utils/courseShare';
 import { getDefaultHoles, assignDefaultRules } from '@/data/courses';
 import { generateRandomCourse, calculateTotalPar } from '@/data/pubs';
-import { allRules } from '@/data/rules';
+import { getRulesForCity } from '@/data/rules';
 import { HoleFlag } from '@/types/game';
 
 const STORAGE_KEY = 'pubgolf-state';
@@ -204,7 +204,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     const randomPubs = generateRandomCourse(state.city, holeCount);
 
     // Pick random rules: ~40% of holes get 1 rule
-    const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch');
+    const eligibleRules = getRulesForCity(state.city).filter(r => r.id !== 'doppeltes-loch');
     const shuffledRules = [...eligibleRules].sort(() => Math.random() - 0.5);
     let ruleIdx = 0;
 
@@ -314,7 +314,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const hole = prev.holes[holeIndex];
       if (!hole) return prev;
       const usedRules = new Set(hole.activeRules);
-      const available = allRules.filter(r => r.id !== 'doppeltes-loch' && !usedRules.has(r.id));
+      const available = getRulesForCity(prev.city).filter(r => r.id !== 'doppeltes-loch' && !usedRules.has(r.id));
       if (available.length === 0) return prev;
       const picked = available[Math.floor(Math.random() * available.length)];
       pickedId = picked.id;

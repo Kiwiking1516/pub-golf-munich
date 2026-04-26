@@ -35,6 +35,12 @@ export interface Rule {
   type: RuleType;
   shortEffect: string;
   description: string;
+  /** If set, rule only applies when the selected city is in one of these regions. */
+  regions?: RegionId[];
+  /** If set, rule only applies when the selected city matches one of these IDs. */
+  cities?: CityId[];
+  // A rule is universal if BOTH regions and cities are undefined/empty.
+  // If either is set, the rule applies when the city OR its region matches.
 }
 
 export interface PubLocation {

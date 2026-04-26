@@ -6,7 +6,8 @@ import { Button } from '@/components/ui/button';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getBarsForCity, distanceKm, optimizeRoute, shuffle } from '@/data/pubs';
-import { allRules } from '@/data/rules';
+import { getRulesForCity } from '@/data/rules';
+import { CityId } from '@/types/game';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 
 const CITY_COLORS: Record<string, string> = {
@@ -147,7 +148,7 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
     const selected = shuffle(barsInRadius).slice(0, count);
     const routed = optimizeRoute(selected);
 
-    const eligibleRules = allRules.filter(r => r.id !== 'doppeltes-loch');
+    const eligibleRules = getRulesForCity(city as CityId | null).filter(r => r.id !== 'doppeltes-loch');
     const shuffledRules = shuffle(eligibleRules);
     let ruleIdx = 0;
 

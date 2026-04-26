@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { allRules, getRuleTypeColor } from '@/data/rules';
+import { getRuleTypeColor, getRulesForCity } from '@/data/rules';
 import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles, Share2, Copy, Check } from 'lucide-react';
 import { Switch } from '@/components/ui/switch';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
@@ -29,7 +29,7 @@ function HoleFlagBadge({ flag }: { flag: string }) {
 function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpdate: (h: Hole) => void }) {
   const [open, setOpen] = useState(false);
   const [subTab, setSubTab] = useState<'info' | 'rules'>('info');
-  const { isGreenMode, surpriseMode, alcoholFreeMode } = useGame();
+  const { isGreenMode, surpriseMode, alcoholFreeMode, city } = useGame();
   const { t, lang } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
@@ -108,7 +108,7 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
                 </div>
               ) : (
                 <>
-                  {allRules.map(rule => {
+                  {getRulesForCity(city).map(rule => {
                     const active = hole.activeRules.includes(rule.id);
                     return <RuleRow key={rule.id} rule={rule} active={active} onToggle={() => {
                       const ar = active ? hole.activeRules.filter(r => r !== rule.id) : [...hole.activeRules, rule.id];
@@ -143,7 +143,7 @@ function Field({ label, value, onChange }: { label: string; value: string; onCha
   );
 }
 
-function RuleRow({ rule, active, onToggle }: { rule: typeof allRules[0]; active: boolean; onToggle: () => void }) {
+function RuleRow({ rule, active, onToggle }: { rule: import('@/types/game').Rule; active: boolean; onToggle: () => void }) {
   const [expanded, setExpanded] = useState(false);
   const { t } = useLanguage();
   const colorClass = `text-${getRuleTypeColor(rule.type)}`;
