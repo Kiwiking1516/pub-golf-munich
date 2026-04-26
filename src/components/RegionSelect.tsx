@@ -42,6 +42,11 @@ export default function RegionSelect() {
 
       <p className="text-muted-foreground/40 text-xs mt-4 text-center">🍻 Pub Golf</p>
       <p className="text-muted-foreground/60 text-[10px] mt-2 text-center max-w-xs px-4">{t('region.ageFooter')}</p>
+      <p className="text-muted-foreground/60 text-[10px] mt-2 text-center">
+        <a href="/#/privacy" className="hover:text-foreground transition-colors underline-offset-2 hover:underline">{t('footer.privacy')}</a>
+        <span className="mx-1.5">·</span>
+        <a href="/#/imprint" className="hover:text-foreground transition-colors underline-offset-2 hover:underline">{t('footer.imprint')}</a>
+      </p>
     </div>
   );
 }
