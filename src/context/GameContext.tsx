@@ -349,7 +349,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   return (
     <GameContext.Provider value={{
       ...state, setRegion, clearRegion, setCity, clearCity, setMode, clearMode, setCustomHoles, shuffleCourse,
-      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode,
+      addPlayer, removePlayer, updateHole, resetCourse, randomizeRules, clearAllRules, rollRuleForHole, removeRuleFromHole, setSurpriseMode, setAlcoholFreeMode,
       setScore, setPenalty, setCurrentHole, setActiveTab, startGame, resetGame,
       getPlayerTotal, getPlayerTotalPar, getPlayerHolesPlayed, isGreenMode,
       pendingImport, clearPendingImport,
