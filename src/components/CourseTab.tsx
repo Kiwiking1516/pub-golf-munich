@@ -7,6 +7,7 @@ import { Switch } from '@/components/ui/switch';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Hole } from '@/types/game';
 import { encodeCourse } from '@/utils/courseShare';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 
 function HoleFlagBadge({ flag }: { flag: string }) {
@@ -26,8 +27,8 @@ function HoleFlagBadge({ flag }: { flag: string }) {
 function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpdate: (h: Hole) => void }) {
   const [open, setOpen] = useState(false);
   const [subTab, setSubTab] = useState<'info' | 'rules'>('info');
-  const { isGreenMode, surpriseMode } = useGame();
-  const { t } = useLanguage();
+  const { isGreenMode, surpriseMode, alcoholFreeMode } = useGame();
+  const { t, lang } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
 
   const ruleCount = hole.activeRules.length;
@@ -42,7 +43,7 @@ function HoleCard({ hole, index, onUpdate }: { hole: Hole; index: number; onUpda
             {hole.flags.map(f => <HoleFlagBadge key={f} flag={f} />)}
           </div>
           <div className="flex items-center gap-2 text-sand text-xs mt-0.5">
-            <span>{hole.drink}</span>
+            <span>{neutralizeDrinkLabel(hole.drink, alcoholFreeMode, lang)}</span>
             <span>·</span>
             <span>{hole.time}</span>
           </div>
