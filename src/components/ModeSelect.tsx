@@ -5,10 +5,11 @@ import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
 import { Switch } from '@/components/ui/switch';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 export default function ModeSelect() {
   const { city, setMode, clearCity, alcoholFreeMode, setAlcoholFreeMode } = useGame();
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   if (!city) return null;
   const cityConfig = getCityById(city);
   if (!cityConfig) return null;
