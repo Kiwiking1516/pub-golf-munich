@@ -303,6 +303,10 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
+  const setAlcoholFreeMode = useCallback((on: boolean) => {
+    setState(prev => ({ ...prev, alcoholFreeMode: on }));
+  }, []);
+
   const resetGame = useCallback(() => {
     if (state.city && state.mode) {
       update({
