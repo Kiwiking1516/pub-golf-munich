@@ -1,8 +1,8 @@
 /**
  * PUB GOLF BAR DATABASE
- * 14796 Bars & Pubs across 13 cities
+ * 15125 Bars & Pubs across 13 cities
  * Cities: Berlin, Brighton, Bristol, Dublin, Edinburgh, Frankfurt, Hamburg, Köln, Liverpool, London, Manchester, München, Newcastle
- * Built: 2026-04-26T16:05:52.569Z
+ * Built: 2026-04-26T16:11:13.767Z
  *
  * Schema:
  * id, city, name, address, district, lat, lng, drink, par, type, tags
@@ -5521,627 +5521,1943 @@ export const BAR_DATABASE = [
 
 
   // ═══════════════════════════════════════════════════════════════
-  // BRISTOL  🎭  (155 bars)
+  // BRISTOL  🎭  (484 bars)
   // ═══════════════════════════════════════════════════════════════
 
-  { id: "brs-001", city: "bristol", name: "Dristi’s", address: "40-44 Saint Paul's Road", district: "clifton",
-    lat: 51.4592, lng: -2.6111, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-001", city: "bristol", name: "Dristi’s", address: "40-44 Saint Paul's Road", district: "clifton",
+    lat: 51.4592, lng: -2.6111, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-002", city: "bristol", name: "The Den and Terrace", address: "31 Saint Paul's Road", district: "clifton",
-    lat: 51.4588, lng: -2.6107, drink: "Pint of Cider", par: 4, type: "biergarten",
-    tags: ["biergarten"] },
-
-  { id: "brs-003", city: "bristol", name: "Piano Bar", address: "11 St Augustine's Parade", district: "city centre",
-    lat: 51.4531, lng: -2.5982, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-002", city: "bristol", name: "The Den and Terrace", address: "31 Saint Paul's Road", district: "clifton",
+    lat: 51.4588, lng: -2.6107, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-004", city: "bristol", name: "Warmup", address: "Address unknown",
-    lat: 51.4512, lng: -2.5924, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-003", city: "bristol", name: "Piano Bar", address: "11 St Augustine's Parade", district: "city centre",
+    lat: 51.4531, lng: -2.5982, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-005", city: "bristol", name: "The Grain House", address: "Address unknown",
-    lat: 51.4498, lng: -2.5974, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar", "breakfast", "burger", "curry", "fish_and_chips", "local"] },
-
-  { id: "brs-006", city: "bristol", name: "Buttermilk & Maple", address: "Welsh Back",
-    lat: 51.4533, lng: -2.5925, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-004", city: "bristol", name: "Warmup", address: "Address unknown",
+    lat: 51.4512, lng: -2.5924, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-007", city: "bristol", name: "Golden Crane Cocktail Bar", address: "1 Unity Street",
-    lat: 51.4533, lng: -2.6008, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-005", city: "bristol", name: "The Grain House", address: "Address unknown",
+    lat: 51.4498, lng: -2.5974, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible", "breakfast", "burger", "curry", "fish_and_chips", "local"] },
+
+  { id: "bri-006", city: "bristol", name: "Buttermilk & Maple", address: "Welsh Back",
+    lat: 51.4533, lng: -2.5925, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar"] },
+
+  { id: "bri-007", city: "bristol", name: "Golden Crane Cocktail Bar", address: "1 Unity Street",
+    lat: 51.4533, lng: -2.6008, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-008", city: "bristol", name: "Sports Bar & Pizzeria", address: "Address unknown",
-    lat: 51.4392, lng: -2.6209, drink: "Pint of Lager", par: 3, type: "sportbar",
+  { id: "bri-008", city: "bristol", name: "Sports Bar & Pizzeria", address: "Address unknown",
+    lat: 51.4392, lng: -2.6209, drink: "Pint of Bristol Beer Factory", par: 3, type: "sportbar",
     tags: ["sportbar"] },
 
-  { id: "brs-009", city: "bristol", name: "Marlows", address: "1 Newmarket Avenue",
-    lat: 51.4555, lng: -2.5934, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-009", city: "bristol", name: "Marlows", address: "1 Newmarket Avenue",
+    lat: 51.4555, lng: -2.5934, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-010", city: "bristol", name: "1766 bar & kitchen", address: "King Street", district: "city centre",
-    lat: 51.452, lng: -2.5943, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-010", city: "bristol", name: "1766 bar & kitchen", address: "King Street", district: "city centre",
+    lat: 51.452, lng: -2.5943, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-011", city: "bristol", name: "Somerville Club", address: "21-23 Sommerville Road",
-    lat: 51.4753, lng: -2.5892, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-011", city: "bristol", name: "Somerville Club", address: "21-23 Sommerville Road",
+    lat: 51.4753, lng: -2.5892, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-012", city: "bristol", name: "Left Handed Giant Brewery & Taproom", address: "Wadehurst Industrial Estate",
-    lat: 51.4562, lng: -2.572, drink: "Pint of Ale", par: 4, type: "brauhaus",
+  { id: "bri-012", city: "bristol", name: "Left Handed Giant Brewery & Taproom", address: "Wadehurst Industrial Estate",
+    lat: 51.4562, lng: -2.572, drink: "Pint of Bristol Beer Factory", par: 4, type: "brauhaus",
     tags: ["brauhaus"] },
 
-  { id: "brs-013", city: "bristol", name: "Tobacco Factory", address: "278 Raleigh Road", district: "southville",
-    lat: 51.4422, lng: -2.6135, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-013", city: "bristol", name: "Tobacco Factory", address: "278 Raleigh Road", district: "southville",
+    lat: 51.4422, lng: -2.6135, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-014", city: "bristol", name: "The Tap Room", address: "25 Mina Road", district: "st werburgh's",
-    lat: 51.4674, lng: -2.5741, drink: "Craft IPA Pint", par: 3, type: "craft",
+  { id: "bri-014", city: "bristol", name: "The Tap Room", address: "25 Mina Road", district: "st werburgh's",
+    lat: 51.4674, lng: -2.5741, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
     tags: ["craft"] },
 
-  { id: "brs-015", city: "bristol", name: "Little Martha Brewing", address: "23 Oxford Street", district: "saint philips",
-    lat: 51.4513, lng: -2.5777, drink: "Pint of Ale", par: 4, type: "brauhaus",
-    tags: ["brauhaus", "microbrewery"] },
+  { id: "bri-015", city: "bristol", name: "Little Martha Brewing", address: "23 Oxford Street", district: "saint philips",
+    lat: 51.4513, lng: -2.5777, drink: "Pint of Bristol Beer Factory", par: 4, type: "brauhaus",
+    tags: ["brauhaus", "brewery"] },
 
-  { id: "brs-016", city: "bristol", name: "Knowle Constitional Club", address: "162 Wells Road",
-    lat: 51.4407, lng: -2.5746, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-016", city: "bristol", name: "Knowle Constitional Club", address: "162 Wells Road",
+    lat: 51.4407, lng: -2.5746, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-017", city: "bristol", name: "Tio Pepe", address: "Address unknown",
-    lat: 51.4469, lng: -2.594, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-017", city: "bristol", name: "Tio Pepe", address: "Address unknown",
+    lat: 51.4469, lng: -2.594, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-018", city: "bristol", name: "Undershed Bar", address: "Address unknown",
-    lat: 51.4519, lng: -2.5981, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-018", city: "bristol", name: "Undershed Bar", address: "Address unknown",
+    lat: 51.4519, lng: -2.5981, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-019", city: "bristol", name: "The Farside", address: "Address unknown",
-    lat: 51.4639, lng: -2.5896, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-019", city: "bristol", name: "The Farside", address: "Address unknown",
+    lat: 51.4639, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-020", city: "bristol", name: "The Flight Club", address: "Address unknown",
-    lat: 51.4544, lng: -2.5947, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-020", city: "bristol", name: "The Flight Club", address: "Address unknown",
+    lat: 51.4544, lng: -2.5947, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-021", city: "bristol", name: "Roastery and Brew Bar", address: "Address unknown",
-    lat: 51.4608, lng: -2.5807, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-021", city: "bristol", name: "Roastery and Brew Bar", address: "Address unknown",
+    lat: 51.4608, lng: -2.5807, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "british", "food"] },
 
-  { id: "brs-022", city: "bristol", name: "Shredenhams", address: "Address unknown",
-    lat: 51.4586, lng: -2.5902, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-022", city: "bristol", name: "Shredenhams", address: "Address unknown",
+    lat: 51.4586, lng: -2.5902, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "brewery"] },
+
+  { id: "bri-023", city: "bristol", name: "Veeno", address: "Address unknown",
+    lat: 51.4518, lng: -2.5803, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-023", city: "bristol", name: "Veeno", address: "Address unknown",
-    lat: 51.4518, lng: -2.5803, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
-
-  { id: "brs-024", city: "bristol", name: "Brown & Bye", address: "Gasworks Lane", district: "harbour inlet",
-    lat: 51.4498, lng: -2.6064, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-024", city: "bristol", name: "Brown & Bye", address: "Gasworks Lane", district: "harbour inlet",
+    lat: 51.4498, lng: -2.6064, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-025", city: "bristol", name: "Felson's", address: "40 Corn Street",
-    lat: 51.4543, lng: -2.5943, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-025", city: "bristol", name: "Felson's", address: "40 Corn Street",
+    lat: 51.4543, lng: -2.5943, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-026", city: "bristol", name: "Mr Wolf's", address: "32 Saint Nicholas Street", district: "city centre",
-    lat: 51.4538, lng: -2.5942, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-026", city: "bristol", name: "Mr Wolf's", address: "32 Saint Nicholas Street", district: "city centre",
+    lat: 51.4538, lng: -2.5942, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-027", city: "bristol", name: "Carmen Street Wine", address: "Carmen Beckford Street",
-    lat: 51.4642, lng: -2.5893, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-027", city: "bristol", name: "Carmen Street Wine", address: "Carmen Beckford Street",
+    lat: 51.4642, lng: -2.5893, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-028", city: "bristol", name: "Native Vine", address: "217 Church Road",
-    lat: 51.4594, lng: -2.5546, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-028", city: "bristol", name: "Native Vine", address: "217 Church Road",
+    lat: 51.4594, lng: -2.5546, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-029", city: "bristol", name: "The Clifton Club", address: "22 The Mall", district: "clifton",
-    lat: 51.4552, lng: -2.6208, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-029", city: "bristol", name: "Same Again", address: "Address unknown",
+    lat: 51.4544, lng: -2.5897, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "outdoor"] },
+
+  { id: "bri-030", city: "bristol", name: "The Clifton Club", address: "22 The Mall", district: "clifton",
+    lat: 51.4552, lng: -2.6208, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-030", city: "bristol", name: "Steinbeck & Shaw", address: "Address unknown",
-    lat: 51.4501, lng: -2.5991, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-031", city: "bristol", name: "Barbara's bier haus", address: "Address unknown",
+    lat: 51.4501, lng: -2.5991, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-031", city: "bristol", name: "The Love Inn", address: "84 Stokes Croft", district: "saint pauls",
-    lat: 51.4632, lng: -2.5897, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-032", city: "bristol", name: "The Love Inn", address: "84 Stokes Croft", district: "saint pauls",
+    lat: 51.4632, lng: -2.5897, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "pizza", "food"] },
 
-  { id: "brs-032", city: "bristol", name: "Last Chance Saloon", address: "121 Stokes Croft", district: "st paul's",
-    lat: 51.464, lng: -2.59, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-033", city: "bristol", name: "Last Chance Saloon", address: "121 Stokes Croft", district: "st paul's",
+    lat: 51.464, lng: -2.59, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-033", city: "bristol", name: "Attic Bar", address: "1 North Street", district: "city centre",
-    lat: 51.4603, lng: -2.5902, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-034", city: "bristol", name: "Attic Bar", address: "1 North Street", district: "city centre",
+    lat: 51.4603, lng: -2.5902, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
+
+  { id: "bri-035", city: "bristol", name: "Leftbank", address: "128 Cheltenham Road", district: "montpelier",
+    lat: 51.4649, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
+
+  { id: "bri-036", city: "bristol", name: "Crofters Garden", address: "7 Ashley Road",
+    lat: 51.4646, lng: -2.5891, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-034", city: "bristol", name: "Leftbank", address: "128 Cheltenham Road", district: "montpelier",
-    lat: 51.4649, lng: -2.5896, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-037", city: "bristol", name: "NQ64", address: "14-16 Baldwin Street", district: "city centre",
+    lat: 51.4532, lng: -2.5959, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-035", city: "bristol", name: "Crofters Garden", address: "7 Ashley Road",
-    lat: 51.4646, lng: -2.5891, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-038", city: "bristol", name: "The Milk Thistle", address: "Colston Avenue",
+    lat: 51.4551, lng: -2.5957, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-036", city: "bristol", name: "NQ64", address: "14-16 Baldwin Street", district: "city centre",
-    lat: 51.4532, lng: -2.5959, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-039", city: "bristol", name: "Central Chambers", address: "9-11 Saint Stephens Street", district: "city centre",
+    lat: 51.4547, lng: -2.5957, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-037", city: "bristol", name: "The Milk Thistle", address: "Colston Avenue",
-    lat: 51.4551, lng: -2.5957, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-040", city: "bristol", name: "Dirty Martini", address: "47 Corn Street", district: "city centre",
+    lat: 51.4546, lng: -2.5944, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-038", city: "bristol", name: "Central Chambers", address: "9-11 Saint Stephens Street", district: "city centre",
-    lat: 51.4547, lng: -2.5957, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-041", city: "bristol", name: "karaoke-me!", address: "12 Saint Stephen's Street",
+    lat: 51.4544, lng: -2.5958, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-039", city: "bristol", name: "Dirty Martini", address: "47 Corn Street", district: "city centre",
-    lat: 51.4546, lng: -2.5944, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
-
-  { id: "brs-040", city: "bristol", name: "karaoke-me!", address: "12 Saint Stephen's Street",
-    lat: 51.4544, lng: -2.5958, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
-
-  { id: "brs-041", city: "bristol", name: "The Cocktail Club", address: "Corn Street",
-    lat: 51.4544, lng: -2.595, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-042", city: "bristol", name: "The Cocktail Club", address: "Corn Street",
+    lat: 51.4544, lng: -2.595, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-042", city: "bristol", name: "The Clockwork Rose", address: "16 Saint Stephen's Street", district: "city centre",
-    lat: 51.4537, lng: -2.5952, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
-
-  { id: "brs-043", city: "bristol", name: "Slug & Lettuce", address: "26-28 Saint Nicholas Street", district: "city centre",
-    lat: 51.454, lng: -2.5942, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-043", city: "bristol", name: "Slug & Lettuce", address: "26-28 Saint Nicholas Street", district: "city centre",
+    lat: 51.454, lng: -2.5942, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-044", city: "bristol", name: "Mugshot", address: "18 Saint Nicholas Street", district: "city centre",
-    lat: 51.4539, lng: -2.5935, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-044", city: "bristol", name: "Mugshot", address: "18 Saint Nicholas Street", district: "city centre",
+    lat: 51.4539, lng: -2.5935, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-045", city: "bristol", name: "Supreme Sports Lounge", address: "Address unknown",
-    lat: 51.4474, lng: -2.5686, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-045", city: "bristol", name: "Supreme Sports Lounge", address: "Address unknown",
+    lat: 51.4474, lng: -2.5686, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-046", city: "bristol", name: "Cock & Tail", address: "Commercial Road",
-    lat: 51.4464, lng: -2.5931, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-046", city: "bristol", name: "Cock & Tail", address: "Commercial Road",
+    lat: 51.4464, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-047", city: "bristol", name: "the Aperitivo", address: "47 Colston Street", district: "city centre",
-    lat: 51.4559, lng: -2.5977, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-047", city: "bristol", name: "the Aperitivo", address: "47 Colston Street", district: "city centre",
+    lat: 51.4559, lng: -2.5977, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-048", city: "bristol", name: "Green House", address: "37 College Green", district: "city centre",
-    lat: 51.4526, lng: -2.5994, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
+  { id: "bri-048", city: "bristol", name: "Green House", address: "37 College Green", district: "city centre",
+    lat: 51.4526, lng: -2.5994, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
 
-  { id: "brs-049", city: "bristol", name: "The Yard Cocktail Bar", address: "Upper Maudlin Street",
-    lat: 51.4571, lng: -2.5969, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-049", city: "bristol", name: "The Yard Cocktail Bar", address: "Upper Maudlin Street",
+    lat: 51.4571, lng: -2.5969, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar", "food"] },
 
-  { id: "brs-050", city: "bristol", name: "Whitchurch & Pensford Royal British Legion Social Club Ltd.", address: "Staunton Lane", district: "whitchurch",
-    lat: 51.4064, lng: -2.556, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-050", city: "bristol", name: "Whitchurch & Pensford Royal British Legion Social Club Ltd.", address: "Staunton Lane", district: "whitchurch",
+    lat: 51.4064, lng: -2.556, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-051", city: "bristol", name: "Westbury-on-Trym Men's Club", address: "2 Stoke Lane", district: "westbury-on-trym",
-    lat: 51.493, lng: -2.6189, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-051", city: "bristol", name: "Westbury-on-Trym Men's Club", address: "2 Stoke Lane", district: "westbury-on-trym",
+    lat: 51.493, lng: -2.6189, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-052", city: "bristol", name: "Central", address: "64-66 Park Row", district: "city centre",
-    lat: 51.4555, lng: -2.6034, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-052", city: "bristol", name: "Central", address: "64-66 Park Row", district: "city centre",
+    lat: 51.4555, lng: -2.6034, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-053", city: "bristol", name: "Reina", address: "55 Park Street", district: "city centre",
-    lat: 51.4545, lng: -2.6031, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-053", city: "bristol", name: "Reina", address: "55 Park Street", district: "city centre",
+    lat: 51.4545, lng: -2.6031, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-054", city: "bristol", name: "Goldbrick House", address: "69 Park Street", district: "city centre",
-    lat: 51.4549, lng: -2.6036, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-054", city: "bristol", name: "Goldbrick House", address: "69 Park Street", district: "city centre",
+    lat: 51.4549, lng: -2.6036, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-055", city: "bristol", name: "Bristol & Bath Distillery", address: "87-89 Park Street", district: "city centre",
-    lat: 51.4555, lng: -2.6044, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-055", city: "bristol", name: "Bristol & Bath Distillery", address: "87-89 Park Street", district: "city centre",
+    lat: 51.4555, lng: -2.6044, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-056", city: "bristol", name: "The Juke Box", address: "32 Park Street", district: "city centre",
-    lat: 51.454, lng: -2.6019, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-056", city: "bristol", name: "The Juke Box", address: "32 Park Street", district: "city centre",
+    lat: 51.454, lng: -2.6019, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-057", city: "bristol", name: "Gatsby's", address: "44 Park Street", district: "city centre",
-    lat: 51.4544, lng: -2.6023, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-057", city: "bristol", name: "Gatsby's", address: "44 Park Street", district: "city centre",
+    lat: 51.4544, lng: -2.6023, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-058", city: "bristol", name: "Marquee", address: "64 Park Street", district: "city centre",
-    lat: 51.4549, lng: -2.6029, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-058", city: "bristol", name: "Marquee", address: "64 Park Street", district: "city centre",
+    lat: 51.4549, lng: -2.6029, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-059", city: "bristol", name: "98 Club Shisha KTV", address: "Address unknown",
-    lat: 51.4551, lng: -2.6033, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-059", city: "bristol", name: "98 Club Shisha KTV", address: "Address unknown",
+    lat: 51.4551, lng: -2.6033, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-060", city: "bristol", name: "The Filthy Thirteen", address: "208 Cheltenham Road", district: "montpelier",
-    lat: 51.4694, lng: -2.5931, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-060", city: "bristol", name: "The Filthy Thirteen", address: "208 Cheltenham Road", district: "montpelier",
+    lat: 51.4694, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-061", city: "bristol", name: "Kinkajou", address: "52 Upper Belgrave Road", district: "clifton",
-    lat: 51.4704, lng: -2.616, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-061", city: "bristol", name: "Kinkajou", address: "52 Upper Belgrave Road", district: "clifton",
+    lat: 51.4704, lng: -2.616, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-062", city: "bristol", name: "Evoque @ Clifton", address: "55 Queen's Road", district: "clifton",
-    lat: 51.4564, lng: -2.6067, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-062", city: "bristol", name: "Evoque @ Clifton", address: "55 Queen's Road", district: "clifton",
+    lat: 51.4564, lng: -2.6067, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-063", city: "bristol", name: "London Cocktail Club", address: "37 Triangle West", district: "clifton",
-    lat: 51.4566, lng: -2.6077, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-063", city: "bristol", name: "London Cocktail Club", address: "37 Triangle West", district: "clifton",
+    lat: 51.4566, lng: -2.6077, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-064", city: "bristol", name: "Clifton Cocktail Club", address: "135 Whiteladies Road", district: "clifton",
-    lat: 51.465, lng: -2.6098, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-064", city: "bristol", name: "Clifton Cocktail Club", address: "135 Whiteladies Road", district: "clifton",
+    lat: 51.465, lng: -2.6098, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-065", city: "bristol", name: "The Brass Pig", address: "Triangle West", district: "clifton",
-    lat: 51.4562, lng: -2.6084, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-065", city: "bristol", name: "The Brass Pig", address: "Triangle West", district: "clifton",
+    lat: 51.4562, lng: -2.6084, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-066", city: "bristol", name: "Tapps Wine Bar", address: "87 Whiteladies Road", district: "clifton",
-    lat: 51.4634, lng: -2.6089, drink: "Craft IPA Pint", par: 3, type: "craft",
+  { id: "bri-066", city: "bristol", name: "Tapps Wine Bar", address: "87 Whiteladies Road", district: "clifton",
+    lat: 51.4634, lng: -2.6089, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
     tags: ["craft"] },
 
-  { id: "brs-067", city: "bristol", name: "Bravas", address: "7 Cotham Hill", district: "cotham",
-    lat: 51.4643, lng: -2.609, drink: "Craft IPA Pint", par: 3, type: "craft",
+  { id: "bri-067", city: "bristol", name: "Bravas", address: "7 Cotham Hill", district: "cotham",
+    lat: 51.4643, lng: -2.609, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
     tags: ["craft", "tapas"] },
 
-  { id: "brs-068", city: "bristol", name: "Jaded Dragon", address: "77 Whiteladies Road", district: "clifton",
-    lat: 51.4631, lng: -2.6087, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-068", city: "bristol", name: "Jaded Dragon", address: "77 Whiteladies Road", district: "clifton",
+    lat: 51.4631, lng: -2.6087, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-069", city: "bristol", name: "Industry", address: "143;141 Gloucester Road", district: "bishopston",
-    lat: 51.4738, lng: -2.5911, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-069", city: "bristol", name: "Industry", address: "143;141 Gloucester Road", district: "bishopston",
+    lat: 51.4738, lng: -2.5911, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-070", city: "bristol", name: "The 131 Club", address: "131 Westbury Road", district: "westbury on trym",
-    lat: 51.4886, lng: -2.6167, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-070", city: "bristol", name: "The 131 Club", address: "131 Westbury Road", district: "westbury on trym",
+    lat: 51.4886, lng: -2.6167, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-071", city: "bristol", name: "Mangosteen", address: "187 Gloucester Road",
-    lat: 51.4749, lng: -2.5911, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-071", city: "bristol", name: "Mangosteen", address: "187 Gloucester Road",
+    lat: 51.4749, lng: -2.5911, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-072", city: "bristol", name: "Hammer & Ale", address: "44 Gloucester Road",
-    lat: 51.4729, lng: -2.5913, drink: "Craft IPA Pint", par: 3, type: "craft",
-    tags: ["craft"] },
-
-  { id: "brs-073", city: "bristol", name: "Pizzucci", address: "Gloucester Road",
-    lat: 51.4719, lng: -2.5925, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-072", city: "bristol", name: "Hammer & Ale", address: "44 Gloucester Road",
+    lat: 51.4729, lng: -2.5913, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-074", city: "bristol", name: "The Blue Lagoon", address: "18-20 Gloucester Road",
-    lat: 51.4714, lng: -2.5929, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-073", city: "bristol", name: "Pizzucci", address: "Gloucester Road",
+    lat: 51.4719, lng: -2.5925, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar"] },
+
+  { id: "bri-074", city: "bristol", name: "The Blue Lagoon", address: "18-20 Gloucester Road",
+    lat: 51.4714, lng: -2.5929, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-075", city: "bristol", name: "Kask2", address: "243 Cheltenham Road", district: "montpelier",
-    lat: 51.4702, lng: -2.5939, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-075", city: "bristol", name: "Kask2", address: "243 Cheltenham Road", district: "montpelier",
+    lat: 51.4702, lng: -2.5939, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-076", city: "bristol", name: "Chimp House", address: "232 Gloucester Road",
-    lat: 51.4796, lng: -2.5897, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-076", city: "bristol", name: "Chimp House", address: "232 Gloucester Road",
+    lat: 51.4796, lng: -2.5897, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-077", city: "bristol", name: "All Stars", address: "15-19 Queen's Road", district: "clifton",
-    lat: 51.4557, lng: -2.6051, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-077", city: "bristol", name: "All Stars", address: "15-19 Queen's Road", district: "clifton",
+    lat: 51.4557, lng: -2.6051, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-078", city: "bristol", name: "Shirehampton Men's Social Club", address: "High Street", district: "shirehampton",
-    lat: 51.4908, lng: -2.6786, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-078", city: "bristol", name: "Shirehampton Men's Social Club", address: "High Street", district: "shirehampton",
+    lat: 51.4908, lng: -2.6786, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-079", city: "bristol", name: "The Woods", address: "1 Park Street Avenue", district: "city centre",
-    lat: 51.4554, lng: -2.6034, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-079", city: "bristol", name: "The Woods", address: "1 Park Street Avenue", district: "city centre",
+    lat: 51.4554, lng: -2.6034, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-080", city: "bristol", name: "The Dirty Bird", address: "10 Kings Road", district: "clifton",
-    lat: 51.4556, lng: -2.6186, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-080", city: "bristol", name: "The Dirty Bird", address: "10 Kings Road", district: "clifton",
+    lat: 51.4556, lng: -2.6186, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-081", city: "bristol", name: "Spirited", address: "196 North Street", district: "bedminster",
-    lat: 51.4405, lng: -2.6101, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-081", city: "bristol", name: "Spirited", address: "196 North Street", district: "bedminster",
+    lat: 51.4405, lng: -2.6101, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-082", city: "bristol", name: "Harveys Cellars", address: "12 Denmark Street", district: "city centre",
-    lat: 51.4532, lng: -2.5997, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-082", city: "bristol", name: "Harveys Cellars", address: "12 Denmark Street", district: "city centre",
+    lat: 51.4532, lng: -2.5997, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-083", city: "bristol", name: "The Green Room", address: "22-24 Denmark Street", district: "city centre",
-    lat: 51.453, lng: -2.5986, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-083", city: "bristol", name: "The Green Room", address: "22-24 Denmark Street", district: "city centre",
+    lat: 51.453, lng: -2.5986, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-084", city: "bristol", name: "Depot Bar", address: "Lawrence Hill",
-    lat: 51.4583, lng: -2.5733, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-084", city: "bristol", name: "Depot Bar", address: "Lawrence Hill",
+    lat: 51.4583, lng: -2.5733, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-085", city: "bristol", name: "Area 81 Bar", address: "Lawrence Hill",
-    lat: 51.4579, lng: -2.5668, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-085", city: "bristol", name: "Area 81 Bar", address: "Lawrence Hill",
+    lat: 51.4579, lng: -2.5668, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-086", city: "bristol", name: "Tipsy Tapioca", address: "6 Broad Quay", district: "city centre",
-    lat: 51.453, lng: -2.5969, drink: "Craft IPA Pint", par: 3, type: "craft",
+  { id: "bri-086", city: "bristol", name: "Tipsy Tapioca", address: "6 Broad Quay", district: "city centre",
+    lat: 51.453, lng: -2.5969, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
     tags: ["craft"] },
 
-  { id: "brs-087", city: "bristol", name: "omg bar", address: "Frogmore Street",
-    lat: 51.4535, lng: -2.6009, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-087", city: "bristol", name: "omg bar", address: "Frogmore Street",
+    lat: 51.4535, lng: -2.6009, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-088", city: "bristol", name: "The Lost & Found", address: "85 Queen's Road", district: "clifton",
-    lat: 51.4571, lng: -2.6085, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-088", city: "bristol", name: "The Lost & Found", address: "85 Queen's Road", district: "clifton",
+    lat: 51.4571, lng: -2.6085, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
+
+  { id: "bri-089", city: "bristol", name: "Rick's", address: "Prince Street", district: "city centre",
+    lat: 51.4501, lng: -2.5973, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-089", city: "bristol", name: "Rick's", address: "Prince Street", district: "city centre",
-    lat: 51.4501, lng: -2.5973, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-090", city: "bristol", name: "Brace & Browns", address: "43 Whiteladies Road", district: "clifton",
+    lat: 51.4616, lng: -2.6081, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-090", city: "bristol", name: "Brace & Browns", address: "43 Whiteladies Road", district: "clifton",
-    lat: 51.4616, lng: -2.6081, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-091", city: "bristol", name: "Under the Stars", address: "Narrow Quay", district: "city centre",
+    lat: 51.4519, lng: -2.5975, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-091", city: "bristol", name: "Under the Stars", address: "Narrow Quay", district: "city centre",
-    lat: 51.4519, lng: -2.5975, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
-
-  { id: "brs-092", city: "bristol", name: "Lounge", address: "227-231 North Street", district: "bedminster",
-    lat: 51.4411, lng: -2.6122, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-092", city: "bristol", name: "Lounge", address: "227-231 North Street", district: "bedminster",
+    lat: 51.4411, lng: -2.6122, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-093", city: "bristol", name: "Lupe", address: "63-65 North Street", district: "bedminster",
-    lat: 51.4407, lng: -2.6043, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-093", city: "bristol", name: "Lupe", address: "63-65 North Street", district: "bedminster",
+    lat: 51.4407, lng: -2.6043, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-094", city: "bristol", name: "Daisy's", address: "38-40 Triangle West", district: "clifton",
-    lat: 51.4566, lng: -2.6078, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-094", city: "bristol", name: "Daisy's", address: "38-40 Triangle West", district: "clifton",
+    lat: 51.4566, lng: -2.6078, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-095", city: "bristol", name: "One Love Diner and Bar", address: "159 Ashley Road", district: "montpelier",
-    lat: 51.4664, lng: -2.5803, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-095", city: "bristol", name: "One Love Diner and Bar", address: "159 Ashley Road", district: "montpelier",
+    lat: 51.4664, lng: -2.5803, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-096", city: "bristol", name: "Wiper & True Barrel Store", address: "2-8 York Street", district: "saint werburghs",
-    lat: 51.4699, lng: -2.5763, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-096", city: "bristol", name: "Wiper & True Barrel Store", address: "2-8 York Street", district: "saint werburghs",
+    lat: 51.4699, lng: -2.5763, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-097", city: "bristol", name: "The Botanist", address: "20a Berkeley Square", district: "clifton",
-    lat: 51.4558, lng: -2.606, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-097", city: "bristol", name: "The Botanist", address: "20a Berkeley Square", district: "clifton",
+    lat: 51.4558, lng: -2.606, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-098", city: "bristol", name: "Izakayan", address: "59 Apsley Road", district: "clifton",
-    lat: 51.4682, lng: -2.614, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-098", city: "bristol", name: "Izakayan", address: "59 Apsley Road", district: "clifton",
+    lat: 51.4682, lng: -2.614, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "japanese"] },
 
-  { id: "brs-099", city: "bristol", name: "The Bootlegger", address: "233 Cheltenham Road", district: "montpelier",
-    lat: 51.4699, lng: -2.5939, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-099", city: "bristol", name: "The Bootlegger", address: "233 Cheltenham Road", district: "montpelier",
+    lat: 51.4699, lng: -2.5939, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-100", city: "bristol", name: "Bar 57", address: "57 North Street", district: "bedminster",
-    lat: 51.4408, lng: -2.604, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-100", city: "bristol", name: "Bar 57", address: "57 North Street", district: "bedminster",
+    lat: 51.4408, lng: -2.604, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-101", city: "bristol", name: "Toto's Winebar", address: "125 Redcliff Street", district: "redcliffe",
-    lat: 51.4523, lng: -2.5914, drink: "Pint of Guinness", par: 4, type: "irish",
-    tags: ["irish"] },
-
-  { id: "brs-102", city: "bristol", name: "Strawberry Thief", address: "26 Broad Street", district: "city centre",
-    lat: 51.4555, lng: -2.5948, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-101", city: "bristol", name: "Toto's Winebar", address: "125 Redcliff Street", district: "redcliffe",
+    lat: 51.4523, lng: -2.5914, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-103", city: "bristol", name: "Revolution", address: "19-21 Saint Nicholas Street", district: "city centre",
-    lat: 51.4537, lng: -2.5936, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-102", city: "bristol", name: "Strawberry Thief", address: "26 Broad Street", district: "city centre",
+    lat: 51.4555, lng: -2.5948, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar"] },
+
+  { id: "bri-103", city: "bristol", name: "Revolution", address: "19-21 Saint Nicholas Street", district: "city centre",
+    lat: 51.4537, lng: -2.5936, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "outdoor"] },
 
-  { id: "brs-104", city: "bristol", name: "Brozen Bar", address: "43 Saint Nicholas Street", district: "city centre",
-    lat: 51.4537, lng: -2.5947, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-104", city: "bristol", name: "Brozen Bar", address: "43 Saint Nicholas Street", district: "city centre",
+    lat: 51.4537, lng: -2.5947, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-105", city: "bristol", name: "Bruhaha", address: "156-158 Wells Road", district: "totterdown",
-    lat: 51.4408, lng: -2.5748, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-105", city: "bristol", name: "Bruhaha", address: "156-158 Wells Road", district: "totterdown",
+    lat: 51.4408, lng: -2.5748, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-106", city: "bristol", name: "Cosies", address: "34 Portland Square",
-    lat: 51.4609, lng: -2.5863, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-106", city: "bristol", name: "Cosies", address: "34 Portland Square",
+    lat: 51.4609, lng: -2.5863, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-107", city: "bristol", name: "Mickey Zoggs", address: "8-9 Surrey Street", district: "saint pauls",
-    lat: 51.4605, lng: -2.587, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-107", city: "bristol", name: "Mickey Zoggs", address: "8-9 Surrey Street", district: "saint pauls",
+    lat: 51.4605, lng: -2.587, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar", "coffee", "beer"] },
 
-  { id: "brs-108", city: "bristol", name: "St George Labour Club", address: "326a Church Road", district: "saint george",
-    lat: 51.4599, lng: -2.5444, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-108", city: "bristol", name: "St George Labour Club", address: "326a Church Road", district: "saint george",
+    lat: 51.4599, lng: -2.5444, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-109", city: "bristol", name: "The Mezze Bar", address: "Address unknown",
-    lat: 51.4702, lng: -2.5933, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-109", city: "bristol", name: "The Mezze Bar", address: "Address unknown",
+    lat: 51.4702, lng: -2.5933, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-110", city: "bristol", name: "Muse", address: "37-41 Prince Street", district: "city centre",
-    lat: 51.4505, lng: -2.5963, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-110", city: "bristol", name: "Muse", address: "37-41 Prince Street", district: "city centre",
+    lat: 51.4505, lng: -2.5963, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
+
+  { id: "bri-111", city: "bristol", name: "Vice", address: "Queen's Avenue", district: "clifton",
+    lat: 51.4578, lng: -2.6081, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-111", city: "bristol", name: "Vice", address: "Queen's Avenue", district: "clifton",
-    lat: 51.4578, lng: -2.6081, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-112", city: "bristol", name: "Putt above", address: "Union Street",
+    lat: 51.4567, lng: -2.5923, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-112", city: "bristol", name: "Putt above", address: "Union Street",
-    lat: 51.4567, lng: -2.5923, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-113", city: "bristol", name: "Puttabove", address: "Union Street",
+    lat: 51.4566, lng: -2.5924, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-113", city: "bristol", name: "Puttabove", address: "Union Street",
-    lat: 51.4566, lng: -2.5924, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-114", city: "bristol", name: "Coyote Ugly", address: "Canons Way", district: "city centre",
+    lat: 51.4497, lng: -2.5989, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "accessible"] },
+
+  { id: "bri-115", city: "bristol", name: "The Colston", address: "8 Colston Avenue",
+    lat: 51.454, lng: -2.5966, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-114", city: "bristol", name: "Coyote Ugly", address: "Canons Way", district: "city centre",
-    lat: 51.4497, lng: -2.5989, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-116", city: "bristol", name: "Hyde & Co.", address: "2 Berkeley Crescent", district: "clifton",
+    lat: 51.4559, lng: -2.6069, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-115", city: "bristol", name: "The Doghouse", address: "Address unknown",
-    lat: 51.4545, lng: -2.5958, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-117", city: "bristol", name: "Her Majesty's Secret Service", address: "Whiteladies Road",
+    lat: 51.4645, lng: -2.6104, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-116", city: "bristol", name: "The Colston", address: "8 Colston Avenue",
-    lat: 51.454, lng: -2.5966, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-118", city: "bristol", name: "Antix", address: "44 Park Street", district: "city centre",
+    lat: 51.4543, lng: -2.6023, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-117", city: "bristol", name: "Hyde & Co.", address: "2 Berkeley Crescent", district: "clifton",
-    lat: 51.4559, lng: -2.6069, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-119", city: "bristol", name: "jazz", address: "Bond Street South", district: "st paul's",
+    lat: 51.4582, lng: -2.5837, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-118", city: "bristol", name: "Her Majesty's Secret Service", address: "Whiteladies Road",
-    lat: 51.4645, lng: -2.6104, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-120", city: "bristol", name: "Wiper and True Taproom, Old Market", address: "Units 11-15 Easton Road", district: "easton",
+    lat: 51.4589, lng: -2.5749, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "outdoor", "accessible", "brewery", "food"] },
+
+  { id: "bri-121", city: "bristol", name: "The Gold Bar", address: "55 Corn Street",
+    lat: 51.4548, lng: -2.5936, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-119", city: "bristol", name: "Antix", address: "44 Park Street", district: "city centre",
-    lat: 51.4543, lng: -2.6023, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-122", city: "bristol", name: "Bar + Block", address: "King Street", district: "city centre",
+    lat: 51.4519, lng: -2.5929, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-120", city: "bristol", name: "jazz", address: "Bond Street South", district: "st paul's",
-    lat: 51.4582, lng: -2.5837, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-123", city: "bristol", name: "The Courtyard", address: "Address unknown",
+    lat: 51.4608, lng: -2.5805, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
+    tags: ["bar", "outdoor", "accessible", "food"] },
+
+  { id: "bri-124", city: "bristol", name: "Hey Dude Bar", address: "19 King Street",
+    lat: 51.4516, lng: -2.5947, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-121", city: "bristol", name: "Wiper and True Taproom, Old Market", address: "Units 11-15 Easton Road", district: "easton",
-    lat: 51.4589, lng: -2.5749, drink: "Craft IPA Pint", par: 3, type: "craft",
-    tags: ["craft", "outdoor", "microbrewery", "food"] },
-
-  { id: "brs-122", city: "bristol", name: "The Gold Bar", address: "55 Corn Street",
-    lat: 51.4548, lng: -2.5936, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-125", city: "bristol", name: "All in One", address: "46 Park Street", district: "city centre",
+    lat: 51.4544, lng: -2.6023, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-123", city: "bristol", name: "Bar + Block", address: "King Street", district: "city centre",
-    lat: 51.4519, lng: -2.5929, drink: "Pint of Lager", par: 3, type: "bar",
+  { id: "bri-126", city: "bristol", name: "The Architect", address: "16 Narrow Quay", district: "city centre",
+    lat: 51.4497, lng: -2.5973, drink: "Pint of Bristol Beer Factory", par: 3, type: "bar",
     tags: ["bar"] },
 
-  { id: "brs-124", city: "bristol", name: "The Courtyard", address: "Address unknown",
-    lat: 51.4608, lng: -2.5805, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar", "outdoor", "food"] },
+  { id: "bri-127", city: "bristol", name: "The Foresters", address: "20 Salisbury Road",
+    lat: 51.487, lng: -2.5023, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-125", city: "bristol", name: "Hey Dude Bar", address: "19 King Street",
-    lat: 51.4516, lng: -2.5947, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
+  { id: "bri-128", city: "bristol", name: "Duck and Willow", address: "64 Downend Road",
+    lat: 51.4869, lng: -2.5073, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
 
-  { id: "brs-126", city: "bristol", name: "All in One", address: "46 Park Street", district: "city centre",
-    lat: 51.4544, lng: -2.6023, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
+  { id: "bri-129", city: "bristol", name: "The Greyhound", address: "80-82 Lodge Causeway", district: "fishponds",
+    lat: 51.4755, lng: -2.533, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-127", city: "bristol", name: "The Architect", address: "16 Narrow Quay", district: "city centre",
-    lat: 51.4497, lng: -2.5973, drink: "Pint of Lager", par: 3, type: "bar",
-    tags: ["bar"] },
+  { id: "bri-130", city: "bristol", name: "Essex Arms", address: "237 Two Mile Hill Road", district: "saint george",
+    lat: 51.4628, lng: -2.5181, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-128", city: "bristol", name: "Lakota", address: "6 Upper York Street",
-    lat: 51.4616, lng: -2.5896, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-131", city: "bristol", name: "Kings Head", address: "284 Two Mile Hill Road", district: "saint george",
+    lat: 51.4629, lng: -2.5168, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-129", city: "bristol", name: "The Pearl Nightclub", address: "10-12 Triangle South", district: "clifton",
-    lat: 51.4562, lng: -2.6072, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-132", city: "bristol", name: "The Balloon Bar", address: "105 Queen's Road", district: "clifton",
+    lat: 51.4566, lng: -2.6133, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
 
-  { id: "brs-130", city: "bristol", name: "Chasers", address: "Address unknown",
-    lat: 51.4627, lng: -2.5082, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-133", city: "bristol", name: "The Chase Inn", address: "63-67 Regent Street",
+    lat: 51.4627, lng: -2.5082, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-131", city: "bristol", name: "Loco Klub", address: "Approach Road", district: "redcliffe",
-    lat: 51.4491, lng: -2.5829, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-134", city: "bristol", name: "The Inn at Yanleigh", address: "Address unknown",
+    lat: 51.4152, lng: -2.6407, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
 
-  { id: "brs-132", city: "bristol", name: "omg", address: "Address unknown",
-    lat: 51.4533, lng: -2.6016, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-135", city: "bristol", name: "Brewers Fayre", address: "Address unknown",
+    lat: 51.4579, lng: -2.5937, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "british", "food"] },
 
-  { id: "brs-133", city: "bristol", name: "Tazmental Promotions", address: "35 Lanaway Road",
-    lat: 51.4867, lng: -2.52, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-136", city: "bristol", name: "Mechanics Arm", address: "123 Clouds Hill Road", district: "saint george",
+    lat: 51.4616, lng: -2.5375, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-134", city: "bristol", name: "Motion", address: "2 Victoria Terrace",
-    lat: 51.4487, lng: -2.569, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-137", city: "bristol", name: "The Lyons Den", address: "121 Regent Street",
+    lat: 51.4626, lng: -2.506, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-135", city: "bristol", name: "Thekla", address: "The Grove", district: "city centre",
-    lat: 51.449, lng: -2.5942, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-138", city: "bristol", name: "The Beckford", address: "Tyndall Avenue", district: "tyndall's park",
+    lat: 51.4589, lng: -2.6035, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-136", city: "bristol", name: "O'Neill's", address: "7-9 Baldwin Street", district: "city centre",
-    lat: 51.4536, lng: -2.5962, drink: "Pint of Guinness", par: 4, type: "irish",
-    tags: ["irish"] },
+  { id: "bri-139", city: "bristol", name: "The Ill Repute", address: "16 West Street", district: "st philip's",
+    lat: 51.4565, lng: -2.5792, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-137", city: "bristol", name: "Popworld", address: "16-24 Baldwin Street",
-    lat: 51.4533, lng: -2.5953, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-140", city: "bristol", name: "On Point", address: "Address unknown",
+    lat: 51.4425, lng: -2.5972, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "brewery"] },
 
-  { id: "brs-138", city: "bristol", name: "Exchange", address: "72-73 Old Market Street", district: "st philip's",
-    lat: 51.4555, lng: -2.5828, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-141", city: "bristol", name: "Alpha Bottle Shop & Tap", address: "1 Imperial Arcade", district: "bedminster",
+    lat: 51.4426, lng: -2.5957, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
 
-  { id: "brs-139", city: "bristol", name: "Fiddlers Club", address: "Willway Street", district: "bedminster",
-    lat: 51.4429, lng: -2.5924, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-142", city: "bristol", name: "Slug & Lettuce", address: "Explore Lane", district: "city centre",
+    lat: 51.4498, lng: -2.6015, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-140", city: "bristol", name: "La Rocca", address: "7-9 Triangle South", district: "clifton",
-    lat: 51.4562, lng: -2.6073, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-143", city: "bristol", name: "Lane7", address: "Millennium Promenade", district: "city centre",
+    lat: 51.4498, lng: -2.602, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-141", city: "bristol", name: "Lola Lo", address: "67-69 Queen's Road", district: "clifton",
-    lat: 51.4565, lng: -2.6072, drink: "Craft Beer", par: 3, type: "szene",
-    tags: ["szene"] },
+  { id: "bri-144", city: "bristol", name: "bSb", address: "Canons Road", district: "city centre",
+    lat: 51.4508, lng: -2.5984, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
 
-  { id: "brs-142", city: "bristol", name: "Lizard Lounge", address: "66 Queen's Road", district: "clifton",
-    lat: 51.4571, lng: -2.6073, drink: "Craft Beer", par: 3, type: "cocktailbar",
+  { id: "bri-145", city: "bristol", name: "Mackenzies Bar + Kitchen", address: "Canons Road", district: "city centre",
+    lat: 51.4511, lng: -2.5983, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-146", city: "bristol", name: "The Bristol Stable", address: "Canons Road", district: "city centre",
+    lat: 51.4515, lng: -2.5983, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "pie", "pizza"] },
+
+  { id: "bri-147", city: "bristol", name: "No.1 Harbourside", address: "1 Canons Road", district: "city centre",
+    lat: 51.4521, lng: -2.5981, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "oysters", "tapas", "food", "real-ale"] },
+
+  { id: "bri-148", city: "bristol", name: "The Cider Box", address: "Silverthorne Lane", district: "st philips",
+    lat: 51.4507, lng: -2.5712, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "brewery"] },
+
+  { id: "bri-149", city: "bristol", name: "The Volunteer Tavern", address: "9 New Street",
+    lat: 51.4576, lng: -2.5821, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-150", city: "bristol", name: "The Knights Templar", address: "1 The Square", district: "redcliffe",
+    lat: 51.4508, lng: -2.5822, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible", "brewery"] },
+
+  { id: "bri-151", city: "bristol", name: "Walkabout", address: "40 Corn Street", district: "city centre",
+    lat: 51.4543, lng: -2.5942, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-152", city: "bristol", name: "The Mothers' Ruin", address: "7-9 Saint Nicholas Street", district: "city centre",
+    lat: 51.4538, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-153", city: "bristol", name: "The Sidings", address: "Temple Gate", district: "redcliffe",
+    lat: 51.4484, lng: -2.584, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food", "real-ale"] },
+
+  { id: "bri-154", city: "bristol", name: "The Pickled Parrot", address: "280 Church Road",
+    lat: 51.4597, lng: -2.5468, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-155", city: "bristol", name: "Hop Union Taproom", address: "20 Bonville Road",
+    lat: 51.4358, lng: -2.5372, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "outdoor"] },
+
+  { id: "bri-156", city: "bristol", name: "The Masonic", address: "110 North Street", district: "bedminster",
+    lat: 51.4406, lng: -2.6063, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-157", city: "bristol", name: "Steam", address: "41 Whiteladies Road", district: "clifton",
+    lat: 51.4645, lng: -2.6116, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food"] },
+
+  { id: "bri-158", city: "bristol", name: "The Ship Inn", address: "1 Cathay", district: "redcliffe",
+    lat: 51.4474, lng: -2.589, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-159", city: "bristol", name: "Nova Scotia", address: "1 Nova Scotia Place", district: "hotwells",
+    lat: 51.4472, lng: -2.6186, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-160", city: "bristol", name: "The Pump House", address: "Merchants Road", district: "hotwells",
+    lat: 51.4483, lng: -2.6181, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-161", city: "bristol", name: "The Fleece", address: "12 Saint Thomas Street", district: "redcliffe",
+    lat: 51.4522, lng: -2.5895, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-162", city: "bristol", name: "The Farm", address: "Hopetoun Road", district: "saint werburghs",
+    lat: 51.4745, lng: -2.5781, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food"] },
+
+  { id: "bri-163", city: "bristol", name: "The Ashton", address: "Address unknown",
+    lat: 51.4392, lng: -2.635, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-164", city: "bristol", name: "Hillgrove Porter Stores", address: "53 Hillgrove Street North", district: "cotham",
+    lat: 51.463, lng: -2.5927, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-165", city: "bristol", name: "The Highbury Vaults", address: "164 Saint Michael's Hill", district: "kingsdown",
+    lat: 51.4615, lng: -2.6024, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-166", city: "bristol", name: "The Bell", address: "16-18 Hillgrove Street", district: "stokes croft",
+    lat: 51.4625, lng: -2.5911, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-167", city: "bristol", name: "Channings", address: "20 Pembroke Road", district: "clifton",
+    lat: 51.4588, lng: -2.6142, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-168", city: "bristol", name: "Victoria", address: "2 Southleigh Road", district: "clifton",
+    lat: 51.4596, lng: -2.6111, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-169", city: "bristol", name: "Star & Garter", address: "33 Brook Road", district: "montpelier",
+    lat: 51.467, lng: -2.5827, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-170", city: "bristol", name: "Grain Barge", address: "Hotwell Road", district: "hotwells",
+    lat: 51.4494, lng: -2.6123, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-171", city: "bristol", name: "The Hatchet Inn", address: "Frogmore Street", district: "city centre",
+    lat: 51.454, lng: -2.6004, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-172", city: "bristol", name: "The Chequers", address: "Ferry Road",
+    lat: 51.4281, lng: -2.5077, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-173", city: "bristol", name: "Old Lock and Weir", address: "Ferry Road",
+    lat: 51.4283, lng: -2.5081, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-174", city: "bristol", name: "Barrel House", address: "33 Gordon Road", district: "clifton",
+    lat: 51.4562, lng: -2.6131, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "pizza"] },
+
+  { id: "bri-175", city: "bristol", name: "The Pipe & Slippers", address: "118 Cheltenham Road", district: "montpelier",
+    lat: 51.4646, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-176", city: "bristol", name: "The Croft", address: "117-119 Stokes Croft", district: "saint pauls",
+    lat: 51.4638, lng: -2.5901, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-177", city: "bristol", name: "No. 51", address: "51 Stokes Croft", district: "stokes croft",
+    lat: 51.4622, lng: -2.5905, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "pizza", "food"] },
+
+  { id: "bri-178", city: "bristol", name: "The Old England", address: "5 Bath Buildings", district: "montpelier",
+    lat: 51.467, lng: -2.5891, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-179", city: "bristol", name: "Full Moon", address: "1 North Street", district: "city centre",
+    lat: 51.4605, lng: -2.5904, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "food"] },
+
+  { id: "bri-180", city: "bristol", name: "The Green Man", address: "21-23 Alfred Place", district: "kingsdown",
+    lat: 51.4611, lng: -2.599, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-181", city: "bristol", name: "The Kingsdown Vaults", address: "29-31 Kingsdown Parade", district: "cotham",
+    lat: 51.4617, lng: -2.5967, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-182", city: "bristol", name: "The Brunel", address: "315 Saint Johns Lane", district: "bedminster",
+    lat: 51.4357, lng: -2.5948, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-183", city: "bristol", name: "The Phoenix", address: "1 Champion Square", district: "st paul's",
+    lat: 51.4585, lng: -2.5831, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-184", city: "bristol", name: "The Old Duke", address: "45 King Street", district: "city centre",
+    lat: 51.4522, lng: -2.5932, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-185", city: "bristol", name: "King Street Brew House", address: "13 Welsh Back", district: "city centre",
+    lat: 51.4522, lng: -2.5929, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-186", city: "bristol", name: "The Beer Emporium", address: "16 King Street", district: "city centre",
+    lat: 51.4517, lng: -2.5945, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "real-ale"] },
+
+  { id: "bri-187", city: "bristol", name: "The Llandoger Trow", address: "3-5 King Street", district: "city centre",
+    lat: 51.4519, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-188", city: "bristol", name: "smallBAR", address: "31;32 King Street", district: "city centre",
+    lat: 51.4519, lng: -2.595, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-189", city: "bristol", name: "The Commercial Rooms", address: "43-45 Corn Street", district: "city centre",
+    lat: 51.4546, lng: -2.5945, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-190", city: "bristol", name: "The Bay Horse", address: "1 Lewins Mead", district: "city centre",
+    lat: 51.4577, lng: -2.5932, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-191", city: "bristol", name: "The White Hart", address: "Lower Maudlin Street", district: "city centre",
+    lat: 51.4584, lng: -2.5936, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-192", city: "bristol", name: "The Crown", address: "10 All Saints Lane", district: "city centre",
+    lat: 51.4541, lng: -2.5928, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-193", city: "bristol", name: "Boardroom", address: "20 Saint Nicholas Street", district: "city centre",
+    lat: 51.4539, lng: -2.5936, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-194", city: "bristol", name: "Horts", address: "49-50 Broad Street", district: "city centre",
+    lat: 51.4557, lng: -2.5938, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-195", city: "bristol", name: "Ye Shakespeare", address: "78 Victoria Street", district: "redcliffe",
+    lat: 51.4516, lng: -2.587, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-196", city: "bristol", name: "Star & Dove", address: "75-78 St Lukes Road", district: "totterdown",
+    lat: 51.4414, lng: -2.5821, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-197", city: "bristol", name: "The Cornubia", address: "Temple Street", district: "redcliffe",
+    lat: 51.4524, lng: -2.5879, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-198", city: "bristol", name: "Seven Stars", address: "Thomas Lane", district: "redcliffe",
+    lat: 51.4522, lng: -2.5897, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "brewery"] },
+
+  { id: "bri-199", city: "bristol", name: "The Bridge Inn", address: "16 Passage Street",
+    lat: 51.4543, lng: -2.5862, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-200", city: "bristol", name: "The King's Head", address: "60 Victoria Street", district: "redcliffe",
+    lat: 51.4519, lng: -2.5872, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-201", city: "bristol", name: "The Thunderbolt", address: "124 Bath Road", district: "totterdown",
+    lat: 51.4425, lng: -2.5743, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-202", city: "bristol", name: "The Little Grosvenor", address: "3 Coronation Road", district: "southville",
+    lat: 51.4456, lng: -2.5929, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-203", city: "bristol", name: "The Shakespeare", address: "1 Henry Street", district: "totterdown",
+    lat: 51.4435, lng: -2.5797, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-204", city: "bristol", name: "The Barley Mow", address: "1 East Street", district: "bedminster",
+    lat: 51.4433, lng: -2.5944, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-205", city: "bristol", name: "Apple Tree", address: "27 Philip Street", district: "bedminster",
+    lat: 51.4431, lng: -2.5934, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-206", city: "bristol", name: "Portwall Tavern", address: "1 Portwall Lane", district: "redcliffe",
+    lat: 51.4495, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-207", city: "bristol", name: "The Spotted Cow", address: "139 North Street", district: "bedminster",
+    lat: 51.44, lng: -2.6079, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-208", city: "bristol", name: "The Ostrich Inn", address: "Lower Guinea Street", district: "redcliffe",
+    lat: 51.4479, lng: -2.5939, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "brewery"] },
+
+  { id: "bri-209", city: "bristol", name: "The Louisiana", address: "1 Bathurst Parade",
+    lat: 51.4467, lng: -2.5964, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-210", city: "bristol", name: "New Found Out", address: "60 Green Street", district: "totterdown",
+    lat: 51.4428, lng: -2.58, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-211", city: "bristol", name: "The Oxford", address: "120-122 Oxford Street", district: "totterdown",
+    lat: 51.4422, lng: -2.5792, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-212", city: "bristol", name: "The Dark Horse", address: "5 Nelson Parade", district: "bedminster",
+    lat: 51.445, lng: -2.5927, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-213", city: "bristol", name: "The Cottage Inn", address: "Cumberland Road", district: "hotwells",
+    lat: 51.4469, lng: -2.6159, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "brewery"] },
+
+  { id: "bri-214", city: "bristol", name: "Failand Inn", address: "Clevedon Road", district: "failand",
+    lat: 51.4445, lng: -2.7002, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-215", city: "bristol", name: "The Prince of Wales", address: "5 Gloucester Road", district: "bishopston",
+    lat: 51.4704, lng: -2.5933, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-216", city: "bristol", name: "Cat and Wheel", address: "207 Cheltenham Road", district: "montpelier",
+    lat: 51.4688, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-217", city: "bristol", name: "Hope & Anchor", address: "38 Jacobs Wells Road", district: "city centre",
+    lat: 51.4533, lng: -2.6098, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "real-ale"] },
+
+  { id: "bri-218", city: "bristol", name: "The Maypole", address: "26A High Street",
+    lat: 51.4498, lng: -2.5188, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-219", city: "bristol", name: "Left Handed Giant Brewpub", address: "Hawkins Lane", district: "finzels reach",
+    lat: 51.4544, lng: -2.5894, drink: "Pint of Bristol Beer Factory", par: 4, type: "brauhaus",
+    tags: ["brauhaus", "outdoor", "pizza", "brewery", "food"] },
+
+  { id: "bri-220", city: "bristol", name: "The Christmas Steps", address: "2 Christmas Steps", district: "city centre",
+    lat: 51.456, lng: -2.5966, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-221", city: "bristol", name: "Kings Arms", address: "16 High Street",
+    lat: 51.4623, lng: -2.5048, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-222", city: "bristol", name: "Zero Degrees", address: "53 Colston Street", district: "city centre",
+    lat: 51.4563, lng: -2.5979, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible", "brewery", "real-ale"] },
+
+  { id: "bri-223", city: "bristol", name: "Coach & Horses", address: "2 Highland Square", district: "clifton",
+    lat: 51.4697, lng: -2.6153, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-224", city: "bristol", name: "The Harvesters", address: "Harrington Road", district: "stockwood",
+    lat: 51.4156, lng: -2.5476, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-225", city: "bristol", name: "The Black Swan", address: "438 Stapleton Road", district: "easton",
+    lat: 51.4699, lng: -2.5653, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-226", city: "bristol", name: "The Apple", address: "Welsh Back", district: "city centre",
+    lat: 51.4519, lng: -2.5923, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-227", city: "bristol", name: "The Open Arms", address: "24 Saint Michaels Hill", district: "kingsdown",
+    lat: 51.4577, lng: -2.5984, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-228", city: "bristol", name: "Lazy Dog", address: "112 Ashley Down Road", district: "bishopston",
+    lat: 51.4815, lng: -2.5827, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-229", city: "bristol", name: "Cotham Porter Stores", address: "15 Cotham Road South", district: "cotham",
+    lat: 51.4626, lng: -2.598, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-230", city: "bristol", name: "The Cambridge Arms", address: "Coldharbour Road", district: "westbury park",
+    lat: 51.4741, lng: -2.6106, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-231", city: "bristol", name: "BBB", address: "2-4 West Street", district: "st philip's",
+    lat: 51.4564, lng: -2.5796, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-232", city: "bristol", name: "Old Castle Green", address: "46 Gloucester Lane", district: "easton",
+    lat: 51.4571, lng: -2.5787, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-233", city: "bristol", name: "Beaufort Arms", address: "23 High Street", district: "clifton",
+    lat: 51.4699, lng: -2.6162, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-234", city: "bristol", name: "The Beaufort", address: "21 York Road", district: "montpelier",
+    lat: 51.4666, lng: -2.5874, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-235", city: "bristol", name: "The Blue Bowl", address: "178 High Street",
+    lat: 51.4462, lng: -2.5089, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-236", city: "bristol", name: "The Elm Tree", address: "74 Abbots Road",
+    lat: 51.436, lng: -2.5143, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-237", city: "bristol", name: "The Kings Head", address: "277-279 Whitehall Road", district: "redfield",
+    lat: 51.4638, lng: -2.5519, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-238", city: "bristol", name: "Shield and Dagger", address: "East Dundry Road", district: "whitchurch",
+    lat: 51.4051, lng: -2.5718, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-239", city: "bristol", name: "Maes Knoll", address: "Bristol Road", district: "whitchurch",
+    lat: 51.4067, lng: -2.5578, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-240", city: "bristol", name: "The John Harvey Arms", address: "Court Farm Road", district: "whitchurch",
+    lat: 51.4047, lng: -2.5805, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-241", city: "bristol", name: "The Eldon House", address: "6 Lower Clifton Hill", district: "clifton",
+    lat: 51.4548, lng: -2.6106, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-242", city: "bristol", name: "Wessex Flyer", address: "Hengrove Way", district: "hartcliffe",
+    lat: 51.4174, lng: -2.5871, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "food"] },
+
+  { id: "bri-243", city: "bristol", name: "Port of Call", address: "3 York Street", district: "clifton",
+    lat: 51.4701, lng: -2.6155, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-244", city: "bristol", name: "The King's Arms", address: "168 Whiteladies Road", district: "clifton",
+    lat: 51.4701, lng: -2.6151, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-245", city: "bristol", name: "The Mardyke", address: "126 Hotwell Road", district: "hotwells",
+    lat: 51.4497, lng: -2.6133, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-246", city: "bristol", name: "The White Hart", address: "84 Bedminster Parade", district: "bedminster",
+    lat: 51.4437, lng: -2.5939, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-247", city: "bristol", name: "The Whitchurch", address: "Oatlands Avenue", district: "hengrove",
+    lat: 51.4144, lng: -2.5715, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-248", city: "bristol", name: "The Bag of Nails", address: "141 Saint Georges Road", district: "city centre",
+    lat: 51.4511, lng: -2.6076, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-249", city: "bristol", name: "The Three Tuns", address: "78 Saint Georges Road", district: "city centre",
+    lat: 51.4511, lng: -2.605, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "real-ale"] },
+
+  { id: "bri-250", city: "bristol", name: "The Westbury Park Tavern", address: "Northumbria Drive", district: "henleaze",
+    lat: 51.4805, lng: -2.6114, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-251", city: "bristol", name: "The White Horse", address: "24 High Street", district: "westbury on trym",
+    lat: 51.494, lng: -2.6185, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-252", city: "bristol", name: "Crafty Cow", address: "635 Gloucester Road", district: "horfield",
+    lat: 51.4923, lng: -2.583, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-253", city: "bristol", name: "King William Ale House", address: "19-20 King Street", district: "city centre",
+    lat: 51.4516, lng: -2.5948, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-254", city: "bristol", name: "The Famous Royal Navy Volunteer", address: "17-18 King Street", district: "city centre",
+    lat: 51.4516, lng: -2.5946, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-255", city: "bristol", name: "Inn on the Green", address: "2 Filton Road", district: "horfield",
+    lat: 51.4946, lng: -2.5819, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food", "real-ale"] },
+
+  { id: "bri-256", city: "bristol", name: "The Wellington", address: "Gloucester Road", district: "horfield",
+    lat: 51.4888, lng: -2.5852, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food", "real-ale"] },
+
+  { id: "bri-257", city: "bristol", name: "The Coronation", address: "18 Dean Lane", district: "southville",
+    lat: 51.4443, lng: -2.6002, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-258", city: "bristol", name: "The Whitmore Tap", address: "115 Whiteladies Road", district: "clifton",
+    lat: 51.4644, lng: -2.6093, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-259", city: "bristol", name: "The W. G. Grace", address: "71-73 Whiteladies Road", district: "clifton",
+    lat: 51.4629, lng: -2.6087, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible", "food", "real-ale"] },
+
+  { id: "bri-260", city: "bristol", name: "The Prince of Wales", address: "84 Stoke Lane", district: "westbury on trym",
+    lat: 51.4897, lng: -2.6226, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food", "real-ale"] },
+
+  { id: "bri-261", city: "bristol", name: "The Black Swan", address: "92 Stoke Lane", district: "westbury on trym",
+    lat: 51.4894, lng: -2.6229, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-262", city: "bristol", name: "The Mill House", address: "94 Shirehampton Road", district: "sea mills",
+    lat: 51.4868, lng: -2.6425, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-263", city: "bristol", name: "White Lion", address: "Passage Road", district: "westbury on trym",
+    lat: 51.495, lng: -2.6172, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-264", city: "bristol", name: "The Victoria", address: "20 Chock Lane", district: "westbury on trym",
+    lat: 51.4937, lng: -2.6149, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-265", city: "bristol", name: "Post Office Tavern", address: "17 Westbury Hill", district: "westbury on trym",
+    lat: 51.491, lng: -2.6168, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-266", city: "bristol", name: "The Mouse", address: "Waters Lane", district: "westbury on trym",
+    lat: 51.4928, lng: -2.6158, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-267", city: "bristol", name: "Gloucester Road Ale House & Kitchen", address: "99 Gloucester Road", district: "bishopston",
+    lat: 51.4727, lng: -2.591, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-268", city: "bristol", name: "The Goblin's Tavern", address: "69-71 Gloucester Road", district: "bishopston",
+    lat: 51.472, lng: -2.5918, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-269", city: "bristol", name: "White Bear", address: "133 Saint Michaels Hill", district: "kingsdown",
+    lat: 51.4605, lng: -2.6016, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-270", city: "bristol", name: "Jersey Lily", address: "193 Whiteladies Road", district: "clifton",
+    lat: 51.4695, lng: -2.614, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-271", city: "bristol", name: "The Anchor", address: "323 Gloucester Road", district: "horfield",
+    lat: 51.4814, lng: -2.5876, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-272", city: "bristol", name: "The Grace", address: "197 Gloucester Road",
+    lat: 51.4752, lng: -2.5908, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-273", city: "bristol", name: "The Gallimaufry", address: "26-28 Gloucester Road", district: "bishopston",
+    lat: 51.4717, lng: -2.5927, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-274", city: "bristol", name: "Bishops Tavern", address: "225-229 Cheltenham Road",
+    lat: 51.4698, lng: -2.5938, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "accessible"] },
+
+  { id: "bri-275", city: "bristol", name: "Brewhouse & Kitchen", address: "31-35 Cotham Hill", district: "cotham",
+    lat: 51.464, lng: -2.6084, drink: "Pint of Bristol Beer Factory", par: 4, type: "brauhaus",
+    tags: ["brauhaus"] },
+
+  { id: "bri-276", city: "bristol", name: "The Gryphon", address: "41 Colston Street", district: "city centre",
+    lat: 51.4556, lng: -2.5977, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-277", city: "bristol", name: "The Lifeboat Inn", address: "25 High Street", district: "shirehampton",
+    lat: 51.489, lng: -2.6754, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-278", city: "bristol", name: "The George Inn", address: "High Street", district: "shirehampton",
+    lat: 51.489, lng: -2.6746, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-279", city: "bristol", name: "Bristol Flyer", address: "96 Gloucester Road", district: "bishopston",
+    lat: 51.4747, lng: -2.5919, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-280", city: "bristol", name: "Cider Press", address: "86-90 Gloucester Road", district: "bishopston",
+    lat: 51.4743, lng: -2.5919, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-281", city: "bristol", name: "The Eastfield", address: "219 Henleaze Road", district: "henleaze",
+    lat: 51.4892, lng: -2.6087, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-282", city: "bristol", name: "Golden Lion", address: "244 Gloucester Road",
+    lat: 51.4799, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-283", city: "bristol", name: "Sidney & Eden", address: "198 Gloucester Road",
+    lat: 51.4787, lng: -2.5899, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "brewery"] },
+
+  { id: "bri-284", city: "bristol", name: "The Berkeley", address: "15-19 Queen's Road", district: "clifton",
+    lat: 51.4557, lng: -2.6053, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible", "food"] },
+
+  { id: "bri-285", city: "bristol", name: "The Clifton", address: "16 Regent Street", district: "clifton",
+    lat: 51.4541, lng: -2.618, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-286", city: "bristol", name: "The Quadrant", address: "2 Princess Victoria Street", district: "clifton",
+    lat: 51.455, lng: -2.6192, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-287", city: "bristol", name: "The Drapers Arms", address: "447 Gloucester Road",
+    lat: 51.4853, lng: -2.5858, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-288", city: "bristol", name: "The Royal Oak", address: "385 Gloucester Road", district: "horfield",
+    lat: 51.4835, lng: -2.5866, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-289", city: "bristol", name: "The Red Monkey", address: "22 Chandos Road", district: "redland",
+    lat: 51.4679, lng: -2.6053, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-290", city: "bristol", name: "The Good Measure", address: "2b Chandos Road", district: "redland",
+    lat: 51.4672, lng: -2.6071, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-291", city: "bristol", name: "The Beehive", address: "Wellington Hill West", district: "henleaze",
+    lat: 51.4917, lng: -2.5959, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food", "real-ale"] },
+
+  { id: "bri-292", city: "bristol", name: "Hope & Anchor", address: "75 Lower High Street", district: "shirehampton",
+    lat: 51.4946, lng: -2.6829, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-293", city: "bristol", name: "Bear & Rugged Staff", address: "Southmead Road", district: "southmead",
+    lat: 51.4973, lng: -2.5979, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-294", city: "bristol", name: "The Miner's Arms", address: "136 Mina Road", district: "saint werburghs",
+    lat: 51.4712, lng: -2.5764, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-295", city: "bristol", name: "Vittoria", address: "57 Whiteladies Road", district: "clifton",
+    lat: 51.4621, lng: -2.6085, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-296", city: "bristol", name: "White Harte", address: "54-58 Park Row", district: "city centre",
+    lat: 51.4553, lng: -2.6029, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible"] },
+
+  { id: "bri-297", city: "bristol", name: "The Bristol Fringe", address: "32 Princess Victoria Street", district: "clifton village",
+    lat: 51.4545, lng: -2.6207, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-298", city: "bristol", name: "The Mall", address: "66 The Mall", district: "clifton village",
+    lat: 51.4564, lng: -2.6216, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food"] },
+
+  { id: "bri-299", city: "bristol", name: "The Royal Oak", address: "50 The Mall", district: "clifton",
+    lat: 51.456, lng: -2.6215, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-300", city: "bristol", name: "Somerset House", address: "11 Princess Victoria Street", district: "clifton",
+    lat: 51.4547, lng: -2.6196, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-301", city: "bristol", name: "The Brunel", address: "38 The Mall", district: "clifton",
+    lat: 51.4556, lng: -2.6212, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-302", city: "bristol", name: "The Bear", address: "261 Hotwell Road", district: "hotwells",
+    lat: 51.4503, lng: -2.6193, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-303", city: "bristol", name: "Merchants Arms", address: "5 Merchants Road", district: "clifton",
+    lat: 51.4498, lng: -2.6184, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-304", city: "bristol", name: "Barley Mow", address: "39 Barton Road", district: "saint philips",
+    lat: 51.4533, lng: -2.5774, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-305", city: "bristol", name: "Myrtle Tree", address: "127 Saint Georges Road", district: "city centre",
+    lat: 51.4509, lng: -2.6072, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-306", city: "bristol", name: "The Shakespeare", address: "Lower Redland Road", district: "redland",
+    lat: 51.4703, lng: -2.6064, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-307", city: "bristol", name: "The Old Fish Market", address: "59-63 Baldwin Street", district: "city centre",
+    lat: 51.4537, lng: -2.5931, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-308", city: "bristol", name: "The Drawbridge", address: "14-16 St Augustine's Parade", district: "city centre",
+    lat: 51.4533, lng: -2.5984, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-309", city: "bristol", name: "Steam Crane", address: "4-6 North Street", district: "bedminster",
+    lat: 51.4416, lng: -2.6017, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-310", city: "bristol", name: "The Black Cat", address: "26 West Street", district: "bedminster",
+    lat: 51.4394, lng: -2.6021, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-311", city: "bristol", name: "Hen & Chicken Pub", address: "210 North Street", district: "bedminster",
+    lat: 51.4407, lng: -2.6106, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-312", city: "bristol", name: "Smoke & Mirrors", address: "8 Denmark Street", district: "city centre",
+    lat: 51.4529, lng: -2.5989, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-313", city: "bristol", name: "The White Lion", address: "Colston Avenue", district: "city centre",
+    lat: 51.4552, lng: -2.5957, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-314", city: "bristol", name: "Old Market Tavern", address: "29-30 Old Market Street", district: "st philip's",
+    lat: 51.4562, lng: -2.5822, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-315", city: "bristol", name: "Punchbowl", address: "23 Old Market Street", district: "st philip's",
+    lat: 51.4561, lng: -2.5827, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-316", city: "bristol", name: "Stag & Hounds", address: "74 Old Market Street", district: "saint philips",
+    lat: 51.4556, lng: -2.5829, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-317", city: "bristol", name: "The Crown", address: "14 High Street",
+    lat: 51.481, lng: -2.5143, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-318", city: "bristol", name: "The Old Stillage", address: "145-147 Church Road", district: "redfield",
+    lat: 51.4587, lng: -2.5581, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-319", city: "bristol", name: "Bird in Hand", address: "17 Weston Road",
+    lat: 51.4293, lng: -2.6636, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food"] },
+
+  { id: "bri-320", city: "bristol", name: "The Angel Inn", address: "172 Long Ashton Road",
+    lat: 51.4363, lng: -2.6451, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-321", city: "bristol", name: "The Alma", address: "18-20 Alma Vale Road", district: "clifton",
+    lat: 51.4626, lng: -2.6148, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-322", city: "bristol", name: "Swan Inn", address: "Address unknown",
+    lat: 51.4479, lng: -2.5267, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-323", city: "bristol", name: "The Albion", address: "Boyces Avenue", district: "clifton",
+    lat: 51.455, lng: -2.6179, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-324", city: "bristol", name: "White Lion", address: "Frenchay Common",
+    lat: 51.4934, lng: -2.5211, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-325", city: "bristol", name: "Snuffy Jack's Ale House", address: "800 Fishponds Road", district: "fishponds",
+    lat: 51.4812, lng: -2.528, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-326", city: "bristol", name: "The Old Post Office", address: "Fishponds Road",
+    lat: 51.4807, lng: -2.5286, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-327", city: "bristol", name: "The Van Dyck Forum", address: "748-756 Fishponds Road", district: "fishponds",
+    lat: 51.4795, lng: -2.5302, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-328", city: "bristol", name: "Queens Head", address: "286 Fishponds Road", district: "eastville",
+    lat: 51.4729, lng: -2.5521, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-329", city: "bristol", name: "Sportsmans", address: "40 Colston Street", district: "city centre",
+    lat: 51.4556, lng: -2.5973, drink: "Pint of Bristol Beer Factory", par: 3, type: "sportbar",
+    tags: ["sportbar"] },
+
+  { id: "bri-330", city: "bristol", name: "Quinton House", address: "2 Park Place", district: "clifton",
+    lat: 51.457, lng: -2.6093, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-331", city: "bristol", name: "Jolly Colliers", address: "West Street", district: "bedminster",
+    lat: 51.4385, lng: -2.6029, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-332", city: "bristol", name: "The Dame", address: "43 Dean Lane", district: "southville",
+    lat: 51.4424, lng: -2.6, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-333", city: "bristol", name: "The Rising Sun", address: "Alfred Road",
+    lat: 51.4387, lng: -2.5937, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-334", city: "bristol", name: "The Windmill", address: "14 Windmill Hill", district: "bedminster",
+    lat: 51.4395, lng: -2.5944, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-335", city: "bristol", name: "Warwick Arms", address: "210-212 Charlton Road", district: "saint george",
+    lat: 51.4685, lng: -2.5208, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-336", city: "bristol", name: "The Star", address: "86 Hanham Road",
+    lat: 51.4578, lng: -2.5075, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-337", city: "bristol", name: "The Lamplighters", address: "Station Road", district: "shirehampton",
+    lat: 51.4836, lng: -2.6824, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-338", city: "bristol", name: "The Princes Motto", address: "Barrow Street",
+    lat: 51.4078, lng: -2.6762, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-339", city: "bristol", name: "Kongs", address: "13-15 King Street", district: "city centre",
+    lat: 51.4517, lng: -2.5943, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-340", city: "bristol", name: "Lime Kiln", address: "17 Saint Georges Road", district: "city centre",
+    lat: 51.4525, lng: -2.6035, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-341", city: "bristol", name: "The Criterion", address: "155 Ashley Road", district: "montpelier",
+    lat: 51.4663, lng: -2.5805, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-342", city: "bristol", name: "The Coronation Tap", address: "8 Sion Place", district: "clifton",
+    lat: 51.4552, lng: -2.6227, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "real-ale"] },
+
+  { id: "bri-343", city: "bristol", name: "V-Shed", address: "Canon's Road", district: "city centre",
+    lat: 51.4499, lng: -2.5988, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible", "food", "real-ale"] },
+
+  { id: "bri-344", city: "bristol", name: "The Victoria", address: "40 James Street", district: "saint werburghs",
+    lat: 51.4703, lng: -2.574, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-345", city: "bristol", name: "Lebeqs Tavern", address: "199 Stapleton Road", district: "easton",
+    lat: 51.4634, lng: -2.5705, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-346", city: "bristol", name: "The Turnpike", address: "167 Soundwell Road",
+    lat: 51.4726, lng: -2.5082, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-347", city: "bristol", name: "The Winford Arms", address: "Bridgwater Road",
+    lat: 51.4103, lng: -2.6468, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food", "real-ale"] },
+
+  { id: "bri-348", city: "bristol", name: "The Miners Rest", address: "42 Providence Lane", district: "long ashton",
+    lat: 51.4327, lng: -2.6656, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-349", city: "bristol", name: "The Treble Chance", address: "Greystoke Avenue", district: "southmead",
+    lat: 51.4999, lng: -2.6116, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-350", city: "bristol", name: "The Clyde", address: "129 Hampton Road", district: "redland",
+    lat: 51.4688, lng: -2.6091, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-351", city: "bristol", name: "The Crown Tavern", address: "17 Lawfords Gate", district: "easton",
+    lat: 51.4586, lng: -2.5787, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-352", city: "bristol", name: "Foresters Arms", address: "94 Ashley Down Road", district: "bishopston",
+    lat: 51.4818, lng: -2.5836, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-353", city: "bristol", name: "The Gloucester Old Spot", address: "138-140 Kellaway Avenue", district: "henleaze",
+    lat: 51.4839, lng: -2.5981, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-354", city: "bristol", name: "Three Blackbirds Pub", address: "262 Stapleton Road", district: "easton",
+    lat: 51.4662, lng: -2.5692, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-355", city: "bristol", name: "The Chelsea", address: "Chelsea Road", district: "easton",
+    lat: 51.4641, lng: -2.5629, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-356", city: "bristol", name: "The Greenbank", address: "57 Bellevue Road", district: "easton",
+    lat: 51.4677, lng: -2.5612, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-357", city: "bristol", name: "The Sugar Loaf", address: "51 Saint Marks Road", district: "easton",
+    lat: 51.4671, lng: -2.565, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-358", city: "bristol", name: "Jolly Roger", address: "199 Easton Road", district: "easton",
+    lat: 51.4619, lng: -2.5651, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-359", city: "bristol", name: "The Plough", address: "223 Easton Road", district: "easton",
+    lat: 51.4617, lng: -2.5632, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-360", city: "bristol", name: "The Queens Head", address: "171 Easton Road", district: "easton",
+    lat: 51.4619, lng: -2.5666, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-361", city: "bristol", name: "Kings Head Inn", address: "3 Heywood Road", district: "pill",
+    lat: 51.4786, lng: -2.6857, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-362", city: "bristol", name: "The George Inn", address: "Manor Road", district: "abbots leigh",
+    lat: 51.4603, lng: -2.6608, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-363", city: "bristol", name: "Rose of Denmark", address: "6 Dowry Place", district: "hotwells",
+    lat: 51.4497, lng: -2.6213, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-364", city: "bristol", name: "The Lion", address: "19 Church Lane", district: "clifton",
+    lat: 51.4504, lng: -2.6131, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-365", city: "bristol", name: "Golden Guinea", address: "19 Guinea Street", district: "redcliffe",
+    lat: 51.4473, lng: -2.5928, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-366", city: "bristol", name: "Robin Hood", address: "56 Saint Michael's Hill", district: "kingsdown",
+    lat: 51.4586, lng: -2.5994, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-367", city: "bristol", name: "The Sportsman", address: "Nevil Road", district: "bishopston",
+    lat: 51.4793, lng: -2.5868, drink: "Pint of Bristol Beer Factory", par: 3, type: "sportbar",
+    tags: ["sportbar"] },
+
+  { id: "bri-368", city: "bristol", name: "The Shakespeare", address: "68 Prince Street", district: "city centre",
+    lat: 51.4496, lng: -2.5971, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food", "real-ale"] },
+
+  { id: "bri-369", city: "bristol", name: "The George", address: "228 Wells Road", district: "knowle",
+    lat: 51.4382, lng: -2.5711, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-370", city: "bristol", name: "Avonmouth Tavern", address: "95 Portview Road", district: "avonmouth",
+    lat: 51.4982, lng: -2.6972, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-371", city: "bristol", name: "Miles Arms", address: "181 Avonmouth Road", district: "avonmouth",
+    lat: 51.4987, lng: -2.6941, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-372", city: "bristol", name: "White Lion Inn", address: "Sion Hill",
+    lat: 51.4532, lng: -2.6252, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-373", city: "bristol", name: "The Knowle", address: "Leighton Road", district: "knowle",
+    lat: 51.4348, lng: -2.5622, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-374", city: "bristol", name: "Coopers Arms", address: "12-13 Ashton Road", district: "ashton gate",
+    lat: 51.4425, lng: -2.6176, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-375", city: "bristol", name: "The Rising Sun", address: "21 Ashton Road", district: "ashton gate",
+    lat: 51.4422, lng: -2.6179, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-376", city: "bristol", name: "The Three Lions", address: "206 West Street", district: "bedminster",
+    lat: 51.4352, lng: -2.6079, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-377", city: "bristol", name: "London Inn", address: "1 Cannon Street", district: "bedminster",
+    lat: 51.4408, lng: -2.601, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-378", city: "bristol", name: "The Old Globe", address: "117 East Street", district: "bedminster",
+    lat: 51.4412, lng: -2.5984, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-379", city: "bristol", name: "Thumps", address: "48-54 East Street", district: "bedminster",
+    lat: 51.4424, lng: -2.5967, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "brewery"] },
+
+  { id: "bri-380", city: "bristol", name: "The Avon Packet", address: "185-187 Coronation Road", district: "southville",
+    lat: 51.4458, lng: -2.6112, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-381", city: "bristol", name: "The Luckwell", address: "147 Luckwell Road", district: "bedminster",
+    lat: 51.4361, lng: -2.6113, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-382", city: "bristol", name: "The Robins", address: "Ashton Drive", district: "ashton gate",
+    lat: 51.435, lng: -2.6195, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-383", city: "bristol", name: "Masons Arms", address: "124 Park Road", district: "stapleton",
+    lat: 51.4858, lng: -2.55, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-384", city: "bristol", name: "The Downend Tavern", address: "125 Downend Road", district: "fishponds",
+    lat: 51.4847, lng: -2.5168, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-385", city: "bristol", name: "The Oldbury Court Inn", address: "Gill Avenue", district: "fishponds",
+    lat: 51.4878, lng: -2.5201, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-386", city: "bristol", name: "The All Inn", address: "1 Staple Hill Road",
+    lat: 51.4819, lng: -2.5232, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-387", city: "bristol", name: "Golden Lion", address: "641 Fishponds Road",
+    lat: 51.4779, lng: -2.5358, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-388", city: "bristol", name: "The Crown Inn", address: "Address unknown",
+    lat: 51.4181, lng: -2.5057, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-389", city: "bristol", name: "The Horseshoe", address: "Downend Road",
+    lat: 51.4882, lng: -2.5033, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-390", city: "bristol", name: "Whitehall Tavern", address: "30 Devon Road", district: "easton",
+    lat: 51.4629, lng: -2.5573, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-391", city: "bristol", name: "The Red Lion", address: "206 Whitehall Road", district: "redfield",
+    lat: 51.4616, lng: -2.5548, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-392", city: "bristol", name: "The Spotted Cow", address: "120 Lodge Causeway", district: "fishponds",
+    lat: 51.4749, lng: -2.5316, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-393", city: "bristol", name: "The Victoria Park", address: "66 Raymend Road",
+    lat: 51.4383, lng: -2.5897, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-394", city: "bristol", name: "The Maytree", address: "Saint Peters Rise", district: "bishopsworth",
+    lat: 51.4213, lng: -2.6085, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-395", city: "bristol", name: "The Miners Arms", address: "70 Bedminster Down Road", district: "bedminster down",
+    lat: 51.4327, lng: -2.6111, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-396", city: "bristol", name: "Wackum Inn", address: "533 Whitehall Road", district: "redfield",
+    lat: 51.466, lng: -2.5426, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-397", city: "bristol", name: "The Dark Horse", address: "172-174 Church Road", district: "redfield",
+    lat: 51.4594, lng: -2.5523, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-398", city: "bristol", name: "The Fire Engine", address: "188 Church Road", district: "redfield",
+    lat: 51.4595, lng: -2.5511, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
     tags: ["cocktailbar"] },
 
-  { id: "brs-143", city: "bristol", name: "Redland Club", address: "Burlington Road", district: "redland",
-    lat: 51.4687, lng: -2.6113, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-399", city: "bristol", name: "The George & Dragon", address: "140a Church Road", district: "redfield",
+    lat: 51.4593, lng: -2.5538, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-400", city: "bristol", name: "The Long Bar", address: "70 Old Market Street", district: "st philip's",
+    lat: 51.4557, lng: -2.5826, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-401", city: "bristol", name: "The Elmers Arms", address: "53 Old Market Street", district: "st philip's",
+    lat: 51.4561, lng: -2.5809, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-402", city: "bristol", name: "Langton Court Hotel", address: "Langton Court Road", district: "saint annes",
+    lat: 51.4501, lng: -2.5486, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-403", city: "bristol", name: "The Sandringham", address: "8 Sandy Park Road", district: "brislington",
+    lat: 51.441, lng: -2.5553, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-404", city: "bristol", name: "The Good Intent", address: "Broomhill Road", district: "brislington",
+    lat: 51.4403, lng: -2.5375, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-405", city: "bristol", name: "Seamus O'Donnell's", address: "13 Saint Nicholas Street", district: "city centre",
+    lat: 51.4538, lng: -2.5933, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-406", city: "bristol", name: "The Yeoman", address: "700 Wells Road",
+    lat: 51.4133, lng: -2.5593, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-407", city: "bristol", name: "The Annexe Inn", address: "Nevil Road", district: "bishopston",
+    lat: 51.4794, lng: -2.5866, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-408", city: "bristol", name: "The Orchard Inn", address: "12 Hanover Place", district: "hotwells",
+    lat: 51.4474, lng: -2.6095, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-409", city: "bristol", name: "Old Mail House", address: "56 High Street", district: "staple hill",
+    lat: 51.4811, lng: -2.511, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-410", city: "bristol", name: "The Sandringham", address: "Quakers Road",
+    lat: 51.499, lng: -2.5034, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "accessible"] },
+
+  { id: "bri-411", city: "bristol", name: "The Cross Keys", address: "15 Hollyguest Road",
+    lat: 51.451, lng: -2.5055, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-412", city: "bristol", name: "The Bank", address: "8 John Street", district: "city centre",
+    lat: 51.4562, lng: -2.5939, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-413", city: "bristol", name: "The Robert Fitzharding", address: "24 Cannon Street", district: "bedminster",
+    lat: 51.4412, lng: -2.6008, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-414", city: "bristol", name: "The Old Market Assembly", address: "23-25 West Street", district: "st philip's",
+    lat: 51.4569, lng: -2.5791, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-415", city: "bristol", name: "The Cadbury", address: "68 Richmond Road", district: "montpelier",
+    lat: 51.4674, lng: -2.5866, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "food"] },
+
+  { id: "bri-416", city: "bristol", name: "The Old Tavern", address: "Blackberry Hill", district: "stapleton",
+    lat: 51.4826, lng: -2.5413, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-417", city: "bristol", name: "The Packhorse", address: "166-168 Lawrence Hill", district: "lawrence hill",
+    lat: 51.4579, lng: -2.5667, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-418", city: "bristol", name: "Horse & Jockey", address: "56 Nags Head Hill", district: "saint george",
+    lat: 51.4559, lng: -2.5288, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-419", city: "bristol", name: "The Lord Raglan", address: "1 Nags Head Hill", district: "saint george",
+    lat: 51.4572, lng: -2.5297, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-420", city: "bristol", name: "The Trooper", address: "90 Bryants Hill", district: "saint george",
+    lat: 51.4522, lng: -2.5237, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-421", city: "bristol", name: "The Jolly Sailor", address: "High Street",
+    lat: 51.4492, lng: -2.517, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-422", city: "bristol", name: "The Kensington Arms", address: "35-37 Stanley Road", district: "redland",
+    lat: 51.4673, lng: -2.6031, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-423", city: "bristol", name: "The Green Dragon", address: "Badminton Road",
+    lat: 51.4903, lng: -2.5024, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "mezze", "food"] },
+
+  { id: "bri-424", city: "bristol", name: "White Swan", address: "70 North Street",
+    lat: 51.4855, lng: -2.505, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-425", city: "bristol", name: "501 Bar", address: "2 Broad Street", district: "staple hill",
+    lat: 51.4809, lng: -2.5067, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-426", city: "bristol", name: "The Portcullis", address: "130 High Street", district: "staple hill",
+    lat: 51.4809, lng: -2.5069, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-427", city: "bristol", name: "The Staple Hill Oak", address: "84-86 High Street",
+    lat: 51.481, lng: -2.5093, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft", "food"] },
+
+  { id: "bri-428", city: "bristol", name: "King William the Fourth", address: "62 Broad Street", district: "staple hill",
+    lat: 51.4807, lng: -2.5031, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-429", city: "bristol", name: "The Wooden Walls", address: "Address unknown",
+    lat: 51.4809, lng: -2.5054, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-430", city: "bristol", name: "The Swan with Two Necks", address: "12 Little Ann Street", district: "easton",
+    lat: 51.4591, lng: -2.5793, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-431", city: "bristol", name: "The Duke of Cornwall", address: "Pump Square", district: "pill",
+    lat: 51.4818, lng: -2.685, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-432", city: "bristol", name: "The Duke of York", address: "2 Jubilee Road", district: "st werburgh's",
+    lat: 51.4673, lng: -2.5756, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-433", city: "bristol", name: "The Queens Head", address: "22 Queens Road", district: "bishopsworth",
+    lat: 51.4109, lng: -2.6198, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-434", city: "bristol", name: "The Star", address: "539 Fishponds Road",
+    lat: 51.4763, lng: -2.5398, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-435", city: "bristol", name: "The Ashville", address: "15 Leigh Street", district: "southville",
+    lat: 51.4443, lng: -2.6132, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-436", city: "bristol", name: "The Hare on the Hill", address: "41 Thomas Street North", district: "cotham",
+    lat: 51.4636, lng: -2.5919, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "food"] },
+
+  { id: "bri-437", city: "bristol", name: "The Bull Inn", address: "333 Crews Hole Road", district: "st george",
+    lat: 51.4519, lng: -2.5353, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-438", city: "bristol", name: "Portcullis", address: "3 Sion Hill", district: "clifton",
+    lat: 51.4529, lng: -2.6239, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "real-ale"] },
+
+  { id: "bri-439", city: "bristol", name: "The Hole in the Wall", address: "2 The Grove", district: "city centre",
+    lat: 51.4495, lng: -2.5934, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible"] },
+
+  { id: "bri-440", city: "bristol", name: "Hartcliffe Inn", address: "Brocks Road", district: "hartcliffe",
+    lat: 51.405, lng: -2.6006, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-441", city: "bristol", name: "Fulford House", address: "Fulford Road", district: "hartcliffe",
+    lat: 51.4098, lng: -2.5996, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-442", city: "bristol", name: "Lodekka", address: "Tramway Road",
+    lat: 51.4372, lng: -2.5561, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "regional"] },
+
+  { id: "bri-443", city: "bristol", name: "The Star Inn", address: "13 Bank Place", district: "pill",
+    lat: 51.4799, lng: -2.685, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-444", city: "bristol", name: "The Kings Arms", address: "Hollywood Road", district: "brislington",
+    lat: 51.4344, lng: -2.5488, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-445", city: "bristol", name: "Coach & Horses", address: "25 Gloucester Lane", district: "easton",
+    lat: 51.4576, lng: -2.5791, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-446", city: "bristol", name: "The Concorde", address: "Stockwood Lane", district: "stockwood",
+    lat: 51.4113, lng: -2.542, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor"] },
+
+  { id: "bri-447", city: "bristol", name: "The Kingswood Colliers", address: "94-96 Regent Street",
+    lat: 51.4623, lng: -2.5069, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe", "outdoor", "accessible", "food", "real-ale"] },
+
+  { id: "bri-448", city: "bristol", name: "The Queens Head", address: "29 Lower Hanham Road",
+    lat: 51.4512, lng: -2.5139, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-449", city: "bristol", name: "The Guinness Bar", address: "Address unknown",
+    lat: 51.4407, lng: -2.6216, drink: "Pint of Bristol Beer Factory", par: 4, type: "irish",
+    tags: ["irish"] },
+
+  { id: "bri-450", city: "bristol", name: "Fishponds Tap", address: "693 Fishponds Road", district: "fishponds",
+    lat: 51.4795, lng: -2.5324, drink: "Pint of Bristol Beer Factory", par: 3, type: "craft",
+    tags: ["craft"] },
+
+  { id: "bri-451", city: "bristol", name: "The Tythings", address: "10 Highridge Road", district: "bishopsworth",
+    lat: 51.4124, lng: -2.6207, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-452", city: "bristol", name: "Rose and Crown", address: "Two Mile Hill Road",
+    lat: 51.462, lng: -2.5235, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-453", city: "bristol", name: "The Black Horse", address: "372 Two Mile Hill Road",
+    lat: 51.4629, lng: -2.5123, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-454", city: "bristol", name: "The Pilgrim Inn", address: "21 Hollywood Road", district: "brislington",
+    lat: 51.4352, lng: -2.5483, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-455", city: "bristol", name: "The Railway Tavern", address: "Station Road",
+    lat: 51.4791, lng: -2.5302, drink: "Pint of Bristol Beer Factory", par: 3, type: "kneipe",
+    tags: ["kneipe"] },
+
+  { id: "bri-456", city: "bristol", name: "Lakota", address: "6 Upper York Street",
+    lat: 51.4616, lng: -2.5896, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-144", city: "bristol", name: "Blame Gloria", address: "22 Small Street", district: "city centre",
-    lat: 51.4549, lng: -2.5944, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-457", city: "bristol", name: "The Pearl Nightclub", address: "10-12 Triangle South", district: "clifton",
+    lat: 51.4562, lng: -2.6072, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-145", city: "bristol", name: "Basement 45", address: "8 Frogmore Street",
-    lat: 51.4535, lng: -2.6008, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-458", city: "bristol", name: "Chasers", address: "Address unknown",
+    lat: 51.4627, lng: -2.5082, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-146", city: "bristol", name: "Qube", address: "12 Park Row",
-    lat: 51.4553, lng: -2.6006, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-459", city: "bristol", name: "Loco Klub", address: "Approach Road", district: "redcliffe",
+    lat: 51.4491, lng: -2.5829, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-147", city: "bristol", name: "Pryzm", address: "Canons Road", district: "city centre",
-    lat: 51.4501, lng: -2.5989, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-460", city: "bristol", name: "omg", address: "Address unknown",
+    lat: 51.4533, lng: -2.6016, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-148", city: "bristol", name: "Illuminati", address: "9 Park Street", district: "city centre",
-    lat: 51.4533, lng: -2.6016, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-461", city: "bristol", name: "Tazmental Promotions", address: "35 Lanaway Road",
+    lat: 51.4867, lng: -2.52, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-149", city: "bristol", name: "The Shilling", address: "9 Frogmore Street", district: "city centre",
-    lat: 51.4537, lng: -2.601, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-462", city: "bristol", name: "Motion", address: "2 Victoria Terrace",
+    lat: 51.4487, lng: -2.569, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-150", city: "bristol", name: "Clock Factory", address: "63 Union Street", district: "city centre",
-    lat: 51.4576, lng: -2.5925, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-463", city: "bristol", name: "Thekla", address: "The Grove", district: "city centre",
+    lat: 51.449, lng: -2.5942, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-151", city: "bristol", name: "The Tunnels", address: "Bristol & Exeter Mews", district: "temple meads",
-    lat: 51.4489, lng: -2.5823, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-464", city: "bristol", name: "O'Neill's", address: "7-9 Baldwin Street", district: "city centre",
+    lat: 51.4536, lng: -2.5962, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene", "accessible"] },
+
+  { id: "bri-465", city: "bristol", name: "Popworld", address: "16-24 Baldwin Street",
+    lat: 51.4533, lng: -2.5953, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene", "accessible"] },
+
+  { id: "bri-466", city: "bristol", name: "Exchange", address: "72-73 Old Market Street", district: "st philip's",
+    lat: 51.4555, lng: -2.5828, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-152", city: "bristol", name: "Electric", address: "15 Nelson Street", district: "city centre",
-    lat: 51.4566, lng: -2.5921, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-467", city: "bristol", name: "Fiddlers Club", address: "Willway Street", district: "bedminster",
+    lat: 51.4429, lng: -2.5924, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-153", city: "bristol", name: "Strange Brew", address: "Fairfax Street",
-    lat: 51.4563, lng: -2.5923, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-468", city: "bristol", name: "La Rocca", address: "7-9 Triangle South", district: "clifton",
+    lat: 51.4562, lng: -2.6073, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-154", city: "bristol", name: "Dare To", address: "1 Alfred Street",
-    lat: 51.4537, lng: -2.5739, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-469", city: "bristol", name: "Lola Lo", address: "67-69 Queen's Road", district: "clifton",
+    lat: 51.4565, lng: -2.6072, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
-  { id: "brs-155", city: "bristol", name: "Zed Alley", address: "Colston Avenue", district: "city centre",
-    lat: 51.4555, lng: -2.5972, drink: "Craft Beer", par: 3, type: "szene",
+  { id: "bri-470", city: "bristol", name: "Lizard Lounge", address: "66 Queen's Road", district: "clifton",
+    lat: 51.4571, lng: -2.6073, drink: "Pint of Bristol Beer Factory", par: 3, type: "cocktailbar",
+    tags: ["cocktailbar"] },
+
+  { id: "bri-471", city: "bristol", name: "Redland Club", address: "Burlington Road", district: "redland",
+    lat: 51.4687, lng: -2.6113, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-472", city: "bristol", name: "Blame Gloria", address: "22 Small Street", district: "city centre",
+    lat: 51.4549, lng: -2.5944, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-473", city: "bristol", name: "Basement 45", address: "8 Frogmore Street",
+    lat: 51.4535, lng: -2.6008, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-474", city: "bristol", name: "Qube", address: "12 Park Row",
+    lat: 51.4553, lng: -2.6006, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-475", city: "bristol", name: "Circuit", address: "Canons Road", district: "city centre",
+    lat: 51.4501, lng: -2.5989, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-476", city: "bristol", name: "Illuminati", address: "9 Park Street", district: "city centre",
+    lat: 51.4533, lng: -2.6016, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-477", city: "bristol", name: "The Shilling", address: "9 Frogmore Street", district: "city centre",
+    lat: 51.4537, lng: -2.601, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-478", city: "bristol", name: "Clock Factory", address: "63 Union Street", district: "city centre",
+    lat: 51.4576, lng: -2.5925, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-479", city: "bristol", name: "The Tunnels", address: "Bristol & Exeter Mews", district: "temple meads",
+    lat: 51.4489, lng: -2.5823, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-480", city: "bristol", name: "Electric", address: "15 Nelson Street", district: "city centre",
+    lat: 51.4566, lng: -2.5921, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-481", city: "bristol", name: "Afterdark", address: "Address unknown",
+    lat: 51.4545, lng: -2.5958, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-482", city: "bristol", name: "Strange Brew", address: "Fairfax Street",
+    lat: 51.4563, lng: -2.5923, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-483", city: "bristol", name: "Dare To", address: "1 Alfred Street",
+    lat: 51.4537, lng: -2.5739, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
+    tags: ["szene"] },
+
+  { id: "bri-484", city: "bristol", name: "Zed Alley", address: "Colston Avenue", district: "city centre",
+    lat: 51.4555, lng: -2.5972, drink: "Pint of Bristol Beer Factory", par: 3, type: "szene",
     tags: ["szene"] },
 
 
