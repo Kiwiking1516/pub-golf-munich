@@ -351,6 +351,76 @@ const newcastleBiergarten: Hole[] = [
   { name: 'Madisons', drink: 'Pint of Newcastle Brown', par: 4, time: '21:00', flags: ['finale'], activeRules: [], barId: 'new-015' },
 ];
 
+// ──── EDINBURGH ──────────────────────────────────────────
+
+const edinburghBiergolf: Hole[] = [
+  { name: 'Deacon Brodie\'s Tavern', drink: "Pint of Tennent's", par: 3, time: '12:00', flags: ['signature'], activeRules: [], barId: 'edi-283' },
+  { name: 'The Jolly Judge', drink: "Pint of Tennent's", par: 3, time: '12:45', flags: [], activeRules: [], barId: 'edi-371' },
+  { name: 'The Royal Mile Tavern', drink: "Pint of Tennent's", par: 3, time: '13:30', flags: [], activeRules: [], barId: 'edi-268' },
+  { name: 'The World\'s End', drink: "Pint of Tennent's", par: 3, time: '14:15', flags: [], activeRules: [], barId: 'edi-407' },
+  { name: 'The Halfway House', drink: "Pint of Tennent's", par: 3, time: '15:00', flags: [], activeRules: [], barId: 'edi-401' },
+  { name: 'Whiski Rooms', drink: 'Whisky Flight', par: 4, time: '15:45', flags: [], activeRules: [], barId: 'edi-101' },
+  { name: 'Bow Bar', drink: 'Cask Ale Pint', par: 3, time: '16:30', flags: [], activeRules: [], barId: 'edi-299' },
+  { name: 'The Last Drop', drink: "Pint of Tennent's", par: 3, time: '17:15', flags: [], activeRules: [], barId: 'edi-367' },
+  { name: 'Greyfriars Bobby', drink: "Pint of Tennent's", par: 3, time: '18:00', flags: ['turn'], activeRules: [], barId: 'edi-372' },
+  { name: 'BrewDog Lothian Road', drink: 'Craft IPA Pint', par: 4, time: '18:45', flags: [], activeRules: [], barId: 'edi-170' },
+  { name: 'Ghillie-Dhu', drink: "Pint of Tennent's", par: 3, time: '19:30', flags: [], activeRules: [], barId: 'edi-051' },
+  { name: 'Cafe Royal', drink: "Pint of Tennent's", par: 4, time: '20:15', flags: [], activeRules: [], barId: 'edi-186' },
+  { name: 'Guildford Arms', drink: "Pint of Tennent's", par: 3, time: '21:00', flags: [], activeRules: [], barId: 'edi-171' },
+  { name: 'The Standing Order', drink: "Pint of Tennent's", par: 3, time: '21:30', flags: [], activeRules: [], barId: 'edi-415' },
+  { name: 'Abbotsford', drink: "Pint of Tennent's", par: 3, time: '22:00', flags: [], activeRules: [], barId: 'edi-300' },
+  { name: 'The Kenilworth', drink: "Pint of Tennent's", par: 3, time: '22:30', flags: [], activeRules: [], barId: 'edi-180' },
+  { name: 'Auld Hundred', drink: "Pint of Tennent's", par: 3, time: '23:00', flags: [], activeRules: [], barId: 'edi-181' },
+  { name: 'Oxford Bar', drink: "Pint of Tennent's", par: 4, time: '23:45', flags: ['finale'], activeRules: [], barId: 'edi-201' },
+];
+
+const edinburghBiergarten: Hole[] = [
+  { name: 'The Sheep Heid Inn', drink: "Pint of Tennent's", par: 4, time: '13:00', flags: ['signature'], activeRules: [], barId: 'edi-169' },
+  { name: 'Cumberland Bar', drink: "Pint of Tennent's", par: 3, time: '14:00', flags: [], activeRules: [], barId: 'edi-187' },
+  { name: 'Hectors', drink: "Pint of Tennent's", par: 3, time: '15:00', flags: [], activeRules: [], barId: 'edi-247' },
+  { name: 'The Jolly Judge', drink: "Pint of Tennent's", par: 3, time: '16:00', flags: [], activeRules: [], barId: 'edi-371' },
+  { name: 'Bow Bar', drink: 'Cask Ale Pint', par: 3, time: '17:00', flags: ['turn'], activeRules: [], barId: 'edi-299' },
+  { name: 'The Last Drop', drink: "Pint of Tennent's", par: 3, time: '18:00', flags: [], activeRules: [], barId: 'edi-367' },
+  { name: 'Greyfriars Bobby', drink: "Pint of Tennent's", par: 3, time: '19:00', flags: [], activeRules: [], barId: 'edi-372' },
+  { name: 'Cafe Royal', drink: "Pint of Tennent's", par: 4, time: '20:00', flags: [], activeRules: [], barId: 'edi-186' },
+  { name: 'Oxford Bar', drink: "Pint of Tennent's", par: 4, time: '21:00', flags: ['finale'], activeRules: [], barId: 'edi-201' },
+];
+
+// ──── BRISTOL ────────────────────────────────────────────
+
+const bristolBiergolf: Hole[] = [
+  { name: 'The Llandoger Trow', drink: 'Pint of Bristol Beer Factory', par: 4, time: '12:00', flags: ['signature'], activeRules: [], barId: 'bri-187' },
+  { name: 'The Beer Emporium', drink: 'Craft IPA Pint', par: 4, time: '12:45', flags: [], activeRules: [], barId: 'bri-186' },
+  { name: 'King Street Brew House', drink: 'Pint of Lager', par: 3, time: '13:30', flags: [], activeRules: [], barId: 'bri-185' },
+  { name: 'The Old Duke', drink: 'Pint of Lager', par: 3, time: '14:15', flags: [], activeRules: [], barId: 'bri-184' },
+  { name: 'smallBAR', drink: 'Pint of Lager', par: 3, time: '15:00', flags: [], activeRules: [], barId: 'bri-188' },
+  { name: 'The Hatchet Inn', drink: 'Pint of Lager', par: 3, time: '15:45', flags: [], activeRules: [], barId: 'bri-171' },
+  { name: 'The Milk Thistle', drink: 'Cocktail', par: 4, time: '16:30', flags: [], activeRules: [], barId: 'bri-038' },
+  { name: 'The Crown', drink: 'Pint of Lager', par: 3, time: '17:15', flags: [], activeRules: [], barId: 'bri-192' },
+  { name: 'Zero Degrees', drink: 'House Lager', par: 4, time: '18:00', flags: ['turn'], activeRules: [], barId: 'bri-222' },
+  { name: 'The Highbury Vaults', drink: 'Pint of Lager', par: 3, time: '18:45', flags: [], activeRules: [], barId: 'bri-165' },
+  { name: 'Left Handed Giant Brewpub', drink: 'Craft IPA Pint', par: 4, time: '19:30', flags: [], activeRules: [], barId: 'bri-219' },
+  { name: 'The Bell', drink: 'Pint of Lager', par: 3, time: '20:15', flags: [], activeRules: [], barId: 'bri-166' },
+  { name: 'The Bristol Stable', drink: 'Cider Pint', par: 3, time: '21:00', flags: [], activeRules: [], barId: 'bri-146' },
+  { name: 'Hey Dude Bar', drink: 'Pint of Lager', par: 3, time: '21:30', flags: [], activeRules: [], barId: 'bri-124' },
+  { name: '1766 bar & kitchen', drink: 'Pint of Lager', par: 3, time: '22:00', flags: [], activeRules: [], barId: 'bri-010' },
+  { name: 'Bar + Block', drink: 'Pint of Lager', par: 3, time: '22:30', flags: [], activeRules: [], barId: 'bri-122' },
+  { name: 'Seven Stars', drink: 'Pint of Lager', par: 3, time: '23:00', flags: [], activeRules: [], barId: 'bri-198' },
+  { name: 'The Grain House', drink: 'Pint of Lager', par: 4, time: '23:45', flags: ['finale'], activeRules: [], barId: 'bri-005' },
+];
+
+const bristolBiergarten: Hole[] = [
+  { name: 'Grain Barge', drink: 'Pint of Lager', par: 4, time: '13:00', flags: ['signature'], activeRules: [], barId: 'bri-170' },
+  { name: 'The Llandoger Trow', drink: 'Pint of Bristol Beer Factory', par: 3, time: '14:00', flags: [], activeRules: [], barId: 'bri-187' },
+  { name: 'The Old Duke', drink: 'Pint of Lager', par: 3, time: '15:00', flags: [], activeRules: [], barId: 'bri-184' },
+  { name: 'King Street Brew House', drink: 'Craft IPA Pint', par: 3, time: '16:00', flags: [], activeRules: [], barId: 'bri-185' },
+  { name: 'The Beer Emporium', drink: 'Craft IPA Pint', par: 4, time: '17:00', flags: ['turn'], activeRules: [], barId: 'bri-186' },
+  { name: 'smallBAR', drink: 'Pint of Lager', par: 3, time: '18:00', flags: [], activeRules: [], barId: 'bri-188' },
+  { name: 'The Hatchet Inn', drink: 'Pint of Lager', par: 3, time: '19:00', flags: [], activeRules: [], barId: 'bri-171' },
+  { name: 'The Highbury Vaults', drink: 'Pint of Lager', par: 3, time: '20:00', flags: [], activeRules: [], barId: 'bri-165' },
+  { name: 'Left Handed Giant Brewpub', drink: 'Craft IPA Pint', par: 4, time: '21:00', flags: ['finale'], activeRules: [], barId: 'bri-219' },
+];
+
 // ──── DUBLIN ─────────────────────────────────────────────
 
 const dublinBiergolf: Hole[] = [
@@ -399,8 +469,8 @@ const courseMap: Record<CityId, Record<GameMode, Hole[]>> = {
   liverpool: { biergolf: liverpoolBiergolf, biergarten: liverpoolBiergarten },
   brighton: { biergolf: brightonBiergolf, biergarten: brightonBiergarten },
   newcastle: { biergolf: newcastleBiergolf, biergarten: newcastleBiergarten },
-  edinburgh: { biergolf: [], biergarten: [] },
-  bristol: { biergolf: [], biergarten: [] },
+  edinburgh: { biergolf: edinburghBiergolf, biergarten: edinburghBiergarten },
+  bristol: { biergolf: bristolBiergolf, biergarten: bristolBiergarten },
   dublin: { biergolf: dublinBiergolf, biergarten: dublinBiergarten },
 };
 
