@@ -614,5 +614,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'help.rulesGameplay': 'During gameplay you can roll for rules at each bar:\n• \'Roll rule\' — Rolls a random rule for the current hole (30% chance of no rule)\n• \'Re-roll\' — Swaps the last rule for a new one (risky!)\n• \'Add rule\' — Adds another rule on top of existing ones\n\nRules can also be pre-planned in the Course tab or left entirely to chance.',
     'help.tipsTitle': '💡 Tips',
     'help.tipsBody': '• Decide before starting whether to pre-plan rules or use Surprise Mode\n• Use the navigation button to find your way to the next bar\n• The leaderboard updates live — check standings after each bar\n• Penalty sips count on top of your score — play fair!\n• Your game is auto-saved — you can close the app and continue anytime\n• Use \'Select area\' on the map to create a course near your location',
+    // Alcohol-free mode
+    'af.title': 'Alcohol-Free Mode',
+    'af.desc': 'Play with non-alcoholic drinks. Replaces drink references with neutral terms.',
+    'af.settings': 'Settings',
   },
 };
