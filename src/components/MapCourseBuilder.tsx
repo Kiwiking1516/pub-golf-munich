@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getBarsForCity, optimizeRoute, shuffle, distanceKm } from '@/data/pubs';
-import { allRules } from '@/data/rules';
+import { getRulesForCity } from '@/data/rules';
 import { Hole, HoleFlag, PubLocation } from '@/types/game';
 import { toast } from 'sonner';
 
