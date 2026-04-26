@@ -94,14 +94,30 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (importChecked.current) return;
     importChecked.current = true;
-    const params = new URLSearchParams(window.location.search);
-    const courseParam = params.get('course');
+    // Read ?course= from either the standard query string or from the
+    // hash portion (HashRouter format: #/?course=...)
+    let courseParam: string | null = null;
+    const search = window.location.search;
+    if (search) {
+      courseParam = new URLSearchParams(search).get('course');
+    }
+    if (!courseParam) {
+      const hash = window.location.hash || '';
+      const qIdx = hash.indexOf('?');
+      if (qIdx !== -1) {
+        courseParam = new URLSearchParams(hash.substring(qIdx + 1)).get('course');
+      }
+    }
     if (courseParam) {
       const decoded = decodeCourse(courseParam);
       if (decoded) {
         setPendingImport(decoded);
       }
-      window.history.replaceState({}, '', window.location.pathname);
+      // Strip the course param from the URL while preserving hash route
+      const hash = window.location.hash || '';
+      const qIdx = hash.indexOf('?');
+      const cleanHash = qIdx !== -1 ? hash.substring(0, qIdx) : hash;
+      window.history.replaceState({}, '', window.location.pathname + cleanHash);
     }
   }, []);
 

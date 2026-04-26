@@ -9,6 +9,48 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regionen',
     'region.ageFooter': 'Für Nutzer ab 18 (oder dem gesetzlichen Trinkalter deines Landes). Spiel verantwortungsvoll.',
+    'footer.privacy': 'Datenschutz',
+    'footer.imprint': 'Impressum',
+    'privacy.body': `Datenschutzerklärung PubGolf
+
+Stand: 26.04.2026
+
+PubGolf ist eine datenschutzfreundliche App. Wir betreiben kein Backend. Wir erheben, speichern oder übermitteln keine personenbezogenen Daten an einen Server.
+
+Was auf deinem Gerät bleibt:
+- Spielstand (Spieler, Scores, Kurs)
+- Sprach-Einstellung
+- Alkoholfreier-Modus-Einstellung
+- Bestätigung des Verantwortungs-Hinweises
+
+Diese Daten werden ausschließlich im lokalen Speicher deines Browsers abgelegt. Beim Löschen der Seitendaten werden sie entfernt.
+
+Standortdaten:
+Bei Nutzung der Kartenfunktionen fragt die App deinen Gerätestandort ab, um Bars in deiner Nähe und deine aktuelle Position anzuzeigen. Standortdaten werden ausschließlich auf deinem Gerät verarbeitet und nicht an uns oder Dritte übermittelt.
+
+Kartendaten:
+Kartenkacheln werden von OpenStreetMap geladen. Deine IP-Adresse ist für die Kachel-Server von OpenStreetMap sichtbar, wie bei jedem kartenbasierten Dienst üblich. Wir kontrollieren oder erhalten diese Daten nicht. Siehe https://operations.osmfoundation.org/policies/tiles/
+
+Externe Links:
+Geteilte Kurs-Links enthalten nur kodierte Kurs-Daten, keine personenbezogenen Informationen.
+
+Kinder:
+Diese App richtet sich an Nutzer ab 18 Jahren (oder dem gesetzlichen Trinkalter in ihrem Land).
+
+Kontakt:
+pubgolfmuc@gmail.com`,
+    'imprint.body': `Impressum
+
+Angaben gemäß § 5 TMG
+
+Richard Friedrich
+Franz-Wolter-Straße 2
+81925 München
+Deutschland
+
+E-Mail: pubgolfmuc@gmail.com
+
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Richard Friedrich, Anschrift wie oben.`,
     // Responsibility gate
     'responsibility.title': 'Spiel verantwortungsvoll',
     'responsibility.bullet1': 'Trinke niemals über dein persönliches Limit hinaus',
@@ -325,6 +367,48 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regions',
     'region.ageFooter': 'For users 18+ (or legal drinking age in your country). Play responsibly.',
+    'footer.privacy': 'Privacy',
+    'footer.imprint': 'Imprint',
+    'privacy.body': `PubGolf Privacy Policy
+
+Last updated: 26.04.2026
+
+PubGolf is a privacy-first app. We do not run a backend. We do not collect, store, or transmit any personal data to any server.
+
+What stays on your device:
+- Game state (players, scores, course)
+- Language preference
+- Alcohol-Free Mode preference
+- Responsibility-acknowledgement flag
+
+These are stored in your browser's local storage only. Clearing site data removes them.
+
+Location data:
+When you use the map features, the app requests your device location to show nearby bars and your current position. Location data is processed only on your device and is never transmitted to us or any third party.
+
+Map data:
+Map tiles are loaded from OpenStreetMap. Your IP address is visible to OpenStreetMap's tile servers when tiles are requested, as is standard for any map-based service. We do not control or receive that data. See https://operations.osmfoundation.org/policies/tiles/
+
+External links:
+Share links contain encoded course data only. They do not contain personal information.
+
+Children:
+This app is intended for users 18 years or older (or the legal drinking age in their country).
+
+Contact:
+pubgolfmuc@gmail.com`,
+    'imprint.body': `Imprint
+
+This is a personal project. Operator details:
+
+Richard Friedrich
+Franz-Wolter-Straße 2
+81925 Munich
+Germany
+
+Email: pubgolfmuc@gmail.com
+
+Responsible for content according to § 55 Abs. 2 RStV: Richard Friedrich, address as above.`,
     // Responsibility gate
     'responsibility.title': 'Play Responsibly',
     'responsibility.bullet1': 'Never drink beyond your personal limit',
