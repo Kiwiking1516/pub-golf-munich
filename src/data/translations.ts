@@ -568,9 +568,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'rule.frachter-bonus.short': '-1 for freighter sighting',
     'rule.frachter-bonus.desc': 'Anyone who spots a passing container freighter while drinking gets -1 bonus point on this hole score.',
     // UK rules — English
-    'rule.yard-of-ale.name': 'Yard of Ale',
-    'rule.yard-of-ale.short': '-3 bonus if completed',
-    'rule.yard-of-ale.desc': 'If any pub offers a Yard of Ale and a player finishes it, they get -3 bonus on this hole.',
+    'rule.yard-of-ale.name': 'Local Specialty',
+    'rule.yard-of-ale.short': '-2 bonus for ordering the local specialty',
+    'rule.yard-of-ale.desc': 'If a player orders the pub\'s signature local drink (ask the bartender), they get -2 bonus on this hole.',
     'rule.pub-quiz.name': 'Pub Quiz',
     'rule.pub-quiz.short': '+1 per wrong answer',
     'rule.pub-quiz.desc': 'Each player must answer a trivia question about the city. Wrong answer = +1 penalty sip.',
