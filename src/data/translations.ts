@@ -63,6 +63,8 @@ Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: [Name], Anschrift wie obe
     // CitySelect
     'city.title': '🗺️ Wähle deine Stadt',
     'city.subtitle': 'Pub Golf in ganz Deutschland',
+    'city.subtitle.de': 'Pub Golf in ganz Deutschland',
+    'city.subtitle.uk': 'Pub Golf in UK & Irland',
     'city.footer': 'Prost! 🍻',
     // City taglines
     'city.münchen.tagline': 'Wirtshäuser und Biergärten',
@@ -423,6 +425,8 @@ Responsible for content according to § 55 Abs. 2 RStV: [Name], address as above
     // CitySelect
     'city.title': '🗺️ Choose your city',
     'city.subtitle': 'Pub Golf across Germany',
+    'city.subtitle.de': 'Pub Golf across Germany',
+    'city.subtitle.uk': 'Pub Golf across the UK & Ireland',
     'city.footer': 'Cheers! 🍻',
     // City taglines
     'city.münchen.tagline': 'Pubs and beer gardens',

@@ -21,7 +21,7 @@ export default function CitySelect() {
 
       <div className="animate-fade-in text-center mb-8">
         <h1 className="font-display text-4xl font-bold text-foreground mb-2">{t('city.title')}</h1>
-        <p className="text-muted-foreground text-sm">{t('city.subtitle')}</p>
+        <p className="text-muted-foreground text-sm">{t(region === 'uk' ? 'city.subtitle.uk' : 'city.subtitle.de')}</p>
       </div>
 
       <div className="w-full max-w-sm space-y-3 animate-fade-in">
