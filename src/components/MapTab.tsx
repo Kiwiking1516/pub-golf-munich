@@ -7,6 +7,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import MapAreaSelect from './MapAreaSelect';
 import MapCourseBuilder from './MapCourseBuilder';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 const TYPE_ICONS: Record<string, string> = {
   brauhaus: '🏠',
@@ -62,8 +63,8 @@ export default function MapTab() {
   const gpsMarkerRef = useRef<L.Marker | null>(null);
   const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [activeMode, setActiveMode] = useState<'none' | 'area' | 'builder'>('none');
-  const { holes, city, currentHole } = useGame();
-  const { t } = useLanguage();
+  const { holes, city, currentHole, alcoholFreeMode } = useGame();
+  const { t, lang } = useLanguage();
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
@@ -167,7 +168,7 @@ export default function MapTab() {
             <span style="padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;background:${cityColor}22;color:${cityColor}">${typeIcon} ${coord.bar?.type || 'bar'}</span>
             <span style="padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;background:#f0f0f0;color:#333">⛳ Par ${hole.par}</span>
           </div>
-          <div style="font-size:12px;color:#444;">🍺 ${hole.drink}</div>
+          <div style="font-size:12px;color:#444;">🍺 ${neutralizeDrinkLabel(hole.drink, alcoholFreeMode, lang)}</div>
           <div style="font-size:11px;color:#888;margin-top:4px;">🕐 ${hole.time}</div>
           <button onclick="window.__pubgolfNav(${coord.lat},${coord.lng},'${hole.name.replace(/'/g, "\\'")}')" 
              style="display:inline-block;margin-top:8px;padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;background:${cityColor};color:white;text-decoration:none;border:none;cursor:pointer;">
@@ -243,7 +244,7 @@ export default function MapTab() {
         mapInstanceRef.current = null;
       }
     };
-  }, [holes, city, currentHole, hasCoords]);
+  }, [holes, city, currentHole, hasCoords, alcoholFreeMode, lang]);
 
   if (!hasCoords) {
     return (

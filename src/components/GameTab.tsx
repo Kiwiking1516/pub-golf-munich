@@ -6,6 +6,7 @@ import { getRuleById } from '@/data/rules';
 import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X, RefreshCw, Plus, Navigation as NavigationIcon } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 function ProgressBar() {
   const { holes, currentHole, setCurrentHole, scores, players, isGreenMode } = useGame();
@@ -41,9 +42,9 @@ function ProgressBar() {
 }
 
 function HoleInfoCard() {
-  const { holes, currentHole, isGreenMode, city } = useGame();
+  const { holes, currentHole, isGreenMode, city, alcoholFreeMode } = useGame();
   const [navTarget, setNavTarget] = useState<{ lat: number; lng: number; label: string } | null>(null);
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const hole = holes[currentHole];
   const isSignature = hole.flags.includes('signature');
   const isTurn = hole.flags.includes('turn');
@@ -86,7 +87,7 @@ function HoleInfoCard() {
               </button>
             )}
           </div>
-          <p className="text-sand text-sm">{hole.drink}</p>
+          <p className="text-sand text-sm">{neutralizeDrinkLabel(hole.drink, alcoholFreeMode, lang)}</p>
           {isGreenMode && secondCourse && (
             <span className="inline-block mt-1 text-[10px] bg-green-accent/20 text-green-accent px-2 py-0.5 rounded-full font-bold">
               {secondCourse.emoji} {scName.toUpperCase()} {currentHole + 1}/{holes.length}
@@ -273,8 +274,8 @@ function RulesPanel({ isFirstVisit }: { isFirstVisit: boolean }) {
 }
 
 function PlayerScoreInput({ player }: { player: string }) {
-  const { holes, currentHole, scores, penalties, setScore, setPenalty } = useGame();
-  const { t } = useLanguage();
+  const { holes, currentHole, scores, penalties, setScore, setPenalty, alcoholFreeMode } = useGame();
+  const { t, lang } = useLanguage();
   const hole = holes[currentHole];
   const score = scores[player]?.[currentHole] ?? hole.par;
   const penaltyCount = penalties[player]?.[currentHole] ?? 0;
@@ -318,7 +319,7 @@ function PlayerScoreInput({ player }: { player: string }) {
       {penaltyCount > 0 && (
         <div className="mt-1 flex items-center justify-between">
           <p className="text-penalty text-[10px]">
-            {penaltyCount} {penaltyCount > 1 ? t('game.penaltySips') : t('game.penaltySip')}
+            {penaltyCount} {neutralizeDrinkLabel(penaltyCount > 1 ? t('game.penaltySips') : t('game.penaltySip'), alcoholFreeMode, lang)}
           </p>
           <button onClick={() => setPenalty(player, currentHole, penaltyCount - 1)} className="text-sand text-[10px] underline">{t('game.remove')}</button>
         </div>

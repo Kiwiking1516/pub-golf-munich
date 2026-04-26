@@ -4,10 +4,12 @@ import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/citie
 import { getCourseInfo } from '@/data/courses';
 import { ChevronLeft } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
+import { Switch } from '@/components/ui/switch';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 export default function ModeSelect() {
-  const { city, setMode, clearCity } = useGame();
-  const { t } = useLanguage();
+  const { city, setMode, clearCity, alcoholFreeMode, setAlcoholFreeMode } = useGame();
+  const { t, lang } = useLanguage();
   if (!city) return null;
   const cityConfig = getCityById(city);
   if (!cityConfig) return null;
@@ -22,7 +24,7 @@ export default function ModeSelect() {
   // Translated second course fields
   const scName = t(`course2.${city}.name`);
   const scTagline = t(`course2.${city}.tagline`);
-  const scDrink = t(`course2.${city}.drink`);
+  const scDrink = neutralizeDrinkLabel(t(`course2.${city}.drink`), alcoholFreeMode, lang);
   const scWarningKey = `course2.${city}.warning`;
   const scWarning = t(scWarningKey) !== scWarningKey ? t(scWarningKey) : undefined;
   const scTipKey = `course2.${city}.tip`;
@@ -86,6 +88,15 @@ export default function ModeSelect() {
           {scWarning && <p className="text-penalty text-[11px] mt-2 font-medium">{scWarning}</p>}
           {scTip && <p className="text-score-birdie text-[11px] mt-2">{scTip}</p>}
         </button>
+      </div>
+
+      {/* Alcohol-Free Mode toggle */}
+      <div className="w-full max-w-sm mt-5 p-4 rounded-xl border border-border bg-card flex items-start gap-3 animate-fade-in">
+        <div className="flex-1 min-w-0">
+          <div className="text-foreground text-sm font-bold">🥤 {t('af.title')}</div>
+          <p className="text-muted-foreground text-[11px] mt-0.5 leading-snug">{t('af.desc')}</p>
+        </div>
+        <Switch checked={alcoholFreeMode} onCheckedChange={setAlcoholFreeMode} />
       </div>
 
       {scLore && (

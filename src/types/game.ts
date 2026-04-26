@@ -64,4 +64,5 @@ export interface GameState {
   activeTab: TabType;
   gameStarted: boolean;
   surpriseMode: boolean;
+  alcoholFreeMode: boolean;
 }

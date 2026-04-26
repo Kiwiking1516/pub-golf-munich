@@ -305,6 +305,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'help.rulesGameplay': 'Während des Spiels kannst du an jeder Bar Regeln würfeln:\n• \'Regel würfeln\' — Würfelt eine zufällige Regel für das aktuelle Loch (30% Chance auf keine Regel)\n• \'Neu würfeln\' — Tauscht die letzte Regel gegen eine neue (riskant!)\n• \'Zusatzregel\' — Fügt eine weitere Regel hinzu, ohne die bestehenden zu ersetzen\n\nRegeln können auch vorab im Kurs-Tab geplant oder komplett dem Zufall überlassen werden.',
     'help.tipsTitle': '💡 Tipps',
     'help.tipsBody': '• Klärt vor dem Start, ob ihr Regeln vorab plant oder überraschen lasst\n• Nutzt den Navigations-Button um den Weg zur nächsten Bar zu finden\n• Der Spielstand aktualisiert sich live — schaut nach jeder Bar auf den Zwischenstand\n• Strafschlucke zählen extra zum Score — spielt fair!\n• Euer Spielstand wird automatisch gespeichert — ihr könnt die App jederzeit schließen und weiterspielen\n• Nutzt \'Bereich wählen\' auf der Karte um einen Kurs in eurer Nähe zu erstellen',
+    // Alcohol-free mode
+    'af.title': 'Alkoholfreier Modus',
+    'af.desc': 'Spiele mit alkoholfreien Getränken. Ersetzt alle Getränkebezüge durch neutrale Begriffe.',
+    'af.settings': 'Einstellungen',
   },
   en: {
     // RegionSelect
@@ -610,5 +614,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'help.rulesGameplay': 'During gameplay you can roll for rules at each bar:\n• \'Roll rule\' — Rolls a random rule for the current hole (30% chance of no rule)\n• \'Re-roll\' — Swaps the last rule for a new one (risky!)\n• \'Add rule\' — Adds another rule on top of existing ones\n\nRules can also be pre-planned in the Course tab or left entirely to chance.',
     'help.tipsTitle': '💡 Tips',
     'help.tipsBody': '• Decide before starting whether to pre-plan rules or use Surprise Mode\n• Use the navigation button to find your way to the next bar\n• The leaderboard updates live — check standings after each bar\n• Penalty sips count on top of your score — play fair!\n• Your game is auto-saved — you can close the app and continue anytime\n• Use \'Select area\' on the map to create a course near your location',
+    // Alcohol-free mode
+    'af.title': 'Alcohol-Free Mode',
+    'af.desc': 'Play with non-alcoholic drinks. Replaces drink references with neutral terms.',
+    'af.settings': 'Settings',
   },
 };
