@@ -437,12 +437,10 @@ export default function GameTab() {
         ) : (
           <button
             onClick={() => {
-              const next = currentHole + 1;
-              if (next < holes.length - 1 || next === holes.length - 1) {
-                // show water reminder when advancing to any hole except after final
-                toast(t('game.waterBreak'), { duration: 5000 });
-              }
-              setCurrentHole(next);
+              // Water reminder before advancing. Button is only shown when !isLast,
+              // so this never fires after the final hole.
+              toast(t('game.waterBreak'), { duration: 5000 });
+              setCurrentHole(currentHole + 1);
             }}
             className={`flex-[2] py-3 rounded-xl ${accentBg} text-primary-foreground font-bold tap-target transition-transform active:scale-[0.98] flex items-center justify-center gap-1`}
           >
