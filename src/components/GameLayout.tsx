@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getCityById, getCityAccentCSS, getSecondCourseInfo } from '@/data/cities';
-import { ChevronLeft, HelpCircle } from 'lucide-react';
+import { ChevronLeft, HelpCircle, Settings } from 'lucide-react';
 import PlayerTab from './PlayerTab';
 import CourseTab from './CourseTab';
 import GameTab from './GameTab';
@@ -11,11 +11,14 @@ import ScorecardTab from './ScorecardTab';
 import BottomNav from './BottomNav';
 import LanguageToggle from './LanguageToggle';
 import HowToSheet from './HowToSheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { Switch } from '@/components/ui/switch';
 
 export default function GameLayout() {
-  const { activeTab, clearMode, mode, isGreenMode, city } = useGame();
+  const { activeTab, clearMode, mode, isGreenMode, city, alcoholFreeMode, setAlcoholFreeMode } = useGame();
   const { t } = useLanguage();
   const [helpOpen, setHelpOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const cityConfig = city ? getCityById(city) : null;
   const accentCSS = cityConfig ? getCityAccentCSS(cityConfig) : '46 65% 52%';
   const accentStyle = isGreenMode ? {} : { color: `hsl(${accentCSS})` };
@@ -53,6 +56,13 @@ export default function GameLayout() {
         >
           <HelpCircle className="w-5 h-5" />
         </button>
+        <button
+          onClick={() => setSettingsOpen(true)}
+          className="text-sand hover:text-foreground transition-colors tap-target p-1 shrink-0"
+          aria-label={t('af.settings')}
+        >
+          <Settings className="w-5 h-5" />
+        </button>
         <LanguageToggle className="shrink-0" />
       </header>
 
@@ -62,6 +72,21 @@ export default function GameLayout() {
 
       <BottomNav />
       <HowToSheet open={helpOpen} onClose={() => setHelpOpen(false)} />
+
+      <Sheet open={settingsOpen} onOpenChange={setSettingsOpen}>
+        <SheetContent side="right" className="bg-card border-border">
+          <SheetHeader>
+            <SheetTitle>{t('af.settings')}</SheetTitle>
+          </SheetHeader>
+          <div className="mt-6 p-4 rounded-xl border border-border bg-background flex items-start gap-3">
+            <div className="flex-1 min-w-0">
+              <div className="text-foreground text-sm font-bold">🥤 {t('af.title')}</div>
+              <p className="text-muted-foreground text-[11px] mt-1 leading-snug">{t('af.desc')}</p>
+            </div>
+            <Switch checked={alcoholFreeMode} onCheckedChange={setAlcoholFreeMode} />
+          </div>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 }
