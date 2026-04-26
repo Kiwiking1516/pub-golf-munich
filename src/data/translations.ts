@@ -324,6 +324,16 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.deDesc': '5 cities, Biergolf & beer gardens',
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regions',
+    'region.ageFooter': 'For users 18+ (or legal drinking age in your country). Play responsibly.',
+    // Responsibility gate
+    'responsibility.title': 'Play Responsibly',
+    'responsibility.bullet1': 'Never drink beyond your personal limit',
+    'responsibility.bullet2': 'Drink water between stops',
+    'responsibility.bullet3': 'You must be of legal drinking age in your country',
+    'responsibility.bullet4': 'Never drink and drive — use public transport or taxis',
+    'responsibility.bullet5': 'Stop playing if anyone in the group feels unwell',
+    'responsibility.accept': 'I understand',
+    'game.waterBreak': '💧 Water break — at least one glass of water before the next stop.',
     // CitySelect
     'city.title': '🗺️ Choose your city',
     'city.subtitle': 'Pub Golf across Germany',
