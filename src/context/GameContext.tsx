@@ -8,6 +8,8 @@ import { HoleFlag } from '@/types/game';
 
 const STORAGE_KEY = 'pubgolf-state';
 
+const REMOVED_RULE_IDS = new Set(['mass-upgrade']);
+
 function loadState(): GameState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -15,6 +17,15 @@ function loadState(): GameState {
       const parsed = JSON.parse(raw);
       // Backwards-compat: ensure newer fields exist on saves from older builds
       if (typeof parsed.alcoholFreeMode !== 'boolean') parsed.alcoholFreeMode = false;
+      // Strip rules that have since been removed from the catalogue
+      if (Array.isArray(parsed.holes)) {
+        parsed.holes = parsed.holes.map((h: Hole) => ({
+          ...h,
+          activeRules: Array.isArray(h.activeRules)
+            ? h.activeRules.filter(id => !REMOVED_RULE_IDS.has(id))
+            : [],
+        }));
+      }
       return parsed;
     }
   } catch {}
