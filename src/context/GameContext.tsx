@@ -86,7 +86,13 @@ interface GameContextType extends GameState {
   clearPendingImport: () => void;
 }
 
-const GameContext = createContext<GameContextType | null>(null);
+type GameContextGlobal = typeof globalThis & {
+  __pubgolf_game_context__?: React.Context<GameContextType | null>;
+};
+
+const globalGameContext = globalThis as GameContextGlobal;
+const GameContext = globalGameContext.__pubgolf_game_context__ ?? createContext<GameContextType | null>(null);
+globalGameContext.__pubgolf_game_context__ = GameContext;
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<GameState>(loadState);
