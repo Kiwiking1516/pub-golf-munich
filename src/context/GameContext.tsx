@@ -11,7 +11,12 @@ const STORAGE_KEY = 'pubgolf-state';
 function loadState(): GameState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      // Backwards-compat: ensure newer fields exist on saves from older builds
+      if (typeof parsed.alcoholFreeMode !== 'boolean') parsed.alcoholFreeMode = false;
+      return parsed;
+    }
   } catch {}
   return {
     region: null,
@@ -53,6 +58,7 @@ interface GameContextType extends GameState {
   rollRuleForHole: (holeIndex: number) => string | null;
   removeRuleFromHole: (holeIndex: number, ruleId: string) => void;
   setSurpriseMode: (on: boolean) => void;
+  setAlcoholFreeMode: (on: boolean) => void;
   setScore: (player: string, holeIndex: number, score: number) => void;
   setPenalty: (player: string, holeIndex: number, count: number) => void;
   setCurrentHole: (h: number) => void;
