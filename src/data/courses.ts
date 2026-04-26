@@ -399,6 +399,8 @@ const courseMap: Record<CityId, Record<GameMode, Hole[]>> = {
   liverpool: { biergolf: liverpoolBiergolf, biergarten: liverpoolBiergarten },
   brighton: { biergolf: brightonBiergolf, biergarten: brightonBiergarten },
   newcastle: { biergolf: newcastleBiergolf, biergarten: newcastleBiergarten },
+  edinburgh: { biergolf: [], biergarten: [] },
+  bristol: { biergolf: [], biergarten: [] },
   dublin: { biergolf: dublinBiergolf, biergarten: dublinBiergarten },
 };
 
