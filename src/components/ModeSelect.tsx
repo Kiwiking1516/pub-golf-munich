@@ -24,7 +24,7 @@ export default function ModeSelect() {
   // Translated second course fields
   const scName = t(`course2.${city}.name`);
   const scTagline = t(`course2.${city}.tagline`);
-  const scDrink = t(`course2.${city}.drink`);
+  const scDrink = neutralizeDrinkLabel(t(`course2.${city}.drink`), alcoholFreeMode, lang);
   const scWarningKey = `course2.${city}.warning`;
   const scWarning = t(scWarningKey) !== scWarningKey ? t(scWarningKey) : undefined;
   const scTipKey = `course2.${city}.tip`;
