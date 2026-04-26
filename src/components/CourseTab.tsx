@@ -8,6 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import { Hole } from '@/types/game';
 import { encodeCourse, buildShareUrl } from '@/utils/courseShare';
 import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
+import { useEntitlements } from '@/hooks/useEntitlements';
 import qrcode from 'qrcode-generator';
 
 
@@ -214,7 +215,8 @@ function QRCanvas({ url }: { url: string }) {
 }
 
 export default function CourseTab() {
-  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode, city, mode } = useGame();
+  const { holes, updateHole, resetCourse, shuffleCourse, randomizeRules, clearAllRules, isGreenMode, surpriseMode, setSurpriseMode, city, mode, isCustomCourse } = useGame();
+  const { isPremium } = useEntitlements();
   const { t } = useLanguage();
   const accentClass = isGreenMode ? 'text-green-accent' : 'text-gold';
   const totalPar = holes.reduce((s, h) => s + h.par, 0);
@@ -237,12 +239,15 @@ export default function CourseTab() {
       <div className="flex items-center justify-between p-4 pb-2">
         <h2 className={`font-display font-bold text-lg ${accentClass}`}>{t('course.editor')}</h2>
         <div className="flex items-center gap-3">
-          <button
-            onClick={() => setShowShare(true)}
-            className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
-          >
-            <Share2 className="w-3.5 h-3.5" /> {t('course.share')}
-          </button>
+          {/* Share button — gated only when course was built locally and user is not premium (v1.0 stub: always shown) */}
+          {(!isCustomCourse || isPremium) && (
+            <button
+              onClick={() => setShowShare(true)}
+              className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"
+            >
+              <Share2 className="w-3.5 h-3.5" /> {t('course.share')}
+            </button>
+          )}
           <button
             onClick={() => { if (window.confirm(t('course.shuffle_confirm'))) shuffleCourse(); }}
             className="text-sand text-xs flex items-center gap-1 tap-target hover:text-foreground transition-colors"

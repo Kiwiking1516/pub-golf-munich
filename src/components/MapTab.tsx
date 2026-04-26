@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
+import { useEntitlements } from '@/hooks/useEntitlements';
 import MapAreaSelect from './MapAreaSelect';
 import MapCourseBuilder from './MapCourseBuilder';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
@@ -65,6 +66,7 @@ export default function MapTab() {
   const [activeMode, setActiveMode] = useState<'none' | 'area' | 'builder'>('none');
   const { holes, city, currentHole, alcoholFreeMode } = useGame();
   const { t, lang } = useLanguage();
+  const { isPremium } = useEntitlements();
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
@@ -204,8 +206,8 @@ export default function MapTab() {
     mapInstanceRef.current = map;
     setMapReady(map);
 
-    // GPS live location
-    if ('geolocation' in navigator) {
+    // GPS live location — premium-gated (v1.0 stub: always on)
+    if (isPremium && 'geolocation' in navigator) {
       const gpsIcon = L.divIcon({
         className: '',
         html: `<div style="position:relative;width:20px;height:20px;">
@@ -244,7 +246,7 @@ export default function MapTab() {
         mapInstanceRef.current = null;
       }
     };
-  }, [holes, city, currentHole, hasCoords, alcoholFreeMode, lang]);
+  }, [holes, city, currentHole, hasCoords, alcoholFreeMode, lang, isPremium]);
 
   if (!hasCoords) {
     return (
@@ -261,18 +263,23 @@ export default function MapTab() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapRef} className="h-full w-full" style={{ minHeight: '300px' }} />
-      <MapAreaSelect
-        map={mapReady}
-        city={city}
-        active={activeMode === 'area'}
-        onToggle={() => setActiveMode(prev => prev === 'area' ? 'none' : 'area')}
-      />
-      <MapCourseBuilder
-        map={mapReady}
-        city={city}
-        active={activeMode === 'builder'}
-        onToggle={() => setActiveMode(prev => prev === 'builder' ? 'none' : 'builder')}
-      />
+      {/* Custom course builder controls — premium-gated (v1.0 stub: always shown) */}
+      {isPremium && (
+        <>
+          <MapAreaSelect
+            map={mapReady}
+            city={city}
+            active={activeMode === 'area'}
+            onToggle={() => setActiveMode(prev => prev === 'area' ? 'none' : 'area')}
+          />
+          <MapCourseBuilder
+            map={mapReady}
+            city={city}
+            active={activeMode === 'builder'}
+            onToggle={() => setActiveMode(prev => prev === 'builder' ? 'none' : 'builder')}
+          />
+        </>
+      )}
       {navTarget && (
         <MapChoiceDialog
           lat={navTarget.lat}

@@ -22,7 +22,7 @@ const Index = () => {
       if (cityConfig) setRegion(cityConfig.region);
       setCity(pendingImport.city);
       setMode(pendingImport.mode);
-      setCustomHoles(pendingImport.holes);
+      setCustomHoles(pendingImport.holes, 'import');
       clearPendingImport();
     };
 
