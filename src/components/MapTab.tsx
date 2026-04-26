@@ -244,7 +244,7 @@ export default function MapTab() {
         mapInstanceRef.current = null;
       }
     };
-  }, [holes, city, currentHole, hasCoords]);
+  }, [holes, city, currentHole, hasCoords, alcoholFreeMode, lang]);
 
   if (!hasCoords) {
     return (
