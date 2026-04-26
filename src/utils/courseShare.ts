@@ -1,5 +1,9 @@
 import { Hole, CityId, GameMode } from '@/types/game';
 
+export function buildShareUrl(encoded: string): string {
+  return `${window.location.origin}/#/?course=${encoded}`;
+}
+
 export function encodeCourse(holes: Hole[], city: CityId, mode: GameMode): string {
   const payload = {
     v: 1,

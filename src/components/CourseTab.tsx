@@ -6,8 +6,9 @@ import { ChevronDown, ChevronUp, RotateCcw, Shuffle, Dices, Trash2, Sparkles, Sh
 import { Switch } from '@/components/ui/switch';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Hole } from '@/types/game';
-import { encodeCourse } from '@/utils/courseShare';
+import { encodeCourse, buildShareUrl } from '@/utils/courseShare';
 import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
+import qrcode from 'qrcode-generator';
 
 
 function HoleFlagBadge({ flag }: { flag: string }) {
@@ -179,7 +180,7 @@ function QRCanvas({ url }: { url: string }) {
   useEffect(() => {
     if (!canvasRef.current || !url) return;
     try {
-      const qr = (window as any).qrcode(0, 'M');
+      const qr = qrcode(0, 'M');
       qr.addData(url);
       qr.make();
       const canvas = canvasRef.current;
@@ -221,7 +222,7 @@ export default function CourseTab() {
   const [showShare, setShowShare] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const shareUrl = city && mode ? `${window.location.origin}?course=${encodeCourse(holes, city, mode)}` : '';
+  const shareUrl = city && mode ? buildShareUrl(encodeCourse(holes, city, mode)) : '';
 
 
   const handleCopy = () => {
