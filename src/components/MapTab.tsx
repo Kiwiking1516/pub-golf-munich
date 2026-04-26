@@ -280,6 +280,7 @@ export default function MapTab() {
           />
         </>
       )}
+      {navTarget && (
         <MapChoiceDialog
           lat={navTarget.lat}
           lng={navTarget.lng}
