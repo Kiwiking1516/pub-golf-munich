@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GameProvider } from "@/context/GameContext";
 import { LanguageProvider } from "@/context/LanguageContext";
+import ResponsibilityGate from "@/components/ResponsibilityGate";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -16,14 +17,16 @@ const App = () => (
       <Toaster />
       <Sonner />
       <LanguageProvider>
-        <GameProvider>
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </BrowserRouter>
-        </GameProvider>
+        <ResponsibilityGate>
+          <GameProvider>
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
+          </GameProvider>
+        </ResponsibilityGate>
       </LanguageProvider>
     </TooltipProvider>
   </QueryClientProvider>

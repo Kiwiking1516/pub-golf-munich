@@ -8,6 +8,16 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.deDesc': '5 Städte, Biergolf & Biergärten',
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regionen',
+    'region.ageFooter': 'Für Nutzer ab 18 (oder dem gesetzlichen Trinkalter deines Landes). Spiel verantwortungsvoll.',
+    // Responsibility gate
+    'responsibility.title': 'Spiel verantwortungsvoll',
+    'responsibility.bullet1': 'Trinke niemals über dein persönliches Limit hinaus',
+    'responsibility.bullet2': 'Trinke Wasser zwischen den Stationen',
+    'responsibility.bullet3': 'Du musst das gesetzliche Trinkalter in deinem Land erreicht haben',
+    'responsibility.bullet4': 'Niemals trinken und fahren — nutze Bus, Bahn oder Taxi',
+    'responsibility.bullet5': 'Beendet das Spiel, wenn sich jemand in der Gruppe unwohl fühlt',
+    'responsibility.accept': 'Verstanden',
+    'game.waterBreak': '💧 Wasser-Pause — mindestens ein Glas Wasser vor dem nächsten Stop.',
     // CitySelect
     'city.title': '🗺️ Wähle deine Stadt',
     'city.subtitle': 'Pub Golf in ganz Deutschland',
@@ -314,6 +324,16 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.deDesc': '5 cities, Biergolf & beer gardens',
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regions',
+    'region.ageFooter': 'For users 18+ (or legal drinking age in your country). Play responsibly.',
+    // Responsibility gate
+    'responsibility.title': 'Play Responsibly',
+    'responsibility.bullet1': 'Never drink beyond your personal limit',
+    'responsibility.bullet2': 'Drink water between stops',
+    'responsibility.bullet3': 'You must be of legal drinking age in your country',
+    'responsibility.bullet4': 'Never drink and drive — use public transport or taxis',
+    'responsibility.bullet5': 'Stop playing if anyone in the group feels unwell',
+    'responsibility.accept': 'I understand',
+    'game.waterBreak': '💧 Water break — at least one glass of water before the next stop.',
     // CitySelect
     'city.title': '🗺️ Choose your city',
     'city.subtitle': 'Pub Golf across Germany',

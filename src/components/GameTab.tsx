@@ -5,6 +5,7 @@ import { getScoreInfo, getScoreColor, formatScoreVsPar, getTotalScoreColor } fro
 import { getRuleById } from '@/data/rules';
 import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Trophy, Beer, Dices, X, RefreshCw, Plus, Navigation as NavigationIcon } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
+import { toast } from 'sonner';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
 import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
@@ -435,7 +436,12 @@ export default function GameTab() {
           </button>
         ) : (
           <button
-            onClick={() => setCurrentHole(currentHole + 1)}
+            onClick={() => {
+              // Water reminder before advancing. Button is only shown when !isLast,
+              // so this never fires after the final hole.
+              toast(t('game.waterBreak'), { duration: 5000 });
+              setCurrentHole(currentHole + 1);
+            }}
             className={`flex-[2] py-3 rounded-xl ${accentBg} text-primary-foreground font-bold tap-target transition-transform active:scale-[0.98] flex items-center justify-center gap-1`}
           >
             {allScored ? '✓ ' : ''}{t('game.next')} <ChevronRight className="w-4 h-4" />
