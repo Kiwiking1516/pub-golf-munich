@@ -25,6 +25,7 @@ function loadState(): GameState {
     activeTab: 'spieler',
     gameStarted: false,
     surpriseMode: false,
+    alcoholFreeMode: false,
   };
 }
 
