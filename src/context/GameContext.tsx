@@ -17,6 +17,7 @@ function loadState(): GameState {
       const parsed = JSON.parse(raw);
       // Backwards-compat: ensure newer fields exist on saves from older builds
       if (typeof parsed.alcoholFreeMode !== 'boolean') parsed.alcoholFreeMode = false;
+      if (typeof parsed.isCustomCourse !== 'boolean') parsed.isCustomCourse = false;
       // Strip rules that have since been removed from the catalogue
       if (Array.isArray(parsed.holes)) {
         parsed.holes = parsed.holes.map((h: Hole) => ({
@@ -42,6 +43,7 @@ function loadState(): GameState {
     gameStarted: false,
     surpriseMode: false,
     alcoholFreeMode: false,
+    isCustomCourse: false,
   };
 }
 
@@ -58,7 +60,7 @@ interface GameContextType extends GameState {
   clearCity: () => void;
   setMode: (mode: GameMode) => void;
   clearMode: () => void;
-  setCustomHoles: (holes: Hole[]) => void;
+  setCustomHoles: (holes: Hole[], source?: 'builder' | 'import') => void;
   shuffleCourse: () => void;
   addPlayer: (name: string) => boolean;
   removePlayer: (name: string) => void;
@@ -137,6 +139,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       region,
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+      isCustomCourse: false,
     }));
   }, []);
 
@@ -145,11 +148,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       ...prev,
       region: null, city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+      isCustomCourse: false,
     }));
   }, []);
 
   const setCity = useCallback((city: CityId) => {
-    update({ city, mode: null, holes: [], scores: {}, penalties: {}, currentHole: 0, activeTab: 'spieler', gameStarted: false, players: [] });
+    update({ city, mode: null, holes: [], scores: {}, penalties: {}, currentHole: 0, activeTab: 'spieler', gameStarted: false, players: [], isCustomCourse: false });
   }, [update]);
 
   const clearCity = useCallback(() => {
@@ -157,6 +161,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       ...prev,
       city: null, mode: null, players: [], holes: [], scores: {}, penalties: {},
       currentHole: 0, activeTab: 'spieler', gameStarted: false, surpriseMode: false,
+      isCustomCourse: false,
     }));
   }, []);
 
@@ -171,6 +176,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       currentHole: 0,
       activeTab: 'spieler',
       gameStarted: false,
+      isCustomCourse: false,
     }));
   }, [state.city]);
 
@@ -182,8 +188,8 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     }));
   }, []);
 
-  const setCustomHoles = useCallback((holes: Hole[]) => {
-    update({ holes, scores: {}, penalties: {}, currentHole: 0, gameStarted: false, activeTab: 'spieler' });
+  const setCustomHoles = useCallback((holes: Hole[], source?: 'builder' | 'import') => {
+    update({ holes, scores: {}, penalties: {}, currentHole: 0, gameStarted: false, activeTab: 'spieler', isCustomCourse: source === 'builder' });
   }, [update]);
 
   const shuffleCourse = useCallback(() => {
@@ -265,7 +271,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, [state.holes, update]);
 
   const resetCourse = useCallback(() => {
-    if (state.city && state.mode) update({ holes: getDefaultHoles(state.city, state.mode) });
+    if (state.city && state.mode) update({ holes: getDefaultHoles(state.city, state.mode), isCustomCourse: false });
   }, [state.city, state.mode, update]);
 
   const setScore = useCallback((player: string, holeIndex: number, score: number) => {
@@ -340,6 +346,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         scores: {}, penalties: {}, currentHole: 0,
         gameStarted: false, activeTab: 'spieler',
         holes: getDefaultHoles(state.city, state.mode),
+        isCustomCourse: false,
       });
     }
   }, [state.city, state.mode, update]);
