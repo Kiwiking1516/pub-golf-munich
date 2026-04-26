@@ -305,6 +305,10 @@ export const translations: Record<Language, Record<string, string>> = {
     'help.rulesGameplay': 'Während des Spiels kannst du an jeder Bar Regeln würfeln:\n• \'Regel würfeln\' — Würfelt eine zufällige Regel für das aktuelle Loch (30% Chance auf keine Regel)\n• \'Neu würfeln\' — Tauscht die letzte Regel gegen eine neue (riskant!)\n• \'Zusatzregel\' — Fügt eine weitere Regel hinzu, ohne die bestehenden zu ersetzen\n\nRegeln können auch vorab im Kurs-Tab geplant oder komplett dem Zufall überlassen werden.',
     'help.tipsTitle': '💡 Tipps',
     'help.tipsBody': '• Klärt vor dem Start, ob ihr Regeln vorab plant oder überraschen lasst\n• Nutzt den Navigations-Button um den Weg zur nächsten Bar zu finden\n• Der Spielstand aktualisiert sich live — schaut nach jeder Bar auf den Zwischenstand\n• Strafschlucke zählen extra zum Score — spielt fair!\n• Euer Spielstand wird automatisch gespeichert — ihr könnt die App jederzeit schließen und weiterspielen\n• Nutzt \'Bereich wählen\' auf der Karte um einen Kurs in eurer Nähe zu erstellen',
+    // Alcohol-free mode
+    'af.title': 'Alkoholfreier Modus',
+    'af.desc': 'Spiele mit alkoholfreien Getränken. Ersetzt alle Getränkebezüge durch neutrale Begriffe.',
+    'af.settings': 'Einstellungen',
   },
   en: {
     // RegionSelect
