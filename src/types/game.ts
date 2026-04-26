@@ -65,4 +65,5 @@ export interface GameState {
   gameStarted: boolean;
   surpriseMode: boolean;
   alcoholFreeMode: boolean;
+  isCustomCourse: boolean;
 }
