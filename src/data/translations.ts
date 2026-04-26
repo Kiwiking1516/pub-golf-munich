@@ -8,6 +8,16 @@ export const translations: Record<Language, Record<string, string>> = {
     'region.deDesc': '5 Städte, Biergolf & Biergärten',
     'region.ukDesc': '6 cities, pubs & stag do classics',
     'region.back': 'Regionen',
+    'region.ageFooter': 'Für Nutzer ab 18 (oder dem gesetzlichen Trinkalter deines Landes). Spiel verantwortungsvoll.',
+    // Responsibility gate
+    'responsibility.title': 'Spiel verantwortungsvoll',
+    'responsibility.bullet1': 'Trinke niemals über dein persönliches Limit hinaus',
+    'responsibility.bullet2': 'Trinke Wasser zwischen den Stationen',
+    'responsibility.bullet3': 'Du musst das gesetzliche Trinkalter in deinem Land erreicht haben',
+    'responsibility.bullet4': 'Niemals trinken und fahren — nutze Bus, Bahn oder Taxi',
+    'responsibility.bullet5': 'Beendet das Spiel, wenn sich jemand in der Gruppe unwohl fühlt',
+    'responsibility.accept': 'Verstanden',
+    'game.waterBreak': '💧 Wasser-Pause — mindestens ein Glas Wasser vor dem nächsten Stop.',
     // CitySelect
     'city.title': '🗺️ Wähle deine Stadt',
     'city.subtitle': 'Pub Golf in ganz Deutschland',
