@@ -1,0 +1,1568 @@
+{
+  "key": "köln",
+  "prefix": "koe",
+  "label": "Köln",
+  "bbox": "migrated",
+  "defaultDrink": "Päffgen Kölsch 0,2l Stange",
+  "scrapedAt": "2026-04-03T08:03:05.769Z",
+  "barCount": 93,
+  "bars": [
+    {
+      "id": "koe-001",
+      "city": "köln",
+      "name": "Brauerei Päffgen",
+      "address": "Friesenstraße 64",
+      "district": "friesenviertel",
+      "lat": 50.9451,
+      "lng": 6.9431,
+      "drink": "Päffgen Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "päffgen",
+        "kult",
+        "friesenviertel",
+        "hausgebraut"
+      ]
+    },
+    {
+      "id": "koe-002",
+      "city": "köln",
+      "name": "Früh am Dom",
+      "address": "Am Hof 12-14",
+      "district": "altstadt-nord",
+      "lat": 50.9399,
+      "lng": 6.9585,
+      "drink": "Früh Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "früh",
+        "dom-nähe",
+        "touristisch",
+        "klassiker"
+      ]
+    },
+    {
+      "id": "koe-003",
+      "city": "köln",
+      "name": "Malzmühle",
+      "address": "Heumarkt 6",
+      "district": "altstadt-süd",
+      "lat": 50.9357,
+      "lng": 6.9584,
+      "drink": "Mühlen Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "mühlen-kölsch",
+        "altstadt",
+        "kult",
+        "hausgebraut"
+      ]
+    },
+    {
+      "id": "koe-004",
+      "city": "köln",
+      "name": "Brauerei Sion",
+      "address": "Unter Taschenmacher 5",
+      "district": "altstadt-nord",
+      "lat": 50.9389,
+      "lng": 6.958,
+      "drink": "Sion Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "sion",
+        "altstadt",
+        "traditionsbrauerei",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "koe-005",
+      "city": "köln",
+      "name": "Brauerei zur Linde",
+      "address": "Alteburger Straße 26",
+      "district": "altstadt-süd",
+      "lat": 50.9289,
+      "lng": 6.9519,
+      "drink": "Linde Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "südstadt",
+        "gemütlich",
+        "kult",
+        "lokal"
+      ]
+    },
+    {
+      "id": "koe-006",
+      "city": "köln",
+      "name": "Chlodwig-Eck",
+      "address": "Annostraße 1-3",
+      "district": "altstadt-süd",
+      "lat": 50.9298,
+      "lng": 6.954,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "altstadt-süd",
+        "bap-gründer",
+        "promine",
+        "sport-leinwand",
+        "kult"
+      ]
+    },
+    {
+      "id": "koe-007",
+      "city": "köln",
+      "name": "Grünfeld",
+      "address": "Brüsseler Straße 63",
+      "district": "belgisches-viertel",
+      "lat": 50.942,
+      "lng": 6.94,
+      "drink": "Kölsch 0,2l + Kicker",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "kicker",
+        "schach",
+        "kult",
+        "terrasse"
+      ]
+    },
+    {
+      "id": "koe-008",
+      "city": "köln",
+      "name": "Hallmackenreuther",
+      "address": "Brüsseler Platz 9",
+      "district": "belgisches-viertel",
+      "lat": 50.9425,
+      "lng": 6.9393,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "brüsseler-platz",
+        "60s-look",
+        "kult",
+        "café-bar"
+      ]
+    },
+    {
+      "id": "koe-009",
+      "city": "köln",
+      "name": "Scheinbar",
+      "address": "Engelbertstraße 49",
+      "district": "belgisches-viertel",
+      "lat": 50.9418,
+      "lng": 6.9367,
+      "drink": "Kölsch 0,2l + Cocktail",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "belgisches-viertel",
+        "roter-samt",
+        "kultig",
+        "flirtfaktor",
+        "schummrig"
+      ]
+    },
+    {
+      "id": "koe-010",
+      "city": "köln",
+      "name": "Kölschbar (KB)",
+      "address": "Lindenstraße 28",
+      "district": "belgisches-viertel",
+      "lat": 50.941,
+      "lng": 6.936,
+      "drink": "Kölsch 0,2l Stange + Kicker",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "eckkneipe",
+        "kicker",
+        "tatort",
+        "stammgäste"
+      ]
+    },
+    {
+      "id": "koe-011",
+      "city": "köln",
+      "name": "Zum Knobelbecher",
+      "address": "Brüsseler Straße 47",
+      "district": "belgisches-viertel",
+      "lat": 50.9414,
+      "lng": 6.9374,
+      "drink": "Krönchen (Mariacron) + Kölsch",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "kegelbahn",
+        "kultseele-uschi",
+        "gemischt"
+      ]
+    },
+    {
+      "id": "koe-012",
+      "city": "köln",
+      "name": "Pegel",
+      "address": "Rathenauplatz 21",
+      "district": "belgisches-viertel",
+      "lat": 50.9408,
+      "lng": 6.9352,
+      "drink": "Kölsch 0,2l + Budweiser",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "unkompliziert",
+        "gemütlich",
+        "live-dj"
+      ]
+    },
+    {
+      "id": "koe-013",
+      "city": "köln",
+      "name": "Scheues Reh",
+      "address": "Antwerpener Straße 6",
+      "district": "belgisches-viertel",
+      "lat": 50.9426,
+      "lng": 6.9396,
+      "drink": "Kölsch 0,2l + Gin",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "belgisches-viertel",
+        "konzerte",
+        "lesungen",
+        "djs",
+        "kunst"
+      ]
+    },
+    {
+      "id": "koe-014",
+      "city": "köln",
+      "name": "Die Wohngemeinschaft",
+      "address": "Richard-Wagner-Straße 39",
+      "district": "belgisches-viertel",
+      "lat": 50.9416,
+      "lng": 6.9404,
+      "drink": "Kölsch 0,2l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "belgisches-viertel",
+        "hostel-bar",
+        "tischtennis",
+        "konzerte",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "koe-015",
+      "city": "köln",
+      "name": "Barracuda Bar",
+      "address": "Antwerpener Straße 43",
+      "district": "belgisches-viertel",
+      "lat": 50.9429,
+      "lng": 6.9399,
+      "drink": "Kölsch 0,2l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "kult",
+        "stadtgarten",
+        "lokal",
+        "seit-langem"
+      ]
+    },
+    {
+      "id": "koe-016",
+      "city": "köln",
+      "name": "Bumann & Sohn",
+      "address": "Bartholomäus-Schink-Straße 6",
+      "district": "ehrenfeld",
+      "lat": 50.9487,
+      "lng": 6.9205,
+      "drink": "Kölsch 0,2l + DJ-Tanzen",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "ehrenfeld",
+        "industrielook",
+        "biergarten",
+        "dj",
+        "tanzen"
+      ]
+    },
+    {
+      "id": "koe-017",
+      "city": "köln",
+      "name": "Schwarze Hase",
+      "address": "Venloer Straße 42",
+      "district": "ehrenfeld",
+      "lat": 50.949,
+      "lng": 6.9196,
+      "drink": "Kölsch vom Fass 0,2l + DJ",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "ehrenfeld",
+        "industriecharme",
+        "dj",
+        "wochenende",
+        "cocktails"
+      ]
+    },
+    {
+      "id": "koe-018",
+      "city": "köln",
+      "name": "Hängende Gärten von Ehrenfeld",
+      "address": "Hüttenstraße 74",
+      "district": "ehrenfeld",
+      "lat": 50.9484,
+      "lng": 6.9219,
+      "drink": "Kölsch 0,2l + Foodtruck",
+      "par": 3,
+      "type": "biergarten",
+      "tags": [
+        "ehrenfeld",
+        "biergarten",
+        "blumen",
+        "foodtrucks",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "koe-019",
+      "city": "köln",
+      "name": "Hemmer",
+      "address": "Venloer Straße 184",
+      "district": "ehrenfeld",
+      "lat": 50.9501,
+      "lng": 6.9165,
+      "drink": "Kölsch 0,2l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "ehrenfeld",
+        "veedels-kneipe",
+        "lokal",
+        "beliebt",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "koe-020",
+      "city": "köln",
+      "name": "Em Drügge Pitter (E.D.P.)",
+      "address": "Venloer Straße 416",
+      "district": "ehrenfeld",
+      "lat": 50.9521,
+      "lng": 6.9113,
+      "drink": "Guinness vom Fass + Kölsch",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "ehrenfeld",
+        "24h",
+        "eckkneipe",
+        "dart",
+        "flipper",
+        "pool"
+      ]
+    },
+    {
+      "id": "koe-021",
+      "city": "köln",
+      "name": "Torburg",
+      "address": "Kartäuserwall 20",
+      "district": "altstadt-süd",
+      "lat": 50.9257,
+      "lng": 6.95,
+      "drink": "Kölsch 0,2l + Blues",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "südstadt",
+        "blues-kneipe",
+        "livemusik",
+        "whiskey",
+        "quiz"
+      ]
+    },
+    {
+      "id": "koe-022",
+      "city": "köln",
+      "name": "Ubierschänke",
+      "address": "Ubierring 11",
+      "district": "altstadt-süd",
+      "lat": 50.9257,
+      "lng": 6.9512,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "südstadt",
+        "eckkneipe",
+        "karneval",
+        "bands-entdeckt",
+        "fc-köln"
+      ]
+    },
+    {
+      "id": "koe-023",
+      "city": "köln",
+      "name": "Kleines Finanzamt",
+      "address": "Friedrichstraße 2",
+      "district": "neustadt-süd",
+      "lat": 50.9296,
+      "lng": 6.953,
+      "drink": "Kölsch 0,2l + Kegeln",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "neustadt-süd",
+        "kegelbahn",
+        "kultkneipe",
+        "essen",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "koe-024",
+      "city": "köln",
+      "name": "Lommi",
+      "address": "Bonner Straße 56",
+      "district": "altstadt-süd",
+      "lat": 50.9265,
+      "lng": 6.9484,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "südstadt",
+        "mutter-aller-kaschämmen",
+        "rustikal",
+        "kult"
+      ]
+    },
+    {
+      "id": "koe-025",
+      "city": "köln",
+      "name": "Weißer Holunder",
+      "address": "Gladbacher Straße 48",
+      "district": "neustadt-nord",
+      "lat": 50.9467,
+      "lng": 6.9487,
+      "drink": "Bärenfang oder Goldwasser",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "neustadt-nord",
+        "jukebox-1954",
+        "50er-einrichtung",
+        "schnaps",
+        "urgestein"
+      ]
+    },
+    {
+      "id": "koe-026",
+      "city": "köln",
+      "name": "Rosebud",
+      "address": "Heinsberger Straße 20",
+      "district": "neustadt-nord",
+      "lat": 50.9458,
+      "lng": 6.9408,
+      "drink": "Basilikum Cocktail (Award-Winning)",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "neustadt-nord",
+        "prämiert",
+        "premium-cocktails",
+        "elegant"
+      ]
+    },
+    {
+      "id": "koe-027",
+      "city": "köln",
+      "name": "Rubinrot",
+      "address": "Sömmeringstraße 9",
+      "district": "ehrenfeld",
+      "lat": 50.9491,
+      "lng": 6.924,
+      "drink": "Cocktail Klassiker oder Hauskreation",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "ehrenfeld",
+        "roter-eingang",
+        "cocktails",
+        "warm",
+        "romantisch"
+      ]
+    },
+    {
+      "id": "koe-028",
+      "city": "köln",
+      "name": "Monkeys Cocktail Culture",
+      "address": "Venloer Straße 33",
+      "district": "belgisches-viertel",
+      "lat": 50.943,
+      "lng": 6.9406,
+      "drink": "Cocktail oder Kölsch 0,2l",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "belgisches-viertel",
+        "stadtgarten",
+        "terrasse",
+        "cocktails",
+        "feierabend"
+      ]
+    },
+    {
+      "id": "koe-029",
+      "city": "köln",
+      "name": "Forelle Blau",
+      "address": "Pfeilstraße 31",
+      "district": "belgisches-viertel",
+      "lat": 50.9416,
+      "lng": 6.939,
+      "drink": "Johann Schäfer Craft Beer 0,33l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "belgisches-viertel",
+        "craft",
+        "10-fassbiere",
+        "fc-köln",
+        "wechselnde-sorten"
+      ]
+    },
+    {
+      "id": "koe-030",
+      "city": "köln",
+      "name": "Lotta Bar",
+      "address": "Zülpicher Straße 35",
+      "district": "neustadt-süd",
+      "lat": 50.9325,
+      "lng": 6.9456,
+      "drink": "Kölsch 0,2l + Punk-Soul-Ska",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "zülpicher",
+        "alternativ",
+        "politisch-links",
+        "musik",
+        "kult"
+      ]
+    },
+    {
+      "id": "koe-031",
+      "city": "köln",
+      "name": "Frieda Bar",
+      "address": "Ehrenstraße 77",
+      "district": "belgisches-viertel",
+      "lat": 50.9408,
+      "lng": 6.9367,
+      "drink": "Kölsch 0,2l + Jever",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "punk",
+        "stoner",
+        "holztheke",
+        "wohnzimmer"
+      ]
+    },
+    {
+      "id": "koe-032",
+      "city": "köln",
+      "name": "Im Leuchtturm",
+      "address": "Mauritiussteinweg 88",
+      "district": "neustadt-süd",
+      "lat": 50.9314,
+      "lng": 6.9468,
+      "drink": "Reissdorf Kölsch 0,2l + Meeresschnaps",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "neustadt-süd",
+        "seemannskneipe",
+        "maritime",
+        "biergarten",
+        "rheinischer-frohsinn"
+      ]
+    },
+    {
+      "id": "koe-033",
+      "city": "köln",
+      "name": "Gottes Grüne Wiese",
+      "address": "Maastrichter Straße 61",
+      "district": "belgisches-viertel",
+      "lat": 50.9413,
+      "lng": 6.9388,
+      "drink": "Kölsch 0,2l + FC-Übertagung",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "belgisches-viertel",
+        "fussball",
+        "kicker",
+        "quiz",
+        "sport"
+      ]
+    },
+    {
+      "id": "koe-034",
+      "city": "köln",
+      "name": "Kuen Kneipe",
+      "address": "Kuenstraße 9",
+      "district": "nippes",
+      "lat": 50.9621,
+      "lng": 6.9613,
+      "drink": "Kölsch 0,2l + Soul & Jazz",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nippes",
+        "gemütlich",
+        "events",
+        "soul-jazz",
+        "nach-hause-ausgehen"
+      ]
+    },
+    {
+      "id": "koe-035",
+      "city": "köln",
+      "name": "Alt Neppes",
+      "address": "Wilhelmstraße 41",
+      "district": "nippes",
+      "lat": 50.9618,
+      "lng": 6.961,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nippes",
+        "kölsches-herz",
+        "außengastronomie",
+        "veedel",
+        "lokal"
+      ]
+    },
+    {
+      "id": "koe-036",
+      "city": "köln",
+      "name": "Papa Joe's Klimperkasten",
+      "address": "Alter Markt 50-52",
+      "district": "altstadt-nord",
+      "lat": 50.9384,
+      "lng": 6.9587,
+      "drink": "Kölsch 0,2l + Jazz",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "altstadt",
+        "jazz-live",
+        "historisch",
+        "trompeten-deko",
+        "kult"
+      ]
+    },
+    {
+      "id": "koe-037",
+      "city": "köln",
+      "name": "ZwoEinz",
+      "address": "Hochstadenstraße 21",
+      "district": "belgisches-viertel",
+      "lat": 50.9413,
+      "lng": 6.9378,
+      "drink": "Kölsch 0,2l + Zocken",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "belgisches-viertel",
+        "keller",
+        "gaming",
+        "günstig",
+        "studenten"
+      ]
+    },
+    {
+      "id": "koe-038",
+      "city": "köln",
+      "name": "Südkurve",
+      "address": "Luxemburger Straße 41",
+      "district": "sülz",
+      "lat": 50.9225,
+      "lng": 6.9403,
+      "drink": "Kölsch 0,2l + FC live",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sülz",
+        "fc-köln",
+        "bundesliga",
+        "gemütlich",
+        "neighborhood"
+      ]
+    },
+    {
+      "id": "koe-039",
+      "city": "köln",
+      "name": "Crevette Rose",
+      "address": "Liburger Straße 5",
+      "district": "ehrenfeld",
+      "lat": 50.9479,
+      "lng": 6.9213,
+      "drink": "Longdrink oder Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "ehrenfeld",
+        "cocktails",
+        "absacker",
+        "lokal",
+        "entspannt"
+      ]
+    },
+    {
+      "id": "koe-040",
+      "city": "köln",
+      "name": "The Bär",
+      "address": "Thebäerstraße 10",
+      "district": "ehrenfeld",
+      "lat": 50.9488,
+      "lng": 6.9231,
+      "drink": "Gin (350 Labels)",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "ehrenfeld",
+        "gin",
+        "350-sorten",
+        "cocktails",
+        "bier-auch"
+      ]
+    },
+    {
+      "id": "koe-041",
+      "city": "köln",
+      "name": "Stapel.Bar",
+      "address": "Heliosstraße 35-39",
+      "district": "ehrenfeld",
+      "lat": 50.9501,
+      "lng": 6.9148,
+      "drink": "Cocktail + Dart",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "ehrenfeld",
+        "industriehalle",
+        "paletten",
+        "tatort",
+        "dart"
+      ]
+    },
+    {
+      "id": "koe-042",
+      "city": "köln",
+      "name": "Bar Rix",
+      "address": "Friesenwall 68",
+      "district": "friesenviertel",
+      "lat": 50.944,
+      "lng": 6.944,
+      "drink": "Wein + Käseteller",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "friesenviertel",
+        "weinbar",
+        "gemütlich",
+        "käse",
+        "niveauvoll"
+      ]
+    },
+    {
+      "id": "koe-043",
+      "city": "köln",
+      "name": "Trierer Eck",
+      "address": "Händelstraße 59",
+      "district": "altstadt-süd",
+      "lat": 50.9268,
+      "lng": 6.9508,
+      "drink": "Kölsch 0,2l + Currywurst",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "südstadt",
+        "landhaus-terrasse",
+        "fanbase",
+        "familiär",
+        "halver-hahn"
+      ]
+    },
+    {
+      "id": "koe-044",
+      "city": "köln",
+      "name": "Berg Krug",
+      "address": "Bartholomäus-Schink-Straße 1",
+      "district": "ehrenfeld",
+      "lat": 50.9479,
+      "lng": 6.9207,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "ehrenfeld",
+        "urkölsch",
+        "gediegener",
+        "ruhig",
+        "traditionell"
+      ]
+    },
+    {
+      "id": "koe-045",
+      "city": "köln",
+      "name": "Barabrossa Schänke",
+      "address": "Barbarossaplatz 1",
+      "district": "neustadt-süd",
+      "lat": 50.9292,
+      "lng": 6.9463,
+      "drink": "Kölsch 0,2l (Deckel-Regel!)",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "neustadt-süd",
+        "kölsche-tradition",
+        "kult",
+        "deckelregel",
+        "flimm"
+      ]
+    },
+    {
+      "id": "koe-046",
+      "city": "köln",
+      "name": "Café Storch",
+      "address": "Aachener Straße 42",
+      "district": "belgisches-viertel",
+      "lat": 50.9409,
+      "lng": 6.9352,
+      "drink": "Wein oder heißer Kakao",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "belgisches-viertel",
+        "kunst",
+        "kerzenschein",
+        "date-location",
+        "terrasse"
+      ]
+    },
+    {
+      "id": "koe-047",
+      "city": "köln",
+      "name": "Harry's New York Bar",
+      "address": "Trankgasse 1",
+      "district": "altstadt-nord",
+      "lat": 50.94,
+      "lng": 6.9577,
+      "drink": "Cocktail + Piano",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "altstadt",
+        "afterwork",
+        "livemusik",
+        "piano",
+        "cocktails"
+      ]
+    },
+    {
+      "id": "koe-048",
+      "city": "köln",
+      "name": "Wirtz",
+      "address": "Eigelstein 73",
+      "district": "altstadt-nord",
+      "lat": 50.9424,
+      "lng": 6.9611,
+      "drink": "Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "altstadt",
+        "seit-1889",
+        "gute-stube",
+        "kölsch-sprache",
+        "historisch"
+      ]
+    },
+    {
+      "id": "koe-049",
+      "city": "köln",
+      "name": "Brauhaus Gaffel am Dom",
+      "address": "Bahnhofsvorplatz 1",
+      "district": "altstadt-nord",
+      "lat": 50.9401,
+      "lng": 6.9591,
+      "drink": "Gaffel Kölsch 0,2l Stange",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "gaffel",
+        "dom",
+        "touristisch",
+        "klassiker"
+      ]
+    },
+    {
+      "id": "koe-050",
+      "city": "köln",
+      "name": "Hopla",
+      "address": "Berliner Straße 4",
+      "district": "kalk",
+      "lat": 50.9274,
+      "lng": 7,
+      "drink": "Kölsch 0,2l + Cocktail",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kalk",
+        "günstig",
+        "studenten",
+        "kicker",
+        "livemusik"
+      ]
+    },
+    {
+      "id": "kol-051",
+      "city": "köln",
+      "name": "Die Kantine",
+      "address": "Neusser Landstraße 2",
+      "lat": 50.9983,
+      "lng": 6.937,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-052",
+      "city": "köln",
+      "name": "Castell",
+      "address": "Regentenstraße 11",
+      "lat": 50.9641,
+      "lng": 7.0024,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-053",
+      "city": "köln",
+      "name": "Club Z",
+      "address": "Venloer Straße 39",
+      "lat": 50.9422,
+      "lng": 6.9351,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-054",
+      "city": "köln",
+      "name": "Tivoli Cologne",
+      "address": "Hohe Straße 12",
+      "lat": 50.9345,
+      "lng": 6.9563,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-055",
+      "city": "köln",
+      "name": "Gewölbe",
+      "address": "Hans-Böckler-Platz 2",
+      "lat": 50.9438,
+      "lng": 6.9339,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-056",
+      "city": "köln",
+      "name": "Roonburg",
+      "address": "Roonstraße 33",
+      "lat": 50.9307,
+      "lng": 6.9384,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-057",
+      "city": "köln",
+      "name": "The Cage",
+      "address": "Rathenauplatz 6",
+      "lat": 50.9306,
+      "lng": 6.9373,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-058",
+      "city": "köln",
+      "name": "Gebäude 9",
+      "address": "Adresse unbekannt",
+      "lat": 50.9492,
+      "lng": 6.9854,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-059",
+      "city": "köln",
+      "name": "Shadow",
+      "address": "Friedrich-Ebert-Platz 5o",
+      "lat": 51.0316,
+      "lng": 6.9884,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-060",
+      "city": "köln",
+      "name": "Petit Prince",
+      "address": "Hohenzollernring",
+      "lat": 50.9422,
+      "lng": 6.9407,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-061",
+      "city": "köln",
+      "name": "Le Carussel",
+      "address": "Adresse unbekannt",
+      "lat": 50.9377,
+      "lng": 6.9598,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-062",
+      "city": "köln",
+      "name": "MTC",
+      "address": "Zülpicher Straße 10",
+      "lat": 50.93,
+      "lng": 6.9386,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-063",
+      "city": "köln",
+      "name": "JAKI",
+      "address": "Venloer Straße 40",
+      "lat": 50.9429,
+      "lng": 6.9351,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-064",
+      "city": "köln",
+      "name": "Klapsmühle",
+      "address": "Hohenzollernring 39-41",
+      "lat": 50.9392,
+      "lng": 6.9394,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-065",
+      "city": "köln",
+      "name": "Club Bahnhof Ehrenfeld",
+      "address": "Bartholomäus-Schink-Straße 65-67",
+      "lat": 50.9517,
+      "lng": 6.916,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "kol-066",
+      "city": "köln",
+      "name": "Flamingo Royal",
+      "address": "Adresse unbekannt",
+      "lat": 50.9395,
+      "lng": 6.9411,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-067",
+      "city": "köln",
+      "name": "Das Ding",
+      "address": "Hohenstaufenring 30-32",
+      "lat": 50.9317,
+      "lng": 6.9408,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-068",
+      "city": "köln",
+      "name": "Saphir Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.9621,
+      "lng": 6.9587,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-069",
+      "city": "köln",
+      "name": "Vanity",
+      "address": "Adresse unbekannt",
+      "lat": 50.9375,
+      "lng": 6.9395,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-070",
+      "city": "köln",
+      "name": "Trafic",
+      "address": "Venloer Straße 601-603",
+      "lat": 50.9571,
+      "lng": 6.9003,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-071",
+      "city": "köln",
+      "name": "Tru Club",
+      "address": "Mittelstraße 12",
+      "lat": 50.937,
+      "lng": 6.9441,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-072",
+      "city": "köln",
+      "name": "Reineke Fuchs",
+      "address": "Aachener Straße 50",
+      "lat": 50.9366,
+      "lng": 6.935,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-073",
+      "city": "köln",
+      "name": "Die Halle Tor 2",
+      "address": "Adresse unbekannt",
+      "lat": 50.9488,
+      "lng": 6.8801,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-074",
+      "city": "köln",
+      "name": "Electrum",
+      "address": "Adresse unbekannt",
+      "lat": 50.9217,
+      "lng": 6.9979,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-075",
+      "city": "köln",
+      "name": "Klub Domhof",
+      "address": "Hohenzollernbrücke 11",
+      "lat": 50.9417,
+      "lng": 6.9598,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-076",
+      "city": "köln",
+      "name": "Helios 37",
+      "address": "Adresse unbekannt",
+      "lat": 50.9503,
+      "lng": 6.9134,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-077",
+      "city": "köln",
+      "name": "ABS Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.9141,
+      "lng": 6.9311,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-078",
+      "city": "köln",
+      "name": "ΙΧΩΡ Night Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.9417,
+      "lng": 6.9412,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-079",
+      "city": "köln",
+      "name": "Partyraum Köln",
+      "address": "Siegburger Straße 91",
+      "lat": 50.9341,
+      "lng": 6.971,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "outdoor",
+        "barrierefrei",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "kol-080",
+      "city": "köln",
+      "name": "Odonien",
+      "address": "Hornstraße 85",
+      "lat": 50.9549,
+      "lng": 6.94,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "kol-081",
+      "city": "köln",
+      "name": "Veedel Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.9273,
+      "lng": 6.9399,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-082",
+      "city": "köln",
+      "name": "Beim Pitter",
+      "address": "Adresse unbekannt",
+      "lat": 50.939,
+      "lng": 6.9604,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-083",
+      "city": "köln",
+      "name": "Bootshaus",
+      "address": "Auenweg 173",
+      "lat": 50.9517,
+      "lng": 6.982,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-084",
+      "city": "köln",
+      "name": "Club Volta",
+      "address": "Schanzenstraße 6-20",
+      "lat": 50.9653,
+      "lng": 7.0126,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-085",
+      "city": "köln",
+      "name": "Subway",
+      "address": "Adresse unbekannt",
+      "lat": 50.9367,
+      "lng": 6.9316,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-086",
+      "city": "köln",
+      "name": "Hidden Club",
+      "address": "Brabanter Straße 15",
+      "lat": 50.9377,
+      "lng": 6.9373,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-087",
+      "city": "köln",
+      "name": "Pullermanns",
+      "address": "Mathiasstraße 22",
+      "lat": 50.9333,
+      "lng": 6.9594,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "kol-088",
+      "city": "köln",
+      "name": "King Georg Jazz Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.951,
+      "lng": 6.9564,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-089",
+      "city": "köln",
+      "name": "Rollers Club",
+      "address": "Adresse unbekannt",
+      "lat": 50.9534,
+      "lng": 6.8954,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-090",
+      "city": "köln",
+      "name": "Groove Bar & Lounge",
+      "address": "Frankfurter Straße 200",
+      "district": "wahn",
+      "lat": 50.8582,
+      "lng": 7.0859,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "kol-091",
+      "city": "köln",
+      "name": "fi",
+      "address": "Widdersdorfer Straße 246",
+      "lat": 50.9482,
+      "lng": 6.893,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-092",
+      "city": "köln",
+      "name": "Nota 3",
+      "address": "Wiesdorfer Platz 58",
+      "lat": 51.032,
+      "lng": 6.9847,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "kol-093",
+      "city": "köln",
+      "name": "Valhalla Metal Club",
+      "address": "Clevischer Ring 119",
+      "lat": 50.9689,
+      "lng": 7.0064,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    }
+  ]
+}

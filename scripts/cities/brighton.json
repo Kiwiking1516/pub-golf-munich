@@ -1,0 +1,7309 @@
+{
+  "key": "brighton",
+  "prefix": "bri",
+  "label": "Brighton",
+  "bbox": "migrated",
+  "defaultDrink": "Pint of Lager",
+  "scrapedAt": "2026-04-03T08:03:05.795Z",
+  "barCount": 512,
+  "bars": [
+    {
+      "id": "bri-001",
+      "city": "brighton",
+      "name": "The Bootlegger",
+      "address": "78 Middle Street",
+      "lat": 50.8206,
+      "lng": -0.1432,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-002",
+      "city": "brighton",
+      "name": "Amsterdam",
+      "address": "11-12 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1349,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-003",
+      "city": "brighton",
+      "name": "The Hove Kitchen",
+      "address": "Address unknown",
+      "lat": 50.8258,
+      "lng": -0.159,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-004",
+      "city": "brighton",
+      "name": "Maggie Mae’s",
+      "address": "69-71 Preston Street",
+      "lat": 50.8232,
+      "lng": -0.1511,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-005",
+      "city": "brighton",
+      "name": "Ohso Social",
+      "address": "250A Kings Road Arches",
+      "lat": 50.8191,
+      "lng": -0.1393,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-006",
+      "city": "brighton",
+      "name": "The Angel Bar",
+      "address": "Address unknown",
+      "lat": 50.8232,
+      "lng": -0.154,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-007",
+      "city": "brighton",
+      "name": "Dead Wax Social",
+      "address": "18A Bond Street",
+      "lat": 50.8242,
+      "lng": -0.1401,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-008",
+      "city": "brighton",
+      "name": "L'Aperitivo",
+      "address": "74 West Street",
+      "lat": 50.8217,
+      "lng": -0.1441,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-009",
+      "city": "brighton",
+      "name": "Pull and Pump",
+      "address": "1-2 Clarence Gardens",
+      "lat": 50.8239,
+      "lng": -0.1485,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-010",
+      "city": "brighton",
+      "name": "The Green Door",
+      "address": "Trafalgar Arches",
+      "lat": 50.8294,
+      "lng": -0.1402,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-011",
+      "city": "brighton",
+      "name": "Ten Green Bottles",
+      "address": "9 Jubilee Street",
+      "lat": 50.825,
+      "lng": -0.1388,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-012",
+      "city": "brighton",
+      "name": "Sidewinder",
+      "address": "65 St James's Street",
+      "district": "brighton",
+      "lat": 50.8199,
+      "lng": -0.129,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-013",
+      "city": "brighton",
+      "name": "The Black Dove",
+      "address": "74 St. James's Street",
+      "lat": 50.8202,
+      "lng": -0.1304,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-014",
+      "city": "brighton",
+      "name": "The Funky Fish",
+      "address": "19-23 Marine Parade",
+      "lat": 50.8199,
+      "lng": -0.1339,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-015",
+      "city": "brighton",
+      "name": "Legends",
+      "address": "31-34 Marine Parade",
+      "lat": 50.8197,
+      "lng": -0.1329,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-016",
+      "city": "brighton",
+      "name": "Black Doors",
+      "address": "116A Church Road",
+      "lat": 50.8278,
+      "lng": -0.1727,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-017",
+      "city": "brighton",
+      "name": "Nautilus Lounge",
+      "address": "129-130 St. James's Street",
+      "lat": 50.8209,
+      "lng": -0.1362,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "bri-018",
+      "city": "brighton",
+      "name": "Victoria's",
+      "address": "Address unknown",
+      "lat": 50.8163,
+      "lng": -0.137,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-019",
+      "city": "brighton",
+      "name": "Glitter Ball",
+      "address": "Address unknown",
+      "lat": 50.8151,
+      "lng": -0.1368,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-020",
+      "city": "brighton",
+      "name": "Zeytoon",
+      "address": "48 West Street",
+      "lat": 50.8233,
+      "lng": -0.1436,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-021",
+      "city": "brighton",
+      "name": "Revolution",
+      "address": "77 West Street",
+      "lat": 50.8214,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-022",
+      "city": "brighton",
+      "name": "Brighton Rocks",
+      "address": "6 Rock Place",
+      "lat": 50.82,
+      "lng": -0.131,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-023",
+      "city": "brighton",
+      "name": "The Coach House",
+      "address": "24 High Street",
+      "district": "rottingdean",
+      "lat": 50.8029,
+      "lng": -0.0569,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-024",
+      "city": "brighton",
+      "name": "Afinity Bar",
+      "address": "129 St. James's Street",
+      "lat": 50.821,
+      "lng": -0.1361,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-025",
+      "city": "brighton",
+      "name": "Harby's Bar and Diner",
+      "address": "60-64 King's Road",
+      "lat": 50.8206,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-026",
+      "city": "brighton",
+      "name": "Volks",
+      "address": "3 Madeira Drive",
+      "lat": 50.8193,
+      "lng": -0.1328,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-027",
+      "city": "brighton",
+      "name": "The Exchange",
+      "address": "8 Goldstone Street",
+      "lat": 50.8334,
+      "lng": -0.174,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-028",
+      "city": "brighton",
+      "name": "Falmer Bar",
+      "address": "Gardner Centre Road",
+      "lat": 50.8646,
+      "lng": -0.0889,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-029",
+      "city": "brighton",
+      "name": "Bohemia",
+      "address": "54-55 Meeting House Lane",
+      "lat": 50.8216,
+      "lng": -0.1409,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-030",
+      "city": "brighton",
+      "name": "The Archives",
+      "address": "103 North Road",
+      "lat": 50.8255,
+      "lng": -0.1371,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-031",
+      "city": "brighton",
+      "name": "Lucky Voice",
+      "address": "8 Black Lion Street",
+      "lat": 50.8207,
+      "lng": -0.1414,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-032",
+      "city": "brighton",
+      "name": "Dirty Blonde",
+      "address": "78 East Street",
+      "lat": 50.8198,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-033",
+      "city": "brighton",
+      "name": "Platinum Lace",
+      "address": "76 East Street",
+      "lat": 50.8199,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-034",
+      "city": "brighton",
+      "name": "The Yellow Book",
+      "address": "3A York Place",
+      "lat": 50.8281,
+      "lng": -0.1356,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-035",
+      "city": "brighton",
+      "name": "The East Wing",
+      "address": "Address unknown",
+      "lat": 50.8219,
+      "lng": -0.1456,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-036",
+      "city": "brighton",
+      "name": "Toxic",
+      "address": "Address unknown",
+      "lat": 50.8222,
+      "lng": -0.153,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-037",
+      "city": "brighton",
+      "name": "Lost+Found Beer Cafe",
+      "address": "298a/b Ditchling Road",
+      "lat": 50.8437,
+      "lng": -0.1345,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-038",
+      "city": "brighton",
+      "name": "Shuffle Bar And Kitchen",
+      "address": "27 York Place",
+      "lat": 50.8291,
+      "lng": -0.1357,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-039",
+      "city": "brighton",
+      "name": "The Golden Pineapple",
+      "address": "14 Ship Street",
+      "lat": 50.8213,
+      "lng": -0.142,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-040",
+      "city": "brighton",
+      "name": "The Colonnade Bar",
+      "address": "10 New Road",
+      "lat": 50.8233,
+      "lng": -0.1397,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-041",
+      "city": "brighton",
+      "name": "Oddsocks",
+      "address": "101 Stroudley Road",
+      "lat": 50.8315,
+      "lng": -0.1405,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-042",
+      "city": "brighton",
+      "name": "The Copper Rooms",
+      "address": "76 Preston Street",
+      "lat": 50.8229,
+      "lng": -0.1512,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-043",
+      "city": "brighton",
+      "name": "The Twisted Lemon",
+      "address": "41 Middle Street",
+      "lat": 50.8227,
+      "lng": -0.1428,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-044",
+      "city": "brighton",
+      "name": "Clementine & Co.",
+      "address": "16 Duke Street",
+      "lat": 50.8228,
+      "lng": -0.1432,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-045",
+      "city": "brighton",
+      "name": "Bar 32",
+      "address": "32 Duke Street",
+      "lat": 50.8229,
+      "lng": -0.143,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-046",
+      "city": "brighton",
+      "name": "The Rossi Bar",
+      "address": "8 Queen's Road",
+      "lat": 50.8246,
+      "lng": -0.1432,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-047",
+      "city": "brighton",
+      "name": "Brighton Dome Cafe Bar",
+      "address": "Church Street",
+      "lat": 50.8236,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-048",
+      "city": "brighton",
+      "name": "Kemptown Klub",
+      "address": "75 St. Georges Road",
+      "lat": 50.8176,
+      "lng": -0.1182,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-049",
+      "city": "brighton",
+      "name": "L'Atelier du Vin",
+      "address": "10 St. George's Place",
+      "lat": 50.8275,
+      "lng": -0.1356,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-050",
+      "city": "brighton",
+      "name": "The Well",
+      "address": "102 St Georges Road",
+      "lat": 50.819,
+      "lng": -0.1228,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-051",
+      "city": "brighton",
+      "name": "The Secret Comedy Club",
+      "address": "42 Waterloo Street",
+      "lat": 50.8248,
+      "lng": -0.1565,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-052",
+      "city": "brighton",
+      "name": "L'Atelier du Vin",
+      "address": "11 Queen Square",
+      "lat": 50.8246,
+      "lng": -0.1439,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-053",
+      "city": "brighton",
+      "name": "The Verdict",
+      "address": "159 Edward Street",
+      "lat": 50.8224,
+      "lng": -0.1339,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-054",
+      "city": "brighton",
+      "name": "Be At One",
+      "address": "5 Castle Square",
+      "lat": 50.8214,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-055",
+      "city": "brighton",
+      "name": "Loading",
+      "address": "Madeira Drive",
+      "lat": 50.8192,
+      "lng": -0.1353,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-056",
+      "city": "brighton",
+      "name": "The West Tap",
+      "address": "73-75 Kings Road Arches",
+      "lat": 50.8214,
+      "lng": -0.1502,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-057",
+      "city": "brighton",
+      "name": "Cut Your Wolf Loose",
+      "address": "23 Trafalgar Street",
+      "lat": 50.8281,
+      "lng": -0.1378,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-058",
+      "city": "brighton",
+      "name": "12 London Road Social Club",
+      "address": "12 London Road",
+      "lat": 50.8303,
+      "lng": -0.1362,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-059",
+      "city": "brighton",
+      "name": "Twisted Lime",
+      "address": "1 Middle Street",
+      "lat": 50.8207,
+      "lng": -0.1434,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-060",
+      "city": "brighton",
+      "name": "Bison Beer Bar @ Sea Lanes",
+      "address": "Address unknown",
+      "lat": 50.8173,
+      "lng": -0.1243,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-061",
+      "city": "brighton",
+      "name": "Drift",
+      "address": "Address unknown",
+      "lat": 50.8212,
+      "lng": -0.1505,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-062",
+      "city": "brighton",
+      "name": "The Terrace",
+      "address": "Address unknown",
+      "lat": 50.8622,
+      "lng": -0.0853,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "bri-063",
+      "city": "brighton",
+      "name": "The Latest Music Bar",
+      "address": "14-17 Manchester Street",
+      "lat": 50.8205,
+      "lng": -0.1355,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-064",
+      "city": "brighton",
+      "name": "Crossbar",
+      "address": "Address unknown",
+      "lat": 50.825,
+      "lng": -0.1465,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-065",
+      "city": "brighton",
+      "name": "Bar Revenge",
+      "address": "7 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1359,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-066",
+      "city": "brighton",
+      "name": "Tiki Hut",
+      "address": "2-3 High Street",
+      "lat": 50.8208,
+      "lng": -0.1328,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-067",
+      "city": "brighton",
+      "name": "The Zone",
+      "address": "33 St. James's Street",
+      "lat": 50.8208,
+      "lng": -0.1332,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-068",
+      "city": "brighton",
+      "name": "The Plotting Parlour",
+      "address": "6 Steine Street",
+      "lat": 50.8202,
+      "lng": -0.1359,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-069",
+      "city": "brighton",
+      "name": "Horatio's Bar",
+      "address": "Address unknown",
+      "lat": 50.8153,
+      "lng": -0.1366,
+      "drink": "Pint of Guinness",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "bri-070",
+      "city": "brighton",
+      "name": "Concorde 2",
+      "address": "Madeira Drive",
+      "lat": 50.8173,
+      "lng": -0.1225,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "bri-071",
+      "city": "brighton",
+      "name": "Casablanca Jazz Club",
+      "address": "5 Middle Street",
+      "lat": 50.8209,
+      "lng": -0.1434,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-072",
+      "city": "brighton",
+      "name": "The Basement",
+      "address": "24 Kensington Street",
+      "lat": 50.8263,
+      "lng": -0.1382,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-073",
+      "city": "brighton",
+      "name": "Coalition",
+      "address": "171-181 King's Road Arches",
+      "lat": 50.8201,
+      "lng": -0.1434,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-074",
+      "city": "brighton",
+      "name": "Boutique",
+      "address": "2 Boyces Street",
+      "lat": 50.8223,
+      "lng": -0.144,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-075",
+      "city": "brighton",
+      "name": "Envy",
+      "address": "8-9 Marine Parade",
+      "lat": 50.82,
+      "lng": -0.1356,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-076",
+      "city": "brighton",
+      "name": "Grace Gentleman's Club",
+      "address": "51 - 52 North Street",
+      "lat": 50.8233,
+      "lng": -0.1424,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-077",
+      "city": "brighton",
+      "name": "Brighton Music Hall",
+      "address": "127-131 King's Road Arches",
+      "lat": 50.8207,
+      "lng": -0.1466,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-078",
+      "city": "brighton",
+      "name": "Quarters",
+      "address": "187-193 King's Road Arches",
+      "lat": 50.8201,
+      "lng": -0.1429,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-079",
+      "city": "brighton",
+      "name": "The Hub",
+      "address": "Address unknown",
+      "lat": 50.82,
+      "lng": -0.1425,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-080",
+      "city": "brighton",
+      "name": "Tide Club",
+      "address": "Address unknown",
+      "lat": 50.8197,
+      "lng": -0.1414,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-081",
+      "city": "brighton",
+      "name": "Club Revenge",
+      "address": "32-34 Old Steine",
+      "lat": 50.8202,
+      "lng": -0.1364,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-082",
+      "city": "brighton",
+      "name": "The Hanbury",
+      "address": "83 St Georges Road",
+      "lat": 50.8178,
+      "lng": -0.1189,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-083",
+      "city": "brighton",
+      "name": "Patterns",
+      "address": "10 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1351,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-084",
+      "city": "brighton",
+      "name": "Chalk",
+      "address": "13 Pool Valley",
+      "lat": 50.8199,
+      "lng": -0.1385,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-085",
+      "city": "brighton",
+      "name": "Lola Lo",
+      "address": "77 East Street",
+      "lat": 50.8198,
+      "lng": -0.1389,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-086",
+      "city": "brighton",
+      "name": "PRYZM",
+      "address": "West Street",
+      "lat": 50.8211,
+      "lng": -0.1451,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-001",
+      "city": "brighton",
+      "name": "The Better Half",
+      "address": "1 Hove Place",
+      "lat": 50.8255,
+      "lng": -0.1753,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-002",
+      "city": "brighton",
+      "name": "The Hollingbury",
+      "address": "1 Roedale Road",
+      "lat": 50.8403,
+      "lng": -0.131,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-003",
+      "city": "brighton",
+      "name": "The Hole In The Wall",
+      "address": "Queensbury Mews",
+      "lat": 50.8219,
+      "lng": -0.1494,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-004",
+      "city": "brighton",
+      "name": "Regency Tavern",
+      "address": "32-34 Russell Square",
+      "lat": 50.8229,
+      "lng": -0.1488,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-005",
+      "city": "brighton",
+      "name": "Robin Hood",
+      "address": "1-3 Norfolk Place",
+      "lat": 50.8247,
+      "lng": -0.1555,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-006",
+      "city": "brighton",
+      "name": "Fortune of War",
+      "address": "Address unknown",
+      "lat": 50.8204,
+      "lng": -0.1446,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-007",
+      "city": "brighton",
+      "name": "Park View",
+      "address": "71 Preston Drove",
+      "lat": 50.8443,
+      "lng": -0.145,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-008",
+      "city": "brighton",
+      "name": "The Crescent",
+      "address": "6 Clifton Hill",
+      "lat": 50.8284,
+      "lng": -0.1487,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-009",
+      "city": "brighton",
+      "name": "Royal Standard",
+      "address": "59 Queen's Road",
+      "lat": 50.8277,
+      "lng": -0.1418,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-010",
+      "city": "brighton",
+      "name": "Prince Albert",
+      "address": "48 Trafalgar Street",
+      "lat": 50.8285,
+      "lng": -0.1406,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-011",
+      "city": "brighton",
+      "name": "The Earth and Stars",
+      "address": "46 Windsor Street",
+      "lat": 50.8248,
+      "lng": -0.1422,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-012",
+      "city": "brighton",
+      "name": "Lord Nelson",
+      "address": "36 Trafalgar Street",
+      "lat": 50.8283,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-013",
+      "city": "brighton",
+      "name": "Great Eastern",
+      "address": "103 Trafalgar Street",
+      "lat": 50.828,
+      "lng": -0.136,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-014",
+      "city": "brighton",
+      "name": "Prince George",
+      "address": "5 Trafalgar Street",
+      "lat": 50.8279,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-015",
+      "city": "brighton",
+      "name": "The Eddy",
+      "address": "67A Upper Gloucester Road",
+      "lat": 50.8276,
+      "lng": -0.1435,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-016",
+      "city": "brighton",
+      "name": "The Geese",
+      "address": "16 Southover Street",
+      "lat": 50.8293,
+      "lng": -0.1304,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "diner",
+        "fish",
+        "fish_and_chips",
+        "sandwich"
+      ]
+    },
+    {
+      "id": "bri-017",
+      "city": "brighton",
+      "name": "The Cleveland",
+      "address": "27 Cleveland Road",
+      "lat": 50.8423,
+      "lng": -0.1385,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-018",
+      "city": "brighton",
+      "name": "Preston Park Tavern",
+      "address": "88 Havelock Road",
+      "lat": 50.8417,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-019",
+      "city": "brighton",
+      "name": "Open House",
+      "address": "146 Springfield Road",
+      "lat": 50.8372,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-020",
+      "city": "brighton",
+      "name": "The Roundhill",
+      "address": "100 Ditchling Road",
+      "lat": 50.8361,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "bri-021",
+      "city": "brighton",
+      "name": "Jolly Brewer",
+      "address": "176 Ditchling Road",
+      "lat": 50.8389,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-022",
+      "city": "brighton",
+      "name": "The Bright Helm",
+      "address": "20A-22 West Street",
+      "lat": 50.8224,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-023",
+      "city": "brighton",
+      "name": "Queen's Head",
+      "address": "69-70 Queen's Road",
+      "lat": 50.8283,
+      "lng": -0.1416,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-024",
+      "city": "brighton",
+      "name": "The Caroline of Brunswick",
+      "address": "39 Ditchling Road",
+      "lat": 50.8306,
+      "lng": -0.1346,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-025",
+      "city": "brighton",
+      "name": "The White Rabbit",
+      "address": "13-14 Kensington Gardens",
+      "lat": 50.8267,
+      "lng": -0.1386,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-026",
+      "city": "brighton",
+      "name": "Park Crescent",
+      "address": "39 Park Crescent Terrace",
+      "lat": 50.8333,
+      "lng": -0.1309,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-027",
+      "city": "brighton",
+      "name": "Bear Inn",
+      "address": "Lewes Road",
+      "lat": 50.8379,
+      "lng": -0.1238,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-028",
+      "city": "brighton",
+      "name": "The Lewes Road Inn",
+      "address": "158 Lewes Road",
+      "lat": 50.8347,
+      "lng": -0.1263,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-029",
+      "city": "brighton",
+      "name": "Farm Tavern",
+      "address": "13 Farm Road",
+      "lat": 50.8267,
+      "lng": -0.1591,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-030",
+      "city": "brighton",
+      "name": "The Signalman",
+      "address": "76 Ditchling Rise",
+      "lat": 50.836,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-031",
+      "city": "brighton",
+      "name": "The Bat and Ball",
+      "address": "51 Ditchling Road",
+      "lat": 50.8309,
+      "lng": -0.1345,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-032",
+      "city": "brighton",
+      "name": "New Unity",
+      "address": "52 - 53 London Road",
+      "lat": 50.8323,
+      "lng": -0.1376,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-033",
+      "city": "brighton",
+      "name": "The Quadrant",
+      "address": "12-13 North Street Quadrant",
+      "lat": 50.8241,
+      "lng": -0.1434,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-034",
+      "city": "brighton",
+      "name": "Fiddlers Elbow",
+      "address": "11-12 Boyces Street",
+      "lat": 50.8221,
+      "lng": -0.1436,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-035",
+      "city": "brighton",
+      "name": "The Evening Star",
+      "address": "55-56 Surrey Street",
+      "lat": 50.8277,
+      "lng": -0.1421,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-036",
+      "city": "brighton",
+      "name": "Inn On The Square",
+      "address": "11 Cranbourne Street",
+      "lat": 50.8234,
+      "lng": -0.1445,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-037",
+      "city": "brighton",
+      "name": "Sir Charles Napier",
+      "address": "50 Southover Street",
+      "lat": 50.8278,
+      "lng": -0.1279,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-038",
+      "city": "brighton",
+      "name": "The Independent",
+      "address": "95 Queen's Park Road",
+      "lat": 50.826,
+      "lng": -0.1274,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-039",
+      "city": "brighton",
+      "name": "The Constant Service",
+      "address": "96 Islingword Road",
+      "lat": 50.8291,
+      "lng": -0.1262,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-040",
+      "city": "brighton",
+      "name": "Prince of Wales",
+      "address": "47 Clarence Square",
+      "lat": 50.8237,
+      "lng": -0.1466,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-041",
+      "city": "brighton",
+      "name": "The Prestonville Arms",
+      "address": "64 Hamilton Road",
+      "lat": 50.8337,
+      "lng": -0.1455,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-042",
+      "city": "brighton",
+      "name": "The Good Companions",
+      "address": "132 Dyke Road",
+      "district": "brighton",
+      "lat": 50.8321,
+      "lng": -0.1481,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-043",
+      "city": "brighton",
+      "name": "Caxton Arms",
+      "address": "36 North Gardens",
+      "lat": 50.8269,
+      "lng": -0.1426,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-044",
+      "city": "brighton",
+      "name": "The Chimney House",
+      "address": "28 Upper Hamilton Road",
+      "lat": 50.8353,
+      "lng": -0.1487,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-045",
+      "city": "brighton",
+      "name": "The Howard",
+      "address": "1 Howard Road",
+      "lat": 50.8311,
+      "lng": -0.1271,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-046",
+      "city": "brighton",
+      "name": "Fitz Regent",
+      "address": "7-8 Castle Square",
+      "lat": 50.8215,
+      "lng": -0.1384,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-047",
+      "city": "brighton",
+      "name": "The West Quay",
+      "address": "Waterfront",
+      "lat": 50.8122,
+      "lng": -0.1036,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-048",
+      "city": "brighton",
+      "name": "The Shakespeare's Head",
+      "address": "1 Chatham Place",
+      "lat": 50.8318,
+      "lng": -0.1456,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-049",
+      "city": "brighton",
+      "name": "East Street Tap",
+      "address": "74 East Street",
+      "lat": 50.8201,
+      "lng": -0.1391,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-050",
+      "city": "brighton",
+      "name": "The Railway Bell",
+      "address": "26-28 Surrey Street",
+      "lat": 50.8285,
+      "lng": -0.142,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-051",
+      "city": "brighton",
+      "name": "The Pond",
+      "address": "49 Gloucester Road",
+      "lat": 50.8271,
+      "lng": -0.1408,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-052",
+      "city": "brighton",
+      "name": "The Foundry",
+      "address": "13-14 Foundry Street",
+      "lat": 50.8265,
+      "lng": -0.1401,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-053",
+      "city": "brighton",
+      "name": "Shortt's",
+      "address": "46 St. James's Street",
+      "lat": 50.8206,
+      "lng": -0.1319,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-054",
+      "city": "brighton",
+      "name": "Crown's",
+      "address": "9-10 Cranbourne Street",
+      "lat": 50.8233,
+      "lng": -0.1446,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-055",
+      "city": "brighton",
+      "name": "The Freemason's",
+      "address": "38-39 Western Road",
+      "lat": 50.8257,
+      "lng": -0.1597,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-056",
+      "city": "brighton",
+      "name": "The Temple Bar",
+      "address": "121-122 Western Road",
+      "lat": 50.8251,
+      "lng": -0.1537,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-057",
+      "city": "brighton",
+      "name": "The Blind Busker",
+      "address": "75-77 Church Road",
+      "lat": 50.8274,
+      "lng": -0.1673,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-058",
+      "city": "brighton",
+      "name": "Old Albion",
+      "address": "110 Church Road",
+      "lat": 50.8278,
+      "lng": -0.1721,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-059",
+      "city": "brighton",
+      "name": "The Seafield",
+      "address": "150 Church Road",
+      "lat": 50.8281,
+      "lng": -0.1748,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-060",
+      "city": "brighton",
+      "name": "Coopers Cask",
+      "address": "3 Farm Road",
+      "lat": 50.8261,
+      "lng": -0.1593,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-061",
+      "city": "brighton",
+      "name": "The Royal Sovereign",
+      "address": "66 Preston Street",
+      "lat": 50.8236,
+      "lng": -0.1508,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-062",
+      "city": "brighton",
+      "name": "The Hampton Arms",
+      "address": "57 Upper North Street",
+      "lat": 50.8256,
+      "lng": -0.15,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-063",
+      "city": "brighton",
+      "name": "The Lion & Lobster",
+      "address": "24 Sillwood Street",
+      "lat": 50.8238,
+      "lng": -0.1542,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-064",
+      "city": "brighton",
+      "name": "The Bee's Mouth",
+      "address": "10 Western Road",
+      "lat": 50.8252,
+      "lng": -0.1562,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-065",
+      "city": "brighton",
+      "name": "World's End",
+      "address": "60-61 London Road",
+      "lat": 50.8329,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-066",
+      "city": "brighton",
+      "name": "The Hobgoblin",
+      "address": "31 York Place",
+      "lat": 50.8294,
+      "lng": -0.1359,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-067",
+      "city": "brighton",
+      "name": "Bath Arms",
+      "address": "4-5 Meeting House Lane",
+      "lat": 50.8221,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-068",
+      "city": "brighton",
+      "name": "The Font",
+      "address": "Union Street",
+      "lat": 50.8223,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-069",
+      "city": "brighton",
+      "name": "3 Jolly Butchers",
+      "address": "59 North Road",
+      "lat": 50.8261,
+      "lng": -0.1414,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-070",
+      "city": "brighton",
+      "name": "The Heart & Hand",
+      "address": "75 North Road",
+      "lat": 50.8258,
+      "lng": -0.1395,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-071",
+      "city": "brighton",
+      "name": "The Druids Head",
+      "address": "9 Brighton Place",
+      "lat": 50.8218,
+      "lng": -0.1402,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-072",
+      "city": "brighton",
+      "name": "The Market Inn",
+      "address": "1 Market Street",
+      "lat": 50.8217,
+      "lng": -0.1392,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-073",
+      "city": "brighton",
+      "name": "The Walrus",
+      "address": "10 Ship Street",
+      "lat": 50.821,
+      "lng": -0.1422,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-074",
+      "city": "brighton",
+      "name": "Barbara’s Bier Haus",
+      "address": "79-81 West Street",
+      "lat": 50.821,
+      "lng": -0.1444,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-075",
+      "city": "brighton",
+      "name": "Seven Stars",
+      "address": "27 Ship Street",
+      "lat": 50.8223,
+      "lng": -0.1417,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-076",
+      "city": "brighton",
+      "name": "The Post & Telegraph",
+      "address": "155-158 North Street",
+      "lat": 50.823,
+      "lng": -0.1404,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-077",
+      "city": "brighton",
+      "name": "King & Queen",
+      "address": "13-16 Marlborough Place",
+      "lat": 50.8247,
+      "lng": -0.1371,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-078",
+      "city": "brighton",
+      "name": "The Duke of Wellington",
+      "address": "70 Upper Gloucester Road",
+      "lat": 50.8277,
+      "lng": -0.1433,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-079",
+      "city": "brighton",
+      "name": "The Connaught",
+      "address": "48 Hove Street",
+      "lat": 50.8283,
+      "lng": -0.1791,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-080",
+      "city": "brighton",
+      "name": "Fallen Angel",
+      "address": "24 Grafton Street",
+      "lat": 50.8197,
+      "lng": -0.1288,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-081",
+      "city": "brighton",
+      "name": "Hand in Hand",
+      "address": "33 Upper St James Street",
+      "lat": 50.8194,
+      "lng": -0.1273,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-082",
+      "city": "brighton",
+      "name": "The Sussex",
+      "address": "33-34 East Street",
+      "lat": 50.8213,
+      "lng": -0.1394,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-083",
+      "city": "brighton",
+      "name": "The Pump House",
+      "address": "46 Market Street",
+      "lat": 50.8215,
+      "lng": -0.1403,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-084",
+      "city": "brighton",
+      "name": "Dover Castle",
+      "address": "43 Southover Street",
+      "lat": 50.8282,
+      "lng": -0.1285,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-085",
+      "city": "brighton",
+      "name": "Haus On The Hill",
+      "address": "58 Southover Street",
+      "lat": 50.8273,
+      "lng": -0.1263,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-086",
+      "city": "brighton",
+      "name": "Molly Malone's",
+      "address": "57 West Street",
+      "lat": 50.8227,
+      "lng": -0.1438,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-087",
+      "city": "brighton",
+      "name": "Sticky Mike's Frog Bar",
+      "address": "9-12 Middle Street",
+      "lat": 50.8211,
+      "lng": -0.1434,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-088",
+      "city": "brighton",
+      "name": "The Cow",
+      "address": "95-97 Dyke Road",
+      "lat": 50.8298,
+      "lng": -0.1472,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-089",
+      "city": "brighton",
+      "name": "French Horn",
+      "address": "82 Dyke Road",
+      "lat": 50.8301,
+      "lng": -0.1469,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-090",
+      "city": "brighton",
+      "name": "North Laine Brewhouse",
+      "address": "27 Gloucester Place",
+      "lat": 50.8268,
+      "lng": -0.1358,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-091",
+      "city": "brighton",
+      "name": "J W Lennon's",
+      "address": "116-118 Edward Street",
+      "lat": 50.8218,
+      "lng": -0.1298,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-092",
+      "city": "brighton",
+      "name": "The King's Arms",
+      "address": "56 George Street",
+      "lat": 50.8212,
+      "lng": -0.1346,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-093",
+      "city": "brighton",
+      "name": "Beer Haus",
+      "address": "161 Edward Street",
+      "lat": 50.8225,
+      "lng": -0.1343,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-094",
+      "city": "brighton",
+      "name": "The Round Georges",
+      "address": "14-15 Sutherland Road",
+      "lat": 50.8236,
+      "lng": -0.1205,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "local"
+      ]
+    },
+    {
+      "id": "bri-095",
+      "city": "brighton",
+      "name": "The Wick Inn",
+      "address": "63 Western Road",
+      "lat": 50.8261,
+      "lng": -0.1618,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-096",
+      "city": "brighton",
+      "name": "The Urchin",
+      "address": "15-17 Belfast Street",
+      "district": "hove",
+      "lat": 50.8303,
+      "lng": -0.1751,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-097",
+      "city": "brighton",
+      "name": "The Foragers",
+      "address": "3 Stirling Place",
+      "lat": 50.8302,
+      "lng": -0.1762,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-098",
+      "city": "brighton",
+      "name": "The Basketmakers Arms",
+      "address": "12 Gloucester Road",
+      "lat": 50.8266,
+      "lng": -0.1369,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-099",
+      "city": "brighton",
+      "name": "Maris & Otter",
+      "address": "114 Western Road",
+      "lat": 50.8251,
+      "lng": -0.1553,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-100",
+      "city": "brighton",
+      "name": "Plough Inn",
+      "address": "Vicarage Lane",
+      "district": "rottingdean",
+      "lat": 50.8058,
+      "lng": -0.0579,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-101",
+      "city": "brighton",
+      "name": "The Sussex Cricketer",
+      "address": "Eaton Road",
+      "lat": 50.8299,
+      "lng": -0.1649,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-102",
+      "city": "brighton",
+      "name": "Barley Mow",
+      "address": "92 St. Georges Road",
+      "lat": 50.8186,
+      "lng": -0.122,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-103",
+      "city": "brighton",
+      "name": "The Black Horse",
+      "address": "112 Church Street",
+      "lat": 50.8241,
+      "lng": -0.1387,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-104",
+      "city": "brighton",
+      "name": "The Argyle Arms",
+      "address": "32 Argyle Road",
+      "lat": 50.8346,
+      "lng": -0.1417,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-105",
+      "city": "brighton",
+      "name": "The Hop Poles",
+      "address": "13 Middle Street",
+      "lat": 50.8213,
+      "lng": -0.1433,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-106",
+      "city": "brighton",
+      "name": "Cobden Arms",
+      "address": "45-46 Cobden Road",
+      "lat": 50.8307,
+      "lng": -0.1248,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-107",
+      "city": "brighton",
+      "name": "Pitcher And Piano",
+      "address": "1-5 King's Road",
+      "lat": 50.8197,
+      "lng": -0.1395,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "bri-108",
+      "city": "brighton",
+      "name": "The Brighton Tavern",
+      "address": "99-100 Gloucester Road",
+      "lat": 50.827,
+      "lng": -0.1389,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-109",
+      "city": "brighton",
+      "name": "SOJU Korean dining pub",
+      "address": "135 Western Road",
+      "lat": 50.8249,
+      "lng": -0.1517,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-110",
+      "city": "brighton",
+      "name": "Mad Dog Brewery Co. Taproom",
+      "address": "24 Duke Street",
+      "lat": 50.823,
+      "lng": -0.1435,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-111",
+      "city": "brighton",
+      "name": "A L P H A B E T",
+      "address": "11 Dyke Road",
+      "lat": 50.8242,
+      "lng": -0.1451,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-112",
+      "city": "brighton",
+      "name": "George Street Tap",
+      "address": "4-5 George Street",
+      "lat": 50.8286,
+      "lng": -0.1739,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-113",
+      "city": "brighton",
+      "name": "Bow Street Runner",
+      "address": "62 Brunswick Street West",
+      "lat": 50.8254,
+      "lng": -0.16,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-114",
+      "city": "brighton",
+      "name": "Hove Place",
+      "address": "37 First Avenue",
+      "lat": 50.8266,
+      "lng": -0.166,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-115",
+      "city": "brighton",
+      "name": "The Green Dragon",
+      "address": "8 - 9 Sydney Street",
+      "lat": 50.8273,
+      "lng": -0.138,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-116",
+      "city": "brighton",
+      "name": "Dyke Alehouse And Kitchen",
+      "address": "218 Dyke Road",
+      "lat": 50.8386,
+      "lng": -0.155,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-117",
+      "city": "brighton",
+      "name": "The Mess Deck",
+      "address": "Address unknown",
+      "lat": 50.8203,
+      "lng": -0.1419,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-118",
+      "city": "brighton",
+      "name": "The Clubhouse",
+      "address": "Pavilion Road",
+      "lat": 50.8677,
+      "lng": -0.0806,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-119",
+      "city": "brighton",
+      "name": "The Master Mariner",
+      "address": "24 Waterfront",
+      "district": "brighton marina",
+      "lat": 50.8133,
+      "lng": -0.1009,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-120",
+      "city": "brighton",
+      "name": "St Georges Inn",
+      "address": "33 Sudeley Street",
+      "lat": 50.8182,
+      "lng": -0.1173,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-121",
+      "city": "brighton",
+      "name": "The Bristol Bar",
+      "address": "143 Marine Parade",
+      "lat": 50.8174,
+      "lng": -0.1194,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-122",
+      "city": "brighton",
+      "name": "The Thomas Kemp",
+      "address": "8 St Georges Road",
+      "lat": 50.8194,
+      "lng": -0.1238,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-123",
+      "city": "brighton",
+      "name": "The Golden Cannon",
+      "address": "20-21 St Georges Road",
+      "lat": 50.819,
+      "lng": -0.1225,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-124",
+      "city": "brighton",
+      "name": "The Bugle Inn",
+      "address": "24 St Martin's Street",
+      "lat": 50.8341,
+      "lng": -0.1287,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-125",
+      "city": "brighton",
+      "name": "The Poets Ale and Smokehouse",
+      "address": "33 Montgomery Street",
+      "lat": 50.8342,
+      "lng": -0.1788,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-126",
+      "city": "brighton",
+      "name": "The Ancient Mariner",
+      "address": "59 Rutland Road",
+      "lat": 50.8352,
+      "lng": -0.1827,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-127",
+      "city": "brighton",
+      "name": "The George Payne",
+      "address": "18 Payne Avenue",
+      "district": "hove",
+      "lat": 50.836,
+      "lng": -0.186,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-128",
+      "city": "brighton",
+      "name": "The Actors",
+      "address": "4 Prince's Street",
+      "lat": 50.8223,
+      "lng": -0.136,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-129",
+      "city": "brighton",
+      "name": "Coppa club",
+      "address": "12-16 Brighton Square",
+      "lat": 50.8221,
+      "lng": -0.1404,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-130",
+      "city": "brighton",
+      "name": "Tempest",
+      "address": "159-161 King's Road",
+      "lat": 50.8203,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-131",
+      "city": "brighton",
+      "name": "Old Crow",
+      "address": "168 Portland Road",
+      "district": "hove",
+      "lat": 50.8333,
+      "lng": -0.1861,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-132",
+      "city": "brighton",
+      "name": "Hector's",
+      "address": "52-54 Grand Parade",
+      "lat": 50.8246,
+      "lng": -0.1355,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "pizza"
+      ]
+    },
+    {
+      "id": "bri-133",
+      "city": "brighton",
+      "name": "Watchmaker's Arms",
+      "address": "84 Goldstone Villas",
+      "district": "hove",
+      "lat": 50.8343,
+      "lng": -0.1714,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-134",
+      "city": "brighton",
+      "name": "The Westbourne",
+      "address": "90 Portland Road",
+      "lat": 50.8327,
+      "lng": -0.1819,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-135",
+      "city": "brighton",
+      "name": "The Stoneham",
+      "address": "153 Portland Road",
+      "lat": 50.8337,
+      "lng": -0.1863,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-136",
+      "city": "brighton",
+      "name": "The Mucky Duck",
+      "address": "7-9 Manchester Street",
+      "lat": 50.8208,
+      "lng": -0.1357,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "thai",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-137",
+      "city": "brighton",
+      "name": "Charles Street Tap",
+      "address": "8-9 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1355,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-138",
+      "city": "brighton",
+      "name": "William the Fourth",
+      "address": "4 Church Street",
+      "lat": 50.8242,
+      "lng": -0.1398,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-139",
+      "city": "brighton",
+      "name": "Mrs Fitzherberts",
+      "address": "25 New Road",
+      "lat": 50.8239,
+      "lng": -0.1391,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-140",
+      "city": "brighton",
+      "name": "The Fountain Head",
+      "address": "102 North Road",
+      "lat": 50.8255,
+      "lng": -0.1373,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-141",
+      "city": "brighton",
+      "name": "Mash Tun",
+      "address": "1 Church Street",
+      "lat": 50.824,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-142",
+      "city": "brighton",
+      "name": "St James Tavern",
+      "address": "16 Madeira Place",
+      "lat": 50.8207,
+      "lng": -0.1339,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-143",
+      "city": "brighton",
+      "name": "The Southern Belle",
+      "address": "3 Waterloo Street",
+      "lat": 50.8235,
+      "lng": -0.1574,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-144",
+      "city": "brighton",
+      "name": "Camelford Arms",
+      "address": "30-31 Camelford Street",
+      "lat": 50.8201,
+      "lng": -0.1328,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-145",
+      "city": "brighton",
+      "name": "The Bulldog",
+      "address": "31 St. James's Street",
+      "lat": 50.8208,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-146",
+      "city": "brighton",
+      "name": "The Marine Tavern",
+      "address": "13 Broad Street",
+      "lat": 50.8207,
+      "lng": -0.1348,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-147",
+      "city": "brighton",
+      "name": "Three And Ten",
+      "address": "10 Steine Street",
+      "lat": 50.8208,
+      "lng": -0.1361,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-148",
+      "city": "brighton",
+      "name": "The Victory",
+      "address": "6 Duke Street",
+      "lat": 50.8226,
+      "lng": -0.1424,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-149",
+      "city": "brighton",
+      "name": "The Mesmerist",
+      "address": "1-3 Prince Albert Street",
+      "lat": 50.821,
+      "lng": -0.1406,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-150",
+      "city": "brighton",
+      "name": "The Eagle",
+      "address": "125 Gloucester Road",
+      "lat": 50.8268,
+      "lng": -0.1369,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-151",
+      "city": "brighton",
+      "name": "The Dorset",
+      "address": "28 North Road",
+      "lat": 50.8256,
+      "lng": -0.1394,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-152",
+      "city": "brighton",
+      "name": "Ladies Mile",
+      "address": "2 Mackie Avenue",
+      "lat": 50.8643,
+      "lng": -0.1449,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-153",
+      "city": "brighton",
+      "name": "The Long Man",
+      "address": "2-10 Wilmington Way",
+      "lat": 50.8596,
+      "lng": -0.1416,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-154",
+      "city": "brighton",
+      "name": "The Hope and Ruin",
+      "address": "11-12 Queen's Road",
+      "lat": 50.8248,
+      "lng": -0.1431,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-155",
+      "city": "brighton",
+      "name": "Bottom's Rest",
+      "address": "16 Lower Market Street",
+      "lat": 50.8244,
+      "lng": -0.1576,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-156",
+      "city": "brighton",
+      "name": "Bedford Tavern",
+      "address": "30 Western Street",
+      "lat": 50.8234,
+      "lng": -0.1557,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-157",
+      "city": "brighton",
+      "name": "The West Hill Tavern",
+      "address": "67 Buckingham Place",
+      "lat": 50.8308,
+      "lng": -0.1427,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-158",
+      "city": "brighton",
+      "name": "Hove Park Tavern",
+      "address": "156 Old Shoreham Road",
+      "lat": 50.8387,
+      "lng": -0.1781,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-159",
+      "city": "brighton",
+      "name": "The Royal George",
+      "address": "98/101 George Street",
+      "lat": 50.8286,
+      "lng": -0.1742,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-160",
+      "city": "brighton",
+      "name": "The Station Pub",
+      "address": "100 Goldstone Villas",
+      "lat": 50.8348,
+      "lng": -0.1713,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-161",
+      "city": "brighton",
+      "name": "The Grenadier",
+      "address": "200 Hangleton Road",
+      "lat": 50.8447,
+      "lng": -0.1945,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-162",
+      "city": "brighton",
+      "name": "Grand Central",
+      "address": "29-30 Surrey Street",
+      "lat": 50.8287,
+      "lng": -0.142,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-163",
+      "city": "brighton",
+      "name": "The Paris House",
+      "address": "21 Western Road",
+      "lat": 50.8253,
+      "lng": -0.1573,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-164",
+      "city": "brighton",
+      "name": "Palmeira",
+      "address": "70-71 Cromwell Road",
+      "lat": 50.8322,
+      "lng": -0.16,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-165",
+      "city": "brighton",
+      "name": "Sussex Yeoman",
+      "address": "7 Guildford Road",
+      "lat": 50.8287,
+      "lng": -0.1427,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-166",
+      "city": "brighton",
+      "name": "Battle of Trafalgar",
+      "address": "34 Guildford Road",
+      "lat": 50.8289,
+      "lng": -0.1424,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-167",
+      "city": "brighton",
+      "name": "The Cricketers",
+      "address": "15 Black Lion Street",
+      "lat": 50.8213,
+      "lng": -0.1412,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-168",
+      "city": "brighton",
+      "name": "The Black Lion",
+      "address": "14 Black Lion Street",
+      "lat": 50.8212,
+      "lng": -0.1413,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-169",
+      "city": "brighton",
+      "name": "The Star & Garter",
+      "address": "16 - 17 Kings Road",
+      "lat": 50.82,
+      "lng": -0.14,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-170",
+      "city": "brighton",
+      "name": "The Gladstone",
+      "address": "123 Lewes Road",
+      "lat": 50.8368,
+      "lng": -0.1245,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-171",
+      "city": "brighton",
+      "name": "The Joker",
+      "address": "2 Preston Road",
+      "lat": 50.8339,
+      "lng": -0.1391,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-172",
+      "city": "brighton",
+      "name": "The Bevy",
+      "address": "50 Hillside",
+      "lat": 50.8449,
+      "lng": -0.1107,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-173",
+      "city": "brighton",
+      "name": "The Rock Inn",
+      "address": "7 Rock Street",
+      "lat": 50.8166,
+      "lng": -0.1126,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-174",
+      "city": "brighton",
+      "name": "Village",
+      "address": "129 Islingword Road",
+      "lat": 50.8309,
+      "lng": -0.1278,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-175",
+      "city": "brighton",
+      "name": "The Hartington",
+      "address": "41 Whippingham Road",
+      "lat": 50.8326,
+      "lng": -0.1218,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-176",
+      "city": "brighton",
+      "name": "The Nevill",
+      "address": "214 Nevill Road",
+      "lat": 50.8474,
+      "lng": -0.1827,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-177",
+      "city": "brighton",
+      "name": "The Pub at Fiveways",
+      "address": "292 Ditchling Road",
+      "lat": 50.8435,
+      "lng": -0.1343,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-178",
+      "city": "brighton",
+      "name": "The Hare and Hounds",
+      "address": "75 London Road",
+      "lat": 50.8334,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-179",
+      "city": "brighton",
+      "name": "UnBarred Brewery & Tap Room",
+      "address": "19-23 Elder Place",
+      "lat": 50.8333,
+      "lng": -0.1394,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-180",
+      "city": "brighton",
+      "name": "The County Oak",
+      "address": "County Oak Avenue",
+      "lat": 50.8611,
+      "lng": -0.1284,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-181",
+      "city": "brighton",
+      "name": "The Station Hotel",
+      "address": "1 Hampstead Road",
+      "lat": 50.8448,
+      "lng": -0.1554,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-182",
+      "city": "brighton",
+      "name": "The Admiral",
+      "address": "2-6 Elm Grove",
+      "lat": 50.8318,
+      "lng": -0.1287,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-183",
+      "city": "brighton",
+      "name": "The Windmill",
+      "address": "69 Upper North Street",
+      "lat": 50.8256,
+      "lng": -0.1488,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-184",
+      "city": "brighton",
+      "name": "Swan Inn",
+      "address": "Middle Street",
+      "district": "falmer",
+      "lat": 50.8639,
+      "lng": -0.0787,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-185",
+      "city": "brighton",
+      "name": "The Bell Tower",
+      "address": "1 Arundel Road",
+      "lat": 50.8152,
+      "lng": -0.1081,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-186",
+      "city": "brighton",
+      "name": "The Neptune",
+      "address": "10 Victoria Terrace",
+      "lat": 50.825,
+      "lng": -0.176,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-187",
+      "city": "brighton",
+      "name": "The Sussex",
+      "address": "17 St Catherines Terrace",
+      "lat": 50.8255,
+      "lng": -0.1762,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-188",
+      "city": "brighton",
+      "name": "The Crown and Anchor",
+      "address": "213 Preston Road",
+      "lat": 50.8431,
+      "lng": -0.1517,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-189",
+      "city": "brighton",
+      "name": "The Wellington",
+      "address": "53 Elm Grove",
+      "lat": 50.8319,
+      "lng": -0.1258,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-190",
+      "city": "brighton",
+      "name": "The Brunswick",
+      "address": "1 Holland Road",
+      "lat": 50.8241,
+      "lng": -0.1624,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-191",
+      "city": "brighton",
+      "name": "The Grosvenor Bar",
+      "address": "16 Western Street",
+      "lat": 50.8239,
+      "lng": -0.1557,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-192",
+      "city": "brighton",
+      "name": "Martha Gunn",
+      "address": "100 Upper Lewes Road",
+      "lat": 50.8355,
+      "lng": -0.1277,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-193",
+      "city": "brighton",
+      "name": "Waggon and Horses",
+      "address": "109 Church Street",
+      "lat": 50.8242,
+      "lng": -0.1388,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-194",
+      "city": "brighton",
+      "name": "Ye Racehorse Inne",
+      "address": "Elm Grove",
+      "lat": 50.8312,
+      "lng": -0.1193,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-195",
+      "city": "brighton",
+      "name": "The Greys Freehouse",
+      "address": "105 Southover Street",
+      "lat": 50.8292,
+      "lng": -0.1306,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-196",
+      "city": "brighton",
+      "name": "The Islingword Inn",
+      "address": "175 Queen's Park Road",
+      "lat": 50.8278,
+      "lng": -0.1248,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "burger"
+      ]
+    },
+    {
+      "id": "bri-197",
+      "city": "brighton",
+      "name": "The Pipeline",
+      "address": "6 Little East Street",
+      "lat": 50.8202,
+      "lng": -0.1396,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "burger",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-198",
+      "city": "brighton",
+      "name": "The Garden Bar",
+      "address": "324 Portland Road",
+      "lat": 50.8344,
+      "lng": -0.1963,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-199",
+      "city": "brighton",
+      "name": "The Setting Sun",
+      "address": "1 Windmill Street",
+      "lat": 50.8247,
+      "lng": -0.1299,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-200",
+      "city": "brighton",
+      "name": "Ruby",
+      "address": "Coldean Lane",
+      "lat": 50.8582,
+      "lng": -0.1035,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-201",
+      "city": "brighton",
+      "name": "The Druid's",
+      "address": "79 - 81 Ditchling Road",
+      "lat": 50.8318,
+      "lng": -0.1345,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-202",
+      "city": "brighton",
+      "name": "The Mitre Tavern",
+      "address": "13 Baker Street",
+      "lat": 50.8319,
+      "lng": -0.1354,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-203",
+      "city": "brighton",
+      "name": "Duck Inn",
+      "address": "The Green",
+      "district": "rottingdean",
+      "lat": 50.8056,
+      "lng": -0.0586,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-204",
+      "city": "brighton",
+      "name": "The Black Horse",
+      "address": "65 High Street",
+      "district": "rottingdean",
+      "lat": 50.8047,
+      "lng": -0.0582,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-205",
+      "city": "brighton",
+      "name": "Fox on the Downs",
+      "address": "291 Elm Grove",
+      "lat": 50.8321,
+      "lng": -0.1126,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-001",
+      "city": "brighton",
+      "name": "The Better Half",
+      "address": "1 Hove Place",
+      "lat": 50.8255,
+      "lng": -0.1753,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-002",
+      "city": "brighton",
+      "name": "The Hollingbury",
+      "address": "1 Roedale Road",
+      "lat": 50.8403,
+      "lng": -0.131,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-003",
+      "city": "brighton",
+      "name": "The Hole In The Wall",
+      "address": "Queensbury Mews",
+      "lat": 50.8219,
+      "lng": -0.1494,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-004",
+      "city": "brighton",
+      "name": "Regency Tavern",
+      "address": "32-34 Russell Square",
+      "lat": 50.8229,
+      "lng": -0.1488,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-005",
+      "city": "brighton",
+      "name": "Robin Hood",
+      "address": "1-3 Norfolk Place",
+      "lat": 50.8247,
+      "lng": -0.1555,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-006",
+      "city": "brighton",
+      "name": "Fortune of War",
+      "address": "Address unknown",
+      "lat": 50.8204,
+      "lng": -0.1446,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-007",
+      "city": "brighton",
+      "name": "Park View",
+      "address": "71 Preston Drove",
+      "lat": 50.8443,
+      "lng": -0.145,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-008",
+      "city": "brighton",
+      "name": "The Crescent",
+      "address": "6 Clifton Hill",
+      "lat": 50.8284,
+      "lng": -0.1487,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-009",
+      "city": "brighton",
+      "name": "Royal Standard",
+      "address": "59 Queen's Road",
+      "lat": 50.8277,
+      "lng": -0.1418,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-010",
+      "city": "brighton",
+      "name": "Prince Albert",
+      "address": "48 Trafalgar Street",
+      "lat": 50.8285,
+      "lng": -0.1406,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-011",
+      "city": "brighton",
+      "name": "The Earth and Stars",
+      "address": "46 Windsor Street",
+      "lat": 50.8248,
+      "lng": -0.1422,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-012",
+      "city": "brighton",
+      "name": "Lord Nelson",
+      "address": "36 Trafalgar Street",
+      "lat": 50.8283,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-013",
+      "city": "brighton",
+      "name": "Great Eastern",
+      "address": "103 Trafalgar Street",
+      "lat": 50.828,
+      "lng": -0.136,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-014",
+      "city": "brighton",
+      "name": "Prince George",
+      "address": "5 Trafalgar Street",
+      "lat": 50.8279,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-015",
+      "city": "brighton",
+      "name": "The Eddy",
+      "address": "67A Upper Gloucester Road",
+      "lat": 50.8276,
+      "lng": -0.1435,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-016",
+      "city": "brighton",
+      "name": "The Geese",
+      "address": "16 Southover Street",
+      "lat": 50.8293,
+      "lng": -0.1304,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "diner",
+        "fish",
+        "fish_and_chips",
+        "sandwich"
+      ]
+    },
+    {
+      "id": "bri-017",
+      "city": "brighton",
+      "name": "The Cleveland",
+      "address": "27 Cleveland Road",
+      "lat": 50.8423,
+      "lng": -0.1385,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-018",
+      "city": "brighton",
+      "name": "Preston Park Tavern",
+      "address": "88 Havelock Road",
+      "lat": 50.8417,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-019",
+      "city": "brighton",
+      "name": "Open House",
+      "address": "146 Springfield Road",
+      "lat": 50.8372,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-020",
+      "city": "brighton",
+      "name": "The Roundhill",
+      "address": "100 Ditchling Road",
+      "lat": 50.8361,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "bri-021",
+      "city": "brighton",
+      "name": "Jolly Brewer",
+      "address": "176 Ditchling Road",
+      "lat": 50.8389,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-022",
+      "city": "brighton",
+      "name": "The Bright Helm",
+      "address": "20A-22 West Street",
+      "lat": 50.8224,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-023",
+      "city": "brighton",
+      "name": "Queen's Head",
+      "address": "69-70 Queen's Road",
+      "lat": 50.8283,
+      "lng": -0.1416,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-024",
+      "city": "brighton",
+      "name": "The Caroline of Brunswick",
+      "address": "39 Ditchling Road",
+      "lat": 50.8306,
+      "lng": -0.1346,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-025",
+      "city": "brighton",
+      "name": "The White Rabbit",
+      "address": "13-14 Kensington Gardens",
+      "lat": 50.8267,
+      "lng": -0.1386,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-026",
+      "city": "brighton",
+      "name": "Park Crescent",
+      "address": "39 Park Crescent Terrace",
+      "lat": 50.8333,
+      "lng": -0.1309,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-027",
+      "city": "brighton",
+      "name": "Bear Inn",
+      "address": "Lewes Road",
+      "lat": 50.8379,
+      "lng": -0.1238,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-028",
+      "city": "brighton",
+      "name": "The Lewes Road Inn",
+      "address": "158 Lewes Road",
+      "lat": 50.8347,
+      "lng": -0.1263,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-029",
+      "city": "brighton",
+      "name": "Farm Tavern",
+      "address": "13 Farm Road",
+      "lat": 50.8267,
+      "lng": -0.1591,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-030",
+      "city": "brighton",
+      "name": "The Signalman",
+      "address": "76 Ditchling Rise",
+      "lat": 50.836,
+      "lng": -0.1362,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-031",
+      "city": "brighton",
+      "name": "The Bat and Ball",
+      "address": "51 Ditchling Road",
+      "lat": 50.8309,
+      "lng": -0.1345,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-032",
+      "city": "brighton",
+      "name": "New Unity",
+      "address": "52 - 53 London Road",
+      "lat": 50.8323,
+      "lng": -0.1376,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-033",
+      "city": "brighton",
+      "name": "The Quadrant",
+      "address": "12-13 North Street Quadrant",
+      "lat": 50.8241,
+      "lng": -0.1434,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-034",
+      "city": "brighton",
+      "name": "Fiddlers Elbow",
+      "address": "11-12 Boyces Street",
+      "lat": 50.8221,
+      "lng": -0.1436,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-035",
+      "city": "brighton",
+      "name": "The Evening Star",
+      "address": "55-56 Surrey Street",
+      "lat": 50.8277,
+      "lng": -0.1421,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-036",
+      "city": "brighton",
+      "name": "Inn On The Square",
+      "address": "11 Cranbourne Street",
+      "lat": 50.8234,
+      "lng": -0.1445,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-037",
+      "city": "brighton",
+      "name": "Sir Charles Napier",
+      "address": "50 Southover Street",
+      "lat": 50.8278,
+      "lng": -0.1279,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-038",
+      "city": "brighton",
+      "name": "The Independent",
+      "address": "95 Queen's Park Road",
+      "lat": 50.826,
+      "lng": -0.1274,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-039",
+      "city": "brighton",
+      "name": "The Constant Service",
+      "address": "96 Islingword Road",
+      "lat": 50.8291,
+      "lng": -0.1262,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-040",
+      "city": "brighton",
+      "name": "Prince of Wales",
+      "address": "47 Clarence Square",
+      "lat": 50.8237,
+      "lng": -0.1466,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-041",
+      "city": "brighton",
+      "name": "The Prestonville Arms",
+      "address": "64 Hamilton Road",
+      "lat": 50.8337,
+      "lng": -0.1455,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-042",
+      "city": "brighton",
+      "name": "The Good Companions",
+      "address": "132 Dyke Road",
+      "district": "brighton",
+      "lat": 50.8321,
+      "lng": -0.1481,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-043",
+      "city": "brighton",
+      "name": "Caxton Arms",
+      "address": "36 North Gardens",
+      "lat": 50.8269,
+      "lng": -0.1426,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-044",
+      "city": "brighton",
+      "name": "The Chimney House",
+      "address": "28 Upper Hamilton Road",
+      "lat": 50.8353,
+      "lng": -0.1487,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-045",
+      "city": "brighton",
+      "name": "The Howard",
+      "address": "1 Howard Road",
+      "lat": 50.8311,
+      "lng": -0.1271,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-046",
+      "city": "brighton",
+      "name": "Fitz Regent",
+      "address": "7-8 Castle Square",
+      "lat": 50.8215,
+      "lng": -0.1384,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-047",
+      "city": "brighton",
+      "name": "The West Quay",
+      "address": "Waterfront",
+      "lat": 50.8122,
+      "lng": -0.1036,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-048",
+      "city": "brighton",
+      "name": "The Shakespeare's Head",
+      "address": "1 Chatham Place",
+      "lat": 50.8318,
+      "lng": -0.1456,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-049",
+      "city": "brighton",
+      "name": "East Street Tap",
+      "address": "74 East Street",
+      "lat": 50.8201,
+      "lng": -0.1391,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-050",
+      "city": "brighton",
+      "name": "The Railway Bell",
+      "address": "26-28 Surrey Street",
+      "lat": 50.8285,
+      "lng": -0.142,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-051",
+      "city": "brighton",
+      "name": "The Pond",
+      "address": "49 Gloucester Road",
+      "lat": 50.8271,
+      "lng": -0.1408,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-052",
+      "city": "brighton",
+      "name": "The Foundry",
+      "address": "13-14 Foundry Street",
+      "lat": 50.8265,
+      "lng": -0.1401,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-053",
+      "city": "brighton",
+      "name": "Shortt's",
+      "address": "46 St. James's Street",
+      "lat": 50.8206,
+      "lng": -0.1319,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-054",
+      "city": "brighton",
+      "name": "Crown's",
+      "address": "9-10 Cranbourne Street",
+      "lat": 50.8233,
+      "lng": -0.1446,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-055",
+      "city": "brighton",
+      "name": "The Freemason's",
+      "address": "38-39 Western Road",
+      "lat": 50.8257,
+      "lng": -0.1597,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-056",
+      "city": "brighton",
+      "name": "The Temple Bar",
+      "address": "121-122 Western Road",
+      "lat": 50.8251,
+      "lng": -0.1537,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-057",
+      "city": "brighton",
+      "name": "The Blind Busker",
+      "address": "75-77 Church Road",
+      "lat": 50.8274,
+      "lng": -0.1673,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-058",
+      "city": "brighton",
+      "name": "Old Albion",
+      "address": "110 Church Road",
+      "lat": 50.8278,
+      "lng": -0.1721,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-059",
+      "city": "brighton",
+      "name": "The Seafield",
+      "address": "150 Church Road",
+      "lat": 50.8281,
+      "lng": -0.1748,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-060",
+      "city": "brighton",
+      "name": "Coopers Cask",
+      "address": "3 Farm Road",
+      "lat": 50.8261,
+      "lng": -0.1593,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-061",
+      "city": "brighton",
+      "name": "The Royal Sovereign",
+      "address": "66 Preston Street",
+      "lat": 50.8236,
+      "lng": -0.1508,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-062",
+      "city": "brighton",
+      "name": "The Hampton Arms",
+      "address": "57 Upper North Street",
+      "lat": 50.8256,
+      "lng": -0.15,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-063",
+      "city": "brighton",
+      "name": "The Lion & Lobster",
+      "address": "24 Sillwood Street",
+      "lat": 50.8238,
+      "lng": -0.1542,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-064",
+      "city": "brighton",
+      "name": "The Bee's Mouth",
+      "address": "10 Western Road",
+      "lat": 50.8252,
+      "lng": -0.1562,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-065",
+      "city": "brighton",
+      "name": "World's End",
+      "address": "60-61 London Road",
+      "lat": 50.8329,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-066",
+      "city": "brighton",
+      "name": "The Hobgoblin",
+      "address": "31 York Place",
+      "lat": 50.8294,
+      "lng": -0.1359,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-067",
+      "city": "brighton",
+      "name": "Bath Arms",
+      "address": "4-5 Meeting House Lane",
+      "lat": 50.8221,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-068",
+      "city": "brighton",
+      "name": "The Font",
+      "address": "Union Street",
+      "lat": 50.8223,
+      "lng": -0.141,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-069",
+      "city": "brighton",
+      "name": "3 Jolly Butchers",
+      "address": "59 North Road",
+      "lat": 50.8261,
+      "lng": -0.1414,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-070",
+      "city": "brighton",
+      "name": "The Heart & Hand",
+      "address": "75 North Road",
+      "lat": 50.8258,
+      "lng": -0.1395,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-071",
+      "city": "brighton",
+      "name": "The Druids Head",
+      "address": "9 Brighton Place",
+      "lat": 50.8218,
+      "lng": -0.1402,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-072",
+      "city": "brighton",
+      "name": "The Market Inn",
+      "address": "1 Market Street",
+      "lat": 50.8217,
+      "lng": -0.1392,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-073",
+      "city": "brighton",
+      "name": "The Walrus",
+      "address": "10 Ship Street",
+      "lat": 50.821,
+      "lng": -0.1422,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-074",
+      "city": "brighton",
+      "name": "Barbara’s Bier Haus",
+      "address": "79-81 West Street",
+      "lat": 50.821,
+      "lng": -0.1444,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-075",
+      "city": "brighton",
+      "name": "Seven Stars",
+      "address": "27 Ship Street",
+      "lat": 50.8223,
+      "lng": -0.1417,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-076",
+      "city": "brighton",
+      "name": "The Post & Telegraph",
+      "address": "155-158 North Street",
+      "lat": 50.823,
+      "lng": -0.1404,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-077",
+      "city": "brighton",
+      "name": "King & Queen",
+      "address": "13-16 Marlborough Place",
+      "lat": 50.8247,
+      "lng": -0.1371,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-078",
+      "city": "brighton",
+      "name": "The Duke of Wellington",
+      "address": "70 Upper Gloucester Road",
+      "lat": 50.8277,
+      "lng": -0.1433,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-079",
+      "city": "brighton",
+      "name": "The Connaught",
+      "address": "48 Hove Street",
+      "lat": 50.8283,
+      "lng": -0.1791,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-080",
+      "city": "brighton",
+      "name": "Fallen Angel",
+      "address": "24 Grafton Street",
+      "lat": 50.8197,
+      "lng": -0.1288,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-081",
+      "city": "brighton",
+      "name": "Hand in Hand",
+      "address": "33 Upper St James Street",
+      "lat": 50.8194,
+      "lng": -0.1273,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-082",
+      "city": "brighton",
+      "name": "The Sussex",
+      "address": "33-34 East Street",
+      "lat": 50.8213,
+      "lng": -0.1394,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-083",
+      "city": "brighton",
+      "name": "The Pump House",
+      "address": "46 Market Street",
+      "lat": 50.8215,
+      "lng": -0.1403,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-084",
+      "city": "brighton",
+      "name": "Dover Castle",
+      "address": "43 Southover Street",
+      "lat": 50.8282,
+      "lng": -0.1285,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-085",
+      "city": "brighton",
+      "name": "Haus On The Hill",
+      "address": "58 Southover Street",
+      "lat": 50.8273,
+      "lng": -0.1263,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-086",
+      "city": "brighton",
+      "name": "Molly Malone's",
+      "address": "57 West Street",
+      "lat": 50.8227,
+      "lng": -0.1438,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-087",
+      "city": "brighton",
+      "name": "Sticky Mike's Frog Bar",
+      "address": "9-12 Middle Street",
+      "lat": 50.8211,
+      "lng": -0.1434,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-088",
+      "city": "brighton",
+      "name": "The Cow",
+      "address": "95-97 Dyke Road",
+      "lat": 50.8298,
+      "lng": -0.1472,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-089",
+      "city": "brighton",
+      "name": "French Horn",
+      "address": "82 Dyke Road",
+      "lat": 50.8301,
+      "lng": -0.1469,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-090",
+      "city": "brighton",
+      "name": "North Laine Brewhouse",
+      "address": "27 Gloucester Place",
+      "lat": 50.8268,
+      "lng": -0.1358,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-091",
+      "city": "brighton",
+      "name": "J W Lennon's",
+      "address": "116-118 Edward Street",
+      "lat": 50.8218,
+      "lng": -0.1298,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-092",
+      "city": "brighton",
+      "name": "The King's Arms",
+      "address": "56 George Street",
+      "lat": 50.8212,
+      "lng": -0.1346,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-093",
+      "city": "brighton",
+      "name": "Beer Haus",
+      "address": "161 Edward Street",
+      "lat": 50.8225,
+      "lng": -0.1343,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-094",
+      "city": "brighton",
+      "name": "The Round Georges",
+      "address": "14-15 Sutherland Road",
+      "lat": 50.8236,
+      "lng": -0.1205,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "local"
+      ]
+    },
+    {
+      "id": "bri-095",
+      "city": "brighton",
+      "name": "The Wick Inn",
+      "address": "63 Western Road",
+      "lat": 50.8261,
+      "lng": -0.1618,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-096",
+      "city": "brighton",
+      "name": "The Urchin",
+      "address": "15-17 Belfast Street",
+      "district": "hove",
+      "lat": 50.8303,
+      "lng": -0.1751,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-097",
+      "city": "brighton",
+      "name": "The Foragers",
+      "address": "3 Stirling Place",
+      "lat": 50.8302,
+      "lng": -0.1762,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-098",
+      "city": "brighton",
+      "name": "The Basketmakers Arms",
+      "address": "12 Gloucester Road",
+      "lat": 50.8266,
+      "lng": -0.1369,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-099",
+      "city": "brighton",
+      "name": "Maris & Otter",
+      "address": "114 Western Road",
+      "lat": 50.8251,
+      "lng": -0.1553,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-100",
+      "city": "brighton",
+      "name": "Plough Inn",
+      "address": "Vicarage Lane",
+      "district": "rottingdean",
+      "lat": 50.8058,
+      "lng": -0.0579,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-101",
+      "city": "brighton",
+      "name": "The Sussex Cricketer",
+      "address": "Eaton Road",
+      "lat": 50.8299,
+      "lng": -0.1649,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-102",
+      "city": "brighton",
+      "name": "Barley Mow",
+      "address": "92 St. Georges Road",
+      "lat": 50.8186,
+      "lng": -0.122,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-103",
+      "city": "brighton",
+      "name": "The Black Horse",
+      "address": "112 Church Street",
+      "lat": 50.8241,
+      "lng": -0.1387,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-104",
+      "city": "brighton",
+      "name": "The Argyle Arms",
+      "address": "32 Argyle Road",
+      "lat": 50.8346,
+      "lng": -0.1417,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-105",
+      "city": "brighton",
+      "name": "The Hop Poles",
+      "address": "13 Middle Street",
+      "lat": 50.8213,
+      "lng": -0.1433,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-106",
+      "city": "brighton",
+      "name": "Cobden Arms",
+      "address": "45-46 Cobden Road",
+      "lat": 50.8307,
+      "lng": -0.1248,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-107",
+      "city": "brighton",
+      "name": "Pitcher And Piano",
+      "address": "1-5 King's Road",
+      "lat": 50.8197,
+      "lng": -0.1395,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "bri-108",
+      "city": "brighton",
+      "name": "The Brighton Tavern",
+      "address": "99-100 Gloucester Road",
+      "lat": 50.827,
+      "lng": -0.1389,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-109",
+      "city": "brighton",
+      "name": "SOJU Korean dining pub",
+      "address": "135 Western Road",
+      "lat": 50.8249,
+      "lng": -0.1517,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-110",
+      "city": "brighton",
+      "name": "Mad Dog Brewery Co. Taproom",
+      "address": "24 Duke Street",
+      "lat": 50.823,
+      "lng": -0.1435,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-111",
+      "city": "brighton",
+      "name": "A L P H A B E T",
+      "address": "11 Dyke Road",
+      "lat": 50.8242,
+      "lng": -0.1451,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-112",
+      "city": "brighton",
+      "name": "George Street Tap",
+      "address": "4-5 George Street",
+      "lat": 50.8286,
+      "lng": -0.1739,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-113",
+      "city": "brighton",
+      "name": "Bow Street Runner",
+      "address": "62 Brunswick Street West",
+      "lat": 50.8254,
+      "lng": -0.16,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-114",
+      "city": "brighton",
+      "name": "Hove Place",
+      "address": "37 First Avenue",
+      "lat": 50.8266,
+      "lng": -0.166,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-115",
+      "city": "brighton",
+      "name": "The Green Dragon",
+      "address": "8 - 9 Sydney Street",
+      "lat": 50.8273,
+      "lng": -0.138,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-116",
+      "city": "brighton",
+      "name": "Dyke Alehouse And Kitchen",
+      "address": "218 Dyke Road",
+      "lat": 50.8386,
+      "lng": -0.155,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-117",
+      "city": "brighton",
+      "name": "The Mess Deck",
+      "address": "Address unknown",
+      "lat": 50.8203,
+      "lng": -0.1419,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-118",
+      "city": "brighton",
+      "name": "The Clubhouse",
+      "address": "Pavilion Road",
+      "lat": 50.8677,
+      "lng": -0.0806,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-119",
+      "city": "brighton",
+      "name": "The Master Mariner",
+      "address": "24 Waterfront",
+      "district": "brighton marina",
+      "lat": 50.8133,
+      "lng": -0.1009,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-120",
+      "city": "brighton",
+      "name": "St Georges Inn",
+      "address": "33 Sudeley Street",
+      "lat": 50.8182,
+      "lng": -0.1173,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-121",
+      "city": "brighton",
+      "name": "The Bristol Bar",
+      "address": "143 Marine Parade",
+      "lat": 50.8174,
+      "lng": -0.1194,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-122",
+      "city": "brighton",
+      "name": "The Thomas Kemp",
+      "address": "8 St Georges Road",
+      "lat": 50.8194,
+      "lng": -0.1238,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-123",
+      "city": "brighton",
+      "name": "The Golden Cannon",
+      "address": "20-21 St Georges Road",
+      "lat": 50.819,
+      "lng": -0.1225,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-124",
+      "city": "brighton",
+      "name": "The Bugle Inn",
+      "address": "24 St Martin's Street",
+      "lat": 50.8341,
+      "lng": -0.1287,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-125",
+      "city": "brighton",
+      "name": "The Poets Ale and Smokehouse",
+      "address": "33 Montgomery Street",
+      "lat": 50.8342,
+      "lng": -0.1788,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-126",
+      "city": "brighton",
+      "name": "The Ancient Mariner",
+      "address": "59 Rutland Road",
+      "lat": 50.8352,
+      "lng": -0.1827,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-127",
+      "city": "brighton",
+      "name": "The George Payne",
+      "address": "18 Payne Avenue",
+      "district": "hove",
+      "lat": 50.836,
+      "lng": -0.186,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-128",
+      "city": "brighton",
+      "name": "The Actors",
+      "address": "4 Prince's Street",
+      "lat": 50.8223,
+      "lng": -0.136,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-129",
+      "city": "brighton",
+      "name": "Coppa club",
+      "address": "12-16 Brighton Square",
+      "lat": 50.8221,
+      "lng": -0.1404,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-130",
+      "city": "brighton",
+      "name": "Tempest",
+      "address": "159-161 King's Road",
+      "lat": 50.8203,
+      "lng": -0.1443,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-131",
+      "city": "brighton",
+      "name": "Old Crow",
+      "address": "168 Portland Road",
+      "district": "hove",
+      "lat": 50.8333,
+      "lng": -0.1861,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-132",
+      "city": "brighton",
+      "name": "Hector's",
+      "address": "52-54 Grand Parade",
+      "lat": 50.8246,
+      "lng": -0.1355,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "pizza"
+      ]
+    },
+    {
+      "id": "bri-133",
+      "city": "brighton",
+      "name": "Watchmaker's Arms",
+      "address": "84 Goldstone Villas",
+      "district": "hove",
+      "lat": 50.8343,
+      "lng": -0.1714,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-134",
+      "city": "brighton",
+      "name": "The Westbourne",
+      "address": "90 Portland Road",
+      "lat": 50.8327,
+      "lng": -0.1819,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-135",
+      "city": "brighton",
+      "name": "The Stoneham",
+      "address": "153 Portland Road",
+      "lat": 50.8337,
+      "lng": -0.1863,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-136",
+      "city": "brighton",
+      "name": "The Mucky Duck",
+      "address": "7-9 Manchester Street",
+      "lat": 50.8208,
+      "lng": -0.1357,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "thai",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-137",
+      "city": "brighton",
+      "name": "Charles Street Tap",
+      "address": "8-9 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1355,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-138",
+      "city": "brighton",
+      "name": "William the Fourth",
+      "address": "4 Church Street",
+      "lat": 50.8242,
+      "lng": -0.1398,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-139",
+      "city": "brighton",
+      "name": "Mrs Fitzherberts",
+      "address": "25 New Road",
+      "lat": 50.8239,
+      "lng": -0.1391,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-140",
+      "city": "brighton",
+      "name": "The Fountain Head",
+      "address": "102 North Road",
+      "lat": 50.8255,
+      "lng": -0.1373,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-141",
+      "city": "brighton",
+      "name": "Mash Tun",
+      "address": "1 Church Street",
+      "lat": 50.824,
+      "lng": -0.139,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-142",
+      "city": "brighton",
+      "name": "St James Tavern",
+      "address": "16 Madeira Place",
+      "lat": 50.8207,
+      "lng": -0.1339,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-143",
+      "city": "brighton",
+      "name": "The Southern Belle",
+      "address": "3 Waterloo Street",
+      "lat": 50.8235,
+      "lng": -0.1574,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-144",
+      "city": "brighton",
+      "name": "Camelford Arms",
+      "address": "30-31 Camelford Street",
+      "lat": 50.8201,
+      "lng": -0.1328,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-145",
+      "city": "brighton",
+      "name": "The Bulldog",
+      "address": "31 St. James's Street",
+      "lat": 50.8208,
+      "lng": -0.1334,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-146",
+      "city": "brighton",
+      "name": "The Marine Tavern",
+      "address": "13 Broad Street",
+      "lat": 50.8207,
+      "lng": -0.1348,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-147",
+      "city": "brighton",
+      "name": "Three And Ten",
+      "address": "10 Steine Street",
+      "lat": 50.8208,
+      "lng": -0.1361,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-148",
+      "city": "brighton",
+      "name": "The Victory",
+      "address": "6 Duke Street",
+      "lat": 50.8226,
+      "lng": -0.1424,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-149",
+      "city": "brighton",
+      "name": "The Mesmerist",
+      "address": "1-3 Prince Albert Street",
+      "lat": 50.821,
+      "lng": -0.1406,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-150",
+      "city": "brighton",
+      "name": "The Eagle",
+      "address": "125 Gloucester Road",
+      "lat": 50.8268,
+      "lng": -0.1369,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-151",
+      "city": "brighton",
+      "name": "The Dorset",
+      "address": "28 North Road",
+      "lat": 50.8256,
+      "lng": -0.1394,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-152",
+      "city": "brighton",
+      "name": "Ladies Mile",
+      "address": "2 Mackie Avenue",
+      "lat": 50.8643,
+      "lng": -0.1449,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-153",
+      "city": "brighton",
+      "name": "The Long Man",
+      "address": "2-10 Wilmington Way",
+      "lat": 50.8596,
+      "lng": -0.1416,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-154",
+      "city": "brighton",
+      "name": "The Hope and Ruin",
+      "address": "11-12 Queen's Road",
+      "lat": 50.8248,
+      "lng": -0.1431,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "bri-155",
+      "city": "brighton",
+      "name": "Bottom's Rest",
+      "address": "16 Lower Market Street",
+      "lat": 50.8244,
+      "lng": -0.1576,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-156",
+      "city": "brighton",
+      "name": "Bedford Tavern",
+      "address": "30 Western Street",
+      "lat": 50.8234,
+      "lng": -0.1557,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-157",
+      "city": "brighton",
+      "name": "The West Hill Tavern",
+      "address": "67 Buckingham Place",
+      "lat": 50.8308,
+      "lng": -0.1427,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-158",
+      "city": "brighton",
+      "name": "Hove Park Tavern",
+      "address": "156 Old Shoreham Road",
+      "lat": 50.8387,
+      "lng": -0.1781,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-159",
+      "city": "brighton",
+      "name": "The Royal George",
+      "address": "98/101 George Street",
+      "lat": 50.8286,
+      "lng": -0.1742,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-160",
+      "city": "brighton",
+      "name": "The Station Pub",
+      "address": "100 Goldstone Villas",
+      "lat": 50.8348,
+      "lng": -0.1713,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-161",
+      "city": "brighton",
+      "name": "The Grenadier",
+      "address": "200 Hangleton Road",
+      "lat": 50.8447,
+      "lng": -0.1945,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-162",
+      "city": "brighton",
+      "name": "Grand Central",
+      "address": "29-30 Surrey Street",
+      "lat": 50.8287,
+      "lng": -0.142,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-163",
+      "city": "brighton",
+      "name": "The Paris House",
+      "address": "21 Western Road",
+      "lat": 50.8253,
+      "lng": -0.1573,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-164",
+      "city": "brighton",
+      "name": "Palmeira",
+      "address": "70-71 Cromwell Road",
+      "lat": 50.8322,
+      "lng": -0.16,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-165",
+      "city": "brighton",
+      "name": "Sussex Yeoman",
+      "address": "7 Guildford Road",
+      "lat": 50.8287,
+      "lng": -0.1427,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-166",
+      "city": "brighton",
+      "name": "Battle of Trafalgar",
+      "address": "34 Guildford Road",
+      "lat": 50.8289,
+      "lng": -0.1424,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-167",
+      "city": "brighton",
+      "name": "The Cricketers",
+      "address": "15 Black Lion Street",
+      "lat": 50.8213,
+      "lng": -0.1412,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "bri-168",
+      "city": "brighton",
+      "name": "The Black Lion",
+      "address": "14 Black Lion Street",
+      "lat": 50.8212,
+      "lng": -0.1413,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-169",
+      "city": "brighton",
+      "name": "The Star & Garter",
+      "address": "16 - 17 Kings Road",
+      "lat": 50.82,
+      "lng": -0.14,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-170",
+      "city": "brighton",
+      "name": "The Gladstone",
+      "address": "123 Lewes Road",
+      "lat": 50.8368,
+      "lng": -0.1245,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-171",
+      "city": "brighton",
+      "name": "The Joker",
+      "address": "2 Preston Road",
+      "lat": 50.8339,
+      "lng": -0.1391,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-172",
+      "city": "brighton",
+      "name": "The Bevy",
+      "address": "50 Hillside",
+      "lat": 50.8449,
+      "lng": -0.1107,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-173",
+      "city": "brighton",
+      "name": "The Rock Inn",
+      "address": "7 Rock Street",
+      "lat": 50.8166,
+      "lng": -0.1126,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-174",
+      "city": "brighton",
+      "name": "Village",
+      "address": "129 Islingword Road",
+      "lat": 50.8309,
+      "lng": -0.1278,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-175",
+      "city": "brighton",
+      "name": "The Hartington",
+      "address": "41 Whippingham Road",
+      "lat": 50.8326,
+      "lng": -0.1218,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-176",
+      "city": "brighton",
+      "name": "The Nevill",
+      "address": "214 Nevill Road",
+      "lat": 50.8474,
+      "lng": -0.1827,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-177",
+      "city": "brighton",
+      "name": "The Pub at Fiveways",
+      "address": "292 Ditchling Road",
+      "lat": 50.8435,
+      "lng": -0.1343,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-178",
+      "city": "brighton",
+      "name": "The Hare and Hounds",
+      "address": "75 London Road",
+      "lat": 50.8334,
+      "lng": -0.1383,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-179",
+      "city": "brighton",
+      "name": "UnBarred Brewery & Tap Room",
+      "address": "19-23 Elder Place",
+      "lat": 50.8333,
+      "lng": -0.1394,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "bri-180",
+      "city": "brighton",
+      "name": "The County Oak",
+      "address": "County Oak Avenue",
+      "lat": 50.8611,
+      "lng": -0.1284,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-181",
+      "city": "brighton",
+      "name": "The Station Hotel",
+      "address": "1 Hampstead Road",
+      "lat": 50.8448,
+      "lng": -0.1554,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-182",
+      "city": "brighton",
+      "name": "The Admiral",
+      "address": "2-6 Elm Grove",
+      "lat": 50.8318,
+      "lng": -0.1287,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-183",
+      "city": "brighton",
+      "name": "The Windmill",
+      "address": "69 Upper North Street",
+      "lat": 50.8256,
+      "lng": -0.1488,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-184",
+      "city": "brighton",
+      "name": "Swan Inn",
+      "address": "Middle Street",
+      "district": "falmer",
+      "lat": 50.8639,
+      "lng": -0.0787,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-185",
+      "city": "brighton",
+      "name": "The Bell Tower",
+      "address": "1 Arundel Road",
+      "lat": 50.8152,
+      "lng": -0.1081,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-186",
+      "city": "brighton",
+      "name": "The Neptune",
+      "address": "10 Victoria Terrace",
+      "lat": 50.825,
+      "lng": -0.176,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-187",
+      "city": "brighton",
+      "name": "The Sussex",
+      "address": "17 St Catherines Terrace",
+      "lat": 50.8255,
+      "lng": -0.1762,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-188",
+      "city": "brighton",
+      "name": "The Crown and Anchor",
+      "address": "213 Preston Road",
+      "lat": 50.8431,
+      "lng": -0.1517,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-189",
+      "city": "brighton",
+      "name": "The Wellington",
+      "address": "53 Elm Grove",
+      "lat": 50.8319,
+      "lng": -0.1258,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-190",
+      "city": "brighton",
+      "name": "The Brunswick",
+      "address": "1 Holland Road",
+      "lat": 50.8241,
+      "lng": -0.1624,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-191",
+      "city": "brighton",
+      "name": "The Grosvenor Bar",
+      "address": "16 Western Street",
+      "lat": 50.8239,
+      "lng": -0.1557,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-192",
+      "city": "brighton",
+      "name": "Martha Gunn",
+      "address": "100 Upper Lewes Road",
+      "lat": 50.8355,
+      "lng": -0.1277,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-193",
+      "city": "brighton",
+      "name": "Waggon and Horses",
+      "address": "109 Church Street",
+      "lat": 50.8242,
+      "lng": -0.1388,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-194",
+      "city": "brighton",
+      "name": "Ye Racehorse Inne",
+      "address": "Elm Grove",
+      "lat": 50.8312,
+      "lng": -0.1193,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-195",
+      "city": "brighton",
+      "name": "The Greys Freehouse",
+      "address": "105 Southover Street",
+      "lat": 50.8292,
+      "lng": -0.1306,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-196",
+      "city": "brighton",
+      "name": "The Islingword Inn",
+      "address": "175 Queen's Park Road",
+      "lat": 50.8278,
+      "lng": -0.1248,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "burger"
+      ]
+    },
+    {
+      "id": "bri-197",
+      "city": "brighton",
+      "name": "The Pipeline",
+      "address": "6 Little East Street",
+      "lat": 50.8202,
+      "lng": -0.1396,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "burger",
+        "food"
+      ]
+    },
+    {
+      "id": "bri-198",
+      "city": "brighton",
+      "name": "The Garden Bar",
+      "address": "324 Portland Road",
+      "lat": 50.8344,
+      "lng": -0.1963,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bri-199",
+      "city": "brighton",
+      "name": "The Setting Sun",
+      "address": "1 Windmill Street",
+      "lat": 50.8247,
+      "lng": -0.1299,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-200",
+      "city": "brighton",
+      "name": "Ruby",
+      "address": "Coldean Lane",
+      "lat": 50.8582,
+      "lng": -0.1035,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-201",
+      "city": "brighton",
+      "name": "The Druid's",
+      "address": "79 - 81 Ditchling Road",
+      "lat": 50.8318,
+      "lng": -0.1345,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-202",
+      "city": "brighton",
+      "name": "The Mitre Tavern",
+      "address": "13 Baker Street",
+      "lat": 50.8319,
+      "lng": -0.1354,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-203",
+      "city": "brighton",
+      "name": "Duck Inn",
+      "address": "The Green",
+      "district": "rottingdean",
+      "lat": 50.8056,
+      "lng": -0.0586,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-204",
+      "city": "brighton",
+      "name": "The Black Horse",
+      "address": "65 High Street",
+      "district": "rottingdean",
+      "lat": 50.8047,
+      "lng": -0.0582,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-205",
+      "city": "brighton",
+      "name": "Fox on the Downs",
+      "address": "291 Elm Grove",
+      "lat": 50.8321,
+      "lng": -0.1126,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "bri-206",
+      "city": "brighton",
+      "name": "Casablanca Jazz Club",
+      "address": "5 Middle Street",
+      "lat": 50.8209,
+      "lng": -0.1434,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-207",
+      "city": "brighton",
+      "name": "The Basement",
+      "address": "24 Kensington Street",
+      "lat": 50.8263,
+      "lng": -0.1382,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-208",
+      "city": "brighton",
+      "name": "Coalition",
+      "address": "171-181 King's Road Arches",
+      "lat": 50.8201,
+      "lng": -0.1434,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-209",
+      "city": "brighton",
+      "name": "Boutique",
+      "address": "2 Boyces Street",
+      "lat": 50.8223,
+      "lng": -0.144,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-210",
+      "city": "brighton",
+      "name": "Envy",
+      "address": "8-9 Marine Parade",
+      "lat": 50.82,
+      "lng": -0.1356,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-211",
+      "city": "brighton",
+      "name": "Grace Gentleman's Club",
+      "address": "51 - 52 North Street",
+      "lat": 50.8233,
+      "lng": -0.1424,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-212",
+      "city": "brighton",
+      "name": "Brighton Music Hall",
+      "address": "127-131 King's Road Arches",
+      "lat": 50.8207,
+      "lng": -0.1466,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-213",
+      "city": "brighton",
+      "name": "Quarters",
+      "address": "187-193 King's Road Arches",
+      "lat": 50.8201,
+      "lng": -0.1429,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-214",
+      "city": "brighton",
+      "name": "The Hub",
+      "address": "Address unknown",
+      "lat": 50.82,
+      "lng": -0.1425,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-215",
+      "city": "brighton",
+      "name": "Tide Club",
+      "address": "Address unknown",
+      "lat": 50.8197,
+      "lng": -0.1414,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-216",
+      "city": "brighton",
+      "name": "Club Revenge",
+      "address": "32-34 Old Steine",
+      "lat": 50.8202,
+      "lng": -0.1364,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-217",
+      "city": "brighton",
+      "name": "The Hanbury",
+      "address": "83 St Georges Road",
+      "lat": 50.8178,
+      "lng": -0.1189,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-218",
+      "city": "brighton",
+      "name": "Patterns",
+      "address": "10 Marine Parade",
+      "lat": 50.8201,
+      "lng": -0.1351,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-219",
+      "city": "brighton",
+      "name": "Chalk",
+      "address": "13 Pool Valley",
+      "lat": 50.8199,
+      "lng": -0.1385,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-220",
+      "city": "brighton",
+      "name": "Lola Lo",
+      "address": "77 East Street",
+      "lat": 50.8198,
+      "lng": -0.1389,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "bri-221",
+      "city": "brighton",
+      "name": "PRYZM",
+      "address": "West Street",
+      "lat": 50.8211,
+      "lng": -0.1451,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    }
+  ]
+}

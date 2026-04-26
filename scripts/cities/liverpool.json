@@ -1,0 +1,3369 @@
+{
+  "key": "liverpool",
+  "prefix": "Liv",
+  "label": "Liverpool",
+  "bbox": "-3.118173,55.342750,-2.885855,53.481225",
+  "defaultDrink": "Pint of beer",
+  "scrapedAt": "2026-04-03T08:14:50.357Z",
+  "barCount": 238,
+  "bars": [
+    {
+      "id": "Liv-001",
+      "city": "liverpool",
+      "name": "Terrazas del Barranco",
+      "address": "Address unknown",
+      "lat": -2.9008,
+      "lng": -79.0071,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-002",
+      "city": "liverpool",
+      "name": "Távola Café",
+      "address": "Address unknown",
+      "lat": -3.1028,
+      "lng": -59.9976,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-003",
+      "city": "liverpool",
+      "name": "MotoRock Bar",
+      "address": "Avenida Gov José Lindoso",
+      "lat": -3.0741,
+      "lng": -59.9919,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-004",
+      "city": "liverpool",
+      "name": "Rei do Caranguejo",
+      "address": "Address unknown",
+      "lat": -3.0902,
+      "lng": -60.0211,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-005",
+      "city": "liverpool",
+      "name": "Latitud cero",
+      "address": "Simón Bolívar",
+      "lat": -2.8971,
+      "lng": -79.0039,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "cafeteria"
+      ]
+    },
+    {
+      "id": "Liv-006",
+      "city": "liverpool",
+      "name": "Prophecy Karaoke Bar",
+      "address": "Address unknown",
+      "lat": -2.9055,
+      "lng": -79.0118,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-007",
+      "city": "liverpool",
+      "name": "Wunderbar",
+      "address": "Address unknown",
+      "lat": -2.9025,
+      "lng": -79.0031,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-008",
+      "city": "liverpool",
+      "name": "Natureza Show Clube",
+      "address": "Address unknown",
+      "lat": -3.045,
+      "lng": -59.9432,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-009",
+      "city": "liverpool",
+      "name": "Big Star Show",
+      "address": "Address unknown",
+      "lat": -3.0452,
+      "lng": -59.9432,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-010",
+      "city": "liverpool",
+      "name": "Amazon Drink´S",
+      "address": "Address unknown",
+      "lat": -3.0456,
+      "lng": -59.9434,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-011",
+      "city": "liverpool",
+      "name": "BAR CHOPERIA BARCELONA",
+      "address": "Address unknown",
+      "lat": -3.0263,
+      "lng": -59.9341,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "Liv-012",
+      "city": "liverpool",
+      "name": "BAR BONS AMIGOS",
+      "address": "Address unknown",
+      "lat": -3.0278,
+      "lng": -59.933,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-013",
+      "city": "liverpool",
+      "name": "Bar das Loirinhas",
+      "address": "Address unknown",
+      "lat": -3.0401,
+      "lng": -59.9349,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-014",
+      "city": "liverpool",
+      "name": "Bar Point do Futebol",
+      "address": "Address unknown",
+      "lat": -3.0397,
+      "lng": -59.9357,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-015",
+      "city": "liverpool",
+      "name": "Bar Sabrina Oke",
+      "address": "Address unknown",
+      "lat": -3.0322,
+      "lng": -59.9375,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-016",
+      "city": "liverpool",
+      "name": "Bar do Lima",
+      "address": "Address unknown",
+      "lat": -3.0163,
+      "lng": -59.9281,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-017",
+      "city": "liverpool",
+      "name": "Las Chosas de Guaymincay",
+      "address": "Address unknown",
+      "lat": -2.9056,
+      "lng": -78.7774,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-018",
+      "city": "liverpool",
+      "name": "Bar Encontro dos Amigos",
+      "address": "Address unknown",
+      "lat": -3.0229,
+      "lng": -59.9313,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-019",
+      "city": "liverpool",
+      "name": "Chibatinha",
+      "address": "Address unknown",
+      "lat": -3.1162,
+      "lng": -59.9765,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-020",
+      "city": "liverpool",
+      "name": "Bar e Mercearia Snoopy",
+      "address": "Address unknown",
+      "lat": -3.1079,
+      "lng": -59.9789,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-021",
+      "city": "liverpool",
+      "name": "Bar Pé de Pano",
+      "address": "Address unknown",
+      "lat": -3.1132,
+      "lng": -59.9821,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-022",
+      "city": "liverpool",
+      "name": "Bar do Antônio",
+      "address": "Address unknown",
+      "lat": -3.1171,
+      "lng": -59.9891,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-023",
+      "city": "liverpool",
+      "name": "Bar Fla Jô",
+      "address": "Address unknown",
+      "lat": -3.1165,
+      "lng": -59.9887,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-024",
+      "city": "liverpool",
+      "name": "Bar do Fla",
+      "address": "Address unknown",
+      "lat": -3.1109,
+      "lng": -59.9886,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-025",
+      "city": "liverpool",
+      "name": "Bar do Fla",
+      "address": "Address unknown",
+      "lat": -3.1152,
+      "lng": -59.9887,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-026",
+      "city": "liverpool",
+      "name": "Bar Encontro do Amor",
+      "address": "Address unknown",
+      "lat": -3.1107,
+      "lng": -59.9834,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-027",
+      "city": "liverpool",
+      "name": "Bar e Mercearia Canto de Iemanjá",
+      "address": "Address unknown",
+      "lat": -3.1109,
+      "lng": -59.9838,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-028",
+      "city": "liverpool",
+      "name": "Bar do CB",
+      "address": "Address unknown",
+      "lat": -3.0966,
+      "lng": -60.0004,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-029",
+      "city": "liverpool",
+      "name": "Coperia Brahma Express",
+      "address": "Address unknown",
+      "lat": -3.0968,
+      "lng": -59.9923,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-030",
+      "city": "liverpool",
+      "name": "Bar e Restaurante Sladon",
+      "address": "Address unknown",
+      "lat": -3.0779,
+      "lng": -59.9739,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-031",
+      "city": "liverpool",
+      "name": "Jodoco Belgian Beer",
+      "address": "Address unknown",
+      "lat": -2.8954,
+      "lng": -79.0114,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "Liv-032",
+      "city": "liverpool",
+      "name": "Bar LBS",
+      "address": "Address unknown",
+      "lat": -3.1122,
+      "lng": -60.0367,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-033",
+      "city": "liverpool",
+      "name": "Bar e Churrascaria da keila",
+      "address": "Address unknown",
+      "lat": -3.1115,
+      "lng": -60.0347,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-034",
+      "city": "liverpool",
+      "name": "Bar do Alf",
+      "address": "Address unknown",
+      "lat": -3.1102,
+      "lng": -60.0472,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-035",
+      "city": "liverpool",
+      "name": "Bar dos Cornos",
+      "address": "Address unknown",
+      "lat": -3.1095,
+      "lng": -60.0349,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-036",
+      "city": "liverpool",
+      "name": "Bar e Lanche Me",
+      "address": "Address unknown",
+      "lat": -3.1117,
+      "lng": -60.0318,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-037",
+      "city": "liverpool",
+      "name": "Bar do Ceará",
+      "address": "Address unknown",
+      "lat": -3.1063,
+      "lng": -60.0321,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-038",
+      "city": "liverpool",
+      "name": "Bar Canto Belo",
+      "address": "Address unknown",
+      "lat": -3.105,
+      "lng": -60.0334,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-039",
+      "city": "liverpool",
+      "name": "Bar do Bala",
+      "address": "Address unknown",
+      "lat": -3.1044,
+      "lng": -60.0316,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-040",
+      "city": "liverpool",
+      "name": "Lappa Bar",
+      "address": "Address unknown",
+      "lat": -3.1091,
+      "lng": -60.0198,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-041",
+      "city": "liverpool",
+      "name": "Bar Lelas",
+      "address": "Address unknown",
+      "lat": -3.103,
+      "lng": -60.0184,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-042",
+      "city": "liverpool",
+      "name": "Bar dos Amigos",
+      "address": "Address unknown",
+      "lat": -3.0933,
+      "lng": -59.9849,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-043",
+      "city": "liverpool",
+      "name": "Bar Miros",
+      "address": "Address unknown",
+      "lat": -3.0939,
+      "lng": -59.9866,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-044",
+      "city": "liverpool",
+      "name": "Lulis",
+      "address": "Address unknown",
+      "lat": -3.0941,
+      "lng": -59.9865,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-045",
+      "city": "liverpool",
+      "name": "Bar do Andrezinho",
+      "address": "Address unknown",
+      "lat": -3.0938,
+      "lng": -59.9838,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-046",
+      "city": "liverpool",
+      "name": "Bar Pontes",
+      "address": "Address unknown",
+      "lat": -3.094,
+      "lng": -59.984,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-047",
+      "city": "liverpool",
+      "name": "Bar e Mercearia do Rai",
+      "address": "Address unknown",
+      "lat": -3.0911,
+      "lng": -59.9785,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-048",
+      "city": "liverpool",
+      "name": "Bar do Leal",
+      "address": "Address unknown",
+      "lat": -3.0914,
+      "lng": -59.9791,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-049",
+      "city": "liverpool",
+      "name": "Bar Cida Drinks",
+      "address": "Address unknown",
+      "lat": -3.074,
+      "lng": -60.03,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-050",
+      "city": "liverpool",
+      "name": "Campos Elíseos Festas",
+      "address": "Address unknown",
+      "lat": -3.0707,
+      "lng": -60.0471,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-051",
+      "city": "liverpool",
+      "name": "Bar Terra Brasil Choperia",
+      "address": "Address unknown",
+      "lat": -3.0574,
+      "lng": -59.9608,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "Liv-052",
+      "city": "liverpool",
+      "name": "Bar Seu Mário",
+      "address": "Address unknown",
+      "lat": -3.048,
+      "lng": -59.9658,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-053",
+      "city": "liverpool",
+      "name": "Bodega do Raimundo",
+      "address": "Address unknown",
+      "lat": -3.0447,
+      "lng": -59.9659,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-054",
+      "city": "liverpool",
+      "name": "Bar Porto dos Milagres",
+      "address": "Address unknown",
+      "lat": -3.0449,
+      "lng": -59.9543,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-055",
+      "city": "liverpool",
+      "name": "Bar e Mercearia Esquina da Paz",
+      "address": "Address unknown",
+      "lat": -3.0544,
+      "lng": -59.9549,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-056",
+      "city": "liverpool",
+      "name": "Bar e Mercearia MV",
+      "address": "Address unknown",
+      "lat": -3.0484,
+      "lng": -59.9557,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-057",
+      "city": "liverpool",
+      "name": "Bar e Ferragem APB",
+      "address": "Address unknown",
+      "lat": -3.0425,
+      "lng": -59.9522,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-058",
+      "city": "liverpool",
+      "name": "La Compañía",
+      "address": "4-58 Presidente Borrero",
+      "lat": -2.9014,
+      "lng": -79.0037,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-059",
+      "city": "liverpool",
+      "name": "Bar La Chismosa",
+      "address": "Address unknown",
+      "lat": -2.9053,
+      "lng": -79.0023,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-060",
+      "city": "liverpool",
+      "name": "Discoteca La Fiesta",
+      "address": "Address unknown",
+      "lat": -2.9052,
+      "lng": -79.002,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-061",
+      "city": "liverpool",
+      "name": "Blue Shark",
+      "address": "Address unknown",
+      "lat": -2.9081,
+      "lng": -79.0154,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-062",
+      "city": "liverpool",
+      "name": "Sin Bandera",
+      "address": "1-52 Avenida Loja",
+      "lat": -2.8993,
+      "lng": -79.0112,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-063",
+      "city": "liverpool",
+      "name": "Bumba",
+      "address": "Address unknown",
+      "lat": -2.9013,
+      "lng": -79.0065,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-064",
+      "city": "liverpool",
+      "name": "Zoociedad",
+      "address": "Address unknown",
+      "lat": -2.9013,
+      "lng": -79.0064,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-065",
+      "city": "liverpool",
+      "name": "Friday",
+      "address": "Jaime Roldós",
+      "lat": -2.8897,
+      "lng": -78.7764,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-066",
+      "city": "liverpool",
+      "name": "Monday Blue Bar Resto",
+      "address": "Address unknown",
+      "lat": -2.9013,
+      "lng": -79.0048,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-067",
+      "city": "liverpool",
+      "name": "Plazma",
+      "address": "Calle Larga entre Luis Cordero y Presidente Borrero",
+      "lat": -2.9015,
+      "lng": -79.0044,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "Liv-068",
+      "city": "liverpool",
+      "name": "Dubai bar karaoke",
+      "address": "Troncal de la Costa",
+      "lat": -3.0641,
+      "lng": -79.7482,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-069",
+      "city": "liverpool",
+      "name": "Social Club",
+      "address": "Address unknown",
+      "lat": -3.1155,
+      "lng": -42.4138,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-070",
+      "city": "liverpool",
+      "name": "Flamenco Bar",
+      "address": "Address unknown",
+      "lat": -3.0605,
+      "lng": -79.7468,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-071",
+      "city": "liverpool",
+      "name": "Bar de Shumi",
+      "address": "Address unknown",
+      "lat": -3.0617,
+      "lng": -79.7483,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-072",
+      "city": "liverpool",
+      "name": "Encontro dos Amigos",
+      "address": "Address unknown",
+      "lat": -2.9978,
+      "lng": -47.353,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-073",
+      "city": "liverpool",
+      "name": "Peixe e batatas fritas • Frutos do mar • Frango • Fritura",
+      "address": "Rua Santa Terezinha",
+      "lat": -2.9937,
+      "lng": -47.3554,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "fish_and_chips",
+        "seafood",
+        "chicken",
+        "friture"
+      ]
+    },
+    {
+      "id": "Liv-074",
+      "city": "liverpool",
+      "name": "Black bistro",
+      "address": "7-45 Agustín Cueva Vallejo",
+      "lat": -2.9064,
+      "lng": -79.0124,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "burger"
+      ]
+    },
+    {
+      "id": "Liv-075",
+      "city": "liverpool",
+      "name": "Common Grounds",
+      "address": "Address unknown",
+      "lat": -2.8916,
+      "lng": -79.0191,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "american"
+      ]
+    },
+    {
+      "id": "Liv-076",
+      "city": "liverpool",
+      "name": "Zaragoza",
+      "address": "4-48 Presidente Borrero",
+      "lat": -2.9015,
+      "lng": -79.0037,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-077",
+      "city": "liverpool",
+      "name": "Iate Club",
+      "address": "Address unknown",
+      "lat": -3.1169,
+      "lng": -42.4127,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-078",
+      "city": "liverpool",
+      "name": "Bar Frankfurt",
+      "address": "Address unknown",
+      "lat": -3.0737,
+      "lng": -59.9977,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-079",
+      "city": "liverpool",
+      "name": "Chiplote",
+      "address": "8-45 Calle Larga",
+      "lat": -2.9013,
+      "lng": -79.0051,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "mexican"
+      ]
+    },
+    {
+      "id": "Liv-080",
+      "city": "liverpool",
+      "name": "Ze edson pizzaria",
+      "address": "Address unknown",
+      "lat": -2.8963,
+      "lng": -40.4499,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-081",
+      "city": "liverpool",
+      "name": "Casa Janjao",
+      "address": "Address unknown",
+      "lat": -3.0238,
+      "lng": -39.6565,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-082",
+      "city": "liverpool",
+      "name": "Açai & Pub Lounge",
+      "address": "Address unknown",
+      "lat": -3.0252,
+      "lng": -39.6465,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "Liv-083",
+      "city": "liverpool",
+      "name": "Caipi Bar",
+      "address": "Address unknown",
+      "lat": -3.0264,
+      "lng": -39.6553,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-084",
+      "city": "liverpool",
+      "name": "BLUE BEACH Restaurante e Bar",
+      "address": "Address unknown",
+      "lat": -3.0244,
+      "lng": -39.6487,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-085",
+      "city": "liverpool",
+      "name": "La piazza",
+      "address": "Address unknown",
+      "lat": -2.9037,
+      "lng": -79.0102,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-086",
+      "city": "liverpool",
+      "name": "Bukindu baa",
+      "address": "Address unknown",
+      "lat": -3.0361,
+      "lng": 33.9521,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-087",
+      "city": "liverpool",
+      "name": "Gesiti",
+      "address": "Address unknown",
+      "lat": -3.0239,
+      "lng": 33.9077,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-088",
+      "city": "liverpool",
+      "name": "Baa ya magile nyamalapa",
+      "address": "Address unknown",
+      "lat": -2.9764,
+      "lng": 33.9378,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-089",
+      "city": "liverpool",
+      "name": "D.m baa inalo",
+      "address": "Address unknown",
+      "lat": -2.9085,
+      "lng": 33.9375,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-090",
+      "city": "liverpool",
+      "name": "Escaleras al cielo",
+      "address": "Abelardo J Andrade",
+      "lat": -2.8926,
+      "lng": -78.7812,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-091",
+      "city": "liverpool",
+      "name": "Patrón bar",
+      "address": "5-42 Calle Larga",
+      "lat": -2.9027,
+      "lng": -79.0024,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-092",
+      "city": "liverpool",
+      "name": "Kisuge baa nyamalapa",
+      "address": "Address unknown",
+      "lat": -2.9757,
+      "lng": 33.9383,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-093",
+      "city": "liverpool",
+      "name": "Lutobeka lodge",
+      "address": "luguru",
+      "lat": -2.9136,
+      "lng": 33.9588,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-094",
+      "city": "liverpool",
+      "name": "Bukindu",
+      "address": "lugulu",
+      "lat": -2.9213,
+      "lng": 33.9587,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-095",
+      "city": "liverpool",
+      "name": "A Vip",
+      "address": "Troncal de la Costa",
+      "lat": -3.0603,
+      "lng": -79.7468,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-096",
+      "city": "liverpool",
+      "name": "MY SPACE",
+      "address": "S/n",
+      "lat": -2.8918,
+      "lng": -78.7867,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-097",
+      "city": "liverpool",
+      "name": "Warung Tuak",
+      "address": "Address unknown",
+      "lat": -2.9417,
+      "lng": 119.8774,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-098",
+      "city": "liverpool",
+      "name": "Kimunyu bar",
+      "address": "Address unknown",
+      "lat": -3.0901,
+      "lng": 31.1604,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-099",
+      "city": "liverpool",
+      "name": "Kodem bar",
+      "address": "Address unknown",
+      "lat": -3.0902,
+      "lng": 31.1602,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-100",
+      "city": "liverpool",
+      "name": "BEIRA RIO",
+      "address": "Address unknown",
+      "lat": -2.9061,
+      "lng": -41.7886,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-101",
+      "city": "liverpool",
+      "name": "Bar ESTRELA",
+      "address": "Address unknown",
+      "lat": -2.9071,
+      "lng": -41.7825,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-102",
+      "city": "liverpool",
+      "name": "Bands 80",
+      "address": "Avenida Professor Claudio Portilho",
+      "lat": -3.1093,
+      "lng": -59.9666,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "Liv-103",
+      "city": "liverpool",
+      "name": "Cuenca Beer Company",
+      "address": "Calle Larga",
+      "lat": -2.9012,
+      "lng": -79.0053,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "fine_dining",
+        "international",
+        "local"
+      ]
+    },
+    {
+      "id": "Liv-104",
+      "city": "liverpool",
+      "name": "Bar do Bigode",
+      "address": "Address unknown",
+      "lat": -3.0677,
+      "lng": -60.0724,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-105",
+      "city": "liverpool",
+      "name": "Víspera de Chuchaqui",
+      "address": "7-119 Calle Larga",
+      "lat": -2.9015,
+      "lng": -79.0048,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-106",
+      "city": "liverpool",
+      "name": "Chacha bar",
+      "address": "Address unknown",
+      "lat": -3.05,
+      "lng": 32.2244,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-107",
+      "city": "liverpool",
+      "name": "Paraya Beach",
+      "address": "Address unknown",
+      "lat": -3.022,
+      "lng": -39.6439,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-108",
+      "city": "liverpool",
+      "name": "Maui do Brasil",
+      "address": "Address unknown",
+      "lat": -3.0228,
+      "lng": -39.6445,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-109",
+      "city": "liverpool",
+      "name": "Posto 1",
+      "address": "Address unknown",
+      "lat": -3.0244,
+      "lng": -39.6485,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-110",
+      "city": "liverpool",
+      "name": "Skina do Acai",
+      "address": "Address unknown",
+      "lat": -2.8998,
+      "lng": -40.8464,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-111",
+      "city": "liverpool",
+      "name": "Happy market",
+      "address": "Luis Cordero",
+      "lat": -2.9005,
+      "lng": -79.0045,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-112",
+      "city": "liverpool",
+      "name": "Trago:s",
+      "address": "Address unknown",
+      "lat": -2.9013,
+      "lng": -79.0056,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-113",
+      "city": "liverpool",
+      "name": "Bar Espiranza",
+      "address": "Address unknown",
+      "lat": -3.044,
+      "lng": -41.1931,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-114",
+      "city": "liverpool",
+      "name": "Esquina Bar",
+      "address": "Address unknown",
+      "lat": -3.02,
+      "lng": -41.1343,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-115",
+      "city": "liverpool",
+      "name": "Lanchonete Bar",
+      "address": "Address unknown",
+      "lat": -3.0197,
+      "lng": -41.1354,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-116",
+      "city": "liverpool",
+      "name": "Salão de festas do Residencial River Park",
+      "address": "6740 Avenida Torquato Tapajós",
+      "district": "colonia terra nova",
+      "lat": -3.0189,
+      "lng": -60.0243,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-117",
+      "city": "liverpool",
+      "name": "Classic Rock Bar",
+      "address": "Address unknown",
+      "lat": -2.8997,
+      "lng": -79.0014,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-118",
+      "city": "liverpool",
+      "name": "Sophy mkacha grocery",
+      "address": "Address unknown",
+      "lat": -3.0055,
+      "lng": 31.9229,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-119",
+      "city": "liverpool",
+      "name": "Fish Bar",
+      "address": "Address unknown",
+      "lat": -2.91,
+      "lng": -41.4095,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-120",
+      "city": "liverpool",
+      "name": "Bar da Villa",
+      "address": "Address unknown",
+      "lat": -2.9073,
+      "lng": -41.4053,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-121",
+      "city": "liverpool",
+      "name": "Jugos naturales don Jaime",
+      "address": "Juan Benigno Vela",
+      "lat": -2.9075,
+      "lng": -78.9872,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-122",
+      "city": "liverpool",
+      "name": "Samir",
+      "address": "Address unknown",
+      "lat": -3.0117,
+      "lng": -77.935,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-123",
+      "city": "liverpool",
+      "name": "Herminia",
+      "address": "Address unknown",
+      "lat": -3.0125,
+      "lng": -77.9359,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-124",
+      "city": "liverpool",
+      "name": "El Rodeo",
+      "address": "Address unknown",
+      "lat": -2.8896,
+      "lng": -78.7792,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-125",
+      "city": "liverpool",
+      "name": "Bar do Beiço",
+      "address": "Address unknown",
+      "lat": -3.1098,
+      "lng": -60.0444,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-126",
+      "city": "liverpool",
+      "name": "Chuper Mario",
+      "address": "Address unknown",
+      "lat": -2.8957,
+      "lng": -79.0632,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-127",
+      "city": "liverpool",
+      "name": "Jazz Café Club",
+      "address": "Address unknown",
+      "lat": -2.8898,
+      "lng": -79.0291,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-128",
+      "city": "liverpool",
+      "name": "Bistro Yaku",
+      "address": "Address unknown",
+      "lat": -2.9006,
+      "lng": -79.0043,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-129",
+      "city": "liverpool",
+      "name": "3 marias",
+      "address": "4-34 Bajada del Padrón",
+      "lat": -2.9007,
+      "lng": -79.0065,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-130",
+      "city": "liverpool",
+      "name": "Long play",
+      "address": "8-40 Calle Larga",
+      "lat": -2.9012,
+      "lng": -79.005,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-131",
+      "city": "liverpool",
+      "name": "Stencil",
+      "address": "5-75 Calle Larga",
+      "lat": -2.9026,
+      "lng": -79.0027,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-132",
+      "city": "liverpool",
+      "name": "La jefa",
+      "address": "7-52 Calle Larga",
+      "lat": -2.9016,
+      "lng": -79.0043,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-133",
+      "city": "liverpool",
+      "name": "Fussions Bar",
+      "address": "7-46 Honorato Vázquez",
+      "lat": -2.9011,
+      "lng": -79.0041,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-134",
+      "city": "liverpool",
+      "name": "Divino Restobar",
+      "address": "Rua Dona Vivi Marques",
+      "lat": -3.0813,
+      "lng": -60.0107,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-135",
+      "city": "liverpool",
+      "name": "La belga",
+      "address": "Address unknown",
+      "lat": -2.8968,
+      "lng": -79.0026,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-136",
+      "city": "liverpool",
+      "name": "Vieja Bruja",
+      "address": "Address unknown",
+      "lat": -2.9037,
+      "lng": -79.0132,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-137",
+      "city": "liverpool",
+      "name": "Cuenca Beer Company",
+      "address": "Address unknown",
+      "lat": -2.8971,
+      "lng": -79.005,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-138",
+      "city": "liverpool",
+      "name": "Pan Head Bar & Cafe",
+      "address": "Address unknown",
+      "lat": -2.9882,
+      "lng": 104.7495,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-139",
+      "city": "liverpool",
+      "name": "Geisha Lounge",
+      "address": "Address unknown",
+      "lat": -2.9843,
+      "lng": 104.7517,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "Liv-140",
+      "city": "liverpool",
+      "name": "Ratata Club & Bar",
+      "address": "Address unknown",
+      "lat": -2.9823,
+      "lng": 104.7471,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-141",
+      "city": "liverpool",
+      "name": "Grand Masterpiece",
+      "address": "Address unknown",
+      "lat": -2.9828,
+      "lng": 104.7468,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-142",
+      "city": "liverpool",
+      "name": "Dubarba Distribuidora",
+      "address": "Address unknown",
+      "lat": -3.0732,
+      "lng": -60.0624,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-143",
+      "city": "liverpool",
+      "name": "Mess Des OFFICIERS NGOZI",
+      "address": "Address unknown",
+      "lat": -2.9099,
+      "lng": 29.8237,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-144",
+      "city": "liverpool",
+      "name": "Da'Yacta Ent.",
+      "address": "1-10 Avenida 3 de Noviembre",
+      "lat": -2.8983,
+      "lng": -79.0106,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-145",
+      "city": "liverpool",
+      "name": "El barril",
+      "address": "7-35 Calle Larga",
+      "lat": -2.9019,
+      "lng": -79.0041,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-146",
+      "city": "liverpool",
+      "name": "Sabaneta",
+      "address": "Address unknown",
+      "lat": -2.9057,
+      "lng": -79.0085,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-147",
+      "city": "liverpool",
+      "name": "Chivo's",
+      "address": "Address unknown",
+      "lat": -2.9647,
+      "lng": -78.4292,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-148",
+      "city": "liverpool",
+      "name": "Shamrock",
+      "address": "Address unknown",
+      "lat": -2.9086,
+      "lng": -79.0031,
+      "drink": "Pint of beer",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "Liv-149",
+      "city": "liverpool",
+      "name": "The George and Dragon",
+      "address": "Address unknown",
+      "lat": -2.909,
+      "lng": -79.0007,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "Liv-150",
+      "city": "liverpool",
+      "name": "Gastro Pub Roku",
+      "address": "5-41 Presidente Borrero",
+      "lat": -2.9008,
+      "lng": -79.0037,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-151",
+      "city": "liverpool",
+      "name": "Café Morlaco",
+      "address": "Address unknown",
+      "lat": -2.9005,
+      "lng": -79.0056,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-152",
+      "city": "liverpool",
+      "name": "Starway",
+      "address": "Address unknown",
+      "lat": -2.9045,
+      "lng": -79.0123,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-153",
+      "city": "liverpool",
+      "name": "Chill & Chela",
+      "address": "Address unknown",
+      "lat": -2.8991,
+      "lng": -79.0182,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-154",
+      "city": "liverpool",
+      "name": "Bar Bene Tereza",
+      "address": "Address unknown",
+      "lat": -2.9043,
+      "lng": 29.8228,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-155",
+      "city": "liverpool",
+      "name": "3R Limón",
+      "address": "Address unknown",
+      "lat": -2.9697,
+      "lng": -78.4376,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-156",
+      "city": "liverpool",
+      "name": "Vero Beach",
+      "address": "Address unknown",
+      "lat": -2.9501,
+      "lng": 25.9273,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-157",
+      "city": "liverpool",
+      "name": "Magic Coffee",
+      "address": "Address unknown",
+      "lat": -2.8912,
+      "lng": -79.0287,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-158",
+      "city": "liverpool",
+      "name": "Santa Chela",
+      "address": "Address unknown",
+      "lat": -2.9105,
+      "lng": -79.0039,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-159",
+      "city": "liverpool",
+      "name": "Draft",
+      "address": "Address unknown",
+      "lat": -2.9129,
+      "lng": -79.0225,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-160",
+      "city": "liverpool",
+      "name": "Oveja Negra",
+      "address": "5-89 Calle Larga",
+      "lat": -2.9025,
+      "lng": -79.0029,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-161",
+      "city": "liverpool",
+      "name": "Essence Bar",
+      "address": "Address unknown",
+      "lat": -2.9054,
+      "lng": -79.0118,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-162",
+      "city": "liverpool",
+      "name": "Beer Time",
+      "address": "Address unknown",
+      "lat": -2.905,
+      "lng": -79.0194,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-163",
+      "city": "liverpool",
+      "name": "San Roquita La Bodega",
+      "address": "Address unknown",
+      "lat": -2.8964,
+      "lng": -79.0098,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-164",
+      "city": "liverpool",
+      "name": "La quinta",
+      "address": "Address unknown",
+      "lat": -2.9002,
+      "lng": -78.9955,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-165",
+      "city": "liverpool",
+      "name": "Karaoke Chino",
+      "address": "Address unknown",
+      "lat": -2.906,
+      "lng": -79.0066,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-166",
+      "city": "liverpool",
+      "name": "L'aperitivo",
+      "address": "Address unknown",
+      "lat": -2.9088,
+      "lng": -79.0085,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-167",
+      "city": "liverpool",
+      "name": "La spritzeria",
+      "address": "Address unknown",
+      "lat": -2.8927,
+      "lng": -79.0303,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-168",
+      "city": "liverpool",
+      "name": "Bocatti",
+      "address": "Address unknown",
+      "lat": -2.8927,
+      "lng": -79.0302,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-169",
+      "city": "liverpool",
+      "name": "Latitud Cero",
+      "address": "Address unknown",
+      "lat": -2.8928,
+      "lng": -79.0301,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "Liv-170",
+      "city": "liverpool",
+      "name": "Clube Maravilha",
+      "address": "Address unknown",
+      "lat": -3.1137,
+      "lng": -40.1499,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-171",
+      "city": "liverpool",
+      "name": "Aya Huma",
+      "address": "4-56 Bajada del Padrón",
+      "lat": -2.9006,
+      "lng": -79.0065,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-172",
+      "city": "liverpool",
+      "name": "Popular Terraza",
+      "address": "Address unknown",
+      "lat": -2.9033,
+      "lng": -79.002,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-173",
+      "city": "liverpool",
+      "name": "La Chakra",
+      "address": "Address unknown",
+      "lat": -2.9012,
+      "lng": -79.0118,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-174",
+      "city": "liverpool",
+      "name": "El Farol",
+      "address": "Address unknown",
+      "lat": -2.9224,
+      "lng": -79.0104,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-175",
+      "city": "liverpool",
+      "name": "Heisenberg",
+      "address": "Address unknown",
+      "lat": -2.9018,
+      "lng": -79.0027,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-176",
+      "city": "liverpool",
+      "name": "Cervimundo",
+      "address": "Address unknown",
+      "lat": -2.8924,
+      "lng": -79.0268,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-177",
+      "city": "liverpool",
+      "name": "Terra 360 Rooftop",
+      "address": "Padre Aguirre",
+      "lat": -2.8973,
+      "lng": -79.0061,
+      "drink": "Pint of beer",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "Liv-178",
+      "city": "liverpool",
+      "name": "La Malteria",
+      "address": "Address unknown",
+      "lat": -2.9116,
+      "lng": -79.0017,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-179",
+      "city": "liverpool",
+      "name": "Chill & chela Bar",
+      "address": "Address unknown",
+      "lat": -2.892,
+      "lng": -79.0297,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-180",
+      "city": "liverpool",
+      "name": "Mazera",
+      "address": "Address unknown",
+      "lat": -2.9124,
+      "lng": -78.9991,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-181",
+      "city": "liverpool",
+      "name": "KABOOM",
+      "address": "Ten. Hugo Ortíz",
+      "lat": -2.9674,
+      "lng": -78.4335,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-182",
+      "city": "liverpool",
+      "name": "Steel Metal Rock Bar",
+      "address": "Address unknown",
+      "lat": -2.8968,
+      "lng": -79.0011,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-183",
+      "city": "liverpool",
+      "name": "Agave Rooftop",
+      "address": "Bajada de Todos Santos",
+      "lat": -2.9043,
+      "lng": -79.0009,
+      "drink": "Pint of beer",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "Liv-184",
+      "city": "liverpool",
+      "name": "Papa Janos",
+      "address": "Address unknown",
+      "lat": -2.8992,
+      "lng": -79.0104,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-185",
+      "city": "liverpool",
+      "name": "Cabana Kite",
+      "address": "Address unknown",
+      "lat": -3.0231,
+      "lng": -39.6583,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-186",
+      "city": "liverpool",
+      "name": "Licorera \"El Plato\"",
+      "address": "Avenida González Suárez",
+      "lat": -2.8905,
+      "lng": -78.9659,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-187",
+      "city": "liverpool",
+      "name": "Casa Loma",
+      "address": "Daquilema",
+      "lat": -2.8913,
+      "lng": -78.9689,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "Liv-188",
+      "city": "liverpool",
+      "name": "Reinas de Corazón",
+      "address": "1-163 Manuel J. Calle",
+      "lat": -2.908,
+      "lng": -79.0017,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "Liv-189",
+      "city": "liverpool",
+      "name": "LaCraft beer garden",
+      "address": "Rafael Torres Beltran",
+      "lat": -2.9125,
+      "lng": -78.9989,
+      "drink": "Pint of beer",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "Liv-190",
+      "city": "liverpool",
+      "name": "Zofrac",
+      "address": "Address unknown",
+      "lat": -2.9879,
+      "lng": -79.0461,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-191",
+      "city": "liverpool",
+      "name": "Sala de Billar",
+      "address": "Address unknown",
+      "lat": -2.9229,
+      "lng": -79.0086,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-192",
+      "city": "liverpool",
+      "name": "All Night Pub",
+      "address": "Address unknown",
+      "lat": -3.0849,
+      "lng": -59.9997,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-193",
+      "city": "liverpool",
+      "name": "La Cantada Bar",
+      "address": "Address unknown",
+      "lat": -2.9088,
+      "lng": -79.0042,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-194",
+      "city": "liverpool",
+      "name": "Glasgow",
+      "address": "7-72 Honorato Vázquez",
+      "lat": -2.901,
+      "lng": -79.0043,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-195",
+      "city": "liverpool",
+      "name": "V Room",
+      "address": "8-69 Calle Larga",
+      "lat": -2.9011,
+      "lng": -79.0054,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "brewery"
+      ]
+    },
+    {
+      "id": "Liv-196",
+      "city": "liverpool",
+      "name": "Bar Cruz de Malta",
+      "address": "Address unknown",
+      "lat": -3.1095,
+      "lng": -60.0239,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-197",
+      "city": "liverpool",
+      "name": "Boteco de Piscina",
+      "address": "Address unknown",
+      "lat": -3.1053,
+      "lng": -60.0208,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-198",
+      "city": "liverpool",
+      "name": "Detran Pará",
+      "address": "Address unknown",
+      "lat": -2.9932,
+      "lng": -47.3617,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-199",
+      "city": "liverpool",
+      "name": "Previdência Social",
+      "address": "Address unknown",
+      "lat": -3.0024,
+      "lng": -47.3539,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-200",
+      "city": "liverpool",
+      "name": "Secretária de Assistência Social",
+      "address": "Address unknown",
+      "lat": -3.0028,
+      "lng": -47.3528,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-201",
+      "city": "liverpool",
+      "name": "Câmara Municipal",
+      "address": "Address unknown",
+      "lat": -2.996,
+      "lng": -47.3557,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-202",
+      "city": "liverpool",
+      "name": "Prefeitura Municipal",
+      "address": "Address unknown",
+      "lat": -2.9999,
+      "lng": -47.3555,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-203",
+      "city": "liverpool",
+      "name": "Sayari pub",
+      "address": "Address unknown",
+      "lat": -3.0359,
+      "lng": 31.2211,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-204",
+      "city": "liverpool",
+      "name": "Bar do Júnior",
+      "address": "Address unknown",
+      "lat": -3.0819,
+      "lng": -40.3481,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-205",
+      "city": "liverpool",
+      "name": "Cafe BSI",
+      "address": "Address unknown",
+      "lat": -2.9267,
+      "lng": 132.2794,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-206",
+      "city": "liverpool",
+      "name": "Brunch",
+      "address": "Avenida Remigio Crespo Toral",
+      "lat": -2.9028,
+      "lng": -79.0141,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-207",
+      "city": "liverpool",
+      "name": "Barraca do Chiquinho",
+      "address": "Address unknown",
+      "lat": -2.9021,
+      "lng": -41.4617,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-208",
+      "city": "liverpool",
+      "name": "Barraca do Paulo",
+      "address": "Address unknown",
+      "lat": -2.9021,
+      "lng": -41.4614,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-209",
+      "city": "liverpool",
+      "name": "Barraca do Neguinho do Caranguejo",
+      "address": "Address unknown",
+      "lat": -2.902,
+      "lng": -41.4606,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-210",
+      "city": "liverpool",
+      "name": "O Condado Pub",
+      "address": "Address unknown",
+      "lat": -3.0737,
+      "lng": -60.0303,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "Liv-211",
+      "city": "liverpool",
+      "name": "Bar do Ze Maria",
+      "address": "Address unknown",
+      "lat": -3.1159,
+      "lng": -39.6848,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-212",
+      "city": "liverpool",
+      "name": "Bar da Lena",
+      "address": "Address unknown",
+      "lat": -3.0901,
+      "lng": -39.6881,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-213",
+      "city": "liverpool",
+      "name": "Bar Mercearia Jesus",
+      "address": "Address unknown",
+      "lat": -3.0195,
+      "lng": -40.415,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-214",
+      "city": "liverpool",
+      "name": "LITORAL CLUB",
+      "address": "Address unknown",
+      "lat": -3.0021,
+      "lng": -39.6968,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "Liv-215",
+      "city": "liverpool",
+      "name": "Bar do Vera",
+      "address": "Address unknown",
+      "lat": -3.0888,
+      "lng": -39.6879,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-216",
+      "city": "liverpool",
+      "name": "Boteco da Resenha",
+      "address": "Address unknown",
+      "lat": -3.067,
+      "lng": -39.8898,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-217",
+      "city": "liverpool",
+      "name": "Balneário - Jatobá",
+      "address": "Address unknown",
+      "lat": -3.0507,
+      "lng": -39.7029,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-218",
+      "city": "liverpool",
+      "name": "Bar do Caju",
+      "address": "Address unknown",
+      "lat": -3.0953,
+      "lng": -39.5842,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-219",
+      "city": "liverpool",
+      "name": "Matuca's Bar Grill",
+      "address": "Address unknown",
+      "lat": -3.0835,
+      "lng": -60.0071,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-220",
+      "city": "liverpool",
+      "name": "Sosoni Pub",
+      "address": "Address unknown",
+      "lat": -3.0282,
+      "lng": 39.8188,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-221",
+      "city": "liverpool",
+      "name": "Chaguinha Bar",
+      "address": "Address unknown",
+      "lat": -3.0025,
+      "lng": -39.7517,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-222",
+      "city": "liverpool",
+      "name": "Boate altin bar",
+      "address": "Address unknown",
+      "lat": -3.0009,
+      "lng": -39.7404,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-223",
+      "city": "liverpool",
+      "name": "Barraca tomara que não caia",
+      "address": "Address unknown",
+      "lat": -2.9919,
+      "lng": -39.7318,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-224",
+      "city": "liverpool",
+      "name": "Quiosque recanto",
+      "address": "Address unknown",
+      "lat": -3.0301,
+      "lng": -39.767,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-225",
+      "city": "liverpool",
+      "name": "CASTANHOLA BAR",
+      "address": "Address unknown",
+      "lat": -3.1058,
+      "lng": -39.5726,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-226",
+      "city": "liverpool",
+      "name": "Bar dos amigos",
+      "address": "Address unknown",
+      "lat": -3.1074,
+      "lng": -39.5687,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-227",
+      "city": "liverpool",
+      "name": "Bar encontro dos amigos",
+      "address": "Address unknown",
+      "lat": -3.107,
+      "lng": -39.5691,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-228",
+      "city": "liverpool",
+      "name": "Bar da Nathy",
+      "address": "Address unknown",
+      "lat": -3.0808,
+      "lng": -39.5717,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-229",
+      "city": "liverpool",
+      "name": "Bar da Dilma",
+      "address": "Address unknown",
+      "lat": -3.0771,
+      "lng": -39.5687,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-230",
+      "city": "liverpool",
+      "name": "DF Bar e Mercearia",
+      "address": "Address unknown",
+      "district": "gilberto mestrinho",
+      "lat": -3.0638,
+      "lng": -59.9202,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-231",
+      "city": "liverpool",
+      "name": "Recanto K entre Nós",
+      "address": "Address unknown",
+      "lat": -3.0549,
+      "lng": -40.1816,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-232",
+      "city": "liverpool",
+      "name": "Boteco do Boca",
+      "address": "Address unknown",
+      "lat": -3.0951,
+      "lng": -39.6126,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-233",
+      "city": "liverpool",
+      "name": "BAR DO INALDO",
+      "address": "Address unknown",
+      "lat": -3.0067,
+      "lng": -39.7059,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-234",
+      "city": "liverpool",
+      "name": "Jungle Rock Bar",
+      "address": "Rua Oscar Romério",
+      "district": "colônia terra nova",
+      "lat": -3.0118,
+      "lng": -60.0049,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "Liv-235",
+      "city": "liverpool",
+      "name": "Bar do Feijão",
+      "address": "Address unknown",
+      "lat": -2.9229,
+      "lng": -40.1814,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-236",
+      "city": "liverpool",
+      "name": "Bar do Marcelo",
+      "address": "Address unknown",
+      "lat": -3.0651,
+      "lng": -39.6537,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-237",
+      "city": "liverpool",
+      "name": "Carraca do Neguinho do Caranguejo",
+      "address": "Address unknown",
+      "lat": -2.9017,
+      "lng": -41.4606,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "Liv-238",
+      "city": "liverpool",
+      "name": "Cervejaria Rio Negro",
+      "address": "Address unknown",
+      "lat": -3.023,
+      "lng": -59.946,
+      "drink": "Pint of beer",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    }
+  ]
+}

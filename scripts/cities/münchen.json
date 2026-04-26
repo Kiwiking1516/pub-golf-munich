@@ -1,0 +1,5175 @@
+{
+  "key": "münchen",
+  "prefix": "muc",
+  "label": "München",
+  "bbox": "migrated",
+  "defaultDrink": "Maß Hell 1,0l",
+  "scrapedAt": "2026-04-03T08:03:05.759Z",
+  "barCount": 342,
+  "bars": [
+    {
+      "id": "muc-001",
+      "city": "münchen",
+      "name": "Hofbräuhaus",
+      "address": "Platzl 9",
+      "district": "altstadt",
+      "lat": 48.1378,
+      "lng": 11.5799,
+      "drink": "Maß Hell 1,0l",
+      "par": 5,
+      "type": "brauhaus",
+      "tags": [
+        "klassiker",
+        "touristik",
+        "bierhalle",
+        "signature",
+        "weltberühmt"
+      ]
+    },
+    {
+      "id": "muc-002",
+      "city": "münchen",
+      "name": "Augustiner am Dom",
+      "address": "Frauenplatz 2",
+      "district": "altstadt",
+      "lat": 48.1388,
+      "lng": 11.5732,
+      "drink": "Augustiner Edelstoff 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "klassiker",
+        "brauhaus",
+        "altstadt"
+      ]
+    },
+    {
+      "id": "muc-003",
+      "city": "münchen",
+      "name": "Schneider Weisses",
+      "address": "Tal 7",
+      "district": "altstadt",
+      "lat": 48.1362,
+      "lng": 11.5776,
+      "drink": "Schneider Weisse Original 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "weissbier",
+        "traditionslokal",
+        "altstadt"
+      ]
+    },
+    {
+      "id": "muc-004",
+      "city": "münchen",
+      "name": "Zum Franziskaner",
+      "address": "Residenzstraße 9",
+      "district": "altstadt",
+      "lat": 48.14,
+      "lng": 11.577,
+      "drink": "Franziskaner Weissbier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "historisch",
+        "weissbier",
+        "nobelviertel"
+      ]
+    },
+    {
+      "id": "muc-005",
+      "city": "münchen",
+      "name": "Paulaner Keller am Nockherberg",
+      "address": "Hochstraße 77",
+      "district": "au",
+      "lat": 48.123,
+      "lng": 11.582,
+      "drink": "Paulaner Märzen 0,5l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "au",
+        "aussicht",
+        "paulaner"
+      ]
+    },
+    {
+      "id": "muc-006",
+      "city": "münchen",
+      "name": "Löwenbräukeller",
+      "address": "Stiglmaierplatz 2",
+      "district": "maxvorstadt",
+      "lat": 48.1484,
+      "lng": 11.5584,
+      "drink": "Löwenbräu Hell 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "klassiker",
+        "brauhaus",
+        "stiglmaierplatz",
+        "keller"
+      ]
+    },
+    {
+      "id": "muc-007",
+      "city": "münchen",
+      "name": "Augustiner Keller",
+      "address": "Arnulfstraße 52",
+      "district": "maxvorstadt",
+      "lat": 48.1476,
+      "lng": 11.5567,
+      "drink": "Augustiner Lagerbier Hell 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "kult",
+        "augustiner",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-008",
+      "city": "münchen",
+      "name": "Hofbräukeller",
+      "address": "Innere-Wiener-Straße 19",
+      "district": "haidhausen",
+      "lat": 48.1326,
+      "lng": 11.5952,
+      "drink": "Hofbräu Original 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "haidhausen",
+        "hofbräu",
+        "lokalkolorit"
+      ]
+    },
+    {
+      "id": "muc-009",
+      "city": "münchen",
+      "name": "Englischer Garten – Chinesischer Turm",
+      "address": "Englischer Garten 3",
+      "district": "maxvorstadt",
+      "lat": 48.1545,
+      "lng": 11.5909,
+      "drink": "Paulaner Hell 0,5l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "outdoor",
+        "kult",
+        "englischer-garten"
+      ]
+    },
+    {
+      "id": "muc-010",
+      "city": "münchen",
+      "name": "Seehaus im Englischen Garten",
+      "address": "Kleinhesseloher See 3",
+      "district": "schwabing",
+      "lat": 48.1614,
+      "lng": 11.5929,
+      "drink": "Hofbräu Hell 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "see",
+        "schwabing",
+        "seeblick"
+      ]
+    },
+    {
+      "id": "muc-011",
+      "city": "münchen",
+      "name": "Hirschgarten",
+      "address": "Hirschgarten 1",
+      "district": "neuhausen",
+      "lat": 48.1448,
+      "lng": 11.5213,
+      "drink": "Augustiner Hell 0,5l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "riesig",
+        "neuhausen",
+        "naturidyll"
+      ]
+    },
+    {
+      "id": "muc-012",
+      "city": "münchen",
+      "name": "Schelling Salon",
+      "address": "Schellingstraße 54",
+      "district": "maxvorstadt",
+      "lat": 48.1507,
+      "lng": 11.5721,
+      "drink": "Augustiner Pils 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kultlokal",
+        "historisch",
+        "billard",
+        "maxvorstadt",
+        "urgemütlich"
+      ]
+    },
+    {
+      "id": "muc-013",
+      "city": "münchen",
+      "name": "Alter Simpl",
+      "address": "Türkenstraße 57",
+      "district": "maxvorstadt",
+      "lat": 48.1509,
+      "lng": 11.5755,
+      "drink": "Pils vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kultlokal",
+        "maxvorstadt",
+        "künstlertreffpunkt",
+        "historisch"
+      ]
+    },
+    {
+      "id": "muc-014",
+      "city": "münchen",
+      "name": "Max-Emanuel-Brauerei",
+      "address": "Adalbertstraße 33",
+      "district": "maxvorstadt",
+      "lat": 48.1518,
+      "lng": 11.5703,
+      "drink": "Max-Emanuel Hell 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauerei",
+        "maxvorstadt",
+        "hausgebraut",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "muc-015",
+      "city": "münchen",
+      "name": "Park Café",
+      "address": "Sophienstraße 7",
+      "district": "maxvorstadt",
+      "lat": 48.1465,
+      "lng": 11.5649,
+      "drink": "Cocktail oder Bier 0,5l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "szene",
+        "maxvorstadt",
+        "biergarten-sommers",
+        "elegant"
+      ]
+    },
+    {
+      "id": "muc-016",
+      "city": "münchen",
+      "name": "Kleiner Kranich",
+      "address": "Neureutherstraße 21",
+      "district": "maxvorstadt",
+      "lat": 48.153,
+      "lng": 11.577,
+      "drink": "Pils vom Fass 0,3l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "gemütlich",
+        "maxvorstadt",
+        "entspannt",
+        "stammkneipe"
+      ]
+    },
+    {
+      "id": "muc-017",
+      "city": "münchen",
+      "name": "Atzinger",
+      "address": "Schellingstraße 9",
+      "district": "maxvorstadt",
+      "lat": 48.1504,
+      "lng": 11.5724,
+      "drink": "Augustiner Hell 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "studentenkneipe",
+        "günstig",
+        "maxvorstadt",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "muc-018",
+      "city": "münchen",
+      "name": "Steinheil 16",
+      "address": "Steinheilstraße 16",
+      "district": "maxvorstadt",
+      "lat": 48.1481,
+      "lng": 11.5672,
+      "drink": "Bier vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "studenten",
+        "günstig",
+        "maxvorstadt",
+        "entspannt"
+      ]
+    },
+    {
+      "id": "muc-019",
+      "city": "münchen",
+      "name": "Trachtenvogl",
+      "address": "Reichenbachstraße 47",
+      "district": "isarvorstadt",
+      "lat": 48.1296,
+      "lng": 11.5717,
+      "drink": "Giesinger Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "szene",
+        "glockenbachviertel",
+        "hipster",
+        "kultkneipe"
+      ]
+    },
+    {
+      "id": "muc-020",
+      "city": "münchen",
+      "name": "Holy Home",
+      "address": "Reichenbachstraße 21",
+      "district": "isarvorstadt",
+      "lat": 48.1302,
+      "lng": 11.5714,
+      "drink": "Craft Beer 0,33l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "szene",
+        "glockenbachviertel",
+        "alternativ",
+        "cocktails"
+      ]
+    },
+    {
+      "id": "muc-021",
+      "city": "münchen",
+      "name": "Salon Irkutsk",
+      "address": "Tumblingerstraße 29",
+      "district": "isarvorstadt",
+      "lat": 48.1282,
+      "lng": 11.5668,
+      "drink": "Wermut oder Pils 0,3l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "szene",
+        "isarvorstadt",
+        "wermut",
+        "trendy"
+      ]
+    },
+    {
+      "id": "muc-022",
+      "city": "münchen",
+      "name": "Substanz",
+      "address": "Ruppertstraße 28",
+      "district": "isarvorstadt",
+      "lat": 48.129,
+      "lng": 11.565,
+      "drink": "Bier vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "alternativ",
+        "isarvorstadt",
+        "livemusik",
+        "kultlokal"
+      ]
+    },
+    {
+      "id": "muc-023",
+      "city": "münchen",
+      "name": "Rennbahn Schwabing",
+      "address": "Feilitzschstraße 12",
+      "district": "schwabing",
+      "lat": 48.1629,
+      "lng": 11.5868,
+      "drink": "Pils vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schwabing",
+        "kultlokal",
+        "gemütlich",
+        "gemischt"
+      ]
+    },
+    {
+      "id": "muc-024",
+      "city": "münchen",
+      "name": "Irish Folk Pub",
+      "address": "Giselastraße 11",
+      "district": "schwabing",
+      "lat": 48.1601,
+      "lng": 11.5868,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "schwabing",
+        "ältester-irischer-pub",
+        "livemusik"
+      ]
+    },
+    {
+      "id": "muc-025",
+      "city": "münchen",
+      "name": "Kaisergarten",
+      "address": "Kaiserstraße 34",
+      "district": "schwabing",
+      "lat": 48.1572,
+      "lng": 11.588,
+      "drink": "Kühles Bier 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "schwabing",
+        "gemütlich",
+        "kastanien"
+      ]
+    },
+    {
+      "id": "muc-026",
+      "city": "münchen",
+      "name": "Zum Jennerwein",
+      "address": "Belgradstraße 27",
+      "district": "schwabing",
+      "lat": 48.1648,
+      "lng": 11.577,
+      "drink": "Pils 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schwabing",
+        "alternativ",
+        "punk",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "muc-027",
+      "city": "münchen",
+      "name": "Schwabinger Wassermann",
+      "address": "Herzogstraße 82",
+      "district": "schwabing",
+      "lat": 48.1645,
+      "lng": 11.582,
+      "drink": "Bier + Cocktail",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "schwabing",
+        "wirtshaus",
+        "gemütlich",
+        "gemischt"
+      ]
+    },
+    {
+      "id": "muc-028",
+      "city": "münchen",
+      "name": "Juleps New York Bar",
+      "address": "Breisacher Straße 18",
+      "district": "haidhausen",
+      "lat": 48.1338,
+      "lng": 11.6005,
+      "drink": "American Longdrink",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "haidhausen",
+        "bermudadreieck",
+        "cocktails",
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-029",
+      "city": "münchen",
+      "name": "EscoBar",
+      "address": "Breisacher Straße 10",
+      "district": "haidhausen",
+      "lat": 48.1334,
+      "lng": 11.6,
+      "drink": "Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "haidhausen",
+        "bermudadreieck",
+        "szene",
+        "cocktails"
+      ]
+    },
+    {
+      "id": "muc-030",
+      "city": "münchen",
+      "name": "Vivo",
+      "address": "Lothringer Straße 11",
+      "district": "haidhausen",
+      "lat": 48.1317,
+      "lng": 11.5989,
+      "drink": "Giesinger Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "haidhausen",
+        "schafkopf",
+        "gemütlich",
+        "lokalkolorit"
+      ]
+    },
+    {
+      "id": "muc-031",
+      "city": "münchen",
+      "name": "Kugler Alm",
+      "address": "Einstein 42",
+      "district": "haidhausen",
+      "lat": 48.1351,
+      "lng": 11.5945,
+      "drink": "Augustiner Hell 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "haidhausen",
+        "brauhaus",
+        "bayerisch",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "muc-032",
+      "city": "münchen",
+      "name": "Wirtshaus in der Au",
+      "address": "Lilienstraße 51",
+      "district": "au",
+      "lat": 48.126,
+      "lng": 11.5822,
+      "drink": "Weissbier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "au",
+        "weissbier",
+        "bayerisch",
+        "kult"
+      ]
+    },
+    {
+      "id": "muc-033",
+      "city": "münchen",
+      "name": "Muffatwerk Biergarten",
+      "address": "Zellstraße 4",
+      "district": "haidhausen",
+      "lat": 48.131,
+      "lng": 11.5897,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "haidhausen",
+        "biergarten",
+        "outdoor",
+        "kultur"
+      ]
+    },
+    {
+      "id": "muc-034",
+      "city": "münchen",
+      "name": "Flaucher Biergarten",
+      "address": "Isarauen 8",
+      "district": "thalkirchen",
+      "lat": 48.1094,
+      "lng": 11.5418,
+      "drink": "Augustiner Hell 0,5l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "isar",
+        "outdoor",
+        "naturidyll",
+        "familienfreundlich"
+      ]
+    },
+    {
+      "id": "muc-035",
+      "city": "münchen",
+      "name": "Spöckmeier",
+      "address": "Rosenstraße 9",
+      "district": "altstadt",
+      "lat": 48.1371,
+      "lng": 11.5744,
+      "drink": "Hofbräu Weisse 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "brauhaus",
+        "bayerisch",
+        "marienplatz-nähe"
+      ]
+    },
+    {
+      "id": "muc-036",
+      "city": "münchen",
+      "name": "Wirtshaus zum Straubinger",
+      "address": "Blumenstraße 5",
+      "district": "altstadt",
+      "lat": 48.1355,
+      "lng": 11.5732,
+      "drink": "Löwenbräu 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "traditionslokal",
+        "bayerisch",
+        "historisch"
+      ]
+    },
+    {
+      "id": "muc-037",
+      "city": "münchen",
+      "name": "Bamberger Haus",
+      "address": "Brunnerstraße 2",
+      "district": "maxvorstadt",
+      "lat": 48.1468,
+      "lng": 11.5642,
+      "drink": "Schlenkerla Rauchbier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "maxvorstadt",
+        "biervielfalt",
+        "fränkisch",
+        "rarität"
+      ]
+    },
+    {
+      "id": "muc-038",
+      "city": "münchen",
+      "name": "Schumanns Bar",
+      "address": "Odeonsplatz 6-7",
+      "district": "altstadt",
+      "lat": 48.1424,
+      "lng": 11.5779,
+      "drink": "Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "premium",
+        "altstadt",
+        "cocktails",
+        "prominenz",
+        "elegant"
+      ]
+    },
+    {
+      "id": "muc-039",
+      "city": "münchen",
+      "name": "Robinson Kuhlmann Bar",
+      "address": "Klenzestraße 59",
+      "district": "isarvorstadt",
+      "lat": 48.1294,
+      "lng": 11.5697,
+      "drink": "Craft Beer oder Cocktail",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "szene",
+        "gärtnerplatz",
+        "hip",
+        "skatekult"
+      ]
+    },
+    {
+      "id": "muc-040",
+      "city": "münchen",
+      "name": "Café Reitschule",
+      "address": "Königinstraße 34",
+      "district": "schwabing",
+      "lat": 48.1558,
+      "lng": 11.589,
+      "drink": "Weissbier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "schwabing",
+        "english-garden",
+        "biergarten",
+        "niveauvoll"
+      ]
+    },
+    {
+      "id": "muc-041",
+      "city": "münchen",
+      "name": "Scheidegger",
+      "address": "Bauerstraße 16",
+      "district": "schwabing",
+      "lat": 48.1568,
+      "lng": 11.5828,
+      "drink": "Bier vom Fass 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "schwabing",
+        "bayerisch",
+        "gemütlich",
+        "rustikal"
+      ]
+    },
+    {
+      "id": "muc-042",
+      "city": "münchen",
+      "name": "Bumsvoll Bar",
+      "address": "Zugspitzstraße 19",
+      "district": "giesing",
+      "lat": 48.1186,
+      "lng": 11.5853,
+      "drink": "Isarwasser Hausschnaps + Bier",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "giesing",
+        "boazn",
+        "geheimtipp",
+        "alternativ"
+      ]
+    },
+    {
+      "id": "muc-043",
+      "city": "münchen",
+      "name": "Altgiesing",
+      "address": "Silberhornstraße 22",
+      "district": "giesing",
+      "lat": 48.1176,
+      "lng": 11.5868,
+      "drink": "Pils vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "giesing",
+        "gemütlich",
+        "dart",
+        "lokalkolorit"
+      ]
+    },
+    {
+      "id": "muc-044",
+      "city": "münchen",
+      "name": "X-Bar",
+      "address": "Innere-Wiener-Straße 10",
+      "district": "lehel",
+      "lat": 48.1338,
+      "lng": 11.5919,
+      "drink": "Cocktail oder Bier",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "lehel",
+        "alternativ",
+        "kult",
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-045",
+      "city": "münchen",
+      "name": "Bräustüberl Weihenstephan",
+      "address": "Weihenstephaner Berg 1",
+      "district": "freising",
+      "lat": 48.397,
+      "lng": 11.7279,
+      "drink": "Weihenstephaner Hefeweisse 0,5l",
+      "par": 5,
+      "type": "brauhaus",
+      "tags": [
+        "älteste-brauerei",
+        "ausflugsziel",
+        "weihenstephan",
+        "weissbier"
+      ]
+    },
+    {
+      "id": "muc-046",
+      "city": "münchen",
+      "name": "Giesinger Bräu – Gebäudekomplex",
+      "address": "Martin-Luther-Straße 2",
+      "district": "giesing",
+      "lat": 48.1208,
+      "lng": 11.5849,
+      "drink": "Giesinger Nockherberg Hell 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "craft",
+        "giesing",
+        "hausbrauerei",
+        "urban"
+      ]
+    },
+    {
+      "id": "muc-047",
+      "city": "münchen",
+      "name": "Tagträumer",
+      "address": "Fraunhoferstraße 43",
+      "district": "isarvorstadt",
+      "lat": 48.1316,
+      "lng": 11.5741,
+      "drink": "Café oder Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "glockenbachviertel",
+        "gemütlich",
+        "gemischt",
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-048",
+      "city": "münchen",
+      "name": "Franziskaner Fuchsenbräu",
+      "address": "Perusastraße 5",
+      "district": "altstadt",
+      "lat": 48.1395,
+      "lng": 11.5751,
+      "drink": "Franziskaner Kristallklar 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "brauhaus",
+        "historisch",
+        "bayerisch"
+      ]
+    },
+    {
+      "id": "muc-049",
+      "city": "münchen",
+      "name": "Paulaner am Nockherberg Biergarten",
+      "address": "Hochstraße 77",
+      "district": "au",
+      "lat": 48.1228,
+      "lng": 11.5825,
+      "drink": "Paulaner Salvator 0,5l",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "au",
+        "paulaner",
+        "klosterbrauerei"
+      ]
+    },
+    {
+      "id": "muc-050",
+      "city": "münchen",
+      "name": "Waldwirtschaft Großhesselohe",
+      "address": "Georg-Kalb-Straße 3",
+      "district": "pullach",
+      "lat": 48.0716,
+      "lng": 11.5059,
+      "drink": "Augustiner Hell 0,5l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "ausflugsziel",
+        "biergarten",
+        "isar",
+        "jazzbiergarten",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-051",
+      "city": "münchen",
+      "name": "Monchalant",
+      "address": "Pariser Straße 15",
+      "lat": 48.127,
+      "lng": 11.5979,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-052",
+      "city": "münchen",
+      "name": "Negroni",
+      "address": "Sedanstraße 9",
+      "lat": 48.1306,
+      "lng": 11.5974,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-053",
+      "city": "münchen",
+      "name": "Bar Room München",
+      "address": "Adresse unbekannt",
+      "lat": 48.1315,
+      "lng": 11.5968,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-054",
+      "city": "münchen",
+      "name": "The Moon Bar Lehel",
+      "address": "Thierschplatz 5",
+      "lat": 48.1395,
+      "lng": 11.5892,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-055",
+      "city": "münchen",
+      "name": "Kauz",
+      "address": "Adresse unbekannt",
+      "lat": 48.1364,
+      "lng": 11.5643,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-056",
+      "city": "münchen",
+      "name": "Kubaschewski",
+      "address": "Karlsplatz 5",
+      "lat": 48.1398,
+      "lng": 11.5667,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-057",
+      "city": "münchen",
+      "name": "Café Soleil",
+      "address": "Lassallestraße 101",
+      "lat": 48.1983,
+      "lng": 11.5347,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-058",
+      "city": "münchen",
+      "name": "Devo's",
+      "address": "Stadelheimer Straße 19",
+      "lat": 48.1005,
+      "lng": 11.5876,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-059",
+      "city": "münchen",
+      "name": "Medusa Lounge",
+      "address": "Adresse unbekannt",
+      "lat": 48.2149,
+      "lng": 11.5308,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "muc-060",
+      "city": "münchen",
+      "name": "Elmas Lounge",
+      "address": "Riesenfeldstraße 81",
+      "lat": 48.1867,
+      "lng": 11.562,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "muc-061",
+      "city": "münchen",
+      "name": "Bravi Ragazzi",
+      "address": "Naupliastraße 50b",
+      "lat": 48.0959,
+      "lng": 11.5758,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-062",
+      "city": "münchen",
+      "name": "Palm Lounge",
+      "address": "Ständlerstraße 42",
+      "lat": 48.1044,
+      "lng": 11.6056,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-063",
+      "city": "münchen",
+      "name": "Schau ma moi",
+      "address": "Tegernseer Landstraße 82",
+      "lat": 48.1147,
+      "lng": 11.579,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-064",
+      "city": "münchen",
+      "name": "Giesinger Stehausschank",
+      "address": "Schellingstraße 27",
+      "lat": 48.1501,
+      "lng": 11.5761,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-065",
+      "city": "münchen",
+      "name": "Tijuana",
+      "address": "Leopoldstraße 13a",
+      "lat": 48.1556,
+      "lng": 11.5831,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-066",
+      "city": "münchen",
+      "name": "Graf Rumford",
+      "address": "Adresse unbekannt",
+      "lat": 48.1338,
+      "lng": 11.5798,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-067",
+      "city": "münchen",
+      "name": "freebird Bar & Food",
+      "address": "Adresse unbekannt",
+      "lat": 48.1538,
+      "lng": 11.5757,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-068",
+      "city": "münchen",
+      "name": "Vega Bar",
+      "address": "Georgenstraße 56",
+      "lat": 48.1554,
+      "lng": 11.5748,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-069",
+      "city": "münchen",
+      "name": "Zum Fiaker",
+      "address": "Josef-Beiser-Straße 25",
+      "lat": 48.1006,
+      "lng": 11.6302,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-070",
+      "city": "münchen",
+      "name": "Cocktailhouse",
+      "address": "Feilitzschstraße 25",
+      "lat": 48.161,
+      "lng": 11.5908,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-071",
+      "city": "münchen",
+      "name": "Tumult",
+      "address": "Blütenstraße 4",
+      "lat": 48.1519,
+      "lng": 11.5761,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-072",
+      "city": "münchen",
+      "name": "Fox Bar",
+      "address": "Barer Straße 47",
+      "lat": 48.1516,
+      "lng": 11.5735,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-073",
+      "city": "münchen",
+      "name": "Buccibar",
+      "address": "Occamstraße 9",
+      "lat": 48.162,
+      "lng": 11.5895,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-074",
+      "city": "münchen",
+      "name": "Kr@ftwerk",
+      "address": "Thalkirchner Straße 4",
+      "lat": 48.1322,
+      "lng": 11.5666,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-075",
+      "city": "münchen",
+      "name": "M. C. Mueller",
+      "address": "Fraunhoferstraße 2",
+      "lat": 48.1312,
+      "lng": 11.5715,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "burger"
+      ]
+    },
+    {
+      "id": "muc-076",
+      "city": "münchen",
+      "name": "Edelheiss",
+      "address": "Pestalozzistraße 6",
+      "lat": 48.1318,
+      "lng": 11.5673,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-077",
+      "city": "münchen",
+      "name": "NiL",
+      "address": "Hans-Sachs-Straße 2",
+      "lat": 48.1305,
+      "lng": 11.57,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-078",
+      "city": "münchen",
+      "name": "Hey Luigi",
+      "address": "Holzstraße 29",
+      "lat": 48.1288,
+      "lng": 11.5683,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-079",
+      "city": "münchen",
+      "name": "Senatore",
+      "address": "Sendlinger-Tor-Platz 5",
+      "lat": 48.1328,
+      "lng": 11.5666,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-080",
+      "city": "münchen",
+      "name": "Café Lord",
+      "address": "Dollmannstraße 27",
+      "lat": 48.1192,
+      "lng": 11.5774,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-081",
+      "city": "münchen",
+      "name": "Salve - Bar, Cucina & Pizzeria",
+      "address": "Hohenzollernstraße 124",
+      "lat": 48.1613,
+      "lng": 11.5693,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-082",
+      "city": "münchen",
+      "name": "Treffpunkt SportBar",
+      "address": "Schleißheimer Straße 125",
+      "lat": 48.1621,
+      "lng": 11.5635,
+      "drink": "Helles 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-083",
+      "city": "münchen",
+      "name": "Georg's",
+      "address": "Georgenstraße 48",
+      "lat": 48.1551,
+      "lng": 11.576,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-084",
+      "city": "münchen",
+      "name": "Der kleine Kranich",
+      "address": "Neureutherstraße 21",
+      "lat": 48.155,
+      "lng": 11.5713,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-085",
+      "city": "münchen",
+      "name": "Unibar",
+      "address": "Adresse unbekannt",
+      "lat": 48.0805,
+      "lng": 11.6412,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-086",
+      "city": "münchen",
+      "name": "American Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1511,
+      "lng": 11.6199,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-087",
+      "city": "münchen",
+      "name": "Peppermint Lounge",
+      "address": "Wasserburger Landstraße 108",
+      "lat": 48.1177,
+      "lng": 11.6885,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-088",
+      "city": "münchen",
+      "name": "Stazione di Aperitivo",
+      "address": "Kaufingerstraße 5",
+      "lat": 48.137,
+      "lng": 11.5731,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-089",
+      "city": "münchen",
+      "name": "Crönlein",
+      "address": "Am Nockherberg 8",
+      "lat": 48.1215,
+      "lng": 11.5815,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-090",
+      "city": "münchen",
+      "name": "Old No.7",
+      "address": "Senftenauerstraße 97",
+      "lat": 48.13,
+      "lng": 11.487,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-091",
+      "city": "münchen",
+      "name": "Nymphenburger Bistro",
+      "address": "Wotanstraße 89",
+      "lat": 48.1528,
+      "lng": 11.5075,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "greek"
+      ]
+    },
+    {
+      "id": "muc-092",
+      "city": "münchen",
+      "name": "Patolli",
+      "address": "Sendlinger Straße 62",
+      "lat": 48.1343,
+      "lng": 11.5681,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "coffee_shop"
+      ]
+    },
+    {
+      "id": "muc-093",
+      "city": "münchen",
+      "name": "Abseits",
+      "address": "Marktstraße 3",
+      "lat": 48.1619,
+      "lng": 11.5885,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-094",
+      "city": "münchen",
+      "name": "Kongressbar",
+      "address": "Theresienhöhe 15",
+      "lat": 48.1322,
+      "lng": 11.544,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-095",
+      "city": "münchen",
+      "name": "Zur Gruam",
+      "address": "Thalkirchner Straße 114",
+      "lat": 48.1203,
+      "lng": 11.5558,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-096",
+      "city": "münchen",
+      "name": "Miraggio",
+      "address": "Adresse unbekannt",
+      "lat": 48.1216,
+      "lng": 11.5348,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-097",
+      "city": "münchen",
+      "name": "Muffatcafe",
+      "address": "Zellstraße 4",
+      "lat": 48.1332,
+      "lng": 11.5897,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-098",
+      "city": "münchen",
+      "name": "Ochsengarten",
+      "address": "Müllerstraße 47",
+      "lat": 48.1315,
+      "lng": 11.5679,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-099",
+      "city": "münchen",
+      "name": "Lehel Bar Food Club",
+      "address": "Karl-Scharnagl-Ring 6",
+      "lat": 48.1395,
+      "lng": 11.585,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-100",
+      "city": "münchen",
+      "name": "Shakespeare",
+      "address": "Seidlstraße 2a",
+      "lat": 48.1426,
+      "lng": 11.5567,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-101",
+      "city": "münchen",
+      "name": "Foyer",
+      "address": "Adresse unbekannt",
+      "lat": 48.1341,
+      "lng": 11.5693,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-102",
+      "city": "münchen",
+      "name": "Coeur",
+      "address": "Theresienstraße 38",
+      "lat": 48.1481,
+      "lng": 11.5753,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor",
+        "italian",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-103",
+      "city": "münchen",
+      "name": "Mister B's",
+      "address": "Herzog-Heinrich-Straße 38",
+      "lat": 48.1288,
+      "lng": 11.5556,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-104",
+      "city": "münchen",
+      "name": "Zephyr Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.129,
+      "lng": 11.5765,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-105",
+      "city": "münchen",
+      "name": "Frau Bartels",
+      "address": "Klenzestraße 51",
+      "lat": 48.1298,
+      "lng": 11.5732,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-106",
+      "city": "münchen",
+      "name": "Favorit Bar",
+      "address": "Damenstiftstraße 12",
+      "lat": 48.1367,
+      "lng": 11.5685,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-107",
+      "city": "münchen",
+      "name": "Bamboleo",
+      "address": "Tegernseer Landstraße 96",
+      "lat": 48.114,
+      "lng": 11.5782,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-108",
+      "city": "münchen",
+      "name": "Barissimo",
+      "address": "Blumenstraße 1",
+      "lat": 48.1345,
+      "lng": 11.5754,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-109",
+      "city": "münchen",
+      "name": "Times",
+      "address": "Adresse unbekannt",
+      "lat": 48.1236,
+      "lng": 11.5476,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-110",
+      "city": "münchen",
+      "name": "Best Cafe Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1233,
+      "lng": 11.5465,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-111",
+      "city": "münchen",
+      "name": "Di Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1341,
+      "lng": 11.5762,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-112",
+      "city": "münchen",
+      "name": "Café Bar bei Pedja",
+      "address": "Westendstraße 136",
+      "lat": 48.1379,
+      "lng": 11.5319,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-113",
+      "city": "münchen",
+      "name": "San Paolo | Bar Café",
+      "address": "Adresse unbekannt",
+      "lat": 48.1384,
+      "lng": 11.5417,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-114",
+      "city": "münchen",
+      "name": "Crêperie Bernard et Bernard",
+      "address": "Innere Wiener Straße 32",
+      "lat": 48.1337,
+      "lng": 11.5948,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-115",
+      "city": "münchen",
+      "name": "Garçon",
+      "address": "Utzschneiderstraße 4",
+      "lat": 48.134,
+      "lng": 11.5753,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-116",
+      "city": "münchen",
+      "name": "Drei Glöcklein",
+      "address": "Hans-Sachs-Straße 8",
+      "lat": 48.13,
+      "lng": 11.5698,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-117",
+      "city": "münchen",
+      "name": "Mia san's",
+      "address": "Hauptplatz 4",
+      "lat": 48.0672,
+      "lng": 11.3804,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-118",
+      "city": "münchen",
+      "name": "LIVE Sportsbar",
+      "address": "Oberhofer Platz 4",
+      "lat": 48.1864,
+      "lng": 11.5766,
+      "drink": "Helles 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "muc-119",
+      "city": "münchen",
+      "name": "Alte Galerie",
+      "address": "Kaulbachstraße 75",
+      "lat": 48.1543,
+      "lng": 11.5851,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-120",
+      "city": "münchen",
+      "name": "LEO 49 Bar & Restaurant",
+      "address": "Leopoldstraße 49",
+      "lat": 48.1603,
+      "lng": 11.5855,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-121",
+      "city": "münchen",
+      "name": "Orient Garden",
+      "address": "Leopoldstraße 27",
+      "lat": 48.1582,
+      "lng": 11.5845,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-122",
+      "city": "münchen",
+      "name": "Bar Giornale",
+      "address": "Leopoldstraße 7",
+      "lat": 48.1543,
+      "lng": 11.5825,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "coffee_shop",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-123",
+      "city": "münchen",
+      "name": "Cafe-Bar-Live",
+      "address": "Adresse unbekannt",
+      "lat": 48.2207,
+      "lng": 11.4759,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-124",
+      "city": "münchen",
+      "name": "Cafe Noel",
+      "address": "Adresse unbekannt",
+      "lat": 48.1463,
+      "lng": 11.4594,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-125",
+      "city": "münchen",
+      "name": "Seven",
+      "address": "Am Harras 2",
+      "lat": 48.1164,
+      "lng": 11.5399,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-126",
+      "city": "münchen",
+      "name": "BO12",
+      "address": "Gerhart-Hauptmann-Ring 54",
+      "lat": 48.0992,
+      "lng": 11.6538,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-127",
+      "city": "münchen",
+      "name": "Pacific Times",
+      "address": "Baaderstraße 28",
+      "lat": 48.1318,
+      "lng": 11.5795,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-128",
+      "city": "münchen",
+      "name": "Polka",
+      "address": "Adresse unbekannt",
+      "lat": 48.128,
+      "lng": 11.6,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-129",
+      "city": "münchen",
+      "name": "West-Pol",
+      "address": "Westendstraße 144",
+      "lat": 48.1379,
+      "lng": 11.5305,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-130",
+      "city": "münchen",
+      "name": "Dream",
+      "address": "Adresse unbekannt",
+      "lat": 48.1349,
+      "lng": 11.5345,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-131",
+      "city": "münchen",
+      "name": "Cafebar 007",
+      "address": "Stiftsbogen 43",
+      "lat": 48.1202,
+      "lng": 11.4913,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-132",
+      "city": "münchen",
+      "name": "Bar Färber",
+      "address": "Corneliusstraße 34",
+      "lat": 48.1304,
+      "lng": 11.5776,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-133",
+      "city": "münchen",
+      "name": "Barocco",
+      "address": "Sollner Straße 50",
+      "lat": 48.0768,
+      "lng": 11.526,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-134",
+      "city": "münchen",
+      "name": "La Claque",
+      "address": "Adresse unbekannt",
+      "lat": 48.1304,
+      "lng": 11.5625,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-135",
+      "city": "münchen",
+      "name": "Maxe Belle Spitz",
+      "address": "Schellingstraße 91",
+      "lat": 48.1522,
+      "lng": 11.5689,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-136",
+      "city": "münchen",
+      "name": "Hangman",
+      "address": "Reichenbachstraße 37",
+      "lat": 48.1299,
+      "lng": 11.5759,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-137",
+      "city": "münchen",
+      "name": "Aquitaine Vinothèque",
+      "address": "Theresienstraße 19",
+      "district": "maxvorstadt",
+      "lat": 48.1474,
+      "lng": 11.5772,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-138",
+      "city": "münchen",
+      "name": "Zum Roten Knopf",
+      "address": "Steinstraße 63",
+      "lat": 48.1306,
+      "lng": 11.596,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-139",
+      "city": "münchen",
+      "name": "Tap-House Munich",
+      "address": "Rosenheimer Straße 108",
+      "lat": 48.1252,
+      "lng": 11.5992,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "burger"
+      ]
+    },
+    {
+      "id": "muc-140",
+      "city": "münchen",
+      "name": "L'Aperitivo",
+      "address": "Westenriederstraße 13",
+      "lat": 48.1351,
+      "lng": 11.5777,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-141",
+      "city": "münchen",
+      "name": "Café Valentin",
+      "address": "Bahnhofstraße 1",
+      "lat": 48.196,
+      "lng": 11.373,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-142",
+      "city": "münchen",
+      "name": "gehölz",
+      "address": "Schellingstraße 45",
+      "lat": 48.1507,
+      "lng": 11.5742,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-143",
+      "city": "münchen",
+      "name": "Corleone",
+      "address": "Sendlinger-Tor-Platz 7",
+      "lat": 48.1338,
+      "lng": 11.5651,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-144",
+      "city": "münchen",
+      "name": "barbarbar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1498,
+      "lng": 11.5565,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-145",
+      "city": "münchen",
+      "name": "Bar Gabanyi",
+      "address": "Adresse unbekannt",
+      "lat": 48.1328,
+      "lng": 11.5576,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-146",
+      "city": "münchen",
+      "name": "el Tato",
+      "address": "Buttermelcherstraße 9",
+      "lat": 48.1326,
+      "lng": 11.5782,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-147",
+      "city": "münchen",
+      "name": "Kulturstrand",
+      "address": "Adresse unbekannt",
+      "lat": 48.1286,
+      "lng": 11.5798,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-148",
+      "city": "münchen",
+      "name": "zum Jagerhansl",
+      "address": "Augustenstraße 107",
+      "lat": 48.1535,
+      "lng": 11.5656,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-149",
+      "city": "münchen",
+      "name": "Landshuter Bräustüberl",
+      "address": "Adresse unbekannt",
+      "lat": 48.1196,
+      "lng": 11.5499,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "muc-150",
+      "city": "münchen",
+      "name": "Zum Wolf",
+      "address": "Pestalozzistraße 22",
+      "lat": 48.1305,
+      "lng": 11.5672,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-151",
+      "city": "münchen",
+      "name": "Kilombo",
+      "address": "Gollierstraße 14a",
+      "lat": 48.1359,
+      "lng": 11.5443,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-152",
+      "city": "münchen",
+      "name": "Jazzbar Vogler",
+      "address": "Rumfordstraße 17",
+      "lat": 48.1336,
+      "lng": 11.5777,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-153",
+      "city": "münchen",
+      "name": "RG Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1474,
+      "lng": 11.4601,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-154",
+      "city": "münchen",
+      "name": "Lucky Who",
+      "address": "Brienner Straße 14",
+      "lat": 48.1437,
+      "lng": 11.5744,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-155",
+      "city": "münchen",
+      "name": "Pilsbar Zic-Zac",
+      "address": "Oefelestraße 15",
+      "lat": 48.1193,
+      "lng": 11.5727,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-156",
+      "city": "münchen",
+      "name": "Boazeria",
+      "address": "Freibadstraße 1",
+      "lat": 48.1198,
+      "lng": 11.5724,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-157",
+      "city": "münchen",
+      "name": "drehbar Event Location",
+      "address": "Adresse unbekannt",
+      "lat": 48.0927,
+      "lng": 11.5068,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-158",
+      "city": "münchen",
+      "name": "Vitigno",
+      "address": "Aggensteinstraße 25",
+      "lat": 48.094,
+      "lng": 11.5693,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-159",
+      "city": "münchen",
+      "name": "Lola",
+      "address": "Ickstattstraße 2a",
+      "lat": 48.1297,
+      "lng": 11.5706,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-160",
+      "city": "münchen",
+      "name": "SAUNA",
+      "address": "Adresse unbekannt",
+      "lat": 48.1436,
+      "lng": 11.5578,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-161",
+      "city": "münchen",
+      "name": "Dosage",
+      "address": "Alter Hof 3",
+      "lat": 48.1383,
+      "lng": 11.5778,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-162",
+      "city": "münchen",
+      "name": "Der Akademiker",
+      "address": "Clemensstraße 118",
+      "lat": 48.1645,
+      "lng": 11.5655,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-163",
+      "city": "münchen",
+      "name": "La Piazetta",
+      "address": "Adresse unbekannt",
+      "lat": 48.2274,
+      "lng": 11.4674,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-164",
+      "city": "münchen",
+      "name": "OHG Neubiberg",
+      "address": "Adresse unbekannt",
+      "lat": 48.0781,
+      "lng": 11.6304,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-165",
+      "city": "münchen",
+      "name": "Davide",
+      "address": "Westermühlstraße 39",
+      "lat": 48.1273,
+      "lng": 11.572,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-166",
+      "city": "münchen",
+      "name": "Chang Bistro & Catering",
+      "address": "Wolfratshauser Straße 268",
+      "lat": 48.0718,
+      "lng": 11.519,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-167",
+      "city": "münchen",
+      "name": "Ferdings",
+      "address": "Klenzestraße 43",
+      "lat": 48.1304,
+      "lng": 11.5742,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-168",
+      "city": "münchen",
+      "name": "Moon Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1463,
+      "lng": 11.4634,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-169",
+      "city": "münchen",
+      "name": "Bridge",
+      "address": "Trappentreustraße 10",
+      "lat": 48.139,
+      "lng": 11.5339,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "chinese"
+      ]
+    },
+    {
+      "id": "muc-170",
+      "city": "münchen",
+      "name": "Ambar Bistro",
+      "address": "Adresse unbekannt",
+      "lat": 48.1178,
+      "lng": 11.5825,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-171",
+      "city": "münchen",
+      "name": "Cafe Bar 1",
+      "address": "Alpenstraße 19",
+      "lat": 48.1167,
+      "lng": 11.5835,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-172",
+      "city": "münchen",
+      "name": "The Salty Horse Bar",
+      "address": "Zugspitzstraße 10",
+      "lat": 48.1174,
+      "lng": 11.5841,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-173",
+      "city": "münchen",
+      "name": "Hangover",
+      "address": "Adresse unbekannt",
+      "lat": 48.1164,
+      "lng": 11.5018,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-174",
+      "city": "münchen",
+      "name": "Paradoxx",
+      "address": "Wasserburger Landstraße 178",
+      "lat": 48.1157,
+      "lng": 11.6944,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-175",
+      "city": "münchen",
+      "name": "Plan B",
+      "address": "Starnberger Straße 3",
+      "lat": 48.066,
+      "lng": 11.3797,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-176",
+      "city": "münchen",
+      "name": "Cocoon Pinsa & Bar",
+      "address": "Lindwurmstraße 37",
+      "lat": 48.1308,
+      "lng": 11.5616,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-177",
+      "city": "münchen",
+      "name": "Déjà bu?",
+      "address": "Buttermelcherstraße 2a",
+      "lat": 48.1329,
+      "lng": 11.5768,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-178",
+      "city": "münchen",
+      "name": "The Royal Dolores Munich Pub",
+      "address": "Marienplatz 8",
+      "lat": 48.1374,
+      "lng": 11.5761,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "barrierefrei",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-179",
+      "city": "münchen",
+      "name": "Jem & Flo",
+      "address": "Sankt-Paul-Straße 1a",
+      "lat": 48.1372,
+      "lng": 11.5534,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "pizza"
+      ]
+    },
+    {
+      "id": "muc-180",
+      "city": "münchen",
+      "name": "Lotus",
+      "address": "Adresse unbekannt",
+      "lat": 48.1366,
+      "lng": 11.5561,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-181",
+      "city": "münchen",
+      "name": "Bei Erol - Café & Bar",
+      "address": "Dachauer Straße 28",
+      "lat": 48.1441,
+      "lng": 11.56,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-182",
+      "city": "münchen",
+      "name": "Heir",
+      "address": "Parkstraße 30",
+      "lat": 48.1351,
+      "lng": 11.5441,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-183",
+      "city": "münchen",
+      "name": "Bar Polloi",
+      "address": "Adresse unbekannt",
+      "lat": 48.1331,
+      "lng": 11.5688,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-184",
+      "city": "münchen",
+      "name": "Billy's Billard",
+      "address": "Lerchenstraße 5",
+      "lat": 48.2017,
+      "lng": 11.5427,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-185",
+      "city": "münchen",
+      "name": "Landhaus",
+      "address": "Adresse unbekannt",
+      "lat": 48.1367,
+      "lng": 11.5806,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-186",
+      "city": "münchen",
+      "name": "The Madam Bar",
+      "address": "Ledererstraße 21",
+      "lat": 48.1368,
+      "lng": 11.5797,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-187",
+      "city": "münchen",
+      "name": "BOB im Park",
+      "address": "Kolehmainenweg 7",
+      "lat": 48.1775,
+      "lng": 11.5513,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-188",
+      "city": "münchen",
+      "name": "IsarBar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1394,
+      "lng": 11.5575,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-189",
+      "city": "münchen",
+      "name": "Black & White",
+      "address": "Adresse unbekannt",
+      "lat": 48.1506,
+      "lng": 11.557,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-190",
+      "city": "münchen",
+      "name": "shisha bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1373,
+      "lng": 11.5637,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-191",
+      "city": "münchen",
+      "name": "Minna Thiel",
+      "address": "Bernd-Eichinger-Platz 1",
+      "lat": 48.147,
+      "lng": 11.5696,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-192",
+      "city": "münchen",
+      "name": "Unter Deck",
+      "address": "Adresse unbekannt",
+      "lat": 48.135,
+      "lng": 11.5711,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-193",
+      "city": "münchen",
+      "name": "minibar",
+      "address": "Winterstraße 4",
+      "lat": 48.1156,
+      "lng": 11.572,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-194",
+      "city": "münchen",
+      "name": "Pils-Doktor",
+      "address": "Leopoldstraße 124",
+      "lat": 48.1669,
+      "lng": 11.5865,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-195",
+      "city": "münchen",
+      "name": "Jaded monkey",
+      "address": "Herzog-Wilhelm-Straße 25",
+      "lat": 48.1354,
+      "lng": 11.5673,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-196",
+      "city": "münchen",
+      "name": "Music Club Munich Zentrum für Musiker",
+      "address": "Margot-Kalinke-Straße 3",
+      "lat": 48.1938,
+      "lng": 11.5957,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-197",
+      "city": "münchen",
+      "name": "The Keg",
+      "address": "Trautenwolfstraße 1",
+      "lat": 48.1581,
+      "lng": 11.5855,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-198",
+      "city": "münchen",
+      "name": "Cafe Bar Silver",
+      "address": "Adresse unbekannt",
+      "lat": 48.1828,
+      "lng": 11.5634,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-199",
+      "city": "münchen",
+      "name": "Bukowski",
+      "address": "Adresse unbekannt",
+      "lat": 48.1319,
+      "lng": 11.5754,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-200",
+      "city": "münchen",
+      "name": "The LOUIS Roof Terrace",
+      "address": "Adresse unbekannt",
+      "lat": 48.1361,
+      "lng": 11.5754,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-201",
+      "city": "münchen",
+      "name": "Les Fleurs Du Mal",
+      "address": "Adresse unbekannt",
+      "lat": 48.1439,
+      "lng": 11.5787,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-202",
+      "city": "münchen",
+      "name": "Pasinger Nachtcafe bei Keko",
+      "address": "Bodenseestraße 19",
+      "lat": 48.147,
+      "lng": 11.4553,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-203",
+      "city": "münchen",
+      "name": "Der Eifrige Student",
+      "address": "Werner-Heisenberg-Weg 106",
+      "lat": 48.0814,
+      "lng": 11.6446,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-204",
+      "city": "münchen",
+      "name": "toto's basement",
+      "address": "Adresse unbekannt",
+      "lat": 48.1553,
+      "lng": 11.6372,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-205",
+      "city": "münchen",
+      "name": "Snakes",
+      "address": "Ligsalzstraße 33",
+      "lat": 48.1344,
+      "lng": 11.5425,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-206",
+      "city": "münchen",
+      "name": "Squeeze",
+      "address": "Adresse unbekannt",
+      "lat": 48.1316,
+      "lng": 11.5664,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-207",
+      "city": "münchen",
+      "name": "Bondi Bar",
+      "address": "Fraunhoferstraße 32",
+      "lat": 48.1287,
+      "lng": 11.5747,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-208",
+      "city": "münchen",
+      "name": "Emix",
+      "address": "Helene-Mayer-Ring 14",
+      "lat": 48.1821,
+      "lng": 11.5529,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-209",
+      "city": "münchen",
+      "name": "Nachteule",
+      "address": "Adresse unbekannt",
+      "lat": 48.1033,
+      "lng": 11.4205,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-210",
+      "city": "münchen",
+      "name": "Kinky Slice",
+      "address": "Reichenbachstraße 29",
+      "lat": 48.1305,
+      "lng": 11.576,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-211",
+      "city": "münchen",
+      "name": "Japa Tapa",
+      "address": "Maximilianstraße 35",
+      "lat": 48.1395,
+      "lng": 11.584,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "muc-212",
+      "city": "münchen",
+      "name": "Gorilla Bar",
+      "address": "Hirschbergstraße 23",
+      "lat": 48.1483,
+      "lng": 11.532,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-213",
+      "city": "münchen",
+      "name": "Fredy's Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1464,
+      "lng": 11.4615,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-214",
+      "city": "münchen",
+      "name": "Mr. Mumble's",
+      "address": "Adresse unbekannt",
+      "lat": 48.1335,
+      "lng": 11.5791,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-215",
+      "city": "münchen",
+      "name": "Gin City",
+      "address": "Speicherstraße 20",
+      "lat": 48.124,
+      "lng": 11.6061,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-216",
+      "city": "münchen",
+      "name": "Hood the Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1488,
+      "lng": 11.5347,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-217",
+      "city": "münchen",
+      "name": "Tambosi Bar",
+      "address": "Odeonsplatz 18",
+      "lat": 48.1429,
+      "lng": 11.5781,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-218",
+      "city": "münchen",
+      "name": "Havana Club Cuban Bar",
+      "address": "Herrnstraße 30",
+      "lat": 48.1361,
+      "lng": 11.583,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-219",
+      "city": "münchen",
+      "name": "Juliet Rose Bar",
+      "address": "Rosenheimer Straße 15",
+      "lat": 48.1299,
+      "lng": 11.5927,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-220",
+      "city": "münchen",
+      "name": "Frisches Bier",
+      "address": "Thalkirchner Straße 53",
+      "lat": 48.1223,
+      "lng": 11.559,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-221",
+      "city": "münchen",
+      "name": "PANORAMA BAR „Cloud One“",
+      "address": "Adresse unbekannt",
+      "lat": 48.178,
+      "lng": 11.5921,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-222",
+      "city": "münchen",
+      "name": "Bar du Port",
+      "address": "Albrechtstraße 32",
+      "lat": 48.1565,
+      "lng": 11.5388,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-223",
+      "city": "münchen",
+      "name": "Transit Rooftop & Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1255,
+      "lng": 11.6052,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-224",
+      "city": "münchen",
+      "name": "Kölsch Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1246,
+      "lng": 11.6055,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-225",
+      "city": "münchen",
+      "name": "Bar dell Osteria",
+      "address": "Schellingstraße 60",
+      "lat": 48.1514,
+      "lng": 11.5723,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-226",
+      "city": "münchen",
+      "name": "Goodtimes",
+      "address": "Schwanseestraße 81",
+      "lat": 48.1035,
+      "lng": 11.5975,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-227",
+      "city": "münchen",
+      "name": "MaVie",
+      "address": "Kreillerstraße 160a",
+      "lat": 48.124,
+      "lng": 11.6564,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-228",
+      "city": "münchen",
+      "name": "Wallace Bar",
+      "address": "Occamstraße 2",
+      "lat": 48.1615,
+      "lng": 11.5894,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-229",
+      "city": "münchen",
+      "name": "Jay-R",
+      "address": "Pilgersheimer Straße 70",
+      "lat": 48.1129,
+      "lng": 11.5713,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-230",
+      "city": "münchen",
+      "name": "Kooks",
+      "address": "Geyerstraße 18",
+      "lat": 48.1251,
+      "lng": 11.5656,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-231",
+      "city": "münchen",
+      "name": "Retro Time",
+      "address": "Gubestraße 20",
+      "district": "moosach",
+      "lat": 48.1801,
+      "lng": 11.5111,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-232",
+      "city": "münchen",
+      "name": "Trisoux",
+      "address": "Adresse unbekannt",
+      "lat": 48.1312,
+      "lng": 11.5686,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-233",
+      "city": "münchen",
+      "name": "M’Uniqo",
+      "address": "Leopoldstraße 170",
+      "lat": 48.1715,
+      "lng": 11.5865,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-234",
+      "city": "münchen",
+      "name": "Ogidiga's Afro Bar",
+      "address": "Maistraße 63",
+      "lat": 48.1263,
+      "lng": 11.5613,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-235",
+      "city": "münchen",
+      "name": "opops pak",
+      "address": "Waltherstraße 15",
+      "lat": 48.1286,
+      "lng": 11.5611,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-236",
+      "city": "münchen",
+      "name": "Bar Mural",
+      "address": "Theresienstraße 3",
+      "district": "maxvorstadt",
+      "lat": 48.147,
+      "lng": 11.5787,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-237",
+      "city": "münchen",
+      "name": "Mon Ami",
+      "address": "Adresse unbekannt",
+      "lat": 48.1606,
+      "lng": 11.5863,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-238",
+      "city": "münchen",
+      "name": "NV Club",
+      "address": "Residenzstraße 3",
+      "lat": 48.1389,
+      "lng": 11.5777,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-239",
+      "city": "münchen",
+      "name": "Stockwerk",
+      "address": "Adresse unbekannt",
+      "lat": 48.1877,
+      "lng": 11.3835,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-240",
+      "city": "münchen",
+      "name": "Theos",
+      "address": "Adresse unbekannt",
+      "lat": 48.1728,
+      "lng": 11.5949,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-241",
+      "city": "münchen",
+      "name": "Home Munich",
+      "address": "Amalienstraße 23",
+      "lat": 48.1473,
+      "lng": 11.5763,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-242",
+      "city": "münchen",
+      "name": "Bar Alvino",
+      "address": "Brienner Straße 10",
+      "lat": 48.1433,
+      "lng": 11.5749,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-243",
+      "city": "münchen",
+      "name": "SaSu Conceptbar",
+      "address": "Clemensstraße 15",
+      "lat": 48.1635,
+      "lng": 11.5834,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "italian",
+        "german"
+      ]
+    },
+    {
+      "id": "muc-244",
+      "city": "münchen",
+      "name": "CAFE 7GÜN",
+      "address": "Gotteszeller Straße 2",
+      "lat": 48.1268,
+      "lng": 11.6153,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-245",
+      "city": "münchen",
+      "name": "Happy Billard",
+      "address": "Fraunhoferstraße 6",
+      "district": "martinsried",
+      "lat": 48.1102,
+      "lng": 11.4498,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-246",
+      "city": "münchen",
+      "name": "Distillers Bar",
+      "address": "Theklastraße 1",
+      "lat": 48.1325,
+      "lng": 11.5729,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-247",
+      "city": "münchen",
+      "name": "Lemon Lounge",
+      "address": "Balanstraße 176",
+      "lat": 48.1071,
+      "lng": 11.6039,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-248",
+      "city": "münchen",
+      "name": "X",
+      "address": "Sternstraße 20",
+      "lat": 48.1397,
+      "lng": 11.5911,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-249",
+      "city": "münchen",
+      "name": "Cafe Sports Bar Koukou",
+      "address": "Adresse unbekannt",
+      "lat": 48.1459,
+      "lng": 11.4679,
+      "drink": "Helles 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "muc-250",
+      "city": "münchen",
+      "name": "Pils-Pub 64",
+      "address": "Ludwig-Thoma-Straße 42",
+      "lat": 48.0636,
+      "lng": 11.6798,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-251",
+      "city": "münchen",
+      "name": "Philoma Spielcenter",
+      "address": "Schleißheimer Straße 12",
+      "lat": 48.1486,
+      "lng": 11.5593,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-252",
+      "city": "münchen",
+      "name": "Bar Tantris",
+      "address": "Johann-Fichte-Straße 7",
+      "lat": 48.1698,
+      "lng": 11.5884,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "international"
+      ]
+    },
+    {
+      "id": "muc-253",
+      "city": "münchen",
+      "name": "Simsalabim",
+      "address": "Marienstraße 18",
+      "lat": 48.1358,
+      "lng": 11.582,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-254",
+      "city": "münchen",
+      "name": "Gabi's Stüberl",
+      "address": "Leonrodstraße 87",
+      "lat": 48.1589,
+      "lng": 11.546,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-255",
+      "city": "münchen",
+      "name": "RamBar-ZamBar",
+      "address": "Adresse unbekannt",
+      "lat": 48.2019,
+      "lng": 11.5666,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-256",
+      "city": "münchen",
+      "name": "Bar Uno",
+      "address": "Ludwigstraße 11",
+      "lat": 48.1452,
+      "lng": 11.5785,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-257",
+      "city": "münchen",
+      "name": "miXbar",
+      "address": "Ottobrunner Straße 13",
+      "lat": 48.1119,
+      "lng": 11.6181,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-258",
+      "city": "münchen",
+      "name": "Heubodenbar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1279,
+      "lng": 11.5561,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-259",
+      "city": "münchen",
+      "name": "Vinothek",
+      "address": "Adresse unbekannt",
+      "lat": 48.1398,
+      "lng": 11.5623,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-260",
+      "city": "münchen",
+      "name": "Olympiapark Biergarten",
+      "address": "Spiridon-Louis-Ring 7",
+      "lat": 48.1744,
+      "lng": 11.5485,
+      "drink": "Maß Hell 1,0l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-261",
+      "city": "münchen",
+      "name": "Cafe Moosach",
+      "address": "Adresse unbekannt",
+      "lat": 48.1794,
+      "lng": 11.5089,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-262",
+      "city": "münchen",
+      "name": "Peoples Lounge",
+      "address": "Adresse unbekannt",
+      "lat": 48.1228,
+      "lng": 11.5462,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "muc-263",
+      "city": "münchen",
+      "name": "Juliets Stüberl",
+      "address": "Clemensstraße 82",
+      "lat": 48.1639,
+      "lng": 11.5718,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-264",
+      "city": "münchen",
+      "name": "Carlito's",
+      "address": "Ohlmüllerstraße 11",
+      "lat": 48.1258,
+      "lng": 11.5793,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-265",
+      "city": "münchen",
+      "name": "Q'UZINO",
+      "address": "Waltramstraße 1",
+      "lat": 48.1065,
+      "lng": 11.5802,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-266",
+      "city": "münchen",
+      "name": "Espinoza",
+      "address": "Adresse unbekannt",
+      "lat": 48.1126,
+      "lng": 11.585,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-267",
+      "city": "münchen",
+      "name": "Cafè Montana",
+      "address": "Adresse unbekannt",
+      "lat": 48.1106,
+      "lng": 11.5941,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-268",
+      "city": "münchen",
+      "name": "Papa Schlumpf",
+      "address": "Adresse unbekannt",
+      "lat": 48.1307,
+      "lng": 11.6184,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-269",
+      "city": "münchen",
+      "name": "Egons Underground",
+      "address": "Willi-Graf-Straße 15",
+      "lat": 48.183,
+      "lng": 11.6128,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-270",
+      "city": "münchen",
+      "name": "Baraki",
+      "address": "Schleißheimer Straße 246",
+      "lat": 48.1714,
+      "lng": 11.565,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-271",
+      "city": "münchen",
+      "name": "Einstein 99",
+      "address": "Adresse unbekannt",
+      "lat": 48.1358,
+      "lng": 11.6058,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-272",
+      "city": "münchen",
+      "name": "ZAYA",
+      "address": "Hofangerstraße 2",
+      "lat": 48.1183,
+      "lng": 11.6303,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-273",
+      "city": "münchen",
+      "name": "Frau im Mond",
+      "address": "Museumsinsel 1",
+      "lat": 48.1292,
+      "lng": 11.5819,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-274",
+      "city": "münchen",
+      "name": "magari",
+      "address": "Adresse unbekannt",
+      "lat": 48.1275,
+      "lng": 11.6086,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-275",
+      "city": "münchen",
+      "name": "Neuhausener Treff",
+      "address": "Adresse unbekannt",
+      "lat": 48.1494,
+      "lng": 11.5364,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-276",
+      "city": "münchen",
+      "name": "Bla",
+      "address": "Adresse unbekannt",
+      "lat": 48.1197,
+      "lng": 11.5563,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-277",
+      "city": "münchen",
+      "name": "Sonnenstüberl",
+      "address": "Adresse unbekannt",
+      "lat": 48.118,
+      "lng": 11.5438,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-278",
+      "city": "münchen",
+      "name": "Boomerang",
+      "address": "Adresse unbekannt",
+      "lat": 48.1207,
+      "lng": 11.5409,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-279",
+      "city": "münchen",
+      "name": "Sava Bar",
+      "address": "Lindwurmstraße 111",
+      "lat": 48.1279,
+      "lng": 11.5554,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "turkish"
+      ]
+    },
+    {
+      "id": "muc-280",
+      "city": "münchen",
+      "name": "Dachgarten - auf dem Gasteig",
+      "address": "Rosenheimer Straße 5",
+      "lat": 48.1306,
+      "lng": 11.5916,
+      "drink": "Maß Hell 1,0l",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-281",
+      "city": "münchen",
+      "name": "Pigalle",
+      "address": "Adresse unbekannt",
+      "lat": 48.1241,
+      "lng": 11.5612,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-282",
+      "city": "münchen",
+      "name": "Tusonido Bar",
+      "address": "Hauptstraße 29",
+      "lat": 48.0628,
+      "lng": 11.6148,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-283",
+      "city": "münchen",
+      "name": "Curtain Call",
+      "address": "Pestalozzistraße 14",
+      "lat": 48.1311,
+      "lng": 11.5672,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-284",
+      "city": "münchen",
+      "name": "Valentin",
+      "address": "Pfisterstraße 9",
+      "lat": 48.1384,
+      "lng": 11.58,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-285",
+      "city": "münchen",
+      "name": "ROJ Bistro Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1105,
+      "lng": 11.5777,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-286",
+      "city": "münchen",
+      "name": "Terra",
+      "address": "Baaderstraße 1",
+      "lat": 48.1334,
+      "lng": 11.5818,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-287",
+      "city": "münchen",
+      "name": "Eintrach - Cafe Bistro",
+      "address": "Adresse unbekannt",
+      "lat": 48.1169,
+      "lng": 11.5906,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-288",
+      "city": "münchen",
+      "name": "Fledermaus",
+      "address": "Ganghoferstraße 74",
+      "lat": 48.1285,
+      "lng": 11.5386,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-289",
+      "city": "münchen",
+      "name": "Le Jardin",
+      "address": "Leopoldstraße 153",
+      "lat": 48.1714,
+      "lng": 11.5856,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-290",
+      "city": "münchen",
+      "name": "Tram-Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1226,
+      "lng": 11.5548,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-291",
+      "city": "münchen",
+      "name": "Isarflimmern München",
+      "address": "Praterwehrbrücke",
+      "lat": 48.1367,
+      "lng": 11.5894,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-292",
+      "city": "münchen",
+      "name": "Zum Doll-Eck",
+      "address": "Adresse unbekannt",
+      "lat": 48.1208,
+      "lng": 11.5777,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-293",
+      "city": "münchen",
+      "name": "Diba",
+      "address": "Adresse unbekannt",
+      "lat": 48.1252,
+      "lng": 11.5502,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-294",
+      "city": "münchen",
+      "name": "KYAH",
+      "address": "Rumfordstraße 2",
+      "lat": 48.1332,
+      "lng": 11.5749,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-295",
+      "city": "münchen",
+      "name": "Arri Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1537,
+      "lng": 11.5777,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-296",
+      "city": "münchen",
+      "name": "La Casina - Vinoteca Bar Cucina",
+      "address": "Frohschammerstraße 14",
+      "lat": 48.1791,
+      "lng": 11.5687,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-297",
+      "city": "münchen",
+      "name": "Kaminbar",
+      "address": "Arnulfstraße 4",
+      "lat": 48.1418,
+      "lng": 11.5594,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-298",
+      "city": "münchen",
+      "name": "Elephant Bar",
+      "address": "Kreillerstraße 64",
+      "lat": 48.1262,
+      "lng": 11.6412,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "friture"
+      ]
+    },
+    {
+      "id": "muc-299",
+      "city": "münchen",
+      "name": "Seasons Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1391,
+      "lng": 11.5819,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-300",
+      "city": "münchen",
+      "name": "Mini Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1521,
+      "lng": 11.5305,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-301",
+      "city": "münchen",
+      "name": "The Boilerman Bar",
+      "address": "Bahnhofplatz 1",
+      "lat": 48.1398,
+      "lng": 11.5615,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-302",
+      "city": "münchen",
+      "name": "Löwenbräu am Grünwalder",
+      "address": "Tegernseer Landstraße 114",
+      "lat": 48.1122,
+      "lng": 11.5759,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "muc-303",
+      "city": "münchen",
+      "name": "Skyline Billard Sportbar",
+      "address": "Münchner Straße 87a",
+      "lat": 48.2447,
+      "lng": 11.4479,
+      "drink": "Helles 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "muc-304",
+      "city": "münchen",
+      "name": "Habe die Ehre",
+      "address": "Thiereckstraße 2",
+      "lat": 48.1381,
+      "lng": 11.5743,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-305",
+      "city": "münchen",
+      "name": "Bikini Mitte",
+      "address": "Sonnenstraße 17",
+      "lat": 48.1368,
+      "lng": 11.5658,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-306",
+      "city": "münchen",
+      "name": "Toros",
+      "address": "Albert-Roßhaupter-Straße 78",
+      "lat": 48.1169,
+      "lng": 11.5284,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-307",
+      "city": "münchen",
+      "name": "Sortie",
+      "address": "Adresse unbekannt",
+      "lat": 48.127,
+      "lng": 11.5963,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-308",
+      "city": "münchen",
+      "name": "Charlatan",
+      "address": "Einsteinstraße 50",
+      "lat": 48.1356,
+      "lng": 11.602,
+      "drink": "Helles vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "muc-309",
+      "city": "münchen",
+      "name": "Tam Tam Treppenbar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1377,
+      "lng": 11.5818,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-310",
+      "city": "münchen",
+      "name": "Anna Bar",
+      "address": "Fraunhoferstraße 24",
+      "lat": 48.1292,
+      "lng": 11.5743,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "italian"
+      ]
+    },
+    {
+      "id": "muc-311",
+      "city": "münchen",
+      "name": "Street Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1301,
+      "lng": 11.6222,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-312",
+      "city": "münchen",
+      "name": "Herr Bartels",
+      "address": "Blumenstraße 21a",
+      "lat": 48.1322,
+      "lng": 11.5717,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-313",
+      "city": "münchen",
+      "name": "TIVO",
+      "address": "Oettingenstraße 74",
+      "lat": 48.1493,
+      "lng": 11.5951,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-314",
+      "city": "münchen",
+      "name": "Ungewitter Bar",
+      "address": "Adresse unbekannt",
+      "lat": 48.1551,
+      "lng": 11.5731,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "muc-315",
+      "city": "münchen",
+      "name": "Max & Moritz - Social Club",
+      "address": "Leopoldstraße 150",
+      "lat": 48.1697,
+      "lng": 11.587,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-316",
+      "city": "münchen",
+      "name": "Terasse",
+      "address": "Adresse unbekannt",
+      "lat": 48.1446,
+      "lng": 11.522,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "muc-317",
+      "city": "münchen",
+      "name": "Gans Woanders",
+      "address": "Pilgersheimer Straße 13",
+      "lat": 48.1183,
+      "lng": 11.5748,
+      "drink": "Bier nach Wahl 0,5l",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "pizza"
+      ]
+    },
+    {
+      "id": "muc-318",
+      "city": "münchen",
+      "name": "OlyLounge",
+      "address": "Adresse unbekannt",
+      "lat": 48.1802,
+      "lng": 11.5526,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "muc-319",
+      "city": "münchen",
+      "name": "milch und bar",
+      "address": "Sonnenstraße 27",
+      "lat": 48.1352,
+      "lng": 11.5662,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-320",
+      "city": "münchen",
+      "name": "Barbarella",
+      "address": "Am Bogen 33",
+      "lat": 48.065,
+      "lng": 11.6659,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-321",
+      "city": "münchen",
+      "name": "P1",
+      "address": "Prinzregentenstraße 1",
+      "lat": 48.1444,
+      "lng": 11.5853,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-322",
+      "city": "münchen",
+      "name": "Sunny Red",
+      "address": "Hansastraße 41",
+      "lat": 48.1283,
+      "lng": 11.5348,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-323",
+      "city": "münchen",
+      "name": "Café Kranhalle",
+      "address": "Hansastraße 39",
+      "lat": 48.1294,
+      "lng": 11.5337,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-324",
+      "city": "münchen",
+      "name": "Sweet",
+      "address": "Maximiliansplatz 5",
+      "lat": 48.1422,
+      "lng": 11.5706,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-325",
+      "city": "münchen",
+      "name": "089 Bar",
+      "address": "Maximiliansplatz 5",
+      "lat": 48.1422,
+      "lng": 11.5699,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-326",
+      "city": "münchen",
+      "name": "Neuraum",
+      "address": "Arnulfstraße 17",
+      "lat": 48.1423,
+      "lng": 11.5512,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-327",
+      "city": "münchen",
+      "name": "Evergreen Dancing",
+      "address": "Neuhauser Straße 47",
+      "lat": 48.1388,
+      "lng": 11.5668,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-328",
+      "city": "münchen",
+      "name": "STROM",
+      "address": "Lindwurmstraße 88",
+      "lat": 48.1249,
+      "lng": 11.5491,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-329",
+      "city": "münchen",
+      "name": "Pimpernel",
+      "address": "Müllerstraße 56",
+      "lat": 48.1323,
+      "lng": 11.5673,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-330",
+      "city": "münchen",
+      "name": "NY.Club",
+      "address": "Elisenstraße 3",
+      "lat": 48.1414,
+      "lng": 11.5628,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-331",
+      "city": "münchen",
+      "name": "BORN TO ROCK",
+      "address": "Landsberger Straße 185",
+      "lat": 48.1396,
+      "lng": 11.5229,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-332",
+      "city": "münchen",
+      "name": "Tanzcafé Maratonga",
+      "address": "Adresse unbekannt",
+      "lat": 48.1342,
+      "lng": 11.5954,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-333",
+      "city": "münchen",
+      "name": "Discothek Crash",
+      "address": "Ainmillerstraße 10",
+      "lat": 48.1586,
+      "lng": 11.5833,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "muc-334",
+      "city": "münchen",
+      "name": "KADE",
+      "address": "Grasmeierstraße 23",
+      "lat": 48.1819,
+      "lng": 11.6116,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-335",
+      "city": "münchen",
+      "name": "La Nuit",
+      "address": "Maximiliansplatz 16",
+      "lat": 48.1418,
+      "lng": 11.5722,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-336",
+      "city": "münchen",
+      "name": "ABC Alte Börse Club",
+      "address": "Lenbachplatz 2a",
+      "lat": 48.1409,
+      "lng": 11.5677,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-337",
+      "city": "münchen",
+      "name": "Closer",
+      "address": "Adresse unbekannt",
+      "lat": 48.1383,
+      "lng": 11.5656,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-338",
+      "city": "münchen",
+      "name": "Die Bombe",
+      "address": "Adresse unbekannt",
+      "lat": 48.1369,
+      "lng": 11.5643,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-339",
+      "city": "münchen",
+      "name": "Palais Club & Bar",
+      "address": "Arnulfstraße 16",
+      "lat": 48.142,
+      "lng": 11.5582,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-340",
+      "city": "münchen",
+      "name": "lieberscholli - space for art, club and culture",
+      "address": "Landsberger Straße 212",
+      "lat": 48.1419,
+      "lng": 11.516,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-341",
+      "city": "münchen",
+      "name": "Blitz Club",
+      "address": "Museumsinsel 1",
+      "lat": 48.1315,
+      "lng": 11.586,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "muc-342",
+      "city": "münchen",
+      "name": "Nachtgalerie",
+      "address": "Landsberger Straße 185",
+      "lat": 48.1401,
+      "lng": 11.5228,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    }
+  ]
+}

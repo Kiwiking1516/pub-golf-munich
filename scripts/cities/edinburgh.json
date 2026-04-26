@@ -1,0 +1,6922 @@
+{
+  "key": "edinburgh",
+  "prefix": "edi",
+  "label": "Edinburgh",
+  "bbox": "55.89,-3.35,55.99,-3.08",
+  "defaultDrink": "Pint of Tennent's",
+  "scrapedAt": "2026-04-26T15:53:47.573Z",
+  "barCount": 475,
+  "bars": [
+    {
+      "id": "edi-001",
+      "city": "edinburgh",
+      "name": "56 North",
+      "address": "2-8 West Crosscauseway",
+      "lat": 55.9441,
+      "lng": -3.1852,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-002",
+      "city": "edinburgh",
+      "name": "Montpeliers",
+      "address": "159A-163A Bruntsfield Place",
+      "lat": 55.9359,
+      "lng": -3.2092,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-003",
+      "city": "edinburgh",
+      "name": "Black Ivy",
+      "address": "Address unknown",
+      "lat": 55.9376,
+      "lng": -3.2028,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-004",
+      "city": "edinburgh",
+      "name": "Lost in Leith",
+      "address": "82 Commercial Street",
+      "lat": 55.9771,
+      "lng": -3.1729,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-005",
+      "city": "edinburgh",
+      "name": "The Finch",
+      "address": "2-4 Bath Road",
+      "lat": 55.9746,
+      "lng": -3.1607,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-006",
+      "city": "edinburgh",
+      "name": "The Captain Darling",
+      "address": "16-18 Hamilton Place",
+      "lat": 55.9582,
+      "lng": -3.208,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "regional",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-007",
+      "city": "edinburgh",
+      "name": "The Volley",
+      "address": "180 Leith Walk",
+      "lat": 55.9674,
+      "lng": -3.1749,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-008",
+      "city": "edinburgh",
+      "name": "The False Widow",
+      "address": "159 Constitution Street",
+      "lat": 55.9711,
+      "lng": -3.1704,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-009",
+      "city": "edinburgh",
+      "name": "Piggs",
+      "address": "171 Bruntsfield Place",
+      "lat": 55.9357,
+      "lng": -3.2096,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-010",
+      "city": "edinburgh",
+      "name": "Monboddo",
+      "address": "Address unknown",
+      "lat": 55.9457,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-011",
+      "city": "edinburgh",
+      "name": "Hey Palu",
+      "address": "47,49 Bread Street",
+      "lat": 55.9459,
+      "lng": -3.2028,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "wine"
+      ]
+    },
+    {
+      "id": "edi-012",
+      "city": "edinburgh",
+      "name": "Secret Arcade",
+      "address": "48 Cockburn Street",
+      "lat": 55.9504,
+      "lng": -3.1888,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-013",
+      "city": "edinburgh",
+      "name": "The Westroom",
+      "address": "3 Melville Place",
+      "lat": 55.9513,
+      "lng": -3.2113,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-014",
+      "city": "edinburgh",
+      "name": "Crybaby",
+      "address": "4-6 Dean Street",
+      "lat": 55.9586,
+      "lng": -3.2104,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-015",
+      "city": "edinburgh",
+      "name": "Good Companions",
+      "address": "2-4 Oxgangs Bank",
+      "lat": 55.9056,
+      "lng": -3.2231,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-016",
+      "city": "edinburgh",
+      "name": "Oh! Outhouse",
+      "address": "12A Broughton Street Lane",
+      "lat": 55.9573,
+      "lng": -3.1871,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-017",
+      "city": "edinburgh",
+      "name": "All Bar One",
+      "address": "29-31 George Street",
+      "lat": 55.9538,
+      "lng": -3.1971,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-018",
+      "city": "edinburgh",
+      "name": "The Ball Room",
+      "address": "25 Jock's Lodge",
+      "lat": 55.9552,
+      "lng": -3.1504,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-019",
+      "city": "edinburgh",
+      "name": "The Street",
+      "address": "2B Picardy Place",
+      "lat": 55.9569,
+      "lng": -3.1878,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-020",
+      "city": "edinburgh",
+      "name": "the basement",
+      "address": "10A-12A Broughton Street",
+      "lat": 55.957,
+      "lng": -3.1884,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-021",
+      "city": "edinburgh",
+      "name": "Folly Spirit Labs",
+      "address": "2-6 Calton Road",
+      "lat": 55.9541,
+      "lng": -3.1874,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-022",
+      "city": "edinburgh",
+      "name": "The Huxley",
+      "address": "1-3 Rutland Street",
+      "lat": 55.95,
+      "lng": -3.2078,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-023",
+      "city": "edinburgh",
+      "name": "C.C. Blooms",
+      "address": "23-24 Greenside Place",
+      "lat": 55.9571,
+      "lng": -3.1852,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-024",
+      "city": "edinburgh",
+      "name": "Malmaison Cafe-Bar",
+      "address": "1 Tower Place",
+      "lat": 55.9779,
+      "lng": -3.1685,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-025",
+      "city": "edinburgh",
+      "name": "Angels Share",
+      "address": "7 Hope Street",
+      "lat": 55.9507,
+      "lng": -3.2078,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-026",
+      "city": "edinburgh",
+      "name": "Decanter",
+      "address": "183 Bruntsfield Place",
+      "lat": 55.9355,
+      "lng": -3.2097,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-027",
+      "city": "edinburgh",
+      "name": "Smith & Gertrude",
+      "address": "254 Portobello High Street",
+      "lat": 55.952,
+      "lng": -3.1106,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-028",
+      "city": "edinburgh",
+      "name": "Downstairs at Betty's",
+      "address": "15-16 Charlotte Lane",
+      "lat": 55.9513,
+      "lng": -3.2096,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-029",
+      "city": "edinburgh",
+      "name": "The Windsor",
+      "address": "45 Elm Row",
+      "lat": 55.9599,
+      "lng": -3.1822,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-030",
+      "city": "edinburgh",
+      "name": "The Fox and Faun",
+      "address": "101 Shandwick Place",
+      "lat": 55.9489,
+      "lng": -3.2106,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-031",
+      "city": "edinburgh",
+      "name": "Piccalilli",
+      "address": "1 Grange Loan",
+      "lat": 55.9339,
+      "lng": -3.1785,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-032",
+      "city": "edinburgh",
+      "name": "Red Squirrel",
+      "address": "21 Lothian Road",
+      "lat": 55.9484,
+      "lng": -3.2061,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible",
+        "burger"
+      ]
+    },
+    {
+      "id": "edi-033",
+      "city": "edinburgh",
+      "name": "All Bar One",
+      "address": "50 Lothian Road",
+      "lat": 55.9475,
+      "lng": -3.207,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-034",
+      "city": "edinburgh",
+      "name": "Buck’s Bar",
+      "address": "32,34 Grindlay Street",
+      "lat": 55.9467,
+      "lng": -3.2048,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-035",
+      "city": "edinburgh",
+      "name": "The Rat Pack",
+      "address": "9 Shandwick Place",
+      "lat": 55.9499,
+      "lng": -3.2084,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-036",
+      "city": "edinburgh",
+      "name": "Voodoo Rooms",
+      "address": "19A West Register Street",
+      "lat": 55.9537,
+      "lng": -3.1906,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-037",
+      "city": "edinburgh",
+      "name": "Old Pal",
+      "address": "28 West Maitland Street",
+      "lat": 55.947,
+      "lng": -3.2158,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-038",
+      "city": "edinburgh",
+      "name": "Tartan-Thistle",
+      "address": "13A Melville Place",
+      "lat": 55.9514,
+      "lng": -3.2116,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-039",
+      "city": "edinburgh",
+      "name": "home",
+      "address": "69 Home Street",
+      "lat": 55.9422,
+      "lng": -3.2032,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-040",
+      "city": "edinburgh",
+      "name": "Back Stage at Bennets",
+      "address": "32 Valleyfield Street",
+      "lat": 55.9417,
+      "lng": -3.2031,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-041",
+      "city": "edinburgh",
+      "name": "Cameo Bar",
+      "address": "4-8 Lochrin Place",
+      "lat": 55.9427,
+      "lng": -3.2041,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-042",
+      "city": "edinburgh",
+      "name": "The Belfry",
+      "address": "Address unknown",
+      "lat": 55.9404,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-043",
+      "city": "edinburgh",
+      "name": "The Cider House",
+      "address": "42 St Stephen Street",
+      "lat": 55.9577,
+      "lng": -3.2066,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-044",
+      "city": "edinburgh",
+      "name": "Grand Cru",
+      "address": "79-81 Hanover Street",
+      "lat": 55.9541,
+      "lng": -3.1972,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-045",
+      "city": "edinburgh",
+      "name": "Bucks Bar",
+      "address": "90 Hanover Street",
+      "lat": 55.9541,
+      "lng": -3.1979,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-046",
+      "city": "edinburgh",
+      "name": "Westside Rodeo",
+      "address": "51A George Street",
+      "lat": 55.9534,
+      "lng": -3.199,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-047",
+      "city": "edinburgh",
+      "name": "Tonic",
+      "address": "34A North Castle Street",
+      "lat": 55.9527,
+      "lng": -3.204,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-048",
+      "city": "edinburgh",
+      "name": "The Slug and Lettuce",
+      "address": "111-113 George Street",
+      "lat": 55.9526,
+      "lng": -3.2041,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-049",
+      "city": "edinburgh",
+      "name": "Browns",
+      "address": "131 George Street",
+      "lat": 55.9523,
+      "lng": -3.2057,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-050",
+      "city": "edinburgh",
+      "name": "Coyote Ugly",
+      "address": "4 South Charlotte Street",
+      "lat": 55.9507,
+      "lng": -3.2063,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-051",
+      "city": "edinburgh",
+      "name": "Ghillie-Dhu",
+      "address": "6 Rutland Place",
+      "lat": 55.9498,
+      "lng": -3.2081,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-052",
+      "city": "edinburgh",
+      "name": "The Makar's Rest",
+      "address": "9 North Bank Street",
+      "lat": 55.9499,
+      "lng": -3.1937,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-053",
+      "city": "edinburgh",
+      "name": "Boston Bar",
+      "address": "104 Hanover Street",
+      "lat": 55.9544,
+      "lng": -3.1981,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-054",
+      "city": "edinburgh",
+      "name": "Le Di-Vin",
+      "address": "9 Randolph Place",
+      "lat": 55.9515,
+      "lng": -3.2099,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-055",
+      "city": "edinburgh",
+      "name": "Indigo Yard",
+      "address": "7 Charlotte Lane",
+      "lat": 55.9511,
+      "lng": -3.2096,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-056",
+      "city": "edinburgh",
+      "name": "The Boozy Cow",
+      "address": "17 Frederick Street",
+      "lat": 55.9521,
+      "lng": -3.1995,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-057",
+      "city": "edinburgh",
+      "name": "Belushi's",
+      "address": "32-34 Market Street",
+      "lat": 55.9512,
+      "lng": -3.1903,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-058",
+      "city": "edinburgh",
+      "name": "4042",
+      "address": "40-42 Grindlay Street",
+      "lat": 55.9468,
+      "lng": -3.2049,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-059",
+      "city": "edinburgh",
+      "name": "elio's",
+      "address": "38A George Street",
+      "lat": 55.9532,
+      "lng": -3.1978,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-060",
+      "city": "edinburgh",
+      "name": "Pickles",
+      "address": "60 Broughton Street",
+      "lat": 55.9587,
+      "lng": -3.1905,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-061",
+      "city": "edinburgh",
+      "name": "The Hanging Bat",
+      "address": "133,135 Lothian Road",
+      "lat": 55.9455,
+      "lng": -3.2051,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "accessible",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-062",
+      "city": "edinburgh",
+      "name": "Mayfield Commonroom",
+      "address": "Address unknown",
+      "lat": 55.9234,
+      "lng": -3.1747,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-063",
+      "city": "edinburgh",
+      "name": "Merienda",
+      "address": "30 North West Circus Place",
+      "lat": 55.9573,
+      "lng": -3.2074,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-064",
+      "city": "edinburgh",
+      "name": "The Caley Bar",
+      "address": "4 Lothian Road",
+      "lat": 55.9498,
+      "lng": -3.2074,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-065",
+      "city": "edinburgh",
+      "name": "Arthur's Food and Drink",
+      "address": "18 Holyrood Park Road",
+      "lat": 55.9397,
+      "lng": -3.17,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-066",
+      "city": "edinburgh",
+      "name": "OX184",
+      "address": "184 Cowgate",
+      "lat": 55.9487,
+      "lng": -3.1882,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-067",
+      "city": "edinburgh",
+      "name": "Smith & Gertrude Wine&Cheese",
+      "address": "26 Hamilton Place",
+      "lat": 55.9583,
+      "lng": -3.2079,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-068",
+      "city": "edinburgh",
+      "name": "The Raging Bull",
+      "address": "161 Lothian Road",
+      "lat": 55.9451,
+      "lng": -3.2049,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-069",
+      "city": "edinburgh",
+      "name": "George IV Bar",
+      "address": "54-55 George IV Bridge",
+      "lat": 55.9481,
+      "lng": -3.1916,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-070",
+      "city": "edinburgh",
+      "name": "Little Picardy",
+      "address": "22 Greenside Place",
+      "lat": 55.957,
+      "lng": -3.1853,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-071",
+      "city": "edinburgh",
+      "name": "Boom Battle Bar",
+      "address": "Address unknown",
+      "lat": 55.9563,
+      "lng": -3.1853,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-072",
+      "city": "edinburgh",
+      "name": "Pilgrim",
+      "address": "3 Robertson's Close",
+      "lat": 55.9488,
+      "lng": -3.186,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-073",
+      "city": "edinburgh",
+      "name": "Rowantree",
+      "address": "8-10 Niddry Street South",
+      "lat": 55.9486,
+      "lng": -3.1865,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-074",
+      "city": "edinburgh",
+      "name": "McGonagalls",
+      "address": "49-50 George IV Bridge",
+      "lat": 55.948,
+      "lng": -3.1915,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-075",
+      "city": "edinburgh",
+      "name": "Jake's Place",
+      "address": "9-13 Market Street",
+      "lat": 55.9509,
+      "lng": -3.1904,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-076",
+      "city": "edinburgh",
+      "name": "The Last Word",
+      "address": "44 St Stephen Street",
+      "lat": 55.9578,
+      "lng": -3.2066,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-077",
+      "city": "edinburgh",
+      "name": "Starter Culture",
+      "address": "43 Argyle Place",
+      "lat": 55.9395,
+      "lng": -3.1917,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-078",
+      "city": "edinburgh",
+      "name": "L'escargot Bleu Wine Bar",
+      "address": "56A Broughton Street",
+      "lat": 55.9586,
+      "lng": -3.1904,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-079",
+      "city": "edinburgh",
+      "name": "Baruno",
+      "address": "113-115 George Street",
+      "lat": 55.9525,
+      "lng": -3.2044,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-080",
+      "city": "edinburgh",
+      "name": "Cellar Monkey",
+      "address": "15-17 Argyle Place",
+      "lat": 55.9383,
+      "lng": -3.1916,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-081",
+      "city": "edinburgh",
+      "name": "Salt Horse",
+      "address": "57-61 Blackfriars Street",
+      "lat": 55.9493,
+      "lng": -3.1855,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-082",
+      "city": "edinburgh",
+      "name": "The Hoppy",
+      "address": "23 Marionville Road",
+      "lat": 55.9574,
+      "lng": -3.1618,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-083",
+      "city": "edinburgh",
+      "name": "Drinks & Dining",
+      "address": "Address unknown",
+      "lat": 55.9463,
+      "lng": -3.1838,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-084",
+      "city": "edinburgh",
+      "name": "Taco Libre Bar",
+      "address": "85-87 Rose Street",
+      "lat": 55.9522,
+      "lng": -3.2008,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-085",
+      "city": "edinburgh",
+      "name": "Lucky Liquor Co.",
+      "address": "39A Queen Street",
+      "lat": 55.9542,
+      "lng": -3.2015,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-086",
+      "city": "edinburgh",
+      "name": "Panda & Sons",
+      "address": "79 Queen Street",
+      "lat": 55.9532,
+      "lng": -3.207,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-087",
+      "city": "edinburgh",
+      "name": "Kitty O’Shea’s",
+      "address": "43B Frederick Street",
+      "lat": 55.9536,
+      "lng": -3.2005,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-088",
+      "city": "edinburgh",
+      "name": "Bar Fifty",
+      "address": "50 Blackfriars Street",
+      "lat": 55.9492,
+      "lng": -3.1861,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-089",
+      "city": "edinburgh",
+      "name": "Fayre Play",
+      "address": "14 Picardy Place",
+      "lat": 55.9571,
+      "lng": -3.1867,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-090",
+      "city": "edinburgh",
+      "name": "Zero/Zero",
+      "address": "18 South Clerk Street",
+      "lat": 55.9406,
+      "lng": -3.181,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-091",
+      "city": "edinburgh",
+      "name": "SkyBar",
+      "address": "Address unknown",
+      "lat": 55.9457,
+      "lng": -3.2036,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-092",
+      "city": "edinburgh",
+      "name": "Good Brothers Wine Cellars",
+      "address": "34 Northumberland Street",
+      "lat": 55.9568,
+      "lng": -3.1987,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-093",
+      "city": "edinburgh",
+      "name": "Brewhemia",
+      "address": "1A Market Street",
+      "lat": 55.9511,
+      "lng": -3.1887,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-094",
+      "city": "edinburgh",
+      "name": "Slug & Lettuce",
+      "address": "61 / 8 Greenside Place",
+      "lat": 55.9563,
+      "lng": -3.1858,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-095",
+      "city": "edinburgh",
+      "name": "The Balmoral Bar",
+      "address": "1 Princes Street",
+      "lat": 55.9531,
+      "lng": -3.1893,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-096",
+      "city": "edinburgh",
+      "name": "Heads & Tales",
+      "address": "1A Rutland Place",
+      "lat": 55.9499,
+      "lng": -3.208,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-097",
+      "city": "edinburgh",
+      "name": "Ecco Vino",
+      "address": "19 Cockburn Street",
+      "lat": 55.9507,
+      "lng": -3.1904,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-098",
+      "city": "edinburgh",
+      "name": "Spry",
+      "address": "1 Haddington Place",
+      "lat": 55.9593,
+      "lng": -3.1839,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-099",
+      "city": "edinburgh",
+      "name": "Cafe Voltaire",
+      "address": "36-38 Blair Street",
+      "lat": 55.9489,
+      "lng": -3.1873,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-100",
+      "city": "edinburgh",
+      "name": "The Hive",
+      "address": "15-17 Niddry Street",
+      "lat": 55.9496,
+      "lng": -3.187,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-101",
+      "city": "edinburgh",
+      "name": "Whiski Rooms",
+      "address": "6 North Bank Street",
+      "lat": 55.9499,
+      "lng": -3.1935,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-102",
+      "city": "edinburgh",
+      "name": "Cask & Vine",
+      "address": "244 Canongate",
+      "lat": 55.9507,
+      "lng": -3.1831,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-103",
+      "city": "edinburgh",
+      "name": "Freddy's",
+      "address": "24A Frederick Street",
+      "lat": 55.9525,
+      "lng": -3.2004,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-104",
+      "city": "edinburgh",
+      "name": "Leith Arches",
+      "address": "99 Leith Walk",
+      "lat": 55.9689,
+      "lng": -3.1729,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-105",
+      "city": "edinburgh",
+      "name": "Nightcap",
+      "address": "3 York Place",
+      "lat": 55.9557,
+      "lng": -3.1925,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-106",
+      "city": "edinburgh",
+      "name": "The Vine Bar",
+      "address": "43-47 North Junction Street",
+      "lat": 55.9772,
+      "lng": -3.18,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-107",
+      "city": "edinburgh",
+      "name": "Bramble",
+      "address": "16A Queen Street",
+      "lat": 55.9549,
+      "lng": -3.1976,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-108",
+      "city": "edinburgh",
+      "name": "Fingers Piano Bar",
+      "address": "61A Frederick Street",
+      "lat": 55.9541,
+      "lng": -3.2008,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-109",
+      "city": "edinburgh",
+      "name": "International Vodka and Beer Bar",
+      "address": "88 Rose Street North Lane",
+      "lat": 55.952,
+      "lng": -3.2024,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-110",
+      "city": "edinburgh",
+      "name": "Planet",
+      "address": "6 Baxter's Place",
+      "lat": 55.9576,
+      "lng": -3.1846,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-111",
+      "city": "edinburgh",
+      "name": "NQ64",
+      "address": "25 Lothian Road",
+      "lat": 55.9483,
+      "lng": -3.2061,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-112",
+      "city": "edinburgh",
+      "name": "Marcos Pool Hall and Pizza Bar",
+      "address": "79 Grove Street",
+      "lat": 55.9444,
+      "lng": -3.2117,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-113",
+      "city": "edinburgh",
+      "name": "Juniper",
+      "address": "20 Princes Street",
+      "lat": 55.9532,
+      "lng": -3.1909,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-114",
+      "city": "edinburgh",
+      "name": "Urban Bar & Grill",
+      "address": "Address unknown",
+      "lat": 55.9681,
+      "lng": -3.2342,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-115",
+      "city": "edinburgh",
+      "name": "Copper Blossom",
+      "address": "107 George Street",
+      "lat": 55.9527,
+      "lng": -3.2034,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-116",
+      "city": "edinburgh",
+      "name": "Casablanca Cocktail Club",
+      "address": "237 Cowgate",
+      "lat": 55.9486,
+      "lng": -3.1872,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-117",
+      "city": "edinburgh",
+      "name": "Supercube Cowgate",
+      "address": "237 Cowgate",
+      "lat": 55.9486,
+      "lng": -3.1871,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-118",
+      "city": "edinburgh",
+      "name": "PDT bar",
+      "address": "Address unknown",
+      "lat": 55.9497,
+      "lng": -3.2088,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-119",
+      "city": "edinburgh",
+      "name": "The Cauldron",
+      "address": "57A Frederick Street",
+      "lat": 55.9541,
+      "lng": -3.2007,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-120",
+      "city": "edinburgh",
+      "name": "Le Petit Raisin Wine Bar",
+      "address": "51 Thistle Street",
+      "lat": 55.954,
+      "lng": -3.1996,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-121",
+      "city": "edinburgh",
+      "name": "Badger & Co",
+      "address": "32 Castle Street",
+      "lat": 55.9521,
+      "lng": -3.2036,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-122",
+      "city": "edinburgh",
+      "name": "Jackson the Tailor",
+      "address": "5-11 Leith Street",
+      "lat": 55.9538,
+      "lng": -3.1882,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-123",
+      "city": "edinburgh",
+      "name": "Caru by Candlelight",
+      "address": "East Market Street",
+      "lat": 55.9514,
+      "lng": -3.1862,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-124",
+      "city": "edinburgh",
+      "name": "The Cocktail Geeks",
+      "address": "27 East Market Street",
+      "lat": 55.9514,
+      "lng": -3.185,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-125",
+      "city": "edinburgh",
+      "name": "Mortal Kocktail",
+      "address": "29 Cockburn Street",
+      "lat": 55.9507,
+      "lng": -3.19,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-126",
+      "city": "edinburgh",
+      "name": "Union Social",
+      "address": "13 Bristo Square",
+      "lat": 55.9449,
+      "lng": -3.1885,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-127",
+      "city": "edinburgh",
+      "name": "The Tap",
+      "address": "Address unknown",
+      "lat": 55.9451,
+      "lng": -3.1995,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-128",
+      "city": "edinburgh",
+      "name": "Broadfields",
+      "address": "96 Northfield Broadway",
+      "lat": 55.9553,
+      "lng": -3.1405,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-129",
+      "city": "edinburgh",
+      "name": "Veeno",
+      "address": "76 Rose Street",
+      "lat": 55.9524,
+      "lng": -3.1986,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-130",
+      "city": "edinburgh",
+      "name": "The Permit Room",
+      "address": "3A St Andrew Square",
+      "lat": 55.9536,
+      "lng": -3.1924,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-131",
+      "city": "edinburgh",
+      "name": "Bread Street Kitchen & Bar",
+      "address": "5 St Andrew Square",
+      "lat": 55.9535,
+      "lng": -3.193,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-132",
+      "city": "edinburgh",
+      "name": "The Wee Vault",
+      "address": "7A West Maitland Street",
+      "lat": 55.9466,
+      "lng": -3.2157,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-133",
+      "city": "edinburgh",
+      "name": "Uno Mas",
+      "address": "4 Picardy Place",
+      "lat": 55.9569,
+      "lng": -3.1875,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-134",
+      "city": "edinburgh",
+      "name": "Bar G+V Hotel",
+      "address": "1 George IV Bridge",
+      "lat": 55.9491,
+      "lng": -3.1927,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-135",
+      "city": "edinburgh",
+      "name": "The Brewbar Lounge",
+      "address": "Address unknown",
+      "lat": 55.94,
+      "lng": -3.3121,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-136",
+      "city": "edinburgh",
+      "name": "Puffin’ Rooms",
+      "address": "11 Lister Square",
+      "lat": 55.9437,
+      "lng": -3.1947,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-137",
+      "city": "edinburgh",
+      "name": "A Wee Taste",
+      "address": "36 Leven Street",
+      "lat": 55.9411,
+      "lng": -3.2033,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-138",
+      "city": "edinburgh",
+      "name": "One 20",
+      "address": "120 Dundas Street",
+      "lat": 55.9597,
+      "lng": -3.2008,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-139",
+      "city": "edinburgh",
+      "name": "Biblos",
+      "address": "1A Chambers Street",
+      "lat": 55.9481,
+      "lng": -3.1868,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-140",
+      "city": "edinburgh",
+      "name": "The Jazz Bar",
+      "address": "1A Chambers Street",
+      "lat": 55.9481,
+      "lng": -3.187,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-141",
+      "city": "edinburgh",
+      "name": "Cask 88",
+      "address": "Address unknown",
+      "lat": 55.9503,
+      "lng": -3.2079,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-142",
+      "city": "edinburgh",
+      "name": "Meadows Tap",
+      "address": "27 Causewayside",
+      "lat": 55.9386,
+      "lng": -3.1815,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-143",
+      "city": "edinburgh",
+      "name": "Mal Bar",
+      "address": "Address unknown",
+      "lat": 55.9549,
+      "lng": -3.1943,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-144",
+      "city": "edinburgh",
+      "name": "House of Gods",
+      "address": "233 Cowgate",
+      "lat": 55.9485,
+      "lng": -3.1874,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-145",
+      "city": "edinburgh",
+      "name": "Little Rascal",
+      "address": "113D St John's Road",
+      "lat": 55.9423,
+      "lng": -3.2797,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-146",
+      "city": "edinburgh",
+      "name": "Moonwake Beer Co.",
+      "address": "6A Tower Street",
+      "lat": 55.9773,
+      "lng": -3.1684,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-147",
+      "city": "edinburgh",
+      "name": "Brass Monkey",
+      "address": "44 Queen Charlotte Street",
+      "lat": 55.9734,
+      "lng": -3.1679,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-148",
+      "city": "edinburgh",
+      "name": "Eve",
+      "address": "18.20 Cowgate",
+      "lat": 55.948,
+      "lng": -3.1931,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-149",
+      "city": "edinburgh",
+      "name": "Herringbone",
+      "address": "Address unknown",
+      "lat": 55.9574,
+      "lng": -3.1729,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-150",
+      "city": "edinburgh",
+      "name": "The Botanist",
+      "address": "Little King Street",
+      "lat": 55.9557,
+      "lng": -3.1881,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-151",
+      "city": "edinburgh",
+      "name": "Flight Club",
+      "address": "300-304 St James Crescent",
+      "lat": 55.9542,
+      "lng": -3.188,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-152",
+      "city": "edinburgh",
+      "name": "Port of Leith Distillery Bar",
+      "address": "11 Whisky Quay",
+      "lat": 55.9828,
+      "lng": -3.1756,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-153",
+      "city": "edinburgh",
+      "name": "The Brief Encounter Speakeasy",
+      "address": "Address unknown",
+      "lat": 55.9589,
+      "lng": -3.2101,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-154",
+      "city": "edinburgh",
+      "name": "Skyline Sips",
+      "address": "Address unknown",
+      "lat": 55.9547,
+      "lng": -3.1875,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-155",
+      "city": "edinburgh",
+      "name": "Castle View Bar",
+      "address": "Address unknown",
+      "lat": 55.9766,
+      "lng": -3.1698,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-156",
+      "city": "edinburgh",
+      "name": "Manahatta",
+      "address": "28 Rose Street",
+      "lat": 55.9529,
+      "lng": -3.196,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-157",
+      "city": "edinburgh",
+      "name": "Encore Edinburgh",
+      "address": "2-4 Hope Street",
+      "lat": 55.9505,
+      "lng": -3.2083,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-158",
+      "city": "edinburgh",
+      "name": "The Lounge Bar at the Scholar",
+      "address": "18 Holyrood Park Road",
+      "lat": 55.9385,
+      "lng": -3.1715,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-159",
+      "city": "edinburgh",
+      "name": "Nor' Loft",
+      "address": "6 Market Street",
+      "lat": 55.951,
+      "lng": -3.1897,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-160",
+      "city": "edinburgh",
+      "name": "The Velvet Lounge",
+      "address": "18 Holyrood Park Road",
+      "lat": 55.938,
+      "lng": -3.1713,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-161",
+      "city": "edinburgh",
+      "name": "Hillside Bowling Club",
+      "address": "9 Brunton Place",
+      "lat": 55.9583,
+      "lng": -3.1746,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "edi-162",
+      "city": "edinburgh",
+      "name": "Lochrin Rooftop Bar",
+      "address": "2 Freer Gait",
+      "lat": 55.9427,
+      "lng": -3.2107,
+      "drink": "Pint of Tennent's",
+      "par": 5,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "edi-163",
+      "city": "edinburgh",
+      "name": "Mamma Roma Whisky & Wine Room",
+      "address": "Address unknown",
+      "lat": 55.9578,
+      "lng": -3.1853,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-164",
+      "city": "edinburgh",
+      "name": "Blackwood Bar",
+      "address": "49 Albany Street",
+      "lat": 55.9573,
+      "lng": -3.1896,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-165",
+      "city": "edinburgh",
+      "name": "The Rusty Seagull",
+      "address": "243 Portobello High Street",
+      "lat": 55.9519,
+      "lng": -3.1112,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "edi-166",
+      "city": "edinburgh",
+      "name": "Swany's",
+      "address": "1 Ratcliffe Terrace",
+      "lat": 55.9348,
+      "lng": -3.1789,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-167",
+      "city": "edinburgh",
+      "name": "Old Bell Inn",
+      "address": "233-235 Causewayside",
+      "lat": 55.9349,
+      "lng": -3.1791,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-168",
+      "city": "edinburgh",
+      "name": "Old Eastway Tap",
+      "address": "216-218 Easter Road",
+      "lat": 55.9623,
+      "lng": -3.1708,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-169",
+      "city": "edinburgh",
+      "name": "Sheep Heid Inn",
+      "address": "43-45 The Causeway",
+      "lat": 55.942,
+      "lng": -3.1485,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "regional",
+        "burger",
+        "pizza",
+        "steak",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-170",
+      "city": "edinburgh",
+      "name": "BrewDog Lothian Road",
+      "address": "50 Lothian Road",
+      "lat": 55.9475,
+      "lng": -3.2066,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-171",
+      "city": "edinburgh",
+      "name": "Guildford Arms",
+      "address": "1-3 West Register Street",
+      "lat": 55.9537,
+      "lng": -3.1902,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-172",
+      "city": "edinburgh",
+      "name": "Seamus’s Pub",
+      "address": "15 Brougham Place",
+      "lat": 55.9423,
+      "lng": -3.2012,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-173",
+      "city": "edinburgh",
+      "name": "Ye Olde Inn",
+      "address": "25 Main Street",
+      "lat": 55.9656,
+      "lng": -3.2738,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-174",
+      "city": "edinburgh",
+      "name": "Scotts",
+      "address": "202 Rose Street",
+      "lat": 55.9513,
+      "lng": -3.2052,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-175",
+      "city": "edinburgh",
+      "name": "Fierce Bar",
+      "address": "167 Rose Street",
+      "lat": 55.9515,
+      "lng": -3.2053,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-176",
+      "city": "edinburgh",
+      "name": "Dirty Dick's",
+      "address": "159 Rose Street",
+      "lat": 55.9515,
+      "lng": -3.205,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-177",
+      "city": "edinburgh",
+      "name": "Rose & Crown",
+      "address": "170 Rose Street",
+      "lat": 55.9515,
+      "lng": -3.2039,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-178",
+      "city": "edinburgh",
+      "name": "The Shoogly Peg",
+      "address": "133 Rose Street",
+      "lat": 55.9517,
+      "lng": -3.204,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-179",
+      "city": "edinburgh",
+      "name": "The Black Cat",
+      "address": "168 Rose Street",
+      "lat": 55.9516,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-180",
+      "city": "edinburgh",
+      "name": "The Kenilworth",
+      "address": "152-154 Rose Street",
+      "lat": 55.9518,
+      "lng": -3.2023,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-181",
+      "city": "edinburgh",
+      "name": "Auld Hundred",
+      "address": "100 Rose Street",
+      "lat": 55.9523,
+      "lng": -3.1994,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-182",
+      "city": "edinburgh",
+      "name": "Rose Street Brewery",
+      "address": "55-57 Rose Street",
+      "lat": 55.9525,
+      "lng": -3.1989,
+      "drink": "Pint of Tennent's",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-183",
+      "city": "edinburgh",
+      "name": "The Black Rose Tavern",
+      "address": "49 Rose Street",
+      "lat": 55.9527,
+      "lng": -3.1981,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-184",
+      "city": "edinburgh",
+      "name": "Milnes of Rose Street",
+      "address": "21-23-25 Rose Street",
+      "lat": 55.953,
+      "lng": -3.1964,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-185",
+      "city": "edinburgh",
+      "name": "The Hermitage",
+      "address": "1,3,5 Comiston Road",
+      "lat": 55.9247,
+      "lng": -3.2095,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-186",
+      "city": "edinburgh",
+      "name": "Cafe Royal",
+      "address": "19 West Register Street",
+      "lat": 55.9538,
+      "lng": -3.1905,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-187",
+      "city": "edinburgh",
+      "name": "Cumberland Bar",
+      "address": "1-3 Cumberland Street",
+      "lat": 55.959,
+      "lng": -3.1972,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-188",
+      "city": "edinburgh",
+      "name": "Bennets",
+      "address": "1A Maxwell Street",
+      "lat": 55.9265,
+      "lng": -3.2095,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-189",
+      "city": "edinburgh",
+      "name": "The Doghouse",
+      "address": "18-24 Clerk Street",
+      "lat": 55.9427,
+      "lng": -3.1825,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-190",
+      "city": "edinburgh",
+      "name": "The Inn On The Mile",
+      "address": "82 High Street",
+      "lat": 55.95,
+      "lng": -3.1873,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-191",
+      "city": "edinburgh",
+      "name": "Malt & Hops",
+      "address": "45 Shore",
+      "lat": 55.9758,
+      "lng": -3.1699,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-192",
+      "city": "edinburgh",
+      "name": "Luckies",
+      "address": "437 Gorgie Road",
+      "lat": 55.9335,
+      "lng": -3.245,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "yea"
+      ]
+    },
+    {
+      "id": "edi-193",
+      "city": "edinburgh",
+      "name": "The Royal Oak",
+      "address": "1 Infirmary Street",
+      "lat": 55.9481,
+      "lng": -3.1862,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-194",
+      "city": "edinburgh",
+      "name": "The Auld Hoose",
+      "address": "23-25 St Leonard's Street",
+      "lat": 55.9435,
+      "lng": -3.1803,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-195",
+      "city": "edinburgh",
+      "name": "The Merlin",
+      "address": "168 Morningside Road",
+      "lat": 55.9292,
+      "lng": -3.2099,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-196",
+      "city": "edinburgh",
+      "name": "The Bailie",
+      "address": "2-4 St Stephen Street",
+      "lat": 55.9575,
+      "lng": -3.2071,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-197",
+      "city": "edinburgh",
+      "name": "Oman's",
+      "address": "1 Peffer Place",
+      "lat": 55.9346,
+      "lng": -3.1418,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-198",
+      "city": "edinburgh",
+      "name": "John Leslie",
+      "address": "47 Ratcliffe Terrace",
+      "lat": 55.934,
+      "lng": -3.1781,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-199",
+      "city": "edinburgh",
+      "name": "Brass Monkey Grange",
+      "address": "1 Grange Road",
+      "lat": 55.9368,
+      "lng": -3.1806,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-200",
+      "city": "edinburgh",
+      "name": "The Cambridge Bar",
+      "address": "20 Young Street",
+      "lat": 55.9527,
+      "lng": -3.206,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-201",
+      "city": "edinburgh",
+      "name": "Oxford Bar",
+      "address": "8 Young Street",
+      "lat": 55.953,
+      "lng": -3.2047,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-202",
+      "city": "edinburgh",
+      "name": "The Cask and Barrel",
+      "address": "113-115 Broughton Street",
+      "lat": 55.9591,
+      "lng": -3.1903,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-203",
+      "city": "edinburgh",
+      "name": "The Regent",
+      "address": "2 Montrose Terrace",
+      "lat": 55.9563,
+      "lng": -3.1719,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-204",
+      "city": "edinburgh",
+      "name": "Saint Leonard’s Bar and Kitchen",
+      "address": "81-85 St Leonard's Street",
+      "lat": 55.9421,
+      "lng": -3.1792,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-205",
+      "city": "edinburgh",
+      "name": "The Esplanade",
+      "address": "62-64 Bath Street",
+      "lat": 55.9549,
+      "lng": -3.1108,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-206",
+      "city": "edinburgh",
+      "name": "Pear Tree",
+      "address": "38 West Nicolson Street",
+      "lat": 55.9444,
+      "lng": -3.1853,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-207",
+      "city": "edinburgh",
+      "name": "Dagda",
+      "address": "93-95 Buccleuch Street",
+      "lat": 55.9421,
+      "lng": -3.1839,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-208",
+      "city": "edinburgh",
+      "name": "The Polwarth Tavern",
+      "address": "35 Polwarth Crescent",
+      "lat": 55.9382,
+      "lng": -3.2182,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-209",
+      "city": "edinburgh",
+      "name": "The Golden Rule",
+      "address": "30 Yeaman Place",
+      "lat": 55.9391,
+      "lng": -3.2188,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-210",
+      "city": "edinburgh",
+      "name": "The Athletic Arms",
+      "address": "1-2-3 Angle Park Terrace",
+      "lat": 55.939,
+      "lng": -3.2238,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-211",
+      "city": "edinburgh",
+      "name": "The Fountain",
+      "address": "131 Dundee Street",
+      "lat": 55.9403,
+      "lng": -3.2179,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-212",
+      "city": "edinburgh",
+      "name": "Thistle Street Bar",
+      "address": "39 Thistle Street",
+      "lat": 55.9541,
+      "lng": -3.199,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-213",
+      "city": "edinburgh",
+      "name": "The Orchard",
+      "address": "1 Howard Place",
+      "lat": 55.9634,
+      "lng": -3.2006,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-214",
+      "city": "edinburgh",
+      "name": "Edinburgh City FC Social Club",
+      "address": "Lochend Road South",
+      "lat": 55.9627,
+      "lng": -3.1594,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "edi-215",
+      "city": "edinburgh",
+      "name": "Teuchters Landing",
+      "address": "1C Dock Place",
+      "lat": 55.9775,
+      "lng": -3.1713,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-216",
+      "city": "edinburgh",
+      "name": "3 Old Monks",
+      "address": "23 Commercial Street",
+      "lat": 55.9765,
+      "lng": -3.1715,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-217",
+      "city": "edinburgh",
+      "name": "The King's Wark",
+      "address": "36 Shore",
+      "lat": 55.9761,
+      "lng": -3.1695,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-218",
+      "city": "edinburgh",
+      "name": "Pleasance Bar",
+      "address": "60 Pleasance",
+      "lat": 55.9478,
+      "lng": -3.1815,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-219",
+      "city": "edinburgh",
+      "name": "Brauhaus",
+      "address": "105 Lauriston Place",
+      "lat": 55.9442,
+      "lng": -3.2019,
+      "drink": "Pint of Tennent's",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "edi-220",
+      "city": "edinburgh",
+      "name": "Ardmillan Hotel",
+      "address": "9,10 Ardmillan Terrace",
+      "lat": 55.9384,
+      "lng": -3.2261,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-221",
+      "city": "edinburgh",
+      "name": "Tynecastle Arms",
+      "address": "92,94 Gorgie Road",
+      "lat": 55.9386,
+      "lng": -3.2302,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-222",
+      "city": "edinburgh",
+      "name": "Bennets Bar",
+      "address": "8 Leven Street",
+      "lat": 55.9417,
+      "lng": -3.2032,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-223",
+      "city": "edinburgh",
+      "name": "Gray's Mill",
+      "address": "Address unknown",
+      "lat": 55.9332,
+      "lng": -3.235,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-224",
+      "city": "edinburgh",
+      "name": "Blue Blazer",
+      "address": "2 Spittal Street",
+      "lat": 55.9459,
+      "lng": -3.2032,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-225",
+      "city": "edinburgh",
+      "name": "West Port Oracle",
+      "address": "27,29,31 West Port",
+      "lat": 55.9467,
+      "lng": -3.1985,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-226",
+      "city": "edinburgh",
+      "name": "Three Sisters",
+      "address": "139 Cowgate",
+      "lat": 55.9481,
+      "lng": -3.1901,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-227",
+      "city": "edinburgh",
+      "name": "Drouthy Neebors",
+      "address": "1 West Preston Street",
+      "lat": 55.9391,
+      "lng": -3.1818,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-228",
+      "city": "edinburgh",
+      "name": "Greenmantle",
+      "address": "44 West Crosscauseway",
+      "lat": 55.9439,
+      "lng": -3.1837,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-229",
+      "city": "edinburgh",
+      "name": "The Malt Shovel",
+      "address": "11-15 Cockburn Street",
+      "lat": 55.9507,
+      "lng": -3.1906,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-230",
+      "city": "edinburgh",
+      "name": "St. Vincent Bar",
+      "address": "11 St Vincent Street",
+      "lat": 55.958,
+      "lng": -3.2035,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-231",
+      "city": "edinburgh",
+      "name": "Roseleaf",
+      "address": "23-24 Sandport Place",
+      "lat": 55.976,
+      "lng": -3.1735,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-232",
+      "city": "edinburgh",
+      "name": "Basils",
+      "address": "9-10-11 Annfield",
+      "lat": 55.9797,
+      "lng": -3.1893,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-233",
+      "city": "edinburgh",
+      "name": "Prom Bar",
+      "address": "Address unknown",
+      "lat": 55.9796,
+      "lng": -3.1876,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-234",
+      "city": "edinburgh",
+      "name": "Dreadnought",
+      "address": "72 North Fort Street",
+      "lat": 55.9789,
+      "lng": -3.1865,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-235",
+      "city": "edinburgh",
+      "name": "The Harbour Inn",
+      "address": "4-6 Fishmarket Square",
+      "lat": 55.9807,
+      "lng": -3.1951,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-236",
+      "city": "edinburgh",
+      "name": "Southsider",
+      "address": "3-7 West Richmond Street",
+      "lat": 55.9452,
+      "lng": -3.1837,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-237",
+      "city": "edinburgh",
+      "name": "The Shore Bar & Restaurant",
+      "address": "3 Shore",
+      "lat": 55.9774,
+      "lng": -3.169,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-238",
+      "city": "edinburgh",
+      "name": "The Granary",
+      "address": "32-34 Shore",
+      "lat": 55.9764,
+      "lng": -3.1693,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-239",
+      "city": "edinburgh",
+      "name": "Three Marys",
+      "address": "63-65 Henderson Street",
+      "lat": 55.9744,
+      "lng": -3.1724,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-240",
+      "city": "edinburgh",
+      "name": "Brewers Fayre",
+      "address": "51-53 Newhaven Place",
+      "lat": 55.9826,
+      "lng": -3.195,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "edi-241",
+      "city": "edinburgh",
+      "name": "Persevere",
+      "address": "398 Easter Road",
+      "lat": 55.9682,
+      "lng": -3.168,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-242",
+      "city": "edinburgh",
+      "name": "Diggers Leith",
+      "address": "7 Bernard Street",
+      "lat": 55.9753,
+      "lng": -3.1672,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-243",
+      "city": "edinburgh",
+      "name": "Carriers Quarters",
+      "address": "42 Bernard Street",
+      "lat": 55.9761,
+      "lng": -3.1686,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-244",
+      "city": "edinburgh",
+      "name": "Port O' Leith",
+      "address": "58 Constitution Street",
+      "lat": 55.9746,
+      "lng": -3.1675,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-245",
+      "city": "edinburgh",
+      "name": "The Bonnington",
+      "address": "284 Bonnington Road",
+      "lat": 55.9691,
+      "lng": -3.1846,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-246",
+      "city": "edinburgh",
+      "name": "Nauticus",
+      "address": "142 Duke Street",
+      "lat": 55.969,
+      "lng": -3.1681,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-247",
+      "city": "edinburgh",
+      "name": "Hectors",
+      "address": "47-49 Deanhaugh Street",
+      "lat": 55.9588,
+      "lng": -3.2097,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-248",
+      "city": "edinburgh",
+      "name": "The Stockbridge Tap",
+      "address": "2-4-6 Raeburn Place",
+      "lat": 55.959,
+      "lng": -3.21,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-249",
+      "city": "edinburgh",
+      "name": "St Bernards Bar",
+      "address": "10 Raeburn Place",
+      "lat": 55.959,
+      "lng": -3.2102,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-250",
+      "city": "edinburgh",
+      "name": "The Antiquary",
+      "address": "72-78 St Stephen Street",
+      "lat": 55.958,
+      "lng": -3.2062,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-251",
+      "city": "edinburgh",
+      "name": "One Canon Mills",
+      "address": "1 Canonmills",
+      "lat": 55.9623,
+      "lng": -3.1972,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-252",
+      "city": "edinburgh",
+      "name": "O’Connor’s",
+      "address": "2-4 Broughton Road",
+      "lat": 55.9626,
+      "lng": -3.1962,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-253",
+      "city": "edinburgh",
+      "name": "Powder Room",
+      "address": "97-99 Broughton Road",
+      "lat": 55.9643,
+      "lng": -3.193,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-254",
+      "city": "edinburgh",
+      "name": "Fox's Bar",
+      "address": "8 Bonnington Road",
+      "lat": 55.9727,
+      "lng": -3.1759,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-255",
+      "city": "edinburgh",
+      "name": "The Tourmalet",
+      "address": "25 Buchanan Street",
+      "lat": 55.9636,
+      "lng": -3.1765,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-256",
+      "city": "edinburgh",
+      "name": "Bowler's Rest",
+      "address": "24 Mitchell Street",
+      "lat": 55.9738,
+      "lng": -3.1646,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-257",
+      "city": "edinburgh",
+      "name": "Brass Monkey",
+      "address": "362 Leith Walk",
+      "lat": 55.964,
+      "lng": -3.1778,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "burger",
+        "hot_dog",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-258",
+      "city": "edinburgh",
+      "name": "Boundary Bar",
+      "address": "379 Leith Walk",
+      "lat": 55.9636,
+      "lng": -3.1777,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-259",
+      "city": "edinburgh",
+      "name": "The Harp & Castle",
+      "address": "298 Leith Walk",
+      "lat": 55.9653,
+      "lng": -3.1767,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-260",
+      "city": "edinburgh",
+      "name": "Alhambra Bar",
+      "address": "227 Leith Walk",
+      "lat": 55.9667,
+      "lng": -3.1748,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-261",
+      "city": "edinburgh",
+      "name": "abode",
+      "address": "229 Leith Walk",
+      "lat": 55.9665,
+      "lng": -3.1749,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-262",
+      "city": "edinburgh",
+      "name": "The Central Bar",
+      "address": "7-9 Leith Walk",
+      "lat": 55.9703,
+      "lng": -3.1717,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-263",
+      "city": "edinburgh",
+      "name": "Spey Lounge",
+      "address": "39 Leith Walk",
+      "lat": 55.9698,
+      "lng": -3.1721,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-264",
+      "city": "edinburgh",
+      "name": "Leith Dockers Social Club",
+      "address": "17-17A Academy Street",
+      "lat": 55.9708,
+      "lng": -3.17,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-265",
+      "city": "edinburgh",
+      "name": "The Angel",
+      "address": "183 Constitution Street",
+      "lat": 55.9706,
+      "lng": -3.1709,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-266",
+      "city": "edinburgh",
+      "name": "Doctors",
+      "address": "32 Forrest Road",
+      "lat": 55.9455,
+      "lng": -3.1909,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-267",
+      "city": "edinburgh",
+      "name": "The Inverleith",
+      "address": "10 Bowhill Terrace",
+      "lat": 55.971,
+      "lng": -3.2074,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-268",
+      "city": "edinburgh",
+      "name": "The Royal Mile Tavern",
+      "address": "127 High Street",
+      "lat": 55.9504,
+      "lng": -3.1868,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-269",
+      "city": "edinburgh",
+      "name": "The Chanter",
+      "address": "30-32 Bread Street",
+      "lat": 55.9457,
+      "lng": -3.2038,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-270",
+      "city": "edinburgh",
+      "name": "Footlights Bar & Grill",
+      "address": "7 Spittal Street",
+      "lat": 55.946,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-271",
+      "city": "edinburgh",
+      "name": "The Albanach",
+      "address": "197 High Street",
+      "lat": 55.9502,
+      "lng": -3.1884,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-272",
+      "city": "edinburgh",
+      "name": "Murrayfield Bar & Kitchen",
+      "address": "57-59 Roseburn Terrace",
+      "lat": 55.9456,
+      "lng": -3.2355,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-273",
+      "city": "edinburgh",
+      "name": "Roseburn Bar",
+      "address": "1-4 Roseburn Terrace",
+      "lat": 55.9454,
+      "lng": -3.2339,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-274",
+      "city": "edinburgh",
+      "name": "Frankenstein",
+      "address": "26 George IV Bridge",
+      "lat": 55.9474,
+      "lng": -3.1917,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-275",
+      "city": "edinburgh",
+      "name": "Wash Bar",
+      "address": "11-13 North Bank Street",
+      "lat": 55.9498,
+      "lng": -3.194,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-276",
+      "city": "edinburgh",
+      "name": "The Ox",
+      "address": "49-51 London Street",
+      "lat": 55.959,
+      "lng": -3.191,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-277",
+      "city": "edinburgh",
+      "name": "The Wildcat",
+      "address": "11-13 Tarvit Street",
+      "lat": 55.9422,
+      "lng": -3.2028,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-278",
+      "city": "edinburgh",
+      "name": "Corstorphine Inn",
+      "address": "11 Corstorphine High Street",
+      "lat": 55.9405,
+      "lng": -3.2833,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-279",
+      "city": "edinburgh",
+      "name": "The Spylaw",
+      "address": "27 Spylaw Street",
+      "lat": 55.9077,
+      "lng": -3.2582,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-280",
+      "city": "edinburgh",
+      "name": "Hebrides West End",
+      "address": "185 Morrison Street",
+      "lat": 55.946,
+      "lng": -3.2135,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-281",
+      "city": "edinburgh",
+      "name": "Haymarket",
+      "address": "11-14A West Maitland Street",
+      "lat": 55.9464,
+      "lng": -3.2162,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-282",
+      "city": "edinburgh",
+      "name": "The Mitre",
+      "address": "131-133 High Street",
+      "lat": 55.9504,
+      "lng": -3.1869,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-283",
+      "city": "edinburgh",
+      "name": "Deacon Brodie's Tavern",
+      "address": "435 Lawnmarket",
+      "lat": 55.9495,
+      "lng": -3.1929,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-284",
+      "city": "edinburgh",
+      "name": "Nobles",
+      "address": "44A Constitution Street",
+      "lat": 55.9749,
+      "lng": -3.1673,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "regional",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-285",
+      "city": "edinburgh",
+      "name": "The Caley Picture House",
+      "address": "31 Lothian Road",
+      "lat": 55.9483,
+      "lng": -3.2061,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-286",
+      "city": "edinburgh",
+      "name": "The Anchor Inn",
+      "address": "114 West Granton Road",
+      "lat": 55.9792,
+      "lng": -3.2314,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-287",
+      "city": "edinburgh",
+      "name": "O’Neill's",
+      "address": "9 Hunter Square",
+      "lat": 55.9496,
+      "lng": -3.1876,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-288",
+      "city": "edinburgh",
+      "name": "Newsroom",
+      "address": "5-11 Leith Street",
+      "lat": 55.9538,
+      "lng": -3.1882,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-289",
+      "city": "edinburgh",
+      "name": "The Links Tavern",
+      "address": "5-7 Restalrig Road",
+      "lat": 55.9696,
+      "lng": -3.1596,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-290",
+      "city": "edinburgh",
+      "name": "The Ormelie Tavern",
+      "address": "44 Joppa Road",
+      "lat": 55.9491,
+      "lng": -3.0986,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-291",
+      "city": "edinburgh",
+      "name": "The Scottish Engineer",
+      "address": "76 Telford Road",
+      "lat": 55.9615,
+      "lng": -3.2417,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-292",
+      "city": "edinburgh",
+      "name": "Malones Irish Bar",
+      "address": "48-52 Constitution Street",
+      "lat": 55.9747,
+      "lng": -3.1674,
+      "drink": "Pint of Tennent's",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-293",
+      "city": "edinburgh",
+      "name": "Jeremiah's Taproom",
+      "address": "7-8 Elm Row",
+      "lat": 55.9584,
+      "lng": -3.1836,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-294",
+      "city": "edinburgh",
+      "name": "Cask & Barrel Southside",
+      "address": "24-26 West Preston Street",
+      "lat": 55.939,
+      "lng": -3.18,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-295",
+      "city": "edinburgh",
+      "name": "Mather’s",
+      "address": "25 Broughton Street",
+      "lat": 55.9571,
+      "lng": -3.1879,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-296",
+      "city": "edinburgh",
+      "name": "Robertsons 37 Bar",
+      "address": "37 Rose Street",
+      "lat": 55.9527,
+      "lng": -3.1977,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-297",
+      "city": "edinburgh",
+      "name": "The Banshee Labyrinth",
+      "address": "29-35 Niddry Street",
+      "lat": 55.9494,
+      "lng": -3.1869,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-298",
+      "city": "edinburgh",
+      "name": "Fiddler's Arms",
+      "address": "11-13 Grassmarket",
+      "lat": 55.9469,
+      "lng": -3.1979,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-299",
+      "city": "edinburgh",
+      "name": "Bow Bar",
+      "address": "80 West Bow",
+      "lat": 55.9484,
+      "lng": -3.1941,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-300",
+      "city": "edinburgh",
+      "name": "Abbotsford",
+      "address": "3-5 Rose Street",
+      "lat": 55.9533,
+      "lng": -3.1947,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-301",
+      "city": "edinburgh",
+      "name": "Joseph Pearce",
+      "address": "23 Elm Row",
+      "lat": 55.959,
+      "lng": -3.183,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-302",
+      "city": "edinburgh",
+      "name": "Scotsman's Lounge",
+      "address": "73 Cockburn Street",
+      "lat": 55.9504,
+      "lng": -3.1881,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-303",
+      "city": "edinburgh",
+      "name": "Teuchters",
+      "address": "26 William Street",
+      "lat": 55.9493,
+      "lng": -3.2123,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-304",
+      "city": "edinburgh",
+      "name": "Conan Doyle",
+      "address": "73 York Place",
+      "lat": 55.9565,
+      "lng": -3.1879,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-305",
+      "city": "edinburgh",
+      "name": "Theatre Royal",
+      "address": "26-27 Greenside Place",
+      "lat": 55.9572,
+      "lng": -3.1851,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-306",
+      "city": "edinburgh",
+      "name": "Oz Bar",
+      "address": "33 Candlemaker Row",
+      "lat": 55.9475,
+      "lng": -3.192,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-307",
+      "city": "edinburgh",
+      "name": "The Castle Arms",
+      "address": "6 Johnston Terrace",
+      "lat": 55.9485,
+      "lng": -3.1947,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-308",
+      "city": "edinburgh",
+      "name": "Penny Black",
+      "address": "43 Leith Street",
+      "lat": 55.9543,
+      "lng": -3.1873,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-309",
+      "city": "edinburgh",
+      "name": "Hebrides Bar",
+      "address": "17 Market Street",
+      "lat": 55.9509,
+      "lng": -3.1907,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-310",
+      "city": "edinburgh",
+      "name": "The Doric",
+      "address": "15-16 Market Street",
+      "lat": 55.9509,
+      "lng": -3.1906,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-311",
+      "city": "edinburgh",
+      "name": "Tiles Bar",
+      "address": "1,2 St Andrew Square",
+      "lat": 55.9536,
+      "lng": -3.1921,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-312",
+      "city": "edinburgh",
+      "name": "Whighams Wine Cellars",
+      "address": "13 Hope Street",
+      "lat": 55.9508,
+      "lng": -3.2079,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-313",
+      "city": "edinburgh",
+      "name": "Element",
+      "address": "112-114 Rose Street",
+      "lat": 55.9521,
+      "lng": -3.2007,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-314",
+      "city": "edinburgh",
+      "name": "Mathers Bar",
+      "address": "1 Queensferry Street",
+      "lat": 55.9502,
+      "lng": -3.2087,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-315",
+      "city": "edinburgh",
+      "name": "Kay's Bar",
+      "address": "39 Jamaica Street West",
+      "lat": 55.9557,
+      "lng": -3.205,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-316",
+      "city": "edinburgh",
+      "name": "Star Bar",
+      "address": "1 Northumberland Place",
+      "lat": 55.9574,
+      "lng": -3.1955,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-317",
+      "city": "edinburgh",
+      "name": "The Barony Bar",
+      "address": "81-85 Broughton Street",
+      "lat": 55.9583,
+      "lng": -3.1894,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-318",
+      "city": "edinburgh",
+      "name": "The Wally Dug",
+      "address": "32 Northumberland Street",
+      "lat": 55.9568,
+      "lng": -3.1986,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-319",
+      "city": "edinburgh",
+      "name": "The Portobello Tap",
+      "address": "87 Portobello High Street",
+      "lat": 55.9542,
+      "lng": -3.1168,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-320",
+      "city": "edinburgh",
+      "name": "Portobello Bar",
+      "address": "187 Portobello High Street",
+      "lat": 55.9524,
+      "lng": -3.1137,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-321",
+      "city": "edinburgh",
+      "name": "The Amber Rose",
+      "address": "22-26 Castle Street",
+      "lat": 55.9518,
+      "lng": -3.2035,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-322",
+      "city": "edinburgh",
+      "name": "The Library Bar",
+      "address": "13 Bristo Square",
+      "lat": 55.945,
+      "lng": -3.189,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-323",
+      "city": "edinburgh",
+      "name": "The Gilded Saloon",
+      "address": "47 Lothian Street",
+      "lat": 55.9462,
+      "lng": -3.1893,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-324",
+      "city": "edinburgh",
+      "name": "The Mother Superior",
+      "address": "96-98 Leith Walk",
+      "lat": 55.9691,
+      "lng": -3.1733,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-325",
+      "city": "edinburgh",
+      "name": "The Earl of Marchmont",
+      "address": "22 Marchmont Crescent",
+      "lat": 55.938,
+      "lng": -3.1929,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-326",
+      "city": "edinburgh",
+      "name": "The Mash Tun",
+      "address": "154-158 Easter Road",
+      "lat": 55.96,
+      "lng": -3.1713,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-327",
+      "city": "edinburgh",
+      "name": "Colinton Inn",
+      "address": "12 Bridge Road",
+      "lat": 55.9075,
+      "lng": -3.2562,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-328",
+      "city": "edinburgh",
+      "name": "Swanny's Bar",
+      "address": "32 North Junction Street",
+      "lat": 55.9764,
+      "lng": -3.1792,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-329",
+      "city": "edinburgh",
+      "name": "Oceana",
+      "address": "145 Ferry Road",
+      "lat": 55.9743,
+      "lng": -3.1856,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-330",
+      "city": "edinburgh",
+      "name": "Thomson's Bar",
+      "address": "182-184 Morrison Street",
+      "lat": 55.9463,
+      "lng": -3.2123,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-331",
+      "city": "edinburgh",
+      "name": "The Voyage of Buck",
+      "address": "29-31 William Street",
+      "lat": 55.9495,
+      "lng": -3.2125,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-332",
+      "city": "edinburgh",
+      "name": "Sandy Bell's",
+      "address": "25 Forrest Road",
+      "lat": 55.9461,
+      "lng": -3.1913,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-333",
+      "city": "edinburgh",
+      "name": "The Norhet",
+      "address": "45 Main Street",
+      "lat": 55.9656,
+      "lng": -3.2726,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-334",
+      "city": "edinburgh",
+      "name": "The Broughton",
+      "address": "46-48A Broughton Street",
+      "lat": 55.9585,
+      "lng": -3.1902,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-335",
+      "city": "edinburgh",
+      "name": "The Grosvenor",
+      "address": "26-28 Shandwick Place",
+      "lat": 55.9498,
+      "lng": -3.2093,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-336",
+      "city": "edinburgh",
+      "name": "Brass Monkey",
+      "address": "14 Drummond Street",
+      "lat": 55.9473,
+      "lng": -3.1853,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-337",
+      "city": "edinburgh",
+      "name": "The Green Room",
+      "address": "19-25 William Street",
+      "lat": 55.9495,
+      "lng": -3.2123,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-338",
+      "city": "edinburgh",
+      "name": "The Blackbird",
+      "address": "37-39 Leven Street",
+      "lat": 55.9411,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-339",
+      "city": "edinburgh",
+      "name": "Hanover Tap",
+      "address": "112 Hanover Street",
+      "lat": 55.9545,
+      "lng": -3.1981,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-340",
+      "city": "edinburgh",
+      "name": "Waterloo Bar",
+      "address": "3 Waterloo Place",
+      "lat": 55.9537,
+      "lng": -3.1881,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-341",
+      "city": "edinburgh",
+      "name": "Whiski",
+      "address": "119 High Street",
+      "lat": 55.9504,
+      "lng": -3.1865,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-342",
+      "city": "edinburgh",
+      "name": "Bar Salsa",
+      "address": "3 Cowgatehead",
+      "lat": 55.9477,
+      "lng": -3.194,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-343",
+      "city": "edinburgh",
+      "name": "Shakespeares",
+      "address": "65,67 Lothian Road",
+      "lat": 55.9476,
+      "lng": -3.2058,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-344",
+      "city": "edinburgh",
+      "name": "The Festival",
+      "address": "18 Morrison Street",
+      "lat": 55.9459,
+      "lng": -3.2063,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-345",
+      "city": "edinburgh",
+      "name": "Queen's Arms",
+      "address": "49 Frederick Street",
+      "lat": 55.9537,
+      "lng": -3.2005,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-346",
+      "city": "edinburgh",
+      "name": "The Playfair",
+      "address": "Leith Walk",
+      "lat": 55.9565,
+      "lng": -3.1857,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-347",
+      "city": "edinburgh",
+      "name": "The Potions Cauldron",
+      "address": "116A Rose Street",
+      "lat": 55.952,
+      "lng": -3.2009,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-348",
+      "city": "edinburgh",
+      "name": "The Alchemist",
+      "address": "51 George Street",
+      "lat": 55.9534,
+      "lng": -3.199,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-349",
+      "city": "edinburgh",
+      "name": "The Captains Bar",
+      "address": "4 South College Street",
+      "lat": 55.947,
+      "lng": -3.1865,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-350",
+      "city": "edinburgh",
+      "name": "Dragonfly",
+      "address": "52 West Port",
+      "lat": 55.9464,
+      "lng": -3.1995,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-351",
+      "city": "edinburgh",
+      "name": "White Lady",
+      "address": "98 St John's Road",
+      "lat": 55.943,
+      "lng": -3.2825,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-352",
+      "city": "edinburgh",
+      "name": "The Jolly Botanist",
+      "address": "256-258-260 Morrison Street",
+      "lat": 55.9463,
+      "lng": -3.2153,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-353",
+      "city": "edinburgh",
+      "name": "Stratfords",
+      "address": "227-229 Gorgie Road",
+      "lat": 55.9371,
+      "lng": -3.2349,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-354",
+      "city": "edinburgh",
+      "name": "Brass Monkey Gorgie",
+      "address": "316-320 Gorgie Road",
+      "lat": 55.9369,
+      "lng": -3.2378,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-355",
+      "city": "edinburgh",
+      "name": "The Royal Dick",
+      "address": "1 Summerhall",
+      "lat": 55.94,
+      "lng": -3.1815,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-356",
+      "city": "edinburgh",
+      "name": "Argyle Bar",
+      "address": "15-17 Argyle Place",
+      "lat": 55.9382,
+      "lng": -3.1916,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-357",
+      "city": "edinburgh",
+      "name": "The Marksman",
+      "address": "13 Duke Street",
+      "lat": 55.9705,
+      "lng": -3.1709,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-358",
+      "city": "edinburgh",
+      "name": "The Advocate",
+      "address": "7 Blair Street",
+      "lat": 55.9495,
+      "lng": -3.188,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "local"
+      ]
+    },
+    {
+      "id": "edi-359",
+      "city": "edinburgh",
+      "name": "The Southern",
+      "address": "22-26 South Clerk Street",
+      "lat": 55.9405,
+      "lng": -3.1809,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-360",
+      "city": "edinburgh",
+      "name": "The Ventoux",
+      "address": "2-4 Brougham Street",
+      "lat": 55.9437,
+      "lng": -3.2029,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-361",
+      "city": "edinburgh",
+      "name": "The Grapes",
+      "address": "77 Clerk Street",
+      "lat": 55.9415,
+      "lng": -3.1818,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-362",
+      "city": "edinburgh",
+      "name": "Cloisters Bar",
+      "address": "26 Brougham Street",
+      "lat": 55.9433,
+      "lng": -3.2019,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-363",
+      "city": "edinburgh",
+      "name": "Finnegan's Wake",
+      "address": "9B Victoria Street",
+      "lat": 55.9486,
+      "lng": -3.1935,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-364",
+      "city": "edinburgh",
+      "name": "Black Bull",
+      "address": "12-18 Grassmarket",
+      "lat": 55.9473,
+      "lng": -3.1975,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-365",
+      "city": "edinburgh",
+      "name": "The Beehive",
+      "address": "18,20 Grassmarket",
+      "lat": 55.9474,
+      "lng": -3.1972,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-366",
+      "city": "edinburgh",
+      "name": "The White Hart Inn",
+      "address": "34 Grassmarket",
+      "lat": 55.9475,
+      "lng": -3.1968,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-367",
+      "city": "edinburgh",
+      "name": "The Last Drop",
+      "address": "74,76,78 Grassmarket",
+      "lat": 55.9478,
+      "lng": -3.1953,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-368",
+      "city": "edinburgh",
+      "name": "Maggie Dickson's",
+      "address": "92 Grassmarket",
+      "lat": 55.9479,
+      "lng": -3.1951,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-369",
+      "city": "edinburgh",
+      "name": "Biddy Mulligans",
+      "address": "94,96 Grassmarket",
+      "lat": 55.948,
+      "lng": -3.1949,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-370",
+      "city": "edinburgh",
+      "name": "Ensign Ewart",
+      "address": "521-523 Lawnmarket",
+      "lat": 55.9492,
+      "lng": -3.1945,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-371",
+      "city": "edinburgh",
+      "name": "The Jolly Judge",
+      "address": "7 James's Court",
+      "lat": 55.9495,
+      "lng": -3.1939,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-372",
+      "city": "edinburgh",
+      "name": "Greyfriars Bobby",
+      "address": "34 Candlemaker Row",
+      "lat": 55.9468,
+      "lng": -3.1915,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-373",
+      "city": "edinburgh",
+      "name": "Bannerman's Bar",
+      "address": "212 Cowgate",
+      "lat": 55.9488,
+      "lng": -3.1866,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-374",
+      "city": "edinburgh",
+      "name": "Dickens",
+      "address": "88 Dalry Road",
+      "lat": 55.9439,
+      "lng": -3.219,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-375",
+      "city": "edinburgh",
+      "name": "Bensons Bar",
+      "address": "178,180,182 Dalry Road",
+      "lat": 55.9414,
+      "lng": -3.2235,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-376",
+      "city": "edinburgh",
+      "name": "Malones",
+      "address": "242 Morrison Street",
+      "lat": 55.9463,
+      "lng": -3.2144,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-377",
+      "city": "edinburgh",
+      "name": "Kings Arms",
+      "address": "45 Home Street",
+      "lat": 55.9427,
+      "lng": -3.2033,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-378",
+      "city": "edinburgh",
+      "name": "Clark's Bar",
+      "address": "142 Dundas Street",
+      "lat": 55.9602,
+      "lng": -3.2011,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-379",
+      "city": "edinburgh",
+      "name": "Steel Coulson Southside",
+      "address": "114 Causewayside",
+      "lat": 55.9373,
+      "lng": -3.1808,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-380",
+      "city": "edinburgh",
+      "name": "Porters Bar",
+      "address": "7-8 Piershill Place",
+      "lat": 55.9549,
+      "lng": -3.1475,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-381",
+      "city": "edinburgh",
+      "name": "The Scottie Pub",
+      "address": "Address unknown",
+      "lat": 55.9555,
+      "lng": -3.1405,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-382",
+      "city": "edinburgh",
+      "name": "Duke's",
+      "address": "31 Duke Street",
+      "lat": 55.9701,
+      "lng": -3.17,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-383",
+      "city": "edinburgh",
+      "name": "The Joker & The Thief",
+      "address": "71 Elm Row",
+      "lat": 55.9606,
+      "lng": -3.1813,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-384",
+      "city": "edinburgh",
+      "name": "Victoria",
+      "address": "265 Leith Walk",
+      "lat": 55.9657,
+      "lng": -3.1756,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-385",
+      "city": "edinburgh",
+      "name": "Leith Depot",
+      "address": "138-140 Leith Walk",
+      "lat": 55.9682,
+      "lng": -3.1741,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-386",
+      "city": "edinburgh",
+      "name": "Robbie's",
+      "address": "367 Leith Walk",
+      "lat": 55.9637,
+      "lng": -3.1774,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-387",
+      "city": "edinburgh",
+      "name": "Satyr",
+      "address": "260-262 Leith Walk",
+      "lat": 55.9661,
+      "lng": -3.1759,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-388",
+      "city": "edinburgh",
+      "name": "Middletons",
+      "address": "69 Easter Road",
+      "lat": 55.9598,
+      "lng": -3.1717,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-389",
+      "city": "edinburgh",
+      "name": "Iona Bar",
+      "address": "203 Easter Road",
+      "lat": 55.9632,
+      "lng": -3.171,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-390",
+      "city": "edinburgh",
+      "name": "Tamsons",
+      "address": "280 Easter Road",
+      "lat": 55.9645,
+      "lng": -3.1703,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-391",
+      "city": "edinburgh",
+      "name": "Grey Horse",
+      "address": "200 Dalkeith Road",
+      "lat": 55.9332,
+      "lng": -3.1663,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-392",
+      "city": "edinburgh",
+      "name": "Devil's Advocate",
+      "address": "9 Advocate's Close",
+      "lat": 55.9503,
+      "lng": -3.1916,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-393",
+      "city": "edinburgh",
+      "name": "Boathouse",
+      "address": "3 King's Place",
+      "lat": 55.9582,
+      "lng": -3.1189,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-394",
+      "city": "edinburgh",
+      "name": "The Wee Red Bar",
+      "address": "74 Lauriston Place",
+      "lat": 55.9458,
+      "lng": -3.1978,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-395",
+      "city": "edinburgh",
+      "name": "Wilkies",
+      "address": "1 Henderson Street",
+      "lat": 55.9716,
+      "lng": -3.1734,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-396",
+      "city": "edinburgh",
+      "name": "The Wee Pub",
+      "address": "94-96 Grassmarket",
+      "lat": 55.9479,
+      "lng": -3.195,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-397",
+      "city": "edinburgh",
+      "name": "Westsider",
+      "address": "2 Wester Hailes Centre",
+      "lat": 55.9157,
+      "lng": -3.2861,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-398",
+      "city": "edinburgh",
+      "name": "Leith Social Club",
+      "address": "39 Great Junction Street",
+      "lat": 55.971,
+      "lng": -3.173,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "edi-399",
+      "city": "edinburgh",
+      "name": "Mad Hatter",
+      "address": "8 Torphichen Place",
+      "lat": 55.9464,
+      "lng": -3.2144,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-400",
+      "city": "edinburgh",
+      "name": "Platform 5",
+      "address": "8 Clifton Terrace",
+      "lat": 55.946,
+      "lng": -3.2184,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-401",
+      "city": "edinburgh",
+      "name": "The Halfway House",
+      "address": "24 Fleshmarket Close",
+      "lat": 55.951,
+      "lng": -3.1889,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-402",
+      "city": "edinburgh",
+      "name": "The Jinglin' Geordie",
+      "address": "22 Fleshmarket Close",
+      "lat": 55.9509,
+      "lng": -3.1889,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-403",
+      "city": "edinburgh",
+      "name": "The Canny Man's",
+      "address": "237 Morningside Road",
+      "lat": 55.9276,
+      "lng": -3.2091,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-404",
+      "city": "edinburgh",
+      "name": "Whistle Binkies",
+      "address": "4-6 South Bridge",
+      "lat": 55.9499,
+      "lng": -3.1873,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-405",
+      "city": "edinburgh",
+      "name": "The Terrace",
+      "address": "73 Saughton Road North",
+      "lat": 55.9366,
+      "lng": -3.2789,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-406",
+      "city": "edinburgh",
+      "name": "The Waverley",
+      "address": "3-5 St Mary's Street",
+      "lat": 55.9505,
+      "lng": -3.1843,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-407",
+      "city": "edinburgh",
+      "name": "The World's End",
+      "address": "2-8 High Street",
+      "lat": 55.9505,
+      "lng": -3.1843,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "brewery",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-408",
+      "city": "edinburgh",
+      "name": "West Nic Records",
+      "address": "32B West Nicolson Street",
+      "lat": 55.9445,
+      "lng": -3.1852,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-409",
+      "city": "edinburgh",
+      "name": "The Parliament Arms",
+      "address": "67 Canongate",
+      "district": "canongate",
+      "lat": 55.9522,
+      "lng": -3.177,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-410",
+      "city": "edinburgh",
+      "name": "The Abbey",
+      "address": "65-67 South Clerk Street",
+      "lat": 55.9395,
+      "lng": -3.1796,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-411",
+      "city": "edinburgh",
+      "name": "Tanners",
+      "address": "459 Lanark Road",
+      "lat": 55.9072,
+      "lng": -3.2747,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-412",
+      "city": "edinburgh",
+      "name": "The Canons' Gait",
+      "address": "232 Canongate",
+      "district": "canongate",
+      "lat": 55.9508,
+      "lng": -3.1824,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-413",
+      "city": "edinburgh",
+      "name": "The Strathmore Bar",
+      "address": "17 Iona Street",
+      "lat": 55.9639,
+      "lng": -3.1763,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-414",
+      "city": "edinburgh",
+      "name": "The Alexander Graham Bell",
+      "address": "126-128 George Street",
+      "lat": 55.9519,
+      "lng": -3.2053,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible",
+        "food",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-415",
+      "city": "edinburgh",
+      "name": "The Standing Order",
+      "address": "62-66 George Street",
+      "lat": 55.9529,
+      "lng": -3.1996,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible",
+        "food",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "edi-416",
+      "city": "edinburgh",
+      "name": "Gladstones",
+      "address": "1-2 Mill Lane",
+      "lat": 55.9746,
+      "lng": -3.1776,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-417",
+      "city": "edinburgh",
+      "name": "The Waverley Inn",
+      "address": "8 Southhouse Broadway",
+      "lat": 55.9011,
+      "lng": -3.1571,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-418",
+      "city": "edinburgh",
+      "name": "No.1 High Street",
+      "address": "1 High Street",
+      "lat": 55.9507,
+      "lng": -3.1844,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-419",
+      "city": "edinburgh",
+      "name": "Campervan Brewery Tap Room",
+      "address": "108 Jane Street",
+      "lat": 55.9711,
+      "lng": -3.1777,
+      "drink": "Pint of Tennent's",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "edi-420",
+      "city": "edinburgh",
+      "name": "Otherworld",
+      "address": "Address unknown",
+      "lat": 55.962,
+      "lng": -3.1794,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-421",
+      "city": "edinburgh",
+      "name": "Common Room",
+      "address": "Address unknown",
+      "lat": 55.9407,
+      "lng": -3.2156,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-422",
+      "city": "edinburgh",
+      "name": "The Caley Sample Room",
+      "address": "42-58 Angle Park Terrace",
+      "lat": 55.9377,
+      "lng": -3.2258,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-423",
+      "city": "edinburgh",
+      "name": "Logan’s Rest",
+      "address": "79 Restalrig Road South",
+      "lat": 55.9591,
+      "lng": -3.15,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-424",
+      "city": "edinburgh",
+      "name": "The Safari Lounge",
+      "address": "21 Cadzow Place",
+      "lat": 55.9571,
+      "lng": -3.1677,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "edi-425",
+      "city": "edinburgh",
+      "name": "The Laich",
+      "address": "477A Gorgie Road",
+      "lat": 55.932,
+      "lng": -3.2494,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-426",
+      "city": "edinburgh",
+      "name": "Ryan's Bar",
+      "address": "2-4 Hope Street",
+      "lat": 55.9504,
+      "lng": -3.2083,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-427",
+      "city": "edinburgh",
+      "name": "Silver Wing",
+      "address": "2 Parkhead Gardens",
+      "lat": 55.9242,
+      "lng": -3.2771,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-428",
+      "city": "edinburgh",
+      "name": "The Foresters Guild",
+      "address": "40 Portobello High Street",
+      "lat": 55.9551,
+      "lng": -3.1178,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-429",
+      "city": "edinburgh",
+      "name": "Ferry Boat Bar",
+      "address": "Address unknown",
+      "lat": 55.9672,
+      "lng": -3.2464,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-430",
+      "city": "edinburgh",
+      "name": "The Galleon",
+      "address": "88 Portobello High Street",
+      "lat": 55.9542,
+      "lng": -3.1163,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-431",
+      "city": "edinburgh",
+      "name": "The Raeburn",
+      "address": "112 Raeburn Place",
+      "lat": 55.9595,
+      "lng": -3.2148,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-432",
+      "city": "edinburgh",
+      "name": "Dropkick Murphys",
+      "address": "7 Merchant Street",
+      "lat": 55.9478,
+      "lng": -3.1914,
+      "drink": "Pint of Tennent's",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "edi-433",
+      "city": "edinburgh",
+      "name": "The Waiting Room",
+      "address": "7-8 Belhaven Terrace",
+      "lat": 55.9253,
+      "lng": -3.2104,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-434",
+      "city": "edinburgh",
+      "name": "Gilmerton Miners Welfare Social Club",
+      "address": "4 Newtoft Street",
+      "lat": 55.9055,
+      "lng": -3.135,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "edi-435",
+      "city": "edinburgh",
+      "name": "Stable Bar",
+      "address": "50 Mortonhall Gate",
+      "lat": 55.9039,
+      "lng": -3.1814,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "pub_food"
+      ]
+    },
+    {
+      "id": "edi-436",
+      "city": "edinburgh",
+      "name": "Tipsy Midgie",
+      "address": "67 St Leonard's Hill",
+      "lat": 55.9435,
+      "lng": -3.1782,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-437",
+      "city": "edinburgh",
+      "name": "Bellfield Taproom",
+      "address": "46 Stanley Place",
+      "lat": 55.9558,
+      "lng": -3.1643,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-438",
+      "city": "edinburgh",
+      "name": "Artful Dodger",
+      "address": "485 Calder Road",
+      "lat": 55.9226,
+      "lng": -3.2865,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-439",
+      "city": "edinburgh",
+      "name": "Mechanic Arms",
+      "address": "36 Drum Street",
+      "lat": 55.9052,
+      "lng": -3.1323,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-440",
+      "city": "edinburgh",
+      "name": "Brewdog Doghouse Bar & Terrace",
+      "address": "Address unknown",
+      "lat": 55.9514,
+      "lng": -3.1828,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-441",
+      "city": "edinburgh",
+      "name": "Eighteen 74 Bar",
+      "address": "Address unknown",
+      "lat": 55.9387,
+      "lng": -3.2312,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-442",
+      "city": "edinburgh",
+      "name": "MacKays on the Mile",
+      "address": "223 Canongate",
+      "lat": 55.9512,
+      "lng": -3.1814,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-443",
+      "city": "edinburgh",
+      "name": "Keller",
+      "address": "23-27 Broughton Street Lane",
+      "lat": 55.9573,
+      "lng": -3.1877,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-444",
+      "city": "edinburgh",
+      "name": "Newbarns Taproom",
+      "address": "Address unknown",
+      "lat": 55.9692,
+      "lng": -3.1744,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-445",
+      "city": "edinburgh",
+      "name": "Vessel",
+      "address": "73 Hanover Street",
+      "lat": 55.954,
+      "lng": -3.1972,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-446",
+      "city": "edinburgh",
+      "name": "The Wee Vault Taproom",
+      "address": "7A West Maitland Street",
+      "lat": 55.9474,
+      "lng": -3.214,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "edi-447",
+      "city": "edinburgh",
+      "name": "Heriot Watt Student Union",
+      "address": "Address unknown",
+      "lat": 55.9111,
+      "lng": -3.3181,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-448",
+      "city": "edinburgh",
+      "name": "The Salisbury Arms",
+      "address": "58 Dalkeith Road",
+      "lat": 55.9382,
+      "lng": -3.1739,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-449",
+      "city": "edinburgh",
+      "name": "Cuddie Brae",
+      "address": "91 Newcraighall Road",
+      "lat": 55.9349,
+      "lng": -3.0945,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-450",
+      "city": "edinburgh",
+      "name": "Old Chain Pier",
+      "address": "32 Trinity Crescent",
+      "lat": 55.98,
+      "lng": -3.2042,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-451",
+      "city": "edinburgh",
+      "name": "Melville Inn",
+      "address": "Address unknown",
+      "lat": 55.8951,
+      "lng": -3.0964,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-452",
+      "city": "edinburgh",
+      "name": "Tolbooth Tavern",
+      "address": "167 Canongate",
+      "lat": 55.9515,
+      "lng": -3.1802,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-453",
+      "city": "edinburgh",
+      "name": "Cramond Inn",
+      "address": "30 Cramond Glebe Road",
+      "lat": 55.9797,
+      "lng": -3.3,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-454",
+      "city": "edinburgh",
+      "name": "Winstons",
+      "address": "20 Kirk Loan",
+      "lat": 55.9423,
+      "lng": -3.2816,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-455",
+      "city": "edinburgh",
+      "name": "The Golf Tavern",
+      "address": "30-31 Wright's Houses",
+      "lat": 55.9399,
+      "lng": -3.2037,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-456",
+      "city": "edinburgh",
+      "name": "The Ball Room",
+      "address": "3 Jordan Lane",
+      "lat": 55.9269,
+      "lng": -3.208,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-457",
+      "city": "edinburgh",
+      "name": "The Steading",
+      "address": "118-120 Biggar Road",
+      "lat": 55.8905,
+      "lng": -3.2011,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-458",
+      "city": "edinburgh",
+      "name": "The Torfin",
+      "address": "108,110 St John's Road",
+      "lat": 55.9431,
+      "lng": -3.283,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-459",
+      "city": "edinburgh",
+      "name": "The Tarbet",
+      "address": "243 St John's Road",
+      "lat": 55.9429,
+      "lng": -3.2885,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-460",
+      "city": "edinburgh",
+      "name": "Robins Nest",
+      "address": "393 Gilmerton Road",
+      "lat": 55.9151,
+      "lng": -3.1492,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-461",
+      "city": "edinburgh",
+      "name": "Ryries",
+      "address": "1 Haymarket",
+      "lat": 55.9458,
+      "lng": -3.2174,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-462",
+      "city": "edinburgh",
+      "name": "Kinleith Mill",
+      "address": "604 Lanark Road",
+      "lat": 55.9023,
+      "lng": -3.2885,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-463",
+      "city": "edinburgh",
+      "name": "Village Inn",
+      "address": "30 Inglis Green Road",
+      "lat": 55.925,
+      "lng": -3.2552,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-464",
+      "city": "edinburgh",
+      "name": "The New Kingsknowe",
+      "address": "193-195 Kingsknowe Road North",
+      "lat": 55.9198,
+      "lng": -3.2647,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-465",
+      "city": "edinburgh",
+      "name": "The Clermiston",
+      "address": "9 Rannoch Road",
+      "lat": 55.9551,
+      "lng": -3.2854,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-466",
+      "city": "edinburgh",
+      "name": "The Riccarton Inn",
+      "address": "198 Lanark Road West",
+      "lat": 55.8965,
+      "lng": -3.3095,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-467",
+      "city": "edinburgh",
+      "name": "Edmonstone Inn",
+      "address": "111 Edmonstone Road",
+      "lat": 55.9172,
+      "lng": -3.1143,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-468",
+      "city": "edinburgh",
+      "name": "The Artisan",
+      "address": "35-36 London Road",
+      "lat": 55.9575,
+      "lng": -3.1694,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "edi-469",
+      "city": "edinburgh",
+      "name": "The Holyrood 9A",
+      "address": "9A Holyrood Road",
+      "lat": 55.9494,
+      "lng": -3.1827,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "brewery"
+      ]
+    },
+    {
+      "id": "edi-470",
+      "city": "edinburgh",
+      "name": "Mid Yoken Pub",
+      "address": "Address unknown",
+      "lat": 55.9521,
+      "lng": -3.3031,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-471",
+      "city": "edinburgh",
+      "name": "The Starbank Inn",
+      "address": "60-64 Laverockbank Road",
+      "lat": 55.9799,
+      "lng": -3.2021,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "edi-472",
+      "city": "edinburgh",
+      "name": "The Woodhall Arms",
+      "address": "135-137 Lanark Road West",
+      "lat": 55.8969,
+      "lng": -3.3049,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-473",
+      "city": "edinburgh",
+      "name": "Booking Office",
+      "address": "17 Waverley Bridge",
+      "lat": 55.9518,
+      "lng": -3.1914,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "id": "edi-474",
+      "city": "edinburgh",
+      "name": "Hunter's Tryst",
+      "address": "97 Oxgangs Road",
+      "lat": 55.9023,
+      "lng": -3.2209,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "edi-475",
+      "city": "edinburgh",
+      "name": "BrewDog",
+      "address": "Address unknown",
+      "lat": 55.9523,
+      "lng": -3.189,
+      "drink": "Pint of Tennent's",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "accessible"
+      ]
+    }
+  ]
+}

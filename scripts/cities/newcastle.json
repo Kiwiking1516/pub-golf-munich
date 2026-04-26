@@ -1,0 +1,6223 @@
+{
+  "key": "newcastle",
+  "prefix": "new",
+  "label": "Newcastle",
+  "bbox": "migrated",
+  "defaultDrink": "Pint of Newcastle Brown",
+  "scrapedAt": "2026-04-03T08:03:05.796Z",
+  "barCount": 422,
+  "bars": [
+    {
+      "id": "new-001",
+      "city": "newcastle",
+      "name": "The Black & White Bull",
+      "address": "Barrack Road",
+      "lat": 54.9757,
+      "lng": -1.6273,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-002",
+      "city": "newcastle",
+      "name": "Bacchus",
+      "address": "42-48 High Bridge",
+      "lat": 54.9723,
+      "lng": -1.6111,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-003",
+      "city": "newcastle",
+      "name": "The Peacock",
+      "address": "Address unknown",
+      "lat": 55,
+      "lng": -1.6447,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-004",
+      "city": "newcastle",
+      "name": "The Charles Grey",
+      "address": "118 Grey Street",
+      "lat": 54.9739,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-005",
+      "city": "newcastle",
+      "name": "The Holy Hobo",
+      "address": "Address unknown",
+      "lat": 54.9813,
+      "lng": -1.606,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-006",
+      "city": "newcastle",
+      "name": "The Tanners Arms",
+      "address": "1 Byker Bridge",
+      "lat": 54.9747,
+      "lng": -1.5964,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-007",
+      "city": "newcastle",
+      "name": "The Cluny",
+      "address": "36 Lime Street",
+      "lat": 54.9751,
+      "lng": -1.5918,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-008",
+      "city": "newcastle",
+      "name": "Newcastle Arms",
+      "address": "57 St Andrews Street",
+      "lat": 54.9733,
+      "lng": -1.619,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-009",
+      "city": "newcastle",
+      "name": "Alfie's",
+      "address": "2-4 Argyle Street",
+      "lat": 54.9742,
+      "lng": -1.6038,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-010",
+      "city": "newcastle",
+      "name": "Rose & Crown",
+      "address": "5-7 Newgate Street",
+      "lat": 54.9715,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-011",
+      "city": "newcastle",
+      "name": "Filthy's",
+      "address": "22 - 24 Bigg Market",
+      "lat": 54.9715,
+      "lng": -1.6146,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-012",
+      "city": "newcastle",
+      "name": "Sgt. Peppers",
+      "address": "14 Vine Lane",
+      "lat": 54.9775,
+      "lng": -1.6126,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-013",
+      "city": "newcastle",
+      "name": "The Dog & Parrot",
+      "address": "52 Clayton Street West",
+      "lat": 54.9686,
+      "lng": -1.6209,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-014",
+      "city": "newcastle",
+      "name": "The Hotspur",
+      "address": "103 Percy Street",
+      "lat": 54.9771,
+      "lng": -1.6152,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-015",
+      "city": "newcastle",
+      "name": "Madisons",
+      "address": "10 Leazes Lane",
+      "lat": 54.975,
+      "lng": -1.6175,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-016",
+      "city": "newcastle",
+      "name": "Three Bulls Heads",
+      "address": "57-59 Percy Street",
+      "lat": 54.9758,
+      "lng": -1.6166,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-017",
+      "city": "newcastle",
+      "name": "The Magpie",
+      "address": "Percy Street",
+      "lat": 54.9755,
+      "lng": -1.6169,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-018",
+      "city": "newcastle",
+      "name": "Blanc",
+      "address": "Address unknown",
+      "lat": 54.99,
+      "lng": -1.6045,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-019",
+      "city": "newcastle",
+      "name": "Billabong",
+      "address": "64-78 Osborne Road",
+      "lat": 54.9913,
+      "lng": -1.6038,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-020",
+      "city": "newcastle",
+      "name": "Spy",
+      "address": "82-86 Osborne Road",
+      "lat": 54.9916,
+      "lng": -1.6036,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-021",
+      "city": "newcastle",
+      "name": "The Canny Lad",
+      "address": "63 Newgate Street",
+      "lat": 54.9721,
+      "lng": -1.6172,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-022",
+      "city": "newcastle",
+      "name": "Benton Ale House",
+      "address": "Front Street",
+      "district": "benton",
+      "lat": 55.0097,
+      "lng": -1.5769,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "new-023",
+      "city": "newcastle",
+      "name": "Maiden Over",
+      "address": "Low Heworth Lane",
+      "lat": 54.9527,
+      "lng": -1.5524,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-024",
+      "city": "newcastle",
+      "name": "The Azure Blue",
+      "address": "100 Eastbourne Avenue",
+      "district": "bensham",
+      "lat": 54.9504,
+      "lng": -1.606,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-025",
+      "city": "newcastle",
+      "name": "Gateshead Corporation Social Club",
+      "address": "357 Alexandra Road",
+      "lat": 54.9508,
+      "lng": -1.6033,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-026",
+      "city": "newcastle",
+      "name": "Centurion",
+      "address": "Neville Street",
+      "lat": 54.969,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-027",
+      "city": "newcastle",
+      "name": "The Forth",
+      "address": "Pink Lane",
+      "lat": 54.9696,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-028",
+      "city": "newcastle",
+      "name": "The Bodega",
+      "address": "125 Westgate Road",
+      "lat": 54.9706,
+      "lng": -1.6214,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-029",
+      "city": "newcastle",
+      "name": "The Geordie Star",
+      "address": "77-79 Westgate Road",
+      "lat": 54.9702,
+      "lng": -1.6187,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-030",
+      "city": "newcastle",
+      "name": "The Metropole",
+      "address": "262 High Street",
+      "lat": 54.9618,
+      "lng": -1.6007,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-031",
+      "city": "newcastle",
+      "name": "The Grey Nags Head",
+      "address": "227-229 High Street",
+      "lat": 54.9629,
+      "lng": -1.6006,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-032",
+      "city": "newcastle",
+      "name": "Offshore 44",
+      "address": "32 Sandhill",
+      "lat": 54.9687,
+      "lng": -1.6082,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-033",
+      "city": "newcastle",
+      "name": "Red House",
+      "address": "32 - 42 Sandhill",
+      "lat": 54.9689,
+      "lng": -1.608,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-034",
+      "city": "newcastle",
+      "name": "The Globe Hotel",
+      "address": "Old Durham Road",
+      "district": "deckham",
+      "lat": 54.9539,
+      "lng": -1.5967,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-035",
+      "city": "newcastle",
+      "name": "The Broad Chare",
+      "address": "25B - 29 Broad Chare",
+      "lat": 54.9698,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-036",
+      "city": "newcastle",
+      "name": "The Swan",
+      "address": "Address unknown",
+      "lat": 54.9503,
+      "lng": -1.5545,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-037",
+      "city": "newcastle",
+      "name": "Kabannas",
+      "address": "17 Carliol Square",
+      "lat": 54.9733,
+      "lng": -1.6079,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-038",
+      "city": "newcastle",
+      "name": "Barca",
+      "address": "182 High Street",
+      "district": "gosforth",
+      "lat": 55.0064,
+      "lng": -1.6196,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-039",
+      "city": "newcastle",
+      "name": "Fitzgeralds",
+      "address": "60 Grey Street",
+      "lat": 54.9718,
+      "lng": -1.6115,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-040",
+      "city": "newcastle",
+      "name": "The Duke of Wellington",
+      "address": "16 High Bridge",
+      "lat": 54.9717,
+      "lng": -1.6127,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-041",
+      "city": "newcastle",
+      "name": "Lady Grey's",
+      "address": "20 Shakespeare Street",
+      "lat": 54.9726,
+      "lng": -1.6113,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-042",
+      "city": "newcastle",
+      "name": "The Old George",
+      "address": "1 Old George Yard",
+      "lat": 54.9714,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-043",
+      "city": "newcastle",
+      "name": "The Lowther",
+      "address": "14-16 Newgate Street",
+      "lat": 54.9717,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-044",
+      "city": "newcastle",
+      "name": "Luther's",
+      "address": "King's Walk",
+      "lat": 54.979,
+      "lng": -1.6152,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-045",
+      "city": "newcastle",
+      "name": "The Earl Of Pitt Street",
+      "address": "70 Pitt Street",
+      "lat": 54.9748,
+      "lng": -1.6271,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-046",
+      "city": "newcastle",
+      "name": "Butchers Arms",
+      "address": "67-70 Shields Road",
+      "district": "byker",
+      "lat": 54.9766,
+      "lng": -1.584,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-047",
+      "city": "newcastle",
+      "name": "Jackson's Bar",
+      "address": "236 Shields Road",
+      "district": "byker",
+      "lat": 54.9774,
+      "lng": -1.5779,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-048",
+      "city": "newcastle",
+      "name": "Holly Hill Sports & Social Club",
+      "address": "2-3 Benson Terrace",
+      "district": "felling",
+      "lat": 54.95,
+      "lng": -1.5685,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "new-049",
+      "city": "newcastle",
+      "name": "The Mallard",
+      "address": "12 Gosforth Street",
+      "district": "felling",
+      "lat": 54.9524,
+      "lng": -1.5698,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-050",
+      "city": "newcastle",
+      "name": "Malting House",
+      "address": "Carlisle Street",
+      "district": "felling",
+      "lat": 54.9534,
+      "lng": -1.5674,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-051",
+      "city": "newcastle",
+      "name": "The Wheatsheaf",
+      "address": "26 Carlisle Street",
+      "district": "felling",
+      "lat": 54.9531,
+      "lng": -1.5682,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-052",
+      "city": "newcastle",
+      "name": "The Old Fox",
+      "address": "Carlisle Street",
+      "district": "felling",
+      "lat": 54.9529,
+      "lng": -1.5687,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-053",
+      "city": "newcastle",
+      "name": "Cross House Hotel",
+      "address": "Cross Street",
+      "lat": 54.9538,
+      "lng": -1.5963,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-054",
+      "city": "newcastle",
+      "name": "Nursery House working Mens Club",
+      "address": "Claremont Street",
+      "lat": 54.9558,
+      "lng": -1.6096,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-055",
+      "city": "newcastle",
+      "name": "The Tilley Stone",
+      "address": "9-10 Jackson Street",
+      "lat": 54.9617,
+      "lng": -1.6022,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-056",
+      "city": "newcastle",
+      "name": "Teams Social Club",
+      "address": "Derwentwater Road",
+      "lat": 54.9534,
+      "lng": -1.6238,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-057",
+      "city": "newcastle",
+      "name": "Dunston Social Club",
+      "address": "Ravensworth Road",
+      "district": "dunston",
+      "lat": 54.9524,
+      "lng": -1.64,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-058",
+      "city": "newcastle",
+      "name": "The Sun",
+      "address": "Market Lane",
+      "district": "dunston",
+      "lat": 54.9546,
+      "lng": -1.6836,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-059",
+      "city": "newcastle",
+      "name": "Blaydon RFC",
+      "address": "Hexham Road",
+      "district": "swalwell",
+      "lat": 54.9534,
+      "lng": -1.6906,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-060",
+      "city": "newcastle",
+      "name": "The Beehive",
+      "address": "2 High Bridge",
+      "lat": 54.9712,
+      "lng": -1.6132,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-061",
+      "city": "newcastle",
+      "name": "The Points",
+      "address": "3-4 Bigg Market",
+      "lat": 54.9715,
+      "lng": -1.6144,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-062",
+      "city": "newcastle",
+      "name": "The Merchant's Tavern",
+      "address": "1 Saint Peter's Wharf",
+      "lat": 54.9659,
+      "lng": -1.5741,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-063",
+      "city": "newcastle",
+      "name": "The Bar",
+      "address": "Scotswood Road",
+      "lat": 54.9669,
+      "lng": -1.622,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-064",
+      "city": "newcastle",
+      "name": "Bobby’s",
+      "address": "Scotswood Road",
+      "lat": 54.9663,
+      "lng": -1.6235,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-065",
+      "city": "newcastle",
+      "name": "Eagle Gay Bar",
+      "address": "Scotswood Road",
+      "lat": 54.9667,
+      "lng": -1.6229,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-066",
+      "city": "newcastle",
+      "name": "The Bank",
+      "address": "12 Scotswood Road",
+      "lat": 54.9671,
+      "lng": -1.6223,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-067",
+      "city": "newcastle",
+      "name": "Switch",
+      "address": "4-10 Scotswood Road",
+      "lat": 54.9671,
+      "lng": -1.6222,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-068",
+      "city": "newcastle",
+      "name": "The Yard",
+      "address": "2 Scotswood Road",
+      "lat": 54.9672,
+      "lng": -1.6221,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-069",
+      "city": "newcastle",
+      "name": "Marlborough Social Club",
+      "address": "71-77 Blandford Street",
+      "lat": 54.9681,
+      "lng": -1.6241,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-070",
+      "city": "newcastle",
+      "name": "Gossip Bar",
+      "address": "Westmorland Road",
+      "lat": 54.9683,
+      "lng": -1.6226,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-071",
+      "city": "newcastle",
+      "name": "Eazy Street",
+      "address": "8-10 Westmorland Road",
+      "lat": 54.9686,
+      "lng": -1.621,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-072",
+      "city": "newcastle",
+      "name": "Raffertys",
+      "address": "29-33 Pink Lane",
+      "lat": 54.9698,
+      "lng": -1.6189,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-073",
+      "city": "newcastle",
+      "name": "Ruby Rae's",
+      "address": "Side",
+      "lat": 54.9696,
+      "lng": -1.6112,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-074",
+      "city": "newcastle",
+      "name": "Cosy Joes",
+      "address": "31 Groat Market",
+      "lat": 54.9708,
+      "lng": -1.6133,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-075",
+      "city": "newcastle",
+      "name": "Keel Row",
+      "address": "Newgate Street",
+      "lat": 54.9726,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-076",
+      "city": "newcastle",
+      "name": "Pumphrey's",
+      "address": "44 Cloth Market",
+      "lat": 54.9711,
+      "lng": -1.6129,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-077",
+      "city": "newcastle",
+      "name": "The Hyena",
+      "address": "14 Leazes Park Road",
+      "lat": 54.9752,
+      "lng": -1.6177,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-078",
+      "city": "newcastle",
+      "name": "The Black Garter",
+      "address": "31 Clayton Street",
+      "lat": 54.973,
+      "lng": -1.6156,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-079",
+      "city": "newcastle",
+      "name": "Metropolitan Bar",
+      "address": "137 Westmorland Road",
+      "lat": 54.9675,
+      "lng": -1.6319,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-080",
+      "city": "newcastle",
+      "name": "Benwell Sports & Social Club",
+      "address": "Address unknown",
+      "lat": 54.9705,
+      "lng": -1.6563,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "new-081",
+      "city": "newcastle",
+      "name": "Brinkburn Street Brewery",
+      "address": "1A Ford Street",
+      "lat": 54.973,
+      "lng": -1.5886,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-082",
+      "city": "newcastle",
+      "name": "Two By Two Brewing",
+      "address": "Albion Row",
+      "lat": 54.9733,
+      "lng": -1.5851,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "new-083",
+      "city": "newcastle",
+      "name": "Scrogg Road Social Club",
+      "address": "125 Scrogg Road",
+      "lat": 54.9743,
+      "lng": -1.5533,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-084",
+      "city": "newcastle",
+      "name": "PTE Social Club",
+      "address": "Millers Road",
+      "lat": 54.9802,
+      "lng": -1.5738,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-085",
+      "city": "newcastle",
+      "name": "Newcastle RAOB Club",
+      "address": "22 - 26 Heaton Road",
+      "lat": 54.9783,
+      "lng": -1.5792,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-086",
+      "city": "newcastle",
+      "name": "Tipsy Toad",
+      "address": "76 Heaton Road",
+      "lat": 54.9809,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-087",
+      "city": "newcastle",
+      "name": "The Heaton Tap",
+      "address": "41a Warton Terrace",
+      "lat": 54.9871,
+      "lng": -1.5767,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-088",
+      "city": "newcastle",
+      "name": "Billy Bootleggers",
+      "address": "Stepney Bank",
+      "lat": 54.9754,
+      "lng": -1.5934,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-089",
+      "city": "newcastle",
+      "name": "Head of Steam - Quayside",
+      "address": "11-17 Broad Chare",
+      "lat": 54.9696,
+      "lng": -1.6042,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-090",
+      "city": "newcastle",
+      "name": "Newcastle Tap",
+      "address": "4 Neville Street",
+      "lat": 54.9696,
+      "lng": -1.6157,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "new-091",
+      "city": "newcastle",
+      "name": "The Head Of Steam",
+      "address": "2 Neville Street",
+      "lat": 54.9696,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-092",
+      "city": "newcastle",
+      "name": "Wetherspoons",
+      "address": "Russell Way",
+      "lat": 54.9578,
+      "lng": -1.6664,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-093",
+      "city": "newcastle",
+      "name": "Microbus",
+      "address": "Address unknown",
+      "lat": 54.9653,
+      "lng": -1.6055,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-094",
+      "city": "newcastle",
+      "name": "The Stags Head",
+      "address": "102-106 Headlam Street",
+      "lat": 54.9753,
+      "lng": -1.5759,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-095",
+      "city": "newcastle",
+      "name": "Beer Street",
+      "address": "10 Forth Street",
+      "lat": 54.9685,
+      "lng": -1.6131,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-096",
+      "city": "newcastle",
+      "name": "Ouseburn Garden",
+      "address": "1 Stepney Road",
+      "lat": 54.9756,
+      "lng": -1.5945,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-097",
+      "city": "newcastle",
+      "name": "Gateshead Railway Club & Institute",
+      "address": "Address unknown",
+      "lat": 54.9653,
+      "lng": -1.6063,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-098",
+      "city": "newcastle",
+      "name": "Quayside Garden",
+      "address": "Address unknown",
+      "lat": 54.9699,
+      "lng": -1.6021,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-099",
+      "city": "newcastle",
+      "name": "The Dubliner",
+      "address": "12 Close",
+      "lat": 54.9682,
+      "lng": -1.6095,
+      "drink": "Pint of Guinness",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "new-100",
+      "city": "newcastle",
+      "name": "Bob Trollop",
+      "address": "Address unknown",
+      "lat": 54.9688,
+      "lng": -1.6081,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-101",
+      "city": "newcastle",
+      "name": "The Railway",
+      "address": "Address unknown",
+      "lat": 54.9851,
+      "lng": -1.5586,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-102",
+      "city": "newcastle",
+      "name": "The Quayside",
+      "address": "35-37 Close",
+      "lat": 54.9675,
+      "lng": -1.6104,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-103",
+      "city": "newcastle",
+      "name": "Pitcher & Piano",
+      "address": "108 Quayside",
+      "lat": 54.9705,
+      "lng": -1.5995,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "british",
+        "food"
+      ]
+    },
+    {
+      "id": "new-104",
+      "city": "newcastle",
+      "name": "Cumberland Arms",
+      "address": "James Place Street",
+      "lat": 54.9754,
+      "lng": -1.5893,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-105",
+      "city": "newcastle",
+      "name": "Free Trade Inn",
+      "address": "12 Saint Lawrence Road",
+      "lat": 54.971,
+      "lng": -1.5871,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-106",
+      "city": "newcastle",
+      "name": "The Tyne Bar",
+      "address": "1 Maling Street",
+      "lat": 54.9716,
+      "lng": -1.5882,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "burger",
+        "mexican",
+        "food"
+      ]
+    },
+    {
+      "id": "new-107",
+      "city": "newcastle",
+      "name": "The Central",
+      "address": "Half Moon Lane",
+      "lat": 54.9655,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-108",
+      "city": "newcastle",
+      "name": "Bridge Hotel",
+      "address": "Castle Garth",
+      "lat": 54.9685,
+      "lng": -1.6102,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-109",
+      "city": "newcastle",
+      "name": "The Strawberry",
+      "address": "8 Strawberry Place",
+      "lat": 54.9748,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-110",
+      "city": "newcastle",
+      "name": "The Telegraph",
+      "address": "Orchard Street",
+      "lat": 54.9682,
+      "lng": -1.6141,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-111",
+      "city": "newcastle",
+      "name": "Liberty House",
+      "address": "48 Westgate Road",
+      "lat": 54.97,
+      "lng": -1.6149,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-112",
+      "city": "newcastle",
+      "name": "The Hancock",
+      "address": "2a Hancock Street",
+      "lat": 54.98,
+      "lng": -1.6113,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-113",
+      "city": "newcastle",
+      "name": "The Fog on the Tyne",
+      "address": "South Shore Road",
+      "lat": 54.9637,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-114",
+      "city": "newcastle",
+      "name": "The Carriage",
+      "address": "Archbold Terrace",
+      "lat": 54.9819,
+      "lng": -1.6048,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-115",
+      "city": "newcastle",
+      "name": "Slug & Lettuce",
+      "address": "30 Grainger Street",
+      "lat": 54.9706,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-116",
+      "city": "newcastle",
+      "name": "Ship Inn",
+      "address": "17 Stepney Bank",
+      "lat": 54.9755,
+      "lng": -1.592,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-117",
+      "city": "newcastle",
+      "name": "Denton Hotel",
+      "address": "588 West Road",
+      "lat": 54.9827,
+      "lng": -1.6836,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-118",
+      "city": "newcastle",
+      "name": "The Town Wall",
+      "address": "Pink Lane",
+      "lat": 54.9694,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-119",
+      "city": "newcastle",
+      "name": "The Victoria Comet",
+      "address": "38 Neville Street",
+      "lat": 54.9694,
+      "lng": -1.6175,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-120",
+      "city": "newcastle",
+      "name": "The North Terrace",
+      "address": "23 - 26 North Terrace",
+      "lat": 54.9833,
+      "lng": -1.6228,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "food"
+      ]
+    },
+    {
+      "id": "new-121",
+      "city": "newcastle",
+      "name": "The Brandling Villa",
+      "address": "Haddricks Mill Road",
+      "lat": 55.0067,
+      "lng": -1.603,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-122",
+      "city": "newcastle",
+      "name": "City Tavern",
+      "address": "10 Northumberland Road",
+      "lat": 54.9769,
+      "lng": -1.6125,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-123",
+      "city": "newcastle",
+      "name": "Fox and Hounds",
+      "address": "West Road",
+      "lat": 54.9793,
+      "lng": -1.6708,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-124",
+      "city": "newcastle",
+      "name": "Cosy Dove",
+      "address": "Address unknown",
+      "lat": 54.9837,
+      "lng": -1.6309,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-125",
+      "city": "newcastle",
+      "name": "Station East",
+      "address": "Hills Street",
+      "lat": 54.9652,
+      "lng": -1.6045,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-126",
+      "city": "newcastle",
+      "name": "The Innisfree Social Club",
+      "address": "Chesters Avenue",
+      "district": "longbenton",
+      "lat": 55.0093,
+      "lng": -1.5914,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-127",
+      "city": "newcastle",
+      "name": "Newton Park",
+      "address": "Benton Road",
+      "lat": 55.0017,
+      "lng": -1.5798,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-128",
+      "city": "newcastle",
+      "name": "The Junction",
+      "address": "7 Haymarket",
+      "lat": 54.977,
+      "lng": -1.6143,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-129",
+      "city": "newcastle",
+      "name": "Akenside Traders",
+      "address": "Dean Street",
+      "lat": 54.9694,
+      "lng": -1.608,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-130",
+      "city": "newcastle",
+      "name": "The Victory",
+      "address": "43 Killingworth Road",
+      "district": "south gosforth",
+      "lat": 55.0076,
+      "lng": -1.6012,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-131",
+      "city": "newcastle",
+      "name": "The Black Bull",
+      "address": "Front Street",
+      "district": "benton",
+      "lat": 55.0102,
+      "lng": -1.5749,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-132",
+      "city": "newcastle",
+      "name": "The Millstone",
+      "address": "Haddricks Mill Road",
+      "lat": 55.0047,
+      "lng": -1.6029,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-133",
+      "city": "newcastle",
+      "name": "The Skiff Inn",
+      "address": "Clasper Way",
+      "district": "swalwell",
+      "lat": 54.9634,
+      "lng": -1.6824,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-134",
+      "city": "newcastle",
+      "name": "The Windsor",
+      "address": "1 Windsor Way",
+      "district": "kingston park",
+      "lat": 55.0186,
+      "lng": -1.6589,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-135",
+      "city": "newcastle",
+      "name": "Duke of Northumberland",
+      "address": "18 Clayton Street",
+      "lat": 54.9725,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-136",
+      "city": "newcastle",
+      "name": "Rosie's Bar",
+      "address": "2 Stowell Street",
+      "lat": 54.9733,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-137",
+      "city": "newcastle",
+      "name": "The Lonsdale",
+      "address": "Lonsdale Terrace",
+      "lat": 54.9939,
+      "lng": -1.6092,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "new-138",
+      "city": "newcastle",
+      "name": "The Brandling Arms",
+      "address": "High Street",
+      "district": "gosforth",
+      "lat": 55.006,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-139",
+      "city": "newcastle",
+      "name": "Blacksmiths Arms",
+      "address": "200 High Street",
+      "district": "gosforth",
+      "lat": 55.0067,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-140",
+      "city": "newcastle",
+      "name": "Queen Victoria",
+      "address": "206 High Street",
+      "district": "gosforth",
+      "lat": 55.0069,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-141",
+      "city": "newcastle",
+      "name": "The Black Bull",
+      "address": "Address unknown",
+      "lat": 54.9614,
+      "lng": -1.6066,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-142",
+      "city": "newcastle",
+      "name": "West Denton Social Club",
+      "address": "Address unknown",
+      "lat": 54.9926,
+      "lng": -1.6962,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-143",
+      "city": "newcastle",
+      "name": "County Hotel",
+      "address": "70 High Street",
+      "district": "gosforth",
+      "lat": 55.0036,
+      "lng": -1.62,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-144",
+      "city": "newcastle",
+      "name": "Osbornes",
+      "address": "61 - 69 Osborne Road",
+      "lat": 54.9911,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-145",
+      "city": "newcastle",
+      "name": "The High Main",
+      "address": "63 Shields Road",
+      "district": "byker",
+      "lat": 54.9771,
+      "lng": -1.5843,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-146",
+      "city": "newcastle",
+      "name": "Bar 22",
+      "address": "130 Shields Road",
+      "district": "byker",
+      "lat": 54.9768,
+      "lng": -1.5819,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-147",
+      "city": "newcastle",
+      "name": "The Raby",
+      "address": "192 Shields Road",
+      "district": "byker",
+      "lat": 54.9771,
+      "lng": -1.5799,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-148",
+      "city": "newcastle",
+      "name": "The Old Post Office",
+      "address": "204-208 Shields Road",
+      "lat": 54.9771,
+      "lng": -1.5795,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-149",
+      "city": "newcastle",
+      "name": "Crows Nest",
+      "address": "137 Percy Street",
+      "lat": 54.9782,
+      "lng": -1.6143,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-150",
+      "city": "newcastle",
+      "name": "The Grace Inn",
+      "address": "256 Shields Road",
+      "district": "byker",
+      "lat": 54.9774,
+      "lng": -1.5771,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-151",
+      "city": "newcastle",
+      "name": "The Gateshead Legion Club",
+      "address": "142 Coatsworth Road",
+      "district": "bensham",
+      "lat": 54.952,
+      "lng": -1.6054,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-152",
+      "city": "newcastle",
+      "name": "Whickham House",
+      "address": "Bensham Road",
+      "lat": 54.9519,
+      "lng": -1.616,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-153",
+      "city": "newcastle",
+      "name": "The Charnwood",
+      "address": "1 Charnwood Avenue",
+      "district": "longbenton",
+      "lat": 55.0122,
+      "lng": -1.5885,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-154",
+      "city": "newcastle",
+      "name": "The Crown",
+      "address": "2 Coatsworth Road",
+      "district": "bensham",
+      "lat": 54.9586,
+      "lng": -1.61,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-155",
+      "city": "newcastle",
+      "name": "Poachers Pocket",
+      "address": "Market Lane",
+      "lat": 54.9508,
+      "lng": -1.6657,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-156",
+      "city": "newcastle",
+      "name": "The Dun Cow",
+      "address": "Ellison Road",
+      "lat": 54.9506,
+      "lng": -1.641,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-157",
+      "city": "newcastle",
+      "name": "Tudor Rose",
+      "address": "Collingwood Terrace",
+      "district": "dunston",
+      "lat": 54.9567,
+      "lng": -1.6397,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-158",
+      "city": "newcastle",
+      "name": "Three Mile Inn",
+      "address": "Address unknown",
+      "district": "gosforth",
+      "lat": 55.0195,
+      "lng": -1.6214,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-159",
+      "city": "newcastle",
+      "name": "The Gosforth Hotel",
+      "address": "High Street",
+      "district": "gosforth",
+      "lat": 55.0075,
+      "lng": -1.6202,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-160",
+      "city": "newcastle",
+      "name": "The Jubilee",
+      "address": "Jubilee Road",
+      "district": "gosfroth",
+      "lat": 55.0111,
+      "lng": -1.6397,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-161",
+      "city": "newcastle",
+      "name": "The Duke of Wellington",
+      "address": "Kenton Lane",
+      "lat": 55.0039,
+      "lng": -1.6418,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-162",
+      "city": "newcastle",
+      "name": "The Percy Arms",
+      "address": "83-85 Percy Street",
+      "lat": 54.9763,
+      "lng": -1.6161,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-163",
+      "city": "newcastle",
+      "name": "Mean-Eyed Cat",
+      "address": "1 St Thomas Street",
+      "lat": 54.9769,
+      "lng": -1.6159,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-164",
+      "city": "newcastle",
+      "name": "The Dun Cow",
+      "address": "Address unknown",
+      "lat": 54.985,
+      "lng": -1.6104,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-165",
+      "city": "newcastle",
+      "name": "The Punch Bowl",
+      "address": "125 Jesmond Road",
+      "lat": 54.9856,
+      "lng": -1.5967,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-166",
+      "city": "newcastle",
+      "name": "The Blue Bell",
+      "address": "Jesmond Vale",
+      "lat": 54.983,
+      "lng": -1.5909,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-167",
+      "city": "newcastle",
+      "name": "Corner House",
+      "address": "Heaton Road",
+      "lat": 54.9906,
+      "lng": -1.584,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-168",
+      "city": "newcastle",
+      "name": "The Lochside",
+      "address": "Red Hall Drive",
+      "lat": 54.9971,
+      "lng": -1.5679,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-169",
+      "city": "newcastle",
+      "name": "Donzoko Brewery & Taproom",
+      "address": "Stepney Bank",
+      "lat": 54.9748,
+      "lng": -1.5948,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-170",
+      "city": "newcastle",
+      "name": "The Leazes End Club",
+      "address": "Leazes Park Road",
+      "lat": 54.976,
+      "lng": -1.6189,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-171",
+      "city": "newcastle",
+      "name": "Trent House",
+      "address": "1-2 Leazes Lane",
+      "lat": 54.9771,
+      "lng": -1.6184,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-172",
+      "city": "newcastle",
+      "name": "The Globe",
+      "address": "Railway Street",
+      "lat": 54.9646,
+      "lng": -1.6251,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-173",
+      "city": "newcastle",
+      "name": "Springbank social Club",
+      "address": "Address unknown",
+      "lat": 54.9759,
+      "lng": -1.6592,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-174",
+      "city": "newcastle",
+      "name": "Westfield Social Club",
+      "address": "Westgate Road",
+      "lat": 54.9748,
+      "lng": -1.6508,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-175",
+      "city": "newcastle",
+      "name": "Full Circle Brew",
+      "address": "167 Walker Road",
+      "lat": 54.9696,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-176",
+      "city": "newcastle",
+      "name": "Turbinia",
+      "address": "Fossway",
+      "lat": 54.9825,
+      "lng": -1.553,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-177",
+      "city": "newcastle",
+      "name": "The Old Coal Yard",
+      "address": "Address unknown",
+      "lat": 54.9772,
+      "lng": -1.5895,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-178",
+      "city": "newcastle",
+      "name": "The Chillingham",
+      "address": "Chillingham Road",
+      "district": "heaton",
+      "lat": 54.9825,
+      "lng": -1.5757,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-179",
+      "city": "newcastle",
+      "name": "Northumberland Hussar",
+      "address": "Sackville Road",
+      "district": "heaton",
+      "lat": 54.9902,
+      "lng": -1.5774,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-180",
+      "city": "newcastle",
+      "name": "Woolsington Hotel",
+      "address": "Shields Road",
+      "lat": 54.9848,
+      "lng": -1.5597,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-181",
+      "city": "newcastle",
+      "name": "Twin Farms",
+      "address": "22 Main Road",
+      "district": "kenton bank foot",
+      "lat": 55.0157,
+      "lng": -1.6785,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-182",
+      "city": "newcastle",
+      "name": "The Balloon",
+      "address": "Address unknown",
+      "lat": 54.9895,
+      "lng": -1.6704,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-183",
+      "city": "newcastle",
+      "name": "The Collingwood Arms",
+      "address": "Address unknown",
+      "lat": 54.9852,
+      "lng": -1.6088,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-184",
+      "city": "newcastle",
+      "name": "Habita",
+      "address": "Sandyford Road",
+      "lat": 54.9784,
+      "lng": -1.6074,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-185",
+      "city": "newcastle",
+      "name": "The Five Swans",
+      "address": "14 Saint Mary's Place",
+      "lat": 54.9777,
+      "lng": -1.612,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-186",
+      "city": "newcastle",
+      "name": "Lock and Quay",
+      "address": "Pipewellgate",
+      "lat": 54.9667,
+      "lng": -1.6071,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-187",
+      "city": "newcastle",
+      "name": "The Bridge Tavern",
+      "address": "7 Akenside Hill",
+      "lat": 54.9694,
+      "lng": -1.6075,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "microbrewery",
+        "food"
+      ]
+    },
+    {
+      "id": "new-188",
+      "city": "newcastle",
+      "name": "The Mile Castle",
+      "address": "19-25 Grainger Street",
+      "lat": 54.9702,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-189",
+      "city": "newcastle",
+      "name": "Job Bulman",
+      "address": "Saint Nicholas Avenue",
+      "district": "gosforth",
+      "lat": 55.0047,
+      "lng": -1.6194,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-190",
+      "city": "newcastle",
+      "name": "Crown Posada",
+      "address": "31 Side",
+      "lat": 54.9692,
+      "lng": -1.6088,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-191",
+      "city": "newcastle",
+      "name": "Tilleys Bar",
+      "address": "105 Westgate Road",
+      "lat": 54.9705,
+      "lng": -1.6206,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-192",
+      "city": "newcastle",
+      "name": "Swarley's",
+      "address": "11 Groat Market",
+      "lat": 54.9704,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-193",
+      "city": "newcastle",
+      "name": "Ship Inn",
+      "address": "Front Street",
+      "lat": 55.011,
+      "lng": -1.5712,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-194",
+      "city": "newcastle",
+      "name": "The Market Lane",
+      "address": "72-74 Pilgrim Street",
+      "lat": 54.9722,
+      "lng": -1.6108,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-195",
+      "city": "newcastle",
+      "name": "The Highlander",
+      "address": "5 Front Street",
+      "district": "swalwell",
+      "lat": 54.954,
+      "lng": -1.6851,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-196",
+      "city": "newcastle",
+      "name": "Cantina Mexicana",
+      "address": "281 Shields Road",
+      "district": "byker",
+      "lat": 54.9783,
+      "lng": -1.5753,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-001",
+      "city": "newcastle",
+      "name": "The Black & White Bull",
+      "address": "Barrack Road",
+      "lat": 54.9757,
+      "lng": -1.6273,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-002",
+      "city": "newcastle",
+      "name": "Bacchus",
+      "address": "42-48 High Bridge",
+      "lat": 54.9723,
+      "lng": -1.6111,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-003",
+      "city": "newcastle",
+      "name": "The Peacock",
+      "address": "Address unknown",
+      "lat": 55,
+      "lng": -1.6447,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-004",
+      "city": "newcastle",
+      "name": "The Charles Grey",
+      "address": "118 Grey Street",
+      "lat": 54.9739,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-005",
+      "city": "newcastle",
+      "name": "The Holy Hobo",
+      "address": "Address unknown",
+      "lat": 54.9813,
+      "lng": -1.606,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-006",
+      "city": "newcastle",
+      "name": "The Tanners Arms",
+      "address": "1 Byker Bridge",
+      "lat": 54.9747,
+      "lng": -1.5964,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-007",
+      "city": "newcastle",
+      "name": "The Cluny",
+      "address": "36 Lime Street",
+      "lat": 54.9751,
+      "lng": -1.5918,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-008",
+      "city": "newcastle",
+      "name": "Newcastle Arms",
+      "address": "57 St Andrews Street",
+      "lat": 54.9733,
+      "lng": -1.619,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-009",
+      "city": "newcastle",
+      "name": "Alfie's",
+      "address": "2-4 Argyle Street",
+      "lat": 54.9742,
+      "lng": -1.6038,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-010",
+      "city": "newcastle",
+      "name": "Rose & Crown",
+      "address": "5-7 Newgate Street",
+      "lat": 54.9715,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-011",
+      "city": "newcastle",
+      "name": "Filthy's",
+      "address": "22 - 24 Bigg Market",
+      "lat": 54.9715,
+      "lng": -1.6146,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-012",
+      "city": "newcastle",
+      "name": "Sgt. Peppers",
+      "address": "14 Vine Lane",
+      "lat": 54.9775,
+      "lng": -1.6126,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-013",
+      "city": "newcastle",
+      "name": "The Dog & Parrot",
+      "address": "52 Clayton Street West",
+      "lat": 54.9686,
+      "lng": -1.6209,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-014",
+      "city": "newcastle",
+      "name": "The Hotspur",
+      "address": "103 Percy Street",
+      "lat": 54.9771,
+      "lng": -1.6152,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-015",
+      "city": "newcastle",
+      "name": "Madisons",
+      "address": "10 Leazes Lane",
+      "lat": 54.975,
+      "lng": -1.6175,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-016",
+      "city": "newcastle",
+      "name": "Three Bulls Heads",
+      "address": "57-59 Percy Street",
+      "lat": 54.9758,
+      "lng": -1.6166,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-017",
+      "city": "newcastle",
+      "name": "The Magpie",
+      "address": "Percy Street",
+      "lat": 54.9755,
+      "lng": -1.6169,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-018",
+      "city": "newcastle",
+      "name": "Blanc",
+      "address": "Address unknown",
+      "lat": 54.99,
+      "lng": -1.6045,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-019",
+      "city": "newcastle",
+      "name": "Billabong",
+      "address": "64-78 Osborne Road",
+      "lat": 54.9913,
+      "lng": -1.6038,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-020",
+      "city": "newcastle",
+      "name": "Spy",
+      "address": "82-86 Osborne Road",
+      "lat": 54.9916,
+      "lng": -1.6036,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-021",
+      "city": "newcastle",
+      "name": "The Canny Lad",
+      "address": "63 Newgate Street",
+      "lat": 54.9721,
+      "lng": -1.6172,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-022",
+      "city": "newcastle",
+      "name": "Benton Ale House",
+      "address": "Front Street",
+      "district": "benton",
+      "lat": 55.0097,
+      "lng": -1.5769,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "new-023",
+      "city": "newcastle",
+      "name": "Maiden Over",
+      "address": "Low Heworth Lane",
+      "lat": 54.9527,
+      "lng": -1.5524,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-024",
+      "city": "newcastle",
+      "name": "The Azure Blue",
+      "address": "100 Eastbourne Avenue",
+      "district": "bensham",
+      "lat": 54.9504,
+      "lng": -1.606,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-025",
+      "city": "newcastle",
+      "name": "Gateshead Corporation Social Club",
+      "address": "357 Alexandra Road",
+      "lat": 54.9508,
+      "lng": -1.6033,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-026",
+      "city": "newcastle",
+      "name": "Centurion",
+      "address": "Neville Street",
+      "lat": 54.969,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-027",
+      "city": "newcastle",
+      "name": "The Forth",
+      "address": "Pink Lane",
+      "lat": 54.9696,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-028",
+      "city": "newcastle",
+      "name": "The Bodega",
+      "address": "125 Westgate Road",
+      "lat": 54.9706,
+      "lng": -1.6214,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-029",
+      "city": "newcastle",
+      "name": "The Geordie Star",
+      "address": "77-79 Westgate Road",
+      "lat": 54.9702,
+      "lng": -1.6187,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-030",
+      "city": "newcastle",
+      "name": "The Metropole",
+      "address": "262 High Street",
+      "lat": 54.9618,
+      "lng": -1.6007,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-031",
+      "city": "newcastle",
+      "name": "The Grey Nags Head",
+      "address": "227-229 High Street",
+      "lat": 54.9629,
+      "lng": -1.6006,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-032",
+      "city": "newcastle",
+      "name": "Offshore 44",
+      "address": "32 Sandhill",
+      "lat": 54.9687,
+      "lng": -1.6082,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-033",
+      "city": "newcastle",
+      "name": "Red House",
+      "address": "32 - 42 Sandhill",
+      "lat": 54.9689,
+      "lng": -1.608,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-034",
+      "city": "newcastle",
+      "name": "The Globe Hotel",
+      "address": "Old Durham Road",
+      "district": "deckham",
+      "lat": 54.9539,
+      "lng": -1.5967,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-035",
+      "city": "newcastle",
+      "name": "The Broad Chare",
+      "address": "25B - 29 Broad Chare",
+      "lat": 54.9698,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-036",
+      "city": "newcastle",
+      "name": "The Swan",
+      "address": "Address unknown",
+      "lat": 54.9503,
+      "lng": -1.5545,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-037",
+      "city": "newcastle",
+      "name": "Kabannas",
+      "address": "17 Carliol Square",
+      "lat": 54.9733,
+      "lng": -1.6079,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-038",
+      "city": "newcastle",
+      "name": "Barca",
+      "address": "182 High Street",
+      "district": "gosforth",
+      "lat": 55.0064,
+      "lng": -1.6196,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-039",
+      "city": "newcastle",
+      "name": "Fitzgeralds",
+      "address": "60 Grey Street",
+      "lat": 54.9718,
+      "lng": -1.6115,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-040",
+      "city": "newcastle",
+      "name": "The Duke of Wellington",
+      "address": "16 High Bridge",
+      "lat": 54.9717,
+      "lng": -1.6127,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-041",
+      "city": "newcastle",
+      "name": "Lady Grey's",
+      "address": "20 Shakespeare Street",
+      "lat": 54.9726,
+      "lng": -1.6113,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-042",
+      "city": "newcastle",
+      "name": "The Old George",
+      "address": "1 Old George Yard",
+      "lat": 54.9714,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-043",
+      "city": "newcastle",
+      "name": "The Lowther",
+      "address": "14-16 Newgate Street",
+      "lat": 54.9717,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-044",
+      "city": "newcastle",
+      "name": "Luther's",
+      "address": "King's Walk",
+      "lat": 54.979,
+      "lng": -1.6152,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-045",
+      "city": "newcastle",
+      "name": "The Earl Of Pitt Street",
+      "address": "70 Pitt Street",
+      "lat": 54.9748,
+      "lng": -1.6271,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-046",
+      "city": "newcastle",
+      "name": "Butchers Arms",
+      "address": "67-70 Shields Road",
+      "district": "byker",
+      "lat": 54.9766,
+      "lng": -1.584,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-047",
+      "city": "newcastle",
+      "name": "Jackson's Bar",
+      "address": "236 Shields Road",
+      "district": "byker",
+      "lat": 54.9774,
+      "lng": -1.5779,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-048",
+      "city": "newcastle",
+      "name": "Holly Hill Sports & Social Club",
+      "address": "2-3 Benson Terrace",
+      "district": "felling",
+      "lat": 54.95,
+      "lng": -1.5685,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "new-049",
+      "city": "newcastle",
+      "name": "The Mallard",
+      "address": "12 Gosforth Street",
+      "district": "felling",
+      "lat": 54.9524,
+      "lng": -1.5698,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-050",
+      "city": "newcastle",
+      "name": "Malting House",
+      "address": "Carlisle Street",
+      "district": "felling",
+      "lat": 54.9534,
+      "lng": -1.5674,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-051",
+      "city": "newcastle",
+      "name": "The Wheatsheaf",
+      "address": "26 Carlisle Street",
+      "district": "felling",
+      "lat": 54.9531,
+      "lng": -1.5682,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-052",
+      "city": "newcastle",
+      "name": "The Old Fox",
+      "address": "Carlisle Street",
+      "district": "felling",
+      "lat": 54.9529,
+      "lng": -1.5687,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-053",
+      "city": "newcastle",
+      "name": "Cross House Hotel",
+      "address": "Cross Street",
+      "lat": 54.9538,
+      "lng": -1.5963,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-054",
+      "city": "newcastle",
+      "name": "Nursery House working Mens Club",
+      "address": "Claremont Street",
+      "lat": 54.9558,
+      "lng": -1.6096,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-055",
+      "city": "newcastle",
+      "name": "The Tilley Stone",
+      "address": "9-10 Jackson Street",
+      "lat": 54.9617,
+      "lng": -1.6022,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-056",
+      "city": "newcastle",
+      "name": "Teams Social Club",
+      "address": "Derwentwater Road",
+      "lat": 54.9534,
+      "lng": -1.6238,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-057",
+      "city": "newcastle",
+      "name": "Dunston Social Club",
+      "address": "Ravensworth Road",
+      "district": "dunston",
+      "lat": 54.9524,
+      "lng": -1.64,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-058",
+      "city": "newcastle",
+      "name": "The Sun",
+      "address": "Market Lane",
+      "district": "dunston",
+      "lat": 54.9546,
+      "lng": -1.6836,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-059",
+      "city": "newcastle",
+      "name": "Blaydon RFC",
+      "address": "Hexham Road",
+      "district": "swalwell",
+      "lat": 54.9534,
+      "lng": -1.6906,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-060",
+      "city": "newcastle",
+      "name": "The Beehive",
+      "address": "2 High Bridge",
+      "lat": 54.9712,
+      "lng": -1.6132,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-061",
+      "city": "newcastle",
+      "name": "The Points",
+      "address": "3-4 Bigg Market",
+      "lat": 54.9715,
+      "lng": -1.6144,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-062",
+      "city": "newcastle",
+      "name": "The Merchant's Tavern",
+      "address": "1 Saint Peter's Wharf",
+      "lat": 54.9659,
+      "lng": -1.5741,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-063",
+      "city": "newcastle",
+      "name": "The Bar",
+      "address": "Scotswood Road",
+      "lat": 54.9669,
+      "lng": -1.622,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-064",
+      "city": "newcastle",
+      "name": "Bobby’s",
+      "address": "Scotswood Road",
+      "lat": 54.9663,
+      "lng": -1.6235,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-065",
+      "city": "newcastle",
+      "name": "Eagle Gay Bar",
+      "address": "Scotswood Road",
+      "lat": 54.9667,
+      "lng": -1.6229,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-066",
+      "city": "newcastle",
+      "name": "The Bank",
+      "address": "12 Scotswood Road",
+      "lat": 54.9671,
+      "lng": -1.6223,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-067",
+      "city": "newcastle",
+      "name": "Switch",
+      "address": "4-10 Scotswood Road",
+      "lat": 54.9671,
+      "lng": -1.6222,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-068",
+      "city": "newcastle",
+      "name": "The Yard",
+      "address": "2 Scotswood Road",
+      "lat": 54.9672,
+      "lng": -1.6221,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-069",
+      "city": "newcastle",
+      "name": "Marlborough Social Club",
+      "address": "71-77 Blandford Street",
+      "lat": 54.9681,
+      "lng": -1.6241,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-070",
+      "city": "newcastle",
+      "name": "Gossip Bar",
+      "address": "Westmorland Road",
+      "lat": 54.9683,
+      "lng": -1.6226,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-071",
+      "city": "newcastle",
+      "name": "Eazy Street",
+      "address": "8-10 Westmorland Road",
+      "lat": 54.9686,
+      "lng": -1.621,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-072",
+      "city": "newcastle",
+      "name": "Raffertys",
+      "address": "29-33 Pink Lane",
+      "lat": 54.9698,
+      "lng": -1.6189,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-073",
+      "city": "newcastle",
+      "name": "Ruby Rae's",
+      "address": "Side",
+      "lat": 54.9696,
+      "lng": -1.6112,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-074",
+      "city": "newcastle",
+      "name": "Cosy Joes",
+      "address": "31 Groat Market",
+      "lat": 54.9708,
+      "lng": -1.6133,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-075",
+      "city": "newcastle",
+      "name": "Keel Row",
+      "address": "Newgate Street",
+      "lat": 54.9726,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-076",
+      "city": "newcastle",
+      "name": "Pumphrey's",
+      "address": "44 Cloth Market",
+      "lat": 54.9711,
+      "lng": -1.6129,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-077",
+      "city": "newcastle",
+      "name": "The Hyena",
+      "address": "14 Leazes Park Road",
+      "lat": 54.9752,
+      "lng": -1.6177,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-078",
+      "city": "newcastle",
+      "name": "The Black Garter",
+      "address": "31 Clayton Street",
+      "lat": 54.973,
+      "lng": -1.6156,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-079",
+      "city": "newcastle",
+      "name": "Metropolitan Bar",
+      "address": "137 Westmorland Road",
+      "lat": 54.9675,
+      "lng": -1.6319,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-080",
+      "city": "newcastle",
+      "name": "Benwell Sports & Social Club",
+      "address": "Address unknown",
+      "lat": 54.9705,
+      "lng": -1.6563,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "new-081",
+      "city": "newcastle",
+      "name": "Brinkburn Street Brewery",
+      "address": "1A Ford Street",
+      "lat": 54.973,
+      "lng": -1.5886,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-082",
+      "city": "newcastle",
+      "name": "Two By Two Brewing",
+      "address": "Albion Row",
+      "lat": 54.9733,
+      "lng": -1.5851,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "new-083",
+      "city": "newcastle",
+      "name": "Scrogg Road Social Club",
+      "address": "125 Scrogg Road",
+      "lat": 54.9743,
+      "lng": -1.5533,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-084",
+      "city": "newcastle",
+      "name": "PTE Social Club",
+      "address": "Millers Road",
+      "lat": 54.9802,
+      "lng": -1.5738,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-085",
+      "city": "newcastle",
+      "name": "Newcastle RAOB Club",
+      "address": "22 - 26 Heaton Road",
+      "lat": 54.9783,
+      "lng": -1.5792,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-086",
+      "city": "newcastle",
+      "name": "Tipsy Toad",
+      "address": "76 Heaton Road",
+      "lat": 54.9809,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-087",
+      "city": "newcastle",
+      "name": "The Heaton Tap",
+      "address": "41a Warton Terrace",
+      "lat": 54.9871,
+      "lng": -1.5767,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-088",
+      "city": "newcastle",
+      "name": "Billy Bootleggers",
+      "address": "Stepney Bank",
+      "lat": 54.9754,
+      "lng": -1.5934,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-089",
+      "city": "newcastle",
+      "name": "Head of Steam - Quayside",
+      "address": "11-17 Broad Chare",
+      "lat": 54.9696,
+      "lng": -1.6042,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-090",
+      "city": "newcastle",
+      "name": "Newcastle Tap",
+      "address": "4 Neville Street",
+      "lat": 54.9696,
+      "lng": -1.6157,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "new-091",
+      "city": "newcastle",
+      "name": "The Head Of Steam",
+      "address": "2 Neville Street",
+      "lat": 54.9696,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-092",
+      "city": "newcastle",
+      "name": "Wetherspoons",
+      "address": "Russell Way",
+      "lat": 54.9578,
+      "lng": -1.6664,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-093",
+      "city": "newcastle",
+      "name": "Microbus",
+      "address": "Address unknown",
+      "lat": 54.9653,
+      "lng": -1.6055,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-094",
+      "city": "newcastle",
+      "name": "The Stags Head",
+      "address": "102-106 Headlam Street",
+      "lat": 54.9753,
+      "lng": -1.5759,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-095",
+      "city": "newcastle",
+      "name": "Beer Street",
+      "address": "10 Forth Street",
+      "lat": 54.9685,
+      "lng": -1.6131,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-096",
+      "city": "newcastle",
+      "name": "Ouseburn Garden",
+      "address": "1 Stepney Road",
+      "lat": 54.9756,
+      "lng": -1.5945,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-097",
+      "city": "newcastle",
+      "name": "Gateshead Railway Club & Institute",
+      "address": "Address unknown",
+      "lat": 54.9653,
+      "lng": -1.6063,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-098",
+      "city": "newcastle",
+      "name": "Quayside Garden",
+      "address": "Address unknown",
+      "lat": 54.9699,
+      "lng": -1.6021,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-099",
+      "city": "newcastle",
+      "name": "The Dubliner",
+      "address": "12 Close",
+      "lat": 54.9682,
+      "lng": -1.6095,
+      "drink": "Pint of Guinness",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "new-100",
+      "city": "newcastle",
+      "name": "Bob Trollop",
+      "address": "Address unknown",
+      "lat": 54.9688,
+      "lng": -1.6081,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-101",
+      "city": "newcastle",
+      "name": "The Railway",
+      "address": "Address unknown",
+      "lat": 54.9851,
+      "lng": -1.5586,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-102",
+      "city": "newcastle",
+      "name": "The Quayside",
+      "address": "35-37 Close",
+      "lat": 54.9675,
+      "lng": -1.6104,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-103",
+      "city": "newcastle",
+      "name": "Pitcher & Piano",
+      "address": "108 Quayside",
+      "lat": 54.9705,
+      "lng": -1.5995,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "british",
+        "food"
+      ]
+    },
+    {
+      "id": "new-104",
+      "city": "newcastle",
+      "name": "Cumberland Arms",
+      "address": "James Place Street",
+      "lat": 54.9754,
+      "lng": -1.5893,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-105",
+      "city": "newcastle",
+      "name": "Free Trade Inn",
+      "address": "12 Saint Lawrence Road",
+      "lat": 54.971,
+      "lng": -1.5871,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-106",
+      "city": "newcastle",
+      "name": "The Tyne Bar",
+      "address": "1 Maling Street",
+      "lat": 54.9716,
+      "lng": -1.5882,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "burger",
+        "mexican",
+        "food"
+      ]
+    },
+    {
+      "id": "new-107",
+      "city": "newcastle",
+      "name": "The Central",
+      "address": "Half Moon Lane",
+      "lat": 54.9655,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-108",
+      "city": "newcastle",
+      "name": "Bridge Hotel",
+      "address": "Castle Garth",
+      "lat": 54.9685,
+      "lng": -1.6102,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-109",
+      "city": "newcastle",
+      "name": "The Strawberry",
+      "address": "8 Strawberry Place",
+      "lat": 54.9748,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-110",
+      "city": "newcastle",
+      "name": "The Telegraph",
+      "address": "Orchard Street",
+      "lat": 54.9682,
+      "lng": -1.6141,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-111",
+      "city": "newcastle",
+      "name": "Liberty House",
+      "address": "48 Westgate Road",
+      "lat": 54.97,
+      "lng": -1.6149,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-112",
+      "city": "newcastle",
+      "name": "The Hancock",
+      "address": "2a Hancock Street",
+      "lat": 54.98,
+      "lng": -1.6113,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-113",
+      "city": "newcastle",
+      "name": "The Fog on the Tyne",
+      "address": "South Shore Road",
+      "lat": 54.9637,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-114",
+      "city": "newcastle",
+      "name": "The Carriage",
+      "address": "Archbold Terrace",
+      "lat": 54.9819,
+      "lng": -1.6048,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-115",
+      "city": "newcastle",
+      "name": "Slug & Lettuce",
+      "address": "30 Grainger Street",
+      "lat": 54.9706,
+      "lng": -1.6155,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-116",
+      "city": "newcastle",
+      "name": "Ship Inn",
+      "address": "17 Stepney Bank",
+      "lat": 54.9755,
+      "lng": -1.592,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-117",
+      "city": "newcastle",
+      "name": "Denton Hotel",
+      "address": "588 West Road",
+      "lat": 54.9827,
+      "lng": -1.6836,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-118",
+      "city": "newcastle",
+      "name": "The Town Wall",
+      "address": "Pink Lane",
+      "lat": 54.9694,
+      "lng": -1.6185,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-119",
+      "city": "newcastle",
+      "name": "The Victoria Comet",
+      "address": "38 Neville Street",
+      "lat": 54.9694,
+      "lng": -1.6175,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-120",
+      "city": "newcastle",
+      "name": "The North Terrace",
+      "address": "23 - 26 North Terrace",
+      "lat": 54.9833,
+      "lng": -1.6228,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten",
+        "food"
+      ]
+    },
+    {
+      "id": "new-121",
+      "city": "newcastle",
+      "name": "The Brandling Villa",
+      "address": "Haddricks Mill Road",
+      "lat": 55.0067,
+      "lng": -1.603,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-122",
+      "city": "newcastle",
+      "name": "City Tavern",
+      "address": "10 Northumberland Road",
+      "lat": 54.9769,
+      "lng": -1.6125,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-123",
+      "city": "newcastle",
+      "name": "Fox and Hounds",
+      "address": "West Road",
+      "lat": 54.9793,
+      "lng": -1.6708,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-124",
+      "city": "newcastle",
+      "name": "Cosy Dove",
+      "address": "Address unknown",
+      "lat": 54.9837,
+      "lng": -1.6309,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-125",
+      "city": "newcastle",
+      "name": "Station East",
+      "address": "Hills Street",
+      "lat": 54.9652,
+      "lng": -1.6045,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-126",
+      "city": "newcastle",
+      "name": "The Innisfree Social Club",
+      "address": "Chesters Avenue",
+      "district": "longbenton",
+      "lat": 55.0093,
+      "lng": -1.5914,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-127",
+      "city": "newcastle",
+      "name": "Newton Park",
+      "address": "Benton Road",
+      "lat": 55.0017,
+      "lng": -1.5798,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-128",
+      "city": "newcastle",
+      "name": "The Junction",
+      "address": "7 Haymarket",
+      "lat": 54.977,
+      "lng": -1.6143,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-129",
+      "city": "newcastle",
+      "name": "Akenside Traders",
+      "address": "Dean Street",
+      "lat": 54.9694,
+      "lng": -1.608,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-130",
+      "city": "newcastle",
+      "name": "The Victory",
+      "address": "43 Killingworth Road",
+      "district": "south gosforth",
+      "lat": 55.0076,
+      "lng": -1.6012,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "real-ale",
+        "food"
+      ]
+    },
+    {
+      "id": "new-131",
+      "city": "newcastle",
+      "name": "The Black Bull",
+      "address": "Front Street",
+      "district": "benton",
+      "lat": 55.0102,
+      "lng": -1.5749,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-132",
+      "city": "newcastle",
+      "name": "The Millstone",
+      "address": "Haddricks Mill Road",
+      "lat": 55.0047,
+      "lng": -1.6029,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-133",
+      "city": "newcastle",
+      "name": "The Skiff Inn",
+      "address": "Clasper Way",
+      "district": "swalwell",
+      "lat": 54.9634,
+      "lng": -1.6824,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-134",
+      "city": "newcastle",
+      "name": "The Windsor",
+      "address": "1 Windsor Way",
+      "district": "kingston park",
+      "lat": 55.0186,
+      "lng": -1.6589,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-135",
+      "city": "newcastle",
+      "name": "Duke of Northumberland",
+      "address": "18 Clayton Street",
+      "lat": 54.9725,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-136",
+      "city": "newcastle",
+      "name": "Rosie's Bar",
+      "address": "2 Stowell Street",
+      "lat": 54.9733,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale"
+      ]
+    },
+    {
+      "id": "new-137",
+      "city": "newcastle",
+      "name": "The Lonsdale",
+      "address": "Lonsdale Terrace",
+      "lat": 54.9939,
+      "lng": -1.6092,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "new-138",
+      "city": "newcastle",
+      "name": "The Brandling Arms",
+      "address": "High Street",
+      "district": "gosforth",
+      "lat": 55.006,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-139",
+      "city": "newcastle",
+      "name": "Blacksmiths Arms",
+      "address": "200 High Street",
+      "district": "gosforth",
+      "lat": 55.0067,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-140",
+      "city": "newcastle",
+      "name": "Queen Victoria",
+      "address": "206 High Street",
+      "district": "gosforth",
+      "lat": 55.0069,
+      "lng": -1.6195,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-141",
+      "city": "newcastle",
+      "name": "The Black Bull",
+      "address": "Address unknown",
+      "lat": 54.9614,
+      "lng": -1.6066,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-142",
+      "city": "newcastle",
+      "name": "West Denton Social Club",
+      "address": "Address unknown",
+      "lat": 54.9926,
+      "lng": -1.6962,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-143",
+      "city": "newcastle",
+      "name": "County Hotel",
+      "address": "70 High Street",
+      "district": "gosforth",
+      "lat": 55.0036,
+      "lng": -1.62,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-144",
+      "city": "newcastle",
+      "name": "Osbornes",
+      "address": "61 - 69 Osborne Road",
+      "lat": 54.9911,
+      "lng": -1.6046,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-145",
+      "city": "newcastle",
+      "name": "The High Main",
+      "address": "63 Shields Road",
+      "district": "byker",
+      "lat": 54.9771,
+      "lng": -1.5843,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-146",
+      "city": "newcastle",
+      "name": "Bar 22",
+      "address": "130 Shields Road",
+      "district": "byker",
+      "lat": 54.9768,
+      "lng": -1.5819,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-147",
+      "city": "newcastle",
+      "name": "The Raby",
+      "address": "192 Shields Road",
+      "district": "byker",
+      "lat": 54.9771,
+      "lng": -1.5799,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-148",
+      "city": "newcastle",
+      "name": "The Old Post Office",
+      "address": "204-208 Shields Road",
+      "lat": 54.9771,
+      "lng": -1.5795,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-149",
+      "city": "newcastle",
+      "name": "Crows Nest",
+      "address": "137 Percy Street",
+      "lat": 54.9782,
+      "lng": -1.6143,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-150",
+      "city": "newcastle",
+      "name": "The Grace Inn",
+      "address": "256 Shields Road",
+      "district": "byker",
+      "lat": 54.9774,
+      "lng": -1.5771,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-151",
+      "city": "newcastle",
+      "name": "The Gateshead Legion Club",
+      "address": "142 Coatsworth Road",
+      "district": "bensham",
+      "lat": 54.952,
+      "lng": -1.6054,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-152",
+      "city": "newcastle",
+      "name": "Whickham House",
+      "address": "Bensham Road",
+      "lat": 54.9519,
+      "lng": -1.616,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-153",
+      "city": "newcastle",
+      "name": "The Charnwood",
+      "address": "1 Charnwood Avenue",
+      "district": "longbenton",
+      "lat": 55.0122,
+      "lng": -1.5885,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-154",
+      "city": "newcastle",
+      "name": "The Crown",
+      "address": "2 Coatsworth Road",
+      "district": "bensham",
+      "lat": 54.9586,
+      "lng": -1.61,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-155",
+      "city": "newcastle",
+      "name": "Poachers Pocket",
+      "address": "Market Lane",
+      "lat": 54.9508,
+      "lng": -1.6657,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-156",
+      "city": "newcastle",
+      "name": "The Dun Cow",
+      "address": "Ellison Road",
+      "lat": 54.9506,
+      "lng": -1.641,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-157",
+      "city": "newcastle",
+      "name": "Tudor Rose",
+      "address": "Collingwood Terrace",
+      "district": "dunston",
+      "lat": 54.9567,
+      "lng": -1.6397,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-158",
+      "city": "newcastle",
+      "name": "Three Mile Inn",
+      "address": "Address unknown",
+      "district": "gosforth",
+      "lat": 55.0195,
+      "lng": -1.6214,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-159",
+      "city": "newcastle",
+      "name": "The Gosforth Hotel",
+      "address": "High Street",
+      "district": "gosforth",
+      "lat": 55.0075,
+      "lng": -1.6202,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-160",
+      "city": "newcastle",
+      "name": "The Jubilee",
+      "address": "Jubilee Road",
+      "district": "gosfroth",
+      "lat": 55.0111,
+      "lng": -1.6397,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-161",
+      "city": "newcastle",
+      "name": "The Duke of Wellington",
+      "address": "Kenton Lane",
+      "lat": 55.0039,
+      "lng": -1.6418,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-162",
+      "city": "newcastle",
+      "name": "The Percy Arms",
+      "address": "83-85 Percy Street",
+      "lat": 54.9763,
+      "lng": -1.6161,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-163",
+      "city": "newcastle",
+      "name": "Mean-Eyed Cat",
+      "address": "1 St Thomas Street",
+      "lat": 54.9769,
+      "lng": -1.6159,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-164",
+      "city": "newcastle",
+      "name": "The Dun Cow",
+      "address": "Address unknown",
+      "lat": 54.985,
+      "lng": -1.6104,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-165",
+      "city": "newcastle",
+      "name": "The Punch Bowl",
+      "address": "125 Jesmond Road",
+      "lat": 54.9856,
+      "lng": -1.5967,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-166",
+      "city": "newcastle",
+      "name": "The Blue Bell",
+      "address": "Jesmond Vale",
+      "lat": 54.983,
+      "lng": -1.5909,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-167",
+      "city": "newcastle",
+      "name": "Corner House",
+      "address": "Heaton Road",
+      "lat": 54.9906,
+      "lng": -1.584,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-168",
+      "city": "newcastle",
+      "name": "The Lochside",
+      "address": "Red Hall Drive",
+      "lat": 54.9971,
+      "lng": -1.5679,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-169",
+      "city": "newcastle",
+      "name": "Donzoko Brewery & Taproom",
+      "address": "Stepney Bank",
+      "lat": 54.9748,
+      "lng": -1.5948,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-170",
+      "city": "newcastle",
+      "name": "The Leazes End Club",
+      "address": "Leazes Park Road",
+      "lat": 54.976,
+      "lng": -1.6189,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-171",
+      "city": "newcastle",
+      "name": "Trent House",
+      "address": "1-2 Leazes Lane",
+      "lat": 54.9771,
+      "lng": -1.6184,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-172",
+      "city": "newcastle",
+      "name": "The Globe",
+      "address": "Railway Street",
+      "lat": 54.9646,
+      "lng": -1.6251,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-173",
+      "city": "newcastle",
+      "name": "Springbank social Club",
+      "address": "Address unknown",
+      "lat": 54.9759,
+      "lng": -1.6592,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-174",
+      "city": "newcastle",
+      "name": "Westfield Social Club",
+      "address": "Westgate Road",
+      "lat": 54.9748,
+      "lng": -1.6508,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-175",
+      "city": "newcastle",
+      "name": "Full Circle Brew",
+      "address": "167 Walker Road",
+      "lat": 54.9696,
+      "lng": -1.5806,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-176",
+      "city": "newcastle",
+      "name": "Turbinia",
+      "address": "Fossway",
+      "lat": 54.9825,
+      "lng": -1.553,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-177",
+      "city": "newcastle",
+      "name": "The Old Coal Yard",
+      "address": "Address unknown",
+      "lat": 54.9772,
+      "lng": -1.5895,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "new-178",
+      "city": "newcastle",
+      "name": "The Chillingham",
+      "address": "Chillingham Road",
+      "district": "heaton",
+      "lat": 54.9825,
+      "lng": -1.5757,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-179",
+      "city": "newcastle",
+      "name": "Northumberland Hussar",
+      "address": "Sackville Road",
+      "district": "heaton",
+      "lat": 54.9902,
+      "lng": -1.5774,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-180",
+      "city": "newcastle",
+      "name": "Woolsington Hotel",
+      "address": "Shields Road",
+      "lat": 54.9848,
+      "lng": -1.5597,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-181",
+      "city": "newcastle",
+      "name": "Twin Farms",
+      "address": "22 Main Road",
+      "district": "kenton bank foot",
+      "lat": 55.0157,
+      "lng": -1.6785,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-182",
+      "city": "newcastle",
+      "name": "The Balloon",
+      "address": "Address unknown",
+      "lat": 54.9895,
+      "lng": -1.6704,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-183",
+      "city": "newcastle",
+      "name": "The Collingwood Arms",
+      "address": "Address unknown",
+      "lat": 54.9852,
+      "lng": -1.6088,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-184",
+      "city": "newcastle",
+      "name": "Habita",
+      "address": "Sandyford Road",
+      "lat": 54.9784,
+      "lng": -1.6074,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-185",
+      "city": "newcastle",
+      "name": "The Five Swans",
+      "address": "14 Saint Mary's Place",
+      "lat": 54.9777,
+      "lng": -1.612,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "new-186",
+      "city": "newcastle",
+      "name": "Lock and Quay",
+      "address": "Pipewellgate",
+      "lat": 54.9667,
+      "lng": -1.6071,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-187",
+      "city": "newcastle",
+      "name": "The Bridge Tavern",
+      "address": "7 Akenside Hill",
+      "lat": 54.9694,
+      "lng": -1.6075,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "real-ale",
+        "microbrewery",
+        "food"
+      ]
+    },
+    {
+      "id": "new-188",
+      "city": "newcastle",
+      "name": "The Mile Castle",
+      "address": "19-25 Grainger Street",
+      "lat": 54.9702,
+      "lng": -1.6164,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-189",
+      "city": "newcastle",
+      "name": "Job Bulman",
+      "address": "Saint Nicholas Avenue",
+      "district": "gosforth",
+      "lat": 55.0047,
+      "lng": -1.6194,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-190",
+      "city": "newcastle",
+      "name": "Crown Posada",
+      "address": "31 Side",
+      "lat": 54.9692,
+      "lng": -1.6088,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-191",
+      "city": "newcastle",
+      "name": "Tilleys Bar",
+      "address": "105 Westgate Road",
+      "lat": 54.9705,
+      "lng": -1.6206,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "food"
+      ]
+    },
+    {
+      "id": "new-192",
+      "city": "newcastle",
+      "name": "Swarley's",
+      "address": "11 Groat Market",
+      "lat": 54.9704,
+      "lng": -1.6128,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-193",
+      "city": "newcastle",
+      "name": "Ship Inn",
+      "address": "Front Street",
+      "lat": 55.011,
+      "lng": -1.5712,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-194",
+      "city": "newcastle",
+      "name": "The Market Lane",
+      "address": "72-74 Pilgrim Street",
+      "lat": 54.9722,
+      "lng": -1.6108,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-195",
+      "city": "newcastle",
+      "name": "The Highlander",
+      "address": "5 Front Street",
+      "district": "swalwell",
+      "lat": 54.954,
+      "lng": -1.6851,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "new-196",
+      "city": "newcastle",
+      "name": "Cantina Mexicana",
+      "address": "281 Shields Road",
+      "district": "byker",
+      "lat": 54.9783,
+      "lng": -1.5753,
+      "drink": "Pint of Newcastle Brown",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "new-197",
+      "city": "newcastle",
+      "name": "Flares",
+      "address": "33 Mosley Street",
+      "lat": 54.9706,
+      "lng": -1.6116,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-198",
+      "city": "newcastle",
+      "name": "Digital",
+      "address": "1-2 Times Square",
+      "lat": 54.9675,
+      "lng": -1.6205,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-199",
+      "city": "newcastle",
+      "name": "World Headquarters",
+      "address": "Carliol Square",
+      "lat": 54.9726,
+      "lng": -1.6082,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-200",
+      "city": "newcastle",
+      "name": "Venue",
+      "address": "Address unknown",
+      "lat": 54.979,
+      "lng": -1.6153,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-201",
+      "city": "newcastle",
+      "name": "Soho Rooms",
+      "address": "25-27 Mosley Street",
+      "lat": 54.9708,
+      "lng": -1.611,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-202",
+      "city": "newcastle",
+      "name": "Powerhouse",
+      "address": "7-19 Westmorland Road",
+      "lat": 54.9683,
+      "lng": -1.6228,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-203",
+      "city": "newcastle",
+      "name": "Howlers",
+      "address": "28-32 Collingwood Street",
+      "lat": 54.97,
+      "lng": -1.6135,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-204",
+      "city": "newcastle",
+      "name": "Bohemia",
+      "address": "20 Collingwood Street",
+      "lat": 54.9701,
+      "lng": -1.6129,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-205",
+      "city": "newcastle",
+      "name": "Tup Tup Palace",
+      "address": "7 - 9 St Nicholas Street",
+      "lat": 54.9699,
+      "lng": -1.6122,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-206",
+      "city": "newcastle",
+      "name": "Little Buildings",
+      "address": "3-5 Stepney Bank",
+      "lat": 54.9747,
+      "lng": -1.5962,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-207",
+      "city": "newcastle",
+      "name": "Greys Club",
+      "address": "Grey Street",
+      "lat": 54.9711,
+      "lng": -1.6116,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-208",
+      "city": "newcastle",
+      "name": "The Social Club",
+      "address": "28-32 Collingwood Street",
+      "lat": 54.9701,
+      "lng": -1.6132,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-209",
+      "city": "newcastle",
+      "name": "The Grove",
+      "address": "1 St Michael's Rd",
+      "lat": 54.9727,
+      "lng": -1.584,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-210",
+      "city": "newcastle",
+      "name": "Riverside",
+      "address": "Close",
+      "lat": 54.9679,
+      "lng": -1.609,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-211",
+      "city": "newcastle",
+      "name": "Warehouse 34",
+      "address": "Address unknown",
+      "lat": 54.9715,
+      "lng": -1.581,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-001",
+      "city": "newcastle",
+      "name": "Flares",
+      "address": "33 Mosley Street",
+      "lat": 54.9706,
+      "lng": -1.6116,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-002",
+      "city": "newcastle",
+      "name": "Digital",
+      "address": "1-2 Times Square",
+      "lat": 54.9675,
+      "lng": -1.6205,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-003",
+      "city": "newcastle",
+      "name": "World Headquarters",
+      "address": "Carliol Square",
+      "lat": 54.9726,
+      "lng": -1.6082,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-004",
+      "city": "newcastle",
+      "name": "Venue",
+      "address": "Address unknown",
+      "lat": 54.979,
+      "lng": -1.6153,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-005",
+      "city": "newcastle",
+      "name": "Soho Rooms",
+      "address": "25-27 Mosley Street",
+      "lat": 54.9708,
+      "lng": -1.611,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-006",
+      "city": "newcastle",
+      "name": "Powerhouse",
+      "address": "7-19 Westmorland Road",
+      "lat": 54.9683,
+      "lng": -1.6228,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-007",
+      "city": "newcastle",
+      "name": "Howlers",
+      "address": "28-32 Collingwood Street",
+      "lat": 54.97,
+      "lng": -1.6135,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-008",
+      "city": "newcastle",
+      "name": "Bohemia",
+      "address": "20 Collingwood Street",
+      "lat": 54.9701,
+      "lng": -1.6129,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-009",
+      "city": "newcastle",
+      "name": "Tup Tup Palace",
+      "address": "7 - 9 St Nicholas Street",
+      "lat": 54.9699,
+      "lng": -1.6122,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-010",
+      "city": "newcastle",
+      "name": "Little Buildings",
+      "address": "3-5 Stepney Bank",
+      "lat": 54.9747,
+      "lng": -1.5962,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-011",
+      "city": "newcastle",
+      "name": "Greys Club",
+      "address": "Grey Street",
+      "lat": 54.9711,
+      "lng": -1.6116,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-012",
+      "city": "newcastle",
+      "name": "The Social Club",
+      "address": "28-32 Collingwood Street",
+      "lat": 54.9701,
+      "lng": -1.6132,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-013",
+      "city": "newcastle",
+      "name": "The Grove",
+      "address": "1 St Michael's Rd",
+      "lat": 54.9727,
+      "lng": -1.584,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-014",
+      "city": "newcastle",
+      "name": "Riverside",
+      "address": "Close",
+      "lat": 54.9679,
+      "lng": -1.609,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "new-015",
+      "city": "newcastle",
+      "name": "Warehouse 34",
+      "address": "Address unknown",
+      "lat": 54.9715,
+      "lng": -1.581,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    }
+  ]
+}

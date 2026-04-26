@@ -1,0 +1,2306 @@
+{
+  "key": "bristol",
+  "prefix": "brs",
+  "label": "Bristol",
+  "bbox": "migrated",
+  "defaultDrink": "Pint of Lager",
+  "scrapedAt": "2026-04-03T08:03:05.801Z",
+  "barCount": 155,
+  "bars": [
+    {
+      "id": "brs-001",
+      "city": "bristol",
+      "name": "Dristi’s",
+      "address": "40-44 Saint Paul's Road",
+      "district": "clifton",
+      "lat": 51.4592,
+      "lng": -2.6111,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-002",
+      "city": "bristol",
+      "name": "The Den and Terrace",
+      "address": "31 Saint Paul's Road",
+      "district": "clifton",
+      "lat": 51.4588,
+      "lng": -2.6107,
+      "drink": "Pint of Cider",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "biergarten"
+      ]
+    },
+    {
+      "id": "brs-003",
+      "city": "bristol",
+      "name": "Piano Bar",
+      "address": "11 St Augustine's Parade",
+      "district": "city centre",
+      "lat": 51.4531,
+      "lng": -2.5982,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-004",
+      "city": "bristol",
+      "name": "Warmup",
+      "address": "Address unknown",
+      "lat": 51.4512,
+      "lng": -2.5924,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-005",
+      "city": "bristol",
+      "name": "The Grain House",
+      "address": "Address unknown",
+      "lat": 51.4498,
+      "lng": -2.5974,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "breakfast",
+        "burger",
+        "curry",
+        "fish_and_chips",
+        "local"
+      ]
+    },
+    {
+      "id": "brs-006",
+      "city": "bristol",
+      "name": "Buttermilk & Maple",
+      "address": "Welsh Back",
+      "lat": 51.4533,
+      "lng": -2.5925,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-007",
+      "city": "bristol",
+      "name": "Golden Crane Cocktail Bar",
+      "address": "1 Unity Street",
+      "lat": 51.4533,
+      "lng": -2.6008,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-008",
+      "city": "bristol",
+      "name": "Sports Bar & Pizzeria",
+      "address": "Address unknown",
+      "lat": 51.4392,
+      "lng": -2.6209,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "brs-009",
+      "city": "bristol",
+      "name": "Marlows",
+      "address": "1 Newmarket Avenue",
+      "lat": 51.4555,
+      "lng": -2.5934,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-010",
+      "city": "bristol",
+      "name": "1766 bar & kitchen",
+      "address": "King Street",
+      "district": "city centre",
+      "lat": 51.452,
+      "lng": -2.5943,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-011",
+      "city": "bristol",
+      "name": "Somerville Club",
+      "address": "21-23 Sommerville Road",
+      "lat": 51.4753,
+      "lng": -2.5892,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-012",
+      "city": "bristol",
+      "name": "Left Handed Giant Brewery & Taproom",
+      "address": "Wadehurst Industrial Estate",
+      "lat": 51.4562,
+      "lng": -2.572,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus"
+      ]
+    },
+    {
+      "id": "brs-013",
+      "city": "bristol",
+      "name": "Tobacco Factory",
+      "address": "278 Raleigh Road",
+      "district": "southville",
+      "lat": 51.4422,
+      "lng": -2.6135,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-014",
+      "city": "bristol",
+      "name": "The Tap Room",
+      "address": "25 Mina Road",
+      "district": "st werburgh's",
+      "lat": 51.4674,
+      "lng": -2.5741,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "brs-015",
+      "city": "bristol",
+      "name": "Little Martha Brewing",
+      "address": "23 Oxford Street",
+      "district": "saint philips",
+      "lat": 51.4513,
+      "lng": -2.5777,
+      "drink": "Pint of Ale",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "microbrewery"
+      ]
+    },
+    {
+      "id": "brs-016",
+      "city": "bristol",
+      "name": "Knowle Constitional Club",
+      "address": "162 Wells Road",
+      "lat": 51.4407,
+      "lng": -2.5746,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-017",
+      "city": "bristol",
+      "name": "Tio Pepe",
+      "address": "Address unknown",
+      "lat": 51.4469,
+      "lng": -2.594,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-018",
+      "city": "bristol",
+      "name": "Undershed Bar",
+      "address": "Address unknown",
+      "lat": 51.4519,
+      "lng": -2.5981,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-019",
+      "city": "bristol",
+      "name": "The Farside",
+      "address": "Address unknown",
+      "lat": 51.4639,
+      "lng": -2.5896,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-020",
+      "city": "bristol",
+      "name": "The Flight Club",
+      "address": "Address unknown",
+      "lat": 51.4544,
+      "lng": -2.5947,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-021",
+      "city": "bristol",
+      "name": "Roastery and Brew Bar",
+      "address": "Address unknown",
+      "lat": 51.4608,
+      "lng": -2.5807,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "british",
+        "food"
+      ]
+    },
+    {
+      "id": "brs-022",
+      "city": "bristol",
+      "name": "Shredenhams",
+      "address": "Address unknown",
+      "lat": 51.4586,
+      "lng": -2.5902,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-023",
+      "city": "bristol",
+      "name": "Veeno",
+      "address": "Address unknown",
+      "lat": 51.4518,
+      "lng": -2.5803,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-024",
+      "city": "bristol",
+      "name": "Brown & Bye",
+      "address": "Gasworks Lane",
+      "district": "harbour inlet",
+      "lat": 51.4498,
+      "lng": -2.6064,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-025",
+      "city": "bristol",
+      "name": "Felson's",
+      "address": "40 Corn Street",
+      "lat": 51.4543,
+      "lng": -2.5943,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-026",
+      "city": "bristol",
+      "name": "Mr Wolf's",
+      "address": "32 Saint Nicholas Street",
+      "district": "city centre",
+      "lat": 51.4538,
+      "lng": -2.5942,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-027",
+      "city": "bristol",
+      "name": "Carmen Street Wine",
+      "address": "Carmen Beckford Street",
+      "lat": 51.4642,
+      "lng": -2.5893,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-028",
+      "city": "bristol",
+      "name": "Native Vine",
+      "address": "217 Church Road",
+      "lat": 51.4594,
+      "lng": -2.5546,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-029",
+      "city": "bristol",
+      "name": "The Clifton Club",
+      "address": "22 The Mall",
+      "district": "clifton",
+      "lat": 51.4552,
+      "lng": -2.6208,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-030",
+      "city": "bristol",
+      "name": "Steinbeck & Shaw",
+      "address": "Address unknown",
+      "lat": 51.4501,
+      "lng": -2.5991,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-031",
+      "city": "bristol",
+      "name": "The Love Inn",
+      "address": "84 Stokes Croft",
+      "district": "saint pauls",
+      "lat": 51.4632,
+      "lng": -2.5897,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "pizza",
+        "food"
+      ]
+    },
+    {
+      "id": "brs-032",
+      "city": "bristol",
+      "name": "Last Chance Saloon",
+      "address": "121 Stokes Croft",
+      "district": "st paul's",
+      "lat": 51.464,
+      "lng": -2.59,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-033",
+      "city": "bristol",
+      "name": "Attic Bar",
+      "address": "1 North Street",
+      "district": "city centre",
+      "lat": 51.4603,
+      "lng": -2.5902,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-034",
+      "city": "bristol",
+      "name": "Leftbank",
+      "address": "128 Cheltenham Road",
+      "district": "montpelier",
+      "lat": 51.4649,
+      "lng": -2.5896,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-035",
+      "city": "bristol",
+      "name": "Crofters Garden",
+      "address": "7 Ashley Road",
+      "lat": 51.4646,
+      "lng": -2.5891,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-036",
+      "city": "bristol",
+      "name": "NQ64",
+      "address": "14-16 Baldwin Street",
+      "district": "city centre",
+      "lat": 51.4532,
+      "lng": -2.5959,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-037",
+      "city": "bristol",
+      "name": "The Milk Thistle",
+      "address": "Colston Avenue",
+      "lat": 51.4551,
+      "lng": -2.5957,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-038",
+      "city": "bristol",
+      "name": "Central Chambers",
+      "address": "9-11 Saint Stephens Street",
+      "district": "city centre",
+      "lat": 51.4547,
+      "lng": -2.5957,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-039",
+      "city": "bristol",
+      "name": "Dirty Martini",
+      "address": "47 Corn Street",
+      "district": "city centre",
+      "lat": 51.4546,
+      "lng": -2.5944,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-040",
+      "city": "bristol",
+      "name": "karaoke-me!",
+      "address": "12 Saint Stephen's Street",
+      "lat": 51.4544,
+      "lng": -2.5958,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-041",
+      "city": "bristol",
+      "name": "The Cocktail Club",
+      "address": "Corn Street",
+      "lat": 51.4544,
+      "lng": -2.595,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-042",
+      "city": "bristol",
+      "name": "The Clockwork Rose",
+      "address": "16 Saint Stephen's Street",
+      "district": "city centre",
+      "lat": 51.4537,
+      "lng": -2.5952,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-043",
+      "city": "bristol",
+      "name": "Slug & Lettuce",
+      "address": "26-28 Saint Nicholas Street",
+      "district": "city centre",
+      "lat": 51.454,
+      "lng": -2.5942,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-044",
+      "city": "bristol",
+      "name": "Mugshot",
+      "address": "18 Saint Nicholas Street",
+      "district": "city centre",
+      "lat": 51.4539,
+      "lng": -2.5935,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-045",
+      "city": "bristol",
+      "name": "Supreme Sports Lounge",
+      "address": "Address unknown",
+      "lat": 51.4474,
+      "lng": -2.5686,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-046",
+      "city": "bristol",
+      "name": "Cock & Tail",
+      "address": "Commercial Road",
+      "lat": 51.4464,
+      "lng": -2.5931,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-047",
+      "city": "bristol",
+      "name": "the Aperitivo",
+      "address": "47 Colston Street",
+      "district": "city centre",
+      "lat": 51.4559,
+      "lng": -2.5977,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-048",
+      "city": "bristol",
+      "name": "Green House",
+      "address": "37 College Green",
+      "district": "city centre",
+      "lat": 51.4526,
+      "lng": -2.5994,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-049",
+      "city": "bristol",
+      "name": "The Yard Cocktail Bar",
+      "address": "Upper Maudlin Street",
+      "lat": 51.4571,
+      "lng": -2.5969,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "food"
+      ]
+    },
+    {
+      "id": "brs-050",
+      "city": "bristol",
+      "name": "Whitchurch & Pensford Royal British Legion Social Club Ltd.",
+      "address": "Staunton Lane",
+      "district": "whitchurch",
+      "lat": 51.4064,
+      "lng": -2.556,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-051",
+      "city": "bristol",
+      "name": "Westbury-on-Trym Men's Club",
+      "address": "2 Stoke Lane",
+      "district": "westbury-on-trym",
+      "lat": 51.493,
+      "lng": -2.6189,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-052",
+      "city": "bristol",
+      "name": "Central",
+      "address": "64-66 Park Row",
+      "district": "city centre",
+      "lat": 51.4555,
+      "lng": -2.6034,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-053",
+      "city": "bristol",
+      "name": "Reina",
+      "address": "55 Park Street",
+      "district": "city centre",
+      "lat": 51.4545,
+      "lng": -2.6031,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-054",
+      "city": "bristol",
+      "name": "Goldbrick House",
+      "address": "69 Park Street",
+      "district": "city centre",
+      "lat": 51.4549,
+      "lng": -2.6036,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-055",
+      "city": "bristol",
+      "name": "Bristol & Bath Distillery",
+      "address": "87-89 Park Street",
+      "district": "city centre",
+      "lat": 51.4555,
+      "lng": -2.6044,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-056",
+      "city": "bristol",
+      "name": "The Juke Box",
+      "address": "32 Park Street",
+      "district": "city centre",
+      "lat": 51.454,
+      "lng": -2.6019,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-057",
+      "city": "bristol",
+      "name": "Gatsby's",
+      "address": "44 Park Street",
+      "district": "city centre",
+      "lat": 51.4544,
+      "lng": -2.6023,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-058",
+      "city": "bristol",
+      "name": "Marquee",
+      "address": "64 Park Street",
+      "district": "city centre",
+      "lat": 51.4549,
+      "lng": -2.6029,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-059",
+      "city": "bristol",
+      "name": "98 Club Shisha KTV",
+      "address": "Address unknown",
+      "lat": 51.4551,
+      "lng": -2.6033,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-060",
+      "city": "bristol",
+      "name": "The Filthy Thirteen",
+      "address": "208 Cheltenham Road",
+      "district": "montpelier",
+      "lat": 51.4694,
+      "lng": -2.5931,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-061",
+      "city": "bristol",
+      "name": "Kinkajou",
+      "address": "52 Upper Belgrave Road",
+      "district": "clifton",
+      "lat": 51.4704,
+      "lng": -2.616,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-062",
+      "city": "bristol",
+      "name": "Evoque @ Clifton",
+      "address": "55 Queen's Road",
+      "district": "clifton",
+      "lat": 51.4564,
+      "lng": -2.6067,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-063",
+      "city": "bristol",
+      "name": "London Cocktail Club",
+      "address": "37 Triangle West",
+      "district": "clifton",
+      "lat": 51.4566,
+      "lng": -2.6077,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-064",
+      "city": "bristol",
+      "name": "Clifton Cocktail Club",
+      "address": "135 Whiteladies Road",
+      "district": "clifton",
+      "lat": 51.465,
+      "lng": -2.6098,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-065",
+      "city": "bristol",
+      "name": "The Brass Pig",
+      "address": "Triangle West",
+      "district": "clifton",
+      "lat": 51.4562,
+      "lng": -2.6084,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-066",
+      "city": "bristol",
+      "name": "Tapps Wine Bar",
+      "address": "87 Whiteladies Road",
+      "district": "clifton",
+      "lat": 51.4634,
+      "lng": -2.6089,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "brs-067",
+      "city": "bristol",
+      "name": "Bravas",
+      "address": "7 Cotham Hill",
+      "district": "cotham",
+      "lat": 51.4643,
+      "lng": -2.609,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "tapas"
+      ]
+    },
+    {
+      "id": "brs-068",
+      "city": "bristol",
+      "name": "Jaded Dragon",
+      "address": "77 Whiteladies Road",
+      "district": "clifton",
+      "lat": 51.4631,
+      "lng": -2.6087,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-069",
+      "city": "bristol",
+      "name": "Industry",
+      "address": "143;141 Gloucester Road",
+      "district": "bishopston",
+      "lat": 51.4738,
+      "lng": -2.5911,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-070",
+      "city": "bristol",
+      "name": "The 131 Club",
+      "address": "131 Westbury Road",
+      "district": "westbury on trym",
+      "lat": 51.4886,
+      "lng": -2.6167,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-071",
+      "city": "bristol",
+      "name": "Mangosteen",
+      "address": "187 Gloucester Road",
+      "lat": 51.4749,
+      "lng": -2.5911,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-072",
+      "city": "bristol",
+      "name": "Hammer & Ale",
+      "address": "44 Gloucester Road",
+      "lat": 51.4729,
+      "lng": -2.5913,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "brs-073",
+      "city": "bristol",
+      "name": "Pizzucci",
+      "address": "Gloucester Road",
+      "lat": 51.4719,
+      "lng": -2.5925,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-074",
+      "city": "bristol",
+      "name": "The Blue Lagoon",
+      "address": "18-20 Gloucester Road",
+      "lat": 51.4714,
+      "lng": -2.5929,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-075",
+      "city": "bristol",
+      "name": "Kask2",
+      "address": "243 Cheltenham Road",
+      "district": "montpelier",
+      "lat": 51.4702,
+      "lng": -2.5939,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-076",
+      "city": "bristol",
+      "name": "Chimp House",
+      "address": "232 Gloucester Road",
+      "lat": 51.4796,
+      "lng": -2.5897,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-077",
+      "city": "bristol",
+      "name": "All Stars",
+      "address": "15-19 Queen's Road",
+      "district": "clifton",
+      "lat": 51.4557,
+      "lng": -2.6051,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-078",
+      "city": "bristol",
+      "name": "Shirehampton Men's Social Club",
+      "address": "High Street",
+      "district": "shirehampton",
+      "lat": 51.4908,
+      "lng": -2.6786,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-079",
+      "city": "bristol",
+      "name": "The Woods",
+      "address": "1 Park Street Avenue",
+      "district": "city centre",
+      "lat": 51.4554,
+      "lng": -2.6034,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-080",
+      "city": "bristol",
+      "name": "The Dirty Bird",
+      "address": "10 Kings Road",
+      "district": "clifton",
+      "lat": 51.4556,
+      "lng": -2.6186,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-081",
+      "city": "bristol",
+      "name": "Spirited",
+      "address": "196 North Street",
+      "district": "bedminster",
+      "lat": 51.4405,
+      "lng": -2.6101,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-082",
+      "city": "bristol",
+      "name": "Harveys Cellars",
+      "address": "12 Denmark Street",
+      "district": "city centre",
+      "lat": 51.4532,
+      "lng": -2.5997,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-083",
+      "city": "bristol",
+      "name": "The Green Room",
+      "address": "22-24 Denmark Street",
+      "district": "city centre",
+      "lat": 51.453,
+      "lng": -2.5986,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-084",
+      "city": "bristol",
+      "name": "Depot Bar",
+      "address": "Lawrence Hill",
+      "lat": 51.4583,
+      "lng": -2.5733,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-085",
+      "city": "bristol",
+      "name": "Area 81 Bar",
+      "address": "Lawrence Hill",
+      "lat": 51.4579,
+      "lng": -2.5668,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-086",
+      "city": "bristol",
+      "name": "Tipsy Tapioca",
+      "address": "6 Broad Quay",
+      "district": "city centre",
+      "lat": 51.453,
+      "lng": -2.5969,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "brs-087",
+      "city": "bristol",
+      "name": "omg bar",
+      "address": "Frogmore Street",
+      "lat": 51.4535,
+      "lng": -2.6009,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-088",
+      "city": "bristol",
+      "name": "The Lost & Found",
+      "address": "85 Queen's Road",
+      "district": "clifton",
+      "lat": 51.4571,
+      "lng": -2.6085,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-089",
+      "city": "bristol",
+      "name": "Rick's",
+      "address": "Prince Street",
+      "district": "city centre",
+      "lat": 51.4501,
+      "lng": -2.5973,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-090",
+      "city": "bristol",
+      "name": "Brace & Browns",
+      "address": "43 Whiteladies Road",
+      "district": "clifton",
+      "lat": 51.4616,
+      "lng": -2.6081,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-091",
+      "city": "bristol",
+      "name": "Under the Stars",
+      "address": "Narrow Quay",
+      "district": "city centre",
+      "lat": 51.4519,
+      "lng": -2.5975,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-092",
+      "city": "bristol",
+      "name": "Lounge",
+      "address": "227-231 North Street",
+      "district": "bedminster",
+      "lat": 51.4411,
+      "lng": -2.6122,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-093",
+      "city": "bristol",
+      "name": "Lupe",
+      "address": "63-65 North Street",
+      "district": "bedminster",
+      "lat": 51.4407,
+      "lng": -2.6043,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-094",
+      "city": "bristol",
+      "name": "Daisy's",
+      "address": "38-40 Triangle West",
+      "district": "clifton",
+      "lat": 51.4566,
+      "lng": -2.6078,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-095",
+      "city": "bristol",
+      "name": "One Love Diner and Bar",
+      "address": "159 Ashley Road",
+      "district": "montpelier",
+      "lat": 51.4664,
+      "lng": -2.5803,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-096",
+      "city": "bristol",
+      "name": "Wiper & True Barrel Store",
+      "address": "2-8 York Street",
+      "district": "saint werburghs",
+      "lat": 51.4699,
+      "lng": -2.5763,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-097",
+      "city": "bristol",
+      "name": "The Botanist",
+      "address": "20a Berkeley Square",
+      "district": "clifton",
+      "lat": 51.4558,
+      "lng": -2.606,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-098",
+      "city": "bristol",
+      "name": "Izakayan",
+      "address": "59 Apsley Road",
+      "district": "clifton",
+      "lat": 51.4682,
+      "lng": -2.614,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "japanese"
+      ]
+    },
+    {
+      "id": "brs-099",
+      "city": "bristol",
+      "name": "The Bootlegger",
+      "address": "233 Cheltenham Road",
+      "district": "montpelier",
+      "lat": 51.4699,
+      "lng": -2.5939,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-100",
+      "city": "bristol",
+      "name": "Bar 57",
+      "address": "57 North Street",
+      "district": "bedminster",
+      "lat": 51.4408,
+      "lng": -2.604,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-101",
+      "city": "bristol",
+      "name": "Toto's Winebar",
+      "address": "125 Redcliff Street",
+      "district": "redcliffe",
+      "lat": 51.4523,
+      "lng": -2.5914,
+      "drink": "Pint of Guinness",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "brs-102",
+      "city": "bristol",
+      "name": "Strawberry Thief",
+      "address": "26 Broad Street",
+      "district": "city centre",
+      "lat": 51.4555,
+      "lng": -2.5948,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-103",
+      "city": "bristol",
+      "name": "Revolution",
+      "address": "19-21 Saint Nicholas Street",
+      "district": "city centre",
+      "lat": 51.4537,
+      "lng": -2.5936,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "brs-104",
+      "city": "bristol",
+      "name": "Brozen Bar",
+      "address": "43 Saint Nicholas Street",
+      "district": "city centre",
+      "lat": 51.4537,
+      "lng": -2.5947,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-105",
+      "city": "bristol",
+      "name": "Bruhaha",
+      "address": "156-158 Wells Road",
+      "district": "totterdown",
+      "lat": 51.4408,
+      "lng": -2.5748,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-106",
+      "city": "bristol",
+      "name": "Cosies",
+      "address": "34 Portland Square",
+      "lat": 51.4609,
+      "lng": -2.5863,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-107",
+      "city": "bristol",
+      "name": "Mickey Zoggs",
+      "address": "8-9 Surrey Street",
+      "district": "saint pauls",
+      "lat": 51.4605,
+      "lng": -2.587,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "coffee",
+        "beer"
+      ]
+    },
+    {
+      "id": "brs-108",
+      "city": "bristol",
+      "name": "St George Labour Club",
+      "address": "326a Church Road",
+      "district": "saint george",
+      "lat": 51.4599,
+      "lng": -2.5444,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-109",
+      "city": "bristol",
+      "name": "The Mezze Bar",
+      "address": "Address unknown",
+      "lat": 51.4702,
+      "lng": -2.5933,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-110",
+      "city": "bristol",
+      "name": "Muse",
+      "address": "37-41 Prince Street",
+      "district": "city centre",
+      "lat": 51.4505,
+      "lng": -2.5963,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-111",
+      "city": "bristol",
+      "name": "Vice",
+      "address": "Queen's Avenue",
+      "district": "clifton",
+      "lat": 51.4578,
+      "lng": -2.6081,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-112",
+      "city": "bristol",
+      "name": "Putt above",
+      "address": "Union Street",
+      "lat": 51.4567,
+      "lng": -2.5923,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-113",
+      "city": "bristol",
+      "name": "Puttabove",
+      "address": "Union Street",
+      "lat": 51.4566,
+      "lng": -2.5924,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-114",
+      "city": "bristol",
+      "name": "Coyote Ugly",
+      "address": "Canons Way",
+      "district": "city centre",
+      "lat": 51.4497,
+      "lng": -2.5989,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-115",
+      "city": "bristol",
+      "name": "The Doghouse",
+      "address": "Address unknown",
+      "lat": 51.4545,
+      "lng": -2.5958,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-116",
+      "city": "bristol",
+      "name": "The Colston",
+      "address": "8 Colston Avenue",
+      "lat": 51.454,
+      "lng": -2.5966,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-117",
+      "city": "bristol",
+      "name": "Hyde & Co.",
+      "address": "2 Berkeley Crescent",
+      "district": "clifton",
+      "lat": 51.4559,
+      "lng": -2.6069,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-118",
+      "city": "bristol",
+      "name": "Her Majesty's Secret Service",
+      "address": "Whiteladies Road",
+      "lat": 51.4645,
+      "lng": -2.6104,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-119",
+      "city": "bristol",
+      "name": "Antix",
+      "address": "44 Park Street",
+      "district": "city centre",
+      "lat": 51.4543,
+      "lng": -2.6023,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-120",
+      "city": "bristol",
+      "name": "jazz",
+      "address": "Bond Street South",
+      "district": "st paul's",
+      "lat": 51.4582,
+      "lng": -2.5837,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-121",
+      "city": "bristol",
+      "name": "Wiper and True Taproom, Old Market",
+      "address": "Units 11-15 Easton Road",
+      "district": "easton",
+      "lat": 51.4589,
+      "lng": -2.5749,
+      "drink": "Craft IPA Pint",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "outdoor",
+        "microbrewery",
+        "food"
+      ]
+    },
+    {
+      "id": "brs-122",
+      "city": "bristol",
+      "name": "The Gold Bar",
+      "address": "55 Corn Street",
+      "lat": 51.4548,
+      "lng": -2.5936,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-123",
+      "city": "bristol",
+      "name": "Bar + Block",
+      "address": "King Street",
+      "district": "city centre",
+      "lat": 51.4519,
+      "lng": -2.5929,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-124",
+      "city": "bristol",
+      "name": "The Courtyard",
+      "address": "Address unknown",
+      "lat": 51.4608,
+      "lng": -2.5805,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "id": "brs-125",
+      "city": "bristol",
+      "name": "Hey Dude Bar",
+      "address": "19 King Street",
+      "lat": 51.4516,
+      "lng": -2.5947,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-126",
+      "city": "bristol",
+      "name": "All in One",
+      "address": "46 Park Street",
+      "district": "city centre",
+      "lat": 51.4544,
+      "lng": -2.6023,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-127",
+      "city": "bristol",
+      "name": "The Architect",
+      "address": "16 Narrow Quay",
+      "district": "city centre",
+      "lat": 51.4497,
+      "lng": -2.5973,
+      "drink": "Pint of Lager",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "bar"
+      ]
+    },
+    {
+      "id": "brs-128",
+      "city": "bristol",
+      "name": "Lakota",
+      "address": "6 Upper York Street",
+      "lat": 51.4616,
+      "lng": -2.5896,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-129",
+      "city": "bristol",
+      "name": "The Pearl Nightclub",
+      "address": "10-12 Triangle South",
+      "district": "clifton",
+      "lat": 51.4562,
+      "lng": -2.6072,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-130",
+      "city": "bristol",
+      "name": "Chasers",
+      "address": "Address unknown",
+      "lat": 51.4627,
+      "lng": -2.5082,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-131",
+      "city": "bristol",
+      "name": "Loco Klub",
+      "address": "Approach Road",
+      "district": "redcliffe",
+      "lat": 51.4491,
+      "lng": -2.5829,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-132",
+      "city": "bristol",
+      "name": "omg",
+      "address": "Address unknown",
+      "lat": 51.4533,
+      "lng": -2.6016,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-133",
+      "city": "bristol",
+      "name": "Tazmental Promotions",
+      "address": "35 Lanaway Road",
+      "lat": 51.4867,
+      "lng": -2.52,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-134",
+      "city": "bristol",
+      "name": "Motion",
+      "address": "2 Victoria Terrace",
+      "lat": 51.4487,
+      "lng": -2.569,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-135",
+      "city": "bristol",
+      "name": "Thekla",
+      "address": "The Grove",
+      "district": "city centre",
+      "lat": 51.449,
+      "lng": -2.5942,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-136",
+      "city": "bristol",
+      "name": "O'Neill's",
+      "address": "7-9 Baldwin Street",
+      "district": "city centre",
+      "lat": 51.4536,
+      "lng": -2.5962,
+      "drink": "Pint of Guinness",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "brs-137",
+      "city": "bristol",
+      "name": "Popworld",
+      "address": "16-24 Baldwin Street",
+      "lat": 51.4533,
+      "lng": -2.5953,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-138",
+      "city": "bristol",
+      "name": "Exchange",
+      "address": "72-73 Old Market Street",
+      "district": "st philip's",
+      "lat": 51.4555,
+      "lng": -2.5828,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-139",
+      "city": "bristol",
+      "name": "Fiddlers Club",
+      "address": "Willway Street",
+      "district": "bedminster",
+      "lat": 51.4429,
+      "lng": -2.5924,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-140",
+      "city": "bristol",
+      "name": "La Rocca",
+      "address": "7-9 Triangle South",
+      "district": "clifton",
+      "lat": 51.4562,
+      "lng": -2.6073,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-141",
+      "city": "bristol",
+      "name": "Lola Lo",
+      "address": "67-69 Queen's Road",
+      "district": "clifton",
+      "lat": 51.4565,
+      "lng": -2.6072,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-142",
+      "city": "bristol",
+      "name": "Lizard Lounge",
+      "address": "66 Queen's Road",
+      "district": "clifton",
+      "lat": 51.4571,
+      "lng": -2.6073,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "brs-143",
+      "city": "bristol",
+      "name": "Redland Club",
+      "address": "Burlington Road",
+      "district": "redland",
+      "lat": 51.4687,
+      "lng": -2.6113,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-144",
+      "city": "bristol",
+      "name": "Blame Gloria",
+      "address": "22 Small Street",
+      "district": "city centre",
+      "lat": 51.4549,
+      "lng": -2.5944,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-145",
+      "city": "bristol",
+      "name": "Basement 45",
+      "address": "8 Frogmore Street",
+      "lat": 51.4535,
+      "lng": -2.6008,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-146",
+      "city": "bristol",
+      "name": "Qube",
+      "address": "12 Park Row",
+      "lat": 51.4553,
+      "lng": -2.6006,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-147",
+      "city": "bristol",
+      "name": "Pryzm",
+      "address": "Canons Road",
+      "district": "city centre",
+      "lat": 51.4501,
+      "lng": -2.5989,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-148",
+      "city": "bristol",
+      "name": "Illuminati",
+      "address": "9 Park Street",
+      "district": "city centre",
+      "lat": 51.4533,
+      "lng": -2.6016,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-149",
+      "city": "bristol",
+      "name": "The Shilling",
+      "address": "9 Frogmore Street",
+      "district": "city centre",
+      "lat": 51.4537,
+      "lng": -2.601,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-150",
+      "city": "bristol",
+      "name": "Clock Factory",
+      "address": "63 Union Street",
+      "district": "city centre",
+      "lat": 51.4576,
+      "lng": -2.5925,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-151",
+      "city": "bristol",
+      "name": "The Tunnels",
+      "address": "Bristol & Exeter Mews",
+      "district": "temple meads",
+      "lat": 51.4489,
+      "lng": -2.5823,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-152",
+      "city": "bristol",
+      "name": "Electric",
+      "address": "15 Nelson Street",
+      "district": "city centre",
+      "lat": 51.4566,
+      "lng": -2.5921,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-153",
+      "city": "bristol",
+      "name": "Strange Brew",
+      "address": "Fairfax Street",
+      "lat": 51.4563,
+      "lng": -2.5923,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-154",
+      "city": "bristol",
+      "name": "Dare To",
+      "address": "1 Alfred Street",
+      "lat": 51.4537,
+      "lng": -2.5739,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "brs-155",
+      "city": "bristol",
+      "name": "Zed Alley",
+      "address": "Colston Avenue",
+      "district": "city centre",
+      "lat": 51.4555,
+      "lng": -2.5972,
+      "drink": "Craft Beer",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    }
+  ]
+}

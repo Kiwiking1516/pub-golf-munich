@@ -1,0 +1,6043 @@
+{
+  "key": "hamburg",
+  "prefix": "ham",
+  "label": "Hamburg",
+  "bbox": "migrated",
+  "defaultDrink": "Astra 0,5l",
+  "scrapedAt": "2026-04-03T08:03:05.768Z",
+  "barCount": 400,
+  "bars": [
+    {
+      "id": "ham-001",
+      "city": "hamburg",
+      "name": "Gretel & Alfons",
+      "address": "Große Freiheit 29",
+      "district": "st-pauli",
+      "lat": 53.5504,
+      "lng": 9.959,
+      "drink": "Astra 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "kult",
+        "st-pauli",
+        "beatles-stammkneipe",
+        "historisch",
+        "kiez"
+      ]
+    },
+    {
+      "id": "ham-002",
+      "city": "hamburg",
+      "name": "Zum Silbersack",
+      "address": "Silbersackstraße 9",
+      "district": "st-pauli",
+      "lat": 53.5506,
+      "lng": 9.963,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "kult",
+        "seit-1949",
+        "rund-um-die-uhr",
+        "kiez"
+      ]
+    },
+    {
+      "id": "ham-003",
+      "city": "hamburg",
+      "name": "Hans-Albers-Eck",
+      "address": "Hans-Albers-Platz 14",
+      "district": "st-pauli",
+      "lat": 53.5509,
+      "lng": 9.9647,
+      "drink": "Astra 0,5l + DJ",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "kiez",
+        "kiezkneipe",
+        "DJ",
+        "tanzen"
+      ]
+    },
+    {
+      "id": "ham-004",
+      "city": "hamburg",
+      "name": "Zur Ritze",
+      "address": "Paul-Roosen-Straße 31",
+      "district": "st-pauli",
+      "lat": 53.5518,
+      "lng": 9.9582,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "boxring",
+        "kult",
+        "berühmt",
+        "klitschkos-trainiert"
+      ]
+    },
+    {
+      "id": "ham-005",
+      "city": "hamburg",
+      "name": "Korallbar",
+      "address": "Simon-von-Utrecht-Straße 89",
+      "district": "st-pauli",
+      "lat": 53.5514,
+      "lng": 9.9672,
+      "drink": "Cocktail oder Astra",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "u-förmiger-tresen",
+        "hafenromantik",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "ham-006",
+      "city": "hamburg",
+      "name": "Holsten-Schwemme",
+      "address": "Holstenstraße 68",
+      "district": "st-pauli",
+      "lat": 53.5514,
+      "lng": 9.9614,
+      "drink": "Herrengedeck (Bier + Mexikaner)",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "urig",
+        "fischernetze",
+        "gemütlich",
+        "kult"
+      ]
+    },
+    {
+      "id": "ham-007",
+      "city": "hamburg",
+      "name": "Barbarabar",
+      "address": "Hamburger Berg 14",
+      "district": "st-pauli",
+      "lat": 53.551,
+      "lng": 9.9618,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "wohnzimmer",
+        "fotoautomat",
+        "gemütlich",
+        "morgenstunden"
+      ]
+    },
+    {
+      "id": "ham-008",
+      "city": "hamburg",
+      "name": "Rosi's Bar",
+      "address": "Hamburger Berg 7",
+      "district": "st-pauli",
+      "lat": 53.5508,
+      "lng": 9.9615,
+      "drink": "Astra + Korn",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "institution",
+        "funk",
+        "soul",
+        "ska",
+        "60s"
+      ]
+    },
+    {
+      "id": "ham-009",
+      "city": "hamburg",
+      "name": "Die Möwe",
+      "address": "Reeperbahn 13",
+      "district": "st-pauli",
+      "lat": 53.5502,
+      "lng": 9.9645,
+      "drink": "Möwenschiss (Korn + Pumpernickel)",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "schummrig",
+        "retrosofas",
+        "hipster-drinks",
+        "retro"
+      ]
+    },
+    {
+      "id": "ham-010",
+      "city": "hamburg",
+      "name": "Berg 4",
+      "address": "Hamburger Berg 4",
+      "district": "st-pauli",
+      "lat": 53.5506,
+      "lng": 9.9614,
+      "drink": "Astra 0,5l + Vinyl-DJ",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "hip-hop",
+        "house",
+        "disco",
+        "kicker",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-011",
+      "city": "hamburg",
+      "name": "Toom Peerstall",
+      "address": "Marktstraße 97",
+      "district": "st-pauli",
+      "lat": 53.5528,
+      "lng": 9.9636,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "queer",
+        "safe-space",
+        "kult",
+        "seit-1919"
+      ]
+    },
+    {
+      "id": "ham-012",
+      "city": "hamburg",
+      "name": "Baby Goat Barn",
+      "address": "Detlev-Bremer-Straße 49",
+      "district": "st-pauli",
+      "lat": 53.5519,
+      "lng": 9.9596,
+      "drink": "Hamburger Craft Beer 0,33l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "st-pauli",
+        "craft",
+        "pizza",
+        "pubquiz",
+        "modern"
+      ]
+    },
+    {
+      "id": "ham-013",
+      "city": "hamburg",
+      "name": "Chug Club",
+      "address": "Davidstraße 13",
+      "district": "st-pauli",
+      "lat": 53.5503,
+      "lng": 9.963,
+      "drink": "Buttermilch-Margarita",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "versteckt",
+        "exzentrische-drinks",
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-014",
+      "city": "hamburg",
+      "name": "Pelican Bar",
+      "address": "Paul-Roosen-Straße 17",
+      "district": "st-pauli",
+      "lat": 53.5519,
+      "lng": 9.9579,
+      "drink": "Cocktail (Happy Hour bis 21h)",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "happy-hour",
+        "pop-ambiente",
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-015",
+      "city": "hamburg",
+      "name": "dripBAR",
+      "address": "Hein-Köllisch-Platz 11",
+      "district": "st-pauli",
+      "lat": 53.5475,
+      "lng": 9.9627,
+      "drink": "Slow-Drip Cocktail",
+      "par": 5,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "hafen",
+        "slow-drip-verfahren",
+        "premium",
+        "einzigartig"
+      ]
+    },
+    {
+      "id": "ham-016",
+      "city": "hamburg",
+      "name": "Fritz Bauch",
+      "address": "Bartelsstraße 6",
+      "district": "schanze",
+      "lat": 53.5628,
+      "lng": 9.9641,
+      "drink": "Jever vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schanze",
+        "kultlokal",
+        "norddeutsch",
+        "dunkel",
+        "urig"
+      ]
+    },
+    {
+      "id": "ham-017",
+      "city": "hamburg",
+      "name": "Katze",
+      "address": "Schulterblatt 88",
+      "district": "schanze",
+      "lat": 53.5626,
+      "lng": 9.9654,
+      "drink": "Caipirinha",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "schanze",
+        "caipi",
+        "touris",
+        "feiern",
+        "schulterblatt"
+      ]
+    },
+    {
+      "id": "ham-018",
+      "city": "hamburg",
+      "name": "Die Mutter",
+      "address": "Stresemannstraße 72",
+      "district": "schanze",
+      "lat": 53.558,
+      "lng": 9.9608,
+      "drink": "Jever vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schanze",
+        "stammkneipe",
+        "souterrain",
+        "seit-ewigkeiten",
+        "herzlich"
+      ]
+    },
+    {
+      "id": "ham-019",
+      "city": "hamburg",
+      "name": "Berliner Betrüger",
+      "address": "Juliusstraße 25",
+      "district": "schanze",
+      "lat": 53.5604,
+      "lng": 9.9574,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schanze",
+        "dunkel",
+        "gemütlich",
+        "gemischt"
+      ]
+    },
+    {
+      "id": "ham-020",
+      "city": "hamburg",
+      "name": "Pony Bar",
+      "address": "Schulterblatt 112",
+      "district": "schanze",
+      "lat": 53.5634,
+      "lng": 9.966,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schanze",
+        "konzerte",
+        "open-mic",
+        "café-tagsüber",
+        "kultur"
+      ]
+    },
+    {
+      "id": "ham-021",
+      "city": "hamburg",
+      "name": "Bar Thier",
+      "address": "Max-Brauer-Allee 278",
+      "district": "schanze",
+      "lat": 53.56,
+      "lng": 9.958,
+      "drink": "Ratsherrn 0,5l + DJ",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "schanze",
+        "queer",
+        "drag",
+        "weekend",
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-022",
+      "city": "hamburg",
+      "name": "Lilli Escher",
+      "address": "Max-Brauer-Allee 279",
+      "district": "altona",
+      "lat": 53.5599,
+      "lng": 9.9579,
+      "drink": "Cocktail + Billard",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "altona",
+        "schanze-grenze",
+        "cocktails",
+        "billard",
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-023",
+      "city": "hamburg",
+      "name": "Aalhaus",
+      "address": "Zeiseweg 2",
+      "district": "altona",
+      "lat": 53.5542,
+      "lng": 9.943,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "altona",
+        "livemusik",
+        "knobeln",
+        "quiz",
+        "europa-bestes-quiz"
+      ]
+    },
+    {
+      "id": "ham-024",
+      "city": "hamburg",
+      "name": "Familieneck",
+      "address": "Ottenser Hauptstraße 9",
+      "district": "ottensen",
+      "lat": 53.5524,
+      "lng": 9.9342,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "ottensen",
+        "über-60-jahre",
+        "reparieren-statt-renovieren",
+        "authentisch"
+      ]
+    },
+    {
+      "id": "ham-025",
+      "city": "hamburg",
+      "name": "Schellfischposten",
+      "address": "Carsten-Rehder-Straße 68",
+      "district": "altona",
+      "lat": 53.5463,
+      "lng": 9.9358,
+      "drink": "Astra 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "altona",
+        "fischmarkt",
+        "seemannskneipe",
+        "historisch",
+        "hafen"
+      ]
+    },
+    {
+      "id": "ham-026",
+      "city": "hamburg",
+      "name": "Haifischbar",
+      "address": "Große Elbstraße 172",
+      "district": "altona",
+      "lat": 53.5454,
+      "lng": 9.9372,
+      "drink": "Astra 0,5l + Korn",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "altona",
+        "maritime",
+        "bekannt-aus-tv",
+        "hafen",
+        "seemannskneipe"
+      ]
+    },
+    {
+      "id": "ham-027",
+      "city": "hamburg",
+      "name": "Elbschlosskeller",
+      "address": "Bernhard-Nocht-Straße 70",
+      "district": "st-pauli",
+      "lat": 53.5484,
+      "lng": 9.9611,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "rund-um-die-uhr",
+        "kellerbar",
+        "günstig",
+        "kult"
+      ]
+    },
+    {
+      "id": "ham-028",
+      "city": "hamburg",
+      "name": "Sommersalon",
+      "address": "Spielbudenplatz 21",
+      "district": "st-pauli",
+      "lat": 53.55,
+      "lng": 9.9637,
+      "drink": "Funk-Cocktail",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "st-pauli",
+        "club",
+        "funk",
+        "soul",
+        "disco",
+        "entspannt"
+      ]
+    },
+    {
+      "id": "ham-029",
+      "city": "hamburg",
+      "name": "Kemp's Pub",
+      "address": "Milchstraße 15",
+      "district": "rotherbaum",
+      "lat": 53.5619,
+      "lng": 9.9908,
+      "drink": "Bier 0,5l + Livemusik",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "rotherbaum",
+        "irish",
+        "alster",
+        "livemusik",
+        "familiär"
+      ]
+    },
+    {
+      "id": "ham-030",
+      "city": "hamburg",
+      "name": "439 Bar",
+      "address": "Max-Brauer-Allee 25",
+      "district": "altona",
+      "lat": 53.5572,
+      "lng": 9.9526,
+      "drink": "Cocktail (Swing & Soul)",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "altona",
+        "seit-80er",
+        "swing",
+        "soul",
+        "gesittet",
+        "ruhig"
+      ]
+    },
+    {
+      "id": "ham-031",
+      "city": "hamburg",
+      "name": "Clockers",
+      "address": "Detlev-Bremer-Straße 5",
+      "district": "st-pauli",
+      "lat": 53.5522,
+      "lng": 9.9596,
+      "drink": "Gin Tonic (Riesenauswahl)",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "gin",
+        "tonic-sorten",
+        "modern",
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-032",
+      "city": "hamburg",
+      "name": "F+K – Freundlich & Kompetent",
+      "address": "Hamburger Straße 13",
+      "district": "mundsburg",
+      "lat": 53.5714,
+      "lng": 10.0259,
+      "drink": "Astra 0,5l + Kicker",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "mundsburg",
+        "kicker",
+        "bierautomat",
+        "gemütlich",
+        "livemusik"
+      ]
+    },
+    {
+      "id": "ham-033",
+      "city": "hamburg",
+      "name": "Eimseck",
+      "address": "Wrangelstraße 30",
+      "district": "eimsbüttel",
+      "lat": 53.5698,
+      "lng": 9.9575,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "eimsbüttel",
+        "nachbarschaftstreff",
+        "fussball",
+        "tresen",
+        "holz"
+      ]
+    },
+    {
+      "id": "ham-034",
+      "city": "hamburg",
+      "name": "Scharfe Ecke",
+      "address": "Clemens-Schultz-Straße 86",
+      "district": "st-pauli",
+      "lat": 53.552,
+      "lng": 9.9661,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "urig",
+        "fair",
+        "echter-kiez",
+        "muss-man-gewesen-sein"
+      ]
+    },
+    {
+      "id": "ham-035",
+      "city": "hamburg",
+      "name": "Kaiserkeller",
+      "address": "Große Freiheit 36",
+      "district": "st-pauli",
+      "lat": 53.5503,
+      "lng": 9.9592,
+      "drink": "Astra 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "beatles-keller",
+        "historisch",
+        "livemusik",
+        "kult"
+      ]
+    },
+    {
+      "id": "ham-036",
+      "city": "hamburg",
+      "name": "ZWICK St. Pauli",
+      "address": "Schulterblatt 50",
+      "district": "schanze",
+      "lat": 53.5612,
+      "lng": 9.9632,
+      "drink": "Bier 0,5l + Livemusik",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "schanze",
+        "bundesliga",
+        "livemusik",
+        "sport"
+      ]
+    },
+    {
+      "id": "ham-037",
+      "city": "hamburg",
+      "name": "Zur gemütlichen Ecke",
+      "address": "Bei den St. Pauli Landungsbrücken 3",
+      "district": "st-pauli",
+      "lat": 53.547,
+      "lng": 9.9682,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "st-pauli",
+        "landungsbrücken",
+        "hafenkneipe",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "ham-038",
+      "city": "hamburg",
+      "name": "Fischauktionshalle Biergarten",
+      "address": "Große Elbstraße 9",
+      "district": "altona",
+      "lat": 53.5447,
+      "lng": 9.9369,
+      "drink": "Astra 0,5l (Outdoor)",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "altona",
+        "fischmarkt",
+        "outdoor",
+        "hafen",
+        "elbeblick"
+      ]
+    },
+    {
+      "id": "ham-039",
+      "city": "hamburg",
+      "name": "Strandperle",
+      "address": "Övelgönne 60",
+      "district": "neumühlen",
+      "lat": 53.5425,
+      "lng": 9.9083,
+      "drink": "Bier 0,5l am Elbufer",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "neumühlen",
+        "elbstrand",
+        "outdoor",
+        "containerblick",
+        "entspannt"
+      ]
+    },
+    {
+      "id": "ham-040",
+      "city": "hamburg",
+      "name": "Surfside Bar",
+      "address": "Falkensteiner Ufer 101",
+      "district": "blankenese",
+      "lat": 53.5594,
+      "lng": 9.8137,
+      "drink": "Bier 0,5l am Elbufer",
+      "par": 4,
+      "type": "biergarten",
+      "tags": [
+        "blankenese",
+        "elbufer",
+        "outdoor",
+        "ausflugsziel",
+        "beachclub"
+      ]
+    },
+    {
+      "id": "ham-041",
+      "city": "hamburg",
+      "name": "Schulterblatt 73",
+      "address": "Schulterblatt 73",
+      "district": "schanze",
+      "lat": 53.5621,
+      "lng": 9.9647,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "schanze",
+        "gemütlich",
+        "lokal",
+        "stammgäste"
+      ]
+    },
+    {
+      "id": "ham-042",
+      "city": "hamburg",
+      "name": "Überquell Brauerei",
+      "address": "Nobistor 17",
+      "district": "st-pauli",
+      "lat": 53.55,
+      "lng": 9.9552,
+      "drink": "Überquell Craft Bier 0,3l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "st-pauli",
+        "craft",
+        "hausgebraut",
+        "schick",
+        "neues-format"
+      ]
+    },
+    {
+      "id": "ham-043",
+      "city": "hamburg",
+      "name": "Astra-Stube",
+      "address": "Max-Brauer-Allee 200",
+      "district": "altona",
+      "lat": 53.5561,
+      "lng": 9.9518,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "altona",
+        "astra",
+        "hamburgisch",
+        "lokal",
+        "günstig"
+      ]
+    },
+    {
+      "id": "ham-044",
+      "city": "hamburg",
+      "name": "Knuth",
+      "address": "Friedensallee 9",
+      "district": "ottensen",
+      "lat": 53.5541,
+      "lng": 9.9321,
+      "drink": "Wein oder Bier",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "ottensen",
+        "frühstück",
+        "wein",
+        "salate",
+        "nachbarschaft"
+      ]
+    },
+    {
+      "id": "ham-045",
+      "city": "hamburg",
+      "name": "Park Hyatt Bar – Sky Bar",
+      "address": "Bugenhagenstraße 8",
+      "district": "innenstadt",
+      "lat": 53.5508,
+      "lng": 9.9963,
+      "drink": "Cocktail (Hamburg-Skyline)",
+      "par": 5,
+      "type": "cocktailbar",
+      "tags": [
+        "innenstadt",
+        "premium",
+        "aussicht",
+        "hotelbar",
+        "elegant"
+      ]
+    },
+    {
+      "id": "ham-046",
+      "city": "hamburg",
+      "name": "Wunderbar",
+      "address": "Hamburger Berg 17",
+      "district": "st-pauli",
+      "lat": 53.5509,
+      "lng": 9.962,
+      "drink": "Cocktail in Rot und Gold",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "30-jahre",
+        "opulent",
+        "kult",
+        "kultlokal"
+      ]
+    },
+    {
+      "id": "ham-047",
+      "city": "hamburg",
+      "name": "Zum Speicher",
+      "address": "Speicherstraße 45",
+      "district": "hafencity",
+      "lat": 53.5436,
+      "lng": 9.9972,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "hafencity",
+        "speicherstadt",
+        "gemütlich",
+        "abends"
+      ]
+    },
+    {
+      "id": "ham-048",
+      "city": "hamburg",
+      "name": "Altes Mädchen",
+      "address": "Lagerstraße 28b",
+      "district": "schanze",
+      "lat": 53.5561,
+      "lng": 9.9626,
+      "drink": "Ratsherrn Craft Bier 0,3l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "schanze",
+        "craft",
+        "ratsherrn",
+        "brauerei",
+        "hip",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "ham-049",
+      "city": "hamburg",
+      "name": "Peter Pane",
+      "address": "Reeperbahn 46",
+      "district": "st-pauli",
+      "lat": 53.5501,
+      "lng": 9.9656,
+      "drink": "Craft Bier 0,5l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "st-pauli",
+        "burger",
+        "craft",
+        "modern",
+        "reeperbahn"
+      ]
+    },
+    {
+      "id": "ham-050",
+      "city": "hamburg",
+      "name": "20up Bar – Empire Riverside Hotel",
+      "address": "Bernhard-Nocht-Straße 97",
+      "district": "st-pauli",
+      "lat": 53.548,
+      "lng": 9.9601,
+      "drink": "Cocktail + Elbpanorama",
+      "par": 5,
+      "type": "cocktailbar",
+      "tags": [
+        "st-pauli",
+        "rooftop",
+        "elbblick",
+        "premium",
+        "20-etage"
+      ]
+    },
+    {
+      "id": "ham-051",
+      "city": "hamburg",
+      "name": "Bar 380",
+      "address": "Finkenwerder Norderdeich 18a",
+      "lat": 53.5338,
+      "lng": 9.866,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-052",
+      "city": "hamburg",
+      "name": "Tower Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5468,
+      "lng": 9.9695,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-053",
+      "city": "hamburg",
+      "name": "Reisebar",
+      "address": "Ottenser Hauptstraße 30",
+      "lat": 53.5521,
+      "lng": 9.9295,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-054",
+      "city": "hamburg",
+      "name": "Cafe Unter den Linden",
+      "address": "Juliusstraße 16",
+      "lat": 53.5612,
+      "lng": 9.9603,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "breakfast",
+        "cake",
+        "coffee_shop"
+      ]
+    },
+    {
+      "id": "ham-055",
+      "city": "hamburg",
+      "name": "Kostbar",
+      "address": "Susannenstraße 36",
+      "lat": 53.5623,
+      "lng": 9.9631,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-056",
+      "city": "hamburg",
+      "name": "Quer",
+      "address": "Bahrenfelder Straße 180",
+      "lat": 53.5546,
+      "lng": 9.9288,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-057",
+      "city": "hamburg",
+      "name": "Reh-Bar",
+      "address": "Ottenser Hauptstraße 52",
+      "lat": 53.5518,
+      "lng": 9.9272,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-058",
+      "city": "hamburg",
+      "name": "La Belle 2",
+      "address": "Fuhlsbüttler Straße 220",
+      "lat": 53.5952,
+      "lng": 10.0441,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-059",
+      "city": "hamburg",
+      "name": "Haus 73",
+      "address": "Schulterblatt 73",
+      "lat": 53.5624,
+      "lng": 9.9612,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-060",
+      "city": "hamburg",
+      "name": "StrandPauli",
+      "address": "St. Pauli Hafenstraße 89",
+      "lat": 53.546,
+      "lng": 9.9621,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "regional"
+      ]
+    },
+    {
+      "id": "ham-061",
+      "city": "hamburg",
+      "name": "Im Tivoli",
+      "address": "Adresse unbekannt",
+      "lat": 53.4469,
+      "lng": 9.9916,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-062",
+      "city": "hamburg",
+      "name": "Wilstorfer Hof",
+      "address": "Adresse unbekannt",
+      "lat": 53.4455,
+      "lng": 9.9907,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-063",
+      "city": "hamburg",
+      "name": "Schnulze",
+      "address": "Adresse unbekannt",
+      "lat": 53.4476,
+      "lng": 9.9897,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-064",
+      "city": "hamburg",
+      "name": "Le Fonque",
+      "address": "Juliusstraße 33",
+      "lat": 53.5614,
+      "lng": 9.9615,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-065",
+      "city": "hamburg",
+      "name": "Bistro Europa",
+      "address": "Käkenflur 14 a",
+      "lat": 53.6719,
+      "lng": 9.9996,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-066",
+      "city": "hamburg",
+      "name": "Eier Carl",
+      "address": "Fischmarkt 3",
+      "lat": 53.5453,
+      "lng": 9.9522,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "regional",
+        "fish",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-067",
+      "city": "hamburg",
+      "name": "Come In",
+      "address": "Hummelsbüttler Hauptstraße 55 e",
+      "lat": 53.6413,
+      "lng": 10.0372,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-068",
+      "city": "hamburg",
+      "name": "Klimperkiste",
+      "address": "Adresse unbekannt",
+      "lat": 53.5578,
+      "lng": 9.9905,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-069",
+      "city": "hamburg",
+      "name": "Antik",
+      "address": "Adresse unbekannt",
+      "lat": 53.4635,
+      "lng": 9.9813,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-070",
+      "city": "hamburg",
+      "name": "The Old Dubliner - Irish Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.4635,
+      "lng": 9.9805,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-071",
+      "city": "hamburg",
+      "name": "VielHarmonie",
+      "address": "Markusstraße 17",
+      "lat": 53.5509,
+      "lng": 9.9795,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-072",
+      "city": "hamburg",
+      "name": "Mathilde Bar",
+      "address": "Bogenstraße 5",
+      "lat": 53.5716,
+      "lng": 9.9767,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor",
+        "coffee_shop",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-073",
+      "city": "hamburg",
+      "name": "Christiansen's",
+      "address": "Adresse unbekannt",
+      "lat": 53.5464,
+      "lng": 9.9541,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-074",
+      "city": "hamburg",
+      "name": "Titanic Irish Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.5633,
+      "lng": 9.929,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-075",
+      "city": "hamburg",
+      "name": "Goescheneck",
+      "address": "Marienstraße 37",
+      "lat": 53.4579,
+      "lng": 9.9739,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-076",
+      "city": "hamburg",
+      "name": "Marien Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.4586,
+      "lng": 9.9762,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-077",
+      "city": "hamburg",
+      "name": "Barsbütteler Bierstübchen",
+      "address": "Willinghusener Landstraße 11a",
+      "lat": 53.569,
+      "lng": 10.1736,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-078",
+      "city": "hamburg",
+      "name": "scheene Perle",
+      "address": "Lornsenstraße 88",
+      "lat": 53.6055,
+      "lng": 9.8431,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-079",
+      "city": "hamburg",
+      "name": "Rugen-Eck",
+      "address": "Blomkamp 2",
+      "lat": 53.5759,
+      "lng": 9.8472,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-080",
+      "city": "hamburg",
+      "name": "Janssen's",
+      "address": "Rugenbarg",
+      "lat": 53.5881,
+      "lng": 9.8749,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-081",
+      "city": "hamburg",
+      "name": "Bertels",
+      "address": "Feldstraße 73",
+      "lat": 53.5563,
+      "lng": 9.9681,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-082",
+      "city": "hamburg",
+      "name": "Zur Mühlenklause",
+      "address": "Adresse unbekannt",
+      "lat": 53.5362,
+      "lng": 10.0331,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "regional"
+      ]
+    },
+    {
+      "id": "ham-083",
+      "city": "hamburg",
+      "name": "Robi's Island",
+      "address": "Adresse unbekannt",
+      "lat": 53.534,
+      "lng": 10.0431,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-084",
+      "city": "hamburg",
+      "name": "Kamm In",
+      "address": "Adresse unbekannt",
+      "lat": 53.5513,
+      "lng": 9.9823,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-085",
+      "city": "hamburg",
+      "name": "Marktschänke",
+      "address": "Adresse unbekannt",
+      "lat": 53.4707,
+      "lng": 9.8534,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-086",
+      "city": "hamburg",
+      "name": "Holsten-Eck",
+      "address": "Luruper Hauptstraße 250a",
+      "lat": 53.5979,
+      "lng": 9.8625,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-087",
+      "city": "hamburg",
+      "name": "Bei Mike",
+      "address": "Parkgrund 19",
+      "lat": 53.6018,
+      "lng": 9.843,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-088",
+      "city": "hamburg",
+      "name": "1 & Dreißig",
+      "address": "Adresse unbekannt",
+      "lat": 53.5726,
+      "lng": 9.951,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-089",
+      "city": "hamburg",
+      "name": "Metro Bar",
+      "address": "Dehnhaide 2",
+      "lat": 53.5794,
+      "lng": 10.0413,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-090",
+      "city": "hamburg",
+      "name": "Cheers & Sasa",
+      "address": "Adresse unbekannt",
+      "lat": 53.5337,
+      "lng": 10.0451,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-091",
+      "city": "hamburg",
+      "name": "Schramme 10",
+      "address": "Adresse unbekannt",
+      "lat": 53.5907,
+      "lng": 9.9889,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-092",
+      "city": "hamburg",
+      "name": "Die Glocke",
+      "address": "Klosterallee 65",
+      "lat": 53.5795,
+      "lng": 9.9795,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-093",
+      "city": "hamburg",
+      "name": "Pavlos-Eck",
+      "address": "Oldachstraße 34",
+      "lat": 53.5963,
+      "lng": 10.0405,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-094",
+      "city": "hamburg",
+      "name": "Onkel Otto",
+      "address": "Adresse unbekannt",
+      "lat": 53.5467,
+      "lng": 9.96,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-095",
+      "city": "hamburg",
+      "name": "Croque Bistro am Pferdestall",
+      "address": "Am Gutshof 1",
+      "district": "hoisbüttel",
+      "lat": 53.6916,
+      "lng": 10.1659,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-096",
+      "city": "hamburg",
+      "name": "KytiVoo",
+      "address": "Adresse unbekannt",
+      "lat": 53.5581,
+      "lng": 10.0126,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-097",
+      "city": "hamburg",
+      "name": "M&V Gaststätte",
+      "address": "Lange Reihe 22",
+      "lat": 53.5559,
+      "lng": 10.0096,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-098",
+      "city": "hamburg",
+      "name": "Zum Schellfischposten",
+      "address": "Carsten-Rehder-Straße 62",
+      "lat": 53.5446,
+      "lng": 9.9461,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-099",
+      "city": "hamburg",
+      "name": "Gaststätte Dreyer",
+      "address": "Martin-Luther-Straße 4",
+      "lat": 53.5481,
+      "lng": 9.9821,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-100",
+      "city": "hamburg",
+      "name": "Café Borchers",
+      "address": "Geschwister-Scholl-Straße 1-3",
+      "lat": 53.5943,
+      "lng": 9.987,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-101",
+      "city": "hamburg",
+      "name": "Zum Spritzenhaus",
+      "address": "Adresse unbekannt",
+      "lat": 53.6151,
+      "lng": 10.1356,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-102",
+      "city": "hamburg",
+      "name": "Berner Marktschänke",
+      "address": "Kriegkamp 4",
+      "lat": 53.6267,
+      "lng": 10.1404,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-103",
+      "city": "hamburg",
+      "name": "Café Miller",
+      "address": "Detlev-Bremer-Straße 16",
+      "lat": 53.552,
+      "lng": 9.9652,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "breakfast",
+        "cake",
+        "coffee_shop"
+      ]
+    },
+    {
+      "id": "ham-104",
+      "city": "hamburg",
+      "name": "Max und Consorten",
+      "address": "Spadenteich 1",
+      "lat": 53.556,
+      "lng": 10.0081,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-105",
+      "city": "hamburg",
+      "name": "Feierabend",
+      "address": "Adresse unbekannt",
+      "lat": 53.5746,
+      "lng": 10.0709,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-106",
+      "city": "hamburg",
+      "name": "The Irish Rover",
+      "address": "Großneumarkt 8",
+      "lat": 53.5507,
+      "lng": 9.9809,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-107",
+      "city": "hamburg",
+      "name": "SportsBar",
+      "address": "Adresse unbekannt",
+      "lat": 53.4894,
+      "lng": 10.1581,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "ham-108",
+      "city": "hamburg",
+      "name": "Dorotheen-Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.5922,
+      "lng": 10.0024,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-109",
+      "city": "hamburg",
+      "name": "Kamphuis",
+      "address": "Kampstraße 57",
+      "lat": 53.7295,
+      "lng": 9.913,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-110",
+      "city": "hamburg",
+      "name": "Gurke",
+      "address": "Adresse unbekannt",
+      "lat": 53.5688,
+      "lng": 9.9951,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-111",
+      "city": "hamburg",
+      "name": "Tibarg Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.6234,
+      "lng": 9.9544,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-112",
+      "city": "hamburg",
+      "name": "Louisiana",
+      "address": "Adresse unbekannt",
+      "lat": 53.571,
+      "lng": 10.0278,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-113",
+      "city": "hamburg",
+      "name": "Schweizer Haus",
+      "address": "Hadermanns Weg 57",
+      "district": "niendorf",
+      "lat": 53.6258,
+      "lng": 9.9462,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-114",
+      "city": "hamburg",
+      "name": "Victor's Bratkartoffel Restaurant",
+      "address": "Quedlinburger Weg 84",
+      "district": "niendorf",
+      "lat": 53.6363,
+      "lng": 9.9443,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-115",
+      "city": "hamburg",
+      "name": "Monty's",
+      "address": "Adresse unbekannt",
+      "lat": 53.5832,
+      "lng": 10.0123,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-116",
+      "city": "hamburg",
+      "name": "Kuhstall",
+      "address": "Adresse unbekannt",
+      "lat": 53.5501,
+      "lng": 9.9664,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-117",
+      "city": "hamburg",
+      "name": "Shovel Road",
+      "address": "Gasstraße 2a",
+      "lat": 53.561,
+      "lng": 9.917,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-118",
+      "city": "hamburg",
+      "name": "No Name",
+      "address": "Elligersweg 7",
+      "lat": 53.6053,
+      "lng": 10.0407,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-119",
+      "city": "hamburg",
+      "name": "Drei Eichen",
+      "address": "Adresse unbekannt",
+      "lat": 53.6134,
+      "lng": 9.9785,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-120",
+      "city": "hamburg",
+      "name": "Zum Wandsetaler",
+      "address": "Walddörferstraße 247",
+      "lat": 53.5816,
+      "lng": 10.0987,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-121",
+      "city": "hamburg",
+      "name": "Die Narzisse",
+      "address": "Friedrich-Ebert-Damm 49",
+      "lat": 53.5856,
+      "lng": 10.0813,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-122",
+      "city": "hamburg",
+      "name": "Gazoline",
+      "address": "Bahrenfelder Straße 132",
+      "lat": 53.553,
+      "lng": 9.9298,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-123",
+      "city": "hamburg",
+      "name": "Zur letzten Minute",
+      "address": "Adresse unbekannt",
+      "lat": 53.5168,
+      "lng": 10.097,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-124",
+      "city": "hamburg",
+      "name": "Zum Lohhof",
+      "address": "Moorende 27",
+      "lat": 53.5596,
+      "lng": 10.0536,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-125",
+      "city": "hamburg",
+      "name": "Sunset Billard",
+      "address": "Walddörferstraße 110",
+      "lat": 53.5796,
+      "lng": 10.077,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-126",
+      "city": "hamburg",
+      "name": "Imstedt 4",
+      "address": "Adresse unbekannt",
+      "lat": 53.5799,
+      "lng": 10.0297,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-127",
+      "city": "hamburg",
+      "name": "Holzmühlen Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.58,
+      "lng": 10.0815,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-128",
+      "city": "hamburg",
+      "name": "Zum alten Bahnhof",
+      "address": "Adresse unbekannt",
+      "lat": 53.4484,
+      "lng": 10.2215,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-129",
+      "city": "hamburg",
+      "name": "Zum Wilhelmsburger",
+      "address": "Adresse unbekannt",
+      "lat": 53.5155,
+      "lng": 9.9884,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-130",
+      "city": "hamburg",
+      "name": "Ilohh, Bar am Ende der Welt",
+      "address": "Adresse unbekannt",
+      "lat": 53.5486,
+      "lng": 10.0131,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-131",
+      "city": "hamburg",
+      "name": "Ostria",
+      "address": "Peterskampweg 48",
+      "lat": 53.5649,
+      "lng": 10.0512,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-132",
+      "city": "hamburg",
+      "name": "Holstenstübchen",
+      "address": "Adresse unbekannt",
+      "lat": 53.5679,
+      "lng": 10.0488,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-133",
+      "city": "hamburg",
+      "name": "Gondel",
+      "address": "Adresse unbekannt",
+      "lat": 53.5823,
+      "lng": 9.7587,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-134",
+      "city": "hamburg",
+      "name": "Rissener Dorfkrug",
+      "address": "Adresse unbekannt",
+      "lat": 53.5815,
+      "lng": 9.7549,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-135",
+      "city": "hamburg",
+      "name": "Molly Malone",
+      "address": "Adresse unbekannt",
+      "lat": 53.549,
+      "lng": 9.9611,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-136",
+      "city": "hamburg",
+      "name": "Roth",
+      "address": "Adresse unbekannt",
+      "lat": 53.5491,
+      "lng": 9.9277,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "german"
+      ]
+    },
+    {
+      "id": "ham-137",
+      "city": "hamburg",
+      "name": "Café Treibeis",
+      "address": "Gaußstraße 25",
+      "lat": 53.5562,
+      "lng": 9.933,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-138",
+      "city": "hamburg",
+      "name": "Zur Traube",
+      "address": "Karl-Theodor-Straße 4",
+      "lat": 53.5486,
+      "lng": 9.9311,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-139",
+      "city": "hamburg",
+      "name": "wildfang pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.5351,
+      "lng": 10.0301,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-140",
+      "city": "hamburg",
+      "name": "Bavaria-Insel",
+      "address": "Adresse unbekannt",
+      "lat": 53.6457,
+      "lng": 10.0119,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-141",
+      "city": "hamburg",
+      "name": "TREFF BEI MELODI",
+      "address": "Adresse unbekannt",
+      "lat": 53.5528,
+      "lng": 10.0214,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-142",
+      "city": "hamburg",
+      "name": "Mittendrin",
+      "address": "Adresse unbekannt",
+      "lat": 53.5557,
+      "lng": 10.1064,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-143",
+      "city": "hamburg",
+      "name": "Sander Treff",
+      "address": "Lohbrügger Landstraße 14",
+      "lat": 53.4964,
+      "lng": 10.2049,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-144",
+      "city": "hamburg",
+      "name": "Rosmarin",
+      "address": "Adresse unbekannt",
+      "lat": 53.6385,
+      "lng": 9.8949,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-145",
+      "city": "hamburg",
+      "name": "Holstenquelle",
+      "address": "Poststraße",
+      "lat": 53.6362,
+      "lng": 9.8404,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-146",
+      "city": "hamburg",
+      "name": "Capri-Stube",
+      "address": "Adresse unbekannt",
+      "lat": 53.5749,
+      "lng": 10.0447,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-147",
+      "city": "hamburg",
+      "name": "Dock 3 Beachclub",
+      "address": "Adresse unbekannt",
+      "lat": 53.546,
+      "lng": 9.9655,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-148",
+      "city": "hamburg",
+      "name": "Sonnendeck St.Pauli",
+      "address": "Bei den St. Pauli-Landungsbrücken",
+      "lat": 53.546,
+      "lng": 9.9642,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-149",
+      "city": "hamburg",
+      "name": "TSV Tennis",
+      "address": "Adresse unbekannt",
+      "lat": 53.5178,
+      "lng": 10.2395,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-150",
+      "city": "hamburg",
+      "name": "Die Kleine Kneipe",
+      "address": "Adresse unbekannt",
+      "lat": 53.5159,
+      "lng": 10.2469,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-151",
+      "city": "hamburg",
+      "name": "Am Sportplatz",
+      "address": "Adresse unbekannt",
+      "lat": 53.628,
+      "lng": 10.1258,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "ham-152",
+      "city": "hamburg",
+      "name": "Notaufnahme",
+      "address": "Bramfelder Chaussee 329",
+      "lat": 53.6189,
+      "lng": 10.0799,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-153",
+      "city": "hamburg",
+      "name": "Marias Ballroom",
+      "address": "Adresse unbekannt",
+      "lat": 53.4551,
+      "lng": 9.9863,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-154",
+      "city": "hamburg",
+      "name": "Kanal 5",
+      "address": "Sievekingdamm 22",
+      "lat": 53.5582,
+      "lng": 10.0473,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-155",
+      "city": "hamburg",
+      "name": "Jolly Roger",
+      "address": "Adresse unbekannt",
+      "lat": 53.5551,
+      "lng": 9.9643,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-156",
+      "city": "hamburg",
+      "name": "Meisenfrei",
+      "address": "Eppendorfer Weg 75",
+      "lat": 53.5721,
+      "lng": 9.9588,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-157",
+      "city": "hamburg",
+      "name": "Willy's Bier-Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5642,
+      "lng": 10.0565,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-158",
+      "city": "hamburg",
+      "name": "Anno 1960",
+      "address": "Stoeckhardtstraße 31",
+      "lat": 53.5601,
+      "lng": 10.0503,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-159",
+      "city": "hamburg",
+      "name": "Velvet Billardcafe",
+      "address": "Eulenkrugstraße 66",
+      "lat": 53.6473,
+      "lng": 10.1694,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-160",
+      "city": "hamburg",
+      "name": "Lokstedter Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.593,
+      "lng": 9.9665,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-161",
+      "city": "hamburg",
+      "name": "Fasan",
+      "address": "Eichenstraße 10",
+      "lat": 53.5749,
+      "lng": 9.9636,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-162",
+      "city": "hamburg",
+      "name": "NUTS",
+      "address": "Eppendorfer Weg 115",
+      "lat": 53.5753,
+      "lng": 9.9621,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-163",
+      "city": "hamburg",
+      "name": "Café Geyer",
+      "address": "Adresse unbekannt",
+      "lat": 53.5474,
+      "lng": 9.9571,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-164",
+      "city": "hamburg",
+      "name": "Locke",
+      "address": "St. Pauli Fischmarkt 27",
+      "lat": 53.5462,
+      "lng": 9.9578,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-165",
+      "city": "hamburg",
+      "name": "Alt-Ottensen",
+      "address": "Holländische Reihe 2",
+      "lat": 53.548,
+      "lng": 9.9317,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-166",
+      "city": "hamburg",
+      "name": "Tatort",
+      "address": "Bahrenfelder Straße 47",
+      "lat": 53.5501,
+      "lng": 9.93,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-167",
+      "city": "hamburg",
+      "name": "Zum Seeteufel",
+      "address": "Elbchaussee 4",
+      "lat": 53.5467,
+      "lng": 9.9317,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-168",
+      "city": "hamburg",
+      "name": "Augustiner-Stub'n",
+      "address": "Caspar-Voght-Straße 80",
+      "lat": 53.5631,
+      "lng": 10.0597,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-169",
+      "city": "hamburg",
+      "name": "Rick's café",
+      "address": "Adresse unbekannt",
+      "lat": 53.5166,
+      "lng": 9.9843,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-170",
+      "city": "hamburg",
+      "name": "Mini Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5712,
+      "lng": 10.0566,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-171",
+      "city": "hamburg",
+      "name": "Bahnhofsgaststätte",
+      "address": "Adresse unbekannt",
+      "lat": 53.612,
+      "lng": 9.9025,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-172",
+      "city": "hamburg",
+      "name": "Zur Endstation",
+      "address": "Adresse unbekannt",
+      "lat": 53.6317,
+      "lng": 9.9185,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-173",
+      "city": "hamburg",
+      "name": "Tannenkrug",
+      "address": "Adresse unbekannt",
+      "lat": 53.5428,
+      "lng": 10.2011,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-174",
+      "city": "hamburg",
+      "name": "Hofweg Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.5719,
+      "lng": 10.0155,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-175",
+      "city": "hamburg",
+      "name": "Heimfelder Berg",
+      "address": "Adresse unbekannt",
+      "lat": 53.4636,
+      "lng": 9.9675,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-176",
+      "city": "hamburg",
+      "name": "Helle's Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.5342,
+      "lng": 10.0462,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-177",
+      "city": "hamburg",
+      "name": "LSV Clubheimkneipe Petra + Harry",
+      "address": "Adresse unbekannt",
+      "lat": 53.617,
+      "lng": 9.9761,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-178",
+      "city": "hamburg",
+      "name": "Barock Café Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5367,
+      "lng": 10.0335,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-179",
+      "city": "hamburg",
+      "name": "Der Kiebitz",
+      "address": "Kiebitzstraße 27",
+      "lat": 53.5646,
+      "lng": 10.0423,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-180",
+      "city": "hamburg",
+      "name": "2 nach 4",
+      "address": "Adresse unbekannt",
+      "lat": 53.4548,
+      "lng": 9.9847,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-181",
+      "city": "hamburg",
+      "name": "Ohnsorg",
+      "address": "Adresse unbekannt",
+      "lat": 53.5545,
+      "lng": 10.007,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-182",
+      "city": "hamburg",
+      "name": "Kombüse",
+      "address": "Adresse unbekannt",
+      "lat": 53.5498,
+      "lng": 10.0032,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-183",
+      "city": "hamburg",
+      "name": "MacFly",
+      "address": "Adresse unbekannt",
+      "lat": 53.5655,
+      "lng": 10.0456,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-184",
+      "city": "hamburg",
+      "name": "Zum guten Tropfen",
+      "address": "Adresse unbekannt",
+      "lat": 53.5779,
+      "lng": 10.0211,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-185",
+      "city": "hamburg",
+      "name": "Zum Uhlenhorster Bogen",
+      "address": "Adresse unbekannt",
+      "lat": 53.5773,
+      "lng": 10.0193,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-186",
+      "city": "hamburg",
+      "name": "Hannes&Hanna Wohnzimmer",
+      "address": "Weidenallee 60",
+      "lat": 53.5692,
+      "lng": 9.964,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-187",
+      "city": "hamburg",
+      "name": "Gräbe's",
+      "address": "Adresse unbekannt",
+      "lat": 53.5516,
+      "lng": 9.9801,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-188",
+      "city": "hamburg",
+      "name": "Barcode 23",
+      "address": "Bahnhofstraße 23",
+      "lat": 53.6584,
+      "lng": 9.7995,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-189",
+      "city": "hamburg",
+      "name": "Heimbar",
+      "address": "Alsterkrugchaussee 213",
+      "lat": 53.6083,
+      "lng": 9.9945,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-190",
+      "city": "hamburg",
+      "name": "Barmbek Express",
+      "address": "Pestalozzistraße 17a",
+      "lat": 53.5876,
+      "lng": 10.047,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-191",
+      "city": "hamburg",
+      "name": "Annie´s Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.6022,
+      "lng": 9.8375,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-192",
+      "city": "hamburg",
+      "name": "Pub in the City",
+      "address": "Luruper Hauptstraße 181",
+      "lat": 53.594,
+      "lng": 9.8693,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-193",
+      "city": "hamburg",
+      "name": "Irish Pub in the Fleetenkieker",
+      "address": "Börsenbrücke 10",
+      "lat": 53.5487,
+      "lng": 9.9923,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "ham-194",
+      "city": "hamburg",
+      "name": "Bei Bärbel & Willi in Billstedt",
+      "address": "Schiffbeker Weg 70",
+      "lat": 53.5466,
+      "lng": 10.1067,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-195",
+      "city": "hamburg",
+      "name": "Zum Alten Ritter von St. Georg",
+      "address": "Adresse unbekannt",
+      "lat": 53.556,
+      "lng": 10.0072,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-196",
+      "city": "hamburg",
+      "name": "Zum Kreisel",
+      "address": "Horner Weg 278",
+      "lat": 53.5546,
+      "lng": 10.0828,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-197",
+      "city": "hamburg",
+      "name": "Konoba",
+      "address": "Öjendorfer Höhe 69",
+      "lat": 53.544,
+      "lng": 10.1384,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-198",
+      "city": "hamburg",
+      "name": "Hummel & Quiddje",
+      "address": "Adresse unbekannt",
+      "lat": 53.556,
+      "lng": 9.9581,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-199",
+      "city": "hamburg",
+      "name": "Wald",
+      "address": "Großneumarkt 45",
+      "lat": 53.5498,
+      "lng": 9.9802,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-200",
+      "city": "hamburg",
+      "name": "Lais",
+      "address": "Adresse unbekannt",
+      "lat": 53.5516,
+      "lng": 9.9254,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-201",
+      "city": "hamburg",
+      "name": "Zur gemütlichen Bierstube",
+      "address": "Adresse unbekannt",
+      "lat": 53.5514,
+      "lng": 9.9814,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-202",
+      "city": "hamburg",
+      "name": "Altengammer Fährhaus",
+      "address": "Adresse unbekannt",
+      "lat": 53.4333,
+      "lng": 10.2982,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-203",
+      "city": "hamburg",
+      "name": "Mäggi's Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.5982,
+      "lng": 10.0022,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-204",
+      "city": "hamburg",
+      "name": "Zzzischer",
+      "address": "Sillemstraße 53",
+      "lat": 53.5775,
+      "lng": 9.9445,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-205",
+      "city": "hamburg",
+      "name": "Alte runde Ecke",
+      "address": "Adresse unbekannt",
+      "lat": 53.5931,
+      "lng": 10.0011,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-206",
+      "city": "hamburg",
+      "name": "Wandsbeker Bothe",
+      "address": "Adresse unbekannt",
+      "lat": 53.5745,
+      "lng": 10.0689,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-207",
+      "city": "hamburg",
+      "name": "Frau Möller",
+      "address": "Lange Reihe 96",
+      "lat": 53.5587,
+      "lng": 10.0132,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "german"
+      ]
+    },
+    {
+      "id": "ham-208",
+      "city": "hamburg",
+      "name": "Schäfer's",
+      "address": "Mittelstraße 74",
+      "lat": 53.688,
+      "lng": 10.0392,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-209",
+      "city": "hamburg",
+      "name": "Rock Café",
+      "address": "Adresse unbekannt",
+      "lat": 53.5484,
+      "lng": 9.9595,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-210",
+      "city": "hamburg",
+      "name": "Cafe Pishkash",
+      "address": "Adresse unbekannt",
+      "lat": 53.4441,
+      "lng": 9.999,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-211",
+      "city": "hamburg",
+      "name": "Schanz-Elyseé",
+      "address": "Schanzenstraße 3",
+      "lat": 53.5597,
+      "lng": 9.9643,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar",
+        "french"
+      ]
+    },
+    {
+      "id": "ham-212",
+      "city": "hamburg",
+      "name": "Cantinho do Antonio",
+      "address": "Adresse unbekannt",
+      "lat": 53.5456,
+      "lng": 9.976,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-213",
+      "city": "hamburg",
+      "name": "Meisennest",
+      "address": "Wachtelstraße 55",
+      "lat": 53.5875,
+      "lng": 10.0555,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-214",
+      "city": "hamburg",
+      "name": "RamRob",
+      "address": "Hagener Allee 23",
+      "lat": 53.6713,
+      "lng": 10.2392,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-215",
+      "city": "hamburg",
+      "name": "Bockel's-Bier-Bar",
+      "address": "Bahnhofstraße 68",
+      "lat": 53.4699,
+      "lng": 9.7912,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-216",
+      "city": "hamburg",
+      "name": "Central Café Bar&Billard",
+      "address": "Offakamp 3",
+      "lat": 53.5992,
+      "lng": 9.9713,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-217",
+      "city": "hamburg",
+      "name": "Bier-Kate",
+      "address": "Adresse unbekannt",
+      "lat": 53.5742,
+      "lng": 9.9403,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-218",
+      "city": "hamburg",
+      "name": "Treffpunkt gemütliche Kneipe",
+      "address": "Adresse unbekannt",
+      "lat": 53.6507,
+      "lng": 10.0973,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-219",
+      "city": "hamburg",
+      "name": "Harburger Stube",
+      "address": "Harburger Ring 20",
+      "lat": 53.4608,
+      "lng": 9.9806,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-220",
+      "city": "hamburg",
+      "name": "Bei Angelika",
+      "address": "Oberschleems 13",
+      "lat": 53.5369,
+      "lng": 10.1188,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-221",
+      "city": "hamburg",
+      "name": "The Boilerman Bar",
+      "address": "Eppendorfer Weg 211",
+      "lat": 53.5815,
+      "lng": 9.9705,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-222",
+      "city": "hamburg",
+      "name": "Gasthof Kücken",
+      "address": "Neuengammer Hinterdeich 54",
+      "lat": 53.4287,
+      "lng": 10.2068,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-223",
+      "city": "hamburg",
+      "name": "Zum Anker",
+      "address": "Davidstraße 12",
+      "lat": 53.548,
+      "lng": 9.9625,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-224",
+      "city": "hamburg",
+      "name": "Habicht 106",
+      "address": "Habichtstraße 106",
+      "lat": 53.5947,
+      "lng": 10.0495,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-225",
+      "city": "hamburg",
+      "name": "Bodega",
+      "address": "Weidenallee 45",
+      "lat": 53.5675,
+      "lng": 9.9645,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-226",
+      "city": "hamburg",
+      "name": "Asche",
+      "address": "Adresse unbekannt",
+      "lat": 53.6711,
+      "lng": 10.2347,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-227",
+      "city": "hamburg",
+      "name": "Paddy's",
+      "address": "Schauenburgerstraße 40",
+      "lat": 53.5496,
+      "lng": 9.994,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-228",
+      "city": "hamburg",
+      "name": "Behr",
+      "address": "Adresse unbekannt",
+      "lat": 53.5798,
+      "lng": 9.9488,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-229",
+      "city": "hamburg",
+      "name": "Urknall",
+      "address": "Sartoriusstraße 14",
+      "lat": 53.5793,
+      "lng": 9.9423,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-230",
+      "city": "hamburg",
+      "name": "Wolle&Toddy",
+      "address": "Brennerstraße 5",
+      "lat": 53.5549,
+      "lng": 10.0133,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-231",
+      "city": "hamburg",
+      "name": "Ratsherrn Klause",
+      "address": "Adresse unbekannt",
+      "lat": 53.5647,
+      "lng": 9.9767,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-232",
+      "city": "hamburg",
+      "name": "Holsten Quelle",
+      "address": "Neugrabener Bahnhofstraße 16",
+      "lat": 53.4704,
+      "lng": 9.8541,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-233",
+      "city": "hamburg",
+      "name": "Samo's Cafe Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5808,
+      "lng": 9.9445,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-234",
+      "city": "hamburg",
+      "name": "Alster Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.5673,
+      "lng": 10.0227,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-235",
+      "city": "hamburg",
+      "name": "Crazy Devil's",
+      "address": "Langenfelder Damm 86a",
+      "lat": 53.5827,
+      "lng": 9.9359,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-236",
+      "city": "hamburg",
+      "name": "Joker's Bar",
+      "address": "Langenfelder Damm 50",
+      "lat": 53.5814,
+      "lng": 9.9382,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-237",
+      "city": "hamburg",
+      "name": "Wilstorfer friends Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.4415,
+      "lng": 9.993,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-238",
+      "city": "hamburg",
+      "name": "unabsteigBar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5898,
+      "lng": 9.919,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-239",
+      "city": "hamburg",
+      "name": "Deichklause",
+      "address": "Grüner Deich 27",
+      "lat": 53.5426,
+      "lng": 10.0292,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-240",
+      "city": "hamburg",
+      "name": "Schwalben Eck",
+      "address": "Heidhörn 6",
+      "lat": 53.5936,
+      "lng": 10.0465,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-241",
+      "city": "hamburg",
+      "name": "Libero",
+      "address": "Adresse unbekannt",
+      "lat": 53.5575,
+      "lng": 9.9691,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-242",
+      "city": "hamburg",
+      "name": "DulsBar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5823,
+      "lng": 10.064,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-243",
+      "city": "hamburg",
+      "name": "Ellewitt",
+      "address": "Adresse unbekannt",
+      "lat": 53.5912,
+      "lng": 10.039,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-244",
+      "city": "hamburg",
+      "name": "Bei Pavlos",
+      "address": "Adresse unbekannt",
+      "lat": 53.5804,
+      "lng": 10.0687,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-245",
+      "city": "hamburg",
+      "name": "Bergkate",
+      "address": "Adresse unbekannt",
+      "lat": 53.5524,
+      "lng": 9.9378,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-246",
+      "city": "hamburg",
+      "name": "Haak",
+      "address": "Adresse unbekannt",
+      "lat": 53.5775,
+      "lng": 10.0594,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-247",
+      "city": "hamburg",
+      "name": "Crazy Angels",
+      "address": "Adresse unbekannt",
+      "lat": 53.5782,
+      "lng": 9.942,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-248",
+      "city": "hamburg",
+      "name": "Aurora",
+      "address": "Adresse unbekannt",
+      "lat": 53.5777,
+      "lng": 9.9421,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-249",
+      "city": "hamburg",
+      "name": "Frau Hiebel",
+      "address": "Sillemstraße 108",
+      "lat": 53.5798,
+      "lng": 9.94,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-250",
+      "city": "hamburg",
+      "name": "Kuddl",
+      "address": "Hellkamp 23",
+      "lat": 53.578,
+      "lng": 9.9479,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-251",
+      "city": "hamburg",
+      "name": "Destille",
+      "address": "Adresse unbekannt",
+      "lat": 53.5533,
+      "lng": 9.9989,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-252",
+      "city": "hamburg",
+      "name": "Chrissi's",
+      "address": "Adresse unbekannt",
+      "lat": 53.578,
+      "lng": 9.951,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-253",
+      "city": "hamburg",
+      "name": "Bierkrug",
+      "address": "Adresse unbekannt",
+      "lat": 53.5704,
+      "lng": 9.9957,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-254",
+      "city": "hamburg",
+      "name": "Arian's Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.5791,
+      "lng": 9.95,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-255",
+      "city": "hamburg",
+      "name": "Sports Lounge",
+      "address": "Adresse unbekannt",
+      "lat": 53.5828,
+      "lng": 9.9482,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-256",
+      "city": "hamburg",
+      "name": "Zar und Zimmermann",
+      "address": "Ellmenreichstraße 22a",
+      "lat": 53.5543,
+      "lng": 10.0101,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-257",
+      "city": "hamburg",
+      "name": "Utspann",
+      "address": "Adresse unbekannt",
+      "lat": 53.5506,
+      "lng": 9.96,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-258",
+      "city": "hamburg",
+      "name": "Hammer Eck",
+      "address": "Horner Weg 50",
+      "lat": 53.5557,
+      "lng": 10.0619,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-259",
+      "city": "hamburg",
+      "name": "The Bohemian",
+      "address": "Deichstraße 36",
+      "lat": 53.546,
+      "lng": 9.987,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-260",
+      "city": "hamburg",
+      "name": "Gaststätte Schröder",
+      "address": "Hegestraße 1",
+      "lat": 53.5828,
+      "lng": 9.9807,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-261",
+      "city": "hamburg",
+      "name": "Horner Marie",
+      "address": "Rennbahnstraße 32d",
+      "lat": 53.5538,
+      "lng": 10.087,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-262",
+      "city": "hamburg",
+      "name": "Treffpunkt",
+      "address": "Adresse unbekannt",
+      "lat": 53.5983,
+      "lng": 10.0928,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-263",
+      "city": "hamburg",
+      "name": "Clax",
+      "address": "Semperstraße 52",
+      "lat": 53.5862,
+      "lng": 10.0171,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-264",
+      "city": "hamburg",
+      "name": "Breslauer Stube",
+      "address": "Breslauer Straße 17a",
+      "lat": 53.6839,
+      "lng": 9.9963,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-265",
+      "city": "hamburg",
+      "name": "Wachtel Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.589,
+      "lng": 10.0503,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-266",
+      "city": "hamburg",
+      "name": "Zum Goldenen Handschuh",
+      "address": "Hamburger Berg 2",
+      "lat": 53.55,
+      "lng": 9.9611,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-267",
+      "city": "hamburg",
+      "name": "Olivias Show Club",
+      "address": "Adresse unbekannt",
+      "lat": 53.5509,
+      "lng": 9.9573,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-268",
+      "city": "hamburg",
+      "name": "Bla Bla",
+      "address": "Seevepassage 1",
+      "lat": 53.4574,
+      "lng": 9.9856,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-269",
+      "city": "hamburg",
+      "name": "Sandzak Klub Hamburg",
+      "address": "Baererstraße 2a",
+      "lat": 53.4537,
+      "lng": 9.9874,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-270",
+      "city": "hamburg",
+      "name": "Portugal Fanclub",
+      "address": "Wilstorfer Straße 70",
+      "lat": 53.4553,
+      "lng": 9.987,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-271",
+      "city": "hamburg",
+      "name": "Corner",
+      "address": "Wilstorfer Straße 82",
+      "lat": 53.4546,
+      "lng": 9.9873,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-272",
+      "city": "hamburg",
+      "name": "Kitty",
+      "address": "Feldstraße 47",
+      "lat": 53.5572,
+      "lng": 9.9723,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-273",
+      "city": "hamburg",
+      "name": "Pils Börse",
+      "address": "Adresse unbekannt",
+      "lat": 53.5486,
+      "lng": 9.9624,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-274",
+      "city": "hamburg",
+      "name": "Gießkanne",
+      "address": "Adresse unbekannt",
+      "lat": 53.609,
+      "lng": 9.9039,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-275",
+      "city": "hamburg",
+      "name": "Kamin",
+      "address": "Hinter der Lieth 42a",
+      "lat": 53.605,
+      "lng": 9.9493,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-276",
+      "city": "hamburg",
+      "name": "Marktstübchen",
+      "address": "Adresse unbekannt",
+      "lat": 53.6481,
+      "lng": 10.0153,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-277",
+      "city": "hamburg",
+      "name": "Micky's Bier & Cocktailbar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5502,
+      "lng": 9.9808,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "ham-278",
+      "city": "hamburg",
+      "name": "Köpi-Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5597,
+      "lng": 9.888,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-279",
+      "city": "hamburg",
+      "name": "Die Drossel",
+      "address": "Drosselstraße 26",
+      "lat": 53.5888,
+      "lng": 10.0446,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-280",
+      "city": "hamburg",
+      "name": "Lomo",
+      "address": "Adresse unbekannt",
+      "lat": 53.5608,
+      "lng": 9.9598,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-281",
+      "city": "hamburg",
+      "name": "Falkenstübchen",
+      "address": "Adresse unbekannt",
+      "lat": 53.5825,
+      "lng": 9.9772,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-282",
+      "city": "hamburg",
+      "name": "Kemp's",
+      "address": "Mittelweg 27",
+      "lat": 53.5682,
+      "lng": 9.9952,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "british"
+      ]
+    },
+    {
+      "id": "ham-283",
+      "city": "hamburg",
+      "name": "Zum Rettungsring",
+      "address": "Adresse unbekannt",
+      "lat": 53.549,
+      "lng": 9.9598,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-284",
+      "city": "hamburg",
+      "name": "Tiefgang Bar",
+      "address": "Neuer Kamp 9",
+      "lat": 53.5573,
+      "lng": 9.9657,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-285",
+      "city": "hamburg",
+      "name": "Büdel’s Bierdeckel",
+      "address": "Schulterblatt 121",
+      "lat": 53.5647,
+      "lng": 9.9592,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-286",
+      "city": "hamburg",
+      "name": "Elbgau Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.6063,
+      "lng": 9.9001,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-287",
+      "city": "hamburg",
+      "name": "Das kleine Phi",
+      "address": "Adresse unbekannt",
+      "lat": 53.5573,
+      "lng": 9.9715,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-288",
+      "city": "hamburg",
+      "name": "Victoria Klause",
+      "address": "Adresse unbekannt",
+      "lat": 53.5879,
+      "lng": 9.9692,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-289",
+      "city": "hamburg",
+      "name": "Bei Marina",
+      "address": "Adresse unbekannt",
+      "lat": 53.5606,
+      "lng": 9.9669,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-290",
+      "city": "hamburg",
+      "name": "Tower 6",
+      "address": "Adresse unbekannt",
+      "lat": 53.5551,
+      "lng": 9.9548,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-291",
+      "city": "hamburg",
+      "name": "Tunnelklause",
+      "address": "Siebentunnelweg",
+      "lat": 53.6151,
+      "lng": 9.8649,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-292",
+      "city": "hamburg",
+      "name": "Café Zonck",
+      "address": "Veddeler Damm 10",
+      "lat": 53.5243,
+      "lng": 10.0156,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-293",
+      "city": "hamburg",
+      "name": "Pamukkale",
+      "address": "Adresse unbekannt",
+      "lat": 53.5523,
+      "lng": 9.9629,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-294",
+      "city": "hamburg",
+      "name": "Engel",
+      "address": "Adresse unbekannt",
+      "lat": 53.4902,
+      "lng": 10.208,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-295",
+      "city": "hamburg",
+      "name": "Das grüne Leuchten",
+      "address": "Adresse unbekannt",
+      "lat": 53.5555,
+      "lng": 9.9831,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-296",
+      "city": "hamburg",
+      "name": "Tortuga Bar",
+      "address": "Bleicherstraße 27",
+      "lat": 53.5539,
+      "lng": 9.9602,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-297",
+      "city": "hamburg",
+      "name": "Kleine Freiheit No. 3",
+      "address": "Kleine Freiheit 3",
+      "lat": 53.5529,
+      "lng": 9.9566,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-298",
+      "city": "hamburg",
+      "name": "Rustikate",
+      "address": "Adresse unbekannt",
+      "lat": 53.545,
+      "lng": 10.0977,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-299",
+      "city": "hamburg",
+      "name": "Holsten Stube",
+      "address": "Mendelstraße 26e",
+      "lat": 53.5088,
+      "lng": 10.1864,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-300",
+      "city": "hamburg",
+      "name": "Zwergenstübchen",
+      "address": "Berner Weg 2a",
+      "lat": 53.6529,
+      "lng": 10.1137,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-301",
+      "city": "hamburg",
+      "name": "Taub Trüb",
+      "address": "Seilerstraße 38a",
+      "lat": 53.5506,
+      "lng": 9.9641,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-302",
+      "city": "hamburg",
+      "name": "Weideeck",
+      "address": "Adresse unbekannt",
+      "lat": 53.5804,
+      "lng": 10.0389,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-303",
+      "city": "hamburg",
+      "name": "Herr Schmöll",
+      "address": "Paul-Roosen-Straße 19",
+      "lat": 53.553,
+      "lng": 9.9585,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-304",
+      "city": "hamburg",
+      "name": "Borseleck",
+      "address": "Adresse unbekannt",
+      "lat": 53.5569,
+      "lng": 9.9252,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-305",
+      "city": "hamburg",
+      "name": "AstraEck",
+      "address": "Adresse unbekannt",
+      "lat": 53.465,
+      "lng": 9.9622,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-306",
+      "city": "hamburg",
+      "name": "Fricke 46",
+      "address": "Adresse unbekannt",
+      "lat": 53.595,
+      "lng": 9.9783,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-307",
+      "city": "hamburg",
+      "name": "Löschecke",
+      "address": "Marienstraße 82",
+      "lat": 53.457,
+      "lng": 9.9685,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-308",
+      "city": "hamburg",
+      "name": "Thomas Read Irish Pub",
+      "address": "Nobistor 10",
+      "lat": 53.5501,
+      "lng": 9.9566,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "ham-309",
+      "city": "hamburg",
+      "name": "Holsten Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.5529,
+      "lng": 10.0979,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-310",
+      "city": "hamburg",
+      "name": "El Greco",
+      "address": "Adresse unbekannt",
+      "lat": 53.4544,
+      "lng": 9.9851,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "greek"
+      ]
+    },
+    {
+      "id": "ham-311",
+      "city": "hamburg",
+      "name": "Niko's Treff",
+      "address": "Reetwerder 9",
+      "lat": 53.4908,
+      "lng": 10.2093,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-312",
+      "city": "hamburg",
+      "name": "Vümpf",
+      "address": "Eppendorfer Weg 276",
+      "lat": 53.5844,
+      "lng": 9.9798,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-313",
+      "city": "hamburg",
+      "name": "BrewDog St. Pauli",
+      "address": "Reeperbahn 1",
+      "lat": 53.5498,
+      "lng": 9.9685,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "barrierefrei",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-314",
+      "city": "hamburg",
+      "name": "Mega’s",
+      "address": "Osterstraße 74",
+      "lat": 53.5755,
+      "lng": 9.9552,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "steak"
+      ]
+    },
+    {
+      "id": "ham-315",
+      "city": "hamburg",
+      "name": "Stader Tor 01",
+      "address": "Adresse unbekannt",
+      "lat": 53.4694,
+      "lng": 9.9626,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-316",
+      "city": "hamburg",
+      "name": "Queue Billiard Pub",
+      "address": "Fuhlsbüttler Straße 184",
+      "lat": 53.594,
+      "lng": 10.0445,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-317",
+      "city": "hamburg",
+      "name": "Löwenbräu",
+      "address": "Adresse unbekannt",
+      "lat": 53.5536,
+      "lng": 10.0062,
+      "drink": "Astra 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "brauhaus",
+        "barrierefrei",
+        "bavarian"
+      ]
+    },
+    {
+      "id": "ham-318",
+      "city": "hamburg",
+      "name": "John o' Groats",
+      "address": "Adresse unbekannt",
+      "lat": 53.5093,
+      "lng": 10.2511,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-319",
+      "city": "hamburg",
+      "name": "Frohme Stübchen",
+      "address": "Adresse unbekannt",
+      "lat": 53.6297,
+      "lng": 9.9278,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-320",
+      "city": "hamburg",
+      "name": "LaVanta",
+      "address": "Adresse unbekannt",
+      "lat": 53.5406,
+      "lng": 10.2109,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-321",
+      "city": "hamburg",
+      "name": "Bramfelder Inn",
+      "address": "Adresse unbekannt",
+      "lat": 53.6214,
+      "lng": 10.0823,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-322",
+      "city": "hamburg",
+      "name": "Hausbrucher Hof",
+      "address": "Adresse unbekannt",
+      "lat": 53.4721,
+      "lng": 9.8887,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-323",
+      "city": "hamburg",
+      "name": "Bierapotheke",
+      "address": "Am Felde 18",
+      "district": "meckelfeld",
+      "lat": 53.4209,
+      "lng": 10.025,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-324",
+      "city": "hamburg",
+      "name": "Zille's Eck",
+      "address": "Adresse unbekannt",
+      "lat": 53.58,
+      "lng": 9.939,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-325",
+      "city": "hamburg",
+      "name": "Zur Stumpfen Ecke",
+      "address": "Adresse unbekannt",
+      "lat": 53.4579,
+      "lng": 9.9863,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-326",
+      "city": "hamburg",
+      "name": "Conny's Bierkiste",
+      "address": "Holstenstraße 191",
+      "lat": 53.5606,
+      "lng": 9.9483,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-327",
+      "city": "hamburg",
+      "name": "Schnelsener 1",
+      "address": "Burgwedel 1",
+      "lat": 53.6366,
+      "lng": 9.9173,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-328",
+      "city": "hamburg",
+      "name": "Bar Kunterbunt",
+      "address": "Bremer Reihe 20",
+      "lat": 53.5538,
+      "lng": 10.0109,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-329",
+      "city": "hamburg",
+      "name": "Mausefalle",
+      "address": "Adresse unbekannt",
+      "lat": 53.5499,
+      "lng": 9.9581,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-330",
+      "city": "hamburg",
+      "name": "Zum Baumacker",
+      "address": "Baumacker",
+      "lat": 53.6138,
+      "lng": 9.8988,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-331",
+      "city": "hamburg",
+      "name": "The Island",
+      "address": "Adresse unbekannt",
+      "lat": 53.5157,
+      "lng": 9.9931,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-332",
+      "city": "hamburg",
+      "name": "Cont(r)a Sportsbar",
+      "address": "Adresse unbekannt",
+      "lat": 53.5794,
+      "lng": 9.9658,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-333",
+      "city": "hamburg",
+      "name": "Lobby No. 12",
+      "address": "Waldweg 12",
+      "lat": 53.6535,
+      "lng": 10.1152,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-334",
+      "city": "hamburg",
+      "name": "Chafé - Choudrys cafe",
+      "address": "Furtweg 51",
+      "lat": 53.6037,
+      "lng": 9.9002,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-335",
+      "city": "hamburg",
+      "name": "Apos Bistro",
+      "address": "Adresse unbekannt",
+      "lat": 53.6175,
+      "lng": 10.1429,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-336",
+      "city": "hamburg",
+      "name": "The Pub Formerly Known As Froggys",
+      "address": "Adresse unbekannt",
+      "lat": 53.567,
+      "lng": 9.957,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-337",
+      "city": "hamburg",
+      "name": "Angi's Pub",
+      "address": "Simon-von-Utrecht-Straße 20",
+      "lat": 53.5512,
+      "lng": 9.9637,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-338",
+      "city": "hamburg",
+      "name": "Baron",
+      "address": "Adresse unbekannt",
+      "lat": 53.5167,
+      "lng": 9.983,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-339",
+      "city": "hamburg",
+      "name": "Zur Mausefalle",
+      "address": "Weg am Denkmal 4",
+      "lat": 53.7165,
+      "lng": 10.0021,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-340",
+      "city": "hamburg",
+      "name": "Tonndorfer Burg",
+      "address": "Adresse unbekannt",
+      "lat": 53.5861,
+      "lng": 10.124,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-341",
+      "city": "hamburg",
+      "name": "Papperlapapp",
+      "address": "Friedrich-Ebert-Straße 2",
+      "lat": 53.6833,
+      "lng": 9.9784,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-342",
+      "city": "hamburg",
+      "name": "Queue Billard Pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.5579,
+      "lng": 9.9005,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-343",
+      "city": "hamburg",
+      "name": "Bier Reich",
+      "address": "Spitzbergenweg 36a",
+      "lat": 53.6283,
+      "lng": 10.1683,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-344",
+      "city": "hamburg",
+      "name": "Halbzeit",
+      "address": "Adresse unbekannt",
+      "lat": 53.5734,
+      "lng": 9.8928,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-345",
+      "city": "hamburg",
+      "name": "Holstenstube",
+      "address": "Schreyerring 51",
+      "lat": 53.6108,
+      "lng": 10.0601,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-346",
+      "city": "hamburg",
+      "name": "Meier's Inn",
+      "address": "Adresse unbekannt",
+      "lat": 53.5665,
+      "lng": 9.9098,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-347",
+      "city": "hamburg",
+      "name": "Bahrenfelder",
+      "address": "Adresse unbekannt",
+      "lat": 53.5672,
+      "lng": 9.9068,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-348",
+      "city": "hamburg",
+      "name": "Bramfelder Bürgerstuben",
+      "address": "Adresse unbekannt",
+      "lat": 53.6036,
+      "lng": 10.0525,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-349",
+      "city": "hamburg",
+      "name": "Köpi-Stube",
+      "address": "Rethwiese 2",
+      "lat": 53.6515,
+      "lng": 9.7999,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-350",
+      "city": "hamburg",
+      "name": "Zum Bierstübchen",
+      "address": "Adresse unbekannt",
+      "lat": 53.5166,
+      "lng": 9.9901,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-351",
+      "city": "hamburg",
+      "name": "Cafe Habibi",
+      "address": "Adresse unbekannt",
+      "lat": 53.556,
+      "lng": 10.0374,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-352",
+      "city": "hamburg",
+      "name": "Zaubermaus",
+      "address": "August-Krogmann-Straße 18",
+      "lat": 53.6078,
+      "lng": 10.1174,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-353",
+      "city": "hamburg",
+      "name": "Kult",
+      "address": "Hufnerstraße 92",
+      "lat": 53.5883,
+      "lng": 10.0422,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-354",
+      "city": "hamburg",
+      "name": "Neuer Felsenkeller",
+      "address": "Adresse unbekannt",
+      "lat": 53.5637,
+      "lng": 10.0326,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-355",
+      "city": "hamburg",
+      "name": "Abis Bar",
+      "address": "Möllner Landstraße 144",
+      "lat": 53.5386,
+      "lng": 10.1271,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-356",
+      "city": "hamburg",
+      "name": "Te Vendi",
+      "address": "Adresse unbekannt",
+      "lat": 53.518,
+      "lng": 9.9944,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-357",
+      "city": "hamburg",
+      "name": "Tünel",
+      "address": "Adresse unbekannt",
+      "lat": 53.5555,
+      "lng": 9.934,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-358",
+      "city": "hamburg",
+      "name": "Condor",
+      "address": "Adresse unbekannt",
+      "lat": 53.5543,
+      "lng": 9.9332,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-359",
+      "city": "hamburg",
+      "name": "Horner Corner",
+      "address": "Adresse unbekannt",
+      "lat": 53.5488,
+      "lng": 10.0905,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-360",
+      "city": "hamburg",
+      "name": "Zum Zapfhahn",
+      "address": "Adresse unbekannt",
+      "lat": 53.7291,
+      "lng": 10.2572,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-361",
+      "city": "hamburg",
+      "name": "Locksmith Brewing",
+      "address": "Adresse unbekannt",
+      "lat": 53.6485,
+      "lng": 10.1651,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-362",
+      "city": "hamburg",
+      "name": "Bei Kalle",
+      "address": "Adresse unbekannt",
+      "lat": 53.4798,
+      "lng": 10.2303,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-363",
+      "city": "hamburg",
+      "name": "Nobiskrug",
+      "address": "Adresse unbekannt",
+      "lat": 53.5488,
+      "lng": 9.9573,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-364",
+      "city": "hamburg",
+      "name": "the Baby Goat House",
+      "address": "Grindelhof 85",
+      "lat": 53.5712,
+      "lng": 9.9849,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "craft",
+      "tags": [
+        "craft",
+        "barrierefrei",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-365",
+      "city": "hamburg",
+      "name": "J's",
+      "address": "Adresse unbekannt",
+      "lat": 53.7306,
+      "lng": 10.2625,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-366",
+      "city": "hamburg",
+      "name": "Paddy's Bar",
+      "address": "Adresse unbekannt",
+      "lat": 53.605,
+      "lng": 10.0709,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "irish"
+      ]
+    },
+    {
+      "id": "ham-367",
+      "city": "hamburg",
+      "name": "Schneehuhn",
+      "address": "Meiendorfer Straße 56",
+      "lat": 53.6197,
+      "lng": 10.1618,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-368",
+      "city": "hamburg",
+      "name": "Loke's Klönstuv",
+      "address": "Adresse unbekannt",
+      "lat": 53.606,
+      "lng": 10.2208,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-369",
+      "city": "hamburg",
+      "name": "Les Pompettes",
+      "address": "Oldachstraße 21",
+      "lat": 53.5949,
+      "lng": 10.0405,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-370",
+      "city": "hamburg",
+      "name": "Moin Moin",
+      "address": "Adresse unbekannt",
+      "lat": 53.6777,
+      "lng": 10.2396,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-371",
+      "city": "hamburg",
+      "name": "Hafenbahnhof",
+      "address": "Große Elbstraße 276",
+      "lat": 53.5448,
+      "lng": 9.9285,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-372",
+      "city": "hamburg",
+      "name": "Hütte",
+      "address": "Max-Brauer-Allee 121",
+      "lat": 53.5571,
+      "lng": 9.9452,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-373",
+      "city": "hamburg",
+      "name": "Red Dog",
+      "address": "Krugkoppel 1",
+      "lat": 53.579,
+      "lng": 9.9985,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-374",
+      "city": "hamburg",
+      "name": "Vereinsheim TuS Berne Tennis",
+      "address": "Alter Berner Weg 136",
+      "lat": 53.6337,
+      "lng": 10.1239,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-375",
+      "city": "hamburg",
+      "name": "Wanderer",
+      "address": "Alte Dorfstraße 29",
+      "district": "ohlstedt",
+      "lat": 53.6964,
+      "lng": 10.143,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-376",
+      "city": "hamburg",
+      "name": "Tennis-Treff",
+      "address": "Adresse unbekannt",
+      "lat": 53.5999,
+      "lng": 10.0799,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-377",
+      "city": "hamburg",
+      "name": "Chattahoochee",
+      "address": "Meiendorfer Straße 34",
+      "lat": 53.618,
+      "lng": 10.1603,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-378",
+      "city": "hamburg",
+      "name": "Roxie",
+      "address": "Heubergredder 38",
+      "lat": 53.607,
+      "lng": 10.0108,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "international",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-379",
+      "city": "hamburg",
+      "name": "Kick & Company",
+      "address": "Klausstraße 1",
+      "lat": 53.5506,
+      "lng": 9.9303,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-380",
+      "city": "hamburg",
+      "name": "Max und Moritz",
+      "address": "Ebereschenweg 1",
+      "lat": 53.6834,
+      "lng": 10.0065,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-381",
+      "city": "hamburg",
+      "name": "Bazille",
+      "address": "Sievekingdamm 56",
+      "lat": 53.5594,
+      "lng": 10.0498,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ham-382",
+      "city": "hamburg",
+      "name": "WKND Sportsbar",
+      "address": "Furtweg 36",
+      "lat": 53.6039,
+      "lng": 9.902,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sportbar"
+      ]
+    },
+    {
+      "id": "ham-383",
+      "city": "hamburg",
+      "name": "Navio Terraço",
+      "address": "Dampfschiffsweg 21",
+      "lat": 53.4731,
+      "lng": 9.9835,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-384",
+      "city": "hamburg",
+      "name": "Bei Magdalena",
+      "address": "Bennigsenstraße 21",
+      "lat": 53.4624,
+      "lng": 9.9724,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-385",
+      "city": "hamburg",
+      "name": "Vegas Lounge & Sports Bar",
+      "address": "Eiffestraße 205",
+      "lat": 53.5517,
+      "lng": 10.056,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar"
+      ]
+    },
+    {
+      "id": "ham-386",
+      "city": "hamburg",
+      "name": "Bramfelder Stübchen",
+      "address": "Bramfelder Drift 9d",
+      "lat": 53.6289,
+      "lng": 10.0854,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-387",
+      "city": "hamburg",
+      "name": "Juki 42",
+      "address": "An der Reitbahn 2",
+      "lat": 53.6722,
+      "lng": 10.2344,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-388",
+      "city": "hamburg",
+      "name": "SuS Clubheim",
+      "address": "Jappopweg 53",
+      "district": "waldenau-datum",
+      "lat": 53.6166,
+      "lng": 9.7962,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "szene",
+      "tags": [
+        "szene"
+      ]
+    },
+    {
+      "id": "ham-389",
+      "city": "hamburg",
+      "name": "Bunthaus Schankraum",
+      "address": "Kurdamm 24",
+      "lat": 53.4955,
+      "lng": 9.9955,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "outdoor",
+        "hausbrauerei"
+      ]
+    },
+    {
+      "id": "ham-390",
+      "city": "hamburg",
+      "name": "Stelli's",
+      "address": "Berner Heerweg 372",
+      "lat": 53.6267,
+      "lng": 10.1389,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-391",
+      "city": "hamburg",
+      "name": "Spinner",
+      "address": "Beim Alten Schützenhof 47",
+      "lat": 53.5766,
+      "lng": 10.0331,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-392",
+      "city": "hamburg",
+      "name": "Mayday",
+      "address": "Bahrenfelder Straße 247",
+      "lat": 53.5574,
+      "lng": 9.928,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-393",
+      "city": "hamburg",
+      "name": "Bierstein",
+      "address": "Adresse unbekannt",
+      "lat": 53.6407,
+      "lng": 10.2172,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-394",
+      "city": "hamburg",
+      "name": "Cult",
+      "address": "Langenhorner Chaussee 575",
+      "lat": 53.6723,
+      "lng": 10.002,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-395",
+      "city": "hamburg",
+      "name": "goose pub",
+      "address": "Adresse unbekannt",
+      "lat": 53.6043,
+      "lng": 10.0423,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-396",
+      "city": "hamburg",
+      "name": "Bahnhofsklause Coupe",
+      "address": "Bahnhofstraße 28",
+      "lat": 53.6642,
+      "lng": 9.9099,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-397",
+      "city": "hamburg",
+      "name": "Kiki´s Lounge",
+      "address": "Adresse unbekannt",
+      "lat": 53.4683,
+      "lng": 9.963,
+      "drink": "Craft Bier 0,5l",
+      "par": 3,
+      "type": "cocktailbar",
+      "tags": [
+        "cocktailbar",
+        "outdoor",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-398",
+      "city": "hamburg",
+      "name": "small talk",
+      "address": "Adresse unbekannt",
+      "lat": 53.5533,
+      "lng": 10.0068,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    },
+    {
+      "id": "ham-399",
+      "city": "hamburg",
+      "name": "Checkpoint",
+      "address": "Adresse unbekannt",
+      "lat": 53.4597,
+      "lng": 9.9571,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe",
+        "barrierefrei"
+      ]
+    },
+    {
+      "id": "ham-400",
+      "city": "hamburg",
+      "name": "Herz von Garstedt",
+      "address": "Tannenhofstraße 4",
+      "lat": 53.6816,
+      "lng": 9.9813,
+      "drink": "Astra 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "kneipe"
+      ]
+    }
+  ]
+}

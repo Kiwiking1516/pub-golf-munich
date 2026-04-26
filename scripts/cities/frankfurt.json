@@ -1,0 +1,925 @@
+{
+  "key": "frankfurt",
+  "prefix": "fra",
+  "label": "Frankfurt",
+  "bbox": "migrated",
+  "defaultDrink": "Apfelwein 0,3l Geripptes",
+  "scrapedAt": "2026-04-03T08:03:05.767Z",
+  "barCount": 50,
+  "bars": [
+    {
+      "id": "fra-001",
+      "city": "frankfurt",
+      "name": "Zum Gemalten Haus",
+      "address": "Schweizer Straße 67",
+      "district": "sachsenhausen",
+      "lat": 50.0985,
+      "lng": 8.6833,
+      "drink": "Apfelwein 0,3l Geripptes",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "kult",
+        "sachsenhausen",
+        "apfelwein",
+        "wandgemälde",
+        "institution"
+      ]
+    },
+    {
+      "id": "fra-002",
+      "city": "frankfurt",
+      "name": "Dauth-Schneider",
+      "address": "Neuer Mainzer Straße 19",
+      "district": "sachsenhausen",
+      "lat": 50.0997,
+      "lng": 8.6768,
+      "drink": "Apfelwein 0,3l Geripptes",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "traditionslokal",
+        "frankfurter"
+      ]
+    },
+    {
+      "id": "fra-003",
+      "city": "frankfurt",
+      "name": "Lorsbacher Thal",
+      "address": "Große Rittergasse 49",
+      "district": "sachsenhausen",
+      "lat": 50.1006,
+      "lng": 8.6834,
+      "drink": "Apfelwein Bembel 1,0l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "bembel",
+        "hinterhof",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-004",
+      "city": "frankfurt",
+      "name": "Wagner",
+      "address": "Schweizer Straße 71",
+      "district": "sachsenhausen",
+      "lat": 50.0983,
+      "lng": 8.6836,
+      "drink": "Apfelwein 0,3l + Handkäse",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "handkäse",
+        "klassiker"
+      ]
+    },
+    {
+      "id": "fra-005",
+      "city": "frankfurt",
+      "name": "Zur Eulenburg",
+      "address": "Eulengasse 46",
+      "district": "sachsenhausen",
+      "lat": 50.102,
+      "lng": 8.687,
+      "drink": "Apfelwein 0,3l Geripptes",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "lokal",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-006",
+      "city": "frankfurt",
+      "name": "Klapper 33",
+      "address": "Klappergasse 33",
+      "district": "sachsenhausen",
+      "lat": 50.1013,
+      "lng": 8.682,
+      "drink": "Pils vom Fass 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "kopfsteinpflaster",
+        "eintracht",
+        "dart",
+        "rock"
+      ]
+    },
+    {
+      "id": "fra-007",
+      "city": "frankfurt",
+      "name": "Alte Liebe",
+      "address": "Darmstädter Landstraße 23",
+      "district": "sachsenhausen",
+      "lat": 50.0976,
+      "lng": 8.6872,
+      "drink": "Bier 0,5l oder Apfelwein",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "wohnzimmer-feeling",
+        "tatort",
+        "konzerte",
+        "lokal"
+      ]
+    },
+    {
+      "id": "fra-008",
+      "city": "frankfurt",
+      "name": "Depot 1899",
+      "address": "Textorstraße 33",
+      "district": "sachsenhausen",
+      "lat": 50.0997,
+      "lng": 8.691,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "sportbar",
+      "tags": [
+        "sachsenhausen",
+        "depot",
+        "sport",
+        "eintracht",
+        "events"
+      ]
+    },
+    {
+      "id": "fra-009",
+      "city": "frankfurt",
+      "name": "Stevedoo Sportsbar",
+      "address": "Kleine Rittergasse 28",
+      "district": "sachsenhausen",
+      "lat": 50.1,
+      "lng": 8.682,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "sportbar",
+      "tags": [
+        "sachsenhausen",
+        "sport",
+        "abends",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-010",
+      "city": "frankfurt",
+      "name": "Zur kleinen Glocke",
+      "address": "Paradiesgasse 61",
+      "district": "sachsenhausen",
+      "lat": 50.103,
+      "lng": 8.68,
+      "drink": "Apfelwein 0,3l Geripptes",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "kult",
+        "apfelwein",
+        "charme"
+      ]
+    },
+    {
+      "id": "fra-011",
+      "city": "frankfurt",
+      "name": "Ha-Ka",
+      "address": "Habsburgerallee 21",
+      "district": "bornheim",
+      "lat": 50.1235,
+      "lng": 8.7068,
+      "drink": "Bier 0,5l + Cocktail",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "bornheim",
+        "terrasse",
+        "gemütlich",
+        "abends",
+        "stammkneipe"
+      ]
+    },
+    {
+      "id": "fra-012",
+      "city": "frankfurt",
+      "name": "Zum Alten Schlagbaum",
+      "address": "Berger Straße 248",
+      "district": "bornheim",
+      "lat": 50.123,
+      "lng": 8.7062,
+      "drink": "Schoppen oder Pils 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "bornheim",
+        "eckkneipe",
+        "tresen",
+        "günstig",
+        "stammkneipe"
+      ]
+    },
+    {
+      "id": "fra-013",
+      "city": "frankfurt",
+      "name": "Irish Pub Bornheim",
+      "address": "Berger Straße 255",
+      "district": "bornheim",
+      "lat": 50.1228,
+      "lng": 8.7064,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "bornheim",
+        "irish",
+        "livemusik",
+        "quiz",
+        "sport"
+      ]
+    },
+    {
+      "id": "fra-014",
+      "city": "frankfurt",
+      "name": "Chaplin Bar",
+      "address": "Habsburgerallee 23",
+      "district": "bornheim",
+      "lat": 50.1236,
+      "lng": 8.7073,
+      "drink": "Gin Tonic (50+ Sorten)",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "bornheim",
+        "gin",
+        "100-sorten",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-015",
+      "city": "frankfurt",
+      "name": "Mosaik Jazz Bar",
+      "address": "Freiligrathstraße 57",
+      "district": "bornheim",
+      "lat": 50.1248,
+      "lng": 8.7094,
+      "drink": "Wein oder Cocktail",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "bornheim",
+        "jazz",
+        "mediterran",
+        "stimmungsvoll"
+      ]
+    },
+    {
+      "id": "fra-016",
+      "city": "frankfurt",
+      "name": "Bornheimer Dorfstadl",
+      "address": "Berger Straße 249",
+      "district": "bornheim",
+      "lat": 50.1229,
+      "lng": 8.7062,
+      "drink": "Allgäuer Bier 0,5l",
+      "par": 4,
+      "type": "sportbar",
+      "tags": [
+        "bornheim",
+        "allgäu",
+        "sport",
+        "sky",
+        "rustikal"
+      ]
+    },
+    {
+      "id": "fra-017",
+      "city": "frankfurt",
+      "name": "Feinstaub",
+      "address": "Friedberger Landstraße 131",
+      "district": "nordend",
+      "lat": 50.129,
+      "lng": 8.6928,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nordend",
+        "alternativ",
+        "musik",
+        "nacht-noch-was-los"
+      ]
+    },
+    {
+      "id": "fra-018",
+      "city": "frankfurt",
+      "name": "Chlodwig-Eck",
+      "address": "Klappergasse 35",
+      "district": "sachsenhausen",
+      "lat": 50.1013,
+      "lng": 8.6819,
+      "drink": "Apfelwein 0,3l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "kultlokal",
+        "sport-leinwand",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-019",
+      "city": "frankfurt",
+      "name": "Drinksmith",
+      "address": "Fahrgasse 91",
+      "district": "altstadt",
+      "lat": 50.1107,
+      "lng": 8.682,
+      "drink": "Craft Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "altstadt",
+        "nachbarschaftsbar",
+        "cocktails",
+        "handwerkskunst"
+      ]
+    },
+    {
+      "id": "fra-020",
+      "city": "frankfurt",
+      "name": "White Rabbit Bar",
+      "address": "Untermainkai 23",
+      "district": "altstadt",
+      "lat": 50.1083,
+      "lng": 8.6741,
+      "drink": "Alice Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "altstadt",
+        "maintor",
+        "wunderland-thema",
+        "first-class-cocktails"
+      ]
+    },
+    {
+      "id": "fra-021",
+      "city": "frankfurt",
+      "name": "Seven Swans Bar",
+      "address": "Mainkai 9",
+      "district": "altstadt",
+      "lat": 50.1096,
+      "lng": 8.681,
+      "drink": "Ausgezeichneter Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "altstadt",
+        "award-winning",
+        "szene",
+        "mainufer"
+      ]
+    },
+    {
+      "id": "fra-022",
+      "city": "frankfurt",
+      "name": "Hunky Dory",
+      "address": "Stiftstraße 18",
+      "district": "innenstadt",
+      "lat": 50.1161,
+      "lng": 8.678,
+      "drink": "Hausgemixte Drinks + Retrotelefon",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "innenstadt",
+        "retro",
+        "phone-order",
+        "szene",
+        "cool"
+      ]
+    },
+    {
+      "id": "fra-023",
+      "city": "frankfurt",
+      "name": "Roomers Bar",
+      "address": "Gutleutstraße 85",
+      "district": "bahnhofsviertel",
+      "lat": 50.1042,
+      "lng": 8.6622,
+      "drink": "Hotel Signature Cocktail",
+      "par": 5,
+      "type": "cocktailbar",
+      "tags": [
+        "bahnhofsviertel",
+        "luxury",
+        "award-winning",
+        "hotelbar"
+      ]
+    },
+    {
+      "id": "fra-024",
+      "city": "frankfurt",
+      "name": "Freigraf",
+      "address": "Braubachstraße 34",
+      "district": "altstadt",
+      "lat": 50.1118,
+      "lng": 8.683,
+      "drink": "Hessisches Bier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "römer-nähe",
+        "brauhaus",
+        "hessisch"
+      ]
+    },
+    {
+      "id": "fra-025",
+      "city": "frankfurt",
+      "name": "Zum Paulaner",
+      "address": "Neue Mainzer Straße 31",
+      "district": "innenstadt",
+      "lat": 50.1093,
+      "lng": 8.6679,
+      "drink": "Paulaner Weisse 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "innenstadt",
+        "münchen-feeling",
+        "brauhaus",
+        "businessviertel"
+      ]
+    },
+    {
+      "id": "fra-026",
+      "city": "frankfurt",
+      "name": "Bockenheimer Weinkontor",
+      "address": "Leipziger Straße 3",
+      "district": "bockenheim",
+      "lat": 50.1267,
+      "lng": 8.6569,
+      "drink": "Hessischer Wein 0,2l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "bockenheim",
+        "wein",
+        "gemütlich",
+        "keller"
+      ]
+    },
+    {
+      "id": "fra-027",
+      "city": "frankfurt",
+      "name": "Plank",
+      "address": "Leibnizstraße 31",
+      "district": "bockenheim",
+      "lat": 50.1259,
+      "lng": 8.6558,
+      "drink": "Craft Beer 0,33l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "bockenheim",
+        "craft",
+        "hip",
+        "studenten",
+        "abwechslungsreich"
+      ]
+    },
+    {
+      "id": "fra-028",
+      "city": "frankfurt",
+      "name": "Lagerhaus",
+      "address": "Scheffelstraße 36",
+      "district": "nordend",
+      "lat": 50.1298,
+      "lng": 8.6899,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nordend",
+        "konzerte",
+        "events",
+        "alternativ"
+      ]
+    },
+    {
+      "id": "fra-029",
+      "city": "frankfurt",
+      "name": "Bar Bornheim",
+      "address": "Berger Straße 235",
+      "district": "bornheim",
+      "lat": 50.1227,
+      "lng": 8.706,
+      "drink": "Gin oder Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "bornheim",
+        "gin",
+        "lounge",
+        "kamin",
+        "schick"
+      ]
+    },
+    {
+      "id": "fra-030",
+      "city": "frankfurt",
+      "name": "Rotisserie im Römer",
+      "address": "Römerberg 25",
+      "district": "altstadt",
+      "lat": 50.1104,
+      "lng": 8.6825,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "römer",
+        "historisch",
+        "touristisch"
+      ]
+    },
+    {
+      "id": "fra-031",
+      "city": "frankfurt",
+      "name": "Max + Moritz",
+      "address": "Berger Straße 19",
+      "district": "bornheim",
+      "lat": 50.1195,
+      "lng": 8.7014,
+      "drink": "Bier 0,5l oder Wein",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "bornheim",
+        "gemütlich",
+        "mix-publikum",
+        "feierabend"
+      ]
+    },
+    {
+      "id": "fra-032",
+      "city": "frankfurt",
+      "name": "Fahrbar",
+      "address": "Darmstädter Landstraße 45",
+      "district": "sachsenhausen",
+      "lat": 50.0965,
+      "lng": 8.6879,
+      "drink": "Cocktail oder Bier",
+      "par": 3,
+      "type": "bar",
+      "tags": [
+        "sachsenhausen",
+        "szene",
+        "lokal",
+        "abends"
+      ]
+    },
+    {
+      "id": "fra-033",
+      "city": "frankfurt",
+      "name": "Hühnerfritz",
+      "address": "Schweizer Straße 66",
+      "district": "sachsenhausen",
+      "lat": 50.0984,
+      "lng": 8.6832,
+      "drink": "Apfelwein 0,3l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "lokal",
+        "authentisch",
+        "günstig"
+      ]
+    },
+    {
+      "id": "fra-034",
+      "city": "frankfurt",
+      "name": "Einstand",
+      "address": "Textorstraße 47",
+      "district": "sachsenhausen",
+      "lat": 50.1002,
+      "lng": 8.6915,
+      "drink": "Craft Bier 0,33l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "sachsenhausen",
+        "craft",
+        "gemütlich",
+        "szene"
+      ]
+    },
+    {
+      "id": "fra-035",
+      "city": "frankfurt",
+      "name": "Murphy's Law Irish Pub",
+      "address": "Schäfergasse 31",
+      "district": "innenstadt",
+      "lat": 50.1143,
+      "lng": 8.6814,
+      "drink": "Guinness 0,5l",
+      "par": 4,
+      "type": "irish",
+      "tags": [
+        "innenstadt",
+        "irish",
+        "livemusik",
+        "sport"
+      ]
+    },
+    {
+      "id": "fra-036",
+      "city": "frankfurt",
+      "name": "Ostpol",
+      "address": "Scheffelstraße 30",
+      "district": "nordend",
+      "lat": 50.1296,
+      "lng": 8.6895,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nordend",
+        "alternativ",
+        "kulturkneipe",
+        "veranstaltungen"
+      ]
+    },
+    {
+      "id": "fra-037",
+      "city": "frankfurt",
+      "name": "Wein & Käse Dünker",
+      "address": "Berger Straße 265",
+      "district": "bornheim",
+      "lat": 50.1233,
+      "lng": 8.7071,
+      "drink": "Hessischer Weisswein 0,2l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "bornheim",
+        "weinstube",
+        "älteste-weinhandlung",
+        "keller"
+      ]
+    },
+    {
+      "id": "fra-038",
+      "city": "frankfurt",
+      "name": "Silberburg",
+      "address": "Schneckenhofstraße 24",
+      "district": "sachsenhausen",
+      "lat": 50.0998,
+      "lng": 8.6848,
+      "drink": "Bier 0,5l + Dart",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "dart",
+        "stammgäste",
+        "bodenständig"
+      ]
+    },
+    {
+      "id": "fra-039",
+      "city": "frankfurt",
+      "name": "Cuba Libre Bar",
+      "address": "Kaiserhofstraße 2",
+      "district": "innenstadt",
+      "lat": 50.1128,
+      "lng": 8.6726,
+      "drink": "Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "innenstadt",
+        "latein",
+        "cocktails",
+        "feierabend"
+      ]
+    },
+    {
+      "id": "fra-040",
+      "city": "frankfurt",
+      "name": "Zum Eisernen Steg",
+      "address": "Fahrtor 1",
+      "district": "altstadt",
+      "lat": 50.1096,
+      "lng": 8.6804,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "altstadt",
+        "main-nähe",
+        "brückenblick",
+        "touristisch"
+      ]
+    },
+    {
+      "id": "fra-041",
+      "city": "frankfurt",
+      "name": "Sachsenhäuser Warte",
+      "address": "Waldschmidtstraße 19",
+      "district": "sachsenhausen",
+      "lat": 50.1038,
+      "lng": 8.6982,
+      "drink": "Apfelwein Bembel 1,0l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "klassiker",
+        "traditionslokal"
+      ]
+    },
+    {
+      "id": "fra-042",
+      "city": "frankfurt",
+      "name": "Ebbelwei-Expreß Haltestelle Lokalbahnhof",
+      "address": "Darmstädter Landstraße 4",
+      "district": "sachsenhausen",
+      "lat": 50.0985,
+      "lng": 8.6852,
+      "drink": "Apfelwein 0,3l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "sachsenhausen",
+        "ebbelwoi",
+        "lokalbahnhof",
+        "klassiker"
+      ]
+    },
+    {
+      "id": "fra-043",
+      "city": "frankfurt",
+      "name": "Metropol",
+      "address": "Weckmarkt 13",
+      "district": "altstadt",
+      "lat": 50.1104,
+      "lng": 8.6835,
+      "drink": "Bier 0,5l",
+      "par": 4,
+      "type": "kneipe",
+      "tags": [
+        "altstadt",
+        "biertisch",
+        "gemütlich",
+        "römer-nähe"
+      ]
+    },
+    {
+      "id": "fra-044",
+      "city": "frankfurt",
+      "name": "Goethe Bar",
+      "address": "Großer Hirschgraben 23",
+      "district": "innenstadt",
+      "lat": 50.1107,
+      "lng": 8.678,
+      "drink": "Bier oder Cocktail",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "innenstadt",
+        "goethe-haus",
+        "kulturell",
+        "schick"
+      ]
+    },
+    {
+      "id": "fra-045",
+      "city": "frankfurt",
+      "name": "Alto Bar",
+      "address": "Konrad-Adenauer-Straße 17",
+      "district": "innenstadt",
+      "lat": 50.1163,
+      "lng": 8.683,
+      "drink": "Cocktail",
+      "par": 4,
+      "type": "cocktailbar",
+      "tags": [
+        "innenstadt",
+        "lounge",
+        "abendessen",
+        "szene"
+      ]
+    },
+    {
+      "id": "fra-046",
+      "city": "frankfurt",
+      "name": "Kiosk 11",
+      "address": "Elbinger Straße 11",
+      "district": "nordend",
+      "lat": 50.1325,
+      "lng": 8.6948,
+      "drink": "Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "nordend",
+        "kiez",
+        "entspannt",
+        "stammgäste"
+      ]
+    },
+    {
+      "id": "fra-047",
+      "city": "frankfurt",
+      "name": "Frankfurter Botschaft",
+      "address": "Berger Straße 68",
+      "district": "bornheim",
+      "lat": 50.1208,
+      "lng": 8.702,
+      "drink": "Binding Bier 0,5l",
+      "par": 3,
+      "type": "kneipe",
+      "tags": [
+        "bornheim",
+        "lokal",
+        "feierabend",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-048",
+      "city": "frankfurt",
+      "name": "Bierhaus in der Salzgass",
+      "address": "Salzgasse 2",
+      "district": "altstadt",
+      "lat": 50.1102,
+      "lng": 8.6856,
+      "drink": "Binding vom Fass 0,5l",
+      "par": 4,
+      "type": "brauhaus",
+      "tags": [
+        "altstadt",
+        "frankfurter",
+        "binding",
+        "touristisch",
+        "laut"
+      ]
+    },
+    {
+      "id": "fra-049",
+      "city": "frankfurt",
+      "name": "Fichtekränzi",
+      "address": "Wallstraße 5",
+      "district": "sachsenhausen",
+      "lat": 50.1012,
+      "lng": 8.6841,
+      "drink": "Apfelwein 0,3l Geripptes",
+      "par": 3,
+      "type": "brauhaus",
+      "tags": [
+        "sachsenhausen",
+        "apfelwein",
+        "lokal",
+        "gemütlich"
+      ]
+    },
+    {
+      "id": "fra-050",
+      "city": "frankfurt",
+      "name": "Cider House Rules",
+      "address": "Schweizer Platz 6",
+      "district": "sachsenhausen",
+      "lat": 50.0978,
+      "lng": 8.6807,
+      "drink": "Craft Cider 0,33l",
+      "par": 4,
+      "type": "bar",
+      "tags": [
+        "sachsenhausen",
+        "cider",
+        "craft",
+        "hip",
+        "international"
+      ]
+    }
+  ]
+}
