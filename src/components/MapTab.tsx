@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
 import { useLanguage } from '@/context/LanguageContext';
+import { useEntitlements } from '@/hooks/useEntitlements';
 import MapAreaSelect from './MapAreaSelect';
 import MapCourseBuilder from './MapCourseBuilder';
 import MapChoiceDialog, { getMapPref, navigateTo } from './MapChoiceDialog';
