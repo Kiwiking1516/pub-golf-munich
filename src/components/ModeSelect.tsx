@@ -89,6 +89,15 @@ export default function ModeSelect() {
         </button>
       </div>
 
+      {/* Alcohol-Free Mode toggle */}
+      <div className="w-full max-w-sm mt-5 p-4 rounded-xl border border-border bg-card flex items-start gap-3 animate-fade-in">
+        <div className="flex-1 min-w-0">
+          <div className="text-foreground text-sm font-bold">🥤 {t('af.title')}</div>
+          <p className="text-muted-foreground text-[11px] mt-0.5 leading-snug">{t('af.desc')}</p>
+        </div>
+        <Switch checked={alcoholFreeMode} onCheckedChange={setAlcoholFreeMode} />
+      </div>
+
       {scLore && (
         <p className="text-muted-foreground/60 text-xs mt-6 text-center max-w-sm italic leading-relaxed">
           {scLore}
