@@ -3,10 +3,11 @@ import { useGame } from '@/context/GameContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getSecondCourseInfo } from '@/data/cities';
 import { Plus, X } from 'lucide-react';
+import { neutralizeDrinkLabel } from '@/utils/alcoholFree';
 
 export default function PlayerTab() {
-  const { players, addPlayer, removePlayer, holes, mode, city, startGame, gameStarted, isGreenMode } = useGame();
-  const { t } = useLanguage();
+  const { players, addPlayer, removePlayer, holes, mode, city, startGame, gameStarted, isGreenMode, alcoholFreeMode } = useGame();
+  const { t, lang } = useLanguage();
   const [input, setInput] = useState('');
   const [error, setError] = useState('');
 
@@ -32,7 +33,7 @@ export default function PlayerTab() {
     ? `${secondCourseRaw?.emoji || ''} ${t(`course2.${city}.name`)}`
     : '🍺 Pub Golf';
   const modeDesc = isGreenMode && city
-    ? t(`course2.${city}.drink`)
+    ? neutralizeDrinkLabel(t(`course2.${city}.drink`), alcoholFreeMode, lang)
     : t('mode.mix');
 
   return (
