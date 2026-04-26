@@ -75,6 +75,8 @@ Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: [Name], Anschrift wie obe
     'city.liverpool.tagline': 'Mathew Street & das Waterfront',
     'city.brighton.tagline': 'The Lanes & Seaside-Bars',
     'city.newcastle.tagline': 'Bigg Market & die Quayside',
+    'city.edinburgh.tagline': 'Royal Mile, Old Town & Grassmarket',
+    'city.bristol.tagline': 'Harbourside, Stokes Croft & Clifton',
     'city.dublin.tagline': 'Temple Bar & traditionelle Pubs',
     // ModeSelect
     'mode.back': 'Städte',
@@ -433,6 +435,8 @@ Responsible for content according to § 55 Abs. 2 RStV: [Name], address as above
     'city.liverpool.tagline': 'Mathew Street & the waterfront',
     'city.brighton.tagline': 'The Lanes & seaside bars',
     'city.newcastle.tagline': 'Bigg Market & the Quayside',
+    'city.edinburgh.tagline': 'Royal Mile, Old Town & Grassmarket',
+    'city.bristol.tagline': 'Harbourside, Stokes Croft & Clifton',
     'city.dublin.tagline': 'Temple Bar & traditional pubs',
     // ModeSelect
     'mode.back': 'Cities',
