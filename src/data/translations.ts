@@ -43,14 +43,14 @@ pubgolfmuc@gmail.com`,
 
 Angaben gemäß § 5 TMG
 
-[Name]
-[Straße und Hausnummer]
-[PLZ und Ort]
-[Land]
+Richard Friedrich
+Franz-Wolter-Straße 1
+81925 München
+Deutschland
 
-E-Mail: [E-Mail-Adresse]
+E-Mail: pubgolfmuc@gmail.com
 
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: [Name], Anschrift wie oben.`,
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Richard Friedrich, Anschrift wie oben.`,
     // Responsibility gate
     'responsibility.title': 'Spiel verantwortungsvoll',
     'responsibility.bullet1': 'Trinke niemals über dein persönliches Limit hinaus',
@@ -405,14 +405,14 @@ pubgolfmuc@gmail.com`,
 
 This is a personal project. Operator details:
 
-[Name]
-[Street and number]
-[Postal code and city]
-[Country]
+Richard Friedrich
+Franz-Wolter-Straße 1
+81925 Munich
+Germany
 
-Email: [Email address]
+Email: pubgolfmuc@gmail.com
 
-Responsible for content according to § 55 Abs. 2 RStV: [Name], address as above.`,
+Responsible for content according to § 55 Abs. 2 RStV: Richard Friedrich, address as above.`,
     // Responsibility gate
     'responsibility.title': 'Play Responsibly',
     'responsibility.bullet1': 'Never drink beyond your personal limit',
