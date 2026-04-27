@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
+import { Geolocation } from '@capacitor/geolocation';
 import 'leaflet/dist/leaflet.css';
 import { useGame } from '@/context/GameContext';
 import { getBarsForCity } from '@/data/pubs';
@@ -218,24 +219,25 @@ export default function MapTab() {
         iconAnchor: [10, 10],
       });
 
-      gpsWatchRef.current = navigator.geolocation.watchPosition(
-        (pos) => {
+      Geolocation.watchPosition(
+        { enableHighAccuracy: true, maximumAge: 5000 },
+        (pos, err) => {
+          if (err || !pos) return;
           const latlng: L.LatLngExpression = [pos.coords.latitude, pos.coords.longitude];
           if (gpsMarkerRef.current) {
             gpsMarkerRef.current.setLatLng(latlng);
           } else {
             gpsMarkerRef.current = L.marker(latlng, { icon: gpsIcon, zIndexOffset: 1000 }).addTo(map);
           }
-        },
-        () => {},
-        { enableHighAccuracy: true, maximumAge: 5000 }
-      );
+        }
+      ).then((id) => {
+        gpsWatchRef.current = id;
+      });
     }
 
     return () => {
-      if (gpsWatchRef.current != null) {
-        navigator.geolocation.clearWatch(gpsWatchRef.current);
-        gpsWatchRef.current = null;
+      if (gpsWatchRef.current) {
+        Geolocation.clearWatch({ id: gpsWatchRef.current });
       }
       if (gpsMarkerRef.current) {
         gpsMarkerRef.current.remove();

@@ -133,13 +133,13 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
     }
   };
 
-  const useMyLocation = () => {
-    if (!('geolocation' in navigator)) return;
-    navigator.geolocation.getCurrentPosition(
-      (pos) => setCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
-      () => {},
-      { enableHighAccuracy: true }
-    );
+  const useMyLocation = async () => {
+    try {
+      const pos = await Geolocation.getCurrentPosition({ enableHighAccuracy: true });
+      setCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+    } catch {
+      // permission denied or position unavailable — silent fail, same as before
+    }
   };
 
   const generateCourse = (count: 9 | 18) => {
