@@ -33,7 +33,7 @@ export default function ModeSelect() {
   const scLore = t(scLoreKey) !== scLoreKey ? t(scLoreKey) : undefined;
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-deep-green" style={{ minHeight: 'var(--app-height)' }}>
+    <div className="flex flex-col items-center p-6 bg-deep-green overflow-y-auto" style={{ height: 'var(--app-height)' }}>
       <div className="self-start flex items-center justify-between w-full mb-4">
         <button onClick={clearCity} className="text-muted-foreground flex items-center gap-1 text-sm tap-target">
           <ChevronLeft className="w-4 h-4" /> {t('mode.back')}
