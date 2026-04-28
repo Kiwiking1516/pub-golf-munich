@@ -379,7 +379,7 @@ export default function GameTab() {
         setVisitedHoles(prev => new Set(prev).add(currentHole));
       }
     }
-  }, [currentHole]);
+  }, [currentHole, visitedHoles]);
 
   // A hole is "first visit" if it was just added to visited set this render cycle
   // We track it differently: a hole is first visit if it wasn't in the set BEFORE the effect ran
@@ -394,7 +394,7 @@ export default function GameTab() {
     } else {
       setFirstVisitHole(null);
     }
-  }, [currentHole]);
+  }, [currentHole, visitedHoles]);
 
   const isFirstVisit = firstVisitHole === currentHole;
 

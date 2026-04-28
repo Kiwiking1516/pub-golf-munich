@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
 import { Geolocation } from '@capacitor/geolocation';
 import 'leaflet/dist/leaflet.css';
@@ -71,7 +71,7 @@ export default function MapTab() {
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
-  const holeCoords = holes.map(hole => {
+  const holeCoords = useMemo(() => holes.map(hole => {
     if (hole.lat != null && hole.lng != null) {
       const bars = city ? getBarsForCity(city) : [];
       const bar = hole.barId
@@ -106,7 +106,7 @@ export default function MapTab() {
     if (bestMatch) return { lat: bestMatch.lat, lng: bestMatch.lng, bar: bestMatch };
 
     return null;
-  });
+  }), [holes, city]);
 
   const hasCoords = holeCoords.some(c => c !== null);
 
@@ -248,7 +248,7 @@ export default function MapTab() {
         mapInstanceRef.current = null;
       }
     };
-  }, [holes, city, currentHole, hasCoords, alcoholFreeMode, lang, isPremium]);
+  }, [holeCoords, city, cityColor, currentHole, hasCoords, alcoholFreeMode, lang, isPremium]);
 
   if (!hasCoords) {
     return (

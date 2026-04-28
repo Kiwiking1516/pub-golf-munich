@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import L from 'leaflet';
 import { CircleDot, X, MapPin } from 'lucide-react';
 import { Slider } from '@/components/ui/slider';
@@ -38,7 +38,7 @@ export default function MapAreaSelect({ map, city, active, onToggle }: Props) {
 
   const cityColor = city ? CITY_COLORS[city] || '#d4af37' : '#d4af37';
 
-  const allBars = city ? getBarsForCity(city) : [];
+  const allBars = useMemo(() => city ? getBarsForCity(city) : [], [city]);
 
   const barsInRadius = center
     ? allBars.filter(b => distanceKm(center.lat, center.lng, b.lat, b.lng) <= radius / 1000)
