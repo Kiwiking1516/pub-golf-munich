@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design 5: Pub Crawl Party — PubGolf Munich</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F0FDF4;
+  --bg-alt: #DCFCE7;
+  --surface: #FFFFFF;
+  --surface-raised: #FFFFFF;
+  --primary: #16A34A;
+  --primary-light: #BBF7D0;
+  --primary-dim: rgba(22,163,74,0.1);
+  --cta: #EAB308;
+  --cta-light: #FEF08A;
+  --cta-dim: rgba(234,179,8,0.15);
+  --text-primary: #1A2E1A;
+  --text-secondary: #6B7280;
+  --text-light: #9CA3AF;
+  --border: rgba(22,163,74,0.15);
+  --border-light: rgba(0,0,0,0.06);
+  --nav-bg: #FFFFFF;
+  --score-eagle: #F59E0B;
+  --score-birdie: #22C55E;
+  --score-par: #6B7280;
+  --score-bogey: #F97316;
+  --score-double: #EF4444;
+  /* Player colors */
+  --p1: #0D9488;   /* Teal - Max */
+  --p1-light: #CCFBF1;
+  --p2: #7C3AED;   /* Purple - Sarah */
+  --p2-light: #EDE9FE;
+  --p3: #EA580C;   /* Orange - Tom */
+  --p3-light: #FFEDD5;
+  --p4: #DB2777;   /* Pink - Julia */
+  --p4-light: #FCE7F3;
+  --radius: 20px;
+  --radius-sm: 12px;
+  --font-display: 'Fredoka', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  background: #E8F5E9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 40px;
+}
+
+/* ── Header ── */
+.design-header { text-align: center; margin-bottom: 16px; }
+.design-badge {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  font-size: 11px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 100px;
+  margin-bottom: 8px;
+}
+.design-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.design-sub { font-size: 12px; color: var(--text-secondary); font-family: var(--font-body); }
+
+/* ── Screen Tabs ── */
+.screen-tabs {
+  display: flex;
+  gap: 6px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 100px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+.tab-btn {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  background: transparent;
+  color: var(--text-secondary);
+}
+.tab-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* ── Phone Shell ── */
+.phone {
+  width: 390px;
+  background: var(--bg);
+  border-radius: 44px;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+  border: 6px solid #D1FAE5;
+}
+.phone-notch {
+  width: 126px;
+  height: 34px;
+  background: var(--text-primary);
+  border-radius: 0 0 24px 24px;
+  margin: 0 auto;
+}
+.phone-screen {
+  min-height: 780px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+.screen { display: none; flex-direction: column; flex: 1; }
+.screen.active { display: flex; }
+
+/* ── Bottom Nav ── */
+.bottom-nav {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: var(--nav-bg);
+  border-top: 2px solid var(--border);
+  display: flex;
+  height: 72px;
+  padding-bottom: 8px;
+}
+.nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background 0.15s;
+}
+.nav-item.active { background: var(--primary-dim); }
+.nav-item.active .nav-label { color: var(--primary); font-weight: 800; }
+.nav-item.active .nav-icon { color: var(--primary); }
+.nav-icon { font-size: 20px; color: var(--text-secondary); }
+.nav-label { font-family: var(--font-body); font-size: 10px; font-weight: 600; color: var(--text-secondary); }
+
+/* ── Screen: Landing ── */
+.landing-hero {
+  background: linear-gradient(160deg, var(--primary) 0%, #14532D 100%);
+  padding: 40px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+.landing-emoji { font-size: 52px; line-height: 1; margin-bottom: 4px; }
+.landing-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+}
+.landing-sub { font-size: 15px; color: rgba(255,255,255,0.75); font-weight: 500; }
+.landing-body { padding: 24px 20px; display: flex; flex-direction: column; gap: 16px; }
+.city-prompt {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.city-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.city-card {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.city-card.selected {
+  border-color: var(--primary);
+  box-shadow: 0 4px 16px rgba(22,163,74,0.18);
+}
+.city-card-emoji { font-size: 28px; }
+.city-card-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.city-card-count { font-size: 11px; color: var(--text-secondary); font-weight: 600; }
+.section-label {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.region-list { display: flex; flex-direction: column; gap: 8px; }
+.region-item {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border: 2px solid transparent;
+}
+.region-item.selected { border-color: var(--primary); }
+.region-item-left { display: flex; align-items: center; gap: 12px; }
+.region-dot {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--primary-dim);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px;
+}
+.region-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.region-holes { font-size: 12px; color: var(--text-secondary); font-weight: 600; }
+.region-check { color: var(--primary); font-size: 18px; font-weight: 700; }
+.cta-btn {
+  background: var(--cta);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 100px;
+  padding: 16px 0;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(234,179,8,0.3);
+}
+
+/* ── Screen: Course ── */
+.course-header {
+  background: var(--surface);
+  padding: 16px 20px 14px;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.course-meta { font-size: 12px; color: var(--text-secondary); font-weight: 600; }
+.course-scroll { flex: 1; overflow-y: auto; padding: 16px 16px 0; display: flex; flex-direction: column; gap: 12px; }
+.hole-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  display: flex;
+}
+.hole-color-bar { width: 8px; flex-shrink: 0; }
+.hole-body { flex: 1; padding: 14px 16px; }
+.hole-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.hole-num-badge {
+  background: var(--primary-dim);
+  color: var(--primary);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.hole-par-badge {
+  background: var(--cta-dim);
+  color: #92400E;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.hole-pub {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.hole-meta-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.hole-tag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: var(--bg-alt);
+  color: var(--text-secondary);
+}
+.hole-tag.handicap { background: #FFEDD5; color: #C2410C; }
+.hole-tag.bonus { background: #EDE9FE; color: #6D28D9; }
+.hole-tag.fun { background: #FCE7F3; color: #BE185D; }
+.hole-rule {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+.hole-rule strong { color: var(--text-primary); }
+
+/* ── Screen: Game ── */
+.game-header {
+  background: var(--primary);
+  padding: 14px 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-hole-label { font-family: var(--font-display); font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.7); }
+.game-hole-name { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: #fff; }
+.game-par-pill {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+.progress-row { background: var(--surface); padding: 12px 20px; display: flex; align-items: center; gap: 6px; border-bottom: 2px solid var(--border); }
+.prog-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--border);
+  flex-shrink: 0;
+}
+.prog-dot.done { background: var(--primary); }
+.prog-dot.current { background: var(--primary); width: 28px; border-radius: 100px; }
+.prog-label { margin-left: auto; font-size: 11px; font-weight: 700; color: var(--text-secondary); }
+.score-list { flex: 1; overflow-y: auto; padding: 14px 16px 0; display: flex; flex-direction: column; gap: 10px; }
+.player-score-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+.player-info { flex: 1; }
+.player-name { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--text-primary); }
+.player-total { font-size: 12px; font-weight: 700; color: var(--text-secondary); }
+.player-total span { font-weight: 800; }
+.score-controls { display: flex; align-items: center; gap: 10px; }
+.score-btn {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--bg);
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.12s, border-color 0.12s;
+}
+.score-btn:hover { background: var(--primary-light); border-color: var(--primary); }
+.score-val {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  width: 32px;
+  text-align: center;
+}
+.score-badge {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 100px;
+  margin-top: 2px;
+  display: inline-block;
+}
+.badge-eagle { background: #FEF3C7; color: #92400E; }
+.badge-birdie { background: #DCFCE7; color: #14532D; }
+.badge-par { background: #F3F4F6; color: #374151; }
+.badge-bogey { background: #FFEDD5; color: #9A3412; }
+.badge-double { background: #FEE2E2; color: #991B1B; }
+.confirm-btn {
+  margin: 14px 16px 0;
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 100px;
+  padding: 15px 0;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(22,163,74,0.25);
+}
+.penalty-row {
+  margin: 10px 16px 0;
+  background: #FEF9C3;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  display: flex; align-items: center; gap: 10px;
+}
+.penalty-icon { font-size: 18px; }
+.penalty-text { font-family: var(--font-body); font-size: 13px; font-weight: 600; color: #713F12; flex: 1; }
+.penalty-add {
+  background: #EAB308; color: #1A1A00;
+  font-family: var(--font-display); font-size: 13px; font-weight: 700;
+  border: none; border-radius: 100px; padding: 5px 12px; cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="design-header">
+  <div class="design-badge">Design 5</div>
+  <div class="design-title">Pub Crawl Party</div>
+  <div class="design-sub">Light Mode · Flat Design · Player Colors · Fredoka + Nunito</div>
+</div>
+
+<div class="screen-tabs">
+  <button class="tab-btn active" onclick="showScreen('landing',this)">Landing</button>
+  <button class="tab-btn" onclick="showScreen('course',this)">Course</button>
+  <button class="tab-btn" onclick="showScreen('game',this)">Game</button>
+</div>
+
+<div class="phone">
+  <div class="phone-notch"></div>
+  <div class="phone-screen">
+
+    <!-- ═══════════════════════════════════
+         SCREEN 1: Landing / Setup
+    ═══════════════════════════════════ -->
+    <div id="screen-landing" class="screen active">
+      <div class="landing-hero">
+        <div class="landing-emoji">🍺⛳</div>
+        <div class="landing-title">PubGolf<br>Munich</div>
+        <div class="landing-sub">Pick a route · Play · Score</div>
+      </div>
+      <div class="landing-body">
+        <div>
+          <div class="city-prompt">Choose your city</div>
+          <div style="font-size:12px;color:var(--text-secondary);margin-bottom:10px;font-weight:600;">Where's the crawl happening?</div>
+          <div class="city-grid">
+            <div class="city-card selected">
+              <div class="city-card-emoji">🏙️</div>
+              <div class="city-card-name">Munich</div>
+              <div class="city-card-count">4 routes</div>
+            </div>
+            <div class="city-card">
+              <div class="city-card-emoji">🍻</div>
+              <div class="city-card-name">Berlin</div>
+              <div class="city-card-count">3 routes</div>
+            </div>
+            <div class="city-card">
+              <div class="city-card-emoji">🌊</div>
+              <div class="city-card-name">Hamburg</div>
+              <div class="city-card-count">2 routes</div>
+            </div>
+            <div class="city-card">
+              <div class="city-card-emoji">🥨</div>
+              <div class="city-card-name">Nuremberg</div>
+              <div class="city-card-count">2 routes</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="section-label">Pick a route</div>
+          <div style="font-size:12px;color:var(--text-secondary);margin-bottom:10px;font-weight:600;">Munich · 4 routes available</div>
+          <div class="region-list">
+            <div class="region-item selected">
+              <div class="region-item-left">
+                <div class="region-dot">🏛️</div>
+                <div>
+                  <div class="region-name">Altstadt Classic</div>
+                  <div class="region-holes">9 holes · ~3 hours</div>
+                </div>
+              </div>
+              <div class="region-check">✓</div>
+            </div>
+            <div class="region-item">
+              <div class="region-item-left">
+                <div class="region-dot">🎨</div>
+                <div>
+                  <div class="region-name">Schwabing Night</div>
+                  <div class="region-holes">7 holes · ~2.5 hours</div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+            <div class="region-item">
+              <div class="region-item-left">
+                <div class="region-dot">🌿</div>
+                <div>
+                  <div class="region-name">Haidhausen Hopfen</div>
+                  <div class="region-holes">8 holes · ~2.5 hours</div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <button class="cta-btn">Let's Crawl! 🎉</button>
+      </div>
+      <div class="bottom-nav">
+        <div class="nav-item active">
+          <div class="nav-icon">👥</div>
+          <div class="nav-label">Players</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">🗺️</div>
+          <div class="nav-label">Course</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">⛳</div>
+          <div class="nav-label">Game</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">📍</div>
+          <div class="nav-label">Map</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">🏆</div>
+          <div class="nav-label">Score</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════
+         SCREEN 2: Course
+    ═══════════════════════════════════ -->
+    <div id="screen-course" class="screen">
+      <div class="course-header">
+        <div>
+          <div class="course-title">Altstadt Classic</div>
+          <div class="course-meta">Munich · 9 holes · Par 18</div>
+        </div>
+        <div style="font-size:28px;">🏛️</div>
+      </div>
+      <div class="course-scroll">
+        <div class="hole-card">
+          <div class="hole-color-bar" style="background:var(--p1);"></div>
+          <div class="hole-body">
+            <div class="hole-top">
+              <span class="hole-num-badge">Hole 1</span>
+              <span class="hole-par-badge">Par 2</span>
+            </div>
+            <div class="hole-pub">Augustiner Stammhaus</div>
+            <div class="hole-meta-row">
+              <span class="hole-tag">Weißbier</span>
+              <span class="hole-tag handicap">+1 Penalty Zone</span>
+            </div>
+            <div class="hole-rule">
+              <strong>Rule:</strong> Order must be at the bar. Table service doesn't count!
+            </div>
+          </div>
+        </div>
+        <div class="hole-card">
+          <div class="hole-color-bar" style="background:var(--p2);"></div>
+          <div class="hole-body">
+            <div class="hole-top">
+              <span class="hole-num-badge">Hole 2</span>
+              <span class="hole-par-badge">Par 2</span>
+            </div>
+            <div class="hole-pub">Hofbräuhaus</div>
+            <div class="hole-meta-row">
+              <span class="hole-tag">Helles</span>
+              <span class="hole-tag bonus">Bonus Hole</span>
+            </div>
+            <div class="hole-rule">
+              <strong>Bonus:</strong> Finish a Maß in one go — subtract 1 from your score!
+            </div>
+          </div>
+        </div>
+        <div class="hole-card">
+          <div class="hole-color-bar" style="background:var(--p3);"></div>
+          <div class="hole-body">
+            <div class="hole-top">
+              <span class="hole-num-badge">Hole 3</span>
+              <span class="hole-par-badge">Par 2</span>
+            </div>
+            <div class="hole-pub">Schneider Bräuhaus</div>
+            <div class="hole-meta-row">
+              <span class="hole-tag">Weizenbock</span>
+              <span class="hole-tag fun">Fun Rule</span>
+            </div>
+            <div class="hole-rule">
+              <strong>Fun:</strong> Everyone must speak in rhymes until the next hole!
+            </div>
+          </div>
+        </div>
+        <div class="hole-card">
+          <div class="hole-color-bar" style="background:var(--p4);"></div>
+          <div class="hole-body">
+            <div class="hole-top">
+              <span class="hole-num-badge">Hole 4</span>
+              <span class="hole-par-badge">Par 3</span>
+            </div>
+            <div class="hole-pub">Löwenbräukeller</div>
+            <div class="hole-meta-row">
+              <span class="hole-tag">Dunkel</span>
+            </div>
+            <div class="hole-rule">
+              <strong>Rule:</strong> Last one to sit down after ordering gets a +1 penalty.
+            </div>
+          </div>
+        </div>
+        <div class="hole-card">
+          <div class="hole-color-bar" style="background:var(--primary);"></div>
+          <div class="hole-body">
+            <div class="hole-top">
+              <span class="hole-num-badge">Hole 5</span>
+              <span class="hole-par-badge">Par 2</span>
+            </div>
+            <div class="hole-pub">Paulaner am Nockherberg</div>
+            <div class="hole-meta-row">
+              <span class="hole-tag">Salvator</span>
+              <span class="hole-tag handicap">+1 Penalty Zone</span>
+            </div>
+            <div class="hole-rule">
+              <strong>Rule:</strong> Mandatory Bavarian toast before drinking!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-nav">
+        <div class="nav-item">
+          <div class="nav-icon">👥</div>
+          <div class="nav-label">Players</div>
+        </div>
+        <div class="nav-item active">
+          <div class="nav-icon">🗺️</div>
+          <div class="nav-label">Course</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">⛳</div>
+          <div class="nav-label">Game</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">📍</div>
+          <div class="nav-label">Map</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">🏆</div>
+          <div class="nav-label">Score</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════
+         SCREEN 3: Game / Score Input
+    ═══════════════════════════════════ -->
+    <div id="screen-game" class="screen">
+      <div class="game-header">
+        <div>
+          <div class="game-hole-label">Hole 3 of 9</div>
+          <div class="game-hole-name">Schneider Bräuhaus</div>
+        </div>
+        <div class="game-par-pill">Par 2</div>
+      </div>
+      <div class="progress-row">
+        <div class="prog-dot done"></div>
+        <div class="prog-dot done"></div>
+        <div class="prog-dot current"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-dot"></div>
+        <div class="prog-label">3 / 9</div>
+      </div>
+      <div class="score-list">
+        <!-- Max — Teal, score 2 = par -->
+        <div class="player-score-card">
+          <div class="avatar" style="background:var(--p1);">M</div>
+          <div class="player-info">
+            <div class="player-name">Max</div>
+            <div class="player-total">Total: <span style="color:var(--score-birdie);">−1</span></div>
+          </div>
+          <div class="score-controls">
+            <button class="score-btn" onclick="adj('max',-1)">−</button>
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div class="score-val" id="val-max">2</div>
+              <div class="score-badge badge-par" id="badge-max">Par</div>
+            </div>
+            <button class="score-btn" onclick="adj('max',1)">+</button>
+          </div>
+        </div>
+        <!-- Sarah — Purple, score 1 = birdie -->
+        <div class="player-score-card">
+          <div class="avatar" style="background:var(--p2);">S</div>
+          <div class="player-info">
+            <div class="player-name">Sarah</div>
+            <div class="player-total">Total: <span style="color:var(--score-eagle);">+2</span></div>
+          </div>
+          <div class="score-controls">
+            <button class="score-btn" onclick="adj('sarah',-1)">−</button>
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div class="score-val" id="val-sarah">1</div>
+              <div class="score-badge badge-birdie" id="badge-sarah">Birdie</div>
+            </div>
+            <button class="score-btn" onclick="adj('sarah',1)">+</button>
+          </div>
+        </div>
+        <!-- Tom — Orange, score 3 = bogey -->
+        <div class="player-score-card">
+          <div class="avatar" style="background:var(--p3);">T</div>
+          <div class="player-info">
+            <div class="player-name">Tom</div>
+            <div class="player-total">Total: <span style="color:var(--score-bogey);">+3</span></div>
+          </div>
+          <div class="score-controls">
+            <button class="score-btn" onclick="adj('tom',-1)">−</button>
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div class="score-val" id="val-tom">3</div>
+              <div class="score-badge badge-bogey" id="badge-tom">Bogey</div>
+            </div>
+            <button class="score-btn" onclick="adj('tom',1)">+</button>
+          </div>
+        </div>
+        <!-- Julia — Pink, score 4 = double bogey -->
+        <div class="player-score-card">
+          <div class="avatar" style="background:var(--p4);">J</div>
+          <div class="player-info">
+            <div class="player-name">Julia</div>
+            <div class="player-total">Total: <span style="color:var(--score-bogey);">+1</span></div>
+          </div>
+          <div class="score-controls">
+            <button class="score-btn" onclick="adj('julia',-1)">−</button>
+            <div style="display:flex;flex-direction:column;align-items:center;">
+              <div class="score-val" id="val-julia">4</div>
+              <div class="score-badge badge-double" id="badge-julia">Double+</div>
+            </div>
+            <button class="score-btn" onclick="adj('julia',1)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="penalty-row">
+        <div class="penalty-icon">⚠️</div>
+        <div class="penalty-text">Missed the mandatory Bavarian toast?</div>
+        <button class="penalty-add">+1 Penalty</button>
+      </div>
+      <button class="confirm-btn">Confirm Scores ✓</button>
+      <div style="height:8px;"></div>
+      <div class="bottom-nav">
+        <div class="nav-item">
+          <div class="nav-icon">👥</div>
+          <div class="nav-label">Players</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">🗺️</div>
+          <div class="nav-label">Course</div>
+        </div>
+        <div class="nav-item active">
+          <div class="nav-icon">⛳</div>
+          <div class="nav-label">Game</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">📍</div>
+          <div class="nav-label">Map</div>
+        </div>
+        <div class="nav-item">
+          <div class="nav-icon">🏆</div>
+          <div class="nav-label">Score</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /phone-screen -->
+</div><!-- /phone -->
+
+<script>
+const PAR = 2;
+const scores = { max: 2, sarah: 1, tom: 3, julia: 4 };
+
+function badgeFor(s) {
+  const d = s - PAR;
+  if (d <= -2) return ['badge-eagle',  'Eagle!'];
+  if (d === -1) return ['badge-birdie', 'Birdie'];
+  if (d === 0)  return ['badge-par',    'Par'];
+  if (d === 1)  return ['badge-bogey',  'Bogey'];
+  return          ['badge-double', 'Double+'];
+}
+
+function adj(player, delta) {
+  scores[player] = Math.max(1, scores[player] + delta);
+  const v = document.getElementById('val-' + player);
+  const b = document.getElementById('badge-' + player);
+  if (!v) return;
+  v.textContent = scores[player];
+  const [cls, label] = badgeFor(scores[player]);
+  b.className = 'score-badge ' + cls;
+  b.textContent = label;
+}
+
+function showScreen(name, btn) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>

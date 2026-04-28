@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design 1: Green Jacket — PubGolf Munich</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0D1F0D;
+  --bg-deep: #080f08;
+  --surface: rgba(255,255,255,0.065);
+  --surface-hover: rgba(255,255,255,0.10);
+  --accent: #C9A84C;
+  --accent-glow: rgba(201,168,76,0.25);
+  --accent-dim: rgba(201,168,76,0.15);
+  --text-primary: #F5EDD6;
+  --text-secondary: #A89272;
+  --text-dim: #6b5a44;
+  --border: rgba(201,168,76,0.18);
+  --border-strong: rgba(201,168,76,0.35);
+  --nav-bg: rgba(8,15,8,0.88);
+  --score-eagle: #C9A84C;
+  --score-birdie: #6EBF8B;
+  --score-par: #8aad8a;
+  --score-bogey: #E8875A;
+  --score-double: #C0544B;
+  --rule-handicap: #d4820a;
+  --rule-fun: #9b72d4;
+  --rule-special: #d472a0;
+  --radius: 14px;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  background: radial-gradient(ellipse at top, #112211 0%, #060e06 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 32px;
+}
+.design-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.design-badge {
+  display: inline-block;
+  background: var(--accent-dim);
+  border: 1px solid var(--border-strong);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+.design-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.design-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.screen-tabs {
+  display: flex;
+  gap: 4px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+.screen-tab {
+  padding: 8px 22px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  letter-spacing: 0.02em;
+}
+.screen-tab.active {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid var(--border-strong);
+}
+.phone-wrap {
+  position: relative;
+}
+.phone-outer {
+  width: 393px;
+  height: 820px;
+  border-radius: 50px;
+  background: var(--bg-deep);
+  border: 2px solid rgba(201,168,76,0.4);
+  box-shadow:
+    0 0 0 1px rgba(201,168,76,0.1),
+    0 0 30px rgba(201,168,76,0.08),
+    0 32px 80px rgba(0,0,0,0.8),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+  overflow: hidden;
+  position: relative;
+}
+.phone-notch {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 126px;
+  height: 34px;
+  background: var(--bg-deep);
+  border-radius: 17px;
+  z-index: 200;
+  border: 1.5px solid rgba(201,168,76,0.15);
+}
+.phone-screen {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+}
+.screen { display: none; flex-direction: column; height: 100%; }
+.screen.active { display: flex; }
+
+/* STATUS BAR */
+.status-bar {
+  height: 50px;
+  padding: 0 28px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.status-right { display: flex; gap: 6px; align-items: center; }
+
+/* BOTTOM NAV */
+.bottom-nav {
+  height: 78px;
+  background: var(--nav-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  flex-shrink: 0;
+}
+.nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  color: var(--text-dim);
+}
+.nav-item.active { color: var(--accent); }
+.nav-item svg { width: 22px; height: 22px; }
+.nav-label { font-size: 10px; font-weight: 500; }
+.nav-pip {
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 2px;
+}
+
+/* CONTENT */
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+.content-area::-webkit-scrollbar { display: none; }
+
+/* GLASS CARD */
+.glass-card {
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* ===== LANDING SCREEN ===== */
+.landing-bg {
+  background: linear-gradient(160deg, #112211 0%, #0D1F0D 40%, #0a1a0a 100%);
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 60px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.landing-bg::-webkit-scrollbar { display: none; }
+.app-logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.logo-icon {
+  width: 72px; height: 72px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(201,168,76,0.2) 0%, rgba(201,168,76,0.05) 100%);
+  border: 1px solid var(--border-strong);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 32px;
+}
+.app-name {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.app-tagline {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+.section-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+.city-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.city-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.city-card.selected {
+  background: var(--accent-dim);
+  border-color: var(--border-strong);
+}
+.city-card.selected .city-name { color: var(--accent); }
+.city-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.city-sub { font-size: 11px; color: var(--text-secondary); }
+.mode-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.mode-card {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.mode-card.selected {
+  background: var(--accent-dim);
+  border-color: var(--border-strong);
+}
+.mode-icon { font-size: 22px; margin-bottom: 6px; }
+.mode-name { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+.cta-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #C9A84C, #d4b860);
+  border-radius: var(--radius);
+  border: none;
+  color: #1a1000;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* ===== COURSE SCREEN ===== */
+.course-header {
+  padding: 14px 20px 12px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+.course-title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.course-meta { font-size: 12px; color: var(--text-secondary); }
+.header-actions { display: flex; gap: 8px; }
+.icon-btn {
+  width: 34px; height: 34px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+}
+.hole-list { padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
+.hole-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+.hole-row.current {
+  background: var(--accent-dim);
+  border-color: var(--border-strong);
+}
+.hole-row.current::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 3px 0 0 3px;
+}
+.hole-num {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 28px;
+  text-align: center;
+}
+.hole-info { flex: 1; min-width: 0; }
+.hole-pub { font-size: 14px; font-weight: 600; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hole-addr { font-size: 11px; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hole-meta { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.par-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 2px 7px;
+}
+.rule-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+.rule-h { background: rgba(212,130,10,0.15); color: var(--rule-handicap); border: 1px solid rgba(212,130,10,0.3); }
+.rule-f { background: rgba(155,114,212,0.15); color: var(--rule-fun); border: 1px solid rgba(155,114,212,0.3); }
+.rule-s { background: rgba(212,114,160,0.15); color: var(--rule-special); border: 1px solid rgba(212,114,160,0.3); }
+
+/* ===== GAME SCREEN ===== */
+.game-inner { flex: 1; overflow-y: auto; scrollbar-width: none; padding: 12px 16px 16px; }
+.game-inner::-webkit-scrollbar { display: none; }
+.hole-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0 14px;
+}
+.hole-nav-btn {
+  width: 38px; height: 38px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+}
+.hole-num-display {
+  text-align: center;
+}
+.hole-big {
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.hole-counter {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+.pub-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 14px;
+}
+.pub-card-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.pub-card-meta { font-size: 12px; color: var(--text-secondary); }
+.pub-par {
+  display: inline-block;
+  background: var(--accent-dim);
+  border: 1px solid var(--border-strong);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.players-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.player-rows { display: flex; flex-direction: column; gap: 8px; }
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+.player-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--accent-dim);
+  border: 1px solid var(--border-strong);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.player-name { font-size: 14px; font-weight: 600; color: var(--text-primary); flex: 1; }
+.score-controls { display: flex; align-items: center; gap: 6px; }
+.score-btn {
+  width: 28px; height: 28px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 600;
+  line-height: 1;
+}
+.score-val {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 20px;
+  text-align: center;
+}
+.score-badge {
+  min-width: 58px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 8px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.badge-eagle { background: rgba(201,168,76,0.2); color: var(--score-eagle); border: 1px solid rgba(201,168,76,0.4); }
+.badge-birdie { background: rgba(110,191,139,0.15); color: var(--score-birdie); border: 1px solid rgba(110,191,139,0.3); }
+.badge-par { background: rgba(138,173,138,0.1); color: var(--score-par); border: 1px solid rgba(138,173,138,0.2); }
+.badge-bogey { background: rgba(232,135,90,0.15); color: var(--score-bogey); border: 1px solid rgba(232,135,90,0.3); }
+.badge-double { background: rgba(192,84,75,0.15); color: var(--score-double); border: 1px solid rgba(192,84,75,0.3); }
+.total-score { font-size: 12px; color: var(--text-secondary); min-width: 28px; text-align: right; }
+</style>
+</head>
+<body>
+
+<div class="design-header">
+  <div class="design-badge">Design 1</div>
+  <div class="design-title">"Green Jacket"</div>
+  <div class="design-sub">Glassmorphism · Playfair Display · Antique Gold</div>
+</div>
+
+<div class="screen-tabs">
+  <button class="screen-tab active" onclick="showScreen('landing',this)">Landing</button>
+  <button class="screen-tab" onclick="showScreen('course',this)">Course</button>
+  <button class="screen-tab" onclick="showScreen('game',this)">Game</button>
+</div>
+
+<div class="phone-wrap">
+  <div class="phone-outer">
+    <div class="phone-notch"></div>
+    <div class="phone-screen">
+
+      <!-- LANDING -->
+      <div class="screen active" id="screen-landing">
+        <div class="landing-bg">
+          <div class="app-logo">
+            <div class="logo-icon">⛳</div>
+            <div class="app-name">Pub Golf<br>Munich</div>
+            <div class="app-tagline">Track your crawl like a round of golf</div>
+          </div>
+          <div class="section-label">Select your city</div>
+          <div class="city-grid">
+            <div class="city-card selected">
+              <div class="city-name">München</div>
+              <div class="city-sub">9 courses available</div>
+            </div>
+            <div class="city-card">
+              <div class="city-name">Berlin</div>
+              <div class="city-sub">6 courses available</div>
+            </div>
+            <div class="city-card">
+              <div class="city-name">Hamburg</div>
+              <div class="city-sub">4 courses available</div>
+            </div>
+            <div class="city-card">
+              <div class="city-name">Frankfurt</div>
+              <div class="city-sub">3 courses available</div>
+            </div>
+          </div>
+          <div class="section-label">Game mode</div>
+          <div class="mode-row">
+            <div class="mode-card selected">
+              <div class="mode-icon">🍺</div>
+              <div class="mode-name">Biergolf</div>
+            </div>
+            <div class="mode-card">
+              <div class="mode-icon">🌳</div>
+              <div class="mode-name">Biergarten</div>
+            </div>
+            <div class="mode-card">
+              <div class="mode-icon">🎯</div>
+              <div class="mode-name">Custom</div>
+            </div>
+          </div>
+          <button class="cta-btn">Los geht's</button>
+        </div>
+      </div>
+
+      <!-- COURSE -->
+      <div class="screen" id="screen-course">
+        <div class="status-bar">
+          <span>21:34</span>
+          <div class="status-right">
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4" y="2" width="3" height="10" rx="1"/><rect x="8" y="1" width="3" height="11" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="2" width="12" height="8" rx="1.5"/><path d="M14 5h1.5v2H14"/></svg>
+          </div>
+        </div>
+        <div class="course-header">
+          <div>
+            <div class="course-title">München Biergolf</div>
+            <div class="course-meta">9 holes · 4 players</div>
+          </div>
+          <div class="header-actions">
+            <div class="icon-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h.01M14 17h.01M17 14h.01M17 17h.01M20 14h.01M20 17h.01M20 20h.01M17 20h.01M14 20h.01"/></svg>
+            </div>
+            <div class="icon-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="hole-list">
+            <div class="hole-row"><div class="hole-num">1</div><div class="hole-info"><div class="hole-pub">Augustiner am Dom</div><div class="hole-addr">Neuhauser Str. 27</div></div><div class="hole-meta"><span class="par-badge">Par 2</span></div></div>
+            <div class="hole-row"><div class="hole-num">2</div><div class="hole-info"><div class="hole-pub">Hofbräuhaus</div><div class="hole-addr">Am Platzl 9</div></div><div class="hole-meta"><span class="par-badge">Par 3</span><span class="rule-badge rule-h">Hcap</span></div></div>
+            <div class="hole-row current"><div class="hole-num">3</div><div class="hole-info"><div class="hole-pub">Löwenbräukeller</div><div class="hole-addr">Stiglmaierplatz 2</div></div><div class="hole-meta"><span class="par-badge">Par 2</span></div></div>
+            <div class="hole-row"><div class="hole-num">4</div><div class="hole-info"><div class="hole-pub">Schneider Weisse</div><div class="hole-addr">Tal 7</div></div><div class="hole-meta"><span class="par-badge">Par 2</span></div></div>
+            <div class="hole-row"><div class="hole-num">5</div><div class="hole-info"><div class="hole-pub">Tegernseer Tal</div><div class="hole-addr">Tal 28</div></div><div class="hole-meta"><span class="par-badge">Par 3</span></div></div>
+            <div class="hole-row"><div class="hole-num">6</div><div class="hole-info"><div class="hole-pub">Park Café</div><div class="hole-addr">Sophienstr. 7</div></div><div class="hole-meta"><span class="par-badge">Par 2</span><span class="rule-badge rule-f">Fun</span></div></div>
+            <div class="hole-row"><div class="hole-num">7</div><div class="hole-info"><div class="hole-pub">Schmalznudel</div><div class="hole-addr">Prälat-Zistl-Str. 8</div></div><div class="hole-meta"><span class="par-badge">Par 2</span></div></div>
+            <div class="hole-row"><div class="hole-num">8</div><div class="hole-info"><div class="hole-pub">Hirschgarten</div><div class="hole-addr">Hirschgartenallee 1</div></div><div class="hole-meta"><span class="par-badge">Par 3</span></div></div>
+            <div class="hole-row"><div class="hole-num">9</div><div class="hole-info"><div class="hole-pub">Zum Franziskaner</div><div class="hole-addr">Residenzstr. 9</div></div><div class="hole-meta"><span class="par-badge">Par 2</span><span class="rule-badge rule-s">Spcl</span></div></div>
+          </div>
+        </div>
+        <div class="bottom-nav">
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span class="nav-label">Players</span></div>
+          <div class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg><span class="nav-label">Course</span><div class="nav-pip"></div></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg><span class="nav-label">Game</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6"/></svg><span class="nav-label">Map</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span class="nav-label">Score</span></div>
+        </div>
+      </div>
+
+      <!-- GAME -->
+      <div class="screen" id="screen-game">
+        <div class="status-bar">
+          <span>21:34</span>
+          <div class="status-right">
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4" y="2" width="3" height="10" rx="1"/><rect x="8" y="1" width="3" height="11" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="2" width="12" height="8" rx="1.5"/><path d="M14 5h1.5v2H14"/></svg>
+          </div>
+        </div>
+        <div class="game-inner">
+          <div class="hole-nav">
+            <div class="hole-nav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></div>
+            <div class="hole-num-display">
+              <div class="hole-big">Hole</div>
+              <div class="hole-counter" id="g1-counter">3 / 9</div>
+            </div>
+            <div class="hole-nav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+          <div class="pub-card">
+            <div class="pub-card-name">Löwenbräukeller</div>
+            <div class="pub-card-meta">Stiglmaierplatz 2 · München</div>
+            <div class="pub-par">Par 2</div>
+          </div>
+          <div class="players-section-title">Scores — Hole 3</div>
+          <div class="player-rows" id="g1-players">
+            <div class="player-row">
+              <div class="player-avatar">M</div>
+              <div class="player-name">Max</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">1</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-birdie" id="b-max">Birdie</div>
+              <div class="total-score">−2</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">S</div>
+              <div class="player-name">Sarah</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">2</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-par" id="b-sarah">Par</div>
+              <div class="total-score">E</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">T</div>
+              <div class="player-name">Tom</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">3</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-bogey" id="b-tom">Bogey</div>
+              <div class="total-score">+2</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">J</div>
+              <div class="player-name">Julia</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">1</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-birdie" id="b-julia">Birdie</div>
+              <div class="total-score">−1</div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-nav">
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span class="nav-label">Players</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg><span class="nav-label">Course</span></div>
+          <div class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg><span class="nav-label">Game</span><div class="nav-pip"></div></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6"/></svg><span class="nav-label">Map</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span class="nav-label">Score</span></div>
+        </div>
+      </div>
+
+    </div><!-- phone-screen -->
+  </div><!-- phone-outer -->
+</div><!-- phone-wrap -->
+
+<script type="module">
+import { prepare, layout } from './pretext.js';
+const PAR = 2;
+function scoreName(drinks) {
+  const d = drinks - PAR;
+  if (d <= -2) return ['Eagle','badge-eagle'];
+  if (d === -1) return ['Birdie','badge-birdie'];
+  if (d === 0) return ['Par','badge-par'];
+  if (d === 1) return ['Bogey','badge-bogey'];
+  return ['Double+','badge-double'];
+}
+window.adj = function(btn, delta) {
+  const row = btn.closest('.player-row');
+  const valEl = row.querySelector('.score-val');
+  const badgeEl = row.querySelector('.score-badge');
+  let v = parseInt(valEl.textContent) + delta;
+  if (v < 1) v = 1;
+  valEl.textContent = v;
+  const [name, cls] = scoreName(v);
+  badgeEl.textContent = name;
+  badgeEl.className = 'score-badge ' + cls;
+};
+// Pretext on pub names
+await document.fonts.ready;
+const els = document.querySelectorAll('.hole-pub, .pub-card-name');
+for (const el of els) {
+  const font = getComputedStyle(el).font;
+  const handle = prepare(el.textContent, font);
+  const {height} = layout(handle, el.clientWidth || 240, parseFloat(getComputedStyle(el).lineHeight) || 20);
+  // heights compute correctly — layout is wired
+}
+</script>
+<script>
+function showScreen(id, btn) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.screen-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>

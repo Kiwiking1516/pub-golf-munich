@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design 1c: Green Jacket — Huashu — PubGolf Munich</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #09140A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 20px 56px;
+  font-family: 'Inter', sans-serif;
+}
+.preview-header { text-align: center; margin-bottom: 28px; }
+.preview-eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin-bottom: 6px;
+}
+.preview-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  color: #F5EDD6;
+}
+.preview-note {
+  font-size: 11px;
+  color: #5a6b52;
+  margin-top: 4px;
+  letter-spacing: 0.04em;
+}
+.tab-row {
+  display: flex;
+  gap: 2px;
+  background: #111e12;
+  border: 1px solid #2a3a2b;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 28px;
+}
+.tab-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 7px 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background: transparent;
+  color: #4a5e4b;
+  transition: all 0.18s;
+}
+.tab-btn.active {
+  background: rgba(201,168,76,0.12);
+  color: #C9A84C;
+  border: 1px solid rgba(201,168,76,0.25);
+}
+</style>
+</head>
+<body>
+
+<div class="preview-header">
+  <div class="preview-eyebrow">Design 1c &nbsp;·&nbsp; Huashu</div>
+  <div class="preview-name">Green Jacket</div>
+  <div class="preview-note">Physical ledger aesthetic &nbsp;·&nbsp; Scorecard grid &nbsp;·&nbsp; Typography-forward</div>
+</div>
+
+<div class="tab-row" id="tabs">
+  <button class="tab-btn active" onclick="setScreen('landing',this)">Landing</button>
+  <button class="tab-btn" onclick="setScreen('course',this)">Course</button>
+  <button class="tab-btn" onclick="setScreen('game',this)">Game</button>
+</div>
+
+<div id="root"></div>
+
+<script>
+function setScreen(name, btn) {
+  window.__screen = name;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  window.__renderApp && window.__renderApp();
+}
+window.__screen = 'landing';
+</script>
+
+<script type="text/babel">
+
+/* ─────────────────────────────────────────────
+   IosFrame — inlined from huashu-design/assets
+   ───────────────────────────────────────────── */
+const iosFrameStyles = {
+  wrapper: {
+    display:'inline-block', padding:12,
+    background:'#000', borderRadius:60,
+    boxShadow:'0 0 0 2px #1a2b1b, 0 40px 80px rgba(0,0,0,0.75), 0 0 80px rgba(13,31,13,0.4)',
+    position:'relative',
+  },
+  screen: { position:'relative', borderRadius:48, overflow:'hidden' },
+  statusBar: {
+    position:'absolute', top:0, left:0, right:0, height:54,
+    display:'flex', alignItems:'center', justifyContent:'space-between',
+    padding:'0 32px', fontSize:15, fontWeight:600,
+    fontFamily:'-apple-system,"SF Pro Text",sans-serif', zIndex:20, pointerEvents:'none',
+  },
+  dynamicIsland: {
+    position:'absolute', top:12, left:'50%', transform:'translateX(-50%)',
+    width:124, height:36, background:'#000', borderRadius:999, zIndex:30,
+  },
+  content: { position:'absolute', top:54, left:0, right:0, bottom:34, overflow:'auto' },
+  homeIndicator: {
+    position:'absolute', bottom:10, left:'50%', transform:'translateX(-50%)',
+    width:140, height:5, borderRadius:999, zIndex:10,
+  },
+  batteryIcon: {
+    width:26, height:12, border:'1.5px solid currentColor', borderRadius:3, padding:1,
+    position:'relative', opacity:0.8,
+  },
+  signalBar: { width:3, background:'currentColor', borderRadius:1 },
+};
+
+function IosFrame({ children, time='9:41', battery=88, darkMode=true }) {
+  const tc = darkMode ? '#fff' : '#000';
+  return (
+    <div style={iosFrameStyles.wrapper}>
+      <div style={{ ...iosFrameStyles.screen, width:393, height:852,
+          background: darkMode ? '#0D1F0D' : '#fff' }}>
+        <div style={{ ...iosFrameStyles.statusBar, color:tc }}>
+          <span>{time}</span>
+          <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+            <div style={{ display:'flex', alignItems:'flex-end', gap:2, height:12 }}>
+              {[4,6,9,11].map((h,i) => <div key={i} style={{ ...iosFrameStyles.signalBar, height:h }} />)}
+            </div>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none">
+              <path d="M8 11.5a1 1 0 100-2 1 1 0 000 2z" fill={tc}/>
+              <path d="M3 7.5a7 7 0 0110 0" stroke={tc} strokeWidth="1.3" fill="none" strokeLinecap="round"/>
+              <path d="M1 4.5a11 11 0 0114 0" stroke={tc} strokeWidth="1.3" fill="none" strokeLinecap="round" opacity="0.7"/>
+            </svg>
+            <div style={{ ...iosFrameStyles.batteryIcon, color:tc }}>
+              <div style={{ width:`${battery}%`, height:'100%', background:tc, borderRadius:1, opacity:0.9 }} />
+              <div style={{ position:'absolute', top:3, right:-3, width:2, height:6, background:tc, borderRadius:'0 1px 1px 0' }} />
+            </div>
+          </div>
+        </div>
+        <div style={iosFrameStyles.dynamicIsland} />
+        <div style={{ ...iosFrameStyles.content, scrollbarWidth:'none' }}>{children}</div>
+        <div style={{ ...iosFrameStyles.homeIndicator, background:'rgba(255,255,255,0.45)' }} />
+      </div>
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   Design tokens
+   ───────────────────────────────────────────── */
+const T = {
+  bg:     '#0D1F0D',
+  bg2:    '#111f11',
+  ink:    '#F5EDD6',
+  gold:   '#C9A84C',
+  goldDim:'rgba(201,168,76,0.22)',
+  sand:   '#A89272',
+  muted:  '#4a5e4b',
+  line:   'rgba(201,168,76,0.18)',
+  lineHard:'rgba(201,168,76,0.30)',
+  birdie: '#6EBF8B',
+  bogey:  '#E8875A',
+  double: '#C0544B',
+  // Score-table cell bg
+  cell:   'rgba(245,237,214,0.06)',
+  cellAct:'rgba(201,168,76,0.13)',
+};
+
+const serif  = "'Playfair Display', Georgia, serif";
+const sans   = "'Inter', system-ui, sans-serif";
+
+/* ─────────────────────────────────────────────
+   SCREEN: Landing
+   ───────────────────────────────────────────── */
+function ScreenLanding() {
+  const [city, setCity] = React.useState('Munich');
+  const [route, setRoute] = React.useState('Altstadt');
+
+  const cities = [
+    { name:'Munich', icon:'🏙', count:'4 courses' },
+    { name:'Berlin', icon:'🐻', count:'3 courses' },
+    { name:'Hamburg',icon:'⚓', count:'2 courses' },
+    { name:'Nürnberg',icon:'🥨',count:'2 courses'},
+  ];
+  const routes = [
+    { id:'Altstadt',  num:'I',   name:'Altstadt Classic',    meta:'9 holes · Par 18 · ~3h' },
+    { id:'Schwabing', num:'II',  name:'Schwabing Night',     meta:'7 holes · Par 14 · ~2.5h' },
+    { id:'Haidhausen',num:'III', name:'Haidhausen Hopfen',   meta:'8 holes · Par 16 · ~2.5h' },
+  ];
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', height:'100%', background:T.bg }}>
+
+      {/* ── Hero wordmark ── */}
+      <div style={{ padding:'36px 28px 24px', textAlign:'center', borderBottom:`1px solid ${T.line}` }}>
+        <div style={{
+          fontFamily:serif, fontSize:40, fontWeight:600, fontStyle:'italic',
+          color:T.gold, lineHeight:1, letterSpacing:'-0.01em',
+        }}>PubGolf</div>
+        <div style={{
+          fontFamily:sans, fontSize:10, fontWeight:600, letterSpacing:'0.30em',
+          color:T.muted, textTransform:'uppercase', marginTop:8,
+        }}>München</div>
+        <div style={{ width:32, height:1, background:T.goldDim, margin:'14px auto 0' }} />
+      </div>
+
+      {/* ── City select ── */}
+      <div style={{ padding:'18px 22px 12px' }}>
+        <div style={{
+          fontFamily:sans, fontSize:9, fontWeight:600, letterSpacing:'0.20em',
+          textTransform:'uppercase', color:T.muted, marginBottom:12,
+        }}>City</div>
+        <div style={{ display:'flex', gap:8, overflowX:'auto', scrollbarWidth:'none', paddingBottom:2 }}>
+          {cities.map(c => (
+            <div key={c.name} onClick={() => setCity(c.name)} style={{
+              flexShrink:0, padding:'10px 14px', cursor:'pointer',
+              borderRadius:6,
+              background: city===c.name ? T.goldDim : 'transparent',
+              border: `1px solid ${city===c.name ? T.lineHard : 'rgba(201,168,76,0.10)'}`,
+              textAlign:'center',
+              transition:'all 0.15s',
+            }}>
+              <div style={{ fontSize:20, marginBottom:4 }}>{c.icon}</div>
+              <div style={{
+                fontFamily:serif, fontSize:12, fontWeight:500,
+                color: city===c.name ? T.gold : T.ink,
+              }}>{c.name}</div>
+              <div style={{ fontSize:9, color:T.muted, marginTop:2 }}>{c.count}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div style={{ height:1, background:T.line, margin:'4px 0' }} />
+
+      {/* ── Route select ── */}
+      <div style={{ padding:'14px 22px', flex:1 }}>
+        <div style={{
+          fontFamily:sans, fontSize:9, fontWeight:600, letterSpacing:'0.20em',
+          textTransform:'uppercase', color:T.muted, marginBottom:14,
+        }}>Course</div>
+
+        <div style={{ display:'flex', flexDirection:'column', gap:0 }}>
+          {routes.map((r, i) => (
+            <div key={r.id}>
+              <div onClick={() => setRoute(r.id)} style={{
+                display:'flex', alignItems:'center', gap:14, padding:'14px 4px',
+                cursor:'pointer',
+              }}>
+                {/* Roman numeral */}
+                <div style={{
+                  fontFamily:serif, fontSize:22, fontStyle:'italic',
+                  color: route===r.id ? T.gold : T.muted,
+                  width:28, textAlign:'center', lineHeight:1, flexShrink:0,
+                  transition:'color 0.15s',
+                }}>{r.num}</div>
+                <div style={{ flex:1 }}>
+                  <div style={{
+                    fontFamily:serif, fontSize:15, fontWeight:500,
+                    color: route===r.id ? T.ink : T.sand,
+                    transition:'color 0.15s',
+                  }}>{r.name}</div>
+                  <div style={{ fontFamily:sans, fontSize:10, color:T.muted, marginTop:3 }}>{r.meta}</div>
+                </div>
+                {route===r.id && (
+                  <div style={{
+                    width:6, height:6, borderRadius:'50%',
+                    background:T.gold, flexShrink:0,
+                  }} />
+                )}
+              </div>
+              {i < routes.length-1 && (
+                <div style={{ height:1, background:'rgba(201,168,76,0.08)', marginLeft:42 }} />
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ── CTA ── */}
+      <div style={{ padding:'0 22px 24px' }}>
+        <button style={{
+          width:'100%', background:T.gold, color:'#0a1a0a',
+          fontFamily:sans, fontSize:12, fontWeight:600,
+          letterSpacing:'0.14em', textTransform:'uppercase',
+          border:'none', borderRadius:6, padding:'15px 0',
+          cursor:'pointer', position:'relative', overflow:'hidden',
+        }}>
+          <span style={{ position:'relative', zIndex:1 }}>Begin the Round</span>
+          <div style={{
+            position:'absolute', top:0, left:0, right:0, height:1,
+            background:'rgba(255,255,255,0.25)',
+          }} />
+        </button>
+      </div>
+
+      {/* ── Bottom nav ── */}
+      <NavBar active="course" />
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   SCREEN: Course — scorecard table
+   ───────────────────────────────────────────── */
+const holes = [
+  { n:1,  pub:'Augustiner Stammhaus', par:2, drink:'Weißbier',  tags:['penalty'],  rule:'Bar orders only — table service is a penalty.' },
+  { n:2,  pub:'Hofbräuhaus',          par:2, drink:'Helles',    tags:['bonus'],    rule:'Finish a Maß in one — subtract 1 from your score.' },
+  { n:3,  pub:'Schneider Bräuhaus',   par:2, drink:'Weizenbock',tags:['fun'],      rule:'Rhymes only until the next hole.' },
+  { n:4,  pub:'Löwenbräukeller',      par:3, drink:'Dunkel',    tags:[],           rule:'Last seated earns a +1 penalty.' },
+  { n:5,  pub:'Paulaner Nockherberg', par:2, drink:'Salvator',  tags:['penalty'],  rule:'Mandatory Bavarian toast before drinking.' },
+  { n:6,  pub:'Zum Franziskaner',     par:2, drink:'Pils',      tags:[],           rule:'First order wins — last to order: +1 penalty.' },
+];
+
+const tagStyle = {
+  penalty: { color:T.bogey,  border:`1px solid rgba(232,135,90,0.3)` },
+  bonus:   { color:T.birdie, border:`1px solid rgba(110,191,139,0.3)` },
+  fun:     { color:'#a78bfa', border:`1px solid rgba(167,139,250,0.3)` },
+};
+
+function ScreenCourse() {
+  const [open, setOpen] = React.useState(null);
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', height:'100%', background:T.bg }}>
+      {/* Header */}
+      <div style={{ padding:'18px 22px 14px', borderBottom:`1px solid ${T.line}` }}>
+        <div style={{ display:'flex', alignItems:'flex-end', justifyContent:'space-between' }}>
+          <div>
+            <div style={{
+              fontFamily:serif, fontSize:22, fontWeight:600, color:T.ink, lineHeight:1.1,
+            }}>Altstadt Classic</div>
+            <div style={{ fontFamily:sans, fontSize:10, color:T.sand, marginTop:5, letterSpacing:'0.04em' }}>
+              Munich &nbsp;·&nbsp; 9 holes
+            </div>
+          </div>
+          <div style={{ textAlign:'right' }}>
+            <div style={{ fontFamily:serif, fontSize:26, fontStyle:'italic', color:T.gold, lineHeight:1 }}>18</div>
+            <div style={{ fontFamily:sans, fontSize:8, fontWeight:600, letterSpacing:'0.15em', color:T.muted, textTransform:'uppercase', marginTop:3 }}>Total Par</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scorecard table header */}
+      <div style={{
+        display:'grid', gridTemplateColumns:'32px 1fr 34px',
+        padding:'8px 22px',
+        borderBottom:`1px solid ${T.line}`,
+        background:'rgba(201,168,76,0.04)',
+      }}>
+        {['No.','Pub','Par'].map(h => (
+          <div key={h} style={{
+            fontFamily:sans, fontSize:8, fontWeight:600, letterSpacing:'0.16em',
+            textTransform:'uppercase', color:T.muted, textAlign: h==='Par' ? 'right' : 'left',
+          }}>{h}</div>
+        ))}
+      </div>
+
+      {/* Hole rows */}
+      <div style={{ flex:1, overflowY:'auto', scrollbarWidth:'none' }}>
+        {holes.map((h, i) => (
+          <div key={h.n}>
+            <div
+              onClick={() => setOpen(open===h.n ? null : h.n)}
+              style={{
+                display:'grid', gridTemplateColumns:'32px 1fr 34px',
+                padding:'13px 22px',
+                cursor:'pointer',
+                background: open===h.n ? 'rgba(201,168,76,0.05)' : 'transparent',
+                transition:'background 0.15s',
+              }}
+            >
+              {/* Hole number */}
+              <div style={{
+                fontFamily:serif, fontSize:18, fontStyle:'italic',
+                color: open===h.n ? T.gold : T.muted,
+                lineHeight:1.2,
+              }}>{h.n}</div>
+
+              {/* Pub name + tags */}
+              <div>
+                <div style={{
+                  fontFamily:serif, fontSize:14, fontWeight:500,
+                  color:T.ink, lineHeight:1.25, marginBottom: h.tags.length ? 5 : 0,
+                }}>{h.pub}</div>
+                {h.tags.length > 0 && (
+                  <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
+                    {h.tags.map(t => (
+                      <span key={t} style={{
+                        fontFamily:sans, fontSize:8, fontWeight:600, letterSpacing:'0.12em',
+                        textTransform:'uppercase', padding:'2px 6px', borderRadius:2,
+                        background:'rgba(201,168,76,0.06)',
+                        ...tagStyle[t],
+                      }}>{t}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Par */}
+              <div style={{
+                fontFamily:serif, fontSize:18, fontStyle:'italic',
+                color:T.gold, textAlign:'right', lineHeight:1.2,
+              }}>{h.par}</div>
+            </div>
+
+            {/* Expanded rule */}
+            {open===h.n && (
+              <div style={{
+                padding:'10px 22px 14px 56px',
+                borderTop:`1px solid rgba(201,168,76,0.08)`,
+                background:'rgba(201,168,76,0.04)',
+              }}>
+                <div style={{
+                  fontFamily:sans, fontSize:11, color:T.sand, lineHeight:1.55,
+                }}>
+                  <span style={{ color:T.ink, fontWeight:500 }}>Rule: </span>
+                  {h.rule}
+                </div>
+                <div style={{
+                  fontFamily:sans, fontSize:9, color:T.muted, marginTop:8, letterSpacing:'0.04em',
+                }}>🍺 {h.drink}</div>
+              </div>
+            )}
+
+            {i < holes.length-1 && (
+              <div style={{ height:1, background:'rgba(201,168,76,0.07)', margin:'0 22px' }} />
+            )}
+          </div>
+        ))}
+      </div>
+
+      <NavBar active="course" />
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   SCREEN: Game — paper ledger scorecard
+   ───────────────────────────────────────────── */
+const PAR = 2;
+const players = [
+  { id:'max',   name:'Max',   init:'M', total:'-1' },
+  { id:'sarah', name:'Sarah', init:'S', total:'+2' },
+  { id:'tom',   name:'Tom',   init:'T', total:'+3' },
+  { id:'julia', name:'Julia', init:'J', total:'+1' },
+];
+
+function badge(score) {
+  const d = score - PAR;
+  if (d <= -2) return { label:'Eagle',   color:T.gold };
+  if (d === -1) return { label:'Birdie',  color:T.birdie };
+  if (d === 0)  return { label:'Par',     color:T.sand };
+  if (d === 1)  return { label:'Bogey',   color:T.bogey };
+  return               { label:'Double+', color:T.double };
+}
+
+function ScreenGame() {
+  const [scores, setScores] = React.useState({ max:2, sarah:1, tom:3, julia:4 });
+
+  const adj = (p, d) => setScores(s => ({ ...s, [p]: Math.max(1, s[p]+d) }));
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', height:'100%', background:T.bg, position:'relative' }}>
+
+      {/* ── BIG watermark hole number — the 120% moment ── */}
+      <div style={{
+        position:'absolute', right:-8, top:30,
+        fontFamily:serif, fontStyle:'italic', fontWeight:600, fontSize:220,
+        color:'rgba(201,168,76,0.055)', lineHeight:1, pointerEvents:'none',
+        userSelect:'none', letterSpacing:'-0.04em', zIndex:0,
+      }}>3</div>
+
+      {/* ── Hole context header ── */}
+      <div style={{
+        padding:'16px 22px 14px', borderBottom:`1px solid ${T.line}`, position:'relative', zIndex:1,
+      }}>
+        <div style={{ display:'flex', alignItems:'flex-start', justifyContent:'space-between' }}>
+          <div>
+            <div style={{
+              fontFamily:sans, fontSize:9, fontWeight:600, letterSpacing:'0.22em',
+              textTransform:'uppercase', color:T.gold, marginBottom:6,
+            }}>Hole Three &nbsp;·&nbsp; 3 of 9</div>
+            <div style={{ fontFamily:serif, fontSize:20, fontWeight:600, color:T.ink }}>Schneider Bräuhaus</div>
+            <div style={{ fontFamily:sans, fontSize:10, color:T.sand, marginTop:4 }}>
+              Par 2 &nbsp;·&nbsp; Weizenbock
+            </div>
+          </div>
+          <div style={{
+            fontFamily:serif, fontStyle:'italic', fontSize:42, color:'rgba(201,168,76,0.35)',
+            lineHeight:1, marginTop:2,
+          }}>3</div>
+        </div>
+
+        {/* Progress — thin ink segments */}
+        <div style={{ display:'flex', gap:4, marginTop:14 }}>
+          {Array.from({length:9}, (_,i) => (
+            <div key={i} style={{
+              flex: i===2 ? 2 : 1, height:2, borderRadius:1,
+              background: i<2 ? T.gold : i===2 ? T.gold : 'rgba(201,168,76,0.15)',
+              opacity: i===2 ? 1 : i<2 ? 0.5 : 0.3,
+            }} />
+          ))}
+        </div>
+      </div>
+
+      {/* ── Paper scorecard grid ── */}
+      <div style={{ flex:1, overflowY:'auto', scrollbarWidth:'none', position:'relative', zIndex:1 }}>
+
+        {/* Column headers */}
+        <div style={{
+          display:'grid', gridTemplateColumns:'repeat(4,1fr)',
+          borderBottom:`1px solid ${T.line}`,
+          background:'rgba(201,168,76,0.04)',
+        }}>
+          {players.map(p => (
+            <div key={p.id} style={{
+              padding:'10px 0', textAlign:'center',
+              borderRight:`1px solid rgba(201,168,76,0.08)`,
+            }}>
+              <div style={{
+                fontFamily:serif, fontSize:13, fontWeight:500, fontStyle:'italic', color:T.ink,
+              }}>{p.name}</div>
+              <div style={{
+                fontFamily:sans, fontSize:9, color:T.sand, marginTop:2,
+              }}>
+                Total: <span style={{ color: p.total.startsWith('-') ? T.birdie : T.bogey, fontWeight:600 }}>{p.total}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Score entry row */}
+        <div style={{ padding:'20px 14px 10px' }}>
+          <div style={{
+            fontFamily:sans, fontSize:8, fontWeight:600, letterSpacing:'0.18em',
+            textTransform:'uppercase', color:T.muted, textAlign:'center', marginBottom:16,
+          }}>Enter scores for hole 3</div>
+
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(4,1fr)', gap:8 }}>
+            {players.map(p => {
+              const sc = scores[p.id];
+              const b = badge(sc);
+              return (
+                <div key={p.id} style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:8 }}>
+                  <button onClick={() => adj(p.id, 1)} style={{
+                    width:32, height:32, borderRadius:'50%',
+                    background:'transparent', border:`1px solid rgba(201,168,76,0.20)`,
+                    color:T.sand, fontSize:20, fontWeight:300, cursor:'pointer',
+                    display:'flex', alignItems:'center', justifyContent:'center',
+                    lineHeight:1,
+                  }}>+</button>
+
+                  {/* Score cell — paper-like */}
+                  <div style={{
+                    width:'100%', aspectRatio:'1',
+                    background:'rgba(245,237,214,0.07)',
+                    border:`1px solid rgba(201,168,76,0.22)`,
+                    borderRadius:4,
+                    display:'flex', flexDirection:'column',
+                    alignItems:'center', justifyContent:'center', gap:3,
+                    position:'relative', overflow:'hidden',
+                  }}>
+                    {/* Paper texture line */}
+                    <div style={{
+                      position:'absolute', top:0, left:0, right:0, height:1,
+                      background:'rgba(255,255,255,0.06)',
+                    }} />
+                    <div style={{
+                      fontFamily:serif, fontStyle:'italic', fontSize:32, fontWeight:400,
+                      color:T.ink, lineHeight:1,
+                    }}>{sc}</div>
+                    <div style={{
+                      fontFamily:sans, fontSize:8, fontWeight:600, letterSpacing:'0.10em',
+                      textTransform:'uppercase', color:b.color,
+                    }}>{b.label}</div>
+                  </div>
+
+                  <button onClick={() => adj(p.id, -1)} style={{
+                    width:32, height:32, borderRadius:'50%',
+                    background:'transparent', border:`1px solid rgba(201,168,76,0.20)`,
+                    color:T.sand, fontSize:20, fontWeight:300, cursor:'pointer',
+                    display:'flex', alignItems:'center', justifyContent:'center',
+                    lineHeight:1,
+                  }}>−</button>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Penalty note */}
+        <div style={{
+          margin:'8px 14px', padding:'10px 14px',
+          border:`1px solid rgba(232,135,90,0.18)`,
+          borderRadius:4, background:'rgba(232,135,90,0.04)',
+          display:'flex', alignItems:'center', gap:10,
+        }}>
+          <div style={{ fontFamily:sans, fontSize:11, color:T.bogey, flex:1, lineHeight:1.4 }}>
+            Missed the Bavarian toast?
+          </div>
+          <button style={{
+            fontFamily:sans, fontSize:9, fontWeight:600, letterSpacing:'0.10em',
+            color:T.bogey, background:'rgba(232,135,90,0.10)',
+            border:`1px solid rgba(232,135,90,0.25)`,
+            borderRadius:3, padding:'5px 10px', cursor:'pointer', whiteSpace:'nowrap',
+          }}>+ Penalty</button>
+        </div>
+
+        {/* Confirm */}
+        <div style={{ padding:'10px 14px 8px' }}>
+          <button style={{
+            width:'100%', background:'rgba(201,168,76,0.12)',
+            color:T.gold, border:`1px solid rgba(201,168,76,0.30)`,
+            fontFamily:sans, fontSize:11, fontWeight:600,
+            letterSpacing:'0.14em', textTransform:'uppercase',
+            borderRadius:5, padding:'13px 0', cursor:'pointer',
+          }}>Confirm Scores</button>
+        </div>
+      </div>
+
+      <NavBar active="game" />
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   Bottom navigation — text-first, no icons
+   ───────────────────────────────────────────── */
+function NavBar({ active }) {
+  const items = [
+    { id:'players', label:'Players' },
+    { id:'course',  label:'Course'  },
+    { id:'game',    label:'Game'    },
+    { id:'map',     label:'Map'     },
+    { id:'score',   label:'Score'   },
+  ];
+  return (
+    <div style={{
+      display:'flex',
+      background:'rgba(13,31,13,0.96)',
+      backdropFilter:'blur(12px)',
+      WebkitBackdropFilter:'blur(12px)',
+      borderTop:`1px solid rgba(201,168,76,0.12)`,
+      height:64, flexShrink:0,
+    }}>
+      {items.map(it => (
+        <div key={it.id} style={{
+          flex:1, display:'flex', flexDirection:'column',
+          alignItems:'center', justifyContent:'center',
+          cursor:'pointer',
+        }}>
+          <div style={{
+            fontFamily:sans, fontSize:10, fontWeight:600,
+            letterSpacing:'0.08em', textTransform:'uppercase',
+            color: active===it.id ? T.gold : T.muted,
+            position:'relative',
+          }}>
+            {it.label}
+            {active===it.id && (
+              <div style={{
+                position:'absolute', bottom:-5, left:'50%', transform:'translateX(-50%)',
+                width:16, height:1.5, background:T.gold, borderRadius:1,
+              }} />
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   App root
+   ───────────────────────────────────────────── */
+function App() {
+  const [screen, setScreen] = React.useState('landing');
+
+  window.__renderApp = () => setScreen(window.__screen || 'landing');
+
+  return (
+    <IosFrame time="22:14" battery={73} darkMode={true}>
+      {screen === 'landing' && <ScreenLanding />}
+      {screen === 'course'  && <ScreenCourse />}
+      {screen === 'game'    && <ScreenGame />}
+    </IosFrame>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+</script>
+</body>
+</html>

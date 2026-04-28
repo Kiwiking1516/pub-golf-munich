@@ -19,54 +19,54 @@ html, body, #root {
 
 @layer base {
   :root {
-    --background: 120 55% 11%;
-    --foreground: 43 60% 86%;
+    --background: 120 41% 9%;
+    --foreground: 43 61% 90%;
 
-    --card: 120 30% 14%;
-    --card-foreground: 43 60% 86%;
+    --card: 120 20% 13%;
+    --card-foreground: 43 61% 90%;
 
-    --popover: 120 30% 14%;
-    --popover-foreground: 43 60% 86%;
+    --popover: 120 20% 13%;
+    --popover-foreground: 43 61% 90%;
 
-    --primary: 46 65% 52%;
+    --primary: 44 54% 54%;
     --primary-foreground: 120 55% 6%;
 
     --secondary: 120 37% 64%;
     --secondary-foreground: 120 55% 6%;
 
-    --muted: 120 15% 18%;
-    --muted-foreground: 40 19% 51%;
+    --muted: 120 12% 15%;
+    --muted-foreground: 36 24% 55%;
 
-    --accent: 46 65% 52%;
+    --accent: 44 54% 54%;
     --accent-foreground: 120 55% 6%;
 
-    --destructive: 14 100% 63%;
-    --destructive-foreground: 43 60% 86%;
+    --destructive: 5 48% 52%;
+    --destructive-foreground: 43 61% 90%;
 
-    --border: 120 15% 22%;
-    --input: 120 15% 20%;
-    --ring: 46 65% 52%;
+    --border: 44 15% 20%;
+    --input: 44 12% 18%;
+    --ring: 44 54% 54%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --gold: 46 65% 52%;
-    --gold-glow: 46 80% 62%;
+    --gold: 44 54% 54%;
+    --gold-glow: 44 65% 62%;
     --green-accent: 120 37% 64%;
     --green-glow: 120 50% 72%;
-    --cream: 43 60% 86%;
-    --sand: 40 19% 51%;
-    --penalty: 14 100% 63%;
-    --success: 120 73% 75%;
+    --cream: 43 61% 90%;
+    --sand: 36 24% 55%;
+    --penalty: 19 75% 63%;
+    --success: 142 39% 59%;
 
     /* Score colors */
-    --score-albatross: 51 100% 50%;
-    --score-eagle: 51 100% 50%;
-    --score-birdie: 120 73% 75%;
-    --score-par: 122 39% 85%;
-    --score-bogey: 36 100% 65%;
-    --score-double: 14 100% 63%;
-    --score-triple: 6 78% 57%;
+    --score-albatross: 44 54% 54%;
+    --score-eagle: 44 54% 54%;
+    --score-birdie: 142 39% 59%;
+    --score-par: 36 24% 60%;
+    --score-bogey: 19 75% 63%;
+    --score-double: 5 48% 52%;
+    --score-triple: 5 48% 44%;
 
     /* Rule type colors */
     --rule-handicap: 25 95% 55%;
@@ -75,16 +75,16 @@ html, body, #root {
     --rule-special: 330 80% 65%;
 
     /* Sidebar (unused but required) */
-    --sidebar-background: 120 55% 11%;
-    --sidebar-foreground: 43 60% 86%;
-    --sidebar-primary: 46 65% 52%;
+    --sidebar-background: 120 41% 9%;
+    --sidebar-foreground: 43 61% 90%;
+    --sidebar-primary: 44 54% 54%;
     --sidebar-primary-foreground: 120 55% 6%;
-    --sidebar-accent: 120 15% 18%;
-    --sidebar-accent-foreground: 43 60% 86%;
-    --sidebar-border: 120 15% 22%;
-    --sidebar-ring: 46 65% 52%;
+    --sidebar-accent: 120 12% 15%;
+    --sidebar-accent-foreground: 43 61% 90%;
+    --sidebar-border: 44 15% 20%;
+    --sidebar-ring: 44 54% 54%;
 
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 }
 
@@ -105,13 +105,20 @@ html, body, #root {
   }
 }
 
+/* Green Jacket — glassmorphism card surface, applied without touching components */
+.bg-card {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(12px) saturate(1.4);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+}
+
 @layer utilities {
   .font-display {
     font-family: 'Playfair Display', Georgia, serif;
   }
 
   .font-body {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .text-gold {
@@ -131,7 +138,9 @@ html, body, #root {
   }
 
   .bg-card-elevated {
-    background-color: hsl(120 25% 16%);
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(16px) saturate(1.5);
+    -webkit-backdrop-filter: blur(16px) saturate(1.5);
   }
 
   .border-gold {

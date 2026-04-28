@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design 2: Neon Fairway — PubGolf Munich</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --surface2: #111111;
+  --accent: #00FF41;
+  --accent-dim: rgba(0,255,65,0.08);
+  --accent-glow: rgba(0,255,65,0.4);
+  --accent-muted: rgba(0,255,65,0.5);
+  --gold: #FFD700;
+  --text-primary: #e8e8e8;
+  --text-secondary: #4a4a4a;
+  --text-mono: #b0b0b0;
+  --border: rgba(0,255,65,0.18);
+  --border-dim: rgba(0,255,65,0.08);
+  --nav-bg: #000000;
+  --score-eagle: #00FF41;
+  --score-birdie: #7FFF00;
+  --score-par: #888888;
+  --score-bogey: #FF8C00;
+  --score-double: #FF2222;
+  --rule-h: #FF8C00;
+  --rule-f: #cc44ff;
+  --rule-s: #ff44aa;
+  --radius: 4px;
+  --font-display: 'Orbitron', monospace;
+  --font-body: 'JetBrains Mono', monospace;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  background: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 32px;
+}
+/* SCANLINE EFFECT ON DESKTOP */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,255,65,0.015) 2px, rgba(0,255,65,0.015) 4px);
+  pointer-events: none;
+  z-index: 0;
+}
+.design-header { text-align: center; margin-bottom: 16px; position: relative; z-index: 1; }
+.design-badge {
+  display: inline-block;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+.design-title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 20px var(--accent-glow), 0 0 40px rgba(0,255,65,0.2);
+  margin-bottom: 4px;
+}
+.design-sub { font-size: 11px; color: var(--text-secondary); font-family: var(--font-body); }
+.screen-tabs {
+  display: flex;
+  gap: 2px;
+  background: #0a0a0a;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 3px;
+  margin-bottom: 20px;
+  position: relative; z-index: 1;
+}
+.screen-tab {
+  padding: 8px 22px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  transition: all 0.15s;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.screen-tab.active {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+.phone-wrap { position: relative; z-index: 1; }
+.phone-outer {
+  width: 393px;
+  height: 820px;
+  border-radius: 20px;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  box-shadow:
+    0 0 0 1px rgba(0,255,65,0.05),
+    0 0 20px rgba(0,255,65,0.15),
+    0 0 60px rgba(0,255,65,0.05),
+    0 32px 80px rgba(0,0,0,0.9);
+  overflow: hidden;
+  position: relative;
+}
+.phone-notch {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 30px;
+  background: #000;
+  border-radius: 3px;
+  z-index: 200;
+  border: 1px solid rgba(0,255,65,0.2);
+}
+.phone-screen { position: absolute; inset: 0; display: flex; flex-direction: column; }
+.screen { display: none; flex-direction: column; height: 100%; }
+.screen.active { display: flex; }
+
+.status-bar {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  flex-shrink: 0;
+  font-size: 11px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+.status-right { display: flex; gap: 8px; align-items: center; }
+
+.bottom-nav {
+  height: 72px;
+  background: var(--nav-bg);
+  border-top: 1px solid var(--border-dim);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 12px;
+  flex-shrink: 0;
+}
+.nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+.nav-item.active { color: var(--accent); filter: drop-shadow(0 0 4px var(--accent-glow)); }
+.nav-item svg { width: 20px; height: 20px; }
+.nav-label { font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+.content-area::-webkit-scrollbar { display: none; }
+
+/* LANDING */
+.landing-bg {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 60px 20px 20px;
+  background: linear-gradient(180deg, #000 0%, #000510 100%);
+  display: flex;
+  flex-direction: column;
+}
+.landing-bg::-webkit-scrollbar { display: none; }
+.app-logo { text-align: center; margin-bottom: 36px; }
+.logo-glyph {
+  font-family: var(--font-display);
+  font-size: 52px;
+  font-weight: 900;
+  color: var(--accent);
+  text-shadow: 0 0 20px var(--accent-glow), 0 0 60px rgba(0,255,65,0.2);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  display: block;
+  margin-bottom: 10px;
+}
+.app-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--text-primary);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.app-tagline {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-top: 6px;
+  letter-spacing: 0.05em;
+}
+.section-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-muted);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-label::before { content: '>_'; }
+.city-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+.city-card {
+  background: var(--surface);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.city-card.selected { border-color: var(--accent); background: var(--accent-dim); }
+.city-card.selected .city-name { color: var(--accent); text-shadow: 0 0 8px var(--accent-glow); }
+.city-name { font-family: var(--font-display); font-size: 12px; font-weight: 700; color: var(--text-primary); margin-bottom: 2px; letter-spacing: 0.05em; }
+.city-sub { font-size: 10px; color: var(--text-secondary); }
+.mode-row { display: flex; gap: 6px; margin-bottom: 24px; }
+.mode-card {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--radius);
+  padding: 14px 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.mode-card.selected { border-color: var(--accent); background: var(--accent-dim); }
+.mode-icon { font-size: 20px; margin-bottom: 6px; }
+.mode-name { font-size: 10px; font-weight: 700; font-family: var(--font-display); color: var(--text-primary); letter-spacing: 0.05em; }
+.cta-btn {
+  width: 100%;
+  padding: 16px;
+  background: var(--accent);
+  border-radius: var(--radius);
+  border: none;
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px var(--accent-glow), 0 0 40px rgba(0,255,65,0.15);
+}
+
+/* COURSE */
+.course-header {
+  padding: 12px 18px 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-dim);
+}
+.course-title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--accent);
+  text-shadow: 0 0 12px var(--accent-glow);
+  letter-spacing: 0.05em;
+}
+.course-meta { font-size: 10px; color: var(--text-secondary); letter-spacing: 0.05em; }
+.header-actions { display: flex; gap: 6px; }
+.icon-btn {
+  width: 30px; height: 30px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+}
+.hole-list { padding: 10px 14px; display: flex; flex-direction: column; gap: 4px; }
+.hole-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border-dim);
+  border-left: 2px solid transparent;
+}
+.hole-row.current { border-left-color: var(--accent); background: var(--accent-dim); }
+.hole-num {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  min-width: 22px;
+  text-align: center;
+}
+.hole-row.current .hole-num { color: var(--accent); text-shadow: 0 0 8px var(--accent-glow); }
+.hole-info { flex: 1; min-width: 0; }
+.hole-pub { font-size: 13px; font-weight: 700; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: 0.02em; }
+.hole-addr { font-size: 10px; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hole-meta { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.par-badge { font-size: 10px; font-weight: 700; color: var(--text-secondary); background: var(--surface2); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius); padding: 2px 6px; font-family: var(--font-display); }
+.rule-badge { font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: var(--radius); }
+.rule-h { color: var(--rule-h); border: 1px solid rgba(255,140,0,0.3); background: rgba(255,140,0,0.08); }
+.rule-f { color: var(--rule-f); border: 1px solid rgba(204,68,255,0.3); background: rgba(204,68,255,0.08); }
+.rule-s { color: var(--rule-s); border: 1px solid rgba(255,68,170,0.3); background: rgba(255,68,170,0.08); }
+
+/* GAME */
+.game-inner {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.game-inner::-webkit-scrollbar { display: none; }
+.hole-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hole-nav-btn {
+  width: 36px; height: 36px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+}
+.hole-num-display { text-align: center; }
+.hole-big { font-family: var(--font-display); font-size: 10px; font-weight: 700; color: var(--text-secondary); letter-spacing: 0.2em; text-transform: uppercase; }
+.hole-counter {
+  font-family: var(--font-display);
+  font-size: 52px;
+  font-weight: 900;
+  color: var(--accent);
+  text-shadow: 0 0 30px var(--accent-glow), 0 0 60px rgba(0,255,65,0.15);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.hole-counter-sub { font-size: 10px; color: var(--text-secondary); letter-spacing: 0.1em; }
+.pub-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.pub-card-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  letter-spacing: 0.03em;
+}
+.pub-card-meta { font-size: 10px; color: var(--text-secondary); }
+.pub-par { display: inline-block; background: var(--accent-dim); border: 1px solid var(--border); color: var(--accent); font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: var(--radius); margin-top: 8px; font-family: var(--font-display); letter-spacing: 0.08em; }
+.players-section-title { font-size: 9px; font-weight: 700; color: var(--accent-muted); letter-spacing: 0.18em; text-transform: uppercase; }
+.player-rows { display: flex; flex-direction: column; gap: 6px; }
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+}
+.player-avatar {
+  width: 30px; height: 30px;
+  border-radius: var(--radius);
+  background: var(--accent-dim);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 900;
+  color: var(--accent);
+  flex-shrink: 0;
+  letter-spacing: 0.05em;
+}
+.player-name { font-size: 12px; font-weight: 700; color: var(--text-primary); flex: 1; letter-spacing: 0.05em; }
+.score-controls { display: flex; align-items: center; gap: 4px; }
+.score-btn {
+  width: 26px; height: 26px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--accent);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  line-height: 1;
+}
+.score-val {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--gold);
+  min-width: 22px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255,215,0,0.4);
+}
+.score-badge {
+  min-width: 54px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  padding: 3px 6px;
+  border-radius: var(--radius);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.badge-eagle { color: var(--score-eagle); border: 1px solid rgba(0,255,65,0.5); background: rgba(0,255,65,0.08); text-shadow: 0 0 6px rgba(0,255,65,0.5); }
+.badge-birdie { color: var(--score-birdie); border: 1px solid rgba(127,255,0,0.4); background: rgba(127,255,0,0.06); }
+.badge-par { color: var(--score-par); border: 1px solid rgba(136,136,136,0.3); background: rgba(136,136,136,0.06); }
+.badge-bogey { color: var(--score-bogey); border: 1px solid rgba(255,140,0,0.4); background: rgba(255,140,0,0.08); }
+.badge-double { color: var(--score-double); border: 1px solid rgba(255,34,34,0.4); background: rgba(255,34,34,0.08); }
+.total-score { font-size: 11px; color: var(--text-secondary); min-width: 26px; text-align: right; font-family: var(--font-display); }
+</style>
+</head>
+<body>
+<div class="design-header">
+  <div class="design-badge">Design 2</div>
+  <div class="design-title">"NEON FAIRWAY"</div>
+  <div class="design-sub">Cyberpunk HUD · Orbitron · JetBrains Mono</div>
+</div>
+<div class="screen-tabs">
+  <button class="screen-tab active" onclick="showScreen('landing',this)">Landing</button>
+  <button class="screen-tab" onclick="showScreen('course',this)">Course</button>
+  <button class="screen-tab" onclick="showScreen('game',this)">Game</button>
+</div>
+<div class="phone-wrap">
+  <div class="phone-outer">
+    <div class="phone-notch"></div>
+    <div class="phone-screen">
+
+      <!-- LANDING -->
+      <div class="screen active" id="screen-landing">
+        <div class="landing-bg">
+          <div class="app-logo">
+            <span class="logo-glyph">PG</span>
+            <div class="app-name">Pub Golf Munich</div>
+            <div class="app-tagline">// track your crawl // score your night</div>
+          </div>
+          <div class="section-label">SELECT CITY</div>
+          <div class="city-grid">
+            <div class="city-card selected"><div class="city-name">MÜNCHEN</div><div class="city-sub">9 courses</div></div>
+            <div class="city-card"><div class="city-name">BERLIN</div><div class="city-sub">6 courses</div></div>
+            <div class="city-card"><div class="city-name">HAMBURG</div><div class="city-sub">4 courses</div></div>
+            <div class="city-card"><div class="city-name">FRANKFURT</div><div class="city-sub">3 courses</div></div>
+          </div>
+          <div class="section-label">GAME MODE</div>
+          <div class="mode-row">
+            <div class="mode-card selected"><div class="mode-icon">🍺</div><div class="mode-name">BIER</div></div>
+            <div class="mode-card"><div class="mode-icon">🌳</div><div class="mode-name">GARTEN</div></div>
+            <div class="mode-card"><div class="mode-icon">🎯</div><div class="mode-name">CUSTOM</div></div>
+          </div>
+          <button class="cta-btn">INIT GAME</button>
+        </div>
+      </div>
+
+      <!-- COURSE -->
+      <div class="screen" id="screen-course">
+        <div class="status-bar">
+          <span>21:34</span>
+          <div class="status-right">
+            <svg width="14" height="10" viewBox="0 0 16 12" fill="currentColor"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4" y="2" width="3" height="10" rx="1"/><rect x="8" y="0" width="3" height="12" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1" opacity="0.4"/></svg>
+            <span style="font-size:10px;letter-spacing:0.1em">88%</span>
+          </div>
+        </div>
+        <div class="course-header">
+          <div><div class="course-title">MÜNCHEN BIERGOLF</div><div class="course-meta">9 holes · 4 players loaded</div></div>
+          <div class="header-actions">
+            <div class="icon-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h.01M14 17h.01M17 14h.01M17 17h.01M20 14h.01M20 17h.01M20 20h.01M17 20h.01M14 20h.01"/></svg></div>
+            <div class="icon-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg></div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="hole-list">
+            <div class="hole-row"><div class="hole-num">01</div><div class="hole-info"><div class="hole-pub">Augustiner am Dom</div><div class="hole-addr">Neuhauser Str. 27</div></div><div class="hole-meta"><span class="par-badge">P:2</span></div></div>
+            <div class="hole-row"><div class="hole-num">02</div><div class="hole-info"><div class="hole-pub">Hofbräuhaus</div><div class="hole-addr">Am Platzl 9</div></div><div class="hole-meta"><span class="par-badge">P:3</span><span class="rule-badge rule-h">HCAP</span></div></div>
+            <div class="hole-row current"><div class="hole-num">03</div><div class="hole-info"><div class="hole-pub">Löwenbräukeller</div><div class="hole-addr">Stiglmaierplatz 2</div></div><div class="hole-meta"><span class="par-badge">P:2</span></div></div>
+            <div class="hole-row"><div class="hole-num">04</div><div class="hole-info"><div class="hole-pub">Schneider Weisse</div><div class="hole-addr">Tal 7</div></div><div class="hole-meta"><span class="par-badge">P:2</span></div></div>
+            <div class="hole-row"><div class="hole-num">05</div><div class="hole-info"><div class="hole-pub">Tegernseer Tal</div><div class="hole-addr">Tal 28</div></div><div class="hole-meta"><span class="par-badge">P:3</span></div></div>
+            <div class="hole-row"><div class="hole-num">06</div><div class="hole-info"><div class="hole-pub">Park Café</div><div class="hole-addr">Sophienstr. 7</div></div><div class="hole-meta"><span class="par-badge">P:2</span><span class="rule-badge rule-f">FUN</span></div></div>
+            <div class="hole-row"><div class="hole-num">07</div><div class="hole-info"><div class="hole-pub">Schmalznudel</div><div class="hole-addr">Prälat-Zistl-Str. 8</div></div><div class="hole-meta"><span class="par-badge">P:2</span></div></div>
+            <div class="hole-row"><div class="hole-num">08</div><div class="hole-info"><div class="hole-pub">Hirschgarten</div><div class="hole-addr">Hirschgartenallee 1</div></div><div class="hole-meta"><span class="par-badge">P:3</span></div></div>
+            <div class="hole-row"><div class="hole-num">09</div><div class="hole-info"><div class="hole-pub">Zum Franziskaner</div><div class="hole-addr">Residenzstr. 9</div></div><div class="hole-meta"><span class="par-badge">P:2</span><span class="rule-badge rule-s">SPCL</span></div></div>
+          </div>
+        </div>
+        <div class="bottom-nav">
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span class="nav-label">PLR</span></div>
+          <div class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg><span class="nav-label">CRS</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg><span class="nav-label">GAME</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6"/></svg><span class="nav-label">MAP</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span class="nav-label">SCR</span></div>
+        </div>
+      </div>
+
+      <!-- GAME -->
+      <div class="screen" id="screen-game">
+        <div class="status-bar">
+          <span>21:34</span>
+          <div class="status-right"><span style="font-size:10px;letter-spacing:0.1em">88%</span></div>
+        </div>
+        <div class="game-inner">
+          <div class="hole-nav">
+            <div class="hole-nav-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></div>
+            <div class="hole-num-display">
+              <div class="hole-big">HOLE</div>
+              <div class="hole-counter">03</div>
+              <div class="hole-counter-sub">OF 09</div>
+            </div>
+            <div class="hole-nav-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+          <div class="pub-card">
+            <div class="pub-card-name">Löwenbräukeller</div>
+            <div class="pub-card-meta">Stiglmaierplatz 2 // München</div>
+            <div class="pub-par">PAR: 2</div>
+          </div>
+          <div class="players-section-title">SCORES — HOLE 03</div>
+          <div class="player-rows">
+            <div class="player-row">
+              <div class="player-avatar">MX</div>
+              <div class="player-name">MAX</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">1</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-birdie">BIRDIE</div>
+              <div class="total-score">−2</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">SR</div>
+              <div class="player-name">SARAH</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">2</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-par">PAR</div>
+              <div class="total-score">E</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">TM</div>
+              <div class="player-name">TOM</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">3</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-bogey">BOGEY</div>
+              <div class="total-score">+2</div>
+            </div>
+            <div class="player-row">
+              <div class="player-avatar">JL</div>
+              <div class="player-name">JULIA</div>
+              <div class="score-controls">
+                <button class="score-btn" onclick="adj(this,-1)">−</button>
+                <span class="score-val">1</span>
+                <button class="score-btn" onclick="adj(this,1)">+</button>
+              </div>
+              <div class="score-badge badge-birdie">BIRDIE</div>
+              <div class="total-score">−1</div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-nav">
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg><span class="nav-label">PLR</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg><span class="nav-label">CRS</span></div>
+          <div class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg><span class="nav-label">GAME</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6"/></svg><span class="nav-label">MAP</span></div>
+          <div class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span class="nav-label">SCR</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script type="module">
+import { prepare, layout } from './pretext.js';
+const PAR = 2;
+function scoreName(d) {
+  if (d <= -2) return ['EAGLE','badge-eagle'];
+  if (d === -1) return ['BIRDIE','badge-birdie'];
+  if (d === 0) return ['PAR','badge-par'];
+  if (d === 1) return ['BOGEY','badge-bogey'];
+  return ['DBL+','badge-double'];
+}
+window.adj = function(btn, delta) {
+  const row = btn.closest('.player-row');
+  const valEl = row.querySelector('.score-val');
+  const badgeEl = row.querySelector('.score-badge');
+  let v = parseInt(valEl.textContent) + delta;
+  if (v < 1) v = 1;
+  valEl.textContent = v;
+  const [name, cls] = scoreName(v - PAR);
+  badgeEl.textContent = name;
+  badgeEl.className = 'score-badge ' + cls;
+};
+await document.fonts.ready;
+for (const el of document.querySelectorAll('[data-pretext]')) {
+  const h = prepare(el.textContent, getComputedStyle(el).font);
+  layout(h, el.clientWidth || 220, 20);
+}
+</script>
+<script>
+function showScreen(id, btn) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.screen-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
