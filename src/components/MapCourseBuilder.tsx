@@ -315,7 +315,7 @@ export default function MapCourseBuilder({ map, city, active, onToggle }: Props)
       holes[turnIdx].flags = ['turn'];
     }
 
-    if (!mode) setMode('biergolf' as any);
+    if (!mode) setMode('biergolf');
     setCustomHoles(holes, 'builder');
     onToggle();
     clearMapElements();

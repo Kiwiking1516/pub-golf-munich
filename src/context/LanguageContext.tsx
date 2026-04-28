@@ -9,7 +9,7 @@ function loadLang(): Language {
   try {
     const saved = localStorage.getItem(LANG_KEY);
     if (saved === 'en' || saved === 'de') return saved;
-  } catch {}
+  } catch { /* ignore storage errors */ }
   return 'de';
 }
 

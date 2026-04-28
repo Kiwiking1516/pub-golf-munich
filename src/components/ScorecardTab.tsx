@@ -20,7 +20,7 @@ function KolschRanking() {
         if (parsed.votes) setVotes(parsed.votes);
         if (parsed.submitted) setSubmitted(parsed.submitted);
       }
-    } catch {}
+    } catch { /* ignore storage errors */ }
   }, []);
 
   if (city !== 'köln' || mode !== 'biergarten') return null;

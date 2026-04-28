@@ -1,12 +1,12 @@
 import { PubLocation } from '@/types/game';
-// @ts-ignore – raw JS database
+// @ts-expect-error – raw JS database has no type declarations
 import { BAR_DATABASE as RAW_BARS } from './bar-database-raw.js';
 
 /**
  * Convert raw bar entries to PubLocation format.
  * The raw DB uses `par` instead of `suggestedPar`.
  */
-function convertBar(raw: any): PubLocation {
+function convertBar(raw: Record<string, unknown>): PubLocation {
   return {
     id: raw.id,
     city: raw.city.charAt(0).toUpperCase() + raw.city.slice(1), // capitalize
@@ -23,7 +23,7 @@ function convertBar(raw: any): PubLocation {
 }
 
 /** Full pub database – 250 bars across 5 cities */
-export const PUB_DATABASE: PubLocation[] = (RAW_BARS as any[]).map(convertBar);
+export const PUB_DATABASE: PubLocation[] = (RAW_BARS as Record<string, unknown>[]).map(convertBar);
 
 /** Haversine distance in km */
 export function distanceKm(lat1: number, lng1: number, lat2: number, lng2: number): number {

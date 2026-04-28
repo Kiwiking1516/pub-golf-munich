@@ -26,7 +26,7 @@ export function decodeCourse(encoded: string): { city: CityId; mode: GameMode; h
     const json = decodeURIComponent(escape(atob(encoded)));
     const p = JSON.parse(json);
     if (p.v !== 1) return null;
-    const holes: Hole[] = p.h.map((h: any, i: number) => ({
+    const holes: Hole[] = p.h.map((h: Record<string, unknown>, i: number) => ({
       name: Array.isArray(h) ? h[0] : h.n,
       drink: Array.isArray(h) ? h[1] : h.d,
       par: Array.isArray(h) ? h[2] : h.p,

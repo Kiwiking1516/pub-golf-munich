@@ -29,7 +29,7 @@ function loadState(): GameState {
       }
       return parsed;
     }
-  } catch {}
+  } catch { /* ignore storage errors */ }
   return {
     region: null,
     city: null,

@@ -22,13 +22,13 @@ export default function ResponsibilityGate({ children }: ResponsibilityGateProps
   useEffect(() => {
     try {
       if (localStorage.getItem(STORAGE_KEY) === 'true') setAccepted(true);
-    } catch {}
+    } catch { /* ignore storage errors in private browsing */ }
   }, []);
 
   const handleAccept = () => {
     try {
       localStorage.setItem(STORAGE_KEY, 'true');
-    } catch {}
+    } catch { /* ignore storage errors in private browsing */ }
     setAccepted(true);
   };
 

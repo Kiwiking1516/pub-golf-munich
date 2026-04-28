@@ -111,7 +111,7 @@ export default function MapTab() {
   const hasCoords = holeCoords.some(c => c !== null);
 
   useEffect(() => {
-    (window as any).__pubgolfNav = (lat: number, lng: number, label: string) => {
+    (window as Window & { __pubgolfNav?: (lat: number, lng: number, label: string) => void }).__pubgolfNav = (lat: number, lng: number, label: string) => {
       const pref = getMapPref();
       if (pref) {
         navigateTo(pref, lat, lng, label);
@@ -119,7 +119,7 @@ export default function MapTab() {
         setNavTarget({ lat, lng, label });
       }
     };
-    return () => { delete (window as any).__pubgolfNav; };
+    return () => { delete (window as Window & { __pubgolfNav?: unknown }).__pubgolfNav; };
   }, []);
 
   useEffect(() => {
