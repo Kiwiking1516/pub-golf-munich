@@ -34,7 +34,7 @@ export default function PlayerTab() {
     : '🍺 Pub Golf';
   const modeDesc = isGreenMode && city
     ? neutralizeDrinkLabel(t(`course2.${city}.drink`), alcoholFreeMode, lang)
-    : t('mode.mix');
+    : neutralizeDrinkLabel(t('mode.mix'), alcoholFreeMode, lang);
 
   return (
     <div className="flex flex-col h-full p-4">

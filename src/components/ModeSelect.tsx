@@ -25,6 +25,7 @@ export default function ModeSelect() {
   const scName = t(`course2.${city}.name`);
   const scTagline = t(`course2.${city}.tagline`);
   const scDrink = neutralizeDrinkLabel(t(`course2.${city}.drink`), alcoholFreeMode, lang);
+  const bgDrink = neutralizeDrinkLabel(t('mode.mix'), alcoholFreeMode, lang);
   const scWarningKey = `course2.${city}.warning`;
   const scWarning = t(scWarningKey) !== scWarningKey ? t(scWarningKey) : undefined;
   const scTipKey = `course2.${city}.tip`;
@@ -66,7 +67,7 @@ export default function ModeSelect() {
           <div className="flex items-center gap-4 text-muted-foreground text-xs">
             <span>Par {bgInfo.par}</span>
             <span>•</span>
-            <span>{t('mode.mix')}</span>
+            <span>{bgDrink}</span>
           </div>
         </button>
 

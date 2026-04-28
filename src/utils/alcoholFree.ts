@@ -3,7 +3,7 @@ import type { Language } from '@/context/LanguageContext';
 // Tokens that indicate an alcoholic drink reference.
 // Matched as whole words, case-insensitive. Also matches German compound forms (e.g. "Bier" inside "Apfelwein"-style is rare; we keep tokens strict).
 const DRINK_TOKENS = [
-  'beer', 'pint', 'maß', 'mass', 'stange', 'geripptes', 'astra', 'bier',
+  'beer', 'beers', 'pint', 'maß', 'mass', 'stange', 'geripptes', 'astra', 'bier', 'bieren',
   'kölsch', 'kolsch', 'lager', 'ale', 'guinness', 'craft', 'apfelwein',
   'äbbelwoi', 'ebbelwoi', 'apple wine', 'newcastle brown',
 ];
