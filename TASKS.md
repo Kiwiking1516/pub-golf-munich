@@ -2,7 +2,7 @@
 
 > **⚠️ Working Copy Convention** — `/Users/richardfriedrich/Projects/pub-golf-munich/` is the **only** working copy. Do **not** edit the iCloud copy at `~/Library/Mobile Documents/iCloud~md~obsidian/.../Pub Golf App/pub-golf-munich/` — it has been retired (deleted 2026-04-28) to prevent iCloud sync conflicts. The PRD at `~/Library/Mobile Documents/.../Pub Golf App/PRD-pub-golf.md` stays in Obsidian intentionally (second brain), but no code lives in iCloud anymore. Always start sessions with `cd ~/Projects/pub-golf-munich`.
 
-**Last Updated:** 2026-04-28 (Lovable detached, design exploration started, iCloud copy retired)
+**Last Updated:** 2026-04-28 (glassmorphism reverted, app icon landed, wiring up v1 polish)
 **Stage:** building (v1 functionally complete; design polish + paywall activation pending)
 **Repo:** `/Users/richardfriedrich/Projects/pub-golf-munich/` → `https://github.com/Kiwiking1516/Pub-Golf.git`
 **PRD:** `/Users/richardfriedrich/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Claude/Projects/Pub Golf App/PRD-pub-golf.md`
@@ -31,22 +31,26 @@ The PRD targets 3 release phases: v1 (course builder + scorecard + leaderboard) 
 - [x] Bar database: ~5000 OSM-scraped bars across UK + DE/IE in `scripts/cities/*.json`
 - [x] **2026-04-28** — Detached from Lovable: removed `lovable-tagger` dep + `componentTagger` plugin from `vite.config.ts`. Commit `83a63e4` pushed.
 - [x] **2026-04-28** — Migrated canonical working copy out of iCloud to `~/Projects/pub-golf-munich/`. Bundle backup at `~/pub-golf-icloud-backup-20260428.bundle`.
+- [x] **2026-04-28** — Green Jacket design applied and committed (`304a507`): Inter font, refined CSS tokens, `designs/` artifacts + `TASKS.md` added to repo.
+- [x] **2026-04-28** — Glassmorphism reverted (v1 ships flat solid cards).
+- [x] **2026-04-28** — `NSLocationWhenInUseUsageDescription` added to `ios/App/App/Info.plist`.
+- [x] **2026-04-28** — Lovable disconnected on platform side (lovable.dev project settings).
 
 ## In Progress
 
-- [ ] **Design exploration** — 5 design variants generated in `designs/` (HTML mockups), token tweaks in `index.html` / `src/index.css` / `tailwind.config.ts` (uncommitted). Decision needed: pick a direction, then port the chosen tokens into the live app and discard the mockups.
+- [ ] **v1 polish run** — app icon → OG image → bundle size → lint cleanup
 
 ## Next Up (top 3)
 
-- [ ] **Pick a design direction** from the 5 mockups in `designs/` and apply it to the live app. Then commit (or discard) the in-progress edits to `index.html` / `index.css` / `tailwind.config.ts`.
-- [ ] **First TestFlight build**: `bun run build && bunx cap sync ios && bunx cap open ios` → archive in Xcode → upload to TestFlight. This validates the iOS wrapper end-to-end before any paywall activation.
-- [ ] **Disconnect Lovable on the platform side** (manual, in lovable.dev project settings) so Lovable cannot push further commits to the GitHub repo.
+- [ ] **App icon into Xcode** — wire `AppIcon-1024.png` into `ios/.../Assets.xcassets/AppIcon.appiconset/`
+- [ ] **OG image** — copy icon to `public/og-image.png`, add `<meta property="og:image">` to `index.html`
+- [ ] **Bundle size** — `manualChunks` split for Leaflet + Recharts (3.6 MB → target <1 MB main chunk)
 
 ## Backlog — Roadmap-aligned
 
 ### v1 polish (pre-launch)
-- [ ] Resolve uncommitted design-token edits (commit or revert)
-- [ ] Add OG image at `public/og-image.png` (currently referenced in `index.html`)
+- [ ] **First TestFlight build** — blocked on Apple Developer account activation. `bun run build && bunx cap sync ios` already done; just needs Xcode archive + upload when account is active.
+- [ ] Add OG image at `public/og-image.png` — use `AppIcon-1024.png` as source
 - [ ] Lint cleanup: 15 pre-existing errors in `pubs.ts`, `tailwind.config.ts`, `bar-database-raw.js`, `GameContext.tsx`, `LanguageContext.tsx`, shadcn UI files
 - [ ] Bundle size: main JS chunk is 3.6 MB (621 kB gzipped) — consider `manualChunks` split for Leaflet + Recharts
 
