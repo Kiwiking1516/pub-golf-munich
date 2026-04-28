@@ -87,6 +87,7 @@ Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Richard Friedrich, Anschr
     'mode.holes': 'LÖCHER',
     'mode.bars': 'Bars & Wirtshäuser',
     'mode.mix': 'Mix aus Bieren & Drinks',
+    'mode.mix.af': 'Mix aus Drinks & Mocktails',
     'mode.footer': 'Prost! 🍻',
     // Second course info
     'course2.münchen.name': 'Biergärten',
@@ -449,6 +450,7 @@ Responsible for content according to § 55 Abs. 2 RStV: Richard Friedrich, addre
     'mode.holes': 'HOLES',
     'mode.bars': 'Bars & pubs',
     'mode.mix': 'Mix of beers & drinks',
+    'mode.mix.af': 'Mix of Drinks & Mocktails',
     'mode.footer': 'Cheers! 🍻',
     // Second course info
     'course2.münchen.name': 'Beer Gardens',
